@@ -1,0 +1,107 @@
+\section{Equivalence Relations}
+
+There's one more topic I would like to talk about, and that's equivalence relations. I try to be very quick about this because I assume that in one form or the other you saw this before. I just want to demonstrate how to get this from the basic axioms and that everything is fine. And well, equivalence relations provide a heavily used way to look at a set but to give it structure in a certain way---in which way? By identifying certain elements in a set. Okay, not in any way, but in a way that we will call an equivalence relation.
+
+Actually, much of our thinking is in equivalence relations. So if I come into this classroom---or say somebody else comes into this classroom---they might think of you as one entity and of me as another entity: there's the class and there's the teacher of the class. Okay, great. But then the thinking might change and they might want to look at all of us of the same gender---classify according to gender---and say: okay, there are this many men, there are this many women. And our thinking flips back and forth between regrouping things that are there and looking at sets in a coarser way. Therefore, in order to group a set entirely---so that really no one is left out and that there are no intersections between the groups---one employs very cleverly equivalence relations.
+
+So the definition is simple.
+
+\textbf{Definition.} Let $M$ be a set and $\sim$ a relation such that:
+\begin{enumerate}
+\item \emph{Reflexivity}: for all $m \in M$, it is true that $m \sim m$.
+
+(You remember our convention that this means ${\sim}(m, m)$ is true, but if we have a relation we very often put the relation symbol in between the two arguments because this saves effort.)
+
+\item \emph{Symmetry}: if $m, n \in M$ and $m \sim n$, then $n \sim m$.
+
+\item \emph{Transitivity}: for all $m, n, p \in M$, if $m \sim n$ is true and additionally $n \sim p$ is true, then it follows that $m \sim p$.
+\end{enumerate}
+Then $\sim$ is called an \emph{equivalence relation} on $M$.
+
+Now, some examples are in order.
+
+\textbf{(a)} Define $p \sim q$ to mean that $p$ is of the same opinion as $q$ (let's think of them as mentally sound human beings). Then it's clear this is reflexive---you are of your own opinion. It's also symmetric: if I agree with someone, then that person agrees with me. And it's also transitive. So if you wish, this is the basis for democracy. Okay, here it is an equivalence relation.
+
+\textbf{(b)} Define $p \sim q$ as ``$p$ is the sibling of $q$.'' Sounds good, but it already fails to be reflexive, because you're not your own sibling. Not reflexive. So this is not an equivalence relation. It would be symmetric, though.
+
+\textbf{(c)} Define $p \sim q$ as ``$p$ is taller than $q$.'' This would be perfectly transitive, but it's not reflexive (you could make it reflexive if you say ``taller or equally tall,'' then okay), but certainly it's not symmetric generically. So this is certainly not symmetric and therefore fails to be an equivalence relation.
+
+\textbf{(d)} My favorite: $p \sim q$ is ``$p$ is in love with $q$.'' This is not reflexive on occasion---there are people who don't like themselves very much. It's certainly not normally symmetric---that's the basis of much drama in literature. And it's not transitive---maybe only in French art cinema it's transitive. All right, so only the first one is really an equivalence relation.
+
+And you see, it's very easy to check whether something is an equivalence relation. And if it is, there are important constructions one can make, and these constructions have interesting properties. That is why you want to check.
+
+\textbf{Definition.} If $\sim$ is an equivalence relation on the set $M$, then for any element $m \in M$ we define the set
+\[
+[m] := \{ n \in M \mid m \sim n \}.
+\]
+This set is called the \emph{equivalence class} of the element $m$.
+
+Now for these equivalence classes there are two key properties.
+
+\textbf{Property 1.} If you take an element $a$ from such an equivalence class---an equivalence class is a set, it's obviously a subset of the entire set $M$---then it already follows that the equivalence class of this element you took from the subset is already the same equivalence class: $[a] = [m]$. Or in other words, one says that any element of the equivalence class can act as a \emph{representative} of the equivalence class. If you start with an element, you build this set. But if you already have this set, you can take an element out of it and you can generate the set in the same way from that element.
+
+\textbf{Property 2.} One of two things holds: either two equivalence classes (for two different elements) are the same, or if they're not the same then they have no element in common---that means $[m] \cap [n] = \emptyset$---and there's no other possibility.
+
+A proof is very simple, and you should do it.
+
+Now the intuition about this is the following. Assume you have the set $M$ and you have elements of different shapes. You may define an equivalence relation by saying ``have the same shape.'' The elements need to be distinguished---carpet one, carpet two, carpet three, star one, star two, star three, star four, circle one, circle two, circle three, circle four---so they're really different elements, but the index doesn't matter if we consider their shape. What are the equivalence classes? Well, one equivalence class is the set of all circles---we could call it the equivalence class represented by circle one, but obviously it is also the equivalence class of circle two, and so on. The next equivalence class is the set of all stars. And the third equivalence class is the set of all carpets. And those are all.
+
+Having the same shape is reflexive---everything has the same shape as itself---it's symmetric, and it's also transitive. And indeed you see: this is an equivalence relation. And if we build these equivalence classes, you see every element gets covered. And if you now put on your glasses that are so coarse that they make you not see so clearly---they make you see this blurred, so that from far, far away---you only see it as if the set $M$ contained three elements, these equivalence classes. Well, that's no longer the set $M$, because the set $M$ was what was there before. This is then the \emph{quotient set}.
+
+\textbf{Definition.} Let $\sim$ be an equivalence relation on $M$. Then we define the so-called \emph{quotient set}
+\[
+M / {\sim} \;:=\; \{ [m] \mid m \in M \}.
+\]
+It looks very dangerous, but it's very simple: it's the set whose elements are the equivalence classes.
+
+Why can I do this? Where do these $[m]$'s lie? So this looks like unrestricted comprehension, right? We need to convince ourselves we can actually build this set. The equivalence classes are subsets of $M$. So in which set do all the subsets lie? The power set! Exactly: $[m]$ is an element of the power set of $M$. Aha, it's restricted comprehension. But then we need to know that the power set of a set is a set---ah, we know this by the power set axiom. Everything is fine. So you see, in principle you always have to check that you can actually construct what you're constructing. It's hereby restricted comprehension.
+
+\textbf{Remark.} Due to the axiom of choice, there exists a \emph{complete system of representatives} for the equivalence classes. That is, a set $R$ such that there is a bijection between the elements of $R$ and the quotient set $M / {\sim}$. Namely, you pick from each class one element and put it into the set $R$. And then obviously you represent every single class. How do you pick? Which element do you pick from which equivalence class? Don't know---that's dark. But the guarantee by the axiom of choice is: there exists a complete system of such representatives. And that's of course very useful.
+
+\textbf{Remark.} Care must be taken when defining maps whose domain is a quotient set, if in this case one uses representatives to define the map.
+
+What do I mean by this mysterious remark?
+
+\textbf{Example.} Take as the set $M$ the integer numbers $\mathbb{Z}$. And define two integer numbers $m$ and $n$ to be equivalent if and only if $m - n$ is an even number. Now, is this reflexive? Yes, because $m - m = 0$, and zero is an even number. Good. Is it symmetric? $m - n \in 2\mathbb{Z}$---what about $n - m$? Well, it's also then in $2\mathbb{Z}$, because just the sign changes. And the transitivity is also given. So this is an equivalence relation. Good.
+
+And if it's an equivalence relation, we can ask ourselves: what is the equivalence class of zero? The equivalence class of zero is of course $\{0, 2, 4, \ldots, -2, -4, \ldots\}$. And the equivalence class of one is $\{1, 3, 5, \ldots, -1, -3, \ldots\}$. So we get the quotient set
+\[
+\mathbb{Z} / {\sim} \;=\; \{ [0],\, [1] \}.
+\]
+It consists of just two different elements. The others are also all in there, but they coincide with $[0]$ or $[1]$. So as a set it's just the zeros and the ones. Okay, that's this quotient set.
+
+Now I could get the idea to \emph{inherit} addition from $\mathbb{Z}$. On $\mathbb{Z}$ we have an addition, which we just assume is given at this point---it's the addition you know. It takes two integer numbers and maps them to an integer number. And this Cartesian product between two sets---the Cartesian product---is actually the set of all ordered pairs of integer numbers. And what is an ordered pair? Well, that's defined on problem sheet one, problem five, sub-problem (b). The Cartesian product is defined only on the basis of our axioms of set theory. But you of course have an intuitive notion at this point.
+
+So we have an addition $+$ and we wish to inherit an addition $\oplus$ on the quotient set:
+\[
+\oplus : (\mathbb{Z}/{\sim}) \times (\mathbb{Z}/{\sim}) \to \mathbb{Z}/{\sim}.
+\]
+Our tentative definition: take an equivalence class $[a]$, take another element $[b]$, and define
+\[
+[a] \oplus [b] := [a + b].
+\]
+You see, on the right-hand side, before I put the brackets, I took this representative $a$ and the other representative $b$ and I used the addition in $\mathbb{Z}$. So the $+$ without the circle is the addition up here, and obviously it can only act on the representatives, because the representatives of this equivalence relation lie in $\mathbb{Z}$. I pick the representatives, I add them, and after this addition has been completed, only then I take the equivalence class. That's the prescription.
+
+But this certainly satisfies the conditions of our remark: we actually define a map whose domain is a quotient set---here it's even the Cartesian product of twice the same quotient set---and one uses the representatives to define the map. Now you say, this is my definition and that's it. Well, there is an issue with that.
+
+Care needs to be taken precisely because this could be \emph{inconsistent}---the technical term in these circumstances is \emph{ill defined} instead of being well defined.
+
+Imagine the following: you take a different representative $a'$ for the same class (so $[a'] = [a]$), and you take a different representative $b'$ such that $[b'] = [b]$. Then if this addition acts on the quotient set, it should yield the same result, because you use the same classes---you just chose to represent them differently. Now, depending on what you write on the right-hand side---how you use the representatives---it could be that using different representatives and then taking the equivalence class leads to a different result. In that case, it's easy to construct such bad examples. But I think this one is okay---but you need to check.
+
+\textbf{Check:} whether the choice of representatives matters. How do we check this? Let $a'$ and $b'$ be such that $[a'] = [a]$ and $[b'] = [b]$. Then certainly we hope to prove that
+\[
+[a'] \oplus [b'] = [a] \oplus [b].
+\]
+Let's see what this means. If $a'$ represents the same class as $a$, that means $a'$ lies in this class (because of Property 1). Then $a - a' \in 2\mathbb{Z}$, and similarly $b - b' \in 2\mathbb{Z}$.
+
+Now we can use this: there exists an $m \in \mathbb{Z}$ such that $a - a' = 2m$, and there exists an $n \in \mathbb{Z}$ such that $b - b' = 2n$. We use the definition of $\oplus$:
+\[
+[a' + b'] = [(a - 2m) + (b - 2n)] = [a + b - 2(m + n)].
+\]
+But $a + b - 2(m+n)$ is certainly the same class as $a + b$, because this and that only differ by an even integer. So by definition they are the same class. But this, using the definition of $\oplus$ backwards, is $[a] \oplus [b]$.
+
+And indeed, for arbitrary other representatives, I showed it's \emph{well defined}.
+
+So you only need to take care if for the definition you use representatives. If you manage to write down the definition of an operation on a quotient set without using representatives, no care has to be taken---it's just a normal definition. If you use representatives, you need to do this check.
+
+And this happens in various shapes, forms, and fashions throughout many constructions in mathematics, and in fact throughout many constructions we're going to discuss in this course.

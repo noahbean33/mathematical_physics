@@ -1,0 +1,267 @@
+00:00:08
+so good morning and welcome back so today we'll come to the last section of the present chapter and actually there will be the end of the last purely mathematical chapter and then from next Tuesday onwards we'll look at physics applications in various fields and so today we consider curvature and torsion so that's five point seven so in um in differential geometry if you look at covariant derivatives on the tangent bundle or in the frame bundle curvature and torsion are usually mentioned
+
+00:00:51
+together as properties of a covariant derivative and so there might be the impression that I might get the impression that the curvature which we defined quite generally on the principal bundle that there will also be a torsion which is quite generally defined on the principal bundle on a principal bundle if there is a connection one form defined but that is absolutely not the case so um a torsion requires additional structure beyond the structure you have on the principal bunny that's equipped
+
+00:01:27
+with the connection now in the context where coverage on torsion I usually mentioned together so that's the covariant derivative of n for an affine covariant derivative they are the frame bundle which is the natural principal bundle in that setting carries a canonical structure which allows you to define torsion so sometimes it seems like there is no extra structure required but in more general cases it is so we'll so if I say curvature and torsion here I mean on a principle bundle and torsion with an extra
+
+00:02:05
+structure so the key technical definition we have here is that of a covariant exterior derivative definition if we start with a principle G bundle P over base space M with a group G acting from the right be a principle bundle and we consider also a pay form let Phi be a K from well a and arbitrarily values on a a flower valued k form and so this has to do with the remark I made last time that if we talk about the algebra valued K form or a vector space valued K from a or a whatever valued K form we should make
+
+00:03:15
+sure that the thing still deserves the name K form for all the operations we perform on it and so I make this explicit you let Phi be R whatever valued K form then this object capital D acting on Phi is again ignore is a k plus 1 form so it actually takes K vectors here on the principle bundle and it maps to well whatever it is it maps to the flower space and it's defined particularly simply as D Phi as a k plus 1 form it eats K vectors so X 1 vector fields in this case up to XK and this is
+
+00:04:11
+simply defined as the ordinary exterior derivative whose definition doesn't depend at all on where these what the space flower is and the connection aha I forgot the connection principal Bandar with a connection one form that's important with a connection well I just write connection but I mean connection one form Omega that lives on this principal bundle then I plug in all the X's here but only their horizontal parts so this is the horizontal part of x1 up to the horizontal part of X k plus one here
+
+00:04:59
+must say k plus 1 k plus 1 and that's it and of course you remember that in the definition of this horizontal projection the one form or the connection make their appearance alright so that is the covariant bit of the covariant derivative so then this guy that this Phi this map is called the covariant exterior derivative so the covariant being the quote the qualifier covariant exterior derivative well of the K form Phi ok so this is an incredibly useful definition and of course for actual calculations we'll figure out how to
+
+00:06:04
+represent this horizontal projection by some more explicit expression now the key notion of curvature is defined as follows so again we have a principal bundle on which there sits a connection one form then the curvature of the connection so that's the property of the connection and if I say connection technically of course this is equivalent to having a connection one form so the curvature of the connection one form is the Li algebra valued the algebra valued to form that goes by the name capital Omega
+
+00:07:16
+well it eats to KO vectors to vectors on the principal bundles it's a to form on P now firmly on the principle bundle and it's Li algebra valued that means the Lee algebra of the group G that belongs to this principal G bundle here and it's simply defined as Omega is the exterior covariant derivative of connection one form you see the connection one throw one form is Li algebra valued so in this case flower is the lie algebra so this is also the algebra valued okay but I used to a flower not the lie algebra
+
+00:08:10
+because we will use this covariant exterior derivative also for objects that are not Li algebra valued okay so therefore this generality at that point now of course this is just the D Omega of hoar x1 or x2 but we wanted to make this more explicit so claim if you write down this Omega it can actually be so the horse can be replaced by writing the exterior derivative of the connection one form and then you have an extra term and this extra term is often written Omega wedge Omega but this is misleadingly simple one should probably
+
+00:09:03
+write a double wedge here and you'll see in a second why double wedge okay so what do I mean by this double wedge will I need to define this because you see this is Li algebra valued and this is Li algebra valued and if you think of the definition of the wedge and you have two one forms then the wedge should actually need zero that's right huh so that sounds very strange so it cannot be the normal wedge but then these are not function valued one forms so function valued Co vector fields or in other
+
+00:09:42
+words Co vector fields but the values are in the Li algebra and now we already start feeling okay and that doesn't commute the functions commute le algebra doesn't commute and so make a long story short it's a different type of wedge here because these guys are flour valued Li algebra valued and we declare this by providing two vector fields on P so these are both vector fields on the principle bundle and this is simply Omega of X Omega of Y what is omega X is a li algebra element that's a lie
+
+00:10:28
+algebra element and the only way I can marry them is to use the lie algebra bracket so that's the bracket that lives here on this Lee algebra that we use there from the differential geometrically bracket on the whole group by virtue of the left invariant vector fields right and so the whole thing is again Lee algebra valued as it should be once you plug in two vectors but before you plug them in it looks like this okay that's it okay but again in the literature very often it's just a
+
+00:11:08
+wedge and that easily leads to confusion okay because they're the the wedge doesn't easily extend to any flower space and if the flower space as in this case is the Lea algebra then we define it like this we later have opportunity to refine the wedge between le algebra valued one form to form and so on and a only vector space valued form how does that work well that kind of then it's the application of this in this but then the vector space must be a representation space for the LI algebra
+
+00:11:49
+so then we will have again another wedge which again in the literature is often written just as the wedge so we have to distinguish them and once we properly distinguish them we kind of course drop the explicit distinction but there is a distinction okay we have this distinct and it's probably worth proving this what's the question so far well maybe one remark I could make here namely if the Li algebra ism is a matrix group on the group is a matrix group and hence the algebra is represented by matrices
+
+00:12:40
+of the same size then we can of course write the lis are a valued character here by providing indices IJ because these are the indices of the lie algebra row and column okay and then this becomes just the exterior derivative of the IJ component of this Omega but remember the D has nothing to do with acting on these derivative on these indices because this early algebra this is every Omega IJ for fixed IJ is one form we're on the principle bundle not on the base based on the principle bundle and on this act the exterior
+
+00:13:26
+derivative so these are equations for every IJ and then this extra term back here this can be written explicitly even without providing the XY if we um yes if we use Omega I Kate wedge Omega K J so there is just there's just this sum here okay so this is only for matrix groups because a matrix groups of course this Leigh Brackett is given by the commutator so it's really first one and then the other and then the wedge also commutes the two so they are the wedge is justified and these are two one forms
+
+00:14:19
+for each combination it's some of these so maybe this also gives some clarity but this only works for matrix groups if you have a generally algebra where the code where the knee bracket is not the commutator in any sense because you don't have a natural multiplication between the tool which generally is the case then you have to write it this way okay there's already a a special case down here and then but now let's try to prove this this thing here so proof and in order to prove this we
+
+00:15:12
+know that Omega is a true form we can of course use the fact that Omega is multi is bilinear the C infinity light bilinear on P C infinity P bilinear and hence we did this trick before we can of course decompose any of the vectors that XY that appear in the slots of Omega into a vertical and a horizontal part and discuss the cases independently so we have three cases we have to first consider the case that both the vector X and the vector Y that we plug into the Omega so vectors on TP vector fields on
+
+00:15:58
+TP are vertical vector fields okay so if they're vertical then they exist the algebra elements a and B such that X is the induced vector field the vector field induced by a and Y is the vector field induced by B to horizontal vector to vertical vector fields and now we simply prove this claim by evaluating the left hand side at the right hand side separately so the left hand side of the equation is then if you plug in the vectors X Y well it's just X a xB and this is defined as by the definition of
+
+00:16:49
+Omega this is the covariant exterior derivative of the connection one form X a xB and and that is nothing but the exterior derivative of the connection one form or X a X B well now there they are vertical so the horizontal part of them is zero we know this okay but then the this is a true form let me I drop a value to form so it's bilinear if one of the entries is zero and here the AV two and the whole thing is zero so in this case of both vector fields being vertical the left hand side vanishes so we better find that the
+
+00:17:38
+right hand side vanishes as well so what's the right hand side plug in these vector fields we have the Omega of XA xB plus Omega wedge Omega so double wedge Omega of X a X P so what is this well remember the definition of the exterior derivative of a whatever valued one form that is X a X on Omega evaluated on the second entry minus the second entry acts on the one form evaluated on the first entry but that's not all for covariance we also need that there is a minus the Omega acts on the commutator of the tool
+
+00:18:39
+and here this is the lead the differential geometric commutator on the principal bundle and then there's this extra term plus Omega double wedge Omega but you see the double wedge was this guy up there it's the Lee algebra bracket is the differential geometrically and bracket but this is the lie algebra bracket of Omega X a comma Omega XP that's right huh okay good so how does this evaluate well what is the Omega of such a vertical vector field well it's just just yields the LI algebra element
+
+00:19:33
+P that produced it that's the property of Omega being a connection one form here it yields the a here we mentioned this this is the induced vector field maybe the one induced by X up a B with the lis bracket because this map is a silly algebra homomorphism this X of a sends the other per element to a li algebra element but the first le algebra comes from silly algebra of the group and the other one is the lie algebra of all the vector fields and so consists of this a the sent to X a is a li algebra
+
+00:20:29
+homomorphism and so it goes from the lie algebra of the group to the lie algebra of all vector fields gamma of T P now this is this map here I don't know how to well that's the map okay so that this is a li I drop a homomorphism this fact plays into here that were into this equal sign okay all right so how does that evaluate well the Omega of an x-up something is again simply that bracket and here of course again the Omega of the X up something is just the a and that's just the B and then we see in
+
+00:21:24
+total B is always the same B it doesn't change the XA acts on there this all vanishes vanishes vanishes this kills this and there's a zero okay so the left hand side is 0 and the right hand side is 0 in this case of both vector fields being vertical now what about the case be that the vector fields are both horizontal and then the KC will be that one is vertical and one is horizontal so now let's assume X Y a both horizontal vector fields and again we have the left hand side omega of x and y is the capital d
+
+00:22:27
+omega of x and y and and that is simply the little d omega of horizontal part of x horizontal part of why but of course this horizontal projection has no further effect because x and y already are horizontal in this case it's simply the standard exterior derivative now the right-hand side starts precisely like that it starts with the Omega of X comma Y and here we're not going to use the definition of the D Omega because we already have the term that we want we just have to check whether the
+
+00:23:14
+additional term vanishes so that's the Omega double which so this double wedge is supposed to remind you of the double bracket right so that's why I have to double wedge suppose the same type here of x and y ok and so what is this this is the Omega of X X plus so that's the Leigh Brackett of Omega of X and Omega of Y but now they're both horizontal and in that case we know the Omega acting on a horizontal axis field is of course zero and that's a bilinear bracket hence the entire bracket is zero and lead the
+
+00:24:02
+right-hand side is simply also the exterior derivative so case B is also under control and now we have the case see that one of the vector fields is horizontally the other one is vertical it doesn't matter which because on both sides we have anti-symmetric expressions so if we choose in each case the other one could be horizontal or vertical then we get the same result with a minus sign but on both sides so it's the same again okay so let's assume that without loss of generality and that I just argued
+
+00:24:46
+that it's without loss of generality assume that X say is horizontal and Y is vertical hence it can be written as the induced vector field XA with respect to some Lee algebra element a last time we evaluate the left hand side that's the Omega of the X and the y which is this here and this is the D Omega you know it's the little D Omega of the horizontal part of X and of the horizontal part of XA but the horizontal part of a vertical is vector field is zero that suffices to annihilate entire
+
+00:25:34
+to form here because of course by linear to the left hand side zero and now the right hand side is the Omega of X comma X B and yes I think in this case we can have to expand this and then there is a plus Omega wedge wedge Omega of X and X a a here okay okay so I think we have to again write down the whole thing yeah let's do that okay so it's X acting on omega on X a minus X a acting on omega on X minus Omega acting on the commutator yes the commutator of X with X a differential geometric commutator and plus the lie
+
+00:26:44
+algebra commutator of Omega of the horizontal vector field and Omega of the vertical vector field okay so the Omega acting on this one just yields the lie algebra element a on which X of course acts as a constant because the scape Wilson the algebra valued constant function okay so it's a nearly that goes out - so Omega of a horizontal vector field is of course zero also here now the crucial point is here you have a horizontal field together with a vertical field we'll have to think about
+
+00:27:34
+this so let's just keep this here X comma X a and then back here you have the Omega of a horizontal field and you know that that is zero so I just don't need to well let's write it out for completeness but it's clear that this guy goes this guy goes and this guy goes so this must go how could this go well it's a fact that the commutator of a horizontal vector field with a vertical vector field is again horizontal so this is again horizontal may put a little exercise like that on
+
+00:28:20
+the problem sheet and so it's annihilated by the Omega and so in total you get zero and the whole thing is proven okay can you see this is what I meant by the exterior covariant derivative is defined as the using this hor projection okay but if you really want to calculate with it the horror is difficult to calculate with well you can evaluate it by plugging in corresponding vector fields but it's better to have an expression like this and so the proof relates the truth good any questions so
+
+00:29:11
+again I emphasize as much as the connection one form is a one formally algebra valued one form on the principle bundle or the total space of the principal bundle as much as the curvature as we define it here a leader bra value to form on the total space of the principal bundle so probably the cases where you've heard of curvature so far in physics was always a to form or something of the type on the base manifold okay like the Riemann tensor so and we need to relate the notions that's what we're going to do now okay so we
+
+00:29:51
+would now like to UM relate this to objects on the base space so how do these definitions relate to objects on the base space so we have here our principle G bundle on which there sits a connection one form and now we have their sitting as well a curvature to form the algebra valued one form Li algebra valued to form both define up here and of course we do this as always we provide some section Sigma from the base space up there if they exist such a global section the bundle must be trivial hence we will generally restrict
+
+00:30:55
+attention to a local section over some subset u of the base space ok and one example for instances in the frame bundle you could choose down here a chart so together with this u you also choose a chart map and then the section would be just attaching to each point in the base manifold D by the chart by the coordinates induced frame at the point that would be a very natural choice for a section say in the frame bundle which is what you usually look at in differential geometry just to again remind you that there may be natural
+
+00:31:36
+choices for what section you choose but in fact you could choose any even if there's a natural choice that doesn't compel you to make the natural choice it's just it shows you how this would play out in practice so um we need to choosing we need to choose a section Sigma and then of course you remember what is the pullback of the connection one form under this section how did we call that guy the pullback of the connection one form locally is the freedom Tommy this young Milt field exactly and that
+
+00:32:27
+induces a young Milt field and maybe this yeah well we could call this gamma that would remind us of the of the differential geometry case or we could call it a that would remind us of the gauge theory case in particle physics but in any case and these are now the algebra valued one forms on so the algebra valued one forms but now on the base space okay well that was the whole point of the yang-mills field and of course I can do the same thing so these are defined as on the right hand side is the pullback of the curve of the
+
+00:33:21
+connection the connection one form but it also induces a new notion which I introduce now and that's a young Milt field strength so a field is something different than a field strength so strictly speaking in electro magnetism the electric field and the magnetic field together which is the Faraday tensor F is not the electromagnetic field it's the electromagnetic field strength and if anything is the electromagnetic field then it's that what's called the gauge potential in physics it's the a
+
+00:34:07
+the a is the field and the capital a in electronic system field and F is the field strength these are not synonymous right and the yang-mills fields strength is defined as the pull it back of you guess it it's the pull back of the curvature so under the same section we may of course also pull back this to form this Li algebra valued true form so that it lives down there and that's then the sky okay and that very often in differential geometry carries the name ream for Riemann and in gauge field theory wherever it very
+
+00:35:00
+often carries the name F like for instance in electrodynamics okay where do these guys live well they all live in the space of two forms on the base manifold but they're still the algebra valued if the lie algebra is a billion like for instance you won then you have an ability lien field strength okay or he ran a billion field but that's electrodynamics if this is a non abelian so non commutative the algebra then this is a non abelian this we would call a non abelian gauge field and so on okay
+
+00:35:48
+now in differential geometry the algebra we have here is GL if there's no further structure on the manifold we have GL dim M that's not a billion or they don't commute hence the Riemann curvature on the base manifold is analogous to the non abelian field strength in a non abelian gauge theories it's just exactly the same thing they're both this is just so this double this triple equals scientist means these are different names we choose in different areas of physics for exactly the same
+
+00:36:29
+thing namely the pullback of the connection one from as the young Milt field in the pullback of the curvature down to the base manifold these are the objects that appear in physics because in physics we like to talk locally because that is where we do our experiments where we did use our formulae and so on okay but if you think of this and then you're in a sense like to forget the principle bundle that sits over it but really the fully full structural idea you get up here you know that this guy transforms in an ugly way
+
+00:37:06
+right there's this extra term of the gamma if the gamma transforms or the extra term here right and the gauge transformations this guy transforms better okay this you also know you know ream we say is again a tensor whereas on the base manifold whereas this is a it's not a tensor right so but but these trouble this trouble of the field not being tensorial but the field strength again is this difference you only have found here at the base manifold level that problem you don't have up here the
+
+00:37:43
+algebra valued one form ly algebra valued to form so it's the artifact of pushing this down that produces the complicated transformation behavior here it's the price you pay to make it local and so now after you did that you of course observe the following we had on the principle bundle on P we have this two form that is this exterior derivative of the lie algebra valued one form plus the double wedge here okay now if you push this down so say we really look at the pullback of this field
+
+00:38:37
+strength of the curvature to the field strength okay then of course this is the pullback of the right hand side okay but now the pullback is of course linear that means it distributes over this plus okay but you will not not also see that it also distributes over this wedge so what'd you get in total you get that for instance in differential geometry the the field strength that this guy is the D gamma minus gamma wedge gamma and if you think of the formula you know this also empty sumit Rises this is
+
+00:39:56
+simply the D gamma minus D gamma plus plus gamma gamma minus gamma gamma formula that you know because this is matrix valued because we over GL so there's justice where they talk to each other okay in this formula you know with the appropriate indices plugged in and what is it Rheem is of course a to form because the true form on here because it's a true from up there you pull it down by the pullback that's a true form where these are tangent space indices and because the true form it's
+
+00:40:48
+anti-symmetric so to form character of the real but dream also helps me algebra value but the Lee algebra is a matrix algebra we have an up I and down J and without further structure you do not know how to pull this guy down much less do you know that they're anti-symmetric or not if you had a metric you could pull this guy down because this is the same range as these guys are but more importantly if you have a metric in the frame bundle you can restrict the frame bundle from the GL frames to orthogonal frames Oh n
+
+00:41:34
+but what is the property of the Lee algebra elements of an orthogonal the matrix elements of the lie algebra from a formal group they are you know the anti-symmetric right you saw this before right the anti-symmetric I mean the generators of the rotation group for instance the anti-symmetric and that precisely is the anti symmetry of the first two here so if you heard this differential geometry same general relativity that if the Riemann tensor comes from a covariant derivative that's metric compatible blah blah blah then
+
+00:42:12
+and only then is it some anti symmetric in the first pair of indices as well this has to do with the metric but now we understand it as a property of the matrices representing the lie algebra of GL not of GL Lee algebra of oh the orthogonal group okay and so you see these indices are really it's only in the frame bundle that they that they have this structure that they run over the same range here so these four indices of the Riemann tensor this up and this down index belong together and the last two belong together okay so we
+
+00:42:58
+see it's it's a big coincidence what you have in the standard case right okay so this is this thing but precisely the same because gamma is a and remus F process is same you have that the field strength in non abelian gauge theory but this is a non abelian gauge theory right it's da plus a wedge a okay and so these are the standard formulae in them in so here we had a matrix group so we can one matrix to the other - the other two the one this really becomes a commutator this double bracket on the matrices
+
+00:43:44
+using the composition on the matrices or the matrix multiplication here this is mostly written as del a - del a so their mutant a numeral and this guy back here now the Lee algebra here is need necessarily be given by a matrix group although mostly it is but we could for instance also if we label the Lee algebra in DC's now by a capital capital M and n then we can write this as M n and we put this wedge in between for the one form aspect and the result is our valued our valued our valued and this is then the other so
+
+00:44:31
+this is the kind of stuff you see in non abelian gauge theory as an expression but it's precisely the same stuff and here these guys simply encode the delete the EE bracket whatever it is and mostly you can also write this as in matrix form with a commutator okay but it's precisely the same so all I want to show you is that these various formulate this formula this formula I precisely the same they're the pulled back versions of the connection one form in the curvature to form okay and the idea that actually
+
+00:45:10
+here the differential geometry these guys here are just to pull the pull backs from up here and that actually this this differential geometry bit is as much a field strength of AM over one formance on this goes into ideas of how to quantize canonically quantize gravity right so those of you who took the course on canonical quantum gravity you know that that's the starting point there okay questions so far good so um there's an important identity in the form of a theorem that's so-called by Yankee identity and
+
+00:46:04
+it's the by Anki identity for curvature and it's as simple as it can be you take the covariant exterior derivative of curvature and the result is zero however I should issue a warning so I remind first of all I remind you that the Omega itself is the covariant exterior derivative of the connection one form so you say oh it's d squared on Omega of course it's zero but that is not the case so that's the warning sign so while this is true there is this caveat that in general the d2 is not
+
+00:46:57
+zero right so the covariant exterior derivative squared is not zero on everything but it is zero on the curvature so the proof is not that simple okay but it's not that difficult either and it goes to the problem sheet okay that's the buy Anki identity here okay so now after discussion of curvature we come to discussion of torsion and as advertised in the beginning again the setting is a principal bundle and it's also a principal bundle of equipped with a connection so the torsion is definitely
+
+00:47:47
+a property of a connection RK is a connection one form but and that's the important thing it's not a property of a connection alone it's the property of a connection and an extra structure which we call theta so torsion requires these two and what is this theta definition if we have the situation of a principal bundle then a V valued one form theta so that's our theta on again on the total space of the principal bundle is called a solder form and sometimes called sword ring form
+
+00:48:48
+which is grammatically more correct it's called a solider form if so okay so well the zeroth condition I already wrote down that is that the theta is a one form so this of course not the curvature this is just the space of one forms so one form on P and it is revalued well what is V V is a linear representation space of the group G defining the principal G bundle where V is a linear representation space of G and I now add something which actually will follow from the last assumption but why
+
+00:49:51
+not make it explicit here the dimension of V is not arbitrary D must have the same dimension as the base space so this is an important restriction not any vector space well V is of course a vector space a linear representation of the vector space it must have the same dimension as the base manifold ok so then this form theta is horizontal that's just the statement that for every vector field on total space theta evaluated on the vertical part yes theta evaluated on the vertical part of the vector field vanishes so sometimes one
+
+00:50:44
+calls this a vertical one form on the total space the third condition is a and you see this is in stark contrast to the connection one phone so they're both one form on the on the total space this is Li algebra valued but this is linear representation space valued of this little bra different destination okay this one vanishes on the horizontal vector fields and doesn't vanish on the vertical ones and the nonzero vertical vector fields this one vanishes exactly on the vertical vector fields okay so
+
+00:51:32
+that this is I am tempted to write here unlike unlike the connection one form Omega now the third condition is like the connection one from Omega namely that if we consider the pullback of our soul during form theta then the result will of course be a again a one form on the bundle because you see this goes from the bundle to the bundle but it will be again V valued okay I should tell you what this condition is about this conditions of course is supposed to be the G equivariance condition it's
+
+00:52:30
+supposed to ensure that if you move to solar form along the fiber that that is just that the soda form at one point is given by the solar form at another point right so this is a compatibility compatibility condition and the last condition is and that's one that will actually enforce the stim v equals the M is that the tangent bundle of the base manifold is supposed to be isomorphic to the Associated bundle associated to this principal bundle with typical cyber v and that makes sense because the G is
+
+00:53:21
+supposed to act on the V anyway that's a linear representation space so this linear representation of course is the idea that I also use down there so maybe this is the solution really that you have a linear that you have a linear well provide fix fixing a G you have a linear map from V to V okay that that's this linear representation space and so this this operator here this action this linear action of G on V should appear here so that's I guess this must be right okay and they are supposed to
+
+00:54:07
+be the same well they could be the same assets as many folds this bundles whether in fact the same as associated bundles remember there was a difference between a bundle map and an Associated bundle map the associate an Associated bundle map always comes from an underlying principle but in the map right and here in this case it's a principal bundle automorphism and this is supposed to generate here an associate bundle isomorphism and that is this fourth condition from which it automatically follows that the DMV must
+
+00:54:47
+be the dim em but why not say this explicitly okay so the idea behind this definition the idea is to provide by the so during form so the soldiering form a soda form is introduced to provide an identification of this chosen vector space V with each tangent space of M okay that's the one and only idea behind this abstract definition and the key example or the obvious example is to choose the principal button the total space to be the frame bundle where at every point over a smooth manifold in
+
+00:56:08
+the fiber are all the frames that could sit there all the tangent vector bases and then we define a particular theta in this case as follows it's a one form so it takes a vector field on p2 and now I make a particular choice to are dim em well Adam le Riz to be identified with our V this is clearly a dim M dimensional vector space okay and how do i define it well this is a one form so I can define it at every point of the frame bundle so but the point of the frame bundle is just a frame at a point so let's call the frame
+
+00:57:04
+at a point let's call this e right and then it acts on a vector in a vector field and here we define it as ya as the inverse of a map U which is also defined for each e for each frame I'll say in a second how after the push forward under the projection map of the bundle applied to X now I need to tell you what to you is where the ue takes you from ardham m to the tangent space at the base point of the frame so where the frame is attached is a frame frame is attached of the base manifold how
+
+00:58:20
+well our domestic dim em fold Cartesian product and this is supposed to be a linear map and a linear map is given once I prescribe it on an arbitrary basis so I choose on this Cartesian product I choose the basis where this is the ice entry right so if I have all these guys I get this and I map this to the e sub I which is the vector of the frame I have chosen a frame at a point and I take the I F vector of the frame is assigned to this element in R mmm now what about T it's not the Yui Yui
+
+00:59:22
+it's the inverse of the Yui so there's a little cloud well it's clear that this is canonically there right if I have a frame I can write this down so I didn't introduce any extra structural we're going what we're doing here if this is invertible I'll show in a second how what we're defining here is a solid or form on the frame bundle but it's canonically defined ah and in hence normally you don't even think of that there is such a structure okay and hence
+
+00:59:56
+one usually things well you can immediately write down the torsion of a connection well the torsion comes in a second you can immediately write down the solar form of a the torsion of a connection which is going to be defined in terms of the solar form but in fact this goes in between and now the question is what is this inverse well you know this inverse if this is a frame e then so e frame a basis of the tangent space at some point then you know that you can look at the coal frame which is automatic well okay let's call it
+
+01:00:31
+epsilon you know if you have a frame then by duality you can define a cold frame without extra structure okay and in fact you'll see that the Yui inverse that is being used here is then of course a map from T well some PI of em2 Rd well what is that well it takes an arbitrary vector here well X is our vector on the principle bundle total space this is supposed not to be a vector down there let's call it Z okay so zeal is a tangent vector to n where is X the tangent vector to P it takes is
+
+01:01:14
+Z and it maps it to you have a frame already chose and you take the you take the cold frame of Z and this will produce epsilon 1 epsilon 2 epsilon 3 will produce an element in Rd it's the components of these vectors so what do you do to show the form of a tangent vector to the to the to the total space what do you do you take the tangent vector to the total space and you push it down to the base manifolds it's a tangent vector of the base manifold and then you take its components of course
+
+01:01:56
+this is the collection of components so the solder form in this case is just assigning components to it but in order to assign components at a point you need a basis well this is why this guy at every point of this bundle every point of this bundle is a basis so it's defined okay it's all quite trivial right okay so this is the the soda form in this case and that's the canonical soda form on the on the frame button so now that we have an example for a soda form in this case in other cases you might provide it
+
+01:02:54
+by extra structure can make the following definition so if P down to M PI is a principal G bundle and Omega is a connection one form and theta is a solder form again on the total space P then the tour capital theta small theta capital theta is the exterior covariant derivative of the soda form I could have called this tea like torsion but the tea is reserved for the tours and once you push it down to the base space but this is again up there on the principle bundle hence we better also use like for the
+
+01:04:11
+curvature we have the capital Omega here of the capital theta okay then the torsion is defined as such and what is it well this is a one form so the exterior covariant derivative makes this a to form makes this a to form we're on the total space and how is it valued it's devalued we being the representation space linear representation space of dimension DM of the of the group okay so this is the torsion to form on P and again in this D is the horizontal projection in there one can immediately
+
+01:05:02
+show that the capital theta the torsion is the D theta plus the Omega wedge the theta of course the Omega sits in here so you see now the curvature was defined entirely in terms of the connection but the torsion is defined in terms of the connection and the solder form if you look at the frame bundle which you often do in differential geometry you can actually essentially identify the solder form with the KO frame that you have to push this down first is because you anyway know okay I think this is pushed
+
+01:05:59
+down so very often so in general relativity if you use the frame formalism you would just say the Thetas here they have one index up I would say there's the V the index of the V space but this is nothing but to come the number of the cofre or the co vector okay so one can write this D epsilon plus Omega wedge Epsilon with a slight abuse of notation because you forget to push down the push forward along the projection here by which you have to take something down because really strictly speaking here or trick is just
+
+01:06:42
+the fact you still on the total space and in the formula in general relativity you very often think already of the pushdown version then you write here the teens again by the Sigma Sigma pull it back you push this all down to the basement and that's why then the theta becomes the epsilon okay but still being up there it's this formula now we have here similar problem and this is Lee algebra valued this is V valued but the result is supposed to be V value so how do we get rid of this Lee algebra valued
+
+01:07:20
+bit well we again this is tradition but in fact here well now the notation you just have on one half you have to double a half double wedge but of course I need to declare what it means and well it's just the idea that you take the wedge as far as the one form character on P is concerned but otherwise you let let this Lee algebra element act on the theta because it can because the because the V is a representation space of the group but then also the Lee algebra can act on it and that is what you do and at the
+
+01:08:10
+end of the day you have therefore that the Sita has one eye index if you have a matrix group if a matrix group like GL for instance then you have a matrix algebra and so far Leigha algebra valued has two indices because it needs to eat element of displace it acts or needs to spit one out but this one is only V well has only one index so this is the D theta with one index yeah that's V valued and now this guy here is Lee algebra valued I K then it is a one form for every combination okay this can be as one form wedged with
+
+01:08:56
+the K the theta K which is now for a fixed K only a one form and then you see what I mean by this application this just acts on here linearly okay and this is a formula when the nose okay and so finally we have a second by Yankee identity now another by Yankee identity for the curvature but we have a by Anki identity for the torsion as well for the torsion and that is again the capital T addy sorry the exterior the covariant exterior derivative acts on the capital theta acts on the torsion and the result is not zero which is a
+
+01:10:13
+particular example that the d squared is not zero because the theta is just the D of the theta of the solar form if capital d squared was zero suddenly we would get zero here we did for the curvature but here we don't in fact we get the curvature to form wedged with the so deform and again it must be this application so it must be again very strictly speaking this guy here so again for a matrix group II of the torsion in V in V valued is a to form but V valued two forms it looks like this then you
+
+01:11:13
+have two curvature to form here perform on it X by I K wedge on the theta K another so it's the three form this is a three from so the the torsions of already of course already a true form of course so this guy here is of course a V valued three form on P right yet another so then you have a three form is a three form I was concerned okay so it's again V valued because there you have the application but this is a to form this is a one form this is a three form and this is the by Yankee identity for the
+
+01:12:15
+torsion and that's also easy enough to prove it on the problem sheet okay so again point your attention to the image up there in addition to the connection you need a soda form in order to talk about the torsion and that is why the torsion has only this one index up and if you now want to again push it down to the to the base space by using some section Sigma you can of course define the T as the pullback of the torsion on the total space and then of course this T is a to form on the base space which is however of course still V
+
+01:13:30
+valued and that is two torsion you meet general relativity if for instance you take the torsion on the tangent bundle with respect to some given connection and then the T down there still has a V index up I and the two indices down in the torsion that are anti-symmetric are just the to form indices on the base space so like in the Riemann tensor head ream I J mu nu so this is TI Munim and in order to have the single eye even if you act with a matrix group this must be a representation space there and you now
+
+01:14:10
+see why you need a representation space of the same dimension as the base space is okay and so this will be the main application coming from them from the frame bundle but there are other applications to this solar form soldering form is a more general concept but at the end of the day it will always produce this um this isomorphism between this vector space here dim are dim m and the tangent space and so in physics we very often say that this is the in harness space right this is the tangent space and this is the internal space and
+
+01:14:53
+on here with an establishing ETA which we get from here by by pullback via this you map where we put back the G lawrencium metric for instance on on the on each solar engine in a product on each tender space we pull it back to an ETA and we do this in such a way such that this ETA has the normal form 1 minus 1 minus 1 minus 1 ok then we talk about the internal space and so on and really if you want to understand how this belongs together this precisely is the task of the solar form ok so this is the precise
+
+01:15:32
+mathematical formulation of what is often only said in the frame formulism and only that allows us to have torsion further questions ok so this wraps up the mathematical part and we continue on Tuesday with all the nice physics applications ok thank you
+

@@ -1,0 +1,22 @@
+TIMESTAMPS
+
+1. Axiom on the epsilon relation - 10:20
+
+2. Axiom on the existence of an empty set - 21:45
+
+3. Axiom on pair sets 40:30
+
+4. Axiom on union sets 48:04
+
+5. Axiom of replacement 59:39
+
+5.5 The axiom of replacement implies, but is not implied by, the principle of restricted comprehension 1:06:14 
+(Note: The PRC is elevated to the status of an axiom in other treatments and is called the axiom of subsets/speification/seperation)
+
+6. Axiom on existence of power sets 1:26:53
+
+7. Axiom of infinity 1:29:18
+
+8. Axiom of choice 1:36:31
+
+9. Axiom of foundation 1:46:17

@@ -1,0 +1,228 @@
+00:00:08
+so good morning and welcome back so today we are finally in the position to add some further structure to a manifold and we'll do this first on a principle bundle and later on will inherit this structure to associated bundles and so this comes under Section five point four and the topic is connections and more precisely this is connections on a principle bundle so on the principle Bunny we have this right action of some legal G and furthermore it's a bundle and it's a principle bundle we are
+
+00:01:01
+looking at and there's so there's some warning that usually probably you already met the notion of a connection in say differential geometry in general relativity and they are very often connection the term connection is used synonymously with covariant derivative and synonymously with parallel transport well you need to forget about this so I'm really a connection is a structure on a principle bundle and then once you have a connection on the principle bundle we will see that this implies a
+
+00:01:40
+parallel transport also on the principle bundle and this also implies a parallel transport on any Associated fiber bundle and then there is a very special case and that is if the fiber bundle is actually a vector bundle then it can be used to define a covariant derivative on a fiber bundle which is called a vector bundle so that is where the fiber carries a vector space structure so you see in decreasing order of generality we have connections parallel transports and finally as a hyper special case
+
+00:02:40
+covariant derivatives on a vector bundle which still is defined in terms of a connection if this vector bundle is the Associated bundle of some principal bundle okay so this is important because it's often used synonymously and it could lead to confusion if one doesn't clarify it's not synonymous at all now if you don't know about covariant derivatives forget what I'm going to say but for those of you who do it may be helpful the covariant derivative on a vector bundle if you write down in
+
+00:03:18
+coordinates it's given in terms of some gamma symbols and you know that they do not transform as a tensor they transform as connection well components covariant derivative components now the point is in the beauty is that a connection on the principle bundle will turn out to be something very simple namely a one form on the principle bundle so it's nothing special okay the point is you cannot localize you cannot give a a coordinate dependent form well a local form without choosing a section and we know that on
+
+00:03:56
+the principle partner we can only choose a global section if the principal bundle is trivial and so on and this kind of thing will finally lead to some funny transformation behavior okay but abstractly speaking the connection is just a one form on the principle bundle however we're now going to start defining what a connection is and we will not immediately define it in terms of one form we'll define it differently and only see that this is equivalent to choosing a one form with particular
+
+00:04:30
+properties so um but first we look at the following so um so this was just the introduction and so now let's now look at a particular principal bundle P let this be a principal G bundle then this right action we have here induces a vector field on this principal bundle so then each a that we take from the lie algebra of the group G induces a vector field which we may call X a it's a vector field X in a vector field on P on the principal bundle we know that a ly algebra element induces a vector field
+
+00:05:44
+on the group by the exponential map but now we want to induce a vector field on P this vector field on P supposed to be called X a and we define it by defining it at each point P so for all P in P it's defined as follows well by its action on a function f on P as follows this is supposed to be F at the point P but the point P acted upon from the right it mean we need a group element that acts from the right but we just have Ally algebra element but of course we get a group element exponentiating the lie algebra element
+
+00:06:34
+but we want to look at the entire one parameter family of sub sub group here and thus we get the function evaluated along a curve in P because we start with a point P and this thing pushes us further along this curve then we take the derivative with respect to this parameter T here okay and we evaluate at point at T equals to zero which means at the point P and this defines this vector field okay so right and it's useful to introduce or to define a map let's call it I which actually effects this which
+
+00:07:32
+takes an element in the Lee algebra this a and assigns to it the vector field address defined on P there's a section of the tangent bundle of P simply by assigning to a the entire vector field XA here defined on P okay so we have this this map and this map is a which can be shown to be a lie algebra homomorphism because clearly this is a li algebra I can actually take two elements a and B in this li algebra and this bracket is the bracket the leave racket on te GE that we constructed and I can take the
+
+00:08:40
+result and map it by eye and I find that I could have mapped the individual Li algebra elements by eye and then taken the differential geometrically bracket of the resulting vector fields and this of course constitutes the algebra homomorphism and where we are going to use this okay now there's another definition it's going to be essential and that's the following let P be an element of the principal bundle then we define the so-called vertical subspace which is the SUP at the point P which is
+
+00:09:44
+really a vector subspace of the tangent space at P so this is really supposed to be a vector subspace not only a subset it's a vector subspace we define this to be the kernel of the push forward of the projection PI which is the bundle projection and you remember that the kernel is nothing but all the elements in the tangent space at P such that the push forward which is a linear map takes this to zero the kernel is all those elements that are taken to zero by the linear map mentioned here that's the
+
+00:10:36
+color and this VPP is called the vertical subspace at this point P okay now let's try to get an idea of how that looks like so pictorially what is the what is the principle just already the slow chalk okay okay so if you draw a picture locally so these pictures usually only work locally there's a piece of the base manifold and our principle bundle consists of attached fibers of the group at each point right so a principle bundle locally looks like this and now let's think what does the
+
+00:11:55
+PI projection map do it takes a point from here and projects it down to the base point right okay and now the question is what are what is the vertical subspace at a point P here for instance well the answer is it's this entire fiber of course because you remember that the push forward so this is PI but the push forward of PI takes a vector that's attached here and pushes it down here right so the question is what about say this vector here what happens to it under the push forward of pi well one way to think about
+
+00:12:40
+is to think about a curve to which this vector is tangent then to project the curve which is not done by to push forward but by the PI you project this to a curve into the basement fold that would then look like this say so if the curves run through like this like this and we know that the push forward of a tangent vector is the tangent vector of the projected curve of the mapped curve you remember that so here it would be mapped to say this guy this here would be mapped to this guy and obviously this
+
+00:13:14
+is not zero like a zero vector so this guy here does not lie in the kernel of the push forward of pi but what does lie in the kernel is every vector that points like so because this can be seen as even if it's a tangent vector to a curve that looks like this you push down the curve the curve goes here and it goes back again but then at this point here the tangent vector to this curve is also zero and so this guy lies in the vertical subspace okay so that is why it's called the vertical subspace once one realized
+
+00:13:54
+this one understood to push forward of pi it's obvious it's the fiber okay that's the vertical subspace okay so we have a little lemma and that says that what we constructed before here the this vector field X APF X a so for every PNP the X a P were just defined lies in the vertical subspace of P well the proof is almost well it's absolutely immediate we saw that XA p was that vector field that actually was generated by pushing forward this point P by this one parameter subgroup
+
+00:14:52
+and evaluating here and it's clear that this curve here this is a curve gamma of T right this lies entirely within a fiber within the fiber PI inverse of PI of P right because action on a certain point by the group only pushes the point in the fiber we use the several times already in these lectures so that lies entirely in there that means if you look at this curve here it lies entirely within the fiber but hence it follows that the push forward of this vector X ap under PI can only lead to the 0 to
+
+00:15:40
+the 0 vector here in the tangent space to the base manifold but that means that the XA P is an element of the vertical subspace okay that's it so what have we seen so far well we use nothing but the principal bundle structure in particular the action of the Li group here and we were able to construct for each element in the Li algebra a vector space or many vector spaces of any aim in in linear algebra which however all lie in the vertical fiber these are vertical vector fields and they are given by the very
+
+00:16:23
+structure of the principal bundle ok so far so good now this is something we're going to use but it's not what we actually need or what we want what we want and the idea of a connection now the idea of a connection is to make a choice and you know that whenever you make a choice you introduce structure and the structure will be called the connection the idea of a connection is to make a choice of how to that's where the name comes from how to connect the individual points of neighboring also in quotation marks
+
+00:17:19
+neighboring fibers in a principal bundle so again pictorially what we want it and that is going to be extra structures to following so we have again our local picture of the principal bundle where at each point of the base manifold there is a fiber that's isomorphic to G attached and now let me draw two nearby fibers but of course you have to think of them as being very nearby and that of course is supposed to what anyway thought of in a topological way now I would like to be able to say this point here is to be
+
+00:18:16
+identified well or is to be well yeah to be identified or to be associated with this point over here so in walking from here to here which point in this fiber do I call to be the same as this point here it's a very very normal notion well not being in the fiber bundle but if I'm here and I say well I have this direction which is this tension vector and then I have this idea that if I walk over here that this is still the same direction but what does it mean because there's a tension vector in a very
+
+00:18:53
+different place okay and similarly in a in a principle in a principal bundle you would like to be able to talk about this point being as to be identified with this point now obviously I could have chosen something different I could have said well no this point is to be identified with this point not that one obviously there is a choice now what do we mean by nearby fibers well we mean a linearization that means if I'm at this point here P and I look at this subspace here which is of course V P P it's the vertical subspace at this
+
+00:19:40
+point P then I make a choice and that is the choice I'm talking about I make a choice of another subspace and this is a one plus one dimensional picture but this is supposed to be another subspace such that the VPP and the direct sum of the HPP span the entire tangent space at this point okay so I choose an entire like a complementary subspace here H P P and of course I could have chosen a different one and a different the only one I cannot choose is the one that lies such that it intersects this V P P so
+
+00:20:19
+that it's not a complementary subspace okay and now you see of course this is the this is the subspace of the tangent space at this point so it's an abuse to say that this arrow points to this point in the fiber because it doesn't as little as a tangent vector on the surface of a sphere points to another point on the sphere it doesn't lies in the tangent space however it's the linearization of the idea if you go very very very close then the mistake you make by identifying this or by using the
+
+00:20:57
+exponential map right you really hit a point where in your body okay so that's the idea so that's the picture you have in mind but technically we have here a vector subspace and we then of course if we later on go to integrate and so on that will be the idea of parallel transport we can really say this point with with exactly this point because integrate along a curve that is attention to the such chosen subspace everywhere okay that's going to be the idea but here the only thing you need to
+
+00:21:29
+realize is that we want to make such an identification and we need to make a choice to achieve that now so that's the that's the idea but now we can of course or we have to write this down as a formal definition so more precisely or precisely at all we have the definition a connection on a principle fiber bundle on a principle G bundle sorry p hi AME is well the technical term is a distribution but it's not a distribution from functional analysis the distribution from differential geometry
+
+00:22:21
+but I'll absorb this into the definition is an assignment where for every point of the principal bundle for every P in the principal bundle a vector subspace HPP that's just the name of the guy a vector subspace HPP of the tangent space TPP at this point is chosen such that now there are two conditions well they actually three so let's go here so the first thing is that you want that as I said that this HPP direct sum VPP the vertical subspace the day together constitute the entire tangent
+
+00:23:41
+space at P so it's the formalization of what I said before with this complimentary thing and then B if you do that let's go back to this to this picture here you have to do this at every point so you also have to do it at this point P down here well let's call this the point Q and you also make a choice and say there the choice looks like this okay and so you can imagine that you make a choice everywhere along this fiber everywhere along here and so on and one thing we want to worry about is
+
+00:24:19
+that this happens smoothly so if you go up here it doesn't drum but it happens smoothly and if you go with from point to point also happen smoothly this will be condition C not talking about this yet but now let's stay within one fiber I can reach this point Q down here if I can reach this point Q by a right action of some loop element from this point P so let's say a point P now I have a group element by which I move to another point then I want this choice of this so-called horizontal that's why the H is
+
+00:24:58
+horizontal sub space to be compatible with this right action of the group and there the idea is that the that if I act aha so let's say I take any element of this horizontal sub space at this point P how can I relate vectors that lie in here two vectors that lie in here well I go from here to here by the right action of the group but if I want to relate the vectors I need to look at the push forward of the right action okay so I look at take the right action of this group element G and then I take the push
+
+00:25:49
+forward of this and the requirement is to push forward of any element in here of the entire space here should map to the entire space here so the requirement is that this be the horizontal space at the point P acted upon from the right by G P that's the idea so if I move the base point by group action please map the entire horizontal space by push forward to the entire horizontal space it's a very reasonable compatibility condition here without which nothing would work and then C takes care of what
+
+00:26:35
+happens well within the fiber but also if you go from here to here this action should be smooth now normally I would have said it's a smooth distribution but so he says assignment and it's smooth in the sense that the unique decomposition which decomposes every vector that lies in the tangent bundle in the tangent space at some point decomposes this into a so-called horizontal part plus a vertical part and it's clear that if you have a direct sum here any vector in here has a unique decomposition into a
+
+00:27:25
+part horror XP which by definition so how do we write this which by definition okay which by definition lies in HPP and a vertical part which by definition lies in VPP so this unique decomposition leads to leads for every smooth vector field on p2 to smooth vector fields x and ver X so it's T's vector fields are defined point wise but this unique decomposition but if the vector field X was smooth then individually the horizontal component of the vector field X at every point of the manifold and the
+
+00:28:40
+vertical component they are again both smooth vectors in su smooth leads to smooth that's the key point here and that takes care of the idea that nothing well certainly continuous but it's also smooth this assignment okay yes ah sorry the vertical subspace of the principle bundle at the point P okay so this just formalizes the intuition we had here nothing more nothing less so there's an important caveat so this decomposition inverse vertical and horizontal parts both the vertical part of a vector at a point P and the
+
+00:29:50
+horizontal part of a vector at a point P they both depend on the choice of this horizontal subspace so maybe by terminology one might be misled to think that maybe the vertical part is independent of this choice but the horizontal part depends on it or maybe the other way around maybe the horizontal part isn't but the vertical does know both this vertical and horizontal part depend on this choice again it's best shown in a picture to say you have this subspace which is the vertical one which is defined
+
+00:30:33
+canonically on a principal fiber bundle but now so there's the M down here but now yet at the point P here and let's say we look at this vector here and this vector now say the choice of horizontal subspace my choice of horizontal subspace is this one could look like this so this is the point P here and this is H P P and now it's clear that the the decomposition here is into a vector here so this B if this is X that's the vector then this here is for X and this guy here so this guy here is
+
+00:31:25
+the vertical part of X at this point and now take exactly the same vector but I recopy the picture in order to not make this unreadable but I now try to really take the same point P here and the same point in the same vector X no it's the same right since Erica but now instead of choosing the vertical sub at the horizontal sub space like this I choose as an extreme case well extreme case for this example choose it like this it's possible and now you see that the vertical component of this X is zero there is no vertical
+
+00:32:19
+component okay and the horizontal component also different from here right because it's the entire vector whatever that means okay um so um you go to compare for instance these these two this one versus this one okay so in this decomposition both the horizontal and the vertical part depend on the choice of HP aha now the definition we gave of a connection as being a choice of a complementary subspace to the vertical space is geometrically very intuitive very clear what we're doing technically it seems a
+
+00:33:06
+little bit tricky because how on earth do I write down such an assignment how do I provide it technically right we can talk about it it's well-defined but it's difficult to write down technically now that's the idea yes No so I wrote vertical here because actually I should have written it here right but now because this space is like this the vertical component shrank down to zero that's the idea so think about this HP in order to go from this picture to this picture you might want to think
+
+00:34:02
+about tilting this HPP until it's here and while you till did you see that if the vectors kept the same that this projection to the vertical axis it's a parallel projection you see so if you want to go here and you can find the vertical part you need to go parallel to this one to see what this component is you see and this shrinks to zero this is what I mean here and the horizontal part well that's this vector X so in this case our X reproduces X right this is a different situation to here where here
+
+00:34:39
+the whole X doesn't reproduce the X and the vertex is nonzero but everything's kept the same it's the same fire but at the same point for this is PI of P this is PI of P on the base manifold the same point the same vector but a different choice of horizontal space changes both were of X and horror of X that's the only point I wanted to make and it's important to realize further questions to here on ok so now again assigning a horizontal subspace to each point is geometrically very
+
+00:35:16
+intuitive it's technically it's a different matter so technically the choice of a horizontal subspace I didn't introduce this terminology in writing but I said it several times over horizontal subspace HPP at each point P in P in order to provide a connection is conveniently encoded in the thus in used the algebra valued one form the algebra valued one form Omega and we define it at every point P of P and there it takes you from the tangent space of P that makes it a one form in linear fashion makes it a one form to
+
+00:36:49
+not the real numbers but true and that's the idea of the Lee algebra valued one form to an element in the Lee algebra of the group how it does so by taking a tangent vector to the principle bundle and it maps it to Omega of X ok alright it's a vector at the point P Omega P at X P and this is defined to be well we first look only at the vertical part of the specified vector and so at this point we might think this has nothing to do with the choice of horizontal subspace but of course it does that's
+
+00:37:43
+the contents of the of the caveat I gave right so the in this in this vertical of X is already information about the horizontal subspace and but this guy here will then be an element of the vertical subspace okay take an element of the Tenzin space that vertical subspace but I want Li algebra valued one form well I take the inverse of the map I I defined in the beginning so if we recall what this map I was I was a map that took you from the Li algebra into the tangent space TPP by virtue of assigning to a
+
+00:38:32
+the vertical vector field generated this swing that's the I now we know that because this a is taken into X a and this X a is although it's a vertical vector field as we show the beginning we know that actually the image of this map is only VPP right it's only VPP and indeed this is invertible essentially why well because our Lee algebra always maps differ morphic Lee into a small region of any point of the Lee group and the fiber the vertical fiber is the Lee group so this is actually a vector space
+
+00:39:15
+isomorphism so you can go backwards and that's what we're using here and what you dare forget is in the end an element of te GE which is precisely what we wanted okay so this is an extremely important definition this takes the choice of horizontal subspace hidden in this ver in this projection of the vertical part and by this I am canonical I a map where its inverse Maps it to the Lee algebra so it takes this choice and makes it into a one form yeah that's a very good observation and because I went
+
+00:40:07
+to every individual point that's true yeah thank you it took an entire map to an entire vector field but then in particular I can look at it at the point P that's right that's right okay so um we can have take this thing and this is then called an node it's a one form on P one form on P not a one form on the base manifold no no no so one form on the entire principle bundle and this is called the connection one form connection one form with respect to the connection okay so the connection is a
+
+00:41:05
+choice of horizontal subspaces and once I have such a choice I can define this form so it's the connection one form with respect to a given connection connection being hidden in this world so how do I so that means given the horizontal subspaces I can construct this form how do I get back the horizontal subspaces observation the horizontal subspace at a point P is then recovered from the Omega as the kernel of Omega at this point so whatever so I can define the kernel you know what the kernel is maybe it's
+
+00:42:12
+nevertheless useful to write this down here it's all those X in the domain in CPP for which the Omega which the ohm which are sent by the Omega to zero so from a choice of subspace I define a form but once I default define the form from such a choice of subspaces I can recover the subspace as the kernel of this little bra valued form so far so good now it's clear that only because the form is precisely defined like this do I get this not everyone form on P can be given and then I take the kernel and I get an H P P of
+
+00:43:05
+course not only this very special defined form like this what we're now going to do we want a complete replacement for this HPP we had three conditions right how it was to be chosen we now want to find out what are the properties of this one form if it's defined like this and then we will see that we can elevate these properties to a definition of a connection one form without giving a connection first but a connect one form with certain countries and then from we can recover HPP in this fashion which
+
+00:43:43
+then automatically has to require properties so that we can think at the end alternatively of HP choice with certain properties or of a choice of one form on the principle bundle with certain properties a connection one form Omega with respect to a given connection has the properties a if I take the connection one form and at a point P and I apply it to this vector field XA or the doesn't use vector at the point P which we got from acting well we had this definition from of this vector field on P that's generated by an
+
+00:44:45
+element of the lie algebra then the connection one form yields delete algebra element a that's just it so in a sense before we had this map I so let's again remember we had this map I which took a li algebra element and send it to the vertical subspace as we just saw and now we see that if we apply our Omega to this vertical subspace we know it's Li algebra valued well actually Omega acts on the entire tangent space but in particular it acts on this vertical subspace you can see it's the restriction of the Omega 2
+
+00:45:29
+vertical subspace anyway then we get back the element a from the tangent space that we put in so that is Omega after I and this is nothing but Omega after I restricted here is the identity on the Li algebra so in a sense applied to this vertical subsystem maker is the inverse of this eye and of course it is because we defined Omega to be the inverse of the vertical part all right and that makes this restriction so um yeah right okay it's just to think about this it's a comment AHA so that's the first property and the
+
+00:46:26
+second property we had this idea that if we push along the fiber with a group right action of group element then the push forward of the horizontal space is the horizontal space at the other point this must be reflected on the one form so we certainly have to think about the right group action but now how it acts on the one form but now you know that can only be by pull back not by push forward but by pull back because this acts on T so this acts on the cotangent space of peace that can act on this Omega and so if you take the
+
+00:47:06
+pull back of the one form and look at it at the point P and then you can plug in a vector X P then the property is at first it looks a little funny or funny look complicated it's the push forward of the adjoint of the inverse G now it's the push forward because it acts on the omega P of X P which is a lee group element le algebra element so this lies in te g aha but the ad G will recall what was the ad G the ad of some gene or gene rosettes of some G took you from the group to the group
+
+00:48:09
+by taking element age and sending it to G H G inverse but that meant that the ad G push forward took you from te g to T G on E No - 2 T G identity G inverse but that's again t AG ah that meant the ED put form of the adjoint really takes you from here to here and indeed there's an element in here and the adjoint of G well in this case G inverse takes you back to Ali group element which is exactly what this guy is supposed to do because you pull back the form and you can have a one form you act on a vector
+
+00:48:59
+that must again lie in the in the Lea algebra so okay this makes sense then it looks like this why is that exactly it looks like this we'll see in a second ok so this is this and connection one finger and the one from is smooth well so that's the the C property is that Omega is a smooth one form now more or less this ABC correspond to the ABC of the definition of the choice of horizontal subspaces well almost at some point we're now going to do the proof in order to prove that this is true we we need to first
+
+00:49:43
+prove this is true and then we use this here and so on but but roughly speaking this is the the analog and I think one can see it from from what's written there ok good ok so proof well maybe we come in like this yeah ok let's do it this way so proof so a this is simply true by the definition by definition of Omega . because this is a vertical vector that we established and we know that if we plug this in here we just reproduce the very well so Omega of XA will all at P we know this is in the vertical space
+
+00:50:40
+and we know the Omega that's the definition of Omega is AI inverse of the vertical part of whatever has been provided okay but this already is a vertical vector so it's AI inverse P of X a P but the I took the a to the X a so the I inverse takes us back to the a okay so this is immediate from the definition of Omega that's a so of course here we're now assuming that the HP choice and so on is has the properties of a connection now let's look at at this beast and we first observe that the the left hand side is
+
+00:51:39
+linear at the left hand side is linear in X so in this slot here why is that well this is one form is the pullback of one form you get one form of one form is a linear map okay so that means we can prove this in by decomposing this X P into a vertical part and a horizontal part and we prove it for horizontal X and vertical X separately okay so let's do B 1 let's say X P is in the vertical part and obviously B 2 will be X P is in the horizontal part okay so how do we how do we do this well so we
+
+00:52:32
+we start on the left we take the pulley back of the one form Omega and that's supposed to be a one form at P and we act on it on a vertical one but then we can always generate this vertical one from a me algebra element a hmm so if this in here then there exists in a in teg such that X is X ap okay so if it's vertical we represent it like this and now what we do is we use the definition of the pullback what was the definition of the pullback well it is this form that's being pulled back but if I pull pull it
+
+00:53:26
+back along here this must be the form at P on which the G already acted and this is applied to the push forward of this vector with respect to this guy so this is G down push forward of this vector X a at the point P because the push forward will take us to a point P acted upon from the right by G which is exactly on which this guy here can act now there is a step that I is a little technical but not uninteresting and I will move it to the problem sheet and this step talks about what's in the
+
+00:54:15
+bracket here it's again Omega P acted upon from by the riot and it turns out that what is in the bracket here if you push forward the dust generated vector field you get a vector field no surprise and you can actually calculate from what other Li algebra element this pushed forward vector field is generated in fact it's generated by ad G inverse hang on how did this work it's generated by ad G inverse acting on we need a Li group element on a four forward push forward on a yes I think that's
+
+00:55:14
+right so that's on the problem sheet okay so the um okay it's imaginable then it looks like this and in fact it is like this and if you then look at this then you see aha this is again and this will of course be then ap acted upon from the right by G but now we know from step a so this is now from step a of the same theorem which we already proved that the Omega at a point just extracts the Lee algebra element that generates the vector field on which it acts so this is actually add G inverse push forward acting on a now
+
+00:56:02
+we can massage this a little and we can write this edge G inverse push forward of Omega of XA just rewrite the a as the Omega of XA which of course we we can because that's just the same thing backwards aha but if we now compare what we did we plugged in here an arbitrary vertical vector field and it now appears here again well that's at the point P here okay then we showed exactly what we wanted to show for the special case of the X being vertical okay so that's this so then be to to be the choice X P is in
+
+00:57:05
+the horizontal subspace well that's the only other possibility by linearity as I argued in the beginning by linearity it suffices to show this separately and now we look at the same thing again we study the push forward nor the pullback of Omega at the point P but now we apply it to this guy so I call this X who emphasizes horizontal is just emphasis X at Point P now again we use the definition of the pullback so this is omega P acted upon from the right by a G of the push forward G push forward acting on X
+
+00:58:07
+P right aha but now this exhort P is of course an element by assumption of the horizontal subspace but what do we know about to push forward of this right action of G of any element in the horizontal subspace at P or we know by property B of the connection that this is an element of the horizontal subspace ap acted upon from the right Jean why was this since the push forward of the entire horizontal subspace @p is the horizontal subspace at the point P acted upon from the right on G that was one of the
+
+00:59:03
+properties of our choice of H P aha but now we have Omega P act upon from Rapid G and then now an element of H P G but we know that this zero because every element in the horizontal subspace at a point is eliminated by the one from connection one form at the point right this follows also directly from the definition of the Omega in terms of the HP aha okay but this zero here can of course be written or be it somewhat pompously as to push forward of ad G inverse of Omega at the point P of X or at the point P why well because this at
+
+00:59:54
+Omega P X for P for the very same reason yield zero and then the add G inverse push forward being a linear map acting on zero yield zero but then we again see that for every X we put in there we get the data that we get this guy XOR P in there which is again for the horizontal vectors is exactly this statement here well and now that Omega is smooth let's squeeze this here Omega is smooth because Omega is I inverse after were right that's how we defined it now it was the requirement that ver yields a
+
+01:01:00
+smooth vector field if it's applied to some smooth vector field and the I inverse well that is smooth because the exponential map is smooth and so I have smooth after smooth is smooth that's it okay so these are the properties these two properties of Omega shown from the properties of the of the connection which considers consisted in a choice of horizontal subspaces at each point okay now well this may scare one first sight but of course we had this before and of course it's much more convenient to say
+
+01:01:54
+well you hand me a principle bundle and now you hand me a one form with these properties it would be nice if we could show the converse of this theorem we mean that anyone from with these properties actually induces an HP P that satisfies the condition of a connection but that is the case okay the proof is very similar to this and hence it will go to the next problem sheet without much help okay it's really very simple just not writing it down yes okay so I'm we need to stop here today because I travel again the
+
+01:02:52
+philosophy is this I hand you a principle bundle and now after this is proven laughter you will show the converse of this theorem on the problem sheet limit everyone form on the principle bundle with these two properties defines a unique connection right it's much more convenient to give such a one form and it's nothing else the connection then can be defined to be a one form with these properties and then next time we will see how this actually gives rise to parallel transport on the principle bundle but then also two
+
+01:03:25
+parallel transport on any Associated fiber bundle and once you understand parallel transport and you go to a vector bundle then in the fiber you have additionally linear structure you can actually transport a point and then take the difference to another point and then you can write down a differential quotient well in order to have a differential quotient you need a - well that's the inverse the additive inverse of a plus so the fiber needs to be a vector a vector bundle that's fiber needs to be a vector space so the
+
+01:03:58
+Associated bundle needs to be in particular a vector bundle but on non vector bundles which are associated bundles to some principal bundle you can still have parallel transport so it is absolutely not true that you need a covariant derivative in order to define parallel transport let alone the connection and again of course for applications to physics where we'll say in differential geometry where you look at the frame bundle as the principal bundle you will establish the connection on the principal bundle and that will
+
+01:04:31
+inherit from parallel transports to all associated fiber bundles in particular to the vector bundle with the tensor bundles to the spinner bundles and so on you can always get them from the connection on the principal bundle and the same is true for say non abelian gauge theory
+

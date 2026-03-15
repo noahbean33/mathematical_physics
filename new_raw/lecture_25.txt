@@ -1,0 +1,261 @@
+00:00:08
+so good morning and welcome back today we'll be concerned with some technical aspects of covariant derivatives on Associated vector bundles and so far we discussed this topic especially along the following lines we started with some principal bundle P with some fiber G such that there's a right action of G on there and on this principal bundle total space here we assume there's given a connection one form Omega because without a connection one form somewhere there are no covariant derivatives
+
+00:00:53
+either and then we considered an Associated vector bundle so that was for some typical fiber if this total space PF in the way we defined it with some appropriate projection map down to m and as I showed the construction of this PF and in fact the Association of such an Associated vector bundle requires the information that is now in some left action in some left action that takes a group element and acts on the fibers F from the left and in fact you need to provide the statum of a left action in
+
+00:01:41
+order to construct this associated bundle but once you have provided this left action then you have here the principal principal bundle and here the Associated bundle now a connection we saw effects a parallel transport in between the fibers of the principal bundle so if we look at some picture of this principal bundle with the a space m and the fibers so local pictures picture the fiber G then this connection one form affected a sense of a parallel transport along a prescribed curve in the base many fold you get a parallel
+
+00:02:38
+transport of this element to here and that was this parallel transport map towel now we saw that if we go to the Associated bundle or we argued if we go to the Associated bundle which now has different fibers so these are the fibers F so they have a different color nevertheless we can actually use the parallel transport in the principal bundle here in order to affect again for the same curve in base space to affect also a parallel transport between the fibers of the Associated bundle and then the idea so this was the picture so far
+
+00:03:19
+so this is the association of the bundle by providing a left acute okay on the fiber and the idea of a covariant derivative was then to say well let F actually be a vector space so so far no mention of that was necessary but now let's say that F is a vector space and let's correspondingly consider only left actions that are linear so I should maybe write it like this if the group acts on F it acts on F linearly and because we have this vector space structure we have an additional s multiplication we can actually compare a
+
+00:04:19
+section if we now look at a section Sigma that takes this point say to here and that takes this point say to there then we can actually take this point parallel transport it over here along a curve and compare the difference because we now have the means by this addition to take to subtract here okay and then we see this difference and then we can construct from this difference and how far we traveled here well in parameter space and taking derivatives you know how that works we can construct a
+
+00:04:56
+differential quotient and by that way we in this way we can construct a covariant derivative so that's the idea of a covariant derivative it's very geometric it's very intuitive and it's technically a disaster okay it's very difficult to implement technically you can and what you get is right but there is a much neater way to do the same thing and the neater way we're now going to discuss so at least it's a technically neater way it's the following philosophy so I again
+
+00:05:44
+depict the elements in the game so again we have the principal bundle and you see so this section Sigma here who is whose covariant derivative we want to construct that's of course a section here right and the construction happens over here in this view so far on the Associated vector bundle the only thing we get from the principal bundle is the parallel transport we push it over here okay but then the construction takes place here so now the idea is the following so again we have the same ingredients
+
+00:06:32
+obviously we also need a left action we also need a left action that is linear which also requires this F that F is a vector space so we need to need to start there and now again we wish to construct a covariant derivative for a section Sigma over here but rather than doing this construction of the covariant derivative on the right hand side in the Associated bundle we play the following trick we associate with this Sigma a unique function Phi Sigma that lives on this P and it's valued in the F so on P
+
+00:07:22
+we can establish such a function and then I already mentioned the corresponding theorem and that well there is also an EKG equivariance condition for this I write it down in a second but there will be a one-to-one map between sections of an Associated bundle and typical fiber F valued functions on the total space of the principal bundle that Thrones over this associated bundle and one has to say that this Phi Phi Sigma that's constructed from this Sigma one has to say that it is G equivariance and in
+
+00:08:10
+this G equivariance sits the information about this left action so I write this down and then the point is we will then actually establish or use the exterior covariant derivative that's it's here that we discussed before we'll apply it to such F valued functions and thereby we get a derivative of the function sitting up here but what we actually want is a derivative of the section down here well the section corresponds to this function one to one and the other way around given such a function you can
+
+00:08:53
+construct such a section I write down the field in a second again but we still need to push this down here okay what we get and then we also get a covariant derivative down here and that coincides with what you construct here so rather the new view is rather than constructing things over here in the Associated bundle you immediately constructed on the principle bundle the only information well it makes up the entire Associated bundling me this left action of G that goes into this G equivariance
+
+00:09:30
+here okay but then you can totally forget about the structure of the Associated bundle and do everything on the principle bundle and that's technically fantastically much more simple okay so what's the the key theorem that allows us to do this and I quoted this theorem before and I wanted to push the proof to a problem sheet but then the problem sheet was filled with other important stuff so we'll do the proof today here so the key theorem is that if p.m. ppm is a principle bundle and pfm M is an
+
+00:10:09
+Associated bundle via the definition of this left action then so if the condition is like this that are dirt then there is a bijection or by directive correspondence between sections Sigma of The Associated bundle that is PI F after Sigma is it m and G aqua variant functions Phi on the principle bundle that are however fiber typical cyber f valued and this so this is the sexually property of course and the G equivariance property okay what can it be Jake variance the G must the Phi must be compatible with the G actions in some
+
+00:11:26
+way so what can you do you can write down Phi and it has to act on a point P and on a point we can act from the right because the element of the fiber bundle we can act from the right by a gene that's the right action that is well here I didn't throw it any more but that is here in used or needed in the definition of the principle bundler okay and now we can require that this be Phi of P but the Phi is f valued but on F we have a left action that's the left action and require that the inverse of G
+
+00:12:05
+acting from the left on Phi of P is the same as Phi of P where the P is being acted on from the right by the G okay and the statement is whether I speak about a section here if I have a section here I can always construct a G equivariance function up here if I have a dream a covariance function up here I can always construct a section and most importantly if I start with a section i construct such a function from it and then from this such constructed function I reconstruct this guy I get the same
+
+00:12:45
+guy back and the other way around so there's no information loss in the type of construction we do there could be construction that from here you construct something here here you construct here but it's not that you can go the whole way around and come back to what you started from but that's in fact the case okay because that is the case it's absolutely equivalent to think of sections of the Associated bundle or geq variant fiber valued functions F fiber valued functions on the principle bundle okay that's the
+
+00:13:17
+idea and that's of fantastic technical use so let's try to prove this so let's start with the first direction proof so assume that the we start with a F value G a queer variant function Phi on the principle bundle we construct from it the following section Sigma and I write Sigma down five because it's constructed in terms of five so it's supposed to be a section so from M to PF of the principle of The Associated bundle and we define it Sigma Phi of X X is a point in M we define it as P Phi of P where
+
+00:14:40
+this P is some element of the fiber over the point X and it's a fiber in the principal bundle because we want to feed this P into the fire the fire goes from P to M so we can feed it into there and this is the equivalence class that defined the elements of the Associated bundle remember by identifying such pairs if they're equal if the two pairs are even if one the second element can be construct from this one by a right action of G in the second one from this one by left action of G inverse okay so
+
+00:15:24
+that was the definition for the elements here in the Associated bundle okay so now this looks like a funny definition because you say you have an X but on the right hand side you say this can be any P as long as the fiber over X it's not clear where this is well defined could be ill defined but in fact it's well defined so it's well defined it's the first thing that check since well what do we have to check since for any P Prime that's in the fiber over X I could have said for any other P Prime in the fiber
+
+00:16:10
+we know there exists a unique group element G such that P prime is the P acted upon from the right by the G is always the same business in the principal bundle but then we have that P prime Phi of P prime is of course P acted upon from the right by G a comma Phi P acted from the right by G and now we use the G equivariance of Phi because we say we are given a Phi in the assumptions that the Phi is G equivariance so we can use its G equivariance and that's then of course P from the right by G and then G inverse
+
+00:17:04
+with the left action the other action acting on the Phi of P aha but this of course is because of the definition of these equivalence class brackets this is of course again the same as P comma Phi of P okay and that's the same as we wrote here so it's well defined okay and obviously if we project back by PI F okay pi F selects this one PI F of this guy is PI of the first entry but that's extra you go back okay so since PI F after Sigma equals it m as I just argued Sigma Phi is a section of PF and that's
+
+00:18:28
+we all we wanted to show so given a gxi variant function on the principle bundle total space we construct in this way there may be other ways but we use this way and we'll see this is the way we're going to need we construct a section on the Associated bundle that's one direction now now we go the other way so we first construct the two maps and in the end we have to show that really no information is lost by going back and forth so the second direction B is a given the section Sigma given a section Sigma of
+
+00:19:19
+The Associated panderer construct construct the file but now we call it Phi sub Sigma because it's a fire that's constructed from the Sigma this ought to be a function and F valued function on the on the principle bundle and this guy we define Phi Sigma of a point P of the principle bundle is defined as the inverse of a map IP we met before but I write it down again applied to Sigma that's the Sigma we start from the Sigma needs to eat an element of M but this is an element of P well we can use
+
+00:20:07
+the principle bundle projection P and project it down and plug this in okay so anyway that's the that's the definition so now we should think of this I again so we had a map I so this is the inverse of it but we discussed a map I which is this F goes to the fiber over a point PI of P okay so it looks a little bit like why do you first do PI and then PI inverse well you know that this inverse is not an inverse this is the preimage so PI of P is the point but that's the preimage of the point so the result is
+
+00:20:56
+more than pi it's the entire fiber in which PI lies a P or P by P lies ok ok so we have this map and this that was defined by taking element F of the fiber and mapping it so this clearly lies in the principle no hang on where do I want this to lie I want this to lie in F no this must lie in the I think I want this aha so I want just to go down here with this pi but I take the preimage because I want the whole thing to lie in the Associated bundle so what I said before was true but this is what
+
+00:21:51
+I want I go down to the base point of which P and the principal bundle lies is a point in M in the manifold M and then I look at the fiber of the Associated bundle over the space point okay this is where I live and I saw associate with this F I associate the point P comma F so that's the IP of F is defined like this and this is again the bracket that is defined in order to define the points in the Associated body okay and so I think it was on the second last problem sheet so second last problem sheet we constructed explicitly
+
+00:22:46
+the universe of this I but in fact I is IP is a bijection and of course if you require continuity it's even a homeo if you require differentiability it's even add if you okay so this is what the problem sheet said okay that's the info on this eye so the eye inverse really exists okay and we're invoking this eye inverse so is everything fine yes so this takes us to a point in the manifold M the base manifold the Sigma takes us up to the Associated bundle total space and the eye inverse takes us from the associate
+
+00:23:43
+bundle total space back to F so this guy is really f valued that seems to work out okay so that was this thing so now from the definition of this F here we arrive that if you act we'll use this in a second if you calculate this guy IP and the P acted upon from the right G F that is of course P acted upon from the right by G comma F and that is the same as I can now act again from the right by G inverse without changing this if at the same time I act here from the left what is this right well
+
+00:25:01
+simply can do it simpler this is I think wrong in the first place okay this last step was not correct but this is true but now I can simply this most straightforward the other way can also be used about this is I can act here from the right and I can act here from the left that's just the definition of the bracket that allows us this and this is then of course I P down GE acting on G inverse F so what I want to say is that this guy is the same as this guy and we're going to use this in a second
+
+00:25:40
+so this is obvious directly from the definition of this bracket so now let's try to show so we constructed a file and now let's try to show that this G equivariance that's the that's the aim because we start with a section I'll say it leads to G equivariance v so show G equivariance of Phi sub Sigma well so we start with the left hand side of the Ecuadorians condition and we try to make our way to the right-hand side of the equivalence condition with the definitions we have so you see this is the left-hand side
+
+00:26:32
+and we want to arrive here all right so let's plug in what we got so Phi Sigma of P is this guy so if I write P act upon from the right and have the ie reverse of the P acted upon from the right this is because I have this in this okay then I let this act on Sigma of Pi of P but P is now P acted upon from the right by G okay that's just plugging this in now the first inside is that if I'm in a principal bundle and act with the G from the right I do not change the fiber where am I stay within the fiber so
+
+00:27:14
+sky is PI of P nothing changes in here okay so what's our next step the PI of P aha yes and the trick is to write now this Sigma of PI of Pete right this whole bracket as the Phi Sigma of P which it is right yes that's what this guy is and no ah yes no it's the IP of yes because Phi Sigma of psi P inverse of this whole guy so this is the IP of this okay thank you thank you yeah okay so what we have in total is IP acted upon from the right inverse after this IP haha is so and now we're using
+
+00:28:44
+this guy I derived before in order to rewrite this IP of f we said is the same as I P acted upon from the right by G of G coming from the left of the F Phi Sigma of P agree aha but now I have I inverse P sub G after IP sub G what's up IP acted upon from the right by G so this is the identity so the whole thing is G inverse acted from the left acting from the left on fire Sigma of P and that's what we wanted that's the right-hand side of the equivalence condition so that's that's
+
+00:29:38
+correct there there is this equivariance okay good so what have we shown so far we have shown that we provided some construction to go from some section on the associate bundle to some F G a covariant F valued function on the principal bundle and the other way around what we haven't shown yet is that by this construction no information is lost okay I mean I could have I mean to make the point precise I could have constructed the zero valued function up there which is certainly gaq variant okay and I
+
+00:30:20
+could have constructed the zero section there because I have a vector space so this would be guys constructed from the other in a sense but I would of course lose all the information so the next step is to check whether we can recover whether we can recover the object we started from by going back and forth so see check that no information is lost so how do we check this well we try to construct a section from a F valued principal bundle function which in turn will section Sigma which in turn has
+
+00:31:21
+been constructed from a section Sigma ok so this is the original section we put in yeah so this is the section we start from from this we construct this induced function on the principle bundle and from this we construct this induced section of the Associated bundle we go back and forth and of course we want to arrive at the original section and we have to check the other way we want to construct a principal bundle F value G equivariance on function from a section which has been constructed previously
+
+00:32:11
+from the prints from a principal bundle function Phi and we again wish to show that this recovers the original site so on its this Sigma this blue Sigma here that we recover and it's the blue fire here that we recover and the other notation is just the notation okay so um let's start with this s bit so okay so let's write down Sigma Phi sub Sigma well it's a Sigma it's a it must start on some X of the manifold M well what's the definition of Sigma down some Phi well that was defined as the bracket
+
+00:33:13
+because it's supposed to map to the Associated bundle of some P you remember this was some P that lies in the fiber over X and that was the fiber in the principal bundle over X and here we have the Phi of the Sigma that's this Phi Phi Sigma of P and we check that this is well defined okay but now we have to also replace what this Phi Sigma was and the Phi Sigma at the point P was the IP inverse of the Sigma that's down here uh-huh of the PI of the P that's given here that's this thing now what kind of
+
+00:34:13
+object is this well this year is an F in F in the fiber F because I P inverse goes back to the fiber F such that I down P of F is exactly Sigma of PI of P well that's not such a secret but that's just the definition but the IPF was the p with the f bracketed by definition of the IP so the means this is an F such that P F is Sigma Pi P well PF AHA is Sigma of PI of P but PI of P was some the P was somewhere in the fiber over X so this is the Sigma of X aha for every X in M we recover the Sigma of X okay
+
+00:35:26
+alright so the other way around we have a fire and we constructed from a Sigma that was in turn constructed from a fight now the fires of F G a grammarian F valued function on the principle bundle so we have to feed it a point P in the principal bundle the definition of the sky was ice appear thats this p inverse of Sigma well that's this Sigma so it's the Sigma Phi of the PI of the P finished now this is IP inverse of so what was the Sigma sub some five the Sigma sub some Phi was an element in the
+
+00:36:24
+Associated panel so it must or can be written like this and it was one way you where we took some P in the fiber over this point well I can take this P directly if I can take some P in the fiber over PI of P I take the P immediately why not and we know it's well defined and then over here we had to take the fire that's given down here of the same P that's this thing okay okay so now this entire guy of course lies in the fiber F because this fire supposed to be F value but also this IP
+
+00:37:26
+inverse lands back in the capital F so this is an F such that IP of F is this guy P Phi of P okay again the same trick but the P IP f is the PF okay so if this is the case then the F is this guy but that's the F so that's the Phi of P also there that's it okay so that was the theorem and that's what we're going to use we actually want to talk about sections in covariant derivative of sections in your social in a bundle but the first thing we do if we are handed such a section we push it up
+
+00:38:42
+to an F valued function that's the equivalent function on the principal bundle okay so we know we can always do this without losing information so we will now do this this is the idea of this approach we are discussing discussing today okay so um let's look at a so this is finished okay now let's look in particular at AG equivariance function because we know we have to deal with those we looked at such a guy GE covariance we had it before is P acted upon from the right by G is G inverse
+
+00:39:29
+acted upon from the left by this action on the fiber F Phi of P and we'll now derive a simple implication of this because we can look at the representation of this G group element close to the identity you know we can represent them all by this one parameter group where a is some element some a from the Lee algebra for from the tangent space at the identity and we can write down the equivalence condition the GE covariance condition like this acting from the left on Phi of P because if you go backwards you get the inverse okay so
+
+00:40:32
+this is immediate so what we want to do with this well we want to look at this we don't look at the derivative of this and what we're also going to say now is that we look at linear left actions that will be important so now specialized to the left action by G from F to F being linear and of course that statement only makes sense if the F is at the same time required to be a vector space so the theorem we just proved has nothing to do we didn't use any vector space property of F but now
+
+00:41:26
+we're going to use it so now we specialize to linear action in particular if then the group can act on there the Lee algebra can act also on there right think of matrix groups as if you have a finite dimensional vector space so let's say finite dimensional to tie it down then of course the group action can be given by a matrix action then you know the algebra is also given by matrices of the same type that can still act the same way that's that's the trick where we're going to use but now
+
+00:42:00
+let's take this g equivariance equation and let's derive it so it's clear that if we take the derivative of where is it up here okay the derivative of Phi of P from the right x80 and we take this derivative at T equals zero and the right hand side is d by DT X minus 80 acting from the left on Phi of P is everything fine okay also at t equals zero so what's happening here well here we need a product rule I'm sorry a train rule okay so this yields D Phi because the function is just the derivative of P
+
+00:43:20
+that they evaluated here is simply of P so this is the position where it is but then now this is a one form it's the derivative the one from it's a vector well it eats of course the inner derivative tangent vector okay and we know what the derivative of this guy is it's the vector field on the principle bundle starting from the point where from the point P I move with this function it's the induced vector field here on the principle bundle we constructed this before it's the
+
+00:44:10
+left-hand side and the right-hand side what's that well this guy here is totally independent of the T so the derivative only acts on here okay so it needs a minus sign minus a e to the minus 80 but evaluated at T equals zero is the identity acting on Phi of P now this is a Lee algebra element and actually this is an action of a Lee group on F but that's what I just said before because we now have a vector space and a group action there on it because it's linear we can act with the same matrix here so it's the
+
+00:45:01
+same action I can use the same action okay aha but now it's also neat to write this a as the Omega of X up a it's the same X up a as here and what's the Omega Omega is the connection one form how does the connection one form make an appearance here well it makes an appearance because you know that one of its properties is that it takes a vertical vector field and it yields the lie algebra element that generates it so we injected here in order to rewrite this a in terms of Omega and all together we get the
+
+00:45:55
+corollary and it's the corollary of the of the extra variance of the G equivariance of Phi of G equivariance fine it's a corollary to that is that the Phi of a vertical vector field x a+ take this to the other side Omega of x a acting from the left on Phi is zero for a linear left action okay it's a little corollary which will come in very handy in a second all right so so equipped with this shiny new tool we can now set about the construction of the covariant derivative of some section
+
+00:47:17
+Sigma that lives here on the Associated bundle so we wish to construct a covariant derivative covariant derivative and this covariant derivative will be denoted by some nabla so this curve n derivative it eats a vector from the tangent space at some point to the base manifold that's the whole idea and it should act on this section ok and what it should produce is it should produce again a section of the same bundle yeah a section of the same bundle now so covariant derivative acts in some direction T on the base manifold and the
+
+00:48:21
+tangent space to the basement fold and it makes a section of the bundle into a section of the bundle so if this is the the Associated tangent bundle it's again a vector field if this is some tensile balance again it tends to feel that's what you know such that and we have some requirements there and one is that in this lower index T it ought to be C infinity of M linear so if there's some function f that comes from C infinity on M and T and s are vectors at the same point shouldn't call this P if we call this
+
+00:49:04
+rather X at the same point in the manifold in the basement fold then this is f x sub T of Sigma plus nabla sub T of Sigma so this is one rule we wish to establish or we wish to to have satisfied by our construction so this is just formulating what we're aiming at then the covariant derivative should be merely additive in the section so if I have a section Sigma and I have a section tau and I add them I wish this to be the sum of the covariant derivatives of the tool okay and the third property we want to require here
+
+00:49:55
+is that if we act on F times a section where now the F is again a C infinity M valued function then this ought to be the direct action of the tangent vector to the base manifold T on F gives a function times Sigma plus F times the covariant derivative down Sigma we're not going to require some further lightly true for some tensor products because that would leave the bundle that cannot be said at this level but this is what we want and this is what we're going to need for the quantum mechanics
+
+00:50:48
+example okay so this is what we wish to construct now this is here this has nothing to do at first sight or actually with this being the Associated bundle to some principal bundle on which on which there is such an a connection one form and in fact these are conditions one writes down if one does some kind of more naive construction of the covariant derivative and then one finds all you need to provide some gamma coefficients and so on if you want to do this but now we want to not postulate this as a
+
+00:51:27
+structure that could live here with these properties we want to import it from over here okay and the first thing we do we will of course not deal with this Sigma directly will rather deal with the induced Phi down Sigma here and from now on I will only call it Phi and it is the fight that has because you actually want to construct cavae derivative of such a section whenever I now speak of the Phi I mean the file that has been constructed from the Sigma okay so we proceed in two steps the first thing so
+
+00:52:03
+proceed in two steps so the first step is that we define the covariant derivative acting on this Phi well that's not such a biggie because we already defined the covariant derivative even on any K form and it became a K plus-1 form well this is a zero form it's a despy here this Phi is a fiber valued 0 form on the principle bundle it's a function it's an F valued function and I think when I introduced the covalent exterior derivative I had it flower valued right so now flower is F okay so and this was simply
+
+00:52:59
+defined as the D Phi after the horizontal projection of any vector i plug in okay that was the definition so I should just say recall the definition because we had it before now having made this definition I make the following claim and we made a similar claim before but before we made this claim for the connection one form if the D was acting on the connection one form we had an explicit expression for this now it's acting on something different acting on some G in variant zero form that's F value this a
+
+00:53:47
+different thing so we have to think again so we have the d5 it can act on some X where does the X live well this is now a one form so the X must clearly be either a vector a vector field let's say a vector a tangent vector to the principal bundle because this is one form on the principal bundle F valued one form it's clear that the entire guy is F valued right but that's just for information the claim is that this guy this is equal to D Phi of X so it's actually the exterior the covariant
+
+00:54:32
+exterior derivative is the exterior derivative on X but with a correction term and the correction term is omega of X acting on Phi okay and this looks very very similar to what we had before when this was a one form and you see um before for the one form we had something I I wrote stuff like this right which said it actually acts on here right by the a draw in action whatnot but it's also a wedge because this was one from well now it is still a wedge but so wedge between one form in the zero form
+
+00:55:13
+you can also write this as a product okay but the wedge extends there let's write like this that's the clearest but again in the literature you will find Omega wedge file and okay but but let's let's leave it here obviously we need to prove this so again the proof proceeds in two parts we can decompose this X into a horizontal and a vertical part and let's say a X is vertical in that case we can write it as an induced vector field and used by some Lee algebra element of the group and then we evaluate the two sides
+
+00:56:00
+so we have defied on X well I just used the definition this is the Phi of of X but X is vertical so horsy row this is the Phi of 0 D Phi is linear is 0 it's the left hand side now the right hand side is d Phi of X a plus Omega of X a acting on Phi but we just proved before that was our corollary that this vanishes because of the G so this is the G equivariance it's the G equivariance of the fight okay that was this B is excess horizontal well that's simple because then D Phi of X is simply the
+
+00:56:57
+little D Phi of hor of X but because X is already already horizontal it's simply the X again it's the left-hand side and the right-hand side is Omega of horizontal acting on Phi but Omega is the connection one form it's defined to annihilate every horizontal vector so this is I forgot so of course the right the entire right hand side is D Phi of X plus so this is zero and the D Phi X survives and then the two sides are the same okay left hand side right hand side okay fine this is proven this is a fact so what
+
+00:57:53
+what do we have now so if we have the D Phi of X this is a kind of a covariant derivative I mean for fun we could write D Sub X on Phi being D Phi of X okay and you see this is linear in the X C infinity of P linear in X the fire appears here also linearly so if you take well additively if you take the sum of two of those guys that will pull apart and if you take an F that will also it has all these properties but this is actually this looks more like a covariant derivative of some function up here in particular this tangent vector X
+
+00:58:53
+here is in TPP the tangent vector up here but we want the covariant derivative with the tangent vector and the base manifold I want to say I want to go in this direction the basement fold not in the principle bundle somewhere so this can't be it and hence this is only step one we proceed in two steps we constructed in the sense we constructed a covariant derivative acting on these functions okay but we want it down here well we do the standard trick and we localize the whole thing by introducing on our bundle on our
+
+00:59:52
+principal bundle now we introduce a section by little five section so pi after Phi is it m in order to locally trivialize the bundle choosing a section 5 in the principal bundle we can pull back what can we pull back well we can first of all take the big 5 function that lives up there fire that goes from P to F and which is of course equivalent to our section right and we can pull this back to a field of fire ok I shouldn't call this fire one oh yeah ok good good we can pull this back to a 2 Phi star Phi but you know that
+
+01:01:05
+the pull back of a zero form is simply sigh after Phi in this case okay and we can also take the Omega right what is the Omega the Omega is a one form on the principle bundle that's Lee algebra valued we can pull that one back to Phi star Omega and we already have a name for this Phi star Omega we call this the young Milt field that's the Omega aha so if we choose a section here Phi we usually can't choose a global section on a principle bundle because then the principle bundle would already have to
+
+01:02:04
+be trivial so we only choose a local section here you okay so this would then be the induced young Milt field and used from this choice of section so this young Milt field is now of course a one form on the base manifold but still Lee algebra valued we had this before okay so we pull this guy back and of course we can also take our covariant exterior covariant derivative defy what is that that's also a one form on the principle bundle and it's f valued right and we can pull this one back to Phi star D Phi
+
+01:03:00
+and what is that that is a one form on the base manifold that's f valued that's good so we plug in a vector and we get an F and it's actually this guy the pullback of the object we just constructed okay for which we will be fine well let me do this in a second so I these are the objects are constructed so far and they live up there on the total space and I all pull them down pull them back by some choice of section okay so let's do this and let's see what happens and then you'll see in a second that
+
+01:03:49
+we're done then what do we get well we start on the left and finish on the right so we take the pullback of the defy and that we apply so the defy was to be applied to attention to the principle bundle but now this needs to be applied to a tangent vector of the base manifold because it's now one form down there and valued one form on the base manifold okay so let's look at this expression what is this well this is obviously the pi-star it's the pull back of the hang on a second and push it forward and then
+
+01:05:03
+pull it back again okay let me see whether we have to do be a bit more careful here no that's fine that's fine so we can do it like this this this formula up here that I wrote with X's right T Phi of X D Phi plus Omega x-ray this can be written without X's okay it's equally true so this is then the pullback of D Phi plus Omega applied to Phi right from the corollary up there of T now the pullback is linear so this is clearly the pullback of d v of t plus so now it comes with the pullback of the
+
+01:06:03
+Omega applied to Phi of team now the pubic and the D you may remember they commute in quotation marks so this is the D of the pull back evaluated at T now here we must look a bit more closely it looks a little funny how would the pull back act on this operation of the acting remember the actual true operations at work here the Omega acts on the five but there's also a wedge between them okay now the wedge here is really a multiplication because this is a function this is the one form in any
+
+01:06:52
+case that's just a special case of the wedge and we know that the pullback distributes over the wedge so this is really five pullback of Omega acting on the T wait but okay I write it wedge five pullback of the file but you can forget about the wedge because this is again a function this is like more like a product okay but you can write the wedge there's no harm in writing the wedge okay yeah but what are these objects well this guy here is the pullback of fire to the to the base manifold down here but that is F valued
+
+01:07:45
+let's call this little s we didn't give it a name before no so let's call it a little SEM and so this s is es of T plus this here is the yang-mills field associated with the connection Omega that's a one form now leahrob l1 from on the base base I should have put the action in any case now it acts from the left on this guy well this is again this S field on the base space local nice a local it's a local SF valued function this is so this s goes from you to F now it's a local F value would function and you see
+
+01:08:50
+if before we thought at every point a section Sigma attaches to every point in the basement fold an F an element in F well the same does the S it only does so locally it must do so locally okay it's the local represent if you think of this Sigma as a section say in the tangent bundle if the Associated bundle was the tangent bundle and the principal bundle the frame bundle for instance this familiar example then this is just the local representation of a vector field is saying to every point in the basement
+
+01:09:22
+fold in some patch in the basement fold you attach a vector a tangent vector right and it's this guy that's being derived and now this left hand side here we can also give it a name we call this nabla sub t now it's not the sub T of the Sigma because that was our idea from the right hand side using the Sigma instead now we use the local version of Sigma but on the left hand side is the little s so in total or in summary with these names we have nabla sub t on s is d s applied to t plus Omega u phi acting on the s ah
+
+01:10:20
+and the T sorry the T is Heatley eaten here of course of T and this is of course precisely the formula you know for an F valued covariant derivative for the Korean River curve and derivative of an F valued function you just take the Neve derivative of the function the partial derivative okay and you dot into it the T well this is what this does the S of T is T alpha del alpha s in local coordinates on the base manifold these are the connection coefficients one index one of the lower indices of the
+
+01:11:06
+connection coefficients is filled with the vector in which direction would arrive and then that two indices left on this guy these are the algebra indices and they act on the vector evaluative thing okay so this is the covariant derivative you know but you now understand how these connection coefficients that precisely appear in the covariant derivative how they originally come here's the yang-mills field but you know it's by choice with this section how they come from the connection one from up there and it's
+
+01:11:44
+easily seen that this guy's Attis Phi's all the properties we wanted for this table again it's only that it doesn't act on the Sigma the Sigma is made into a thigh up there and the Phi is pulled down to an S on the base manifold and Potenza function on the baseline for my it's f valued and that's naive idea of a vector field at every point I give you a vector ax but that only works locally it only works globally if the Phi section is a global section but that can only work if the principal bundle is a
+
+01:12:21
+trivial bundle then it's the same thing then you could also write the section over there as a global function okay so you see that by the construction we're forced we we can't do it global now we we cannot define a global function s with covariant derivative you write down this is always local but so are these connection coefficients here so in fact that the connection coefficients you have here that they're only valid locally that also forces us to make this only locally okay that's it
+
+01:12:57
+so that's the covariant the covariant derivative in all its glory and now I want to point out one important bit and that is in everything we did here we can do as we wish and we can choose the Omega as we want to have it okay the connection one form but there is another choice we can make we can make the choice of what this left action is right well in order to have this covariant derivative because of this action of the Lee algebra on here needs to be a linear action linear left action on a vector
+
+01:13:41
+space but we can choose two things we can choose the connection one from and quite independently we can choose even for a fixed vector space what exactly is the left action so now let me make a comment to the quantum mechanics and and this is the the secret why apparently Christina told me that the literature says that in two dimensions so what we what we can calculate in two dimensions you cannot write a quantum mechanics in polar coordinates but in three dimensions you can well what is effect is that in two dimensions you
+
+01:14:27
+need to choose this guy slightly less non-trivial you need to absorb a factor of two that appears here yeah a factor of two you need to absorb it into this action and if in the next lecture we're going to discuss discuss the quantum mechanics you'll see there will be an extra factor coming up in front of a connection coefficient in front of a young Mills field which cannot be absorbed into young Mills field because the young mills field has this distinctive transformation behavior you remember
+
+01:15:01
+that young mills field transforms with this extra term well if it's a matrix field transforms like this under a gauge transformation now if you took twice the young mills field also this term would get a factor of two but it doesn't it cannot then it's no longer a connection so a multiple of a connection is not a connection you know that the difference between two connections is a connection that's still true here it's also true that the arithmetic mean of several connections is a connection because
+
+01:15:47
+whatever their sum is you divide by the total number you produce a factor of one here but if from some application you come up and you have a two here you cannot cannot absorb it into here for this reason but you can absorb it into here because if something acts somehow linearly then acting twice is still the same thing well it's not the same thing but it's it's another linear action okay so we'll see an application of this next time when we discuss quantum mechanics on curved spaces
+

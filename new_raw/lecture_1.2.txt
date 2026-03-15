@@ -1,0 +1,139 @@
+00:37:20.969 to predicate logic so section 1.2 predicate logic
+00:37:37.040 definition a predicate is what my one
+00:37:45.960 might informally describe as a proposition valued function of some
+00:37:58.950 variable of some variable or variables
+00:38:07.130 variable because it could depend on several so for example you could have a
+00:38:15.810 proposition P of X and it's truth value
+00:38:22.790 depends on what X is true or false
+00:38:30.470 dependent on X you could have a
+00:38:39.590 predicate that depends on two variables x and y and now it's true or false
+00:38:46.230 dependent on what the combination of X and y is now like in propositional logic
+00:38:54.810 it was not the task to study complex
+00:39:01.280 propositions it is strictly speaking not the task of predicate logic to tell you
+00:39:09.480 how these predicates are actually built you might ask okay so what could this be
+00:39:15.750 could this be Q of X and y is true if X is greater than Y as if x and y are
+00:39:21.570 numbers say real numbers and X is greater than Y that would be constructing such a predicate strictly
+00:39:31.380 speaking it is not the task of propositional logic to construct them because obviously in order to construct
+00:39:38.369 them you need some further language how you can combine objects x and y so first
+00:39:45.740 thing and then you might ask well what set do you take the exes from and from
+00:39:52.790 what set do you take the X and the y from and so on and the answer is no such thing we leave
+00:40:01.460 it entirely open what x and y what they are where they come from what their
+00:40:07.190 nature is they're just variables they say this is very weird because since
+00:40:12.440 elementary school days we've been conditioned to always say what set does it come from now the point is we need to
+00:40:20.060 leave this open in this fashion because we only want to define the notion of set
+00:40:26.360 later using this language so we cannot already use sets and in fact it will be
+00:40:33.650 a part of set theory to introduce a fundamental predicate that takes two
+00:40:41.450 objects and makes out of these two objects a proposition that's either true
+00:40:47.119 or false and you know this the fundamental so if I we're not using this
+00:40:52.490 here this comes later so I write here later we might define a fundamental
+00:40:58.060 predicate of two variables in this way
+00:41:03.920 using this element symbol and you see now if we already have a rough idea but
+00:41:12.170 don't use is just the outlook if you already have a rough idea x and y's well if they are sets and that's it actually
+00:41:17.990 the statement if ignored if x and y are sets then X element Y is a predicate of
+00:41:25.640 two objects which is either true or false okay but this will come later
+00:41:31.340 because so far strictly speaking in predicate logic of the first kind and so on you do not have this symbol yet so
+00:41:39.230 again I cross this out because it's only later at this level we're only dealing with these predicates as the elementary
+00:41:46.310 objects okay it's always important to know what the subject is not talking about in this case it's not talking
+00:41:53.390 about how to build these guys now however
+00:41:59.109 what we can do we can again construct new predicates from old ones construct
+00:42:05.680 new predicates from given ones and well there is the
+00:42:17.049 simple way we could define a queue of XY
+00:42:22.210 and z to be well you see the instead of
+00:42:28.239 : equal sign which means defined as because this whole thing for given XYZ
+00:42:33.489 is a proposition we can say it's defined to be equivalent to say P of X and R of
+00:42:42.390 Y and Zed but obviously if the X is supplied if the wine is that are
+00:42:48.519 supplied this is a proposition this is a proposition it two propositions that can
+00:42:53.680 be conjoined by the by the end operator and you have a new predicate now of
+00:42:59.170 three variables stuff like that very simple now a more interesting way is the
+00:43:06.130 following you can actually convert a predicate of one variable into a
+00:43:12.160 proposition convert predicate of one
+00:43:20.619 variable this can of course be extended into a proposition let's call this
+00:43:32.829 predicate P capital P of one variable so
+00:43:37.989 let's write it down let's write down the proposition which proposition the
+00:43:43.089 proposition is this funny upset down a X
+00:43:49.170 : P of X so what is the proposition well
+00:43:56.859 the proposition is all of this if you
+00:44:02.799 ask what does this guy in the Box mean the answer is its a proposition it's a
+00:44:09.609 proposition that has been constructed from a predicate of one way Herbal and we may read it believe me
+00:44:16.480 gloop and that's the proposition well we may read more reasonably for all X P of
+00:44:22.750 X is true so that is how we read this
+00:44:29.610 for all X P of X is true but how is it
+00:44:38.410 defined and this proposition is defined to be true defined to be true if P of X
+00:44:51.820 is true independent of X independent Li
+00:45:02.640 of X so if the X doesn't matter you can
+00:45:09.490 substitute whatever you like for X it's true this is the definition of this
+00:45:16.390 proposition and obviously this proposition has been constructed from this predicate now I warned you it's not
+00:45:29.800 our task here in principle to provide specific predicates nevertheless as an
+00:45:40.960 example as a feel-good example we might
+00:45:49.060 do so nevertheless so we could define a
+00:45:57.430 predicate P of X is defined as so now it
+00:46:02.770 becomes fishy but that's the feel-good part if you're good always involves an amount of imprecision X is a human being
+00:46:18.060 implies X now let's be politically
+00:46:24.790 correct X has been created this includes
+00:46:38.350 all Sates if you think God created it or the Father whatever and so but but this
+00:46:43.570 is the whole statement so there the whole proposition the whole proposition is this implication now I said we won't
+00:46:51.790 don't want to say where the X's come from well I don't I just hide this in
+00:46:56.800 here X is a human being means X has been created in the mother's womb or whatever
+00:47:02.490 well this is certainly always true then for all X P of X is true that's it it's
+00:47:15.730 nothing more nothing less yes and so far you said you don't know anything about X Y P but if the words
+00:47:22.030 could be also convert a predicate and other ways is a proposition let's say
+00:47:27.580 okay but for all X but for some X yes indeed absolutely thank you that's what
+00:47:34.150 I was coming to next there is the brother of this all quant or so this
+00:47:39.490 called the ol quandra and we can also define the existence quantification
+00:47:45.990 existence quanti vacation it does the
+00:47:52.030 same well a similar thing it takes a proposition of one variable and now
+00:47:57.520 there is a different mumbled Rumble in front of it which in total is a proposition and this here we will read
+00:48:09.180 there exists an X such that P of X this
+00:48:19.690 is how we read it but how do we define it what it's a proposition so we need to
+00:48:24.970 provide the proposition that defines it and that's simple because it's not
+00:48:31.090 all X not P of X so obviously brackets
+00:48:38.320 like this if you want them we don't eat them maybe we'll put a bracket around here for clarity so having available the
+00:48:46.270 all quant or you define the existence quarter as the negated all
+00:48:52.170 quantification if ocation of the negated predicate okay and an immediate
+00:48:59.530 corollary from this is well three very
+00:49:04.930 true rule is that for all X something is
+00:49:10.720 not true is equivalent to it's not true
+00:49:19.240 that there exists in X for which it is true if something isn't true for any X
+00:49:31.140 then certainly it's not true that the exists one where it's true very simple
+00:49:41.250 it seems simple and once it's written down is perfectly clear anything as mathematical training it's clear but if
+00:49:48.130 you go to the hairdresser from time to time you see that in many drum bubble
+00:49:53.320 shops on the door it says what hairdressers can do only hairdressers
+00:49:59.260 can do it sounds good but if you think about it it means they
+00:50:04.300 can do nothing a non hairdresser can do so if I is a non hairdresser can draw
+00:50:11.620 nice pictures it means a hairdresser cannot ok so careful with the negations
+00:50:17.290 and the all xx fusion to quickly run into things you don't want to say
+00:50:30.160 other questions so far okay
+00:50:36.130 so a remark the order also obviously we
+00:50:52.359 can use quantification also for predicate of more than one variable
+00:50:59.819 quantification for more for four
+00:51:09.099 predicates of more than one variable for predicates with more than one variable
+00:51:20.430 right so that looks like for all X P of
+00:51:27.190 x and y which is now a predicate of two variables well what does this yield we'll obviously this yields a predicate
+00:51:35.170 of just one variable namely the variable we didn't quantify over so usually one
+00:51:43.509 refers to this as the bound variable and
+00:51:49.410 to this Y that survives the quantification and then appears again we
+00:51:56.710 call this the free variable and well if
+00:52:04.809 you quantified once you quantified one of the variables away you have one variable left you can quantify again so
+00:52:13.059 that's remark one and the remark two is that the order matters remark to the
+00:52:22.359 order of quantification matters
+00:52:31.170 so for all X there exists a Y such that
+00:52:37.810 P of X in Y is generically different
+00:52:47.190 proposition then there exists a Y such
+00:52:56.140 that for all X P of X and Y and because
+00:53:02.200 the order matters one should avoid although it's very tricky to do so in
+00:53:08.320 the heat of calculation but one should seriously avoid writing quantification
+00:53:14.980 after the expression so very often we write this and that is true for all X Y
+00:53:20.080 Z or they exists in a Y such that this inverse is true and then we say for all
+00:53:26.050 X Y Z well you should arrange all the quantification before the predicate and
+00:53:33.070 then you have a clear idea of what the order is because sometimes you write one behind if you formulate not so formally and
+00:53:40.600 then sometimes one means you pull it to the front or you pull it here you don't know so it's best to stick to such an
+00:53:47.710 order and you know this from say statements about inverse and neutral elements now so neutral elements for all
+00:53:56.650 X in the real numbers they exist a real number zero such that X plus zero is X
+00:54:03.150 but it's of this type to have the inverse element no it was just the wrong way around I'm sorry you see already
+00:54:09.820 mistake again so for the neutral element there exists a neutral element zero such
+00:54:15.100 that for all elements X plus 0 is X law of the neutral element of the additive
+00:54:23.290 neutral element of the real numbers but for the inverse elements for every X you have a Y that means depending on what X
+00:54:29.620 is you can choose your wire differently something is true ok so there you have
+00:54:34.870 an application of this it's all very clear but nevertheless it's sometimes the root of some trouble
+00:54:48.390 okay so well this actually concludes our
+00:54:54.910 quick overview of predicate logic and but there's an immediate application to

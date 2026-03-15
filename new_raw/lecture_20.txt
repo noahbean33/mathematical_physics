@@ -1,0 +1,348 @@
+00:00:01
+[Music] So good morning, happy new year and welcome back. Um, today we'll turn to the discussion of associated bundles. That's uh section 5.3. And an associated bundle is a bundle that's associated in a certain precise sense with a principal fiber bundle. So, so far we've discussed principal fiber bundles and maybe it remained a little obscure how this relates to uh situations or to constructions uh in in physics in particular as as you had them before. um and in a sense uh one needs to
+
+00:00:54
+introduce the associated bundles in order to uh start grasping the importance of principal fiber bundles. So um let's first start with the precise definition. Um given a G principal bundle and you remember uh that a principal bundle is first and foremost a bundle uh P down pi down to M which as a bundle is isomorphic to um to P down P mod G and that there is a right action of a le group G on the total space here. Okay. So given a G principal bundle and so now you need something in addition and a space well whatever it is
+
+00:01:59
+a smooth manifold uh a topological manifold let's say a smooth manifold and the smooth manifold f on which there is or on which we also have on which we have a now it is a left G action and here we use this right G action on the total space of the principal bundle but now we consider a left G action so I use a symbol that looks very similar but points to the other direction. It's a totally different map. Uh it takes a G and an element of this new smooth manifold F and takes it to F and it is a left G
+
+00:02:59
+action with the properties that this action had. uh we define the associated bundle and so obviously whatever we're going to define will depend on the data given by the G principal bundle by the choice of the smooth manifold F and by the choice of the left G action written like this we define the associated bundle And this associated bundle has of course uh needs a bundle space and that will be called P subf because it will be constructed from the f and the and the principal bundle. Uh there will be a bundle
+
+00:03:50
+map which we also denote by pi f just to show it's not the projection map here and it goes down to the same base space. So the associated bundle will be a bundle over the same base space. Okay. By So now I need to tell you what the PF is and the PF by A. Now in order to construct this PF uh we first need to introduce an equivalence relation. So let twiddle g be the relation um that identifies two ele the relation on p cartesian product f. So first of all we take the total space of the principal bundle and attach to each
+
+00:04:48
+point of the total space this manifold f and but that's a very big uh manifold then we'll make it smaller again by um defining an equivalence relation and then only looking at the quotient space. So but that means on P cross F uh we establish that any element of P crossF is supposed to be identified by this relation uh with an element P prime FP prime by definition if and only if there exists a G in G. And now let's we got to be careful such that P prime is P act upon from the right by this G.
+
+00:05:44
+Well, that's all we have. We have a right action on the big bundle space and the FP prime however be a left action. So that goes the other direction. It's another map. Okay. uh acting on f on an element in this uh manifold f but now we require that it's the g inverse acting on that okay uh then it's quick to you can quickly see that this twiddle g is an equivalence relation Okay. And it being an equivalence relation, we can thus consider the quotient space and that quotient space of course
+
+00:06:45
+P cross F. identified or modulo this equivalence relation and this guy instead of always writing this complicated guy we write P subf. Okay. Now very roughly speaking you know that the well not very roughly speaking it's true. So the fibers of this P alone is the entire group. Okay, the fibers of the because the P is a principal G bundle and a principal G bundle has a typical fiber, the group. So very roughly speaking, what happens here? If you then mod out the group, what is left of this first factor? Well, essentially only the
+
+00:07:42
+base manifold. Very roughly speaking. And now you attach to it this fiber. So what we expect this to be is to be a fiber bundle. Well, we haven't written down the projection map yet, but we expect what we constructed here to be the total space, this PF to be the total space of a bundle over M where the typical fiber is F. But in this way here by virtue of this action it's um tied to the principal bundle. Okay fine. So anyway we um we can consider this quotient space and so obviously uh so in other
+
+00:08:26
+words um the elements of this PF are the equivalence classes P comma F where P is any element in P and F is any element in F. So we will always think of this space here as these equivalence classes and sometimes I'll even leave out these brackets because that lightens the notation. Okay. So anyway, that's this definition. And then B, we define the associated projection map that goes from PF down to M. Okay, we want such a guy um by now we can practice this for the first time. So we take an element of
+
+00:09:34
+this associated bundle which we understand as an equivalence class of a pair of elements from the principal bundle and the fiber. This being the identification under G and we send this by this map pi of F. We send it to the point in M that we get by pi of P. But now pi here not pi down f but pi is the projection we are handed from the principal bundle. Now you see here here we take an equivalence class with a p and an f in there. Over here we just take one of the representatives. Well not the entire
+
+00:10:16
+representative because you need the f2 but part of it. And so we need to check well definfinedness. Yeah. So this is well defined since okay what do we need to check? We need to check that if we take any other representative instead of PF and apply the map PF to it. So what is any other representative? uh any other representative would have the form P acted upon from the right by some G and G inverse acting from the left on F. This is clearly the same equivalence class is this guy. So I should say this is obviously the same as
+
+00:11:01
+this by the very definition we made here for the equivalence. Okay. So now I apply the rule. Nevertheless, this is then by definition of pi f is pi of p acted upon from the right by g. And because this is the pi the projection of a principal bundle, we recall that well what does this g do? It only moves us within the fiber. So this is the same as pi of p but pi of p is pf of p and f. Aha. So indeed the pf whether it acts on another representative or not uh it it produces the same result and hence
+
+00:11:52
+this map is well defined. Okay. Yeah. And so in total the construction of this total space PF and the construction of this uh projection map PF yields us a bundle. Now um I already gave you an intuition that if you mod out this G that we expect a bundle that this be a bundle over the this base space with the typical fiber F. Um but strictly speaking one has to show this from here but that's simple enough to go to the problem sheet. So we have um proof namely the proof that the such defined pf by pf
+
+00:12:42
+tom is a ah the restricted bundle. Okay. Yeah. Is a uh fiber bundle with typical fiber. You know, that was the terminology with typical fiber F. Uh and that's going to be on the problem sheet. Okay. Now let's uh look at some examples. So let's start with uh the fiber bundle P with which we start. Let's take the frame bundle. You remember LM was the frame bundle uh that was at every point of the manifold uh you look at a basis of the tension space and that okay so that's the well at all
+
+00:13:55
+bases that's then the the fiber that's the frame bundle okay now uh we know so we recall uh that if you have the fiber bundle then of course you have your projection map of the fiber bundle and so on and you have a right action. You have a right action of G L D comma uh uh yeah D comma R and this D is the dimension of the manifold M of the base space that underlies this frame bundle. You have such an action on the frame bundle and it is given by um acting on a frame which we write E from the right by an element
+
+00:14:59
+G of GLDR and that this is then so if we write here the ENT entire frame. So that's E1 to E D. And you act on this from the right by G. Uh that this is afforded by the new frame E. And you have a G um M1 E M G M2 E M dot dot dot G M D E M. So as a physicist would say as physicists would say uh you have a you have a frame now you have a basis of the tension space you act on it uh with a GL transformation a general linear transformation at every point and of course this is how the various basis
+
+00:15:57
+vectors frame vectors transform. So we discussed this before and back then in that lecture I told you you'll only grasp the full meaning or usefulness of this once we look at associated bundles. Well that is what we're going to do now. Okay. So this is the uh the principal bundle we started with. And now we let f in this example be simply the vector space or the smooth manifold which the smooth manifold r to the d is the same d is the dimension of this m this is going to be our fiber. So what we want to
+
+00:16:39
+construct we want to look now at an associated bundle over the base space M which is the base space for this bundle but with fiber RD. We already know such a bundle name the tension bundle right and but this is different because here I just tell you the fiber is RD. I have a principal bundle which is the frame bundle. I also need to provide now an action of the same group GLDR. So that's the um in this example this is what the group in our general definition is. I now need to provide you also with an
+
+00:17:15
+action but a left action of G on there. So um so that's the first ingredient. That's the second ingredient and the third ingredient is uh define a left action. Um, so that's this symbol that takes you from [Music] gl and an element of f back to f. And uh we define this by f being acted on from the left by a glr transformation. Um the result will again lie in f but f is an rd. So I can write down the eighth component A running from one to D. And I define this as G inverse the inverse
+
+00:18:24
+um GL transformation with components A B acting on FB. So what we're going to model here intuitively is of course precisely what we do so often as physicists. We say if we change the frame by this transformation then we must change the components of an element in the tangent space. If this is going to be the tangent space, we have to transform the components like this. Now when we looked at the tangent bundle this was a um this was a conclusion from the definition of the tangent bundle that components must
+
+00:19:14
+transform like this. Now looking at the associated bundle point of view over the principal bundle that's the frame bundle we define it we define the components to transform like this. Now you say okay seems a little bit complicated but the point is whenever you are allowed to define something because that's an ingredient I can provide when constructing such an associated bundle it means we could define it differently. Now we probably wouldn't end up with the tension bundle but something else but that's the point
+
+00:19:51
+here. This reproduce something we already know and next step we'll do something we don't know yet. Okay so that's the idea here. We provide this as an as an input. And now we are done because I provided you with a principal bundle with a fiber and a definite left action a specific left action of the same group that is uh are the fibers of the principal bundle uh on this f. So uh then L M sub RD pi down RD to M is yeah the associated bundle. Okay. So the example ends after you provide the ingredients for the
+
+00:20:51
+construction. Now however um there is a claim. So once you have this uh I have the following claim that there is a bundle isomorphism that takes you [Music] from from this thus constructed bundle. So l M sub RD pi RD down to M. Now I have a bundle morphism. You know a bundle morphism always consists of two maps. It consists of a map between the base manifolds. But there I use the identity. So it's a very special bundle map even bundle isomorphism m it m to the same base space that takes you from the such
+
+00:21:53
+constructed associated bundle to the well-known tangent bundle over here and that's the pi map of the tangent bundle. Okay. So this thing we just constructed and this guy we know and if I claim there is such a bundle isomorphism um I need to tell you by what map it is provided by it's provided by the map U. And so we need to take an element of the associated bundle. You remember uh this guy here LMRD this associated bundle this is simply the cartesian product of the underlying principal
+
+00:22:55
+bundle and the fiber we look at but not all of this. all of this mod the identification with respect to this um equivalence relation. Okay. And so the elements I need to take here are equivalence classes. And in this case, we take a frame E and an element of this fiber F and we send it to well this map sends this takes an element from here and sends this to F A E A and that's it because that's an element of the tangent bundle. Okay, because it certainly lies in some [Music] um yeah in some tangent space. So it's
+
+00:23:59
+an element of the disjoint union of all the tangent spaces. Okay. So now if you then consider the action of this uh of this group on the fiber, you see that if you change the frame with the trans with the transformation G, then the fiber element FA is changed in the opposite direction and this just cancels. So this is a an object that's in invariant under the action of the group G as it's is it as it is expressed uh by virtue of this equivalence class and that's precisely what we mean as
+
+00:24:42
+physicists if we say if you change the frame you got to change the component the opposite way. Okay so this is why this looks like this. So this is all pretty trivial and again it wouldn't be worth the effort here because we anyway know how it works here. But here again the interpretation is the other way around. Here you don't conclude that the components transform like this. Here you impose that they do. Whenever you have this chance you can do it differently. Okay. So that's uh the
+
+00:25:14
+first example. Yeah, sure. Yes, that's right. That's right. And that uh you can check that this that you can construct the the the map backwards because if you have a a vector in the an element in the cent in the tangent space, you have such a guy. Now you could choose an arbitrary basis. Okay, good. Okay, thank you for the question. Uh uh so um this is clearly invertible since um for any f since for any x Since for any x in tm that's not necessarily of this form at first. So for any x in m uh we can
+
+00:26:27
+choose ah so for any x in tm there first of all is a certain base point. So this um x at p we can choose a frame e such that x is fa ea so that the fs are the components of this guy with respect to the chosen bases and then uh You associate with X by virtue of what is it? U inverse. You associate with it the pair EF namely of the chosen frame and the thus extracted components. Okay. Now you worry because you made a big choice. You made a choice of frame in order to decompose the vector into components. However, the
+
+00:27:30
+choice of frame you have is a GLD transformation. This is invariant. So if I associ had associate with X the pair EF, not the equivalence class but the pair EF, this would depend on my choice of frame. However, I associated with it the equivalence class of the pair EF. And this definition of the equivalence class by virtue of this um equivalence relation I think it's still here on the blackboard by virtue of this equivalence relation exactly provides for all the other choices you could have made and
+
+00:28:13
+identifies all these choices that means this map is indeed independent the result is independent of the choice of frame. Okay. Uh this map is then independent of the choice of frame and that provides the inverse map uh Julian was asking for. So in other words, what Julian was asking for is the question um why in the from the point of view of the associated bundle, why can I choose an arbitrary basis in order to express my tangent vectors? This is the answer you're probably given in a less geometric course on tensors. A tensor is
+
+00:29:17
+whatever transforms like a tensor and the group it transforms under is the GL transformations unless you restrict them. We'll come to that later. Um anyway, and it is because we choose here the equivalence class. So this formalizes what is often said informally. And you see let me comment some some more. Um if you look at the definition of the associated bundle again what is new here if we think of say the tangent bundle as the associated bundle what is new that all of a sudden when we're talking about no it's this
+
+00:29:55
+blackboard I'm sorry so if you talk about the um tangent bundle in terms of this associated bundle over the underlying GLD principal bundle what is new is the involvement of this group GLDR you see here And if we just look at the tangent bundle, there is no talk about any group at any point. Here there is. And so in physics we sometimes say this is a GLD tensor or this is an SO3 tensor. It's a tensor with respect to rotations. It's a tensor with respect to lawrence transformations and so on or a vector. And all of a
+
+00:30:37
+sudden this group plays a big role. Now so far what what we did is we only looked at if you look at the tangent bundle we looked at tensors which physicists sometime calls GLD tensors that transform under GLD but what if you restrict the transformation if you look at Laurens transformations you look at the transformations of tangent vectors okay to world lines and but you don't allow any general linear transformation you restrict to only the Lawrence transformations Okay. Uh if you think about the tangent
+
+00:31:14
+bundle and you do this, you have to provide this somehow from the outside and saying, "Okay, look at this, but please only use Lawrence transformations because for the special question we're looking at, we want to consider this." Well, if you want to make this precise, you go to here and you take the frame bundle and everything all right, but you then try to restrict and we'll come to conditions under which circumstances is possible. you try to restrict the group you're using in the underlying bundle.
+
+00:31:44
+You restrict the group to whatever group you like if it's possible at all. Okay, so um that that's one thing that's routinely done in special relativity only looking at Lawrence transformations rather than general linear ones. But that only has its formally clear precise um place in this formulation of associated fiber bundles. So this is involvement of this group. Okay. So that's another point where this is important. So uh the uh second example like to look at is a straightforward extension of this. We
+
+00:32:21
+again consider uh the frame bundle of some smooth manifold M as the principal bundle. We again take the group of this principal bundle as GL D comma R and we still have the right action we had before. Same right action um of this GL on the LM as before. Uh and now as the fiber however we take uh P copies of RD. So P copies of those yet another cartisian product with Q copies of the duel. Q copies of the duel. And it's really here the star is now back there. We're of course going to write down an
+
+00:33:27
+associated bundle to the same frame bundle. Okay. But now we are writing down PQ tensors. Okay. Okay. So this is uh the fiber and we define a left action of GLDR on this fiber by um G acting on an element of F. um and the result will lie in f but f is a space of p copies of rd with q copies of rd star. So we have indices I1 to IP J1 to J Q and as I write the indices up down in this case is now again a new convention well it's the old convention we always had that we want vector components with indices up and co-
+
+00:34:36
+vector components with indices down okay but this is just a collection of numbers here at this at this point so we have to very strictly speaking reintroduced the same convention again because we're now dealing with with these guys. Okay. Um and we define this as aha and I in order to make it simpler well it doesn't matter uh I I can just now take the f um m ah yes yes. So this is the f i1 to i p all indices twiddled and j1 to jq all the indices twiddle so they're different indices and now every up index I
+
+00:35:30
+transform by g i i i g i1 i1 twiddle to g I P IP twiddle and then G J1 twiddle up J1 J1 down to G J Q twiddle up J Q without twiddle down and uh here I have to choose the inverse G. Now you might be worried whether it shouldn't be the inverse G's here and the G's there. Uh well but then you if you do that you have a G inverse here which is actually the the fashion in which we'll use it. So this is fine because you do this for every G and GLD. Okay. So this is nevertheless and that's my point here again that's the
+
+00:36:30
+definition you require no you now construct a bundle of objects defined by components if you wish because this is just a cartisian product such that these components transform under the group G which acts on the frame bundle the way we said before but now these components transform like this so of course you say oh yes that's the transformation law for the components of a pq tensor. Of course, we're recovering this this way. uh then uh lm sub okay now it's subf for this f uh tfm is isomorphic as a
+
+00:37:21
+bundle to um TPQM to what before we call TPQM which had projection map that is the uh PQ tensor bundle. Okay, so that that's now not a big surprise. This is just the uh extension of the previous example where we constructed the tangent bundle as an associated bundle to the frame bundle. Now we extend this to tensus. This is not very spectacular. Any question? Yeah, I'm a little bit confused with um the lower indic indices of the G. Why are you running them from from I the first G for instance has got um I1
+
+00:38:19
+on the top and I I right [Music] and then the The second G has um J1 twiddle on the bottom and on the top, right? No, no, no, no. This is an I. IP IP twiddle. J1 twiddle J1. Okay. I'm sorry. So these are J's. So from from from here on they're only J's twiddled and untwiddled. And yeah. Okay. Okay. I I think it looks right. So unless you Okay. No, no, I'm sorry. I was just confused with the IP there just a little bit like J. Yeah. Oh, I'm sorry. That's my my handwriting. Okay.
+
+00:39:10
+Okay. Fine. Good. Good. Okay. So, it's the PQ tensor bundle. So, having done all this, we now provide the third example and that one will be more interesting. So, finally, ah, but let me say one more thing to this construction. So again in physics we think about say you have some vector you have some direction and you say let's rotate the system right by a certain or rotate or transform to another frame by a certain amount but so this is something where that you do in the principal bundle no you you choose a G
+
+00:39:49
+and then you can rotate the frame and then if you understand the PQ tensor bundle also as an associated bundle to the same LM as you before understood the um the the the the tangent bundle as a specific associated bundle. The idea is that you rotate your frame and every associated bundle must follow suit. So you rotate a vector like this. That means at the same time you have to rotate all the tensors by the same transformation. Right? And we could also think about the spinner bundle. If then we took here for instance uh uh
+
+00:40:36
+C C4 for the der spinners or something like that. The only problem we then have that before we do that we need to restrict this group here to uh uh to a rotation group. Okay, that we can't do yet. But the idea is then you would also transform the spinners the same way. Okay. So it always depends on so if we took the frame bundle here but the S so S13 frame bundle or SL2C frame bundle uh over spacetime uh you could then say okay if you rotate vectors this way then you have to rotate spinners this other
+
+00:41:12
+way but this is always provided by the left action of the group you have let's say SL2C for the spinners for the relativistic spinners how the group acts on the various associ associated bundles you defined. So there's this one principle bundle defining the frame and if you do a transformation there in all the associated bundles things the objects follow follow suit right that's of course exactly the way we think about this stuff right because otherwise what is the point of changing if you change
+
+00:41:45
+the the basis in your tangent space who on earth instructs you to change the basis in your say uh PQ Q tensor space the same way because they're different spaces you can choose bases as you like right so who tells you that you have to do this at the same time well if you want to do this formally if you want to impose this formally you say well consider all these tensor spaces as the associated bundles the respective associated bundles over the same uh frame bundle okay that that's the idea so you see this ties together lots
+
+00:42:25
+of stuff that we always say do this at the same time. If this transforms like this, this transforms like that. Uh well, this is the formalization of this. Okay, but so uh all of this just reproduces stuff we already knew. But now comes the uh example C and that amounts to a [Music] definition amounts to a definition of tensor densities. So again um lm p is lm g is gl over r. And again F is these components P copies of RD and Q copies of RD star. So the elements of the fiber look precisely like here. So if I write down an element of
+
+00:43:36
+the fiber, it has this kind of shape. It's given by an array of numbers of this form. But now we modify something. But now we modify the action the left action of the group on this fiber. Left action of the group G L group G on F. namely G now acting on F must again of course produce an object I1 to IP J1 to J Q because that's what an action does and at first it looks like it's the same it's I1 as before I1 to IP J1 to JQ and now we twiddle all the indices And write again G I1 I1 twiddle to G IP
+
+00:44:43
+twiddle and then G inverse J1 twiddle J1 up to G inverse J Q twiddle J Q. So that's exactly what we wrote down before. If we left it like this, this would again be a bundle isomorphic to the PQ tensor bundle. But now we do something new. We write here in front another factor namely determinant of the G um of the G inverse. Let me think for a second. I think it's determined of the g inverse to a power omega for some omega and uh traditionally one would probably choose this to be uh a an integer in z but some people now also
+
+00:45:50
+consider them uh consider arbitrary numbers at least in Q or in R here but let's stick to this for some omega in Z then and now we cannot claim that this is isomorphic to some bundle we already know because we don't know that bundle yet then so we we have to call this guy then lm sub this f pif m which only is distinguished from this bundle here from this LMF pif down to M by the fact that the left action of the same group on the same fiber now picks up such a factor um is called the tensor
+
+00:46:47
+density bundle um over m and uh the omega we should call this the tensor omega density bundle over m and call the pq tensor omega density bundle. Obviously for omega to zero this factor goes away and we recover the tensor bundle. So a pq tensor is a pq0 density bundle. Another limit case is if these fs here if there's just a real number here one real number it's a different fiber. um but then the f is kept invariant and only scaled by this we would call a scalar density. Okay so maybe we write this
+
+00:47:53
+down as the uh last example because it formally doesn't exactly fall under this. So similarly uh choosing f to be just r and the left action of gl on f. So which is r uh defined as g left on f is simply defined as the determinant of g inverse acting on f uh times f. But now f is just the one component in here. Okay. uh one obtains the scalar density bundle. Okay. So sections of this bundle would be scalar densities, a scalar density field as sections of this bundle here would be PQ tensors and sections of
+
+00:49:04
+this bundle here are PQ tensor omega densities. Okay, good. And I think I mentioned densities before with this determinant. I think we talked about this at some point but this is the precise bundle theoretic way to think about densities. Okay, good. And this you need and you see the point about densities is that um the determinant of G inverse isn't necessarily one um unless you restrict the group to a to um a group where this is already given that the determinant is one. For instance, if you um choose as the group
+
+00:49:46
+not the general linear group, but you use the orthogonal transformations with respect to symmetric, they have determinant one and then you don't see the tensor property. Okay, which is one of the reasons why these tensor densities do not seem to appear say in special relativity where we usually restrict uh the um transformations to say the Lawrence group which is an orthogonal group with respect to the Minkovsky inner product then you don't see this stuff but many objects that there you treat as a tensor are actually
+
+00:50:18
+tensor densities and only because the group is restricted you don't pick up this determinant factor okay so that's the um that's the whole Yeah. Are there any are there any specific uh cases in physics where you do really see this? Oh yes, definitely. Uh you see this if you um we didn't do integrals yet, but if you want to um integrate a function over a manifold, okay, um and say the manifold carries a metric, uh you you can only integrate over densities because your integral. So
+
+00:50:55
+this is informally. Yeah. So informally we're going to do this more precisely. Um if you write down an integral d to the 4x obviously you can only do this in a chart. We have already chosen a chart because in the manifold you so you do this. And now if you just take a function f of x1 to xd also with respect to this chart and you want to define by this you could say well so you do this over aha so let's assume the whole manifold is covered by one chart if it's not we have to do a partition of
+
+00:51:34
+unity and so on but let's assume the whole manifold is covered by one chart and you want to calculate the integral of a given function over the entire entire manifold. So you want to define something like integral over the entire manifold of a function f. Let's assume we want to do this. Okay. So that's something you want to write. This d forx is just this is already in the chart. Okay. If you push this down to a chart there, you can do this. But now assume you had chosen a different chart. You
+
+00:52:06
+know what happens then? If you choose a different chart, you pick up by the rules of integration in the chart which is analysis on RD. Uh you pick up a Jacobi determinant of the new chart map with respect to the old one. Right? Now that's of course a disaster. Well, you would then replace this by another function here. But that's in a sense a disa not in a sense is a disaster because this changes the value here. So what you need to do you need to cancel this guy. So what you actually want but
+
+00:52:41
+this here is the transformation of chart. So this is the g here. And if now this f is not a function but it's a function density. So it picks up what we wrote before picks up just this determinant factor. this under the same transformation of chart will pick up this guy that's sdg inverse and those will cancel and the result is so I put a twiddle on top in order to indicate a density you cannot integrate a function you can only integrate a function density so this is the informal bit if
+
+00:53:19
+you want to make it very clear what you have to do here you have to integrate over forms and you use a volume form which is automatically a density and so on. So, so we're going to do this later, but but the point is you very often want to look at density. So, you probably also in field theory talk about the lrangeian density. No, it the lrangeian density is indeed a density. Okay, it's not a scalar, it's a density because you integrate over it. But then, okay, so you got to be careful there. Okay, so so
+
+00:53:51
+this appears everywhere. certainly everywhere where you integrate over a manifold push it to a chart but in order to have something well defined you need to understand densities it's also and that's that's the same thing if you think of general relativity I don't know whether you attended that lecture but if you write down the Einstein action you write here debt g something like this times the richy scalar and the point is that this debt G is a two density because uh you can check how the
+
+00:54:31
+G transforms is a tens and you have the determinant of it and you have a debt of now let's assume okay this G is now misleading so here the G was the G of the of the group let's write a capital G for the space-time metric now you can check how the space-time metric transforms under transformations of the general linear group so these transformations are now given by G A M GBN. We know that it does it like this because this is a tensor. But now you can use the rule for determinants. You find this determ GAB times the
+
+00:55:07
+determinant of this G. But you had two of those. So it's this squared. Uh so you pick up a squared factor here. So this is a density of weight two. This omega is called the weight of the density denser densities of weight too. Okay. So this appears everywhere where you integrate over manifolds and you push it to a chart. Okay. But again the very precise definition of um of integrals uh requires us to integrate over forms. Let me briefly clear up some some confusion. There was a question in the
+
+00:55:52
+break. Um we defined the left action of G on a fiber say in the context of example A wrong. So this is add example A. Um and I said well because the fiber is uh RD uh we define this as G inverse A B FB. Well, if you really want to get this together with what I said before at this point, I think you need to remove the in g inverse because uh you remember that here the equivalence classes PF uh they were defined uh such that the right action of the G so not this left action but the right action of G on the
+
+00:56:35
+principal bundle together with the left action of G on the fiber but there we already put the G inverse that this actually needs to Um if you send this via this map don't remember how I called it U maybe if you send it via this map U to um the so let's do it here by U to F uh B E which in this special example the principal bundle was given by the frames okay such that this is an element of the tangent bundle in a well- definfined way but obvious Obviously um with our definitions before we need G inverse
+
+00:57:20
+here in order to then have a G inverse um B M FM and here a G uh N B en that only works if this G inverse here goes against this one. But in order to have this because we put the extra inverse here, you have to lack the inverse there. Okay, so there was a confusion and in the the other examples I provided, I think I did it the right way. But anyway, the the ultimate check is whether these transformations cancel such that if you use this map, you get back an element of in this case the tangent space, the tangent bundle.
+
+00:58:07
+Okay. All right. So now what did we do? We defined a new construction for bundles starting from a principal bundle choosing a fiber and a left action of the principal bundle group on that fiber and that is we saw that from this we construct uh a bundle a fiber bundle with fiber f. Now we've discussed bundles before but these uh associated bundles are special bundles because they can be constructed from a principal bundle. So there is more structure to these associated fiber bundles than there is to fiber bundles. Okay. So also
+
+00:58:48
+the the tangent bundle considered as an associated bundle to the frame bundle that was our example is a bundle that has more structure because the structure group is in there and whenever we have more structure and we look at structure preserving maps as we always do for all our objects we need to take this structure into amount into account. So therefore um we'll now define again bundle maps but now maps between associated bundle and these will be called uh associated bundle maps. So an associated bundle
+
+00:59:29
+map rather than just a bundle map an associated bundle map um between two um associated bundles which share or sharing the same fiber. sharing the same fiber but uh being associated to uh arbitrarily different arbitrarily different respective principle bundles. um no uh to arbitrary different respective G principal bundles. So both principal bundles also share the same group an associated bundle map. uh u U twiddle uh F twiddle. Now let's call it H twiddle. We always twiddle H twiddle. Um so let's uh write down. So we have
+
+01:01:02
+principal bundles P and P prime. So how that how does that work? We have a P subf is the associated bundle to this first principal bundle down to a base manifold M. And we have another P prime F which however projects down to another M prime because this P prime principal bundle may have a different base space. Um and then the bundle map U twiddle H twiddle sits here an associated bundle map between two associated bundles. Uh yeah. Um is a bundle map. No. Yeah. No. Is a um Yeah. Is a bundle map. So no talk about associated bundle
+
+01:02:09
+map is a bundle map um which can be constructed from a principal bundle map. Principal bundle map between the underlying principal bundles. So let's write down such an uh a map between the underlying principal bundles. So we have the principal bundle P down to M. That's the projection pi. We have another principal bundle p prime where with the projection pi prime we go down to m prime. These are the two principal bundles. But uh we also want the right action of g on this guy and we want the right action primed of the same
+
+01:03:18
+group g on this guy. So we arrive at P and P prime here. Okay. And so we say it can be constructed from a principal bundle map. And let's call this principal bundle map U and H. And you know that that's a pair of maps Q and H. Okay. And then of course this U appears up here again. From principal bundle maps. And let's recall quickly what a principal bundle map was. A principal bundle map is a bundle map. That means it respects this part of the diagram to commute. That means uh from here we get
+
+01:04:06
+uh pi prime after u is um h after pi. Okay, that we get from here. And that would be a bundle map. this principal bundle map it becomes a principal bundle map by only also respecting this up here to commute. That means by u of p act upon from the right by the unprimed right action uh with a g that this is the same as first mapping the g with a p and then using the primed right action of g. Okay, for all P and P and uh for all G and G. Okay, again where are we? The sentence isn't finished yet. So an
+
+01:04:52
+associated bundle map is a bundle map. Well, these are two bundles. Uh is a bundle map. Okay. So certainly also here we already at this stage can require that uh u twiddle um okay here we need still pi f and pi primed f uh that u twiddle uh no that pi primed f after u twiddle must be h twiddle after pf. Okay, so an associate bundle map is just a bundle map which however can be constructed in a specific way from a principal bundle map which is this as and now I tell you how it needs to be constructed as U
+
+01:05:49
+twiddle. [Music] Um, you twiddle needs to eat an element in PF in the associated bundle. How does it do that? It takes an element in P and an element in F, but we take the equivalence relation so that the result lies in PF. And we need to be able to construct this huge riddle if it is to be an associated bundle map as u of p comma f and then the equivalence bracket. So we use this u to take the p element to an element in p prime and then this is the equivalence relation that defines this guy here. We lie over there. Full
+
+01:06:41
+stop. So now the sentence has ended. So principle associate bundle map is a bundle map with the additional property that it has to be induced from some principle bundle map in this fashion. And we also got to provide the H prime of P and F. And that is supposed to be the h that's the h down here of pi of p. And then this u prime u twiddle h tw twiddle has to take this shape. It's induced from here. Okay. And obviously by virtue of requiring that this uh is a principal bundle map, we take into
+
+01:07:35
+account the very specific structure of an associated bundle. Okay. So um the two remarks. Yep. eats and not You're right. You're right. You're right. This should eat an element. That is right. I'm sorry. I'm sorry. That was uh that was nonsense. Um well, if if it does this at all, it would first project, but of course, nobody wants this. Uh so it it eats an M and maps it uh it maps it the same way. This is the same thing down here. Thank you very much. That That's right. That's right.
+
+01:08:27
+Okay. So I should say for all P and P F and F and M and M. Another question. Good. So um remarks um two fiber bundles two F fiber bundles may be um well let's say maybe isomorphic um as bundles. Which means recall this means um there exists a bundle isomorphism between them. but may at the same time fail to be isomorphic. fails to be isomorphic as associated bundles. Which means there exists a an associated bundle isomorphism between them. And and that's the whole point of the previous definition. There are fiber bundles.
+
+01:10:33
+These associated bundles, the fiber bundles, but two fiber bundles that as bundles are the same are not necessarily the same as associated fiber bundles. Okay? Because there's more structure. So, so if this wasn't the case, then the definition would be vacuous. We could always use the um the fiber bundle definition uh for isomorphism or for for a bundle map. Uh but uh because this is the case, it really shows that there is more structure in an associated in a fiber bundle that arises as an associated
+
+01:11:09
+bundle. This carries more structure than a plain uh a plain fiber [Applause] bundle. So that's uh remark one. Remark two, when discussing fiber bundles, you remember we had this definition of a trivial uh [Music] um of a trivial fiber bundle and that is if there exists a bundle morphism. Oh, let's let's write it down. Recall that a fiber bundle fiber bundle an F fiber bundle um was called um trivial. If there exists existed uh a bundle isomorphism uh that takes your fiber bundle with
+
+01:12:16
+total space e projection map pi and obviously there is a fiber f. If there was a bundle map u let's call u twiddle h twiddle to um m cross f and this was the projection to the first factor remember this but this needed to be a bundle map and then we called this bundle trivial that was it okay um so and then uh we had that a principle gb bundle was called trivial. So fiber bundle principal G bundle was called trivial. If there was a principal bundle map, there was a principal bundle map uh that took
+
+01:13:21
+us from here to here with a U and then to P mod G where we modded out this group. Um if there was such if there was a principal bundle map of this type and remember that the the whole point of the principal bundle map was had it several times that there's a certain right action here and you also require not only that this be a bundle map here but also that there's this compatibility condition up here. We just wrote it down before. This is a stronger criterion. And um so but now here an associated
+
+01:14:09
+[Music] bundle is called trivial. Now it's not so convenient to define this again by a similar structure thing here. We simply say it's called trivial if the underlying is trivial if the underlying principle bundle is trivial. That's the definition. And then we can have it as a theorem that a trivial associated bundle a trivial associated bundle is a trivial fiber bundle. Okay, now that looks sounds funny because an associated bundle is a fiber bundle is a particular instance of a fiber bundle. So if you read this a
+
+01:15:31
+trivial associated bundle is a trivial fiber bundle, it seems almost like a tortology. Well, it isn't because if we say trivial associated bundle, we mean the underlying principal bundle is trivial. And if I then talk of it as a fiber bundle, I would use the I would look at the associated um princ uh associated bundle which is a fiber bundle and I can then show that this associated bundle is uh is isomorphic uh to its base space times the fiber m. Okay, it's a non-trivial statement. Triv bundle is a trivial
+
+01:16:09
+fiber bundle. uh but the converse does not hold. The converse does generally not hold. Well, it couldn't be decided because if you have a trivial fiber bundle, how do you know it's an assoc what associated bundle it is? Anyway, even if you knew this, it will not necessarily be that the underlying principal bundle is trivial. Even if as a fiber bundle the associate bundle is trivial. Okay. Uh and here the proof an instruction to the proof will be on the problem sheet. Okay. So this is a kind of
+
+01:16:55
+warning. Whenever you you handed a bundle and somebody claims it's trivial, you're going to ask, hang on, is this just a bundle? Is it a principal bundle? Well, then you will probably already know. Or is this the uh or do we consider this uh a specific associated bundle? In each of these three cases, triviality has another meaning. Okay. So, it's important to um to remember this. This is the usual business of refining uh the the maps between objects according to the structure they carry.
+
+01:17:34
+So now we come to an important theorem which again should clarify a lot and um that's the following. So let me call this important theorem at least it will be practically important and it will clarify what precisely is the difference between a section on some bundle and a function on some bundle. and it works only for associated bundles. But as we saw that's the case we're interested in very often. important theorem. the sections um sigma from M to PF of an associated bundle PF pfm are in one to one
+
+01:18:45
+correspondence are in one to one correspondence two and now it comes but whatever it whatever comes it will be a precise equ pre precisely equivalent idea of thinking about sections of an associated bundle. For instance, if we talk about sections of the tangent bundle, we know these are the vector fields. Sections of the tangent bundle, we will now if we consider the tangent bundle as an associated bundle, you know, we add some more structure and think about how the train frames transform. Then we will now be able to
+
+01:19:26
+think of vector bund of vectors vector fields in yet another way. Okay, for instance, so the sections of an associated bundle are in one to one to one correspondence two. Now it comes to f valued functions. Aha, interesting. So we always said that sections are not functions. They're locally. If the the bundle is locally trivial, you may be able to write it locally as a function, but globally it's not a function. a section. A section is a section. Okay. But now we'll be able if we have an associated bundle we'll be
+
+01:20:08
+able to understand a section on such an F5 fiber bundle as f valued functions on well you might guess it on the underlying principal bundle functions laala on the underlying principle whole bundle. So what does this mean? If if we think of a vector field, we cannot necessarily think of it as a vector valued function on on the manifold. I mean that's what we what our intuition is at every point of the manifold there is a vector. But a vector valued function that seems to be exactly this but it isn't because a section is not
+
+01:20:58
+that. But if we then go to the principal bundle and we attach to every point of the principal bundle an f a vector such a function directly translates to a function on the associated bundle. Okay. So, so that's kind of kind of interesting because you can always think of a section as a as a function but only on the underlying principal bundle. Okay. And um the the section is then given as so if you have this this fi um so proof I also put this on the problem sheet but I give you some hint already. proof on the problem
+
+01:21:48
+sheet. Um and uh the key idea and the other key ideas you can guess from there. The key idea is that the section so given a fi given a phi. So if you want to show this this way and it's an if and only if it's one one to one. So you you construct this given the five from P to F construct the section S subi because it's induced from this file um then a section from M to PF uh at a point X in M. define this as now we need a point in PF uh and that will consist of P fi of P because phi yields uh an
+
+01:22:52
+element in the fiber here and you need to say what f is what p is where p is any element in pi inverse of x and of course you have to show that this is well defined, simple and invertible. The invertability you need in order to ensure that it's one to one of course and uh here you show the invertability by explicitly constructing the inverse. Okay. Anyway, but that's the um that's this theorem and that's very important and it's so important that I think it's worth uh doing the proof yourself
+
+01:23:42
+because then you really will recollect the theorem in the future and on the problem sheet I'll also provide um examples for this applications for this. So then the uh the final uh uh um definition and theorem I want to provide for associated bundles is the following is the restriction and extension of bundles. So definition let H be a closed subgroup of the league group G. So now we're going to deal with associated bundles with respect to different underlying uh principal bundles. Well, first of all, we'll talk
+
+01:24:42
+about different principal bundles. So let H be a closed subgroup of G. Um, [Music] and P a G principal bundle and P prime an H principal bundle. So two principal bundles with different um with different with respect to different league groups but both over the same base space. Now if There exists. Well, could we talk about a principal bundle map between these two principal bundles? No. Because a principal bundle map we only defined before for two bundles with the same league group or between two principal bundles
+
+01:26:14
+where you have different lee groups but where you additionally given a group homorphism from one into the other. That's not the case here. Here we're given two league groups and one is the closed subgroup of the other. But a subgroup can lie in the other group in various ways and unless you specify how by a group homorphism you don't know how. So with the definition so far if I now continued writing if there exists a bundle a principle bundle more efficient d you would say we don't have enough
+
+01:26:48
+data to write this down and you'd be right and that's what we're going to do. It's going to be the definition. If there exists a bundle map, not principal bundle map but bundle map. Let's write it down. PI M one bundle P prime pi prime the same M. However, now here we have a right action of the G. Here we have the right action of an H of which we which is not related to the G by some group morphism. We just know it is a closed subgroup of G P P prime. If there exists a bundle map
+
+01:27:39
+Uh and bundle map as opposed to principal bundle map only means uh pi prime after U is H after pi. It's only this down here. But there is no I cannot even write down any condition here because I don't know how one maps to the other if there exists a bundle map. But now we need to write down a condition. So I couldn't you see if if I wrote principal bundle map I should have written U for any P on which a G acted should be um U of P upon which from the right but now I need an element in H but all I have is
+
+01:28:29
+an element in G. If I had a bundle morph group homorphism from G to H, I would use row of G. If row takes me from G to H or something like this, but I don't have that and all I can but I know that the G the H is a subgroup a close subgroup particular a subgroup. So I can play the game if I restrict here to H and then I only use the H here and that should be a primed action. that I use an H here and I require this not for all G but only for all the H in the subgroup of course for all P in P. Okay. So in a
+
+01:29:09
+sense this is a um a weakening an appropriate weakening of the idea of a bundle of a principal bundle map by requiring this only for the subgroup that this bundle this principle condition holds. Okay. If there exists amount map then okay I need forunately it's too big. Yeah. The h Yeah. Yeah. Yeah. Yeah. Yeah. Exactly. So, so here we can then again write an f here. If there exists a bundle map uf I just Yeah. Yeah. Yeah. That's right. I I just uh before I I switched to H because the F was used for the fiber. Now I have
+
+01:29:58
+got the opposite problem. So I revert to F here. Okay. Right. If there exists such a bundle map um okay I I moved the blackboard a little bit and continue here then ah come on. Okay. Ah then pi M is called a G extension of the H principal bundle. the um P prime pi prime M and at the same time well no a principal bundle and P prime pi prime M is called an H restriction. of the G principal bundle PM. Okay. So if one is the restriction, the other one is the extension. That's the idea. Okay. So we can only make restrictions
+
+01:31:38
+to closed subgroups. um or we can make extensions from closed subgroups if there exists such a bundle map with that property. And the question is when does it exist? But before we look at this uh question, let's think about what we're looking at here. There are different groups and um example. Uh we might want to look at something like this. We might want to look at S O D as a closed subgroup. So H chosen as SOD as a closed subgroup of G of GLDR. So we might want to for instance study principal bundles where the
+
+01:32:32
+transformations are only rotations and want to see whether there is a restriction of the uh original bundle that gets you there. So from the frame bundle with this group uh to uh the frame bundle with respect to that group. Okay. And the question is whether this exists. Maybe it is not always possible for any base and so on to restrict GLDR to S OD. In fact, it is. And if one thinks carefully about it, which now we don't have the time and I'll think to maybe put this on the problem sheet. The possibility to
+
+01:33:15
+restrict GLDR to S OD amounts to the question, can I equip a smooth manifold where you know not where you have GLDR? Can you equip a smooth manifold with a remmanion metric? It turns out this can always be done. Okay. Um, you could also ask the question, what about choosing the smaller group SO1D? Uh, which is certainly a subgroup of, uh, is also a close subgroup of G chosen as GLDR. So, can you equip can you restrict to say the Lawrence group? And it turns out no not always there are certain um obstructions that
+
+01:34:08
+can appear. So not every manifold can be equipped every smooth manifold can be equipped with Laurens metric but everyone can be equipped with a remmanion metric. Okay. Yeah. Yes. But I also went one dimension up. Okay. Thank you. That's right. Uh yeah that's right because of fear. Yeah you're right. That was inconsistent. Thank you. Okay. Okay. So, so that's the that's the questions there and um well theorem well that's a rather simple theorem but it's good to know um any H principal
+
+01:34:52
+bundle can be extended to a G principal bundle. So extended to a G principle bundle. Well, if H is a closed [Music] subgroup of G, well that is of course part of the definition. Um but we emphasize it again. Okay. So you can always make the group bigger a close. Yeah. bigger if it's in such a way that the group you had before then is a closed subgroup of the bigger group. So very roughly speaking extensions are always possible. There's no constraint on how you can extend. But now there is the theorem on
+
+01:35:53
+restrictions and that is a G principle bundle P PM can be restricted to a to an H principal bundle. If well the first condition is again uh obvious from the construction before. If H is a closed subgroup of G. Okay fine. That's not not the key thing. It's like here no. So can again put this in brackets. That goes without saying but it's meaningful to emphasize it. If the quotient bundle that's the main condition P mod H to M where you here use the canonical well there is another
+
+01:37:16
+projection map PI prime which however you can easily construct by going from P to P by age by the U canonical isomorphism for uh the respective equivalent relation. If this bundle has a cross-section, you remember we already before had this theorem that says um a principle bundle is trivial if it has a cross-section if and only if it has a cross-section. Remember that a trivial bundle is trivial. A principal bundle is trivial if and only if it has a cross-section. Now here from this PR G principal bundle we consider
+
+01:38:06
+this quotient bundle and if and only if uh that's if if and only if that's the interesting thing if and only if this quotient bundle has a cross-section. And so uh examples um well the two before know. So if I take here the examples uh one and two um L M so that's again examples one and two from before LM mod SO3 2M always has a cross-section and 2 lm mod s1 comma d minus one to m um may or may not have may not have a cross-section. So for instance if M is the sphere is the true sphere
+
+01:39:29
+uh then L l LS2 mod S O1 comma 1 which is a subgroup of GL2 which is the of course in this corresponding frame bundle the respective group so one comma 1 does not have a cross section or in other words um one cannot establish or equip the sphere S2 with a Lorenzian metric. What does this have to do with the Lorenzian metric? Well, if you take the frame bundle, if you take a manifold, you equip it with Lorenzian metric, you can constru you can construct an orthogonal frame bundle from that. So, sorry. So for a smooth
+
+01:40:43
+manifold M for which you have a lorenometric you can construct from it an orthogonal frame bundle. Okay. And then this works always but for some manifolds this cannot work. What and that cannot then be associated with the Lorenzian metric. Okay. So um so maybe here the conclusion is a little bit mysterious. Um but uh these statements here can be proven. It's not so simple uh to to study the obstructions here. So these examples uh uh are not easily checked. Okay. But nevertheless, they they are facts and and this is the key
+
+01:41:25
+uh this is the key theorem that tells you whether or whether or not you can restrict the group. And given how often we do this in in special relativity and maybe general relativity in order to establish spinners where we choose SL2C instead of SO13 and so on in four dimensions. Um this is an important theorem and there are again manifolds that can carry a lorenian metric but still LM by SL2C doesn't have a cross-section that means these manifolds are Lorenzian manifolds but they cannot carry
+
+01:42:01
+spinners. So not every smooth manifold can carry a Lorenzian metric but not any Lorenzian manifold even if you have made that hurdle can then carry spinners and these are important questions of whether a manifold has a spin structure or not and it therefore admits the uh definition of firmians or not. [Music]
+

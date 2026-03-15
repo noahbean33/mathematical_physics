@@ -1,0 +1,1920 @@
+# tactiq.io free youtube transcript
+# Topological spaces - construction and purpose - Lec 04 - Frederic Schuller
+# https://www.youtube.com/watch/1wyOoLUjUeI
+
+00:00:04.650 [Music]
+00:00:08.639 um today we'll uh start having a fairly
+00:00:12.000 good look at topological spaces based on
+00:00:14.799 our previous developments of set theory
+00:00:18.279 and as I announced last time topological
+00:00:21.240 spaces or a top establishing a so-called
+00:00:24.039 topology on a space I'll Define in a
+00:00:26.720 second what that
+00:00:28.640 is present the weakest structure you can
+00:00:32.320 establish on a set in order to have the
+00:00:35.239 two very important Notions of
+00:00:37.440 convergence and of continuity
+00:00:39.719 convergence of
+00:00:41.399 sequences of points on a set and
+00:00:45.320 continuity of maps between two
+00:00:48.440 topological spaces now the definition
+00:00:51.879 I'm about to give is at first side
+00:00:55.079 rather abstract on the downside on the
+00:00:58.480 upside it's extremely simple
+00:01:01.199 and this definition is the result of a
+00:01:04.479 historical development and I'll comment
+00:01:07.720 uh occasionally on that so um just take
+00:01:11.320 the definition as the simplest
+00:01:13.640 definition that after all uh
+00:01:16.040 mathematicians found to be of use in
+00:01:18.720 order to Define
+00:01:20.720 topologies so the definition of a
+00:01:23.159 topological space is as follows
+00:01:26.280 definition let M be some
+00:01:31.560 set and we know what a set is from
+00:01:33.960 axiomatic set
+00:01:36.600 theory
+00:01:38.399 then a choice so you see you have a
+00:01:41.640 choice here then a choice and this
+00:01:44.159 choice is called Curly o what is this o
+00:01:48.719 it's a choice uh it's a
+00:01:52.159 subset of the power set of M it could be
+00:01:56.360 the entire power set so a choice of
+00:01:59.119 subset
+00:02:00.479 of the power set of
+00:02:02.479 M is called a topology on
+00:02:10.038 M so this Cho is called a topology on M
+00:02:14.400 if and now three aums or three yeah
+00:02:19.760 conditions need to be satisfied the
+00:02:22.040 first condition is that you're not
+00:02:24.519 entirely free well you're not entirely
+00:02:26.160 free in your choice that's the idea of
+00:02:27.840 these three axioms and one condition is
+00:02:30.959 that certainly the empty set which is an
+00:02:33.800 element of the power set of any set must
+00:02:36.519 be in your pick of
+00:02:39.959 topology and likewise the entire set
+00:02:44.599 must also be part of your choice if you
+00:02:48.560 don't do that you already have no
+00:02:51.239 topology chosen the second condition is
+00:02:55.360 if you have two sets u and v that are
+00:02:59.879 already in your choice said this I want
+00:03:02.280 this one and that one well if you did
+00:03:04.640 that then it's a
+00:03:06.959 requirement that their
+00:03:09.239 Union I'm sorry that their intersection
+00:03:11.840 very importantly that their intersection
+00:03:15.000 is also
+00:03:16.799 in uh your choice and you know that uh
+00:03:20.239 we had this funny way of writing unions
+00:03:22.920 in intersections like the intersection
+00:03:25.799 and then you need to provide an entire
+00:03:28.200 set that contain contains the sets you
+00:03:31.319 want to intersect so um well anyway I
+00:03:35.200 first finish the statement the
+00:03:36.680 intersection of these two sets is then
+00:03:39.640 required to be also part of your choice
+00:03:43.040 you cannot choose u and v but not the
+00:03:45.280 intersection you have to um choose that
+00:03:47.799 tool
+00:03:49.360 and in
+00:03:51.159 kindergarten you wrote this U
+00:03:54.000 intersected V and of course if you wish
+00:03:57.040 you can still Define the intersection of
+00:04:01.400 say two sets here this way but uh from
+00:04:05.599 the last problem sheet we established
+00:04:08.200 this intersection in similar fashion to
+00:04:10.879 the union symbol and the the idea here
+00:04:13.720 is that you can only intersect you could
+00:04:15.959 intersect infinitely many sets not a
+00:04:18.399 question but you cannot intersect more
+00:04:21.320 sets than fit into a
+00:04:24.000 set
+00:04:25.800 okay anyway that's this uh here and the
+00:04:29.440 third
+00:04:30.680 condition is if you have a collection of
+00:04:34.720 open sets so here I took
+00:04:37.120 two but now I take an arbitrary
+00:04:41.639 collection of open
+00:04:44.280 sets Okay um then the requirement is
+00:04:49.120 that the union of this arbitrary
+00:04:52.560 collection not two not finite arbitrary
+00:04:55.479 collection that this Union again lie in
+00:04:59.120 your pick of sets we could have written
+00:05:03.080 this more in a more parallel fashion if
+00:05:05.520 I had
+00:05:07.120 written um curly brackets around UV that
+00:05:10.639 would then be a set be a subset of O if
+00:05:13.800 two lie in there they continue they
+00:05:15.800 build a subset of this set um
+00:05:22.160 anyway right so if these three
+00:05:24.840 conditions are met then the pick you
+00:05:27.199 made the choice you made is called a
+00:05:30.960 topology that's it that's
+00:05:33.800 all now before I um elaborate on that
+00:05:38.720 more uh let me make uh an important
+00:05:47.280 remark um
+00:05:51.720 unless the set M only contains one
+00:05:57.840 element there are many different or
+00:06:01.960 they're
+00:06:03.120 different and usually many different
+00:06:05.960 topologies
+00:06:09.520 o one can choose on one and the same
+00:06:19.400 set so it's a real
+00:06:23.680 choice and uh we can have a little table
+00:06:26.440 so if the
+00:06:28.160 um card it of the set M so this is for
+00:06:31.680 finite sets is one then how many
+00:06:37.039 topologies can you have so it's the
+00:06:39.479 number of
+00:06:42.520 topologies one can have uh well if you
+00:06:45.280 have one you can only have one topology
+00:06:48.000 because you then always have to take the
+00:06:50.080 set M itself it consists of just one
+00:06:52.000 element that's this you take the empty
+00:06:54.160 set and there are no other choices you
+00:06:55.720 can make but already if you have if the
+00:06:57.960 set M has two elements
+00:07:00.240 there are four different choices for the
+00:07:02.680 topology you could make if the set M has
+00:07:06.599 three then there are
+00:07:08.879 29 choices for the topologies you can
+00:07:12.160 make if M has four you have
+00:07:15.800 355 choices is M if m is five you have
+00:07:21.319 6,942 choices if m is six you have uh 2
+00:07:26.479 95 2 7 choices or 2
+00:07:32.000 9,527 choices and if you if the set M
+00:07:35.280 has seven elements you have
+00:07:39.000 um 9, 535,000
+00:07:43.280 241 choices and you see already for a
+00:07:46.759 seven element set it's an extreme number
+00:07:50.319 right and
+00:07:51.879 obviously if you have an infinite set
+00:07:54.599 there's an infinite number of
+00:07:57.400 choices uh for the topology
+00:08:00.039 you could establish on that
+00:08:02.360 set so it's a real choice you have and
+00:08:06.280 depending on what topology you have your
+00:08:09.400 notion of continuity and convergence
+00:08:12.000 continuity of uh maps and convergence of
+00:08:14.879 sequences which we're going to define
+00:08:17.039 solely in terms of the topology will of
+00:08:20.199 course
+00:08:21.039 change I'll present examples for that
+00:08:25.440 now however let's first start with basic
+00:08:28.520 examples for topology to get familiar
+00:08:31.280 with the concept to become familiar well
+00:08:35.279 let's set let M be any
+00:08:38.000 set on any set we can choose the
+00:08:42.240 topology to consist of just the empty
+00:08:45.720 set and the set itself why is this a
+00:08:48.360 topology well the first axim is clearly
+00:08:51.519 satisfied the second axim we have to
+00:08:53.880 consider whether the intersection of any
+00:08:56.880 two is again in o
+00:09:00.040 the intersection of any two elements in
+00:09:01.640 O is again in O well the intersection
+00:09:03.120 with empty with empty is empty is in
+00:09:05.839 there already intersection of empty with
+00:09:08.560 m is empty well empty is already in
+00:09:11.680 there the intersection with of M with
+00:09:13.640 empty well that's symmetric that's again
+00:09:15.240 empty intersection of M with m is M oh
+00:09:18.040 but m is also already in there it's the
+00:09:20.120 second one and the third axm is we have
+00:09:22.320 to see whether arit are again in there
+00:09:24.839 well that's also true because the only
+00:09:26.240 possible unions you can get are either
+00:09:27.640 empty or all of M but empty and all of M
+00:09:29.880 are already in there trivially and so
+00:09:33.079 this is a topology is a
+00:09:38.800 topology
+00:09:40.560 topology and this is for any
+00:09:43.120 M and this topology has a name it's
+00:09:45.880 called the a
+00:09:47.560 chaotic chaotic
+00:09:51.399 topology why it deserves that name we'll
+00:09:55.200 see in a second you already guess it it
+00:09:57.880 won't be very useful it's only useful as
+00:10:00.399 an as an extreme example but sometimes
+00:10:03.360 the extreme examples teach you a lot as
+00:10:05.079 you know now another extreme example is
+00:10:08.560 M the any
+00:10:10.720 set and you can choose the uh you can
+00:10:14.880 make a pick that you say I take just any
+00:10:18.160 subset of M that is there so you choose
+00:10:22.720 the entire power set is this again a
+00:10:26.120 topology well obviously the power set
+00:10:28.000 contains any subset so the empty set is
+00:10:30.240 in there the full set is in there first
+00:10:32.440 ax or any two elements of the power set
+00:10:35.800 the intersection is again of course in
+00:10:37.720 the power set because the intersection
+00:10:39.360 of any two subsets is a subset and the
+00:10:41.399 same is true for the union the union of
+00:10:43.560 any arbitrary collection of subsets is
+00:10:47.000 of course a subset of
+00:10:48.720 M trivially also a topology is a
+00:10:54.399 topology on
+00:10:56.240 M and this is called the discre
+00:11:03.839 topology discrete in the sense of
+00:11:06.040 separated not discret in the sense of um
+00:11:10.240 um well you know the moral sense okay so
+00:11:15.639 that's the discrete
+00:11:16.920 topology and um by the way I should have
+00:11:19.720 mentioned um okay so let's go back to
+00:11:23.040 this Blackboard
+00:11:26.360 um the
+00:11:28.240 pair it's just terminology but it's
+00:11:30.959 important terminology the pair where you
+00:11:34.079 have the set and you also provide a
+00:11:36.560 topology is then called a topological
+00:11:40.720 space called a
+00:11:45.600 topological space and there you see the
+00:11:48.120 first real instance of what I very
+00:11:52.000 abstractly last time uh describe as a
+00:11:54.839 space is a set with some additional
+00:11:58.320 information
+00:12:00.399 provided in this case a collection of
+00:12:02.680 subsets or a choice of subsets of the
+00:12:06.519 set so this is the second example here
+00:12:10.079 this is the um the discrete
+00:12:13.800 topology
+00:12:15.760 now in these two cases we provided to
+00:12:20.040 topology by hand oh I should also give
+00:12:22.320 well let me give yet another example a
+00:12:24.720 very down toe example maybe it should
+00:12:26.440 have been the first example let's take
+00:12:28.639 the set with three elements 1 2 3 we
+00:12:31.519 know we have then a choice of uh of 29
+00:12:35.680 topologies um but we pick one of those
+00:12:38.320 well at least we try we choose as the
+00:12:42.560 topology or the would be topology the
+00:12:45.279 set containing the empty set we know
+00:12:47.199 there's no other choice containing the
+00:12:49.199 individual elements one and two sets
+00:12:51.880 with elements one and two but not the
+00:12:53.880 one element set with three uh then the
+00:12:56.680 set one two and the set one 2 3 which is
+00:13:01.000 of course the set M
+00:13:03.480 itself so because of empty set and M
+00:13:06.720 being in there first axim is satisfied
+00:13:08.880 what about arbitrary
+00:13:10.959 intersections this with this is empty
+00:13:13.720 this with this is this again this with
+00:13:17.040 this is this again okay you okay not
+00:13:19.320 very helpful by me saying this and this
+00:13:20.760 is this again but you can check okay any
+00:13:23.839 intersection already lies in there of
+00:13:25.639 any two and any arbitrary Union of those
+00:13:29.279 also already lies in there so again this
+00:13:31.959 is a topology and this doesn't carry a
+00:13:34.279 name uh because it's not that
+00:13:36.360 interesting okay but it is a topology
+00:13:39.279 you can find many others on one two
+00:13:41.040 three for instance Thea chaotic one for
+00:13:43.399 instance the discrete one and so on okay
+00:13:47.360 right so um these are these examples now
+00:13:52.000 let
+00:13:52.959 me then come to
+00:13:56.800 the example that's probably most heavily
+00:14:00.079 used and that underlies the
+00:14:04.000 constructions on the real numbers we
+00:14:06.480 usually make for convergence and
+00:14:08.600 continuity but in this case we have to
+00:14:12.000 well it's I guess it's just another
+00:14:13.519 example but it's an extremely important
+00:14:15.519 example um
+00:14:19.399 important and heavily
+00:14:21.320 [Music]
+00:14:23.519 used
+00:14:26.480 example is the example where the set we
+00:14:29.240 are considering are the real numbers um
+00:14:33.560 or let's even take the real numbers to
+00:14:36.079 the D power which is of course just R
+00:14:39.680 cross cesium product
+00:14:41.959 r d
+00:14:45.399 times that's the definition of Rd and
+00:14:48.040 you know what the cartisian product is
+00:14:49.800 from our developments in set theory now
+00:14:52.880 the question is what topology could we
+00:14:56.079 equip the real numbers with well for for
+00:14:59.160 instance the chaotic topology or the
+00:15:02.320 discrete topology as extreme
+00:15:05.199 cases and but there is one very useful
+00:15:08.680 topology uh and that's the following and
+00:15:11.639 that's called the standard topology o
+00:15:16.880 standard uh on
+00:15:19.240 RD well that's a funny name and in
+00:15:23.720 contrast to the examples I provided so
+00:15:26.040 far where I completely enumerated the
+00:15:29.000 elements I put into the into the
+00:15:30.680 topology so I made an very explicit pick
+00:15:33.720 The Pick of subsets of Rd that are then
+00:15:37.880 to constitute a topology is defined
+00:15:41.959 implicitly because I have to provide
+00:15:44.399 overc countably
+00:15:45.920 many at least in in this type of
+00:15:49.279 definition and um so proceeds in three
+00:15:52.560 steps so o standard is
+00:15:56.480 constructed in three steps
+00:16:00.800 the first step is that you define an
+00:16:04.079 auxiliary quantity and that is for every
+00:16:08.360 X in
+00:16:11.959 Rd and
+00:16:14.480 every number R in R plus so for every
+00:16:19.880 positive real number you
+00:16:25.240 define an object called B of x
+00:16:30.040 subr and
+00:16:32.519 um I first Define it and then we
+00:16:35.040 interpret it that's the set of
+00:16:39.040 all points Y in RDS of all D tupal of
+00:16:45.000 real numbers such
+00:16:47.920 that the
+00:16:50.120 sum of
+00:16:52.480 y i - x i in Brackets squared the sum
+00:16:59.920 from 1 to D so I take all the components
+00:17:04.000 of this Tuple so this Y is thought of as
+00:17:07.919 y1 to y d this ordered Tuple defined on
+00:17:13.480 the last problem sheet discussed and
+00:17:15.559 defined and then for good measure we
+00:17:19.000 take the square root out of
+00:17:22.679 here and we require that this be less
+00:17:27.119 than the number r that appear here is
+00:17:29.240 here so it's the X from here is in there
+00:17:30.960 the r from there it's for all Y in Rd so
+00:17:33.760 it's restricted comprehension we can do
+00:17:36.960 that we Define this funny
+00:17:39.880 set now of
+00:17:43.240 course this is usually written the
+00:17:47.799 norm of the difference between these two
+00:17:50.919 bolts and more precisely it's called the
+00:17:53.799 two Norm because you take squares of the
+00:17:56.919 differences and then you take the square
+00:17:59.240 root um you could also take a 2N Norm
+00:18:03.520 then you take here the power 2 N but
+00:18:06.080 then you also take the 2N root and then
+00:18:09.559 you got all of this in the 2 N Norm you
+00:18:13.600 can make your pick of n uh for some n
+00:18:18.720 and it will turn out for the definition
+00:18:20.760 of the standard topology it won't make a
+00:18:24.400 difference and um even if you take norms
+00:18:28.960 that cannot be constructed in this way
+00:18:31.440 you know they are funny norms for any
+00:18:33.520 Norm it won't make a difference uh what
+00:18:36.039 the resulting topology is that's a
+00:18:38.200 famous theorem but anyway um let's not
+00:18:42.240 be too General here we take n to
+00:18:45.600 one okay so we stay with the with the
+00:18:48.559 two Norm with the square distance and
+00:18:51.400 then the square root okay we Define
+00:18:54.039 these guys and now how are we to think
+00:18:56.240 of them well you already see uh this
+00:19:00.080 intuitively is is the open but that's
+00:19:04.440 just a name it's the open ball of radius
+00:19:10.919 R uh
+00:19:12.799 around the point
+00:19:15.720 x in Rd that's the intuition but it's
+00:19:20.200 just a set I just defined a set at this
+00:19:23.159 point this has nothing to do with
+00:19:24.880 topology it's just a quantity that's
+00:19:27.240 very useful
+00:19:29.520 now the second step is that I now tell
+00:19:33.320 you how to decide whether a set u lies
+00:19:38.440 in a top in the topology in the standard
+00:19:41.640 topology o standard on
+00:19:45.039 RD and we'll say that U lies in there by
+00:19:50.919 definition if for every Point p in U if
+00:19:57.080 you look at this set for any point p in
+00:19:59.120 U there exists a number a positive real
+00:20:04.240 number R in
+00:20:08.120 r+ such that the
+00:20:11.320 ball of such a radius R around the point
+00:20:16.799 P lies
+00:20:19.400 entirely
+00:20:21.919 within the set
+00:20:24.679 u that's it that's it so um that's the
+00:20:30.880 definition now
+00:20:36.280 intuitively this is like this so let's
+00:20:38.480 take um M to be R2 so I can draw a
+00:20:42.080 picture on the Blackboard and let's cons
+00:20:45.840 let's say the whole Blackboard plane
+00:20:48.200 infinitely extended is R2 and now
+00:20:51.159 consider the following
+00:20:53.120 set everything that's inside this dotted
+00:20:57.480 line but but the points on the dotted
+00:21:00.799 line do not belong to the set so the
+00:21:04.720 interior of this this be the set u
+00:21:07.520 question is the set open ah terminology
+00:21:12.400 the elements of the topology are called
+00:21:15.679 open sets that's why this is an O
+00:21:18.440 elements of the topology are called open
+00:21:20.360 sets it's just a way of speaking which
+00:21:22.120 makes it simple okay so U is an element
+00:21:25.799 of the topology or U Is An Open set if
+00:21:28.000 for any any point in U so blindly I pick
+00:21:31.320 one ah this one there exists a positive
+00:21:35.159 real number such that the ball of that
+00:21:38.840 radius around this and so I draw the
+00:21:41.240 ball and this is also a dotted line and
+00:21:44.440 the ball consists of all the points
+00:21:46.760 inside the dotted line why well because
+00:21:49.480 that's exactly the statement the
+00:21:52.039 distance square root for n equal 1 it
+00:21:55.279 looks like this is less than r that
+00:21:58.760 means it's really less it's not less or
+00:22:00.440 equal to than the boundary belong to it
+00:22:03.320 it's less than R okay so this is the
+00:22:07.159 nals 1 case that we want to focus on um
+00:22:12.799 now if you pick any other point even
+00:22:15.679 very close to this boundary here that do
+00:22:18.520 does not belong to it well you
+00:22:20.000 nevertheless will always find a radius
+00:22:23.279 such that everything the entire ball
+00:22:25.600 still lies completely within the setu
+00:22:28.559 that's
+00:22:29.520 obvious now if you had a part of the
+00:22:33.320 boundary at least that belongs to the
+00:22:36.240 set it's not dotted it's like this then
+00:22:38.960 obviously you could choose as a point P
+00:22:41.559 that point on the boundary but then no
+00:22:44.000 matter how small but still positive you
+00:22:46.840 choose r no matter how small you would
+00:22:50.159 always have a part
+00:22:52.799 here of that ball that does not lie
+00:22:56.039 within the original set then the set
+00:22:59.400 would not be open very clear is it it's
+00:23:03.279 very clear right now um because it's so
+00:23:07.600 funny the question is how do the open
+00:23:10.159 balls in n equals 2 look like so if I
+00:23:12.720 take the fourth power and the fourth
+00:23:14.640 root that also provides a norm you can
+00:23:17.760 check that and so let me draw again the
+00:23:20.760 set U or some set
+00:23:24.360 u that's U again another U now the
+00:23:27.640 question is how do the open bals for
+00:23:30.320 nals 2 look like well they look a little
+00:23:33.840 bit like the screens of old TV
+00:23:39.960 sets they're not Square they have still
+00:23:42.760 this round this round corners okay
+00:23:46.559 that's n equals 2 uh but still you see
+00:23:50.120 that yields the same topology because
+00:23:52.600 for every TV set there is if there's a
+00:23:55.559 point that has a TV set around it you
+00:23:58.559 could have a smaller circle around a
+00:24:01.240 smaller Ball but then for the smaller
+00:24:03.360 ball you could also have a smaller TV
+00:24:05.679 set and so on so what in the ball
+00:24:09.120 topology is um identified as open is in
+00:24:13.360 the TV set topology nals 2 also
+00:24:16.000 considered open and the other way around
+00:24:18.120 so it doesn't matter what n you choose
+00:24:20.520 that's the intuitive picture for that
+00:24:22.600 now if you choose n equal n even higher
+00:24:26.240 uh I don't know 10,000
+00:24:29.480 then the uh ball of radius R around the
+00:24:33.240 point P looks at the distance you are
+00:24:37.279 from the distance you are it looks like
+00:24:39.440 this but they're still very still
+00:24:42.240 very they're still a little bit round
+00:24:45.120 these edges and if you then take n to
+00:24:48.200 Infinity obviously you can't really do
+00:24:50.120 this but if n gets bigger and bigger uh
+00:24:52.679 you really arrive at these boxes but no
+00:24:56.159 matter how big n is every box contains a
+00:24:59.679 circle or a ball every ball can contain
+00:25:03.640 a box and so on and that then gives you
+00:25:06.520 the infinity
+00:25:08.000 Norm usually called the maximum Norm
+00:25:11.360 which uh can also be written more neatly
+00:25:14.000 without having Infinities there uh with
+00:25:17.399 absolute values but those are these
+00:25:20.159 boxes but the topology built this way is
+00:25:23.080 always the same so it doesn't matter
+00:25:24.679 which Norm you
+00:25:26.279 choose okay that's this this thing well
+00:25:29.559 now I said it proceeds in three steps
+00:25:33.159 well I still owe you the proof that this
+00:25:36.640 construction actually yields a
+00:25:38.880 topology so prove that this construction
+00:25:42.520 yields a topology proof that o
+00:25:47.520 standard
+00:25:49.240 Rd is indeed a
+00:25:56.240 topology so let's catch this
+00:25:58.760 the first thing we got to check is
+00:26:00.159 whether the empty set is in there aha
+00:26:03.200 how does this work so I need to check so
+00:26:06.120 I do this a little bit more carefully
+00:26:08.679 question is the empty set in O
+00:26:11.760 standard what do I need to do I need to
+00:26:14.039 check if for all p in the empty set ah
+00:26:20.240 it doesn't matter how this condition
+00:26:22.640 continues because for all p in the empty
+00:26:25.440 set we know that this is defined for all
+00:26:29.039 P for which p is in the empty set
+00:26:33.240 implies
+00:26:34.960 agree but p in the empty set is always
+00:26:40.000 false because the implication error is
+00:26:42.760 defined with the principle according to
+00:26:45.200 the principle X quot liit the whole
+00:26:47.840 thing is always
+00:26:49.559 true and because this predicate is true
+00:26:53.360 for any p p is a point now it's not a
+00:26:56.279 proposition therefore this is a
+00:26:57.760 predicate in P the all quantor the whole
+00:27:02.039 proposition is true that means yes it's
+00:27:05.919 in there so the empty set is in the
+00:27:08.799 standard topology ultimately because of
+00:27:11.000 the definition of the implication
+00:27:13.720 errow so the second condition we got to
+00:27:17.720 check no sorry still the first condition
+00:27:20.480 uh the question is is m in O standard
+00:27:23.600 the answer is yes because very quickly
+00:27:26.799 the essential idea well essential point
+00:27:29.080 is that any ball of any radius around
+00:27:32.960 any point in m is of course by
+00:27:36.039 definition a subset of M so any m is in
+00:27:39.760 there so the second thing we ought to
+00:27:42.760 check is if we got two sets in the
+00:27:45.640 standard topology we need to check
+00:27:48.080 whether the intersection is in
+00:27:50.840 there youu intersected V element of the
+00:27:54.279 standard topology question
+00:27:56.960 mark well
+00:27:58.799 so well the question is where this is
+00:28:01.320 really implied now let's start with the
+00:28:04.519 Assumption you in the standard topology
+00:28:07.279 means uh for
+00:28:09.600 every ah so we take consider I want to
+00:28:13.519 check whether this is in a standard
+00:28:14.799 topology so I take an arbitrary point
+00:28:17.600 out of the intersection what do I need
+00:28:19.880 to show I need to show there exists a
+00:28:21.720 ball of some radius around this point
+00:28:24.559 that lies entirely within this
+00:28:26.519 intersection how do I do this this well
+00:28:28.519 if I have a point in U intersected V
+00:28:31.600 that means I have a the point lies in U
+00:28:34.440 and the point lies in V by definition of
+00:28:37.399 the
+00:28:39.039 intersection but then because P lies in
+00:28:42.679 U and U Is An Open set that means for
+00:28:46.200 every um X in
+00:28:53.600 U okay do I need this um no I can be
+00:28:56.679 quicker that no I know there exists an
+00:29:00.720 r a positive real number such that the
+00:29:04.960 ball of radius R around this point P
+00:29:08.640 lies entirely within U because U is open
+00:29:12.960 but also there exists an R prime or an S
+00:29:17.519 also a positive real number such that
+00:29:19.720 the ball of radius s around P lies in
+00:29:25.200 V because u and v are open
+00:29:28.799 but then immediately it's clear that the
+00:29:32.519 ball of radius that's the
+00:29:35.360 minimum of R and S the smaller one or
+00:29:39.240 one of the two if they're equal around P
+00:29:43.799 this then lies in both u and
+00:29:51.679 v but that means it lies in the
+00:29:57.039 intersection
+00:30:01.840 ah so we found a radius we found a ball
+00:30:05.320 that lies in there that means um because
+00:30:09.000 we took an arbitrary point out of the
+00:30:10.840 intersection it means for any point in
+00:30:12.880 the intersection this conclusion can be
+00:30:14.960 drawn hence this lies in here so
+00:30:19.159 indeed this is
+00:30:22.960 correct and third well we're not always
+00:30:26.159 going to go through all steps just to
+00:30:28.600 demonstrate this once um let's assume
+00:30:31.519 that c is some collection of subsets in
+00:30:36.240 O
+00:30:38.080 so some set of sets in
+00:30:41.360 O and the question is is the
+00:30:46.159 union of C again in O well that's very
+00:30:50.320 simple because you pick any one set in
+00:30:54.519 C let U be an element
+00:30:59.039 in C then you
+00:31:01.320 know there exists because this is used
+00:31:04.919 in an open set there exists an r in r+
+00:31:09.200 such that b
+00:31:11.799 are well you know that for all p in U
+00:31:15.960 there exists an r in upas such that BR R
+00:31:18.760 of P lies entirely in
+00:31:22.360 U but then very clearly it lies also in
+00:31:27.720 the the union because it already lies in
+00:31:31.720 one the union of all the C because it
+00:31:34.519 already lies in one and this U is
+00:31:36.480 certainly a subset of the Union very
+00:31:39.559 simple that's it so this implicit
+00:31:45.440 construction is or provides are provides
+00:31:49.080 a topology under real
+00:31:52.320 numbers
+00:31:54.720 okay
+00:31:56.840 um
+00:31:58.760 okay ah I wanted to give this another
+00:32:02.240 section heading well now I provided as
+00:32:05.320 an example that's fine okay so then
+00:32:08.200 let's have
+00:32:11.279 2.2
+00:32:14.720 construction excuse me sorry let me see
+00:32:17.000 what
+00:32:17.720 I yes yes yes that's fine okay 2.2
+00:32:22.519 construction of new
+00:32:26.840 topologies
+00:32:31.279 from given
+00:32:37.960 topologies so once you have a certain
+00:32:41.320 toolbox a certain collection of
+00:32:44.000 topologies um mostly new topologies that
+00:32:47.720 you Custom Design in order to solve your
+00:32:51.440 problem or to address your problem are
+00:32:53.320 actually built from the building blocks
+00:32:55.519 you already have so it's a very
+00:32:57.000 important technique to know how to
+00:32:58.360 construct new topologies from given
+00:33:01.159 topologies and um we'll start with the
+00:33:04.240 notion of a induced topology on a subset
+00:33:08.200 so let
+00:33:09.200 M with o be a topological
+00:33:16.039 space and let U or let n capital N be a
+00:33:22.760 subset of the space m well if the space
+00:33:25.720 m let's say a proper subset
+00:33:28.279 proper subset of
+00:33:30.559 M
+00:33:32.200 then the following object
+00:33:36.200 o stroke down n that's a new symbol okay
+00:33:42.440 totally new symbol is defined as the
+00:33:45.240 following set is the intersection of U
+00:33:48.639 with n n being the
+00:33:51.440 subset for all
+00:33:54.039 you uh that lie in the topology
+00:33:58.399 I had on the bigger set on the set
+00:34:01.360 M then this thing is a
+00:34:07.000 topology well this is a theorem a
+00:34:10.520 definition slash theorem because there
+00:34:13.839 the claim is this is a topology where on
+00:34:17.119 the subset n and it has a name it's
+00:34:21.480 called
+00:34:23.320 the
+00:34:25.839 induced and sometimes one add add
+00:34:29.199 subset
+00:34:32.679 topology namely obviously it has been
+00:34:35.239 constructed from the topology on the
+00:34:37.159 bigger set by intersecting any open set
+00:34:40.040 on the bigger set with the subset such
+00:34:42.839 that the
+00:34:44.440 entire uh o is certainly a subset of the
+00:34:49.800 power set of n any of these guys is a
+00:34:53.359 subset of n clearly hence we have a
+00:34:56.679 chance that this is a topology because
+00:34:58.480 it's a subset of n in the first
+00:35:02.040 place so
+00:35:06.280 proof it can be boring to go through
+00:35:08.839 these proofs but um I think for the
+00:35:11.079 first two or three definitions it's
+00:35:12.640 quite useful to to get a feeling of how
+00:35:14.960 this works um so you you always ask the
+00:35:18.440 same questions you ask whether the empty
+00:35:21.200 set is in the topology induced on N uh
+00:35:26.040 and the answer is yes it is yes since
+00:35:30.240 you can write the empty set as the empty
+00:35:33.880 set intersected with n but the empty set
+00:35:36.920 is certainly an element of the topology
+00:35:39.359 on M hence it's a u of this type hence
+00:35:43.079 the whole
+00:35:44.520 thing is an element of the Inus topology
+00:35:47.839 by definition so the empty set is in
+00:35:50.200 there similarly you got to ask whether
+00:35:53.000 the entire Set n is in there uh yes it
+00:35:57.480 is is since you can write the entire Set
+00:36:01.160 n as n intersected
+00:36:03.599 n sorry as m capital M intersected n
+00:36:08.520 capital M is clearly an element of the
+00:36:10.839 topology of M by the first axim of the
+00:36:13.400 topology um but then because it has
+00:36:15.839 precisely this form the whole thing is
+00:36:17.960 an element of o n hence n lies in o n
+00:36:22.480 first thing checked second you look at
+00:36:26.079 the intersection u v element of this
+00:36:30.960 topology what about the
+00:36:34.119 intersection of the two um so you take
+00:36:39.000 look at U intersected V but you can
+00:36:43.599 because these are subsets of
+00:36:45.839 n because the this topology uh you can
+00:36:49.240 write them as U intersected
+00:36:51.480 n intersected V intersected n because
+00:36:55.480 they already subsets of n this doesn't
+00:36:57.920 change then you use here the
+00:37:00.040 associativity and so on so it's U
+00:37:03.000 intersected oh I'm sorry um I'm sorry I
+00:37:07.200 this was too quick uh
+00:37:09.200 obviously I run into trouble right
+00:37:14.160 now if I assume that U and N okay I
+00:37:17.920 wanted to squeeze it into this space um
+00:37:20.839 but you can't make a proof shorter only
+00:37:22.560 because the Blackboard
+00:37:24.720 finishes so um let's be more careful
+00:37:32.800 so obviously if I assume u and v are in
+00:37:35.119 the induced topology I first need to use
+00:37:37.520 the definition of the induced topology
+00:37:39.839 for the sets there and then I can draw
+00:37:47.440 conclusions okay so
+00:37:51.000 second so assume u and v are in the
+00:37:54.520 induced topology what we want to show or
+00:37:57.160 check is whether this implies that U
+00:37:59.640 intersected V also lies in the induced
+00:38:03.359 topology now if UV are in the induced
+00:38:06.960 topology this means that there
+00:38:11.200 exist exists an
+00:38:14.800 N ah okay now I run into this trouble
+00:38:18.839 there exists an an
+00:38:21.720 S you see in order to not entirely
+00:38:24.480 confuse you and me for that matter um
+00:38:27.200 let's say we have um s and t open sets
+00:38:31.160 and we want to check whether the
+00:38:32.319 intersection lies in there now what does
+00:38:34.440 it mean to be an element of o n it means
+00:38:37.599 there exists a u in the topology on o so
+00:38:42.359 that's the U up there such that s can be
+00:38:45.480 written U intersected
+00:38:48.040 n and T in there means there exists an
+00:38:51.280 open set V in the big space in the
+00:38:53.560 topology of the big space such that the
+00:38:55.920 set subset T of the small smaller space
+00:38:58.079 of the Subspace shouldn't say smaller I
+00:39:00.599 mean Subspace you know for infinite sets
+00:39:03.000 it's difficult to say what it means
+00:39:04.200 smaller it's a subset to be precise
+00:39:06.359 there is a v such that V intersected n
+00:39:09.440 gives you this space that's according to
+00:39:12.079 the
+00:39:13.680 definition okay so now then we consider
+00:39:18.680 s intersected T but then I know s is U
+00:39:23.319 intersected n and that's intersected V
+00:39:26.760 intersected
+00:39:28.680 n um and that is of course U intersected
+00:39:32.599 V intersected n but u and v were
+00:39:36.599 elements of the topology of the of the
+00:39:40.319 space m of the big space I continuously
+00:39:42.560 big and small of the big space so this
+00:39:44.680 is an element of O but you see if
+00:39:48.160 something is an element if you have an
+00:39:49.520 element of O intersected n then
+00:39:51.880 according to the definition the whole
+00:39:53.880 thing is an element of O subn So indeed
+00:39:57.560 s in O subn implies that s inter s
+00:40:01.160 intersected T is an element in o n okay
+00:40:04.920 yeah do you have shown that you're
+00:40:07.839 allowed to the step from the first L to
+00:40:10.359 the second this here no we haven't shown
+00:40:13.280 that you want it on the problem
+00:40:15.000 sheet okay can do it put it on the
+00:40:17.240 problem sheet yeah but it's it's clear
+00:40:19.680 from from kindergarten said Theory but I
+00:40:21.839 agree uh there many things you can prove
+00:40:24.839 yeah yeah that's true that's true so
+00:40:26.480 with our definition of the intersection
+00:40:28.359 but obviously our definition of the
+00:40:29.640 intersection from the last problem sheet
+00:40:31.480 in the case of finite intersections
+00:40:33.280 fully reduces to what you learned in
+00:40:34.880 kindergarten with sets um okay do you
+00:40:38.119 still do this today that in elementary
+00:40:40.240 school I say k but in elementary school
+00:40:42.000 you do still set theory today or you did
+00:40:44.640 that in school the in the 70s it was a
+00:40:47.720 big fashion and people uh and parents
+00:40:50.280 got very unnerved because they said oh
+00:40:51.839 my God it's mathematics I don't
+00:40:53.280 understand and so on but then there was
+00:40:54.359 cars and red cars and blue cars and the
+00:40:56.119 intersection of red cars and blue car
+00:40:58.359 was empty uh stuff like that okay good
+00:41:01.400 and and finally of course I'm not going
+00:41:03.359 to write this down now is you check the
+00:41:05.960 third Axiom that uh also arbitrary
+00:41:09.400 unions uh of elements in
+00:41:12.359 the induced topology lie again in
+00:41:15.040 induced topology so this is indeed the
+00:41:17.200 subet topology so let's have one simple
+00:41:19.720 example uh you can equip r with the
+00:41:23.119 standard
+00:41:24.560 topology okay and then you can look at
+00:41:29.400 as
+00:41:31.920 n um on n as what do I want to have uh I
+00:41:38.680 want
+00:41:40.720 the closed interval I use this coool
+00:41:44.680 notation you know how this is defined of
+00:41:46.599 minus one to one I mean you know what
+00:41:49.599 what set this is yeah okay I defined it
+00:41:52.160 uh so this is the set of all X in R for
+00:41:56.359 which we have uh min-1 is less or equal
+00:42:00.200 x is less or equal 1 okay so we have
+00:42:04.599 this interval and now we can equip the
+00:42:07.760 Set n obviously with o standard but then
+00:42:12.800 induced on
+00:42:15.319 n and my claim is as an example my claim
+00:42:20.079 is that the
+00:42:21.440 interval open zero to closed one that
+00:42:28.760 doesn't look open it has a a point if
+00:42:31.440 you judge this in the topology of of R
+00:42:34.760 this is a subset of R so you can ask
+00:42:37.160 does it lie in the topology is it an
+00:42:39.000 open set you'll find it's not an open
+00:42:41.319 set because it has this point on the
+00:42:43.559 boundary that's the argument from before
+00:42:45.720 okay
+00:42:47.680 but the very same set is also a subset
+00:42:52.240 of n it lies in this interval so it's a
+00:42:54.920 subset of N and I can ask whether in the
+00:42:57.240 induced topology on N it's open and in
+00:43:00.440 fact it is open because it can be
+00:43:02.640 written as um 0 to two
+00:43:09.079 intersected
+00:43:10.880 um intersected with minus1 to 1 you
+00:43:16.000 agree on
+00:43:17.119 that right so picture no don't you don't
+00:43:20.760 need a picture okay so this is this is
+00:43:22.440 fine this is this but 02 is an open ball
+00:43:26.280 well it's a
+00:43:27.880 uh it's open on in the standard topology
+00:43:31.240 on R intersected this guy is the Set n
+00:43:35.720 aha but any set that can be written as
+00:43:38.200 an open set in the bigger space
+00:43:40.319 intersected the Subspace whose in used
+00:43:43.160 topology you consider is therefore an
+00:43:46.440 element of the induced topology on the
+00:43:50.079 Subspace so a set can be
+00:43:53.920 non-open in the big space but
+00:43:57.240 nevertheless it can be open in the
+00:44:01.160 subset topology in the induced topology
+00:44:04.240 on some subset if it happens to be at
+00:44:06.440 the same time a subset of the
+00:44:08.319 subset okay so it's always the question
+00:44:11.520 is always it's open with respect to what
+00:44:13.960 topology even if this is a subset so
+00:44:17.119 must be careful not to draw too quick
+00:44:20.280 conclusions if one sees subsets in
+00:44:22.960 topology and judges the openness or not
+00:44:27.559 okay so I just used the term
+00:44:32.359 non-open and it's very tempting to think
+00:44:36.240 that
+00:44:37.280 non-open uh should be called closed well
+00:44:40.599 you could but you don't so in topology
+00:44:42.880 there's another
+00:44:44.359 convention uh in form of the definition
+00:44:47.599 a let m o be a topological space top
+00:44:53.680 space and um a subset
+00:44:58.440 C of
+00:45:00.359 M is
+00:45:02.280 called
+00:45:05.160 closed not if it's not an open that
+00:45:07.640 would be it's not the case it's called
+00:45:09.680 close closed if the complement of that
+00:45:14.839 set with respect to the whole set m is
+00:45:21.160 open okay the complement is
+00:45:24.160 open um yeah
+00:45:28.920 okay well example very quick example uh
+00:45:31.880 the
+00:45:32.640 interval uh Z
+00:45:37.599 one is
+00:45:40.240 closed
+00:45:42.040 in are equipped with the standard
+00:45:46.559 topology not because it has the well
+00:45:48.839 because it has these end points that
+00:45:50.640 just means it's not open but it's
+00:45:53.240 actually closed
+00:45:55.920 because R
+00:45:59.280 without the subset which is the interval
+00:46:04.000 from minus infinity to zero exclusively
+00:46:07.480 because the zero is taken out Union with
+00:46:11.240 zero no with one to Infinity exclusive
+00:46:15.400 the one because the one is taken out now
+00:46:18.800 this set is open in a standard topology
+00:46:22.000 because for any point in there you find
+00:46:23.720 a little ball that lies around it the
+00:46:26.000 same is true here but but it's the union
+00:46:27.640 of two open sets in o n so this is in O
+00:46:30.680 in O in O standard this is an O standard
+00:46:33.000 this an O standard arbitrary Union so
+00:46:35.480 certainly finite ones are in O standard
+00:46:37.880 ah so this is in O standard that means
+00:46:40.319 it's open because this is open that
+00:46:43.559 means this is closed by
+00:46:46.920 definition and so the warning
+00:46:52.000 is little warning sign
+00:46:55.599 um in
+00:46:59.040 General that means if we know nothing
+00:47:01.520 particular about the topological space
+00:47:03.640 so generic topological space for generic
+00:47:06.200 subset and so on in general a
+00:47:10.200 subset of a topological
+00:47:14.800 space can be a
+00:47:20.200 open B can be
+00:47:23.880 closed so or or
+00:47:27.720 it can be open and
+00:47:31.760 closed or four it can be
+00:47:35.319 open and not
+00:47:38.839 closed or five it can be not
+00:47:42.960 open and
+00:47:45.160 closed or six it can be not open
+00:47:51.520 and not
+00:47:55.839 closed
+00:48:01.160 meaning being open and being
+00:48:03.839 closed has actually nothing to do with
+00:48:06.960 each other other than via the
+00:48:10.720 complement but you cannot see an open
+00:48:12.839 set and then conclude anything about its
+00:48:14.800 closedness or you cannot see a closed
+00:48:17.079 set and conclude anything about its
+00:48:18.760 openness or in any of the other
+00:48:22.440 combinations however uh
+00:48:25.760 observation
+00:48:31.880 a the empty set can always be written as
+00:48:35.559 m without M that's right well m is an
+00:48:41.160 element of for so observation for any
+00:48:43.720 topological space for any m o top
+00:48:49.760 space the empty set can be written as m
+00:48:52.240 without M but M lies in the open set so
+00:48:54.640 m without M obviously this is recognized
+00:48:57.920 to be
+00:48:59.200 closed and B M can always be written as
+00:49:02.920 m without the empty set and for the same
+00:49:05.680 reason well actually this is open
+00:49:10.160 hence empty set is
+00:49:13.040 closed and down here this again is
+00:49:17.839 open because it's yeah uh hence uh the
+00:49:21.680 entire set m is closed but because the
+00:49:24.559 empty set and M are also both open
+00:49:28.000 the entire set and the empty set are of
+00:49:32.760 this
+00:49:35.040 type in
+00:49:38.440 any
+00:49:40.119 M they're all they're of this type
+00:49:43.000 they're both open and closed there's no
+00:49:48.480 contradiction we'll later on Define the
+00:49:51.559 notion of a connected topological space
+00:49:54.960 and you can prove that in a Connect Ed
+00:49:57.240 topological space the only sets that are
+00:50:00.720 both open and closed are these two so if
+00:50:04.440 you find this funny that this happens at
+00:50:06.040 the same time if you don't want this for
+00:50:08.280 some
+00:50:09.440 reason you can look at Connected
+00:50:12.040 topological
+00:50:13.680 spaces there then these two are the only
+00:50:16.400 ones but there's no topology in which
+00:50:19.040 this is not the case because it's a
+00:50:20.799 general
+00:50:25.640 property okay so uh let me give you a
+00:50:28.400 real life example where you use the
+00:50:30.640 induced
+00:50:38.000 topology um so assume you want a
+00:50:41.240 topology on the circle so
+00:50:45.280 consider the set first of all a set S1
+00:50:51.079 the set
+00:50:52.240 S1 um is the circle you all know what
+00:50:55.559 the circle is okay okay but I only think
+00:50:59.079 of the circle here as a set so as a set
+00:51:03.119 it
+00:51:05.799 uh this is a circle right it has no
+00:51:08.839 shape we'll only get a shape once we
+00:51:11.200 have a geometry remember our building
+00:51:13.760 where only at the very end you have
+00:51:15.119 geometry only if you have geometry you
+00:51:17.160 can talk about uh that well even this is
+00:51:20.359 already too much it's already a
+00:51:21.760 continuous Circle well we're coming to
+00:51:23.480 that but anyway as a set um it can be
+00:51:26.599 understood and you might find this um no
+00:51:29.520 fine you can Define this as a subset of
+00:51:32.960 R2 that's one possibility so you can say
+00:51:36.040 the circle is the collection of all
+00:51:38.359 pairs of real
+00:51:40.880 numbers um for which X2 + y^ 2 is say
+00:51:46.359 1 okay so if that's your definition then
+00:51:49.359 in R2 it really already looks like this
+00:51:52.079 okay
+00:51:54.000 fine and now the question is how do you
+00:51:56.640 establish a topology on the circle well
+00:51:58.839 one
+00:52:01.160 way to
+00:52:04.400 establish a
+00:52:08.640 topology on S without starting from
+00:52:13.880 scratch um is
+00:52:16.440 to let the topology on S A topology o on
+00:52:21.160 S is to define the topology as actually
+00:52:24.559 taking the topology the standard
+00:52:26.760 topology on
+00:52:30.520 R2 and induce it on this
+00:52:35.520 subset so how does that look like so I
+00:52:37.920 could ask the question um the set that
+00:52:40.760 is here the subset of the circle that's
+00:52:42.920 open that has not this point also this
+00:52:46.160 point is not there but all the other
+00:52:47.559 points in between belong to the subsid
+00:52:50.520 you the question is is
+00:52:52.960 this an open set in the induced topology
+00:52:56.599 what do you say yes or
+00:52:58.319 no is this U open in the induced
+00:53:01.520 topology on the
+00:53:06.079 circle yes right it is
+00:53:12.079 because there is this um well I could
+00:53:15.160 call should call this s also s because
+00:53:18.440 there's this set
+00:53:20.240 u that's an element of the standard
+00:53:22.960 topology on R2 whose intersection with
+00:53:26.640 the set s yields exactly the
+00:53:30.240 set
+00:53:32.160 right um is the empty set which is a
+00:53:36.799 subset of the circle is that an open set
+00:53:39.200 in the induced topology well we know
+00:53:40.920 that the empty set always is otherwise
+00:53:42.960 I'd say the empty set on here is the
+00:53:45.119 intersection of this
+00:53:47.200 circle with this open set in the
+00:53:49.640 standard topology okay and um the other
+00:53:53.280 question is is the set that has one
+00:53:55.200 point that consists of say just one
+00:53:57.280 point it's a subset of the circle is
+00:54:00.079 this one set point
+00:54:02.520 T So T is
+00:54:06.599 the is this set is this open in the
+00:54:10.280 topology I established in the
+00:54:13.200 circle no it is not because I cannot
+00:54:16.160 generate this point by any intersection
+00:54:18.720 of an open set in the standard topology
+00:54:21.040 out here and the
+00:54:23.480 circle right because if I if I'm outside
+00:54:27.480 that doesn't is not generated if I just
+00:54:29.760 touch the circle because the boundary of
+00:54:32.079 this subset is not there it's not
+00:54:34.000 generated and if I already cover it then
+00:54:36.359 I cover more than one point very simple
+00:54:39.520 so that's one way and another
+00:54:43.839 way is to proceed entirely differently
+00:54:47.559 namely to understand the circle as a
+00:54:50.079 quotient set last time we discussed
+00:54:52.480 equivalence relations and quotient sets
+00:54:55.359 I can take the entire line and I only
+00:54:58.160 look at the equivalence classes of
+00:55:00.280 points where two points in the real
+00:55:02.720 numbers are to be identified by a
+00:55:06.079 relation twiddle if and only if um uh x
+00:55:12.160 uh equals or Y =
+00:55:15.599 X + 2
+00:55:18.520 pi okay so any two points whose
+00:55:22.520 difference is 2 pi on the real numbers
+00:55:26.839 are to be identified that means you take
+00:55:29.319 the real
+00:55:30.480 line you start with zero but the point 2
+00:55:34.160 pi is actually to be identified with the
+00:55:37.200 zero okay and so you start again so this
+00:55:40.280 way you get the circle as a quo space
+00:55:43.119 and you can then study how you inherit
+00:55:46.319 from a topology on this set a topology
+00:55:49.559 to a quoti space I didn't show you how
+00:55:52.520 to do this what the induced topology or
+00:55:54.440 the inherit topology on the quo space is
+00:55:56.960 uh but that will be on the problem sheet
+00:56:01.960 topology
+00:56:05.559 inherited by the quotient
+00:56:10.359 Space by a quo
+00:56:12.960 space is the problem sheet a problem on
+00:56:16.160 the problem
+00:56:17.359 sheet okay so you see there's sometimes
+00:56:19.960 several ways you can do this but it's
+00:56:22.160 highly convenient to be able to be uh to
+00:56:25.000 build quoti spaces into inherit
+00:56:26.839 topologies here subsets and so on one
+00:56:30.559 more um definition very important one is
+00:56:35.119 um how do you inherit the topology from
+00:56:38.599 two spaces a so let's have a topological
+00:56:41.960 space a with a topology O A it's now not
+00:56:45.920 the induced topology it's just one
+00:56:48.559 topology and let's have and because the
+00:56:50.920 induced one has this stroke there as
+00:56:52.920 well and B with ob let these be to
+00:56:56.200 topological
+00:56:58.119 spaces now very often you wish to have
+00:57:02.319 you equip the cartisian product of these
+00:57:05.920 two spaces you do this all the time
+00:57:09.720 implicitly equip the cartisian product
+00:57:13.119 with the
+00:57:16.319 so-called product
+00:57:22.079 topology which you construct in the
+00:57:24.839 following ways again implicit
+00:57:26.720 given so let's call it o Down A cross B
+00:57:30.960 it's the product
+00:57:33.039 topology uh
+00:57:35.640 defined
+00:57:38.960 implicitly
+00:57:40.839 by U is an element of let's call it
+00:57:48.480 w let's called u u is an element of the
+00:57:52.599 product
+00:57:54.359 topology by definition
+00:57:57.160 if and only
+00:57:59.799 if for every Point p in U but you see if
+00:58:05.160 it's the subset of the cartisian product
+00:58:08.160 so the point P can actually be written
+00:58:11.640 as
+00:58:12.640 a pair
+00:58:15.680 VW uh that lies in a um AB as a pair AB
+00:58:21.880 that lies in A cross
+00:58:24.079 B if for every p in
+00:58:27.319 this subset U of A cartisian Product B
+00:58:33.440 uh there
+00:58:34.720 exists
+00:58:37.319 a an S which lies in the open sets of a
+00:58:42.280 which is an open set of a that contains
+00:58:45.640 a and there exists a t in the open sets
+00:58:50.720 of B that contains
+00:58:55.039 B such
+00:58:57.119 that
+00:58:58.760 their cartisian product such that the
+00:59:01.119 cartisian product of these
+00:59:03.160 subsets lies entirely within
+00:59:11.400 you so
+00:59:18.920 intuitively
+00:59:21.200 um let's assume we can represent a and b
+00:59:25.280 as this a and this axis well it's
+00:59:28.960 already a big assumption right because
+00:59:31.200 topological spaces can look very crazy
+00:59:33.319 there's no idea of even dimension in a
+00:59:35.400 topological space right that will come
+00:59:37.640 later but
+00:59:39.400 intuitively uh let's do it like this and
+00:59:42.559 I can ask the question is this set
+00:59:46.119 here is it open or not well if I I need
+00:59:49.920 to check whether for every Point let's
+00:59:51.880 say this
+00:59:53.160 one uh there is
+00:59:58.079 a an open set in here let's assume it
+01:00:00.960 looks like this so I'm thinking real
+01:00:03.280 line here uh and there's an open set
+01:00:06.359 here like this because this point here
+01:00:09.559 is the ab point it's the pair in this
+01:00:12.960 cesium product and then I need to find
+01:00:16.079 sets s and t here so this is the set
+01:00:19.520 this entire thing is the set s this
+01:00:21.280 entire thing here is the set t such that
+01:00:24.720 their cartisian product
+01:00:27.520 which you can construct like this so
+01:00:29.079 that's
+01:00:29.920 everything inside this dotted box such
+01:00:34.799 that their square product uh cartisian
+01:00:36.839 product lies entirely within the
+01:00:39.440 original set u whose
+01:00:43.640 openness you want to check and you see
+01:00:46.720 well this didn't quite work but you can
+01:00:49.000 choose these two smaller around here and
+01:00:51.160 then it may work or not it depends on
+01:00:52.760 what topology On A and B you have
+01:00:55.000 whether
+01:00:57.480 uh and a set in the cartisian product of
+01:01:00.280 A and B is open or not I mean this is
+01:01:02.960 very intuitively this is inspired by
+01:01:05.640 standard Top by A and B being the real
+01:01:07.920 lines in standard topology this picture
+01:01:09.920 but this is the picture to remember uh
+01:01:12.559 if you want to write down this general
+01:01:14.119 definition and um check yeah can
+01:01:18.640 check and I ask you to check on the
+01:01:21.160 problem
+01:01:24.119 sheet that this is a to apology this o
+01:01:29.160 provides this o a cesan product B
+01:01:33.319 provides a
+01:01:36.599 topology on a cesium product B and
+01:01:41.280 obviously if you have it for
+01:01:43.680 one for a pair you can do it for any
+01:01:46.680 finite cartisian product so we have a
+01:01:52.880 remark uh one uh can do this for any
+01:02:02.039 finite A1 cross A2 cross D cross a n and
+01:02:09.240 the second remark is that the standard
+01:02:13.520 topology o
+01:02:15.559 standard on
+01:02:17.799 RD bit too big this Rd on RD actually is
+01:02:22.319 the same it doesn't matter whether you
+01:02:24.440 do this or whether you take the uh
+01:02:29.000 topology only on the real line and you
+01:02:32.079 consider the product topology of D
+01:02:38.799 * the real line equipped with the
+01:02:41.559 standard topology with
+01:02:43.240 itself why well it's precisely the
+01:02:46.039 argument I gave with the maximum Norm
+01:02:48.920 Norm sub Infinity before it's because
+01:02:52.079 boxes always contain circles and circles
+01:02:55.319 contain always boxes and and so on okay
+01:02:58.680 so it's it's the same thing so already
+01:03:00.920 for Rd you can understand you so we
+01:03:03.880 could have been more minimalistic and
+01:03:05.680 defined the standard topology before
+01:03:08.119 only for the real
+01:03:10.799 numbers and then we could have defined
+01:03:13.359 this a topology on RD this way well you
+01:03:16.559 can do it both ways and it happens to
+01:03:19.240 coincide of course there's no a prior
+01:03:21.640 reason why it would but in fact it
+01:03:24.760 does any questions at this
+01:03:29.000 point
+01:03:30.520 okay so
+01:03:32.880 now okay let me before we uh continue
+01:03:35.640 let me make one more remark um in this
+01:03:38.359 course we always consider topologies as
+01:03:41.000 giving structures to sets and finally
+01:03:43.160 want to arrive at some manifold some
+01:03:45.680 physical space and so on however
+01:03:48.039 topology is not only useful in this I
+01:03:51.079 quoted I I I say roughly geometric
+01:03:54.440 context where somehow you have to do
+01:03:56.119 with spaces that have to do like we
+01:03:58.839 imagined them geometrically topology is
+01:04:00.960 a very very versatile subject and hence
+01:04:03.319 it deserves its own status and for
+01:04:05.799 instance you can cleverly equip the
+01:04:09.720 integer numbers with a topology not a
+01:04:12.839 problem IND numbers are set there are
+01:04:14.319 certain certain topology you can
+01:04:16.119 establish and um so did a guy called
+01:04:19.559 firstenberg and firstenberg discovered
+01:04:22.440 if I equipped the integer numbers with
+01:04:24.359 this and that topology which I choose in
+01:04:26.520 a certain way to uh suit my purposes
+01:04:30.359 then you can provide an entirely
+01:04:33.000 topological proof actually just thinking
+01:04:36.000 about closed and open sets that proves
+01:04:38.760 that there are infinitely many prime
+01:04:41.440 numbers okay so even in number Theory
+01:04:45.279 you can use topology as a
+01:04:47.680 tool well so this shows the context in
+01:04:51.319 which we develop this as physicists may
+01:04:53.319 be um by far does not exhaust the
+01:04:57.279 applicability of topology and um so
+01:05:00.319 that's just a side remark and this
+01:05:02.160 firstenberg example is is a famous one
+01:05:04.480 because it's kind of unexpected that you
+01:05:07.039 can provide such proofs and that of
+01:05:09.319 course goes a long way to explaining why
+01:05:11.799 we provide a definition of the form we
+01:05:14.200 did of this abstract form this is so
+01:05:16.640 abstract it can actually cover a lot of
+01:05:19.799 situations and then the brain work goes
+01:05:23.000 into choosing the right topology to
+01:05:24.799 solve your problem
+01:05:26.359 topologically okay and of course that
+01:05:28.720 sometimes takes some Ingenuity all right
+01:05:31.400 so that was the side remark but anyway
+01:05:33.720 whenever you have a topology the whole
+01:05:36.200 thing is only useful if you can then
+01:05:38.720 actually do something with it in this
+01:05:40.319 case um I provide this it's the
+01:05:42.640 convergence of
+01:05:44.319 sequences and the continuity of
+01:05:54.640 maps so let's start with the
+01:06:00.000 sequences 2.3
+01:06:07.440 convergence
+01:06:09.920 definition a
+01:06:13.359 sequence what is a sequence that is a
+01:06:16.799 map a sequence q that is a map Q from
+01:06:22.440 the
+01:06:23.200 integers into a set m a sequence
+01:06:28.039 Q on a topological space
+01:06:33.079 m so I need to provide the topology that
+01:06:36.960 is a map
+01:06:39.760 that gives for every integer number a
+01:06:42.559 point in the set M that underlies the
+01:06:44.799 top logical space a sequence Q
+01:06:49.599 um is
+01:06:51.920 said to
+01:06:54.520 converge
+01:06:58.039 against a
+01:07:01.079 point a in M
+01:07:06.359 if for every open set in M for every u
+01:07:12.359 in O that contains the point a that
+01:07:16.960 contains the limit point against a let's
+01:07:21.559 call
+01:07:22.319 it limit point so that's definition here
+01:07:26.799 if for every U that contains a and this
+01:07:29.480 will appear very often you saw this
+01:07:31.240 already before we have an open set that
+01:07:33.960 contains a point very often one refers
+01:07:36.520 to this as an open because it lies in O
+01:07:39.599 an open
+01:07:42.119 neighborhood
+01:07:45.400 neighborhood of the point a because a
+01:07:49.960 lies in there and it's open and it
+01:07:52.119 contains it so the U lies around it what
+01:07:54.440 lies around you is the neighbor Hood
+01:07:56.480 okay that's that's just lingo it's the
+01:07:58.400 terminology in topology so if there
+01:08:01.119 exists an open neighborhood of the limit
+01:08:03.400 point if for every s very important if
+01:08:06.520 for every open neighborhood of the limit
+01:08:08.799 point uh there exists an n in the
+01:08:12.440 integer no in the natural sorry it's not
+01:08:14.640 the integers the non negative integers
+01:08:16.520 the natural
+01:08:18.279 numbers such that for all n that are
+01:08:22.759 bigger than this particular n that
+01:08:27.439 exists the images of the sequence of
+01:08:31.198 this map starting from this n onwards
+01:08:33.960 capital N
+01:08:35.000 onwards lie
+01:08:37.880 in this open
+01:08:41.719 neighborhood okay that's the
+01:08:45.679 convergence um
+01:08:49.080 example let's choose a set M and equip
+01:08:53.679 it with the
+01:08:56.080 chaotic
+01:08:58.120 topology you remember that was the
+01:09:00.198 chaotic
+01:09:04.080 topology so far only a name now
+01:09:08.799 consider any sequence let Q from n to M
+01:09:13.198 be some
+01:09:16.479 sequence so you see being a sequence has
+01:09:19.000 nothing to do with the topology it's
+01:09:20.439 just a matter of of being well this map
+01:09:23.198 into the set but now if you have
+01:09:25.880 a topology you can decide whether the
+01:09:28.238 sequence converges against some point
+01:09:31.000 and my claim
+01:09:33.479 is
+01:09:35.279 any
+01:09:37.839 sequence
+01:09:41.279 converges
+01:09:43.000 against every
+01:09:47.319 point so if you equip a space with the
+01:09:49.880 chaotic topology no matter which
+01:09:52.279 sequence you give
+01:09:54.120 me I can actually show it converges
+01:09:58.120 against any point in the space you
+01:10:00.120 provide me why is this true well because
+01:10:04.560 what we got to check is let Q be
+01:10:06.719 arbitrary and let the point a be
+01:10:09.280 arbitrary I need to check whether for
+01:10:11.760 every open set that contains the point a
+01:10:16.440 how many open sets do I have two which
+01:10:19.880 of these two can contain a point a only
+01:10:23.400 this
+01:10:24.120 one right so I need to check whether for
+01:10:26.920 every that contains a so that means U is
+01:10:30.000 already the entire set M well of course
+01:10:32.880 the exists in N such that for all n
+01:10:34.800 greater n q n lies in M because for
+01:10:37.960 every
+01:10:39.320 n q lies in M because it's a map into
+01:10:43.920 M fully independent of what the point is
+01:10:46.560 fully independent of how exactly the
+01:10:48.600 sequence is defined so choosing the
+01:10:51.679 chaotic topology every sequence
+01:10:54.560 converges against against any
+01:10:56.480 point hence chaotic okay that's the idea
+01:11:00.440 and obviously it's not very useful okay
+01:11:03.920 so if you are set an exam question or if
+01:11:07.600 you're a teacher in the final exam
+01:11:09.320 you're asked show that this and that
+01:11:11.320 sequence converges and the examiner is
+01:11:14.360 not careful enough to specify in which
+01:11:17.320 topology you just claim well this
+01:11:19.640 sequence whatever space on R say you
+01:11:23.560 could converges against every point
+01:11:25.400 because I choose the chaotic topology
+01:11:27.159 and you didn't ask me to choose any
+01:11:28.520 other okay very quick exam solution
+01:11:33.159 um similarly you could look at M and
+01:11:36.880 equip it with
+01:11:39.280 the yeah I know I get into trouble with
+01:11:41.520 the others but okay and you can equip it
+01:11:43.800 with the discrete topology what happens
+01:11:46.520 then well then every set is open and you
+01:11:50.679 see unless then the sequence finally is
+01:11:54.239 constant so only no
+01:11:59.199 only
+01:12:00.800 all almost
+01:12:05.080 constant constant
+01:12:08.560 sequences
+01:12:10.840 converge and if they converge they
+01:12:12.920 converge again against the constant what
+01:12:15.440 do I mean by almost constant I mean q of
+01:12:18.320 n always takes the same
+01:12:21.000 value apart from a finite exception set
+01:12:24.800 almost most constant means constant
+01:12:27.960 everywhere apart from a finite exception
+01:12:31.320 set you can check this it's it's clear
+01:12:35.400 and
+01:12:37.080 C if you take M to be R and O to be the
+01:12:42.600 standard topology in R then of course
+01:12:45.120 you have the theorem you can prove that
+01:12:48.239 a sequence on r or on
+01:12:52.560 RD on RD converges
+01:12:59.000 against uh a in
+01:13:02.679 Rd
+01:13:05.280 if for every
+01:13:08.320 Epsilon greater than
+01:13:10.960 zero there exists an N in
+01:13:14.239 N such that for
+01:13:17.719 every
+01:13:20.040 um n greater than
+01:13:23.320 n uh
+01:13:27.320 well let's take some Norm it doesn't
+01:13:29.159 matter um of what is it uh Q of n minus
+01:13:34.320 a is less than
+01:13:40.159 Epsilon EXC
+01:13:42.719 yes
+01:13:48.360 exide in the noral analysis way you say
+01:13:51.760 if you don't if you
+01:13:54.040 find for
+01:13:57.280 all well yes um because this is the
+01:13:59.920 finest topology um everything that's
+01:14:03.360 convergent here would be convergent in
+01:14:06.239 any other
+01:14:07.520 topology but in other topologies that
+01:14:09.840 are not that fine where you choose not
+01:14:11.840 as many subsets there will be sets uh
+01:14:15.280 there will be sequences that converge in
+01:14:17.560 the other topology that do not converge
+01:14:19.600 here because you see for instance in
+01:14:22.120 this topology I'm writing down here in
+01:14:24.360 Rd uh you could have a sequence okay
+01:14:27.520 example so I choose the example
+01:14:29.639 according to that you could have a
+01:14:31.880 sequence Q of n is uh given Al so m m
+01:14:37.480 equals R so D1 Q of n is uh
+01:14:43.159 1 minus 1 /
+01:14:47.120 n okay um how does that look like uh n
+01:14:51.920 yeah okay n with
+01:14:54.000 z
+01:14:56.400 and you start here from from okay n+ one
+01:14:59.400 okay something like this so don't you
+01:15:00.800 don't run into trouble with the zero
+01:15:02.280 here okay uh and then obviously if this
+01:15:05.120 is the real line and this is one uh then
+01:15:10.320 uh one - n is 0 1 - 1 is zero you're
+01:15:13.840 here and then 1
+01:15:16.000 - 12 is here then 1 - 1/3 is here and so
+01:15:21.239 on so you get closer and closer and
+01:15:22.800 closer but this is not almost constant
+01:15:33.840 because every value is different okay
+01:15:37.560 it's not almost constant uh that is not
+01:15:45.000 convergent in R equipped with the
+01:15:49.560 discrete topology on
+01:15:52.520 R but it is convergent
+01:15:57.080 in R equipped with the standard
+01:16:02.159 topology so if you look at this you say
+01:16:05.239 well it look it converges against one
+01:16:07.520 well if if you say look it does do so
+01:16:11.360 you have the intuition of the standard
+01:16:13.000 topology and that you have because the
+01:16:14.800 standard topology uses the norm or the
+01:16:17.719 distance and our intuitive feeling about
+01:16:21.000 convergence is about getting closer and
+01:16:23.080 closer and closer so you if you you can
+01:16:26.159 generalize this for every metric space
+01:16:28.520 where you have a metric map you you can
+01:16:32.199 actually construct from this
+01:16:34.679 metric distance function you can
+01:16:36.840 construct a topology but by far not
+01:16:39.719 every topology is induced from a
+01:16:41.480 distance map
+01:16:45.840 okay okay so that was the example there
+01:16:51.199 um that's convergence now we come to
+01:16:53.840 continuity
+01:16:57.560 so let me make uh one half serious side
+01:17:01.520 remark um if today you want to do
+01:17:04.120 research you need to apply for money if
+01:17:06.880 you want to apply for money you got to
+01:17:08.400 write a research proposal a research
+01:17:10.920 proposal is of the type uh we do this
+01:17:13.679 and that and that because once we do
+01:17:15.639 that we know more very fair it's a fair
+01:17:18.120 thing and in physics you write we come
+01:17:20.440 closer to the truth okay or in recent
+01:17:24.560 years we have converged against the true
+01:17:28.719 theory or whatever you want to choose
+01:17:31.120 okay so you write up this proposal and
+01:17:34.120 uh well and then it goes to several
+01:17:36.040 institutions maybe it needs to get the
+01:17:37.960 spiritual approval of the office for
+01:17:39.440 gender and diversity but once it has
+01:17:41.280 passed this it actually goes to some
+01:17:42.719 experts and they will read it but the
+01:17:44.040 experts don't have time so they just
+01:17:45.840 read the introduction and in
+01:17:47.560 introduction it needs to say that we are
+01:17:49.560 getting better and we're making
+01:17:51.800 progress now let's half seriously
+01:17:54.120 critically evaluate valate this what
+01:17:56.120 does it mean our theories in physics for
+01:17:59.840 instance make progress one way you could
+01:18:03.560 express this not the only possible way
+01:18:05.239 but one way would be to say they get
+01:18:07.600 better and better well better you need a
+01:18:09.639 measure for whether one theory is better
+01:18:12.120 than the other Theory maybe you know
+01:18:14.080 about non-commutative
+01:18:16.239 dice right so you can uh
+01:18:23.760 actually
+01:18:27.440 you can make this you can uh
+01:18:31.800 distribute numbers on there like this
+01:18:34.679 and then you can make another one well
+01:18:36.960 look it up on the internet
+01:18:38.560 non-transitive why do I say
+01:18:39.960 noncommutative nontransitive dice right
+01:18:43.800 non
+01:18:45.920 transitive dice you have a different
+01:18:49.199 distribution don't take the distribution
+01:18:50.920 seriously it's just for illustrational
+01:18:52.520 purposes and you have a third one
+01:18:58.199 okay now the claim is and it's one can
+01:19:01.840 find distributions of scores on there
+01:19:06.360 such that if this is dice a b c that if
+01:19:12.199 a plays against
+01:19:14.080 B A plays against B and the rule is a
+01:19:18.040 throws dice B throws the dice and then
+01:19:20.840 you look who got the higher number okay
+01:19:24.400 uh well
+01:19:25.360 in some cases a will win namely if B has
+01:19:28.520 zero in all other cases B will win stuff
+01:19:30.600 like this and every time a has a higher
+01:19:32.920 number than b a
+01:19:35.520 gets a meta mathematical number uh b
+01:19:39.040 gets one then B then a wins and so on
+01:19:42.320 okay so you do this for some while and
+01:19:44.600 in the end after a long run you
+01:19:46.840 determine who won by who got more
+01:19:50.040 Strokes okay and obviously if there's a
+01:19:53.000 different distribution of numbers
+01:19:54.880 possibly in the long run I mean you can
+01:19:56.440 calculate who gets with what probability
+01:19:58.400 what okay so a plays against B in this
+01:20:01.040 case you would say well a the quality of
+01:20:04.239 a q of a was greater than the quality of
+01:20:07.800 dice B if you want to play against this
+01:20:09.840 guy you want this
+01:20:11.440 dice now you can then let B play against
+01:20:15.960 C and it could turn out with the right
+01:20:20.199 distribution of numbers that the quality
+01:20:22.080 of B is also bigger than the quality of
+01:20:24.199 C
+01:20:26.120 now if you look at this you say ah if a
+01:20:29.239 the dice a is better than b and if dice
+01:20:31.360 B is better than
+01:20:33.040 C then it makes sense that a is better
+01:20:36.000 than C so a is the
+01:20:39.400 winning combination and now think of
+01:20:42.320 this as research proposals which usually
+01:20:44.520 are more complex than the distribution
+01:20:46.320 of such numbers on dice you have more
+01:20:47.880 choices to make but remarkably there is
+01:20:51.280 a distribution of numbers on these three
+01:20:52.880 circles such that the quality of C is
+01:20:56.560 greater than the quality of a according
+01:20:58.760 to the rules I just gave that means from
+01:21:02.280 Q of a being greater than Q of B from Q
+01:21:04.880 of B greater you cannot conclude this
+01:21:07.199 well if you can't conclude this that
+01:21:08.600 obviously means this quality measure
+01:21:10.040 doesn't exist at least it's not real
+01:21:11.679 valued or something okay I mean this is
+01:21:15.360 remarkable that means anybody who has
+01:21:17.360 the fantasy of assigning to complex
+01:21:20.960 situations like research proposals or
+01:21:24.239 the ability of a girl or a
+01:21:27.000 boy a real valued function that measures
+01:21:30.280 this for everyone and then Compares on
+01:21:32.400 this scale I mean almost all of uh uh uh
+01:21:36.600 what's it
+01:21:38.480 called economical science economics is
+01:21:41.480 built on this assumption you can model
+01:21:43.719 things and measure the quality or the
+01:21:45.520 cost or whatever um well already
+01:21:48.719 something that's as little complex as
+01:21:51.159 the possibilities to cont uh distribute
+01:21:53.560 numbers on on dice in such fashion
+01:21:57.040 doesn't have a Quality Function so
+01:21:59.679 please nobody say this theory is better
+01:22:02.320 than that theory you please ask
+01:22:04.280 immediately for the Quality Function and
+01:22:06.440 very likely it's non non-transitive
+01:22:09.239 because generically it's non-transitive
+01:22:12.040 it's only special distributions would
+01:22:14.560 then be transitive okay that's the first
+01:22:17.360 thing so we can't have a quality
+01:22:19.159 function in order to measure your
+01:22:20.400 research is getting better or your
+01:22:21.840 research to proposing is better but you
+01:22:23.760 might say well even if if I don't have a
+01:22:25.040 Quality Function I can still say it's
+01:22:28.159 coming closer to the true theory how
+01:22:31.159 nature really is well that would really
+01:22:34.360 be a very weak statement but still
+01:22:37.080 impressive enough if it were true but
+01:22:39.679 the problem is in order to make any such
+01:22:42.120 statement what would you need you would
+01:22:44.400 need to know the topology on the space
+01:22:47.960 of all
+01:22:49.719 theories that sounds like you can't
+01:22:52.040 write it down okay at least I don't know
+01:22:54.239 it
+01:22:55.199 so that means I assume unless somebody
+01:22:58.360 convinces Me by some other argument of
+01:23:00.760 uh of the contrary that any statement of
+01:23:03.639 the type the theories are getting better
+01:23:05.400 well forget about this uh the theories
+01:23:08.199 at least approach converge somehow well
+01:23:12.000 you need a topology in the space of all
+01:23:13.600 theories that's far too complex so in
+01:23:15.760 that sense because we don't know of any
+01:23:17.920 structure that can uh by which we can
+01:23:21.400 Define convergence that makes fewer
+01:23:23.560 assumptions than having a topology
+01:23:26.000 topology also reveals nonsensical or IL
+01:23:29.679 defined statements which sound good it's
+01:23:32.639 a little bit like with the hairdressers
+01:23:34.400 and what hairdressers can do only
+01:23:36.120 hairdressers can do in logic in topology
+01:23:39.280 maybe you can conclude or at least it
+01:23:42.560 this or at least this uh argument raises
+01:23:45.400 sufficient suspicion for any such claim
+01:23:48.520 and of course it applies to other
+01:23:50.040 circumstances as
+01:23:52.719 well the next notion
+01:23:55.159 is conver um continuity and while
+01:23:59.000 convergence was interesting continuity
+01:24:01.760 is at is at the heart of topology
+01:24:05.320 because it will finally be used also to
+01:24:08.320 Define structure preserving Maps so
+01:24:12.960 2.4 uh
+01:24:20.159 continuity
+01:24:22.600 definition let
+01:24:25.520 m o m and n n be topological
+01:24:35.520 spaces and let
+01:24:39.840 F be a map from the set M underlying the
+01:24:43.840 first topological space to a set n
+01:24:46.440 underlying the second topological
+01:24:53.040 space then the map f is called
+01:25:01.440 continuous it's called continuous
+01:25:06.520 if for
+01:25:09.040 every open set in the Target
+01:25:13.800 space so you take an open set in the
+01:25:16.400 Target space if for every open set in
+01:25:18.239 the Target
+01:25:19.840 space the
+01:25:22.639 pre-image of this open
+01:25:25.480 set with respect to the map
+01:25:28.639 f is an open set in the
+01:25:32.560 domain
+01:25:34.440 here that's it that's continuity it's
+01:25:37.719 extremely simple maybe I remind you of
+01:25:40.400 the definition of the pre-image the
+01:25:42.639 pre-image were all those points M and
+01:25:45.920 capital M such that
+01:25:49.960 um yes for Which F of M was an element
+01:25:55.360 of the specified set V in the Target
+01:26:00.560 that was the
+01:26:01.679 pre-image or in
+01:26:05.000 brevity uh F
+01:26:09.920 continuous if
+01:26:13.480 pre-images of open
+01:26:16.400 sets are
+01:26:19.639 open um that hides the fact that this is
+01:26:22.600 the openness in the target space and
+01:26:25.280 this openness is the openness in the
+01:26:27.320 domain so hence more precisely it's this
+01:26:31.080 condition
+01:26:38.560 here this is at the heart of topology as
+01:26:41.280 we'll see in a second so um
+01:26:45.239 examples um our favorite example is one
+01:26:50.760 of the favorite examples is mine is you
+01:26:53.560 start from a set M you you take a map
+01:26:56.480 between arbitrary sets and you choose to
+01:27:00.119 equip this here this set with the
+01:27:05.480 discrete topology and this set you can
+01:27:08.800 choose any topology you like
+01:27:13.360 question or
+01:27:15.239 claim
+01:27:17.360 claim under these circumstances with the
+01:27:20.600 target with the domain and the target
+01:27:22.239 equipped with these topologies any map f
+01:27:25.760 is
+01:27:28.880 continuous why well you choose any open
+01:27:32.040 set here but the pre-image well it could
+01:27:35.840 be the empty set is open What's the
+01:27:37.719 pre-image of the empty set it's the
+01:27:39.520 empty set where the empty set is
+01:27:40.840 certainly open okay now you choose any
+01:27:43.760 other non-empty set the pre-image of the
+01:27:46.520 non-empty set is a nonempty
+01:27:49.719 set not necessarily could be the empty
+01:27:52.080 set but generically it's a non-empty set
+01:27:53.679 could be any set it doesn't matter I
+01:27:54.920 shouldn't have made this distinction of
+01:27:56.719 cases um so again take any open set here
+01:28:00.280 the pre-image is certainly a subset of M
+01:28:02.639 but every subset is open that's the
+01:28:05.520 condition it must be open hence any map
+01:28:07.639 is continuous because I didn't use any
+01:28:09.400 particular properties of the map in
+01:28:11.840 other words once you equip the domain
+01:28:15.000 with the discrete
+01:28:17.000 topology continuity is clear it's simply
+01:28:20.320 there every map is continuous well if
+01:28:22.800 every map is continuous continuity
+01:28:25.080 becomes a useless property hence you
+01:28:28.880 never equip the domain with the discrete
+01:28:32.320 topology if you still want to work with
+01:28:35.280 continuity it's the first example the
+01:28:37.719 second example you take the map from M
+01:28:40.760 to n now the domain you can choose
+01:28:43.560 anything you like in the Target you
+01:28:46.560 choose the chaotic
+01:28:50.520 topology similar game any map is
+01:28:53.600 continued
+01:28:58.480 as you may quickly think about and then
+01:29:03.199 C you take a map from RD to
+01:29:07.760 RF you equip both of them with the
+01:29:10.639 standard
+01:29:12.920 topology
+01:29:14.480 respectively and you recover the
+01:29:16.639 standard definition of
+01:29:20.760 continuity on our for from RD to RF so
+01:29:26.760 for every Epsilon greater than zero
+01:29:29.800 there exists a Delta greater than zero
+01:29:32.520 such that for all xus Y and so on you
+01:29:36.199 know how that works it's the Epsilon
+01:29:37.880 Delta Criterion for continuity is
+01:29:41.360 recovered from this very general
+01:29:44.040 definition of continuity for every
+01:29:46.239 topological spaces or pair of
+01:29:47.840 topological spaces in the case you equip
+01:29:51.679 Rd and RF with the standard topologies
+01:30:00.960 yes um where are you here that's an N
+01:30:04.840 you mean this thank you very much yes of
+01:30:07.040 course it must be n thank
+01:30:09.239 you
+01:30:11.520 okay so we have this uh
+01:30:18.639 continuity now we have another
+01:30:21.800 definition that is let
+01:30:25.480 F from M to n between two sets be a
+01:30:32.920 bje a bje is of course a bjective map
+01:30:35.880 let this be a
+01:30:37.800 bijection um
+01:30:41.360 now
+01:30:45.719 equipping M with o m and n with o n so
+01:30:51.040 making topological spaces out of these
+01:30:53.280 sets
+01:30:56.159 we
+01:30:57.920 call a bje fi a and that's the central
+01:31:03.480 notion of map in topology we call it a
+01:31:07.560 homeo homeo
+01:31:13.000 morphism a
+01:31:15.520 homeomorphism if both F from M to n now
+01:31:22.320 being a topological spaces is
+01:31:27.760 continuous and B the inverse of f going
+01:31:32.639 from n to M and the inverse exists is
+01:31:35.600 unique because m is a bje f is a bje is
+01:31:38.880 also
+01:31:42.360 continuous and uh
+01:31:47.239 remark
+01:31:50.480 homeomorphisms and usually we write
+01:31:52.600 homeo and then the
+01:31:56.080 morphism part we suppress because it's a
+01:31:59.199 long word
+01:32:00.920 homeos meaning
+01:32:04.480 homeomorphisms are the structure
+01:32:06.679 preserving
+01:32:11.280 Maps
+01:32:14.000 preserving maps in
+01:32:22.119 topology why is this
+01:32:24.960 well you go from M to n and you go back
+01:32:28.840 so F takes you from M to n as a set and
+01:32:34.239 F inverse takes you back now if fi is
+01:32:38.159 continuous that's one of the conditions
+01:32:40.360 then any the pre-image of any open set
+01:32:44.119 is an open set but the pre-image is just
+01:32:47.960 the image of f to the minus one because
+01:32:50.119 it's a projection the other way around
+01:32:52.520 with the F to the minus one that means
+01:32:55.159 by having a homeomorphism if a
+01:32:57.560 homeomorphism
+01:32:59.080 exists
+01:33:00.600 definition if there exists a
+01:33:05.600 homeo f that's this
+01:33:10.239 picture then
+01:33:12.920 fi
+01:33:15.320 provides a one:
+01:33:20.800 one uh pairing yeah
+01:33:25.040 pairing of open sets of the open
+01:33:31.560 sets of
+01:33:34.440 M with
+01:33:37.880 those of n according to the chosen
+01:33:41.960 topology
+01:33:44.719 so you can say the
+01:33:47.480 topologies are the same have the same
+01:33:51.960 structure and uh we then
+01:33:54.360 right in
+01:33:56.199 case a
+01:34:00.400 homeo
+01:34:02.159 exists between two spaces topological
+01:34:05.679 spaces we say that this topological
+01:34:08.800 space is
+01:34:11.880 isomorphic to that hom um um sorry to
+01:34:17.560 that topological space but it's
+01:34:20.040 isomorphic in the topological sense so
+01:34:23.239 we write the same isomorphism sign as we
+01:34:26.679 did in set theory but now it's not only
+01:34:30.600 as sets they're isomorphic they
+01:34:33.239 certainly are because there exists a bje
+01:34:35.440 between them remember existence of a bje
+01:34:38.400 means as sets ignoring the topology
+01:34:41.480 they're isomorphic but it's even more
+01:34:44.760 even if you equip them with topologies
+01:34:47.000 but now the map the bje has to satisfy
+01:34:50.159 an additional condition namely this
+01:34:51.719 homeomorphism condition then they're
+01:34:54.800 even isomorphic as topological
+01:34:58.280 spaces
+01:35:02.440 isomorphic as topological
+01:35:06.440 spaces that's very long uh so people
+01:35:09.679 also say
+01:35:11.679 homeomorphic
+01:35:15.280 homeomorphic so a a map can be a
+01:35:19.280 homeomorphism but two topological spaces
+01:35:22.400 between such a home morphism map exists
+01:35:26.000 are called
+01:35:27.360 homeomorphic
+01:35:29.800 okay and obviously topological
+01:35:33.080 isomorphism or homeomorphism implies
+01:35:36.000 that the underlying sets set
+01:35:39.639 theoretically are
+01:35:41.760 isomorphic that means you can have two
+01:35:44.080 sets that are
+01:35:46.480 isomorphic but then you equip them with
+01:35:48.719 topologies and as topological spaces
+01:35:51.360 they
+01:35:52.639 become non isomorphic
+01:35:56.119 topologically we could say topologically
+01:35:58.480 that they'll be different okay and that
+01:36:01.840 shows you added structure and things
+01:36:03.960 that are the same or isomorphic that
+01:36:05.800 means same up to some
+01:36:07.719 reshuffling can by way of establishing
+01:36:11.320 different structures become
+01:36:13.719 non-isomorphic at a higher structural
+01:36:15.760 level perfectly fine right have two
+01:36:18.239 children they're both blonde but now I
+01:36:20.199 dye their hair and one is blonde and the
+01:36:22.360 other is red hair now they're different
+01:36:24.880 okay well one finds other disting
+01:36:27.960 properties but okay fine so that's this
+01:36:31.360 and so as structure preserving maps and
+01:36:33.199 you remember the general dictum that uh
+01:36:35.880 the recurrent theme or one of the
+01:36:37.520 recurrent themes in mathematics is that
+01:36:39.040 you
+01:36:40.880 classify Spaces by
+01:36:43.800 considering structure preserving Maps
+01:36:46.199 between
+01:36:47.880 them now in set theory well I only
+01:36:51.840 hinted to that but in set theory you
+01:36:54.920 define sets by their card you classify
+01:36:57.440 sets by their cardinality uh we didn't
+01:36:59.920 go very far there there's a very big
+01:37:01.639 theory behind that but finite sets you
+01:37:03.920 classify by the number of elements if
+01:37:05.840 two finite sets have the same number of
+01:37:07.199 elements they are isomorphic as sets uh
+01:37:10.440 then they can be finite countably and so
+01:37:12.320 on and so on okay now for topological
+01:37:14.960 spaces one would like to find
+01:37:18.920 properties that also distinguish prop um
+01:37:22.000 topological sets in the sense and we're
+01:37:23.840 going to Define such properties um well
+01:37:26.800 let me first Define such properties and
+01:37:28.320 I come back to this point but I tell you
+01:37:30.840 already nobody knows a complete set of
+01:37:34.440 properties of topological spaces like in
+01:37:37.159 set theory number of elements okay
+01:37:39.639 properly speaking for topology nobody
+01:37:41.800 knows a complete set of properties such
+01:37:44.920 that you could check all those
+01:37:46.360 properties for one space and for the
+01:37:48.119 other for another space and then say if
+01:37:50.840 these two if the set of these properties
+01:37:53.520 is matched for both topological spaces
+01:37:56.920 then the topological spaces are already
+01:37:59.400 homeomorphic right I would like to have
+01:38:01.239 such criteria there exist no such
+01:38:03.920 criteria and hence one says there exists
+01:38:06.199 no classification at least nobody knows
+01:38:08.599 of any classification of topological
+01:38:10.560 spaces there are just too many or we
+01:38:13.760 haven't thought carefully enough but
+01:38:15.840 that's an open classification problem as
+01:38:18.679 far as I know but I think that's correct
+01:38:20.560 so uh yeah you can prove that and then
+01:38:23.719 make donations to the university It's
+01:38:25.560 always important to know what the open
+01:38:27.560 problem in a field are because if you
+01:38:29.800 want to solve some of them you better
+01:38:31.480 know they're
+01:38:40.920 open

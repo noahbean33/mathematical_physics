@@ -1,0 +1,279 @@
+00:00:08
+so good morning and welcome back today we'll turn to differentiable manifolds and we pass from topological manifolds to differentiable manifolds by actually removing charts from a topological atlas so that's the first step for point one adding structure by refining the maximal topological atlas or the maximal c0 atoms so on we saw before that if we have a topological manifold 2mo topological manifold that we can actually construct an atlas for this manifold and there's essentially only
+
+00:01:11
+there is only one maximal topological atlas because all the charts you can choose are automatically by virtue of the definition of a topological manifold c0 compatible it was a fully redundant notion and atlas was a fully redundant notion for a topological manifold but actually now we do something non redundant something non-trivial we consider a topological manifold M oh and we call an atlas or an atlas curly a is called a flower atlas if any to charts you X and we why say that lie in the Atlas our flower
+
+00:02:21
+compatible so in other words what we look at is that we have either the situation that the two chart regions U and V which are open subsets in the manifold do not intersect at all then they're already flower compatible or if they have a non zero intersection then we require that if we map this intersection employing the chart map X to X of U intersected V or alternatively employing the chart map Y that is defined on V but then certainly also in intersections Y movie that if we consider this Y after X inverse chart
+
+00:03:28
+transition map so recall this is the chart trend position map then the observation already last time was that both X of you intersected V&Y of you intersected V by virtue of the definition of a topological manifold and indeed charts in an atlas are subsets of Rd where our D D was the dimension of the manifold dim em we're looking at so the chart transition map is not between manifolds in general but between it's a map from our DMM to our DMM and now the compound we knew we know from last time
+
+00:04:21
+that in a topological manifold such a chart transition map is always a homomorphism because x is a homomorphism y is a hormone morphism so the composition of XY and the inverse of X is a homomorphism so they're always c0 compatible but now we don't want the chart transition Maps pair to be pair wise c0 compatible but we want them to be flower compatible so the requirement is that the chart transition map must be flower . ok so before you think I finally turned nuts what is flower can be so now there are
+
+00:05:15
+various possibilities well the simplest possibility is flower can be C 0 so we had this before would say the chart the the a plus C 0 compatible well it must be C 0 as a map from Rd to Rd we had this last time another possibility is that you require a different structure the different structure would another structure would be that if CK what does CK mean well for many folds were about to define what CK means but we push this down as to a condition on the transition map and to be CK as a map from our D to our D means the transition
+
+00:06:06
+map transition map Maps or transition maps are K times continuously differentiable as maps from Rd to Rd that's the condition that's CK a manifold with such a such an atlas system called CK atlas flower atlas CK atlas or it's a manifold with K times continuously differentiable transition functions another very often used we'll see why notion is C infinity and that indeed means you can up differentiate arbitrarily often okay and such many folds have a special name or atlases they're called smooth and I'll argue in
+
+00:07:12
+a second after we define a few more things that essentially if the K is not 0 of the case at least 1 then we don't need to make a big difference between C K and C infinity well we'll come to that in a second another you structure is C Omega looks a little bit like an infinity but it's an Omega and those are so-called analytic manifold and analytic manifolds and let's say for instance real analytic that means the transition functions must be real analytic function and analytic functions are functions
+
+00:07:56
+roughly speaking that can be tailor expanded so whenever your transition map can be tailor expanded around every point of its domain that's called an analytic function so stronger condition then C infinity so every analytic function is C infinity but not every C infinity function is analytic then you certainly know examples from your analysis class for this and yet another structure that's very heavily used is that we're talking about a complex manifold so we call this a complex atlas and then the transition
+
+00:08:32
+functions transition functions now you wonder so far we always mapped into some are d how all of a sudden does this become complex well they're different possibilities I could go back but we can keep this definition like we did so far but then we have to take an even dimensional many real manifold and real even dimensional is a complex manifold if the transition functions being continuous anyway I must emphasize this being continuous anyway because otherwise they couldn't come from an atlas as we defined it transition
+
+00:09:24
+functions satisfy the Cauchy Riemann equations and you remember so that's something like well you know the Cauchy Riemann equations you know that no uh-huh ok ok look it up so it's it's essentially if you have a complex function of a complex variable then you can write down the dependent variable the X f of X but it's a complex valued ok I write it down I'm sorry ok so um say you have a function from r2 to r2 now that's not complex but we know that the complex plane as a set
+
+00:10:13
+this isomorphic to r2 right so now the question is when can I call this a complex differentiable function now if it is continuous already if it continues already and it satisfies two Kushi riemann equations which are those well i can write f of X plus iy so the X is the one are the why is the other one I could write complex numbers as pairs you know how that works then I can write this as U of x and y plus I V of x and y so I he composed the dependent variable in real and imaginary part and I decomposed the
+
+00:11:02
+result into real and imaginary part as a function of two as two real functions of two real variables and then the Cauchy Riemann equations are that D u by DX is DV by dy and D u by dy is minus DV by DX now a continuous function from R 2 to R 2 that satisfies the Cauchy Riemann equations is as good as a differentiable differentiable complex function and differentiability in the complex plane is a much stronger requirement than differentiability over the real numbers because very roughly speaking you can
+
+00:11:52
+approach the limit point in so many different ways okay and so that of course the the field of mathematics that studies this is a function theory our complex analysis function theory and the Cauchy Riemann equations if you have more variables it's just you get indices here so a B a a B a B and then you have to cauchy-riemann equations for the transition Maps okay and you see because you always have to split into two that requires that dim M is even as a real manifold I'm sorry yeah thank you very
+
+00:12:45
+much very yeah yeah of course of course our two is the complex plane yes thank you okay so now you could add additional or a different structure and you pick which one you want okay and by far the most important one for reasons I'll explain in a second are the smooth differentiable structures and the complex ones okay so that's how we add structure and now we have a theorem any maximal CK but now very importantly K greater or equal to 1 so this does not include K 0 very important any maximal
+
+00:13:53
+CK atlas contains a C infinity Agnes and 2 CK and two maximal CK atlases that contain the same C infinity Atlas are already identical okay so um well observation or implication what does this mean well it means once you found say a c1 atlas for a manifold that already and two maximal that contain the same are already identical yes so you once you found 2 c1 atlas it's not a bigger condition it's not a stronger condition that you say the manifold is actually already C infinity is already smooth if it's 1 is if it's
+
+00:15:19
+c1 it can also be made C infinity by removing more charts right so this is not the case you could have a topological manifold where you do not find any differentiable atlas ok but once you see one you can go down all the way to C infinity ok so therefore it may sometimes be clever to say well this and that theorem applies it's valid for C 2 manifolds but that automatically means it's for C 3 C 4 C 5 anyway because they're contained but you can always construct from a C 2 manifold even from a C 1
+
+00:16:04
+manifold and a smooth manifold okay so if we talk about differentiable manifolds or the existence of a differentiable structure we do not need to distinguish between the different the different case if you wish because it goes all the way goes all the way down so do not need to really distinguish between CK for some pay greater equal to one and see infinite in C infinities or smooth in the above sense okay so that's the that's the first remark now what do we do with the differentiable structure
+
+00:17:03
+well it wasn't already defined the notion of the differentiable manifold with it and then we can define what differentiable maps between two many folds are and that will lead us to the structure these are the structure preserving maps if they're also invertible and and that will give us a classification of smooth manifolds and there will be the first surprises or very interesting points even if you wish from the point of view fundamental physics but so first of all a smooth manifold or a CK manifold
+
+00:17:39
+let's be a CK manifold is a triple M Oh curly a where mo is a topological manifold of course that stays and a is a maximum CK atlas okay so we have this new additional layer of structure here I remind you the CK atlas will always be a subset of a c0 atlas so we take out strategically certain sets okay remark a given topological manifold can carry different incompatible atlases now our only defined compatibility of charts but is pretty clear what I mean by an incompatible atlas well technically it's
+
+00:19:06
+true atlases are compatible if the union is again an atlas of the same type or you could say you take two atlases and if between any two maps between these atlases you can have compatible maps of the compatibility type flour then the atlases are compatible but any given topological manifold can carry different incompatible atlases and it's quite instructive to look at a very simple example so for instance we could consider as the underlying topological manifold the real line equipped with the
+
+00:19:42
+standard topology and then I could have atlas one consisting of only one chart maybe the chart where the entire R is covered and the chart map X is the identity on our we had this before it covers and it's a chart it's trivially it's even a C infinity it's C one is everything C infinity atlas because well this chart overlaps with itself but then of course the identity after the identity inverse is again the identity in the identities of course C infinity C infinity atlas now I take a second atlas that again
+
+00:20:31
+consists of the entire real line but now the charge map X is defined somewhat differently namely where X so that's the chart map and it goes from on our yes our to our and it maps a point a in our to a third root 8 to the one-third now first thing to check is whether this is a chart map at all well it goes from R to R a the third root how does that look like like this fair okay so this is clearly one to one it's also clearly continuous it's also invertible because that's clearly the third power
+
+00:21:34
+the third the inverse is also continuous so it's a homeomorphism okay as a map from R to R but this is considered to be the manifold this is the chart this is our one okay so it's the logic here this is a homeomorphism from the manifold our down into the chart okay it's a chart map that's fine so perfectly fine chart map and again it has only one chart this chart overlaps with itself a third root after the inverse of that is again the identity this is also C infinity atlas now we can
+
+00:22:16
+make both of them into maximal C infinity atlases by adding to this one all the other charts such that the transition functions of C infinity and we can make this one a two into a Maximus infinity atlas by adding all the other charts such as the transition functions between this chart and all the other charts are is C infinity but these two actresses are incompatible because if I take their union if they were compatible I would be able to take the Union and I had another C infinity atlas but that's not the case
+
+00:22:55
+because the transition map from here to here a 1/3 after it inverse a is a to the 1 third well this is still continuous all right it must be but it's no longer see it's no longer see infinity because the derivative of the map at this point is infinity that's not defined okay so the point is that these two atlases these two charts here they are not C infinity compatible observe the chart are it R and charts and r x define is down there are not even c1 incompatible as long as there are parts of different atlases
+
+00:24:03
+that's not a problem but i couldn't put them together into the same atlas and get a C infinity atlas there would be an incompatibility that means i can equip the real line with at least well it's just one example with at least two different incompatible C infinity structures okay now let this looks bad it looks bad because it seems like I really have to make a decision which smooth structure I establish we saw it's not so much of a choice and that I have to do it for all the CK levels that
+
+00:24:40
+would be even worse but essentially I can worry about what the different smooth structures are but even if I look at different smooth structures this is far from unique for a given topological manifold so if I want to do physics and in physics we want differentiability what a disaster this is not even the real line has a unique differentiable structure well the situation is not so bad but in order to explain this I need the next definition so definition well and if but a given CK manifolds equipped with one specific choice of
+
+00:25:19
+Atlas so here's assume I already made a pic but which pic am I to make okay before I can meaningfully talk about this we have the next definition let Phi from M to n B now your map where well M and n so Phi it suffices that they are sets in order to have a map in order to have a continuous map I need topological many of topological spaces but now m and n are supposed to both be differentiable manifolds where m oh ma m and n o n a n r ck manifolds then five is called differentiable at the point P in M if so you see we now
+
+00:26:31
+define the differentiability of a map could we define the differentiability of a map if we hadn't chose the differentiable atlas if we just had topological manifolds or vector or topological spaces no we couldn't there's no such notion but so we're now going to use in an essential way to chose an atlas I chose one which one doesn't matter choose one and now we define the differentiability of this map by virtue of if anything this is um if y aha okay okay sorry if if okay at the
+
+00:27:19
+point P if for some for some chart UX that lies in the Atlas 4m and where the you contains the point at which I want to check differentiability if for some chart UX in am and some chart v comma y that lies in the atlas of the target manifold with v contains the image of the point P under the map fire why did I write it under the map fire for this with this the map I write it down here because I'll construct it in a second the map why after fine after X inverse is CK as a map as a map from R to the dim m2 r2
+
+00:28:55
+the dim n so why is this map a map so from Adam M to Adam in well very simply I have the manifold M here but I only look at the region you that contains the point of interest and I have the manifold in here but I only consider the region V where the image of this point lies under the map file and then I chose chart maps well these here X they bring me down to X of U and from X of U I go over here I go down here with a chart map why I go to Y V and of course because here we lie in a chart this is part of our dim M and this
+
+00:29:44
+here is part of our dim in and you see what happens we actually want to talk about so this is part of M sorry of M this is part of M we actually want to talk about this object we want to talk about the map from a manifold differentiable manifold into a differentiable manifold but what we do because we can because we have an atlas available the the rule of the game is from the available a classes in the domain in the target but only from the available atlases pick a chart that covers the point of interest P and the
+
+00:30:25
+image of that point under the map and consider the map in its chart representation that means look at the chart look at that chart and mimic this map up here by considering this path here X inverse then Phi then Y X inverse then Phi then Y we consider this Y well because this is a map from our DMM to Adam in and from our m2r n we know what differentiability means that's the idea so we now define also differentiability of this map by the differentiability of this chart representation of that map
+
+00:31:13
+now that sounds all very good but here I wrote it for some chart here and some chart in the target this is true now we need to worry about whether this notion of differentiability of the map up here depends on what charts I have chosen what if I had chosen different charts around the point of interest at the point the target the image of the point of interest have checked the differentiability there well I need to show well definition of this notion prove that this listing of the notion of differentiability from
+
+00:32:24
+chart from the chart representation of Phi to the manifold level is well-defined well okay now I wrote too much this is very quickly seen so we take U V those are the subsets of M and M again that contains the point P of interest and the image of the point P of interest with respect to the map I'm looking at and we chose charts X 2 X of U and chart maps x and y 2 y V in the respective atlases so that's very important and we consider it instead of the map high because about its differentiability we can say nothing
+
+00:33:32
+we need to pick U and V from their respective differentiable atlases and we consider why after Phi after X inverse that is what we had before and we stipulated that this map be CK as a map from our dim em to our dim n because that is where these respective sets lie so faster clear well I'm by calling if this is C can we call this one CK but now we would like to check whether if we had chosen different charts now we could be extra picky and say well the different chart has also a different chart domain
+
+00:34:20
+instead of you it has the domain you prime okay but P must also lie a new prime because that was one of the conditions but then let's say you is already that intersection of the original you and the you prime otherwise the picture gets messy so without loss of generality I have a different chart map extruding here that maps this maps an open neighborhood of the point of interest into X twittle of you that of course again lies in our dim em and I choose a different chart V prime such that intersection of V but V prime is
+
+00:35:02
+not empty and then we call it V again and I consider this map Y twiddles you have white with the being a part of our team n so totally unrelated map Y a twiddle with respect to Y X twiddle with respect to X and now I can consider this map and this map is of course now Y twiddle after Phi after X twiddle inverse and a priori if this is CK nothing guarantees me that this guy appears also CK so that I can conclude if it's true in one chart representation it's true for all the others well that
+
+00:35:48
+would be bad because then would be well-defined if that was true but in fact which map goes actually from here to there directly well you can read it off here it's the map Y twiddle after Y inverse everybody see that well but what kind of map is this well V Y and V white riddle are both charts and the rule of the game was that these two charts had to be taken from the given CK atlas on n right but if these are two charts from the same CK atlas then this is a chart transition map between two
+
+00:36:37
+charts on that atlas what do we know about by definition what do we know about the chart transition Maps well this guy is CK is CK as a map from our dim in to our dim in now it's twice the same dimension because the chart transition map here dim em and dim n could differ because they're different manifolds but now for the chart transition maps of course the same dim in AHA and what about this guy here I can go directly from here to here by the very same argument but now for the manifold M this is external after X
+
+00:37:21
+inverse this is a chart transition map between two charts of the CK atlas on M and now I see our huh if I know or if I checked that this chart representation of this map Phi between two manifolds at the point P around the point P is CK then I can immediately conclude this is CK 2 because I can write this up here as a composition of first this trend chart transition lap then this function and then this chart transition map backwards and because the composition of CK maps over our end to our elements on is then
+
+00:38:06
+again CK that proves that once I checked it in one chart its true any other chart very simple but now we see why it was so important to restrict the charts I'm allowed to pick to be charts from a CK atlas because otherwise this compatibility condition wouldn't be there and if these were only c0 like there would be for any topological manifold I could check CK here or right but CK composed with c0 Maps would possibly destroy the CK property and make this a merely continuous map up here you need to be at
+
+00:38:47
+least of the same differentiability class in your chart transition Maps hence or the CK manifold you can define CK differentiability for maps between CK manifolds you can define CK differentiability but no higher differentiability than CK because it might be destroyed if you want to go if you want to check well-defined this well definition principle is clear philosophy and this is the manifold philosophy you want to define something for your object in the manifold and you define it by looking at the
+
+00:39:25
+representative of this in a chart or in several charts because here you go from one manifold to the other you need to pick two charts at least but then you need to show it's independent of the choice of chart in order for well definition to work you need to suitably restrict your transitional functions for instance if you had complex manifolds and you wanted to check for complex differentiability of course you could check alright in one representation but if the chart transition Maps didn't
+
+00:39:52
+satisfy the higher dimensional Cauchy Riemann equations on top of being homomorphic anyway then you couldn't conclude that what you checked in one chart is true in any other charge representative hence you couldn't attribute this as a property to the abstract object ok that's the philosophy and again for topological manifolds we didn't have to use the chart picture because we can define continuity in its own right between topological manifolds for a map between topological manifolds
+
+00:40:26
+and pushing this into charts is redundant but once we go deep beyond the 4 L continuity the child picture becomes essential in a sense we steal from knowledge of how differentiability works on our end to our M we kind of import the notion or we lift the notion to the manifold level okay now definition if this file m to n is by directive as a map between sets and both phi and it's inverse which then exists and goes from n to M our C infinity we call it CK but let's say C infinity then Phi is called
+
+00:41:22
+a difícil they feel more seasoned so that if you morphisms are the isomorphisms are the structure preserving maps between differentiable manifolds or between smooth manifolds okay and so then we have B next definition you already anticipated to smooth manifolds mo a.m. and n Oh a n are called de amorphous if you're more fake if there exists a few morphism you see this is always the same pattern existed if your morphism between them then we right em twiddle this or see infinity or not in and you see in principle I should
+
+00:42:43
+write the Triple M Oh am is different morphic to the triple-n Oh a n because that's the full name of the smooth manifold of the differentiable manifold however we now understood you have a set and you need a topological structure and on top a pick of a smooth atlas in order to talk about a smooth manifold so in the future I will lighten the notation somewhat and only mention the sets m and n but if I say these M and M be smooth manifolds you know that secretly they carry with them a choice of topology and
+
+00:43:20
+a choice of appleís and importantly another differentiable manifold carries with it a naturally possibly different choice of topology and different choice of smooth atlas so we will now suppress this in a notation but it shouldn't suppress this in your mind should should always be there right this and well this is if you wish a different an equivalence relation because MST from Norfolk to itself because the identity is a different morphism Papa Papa okay so and we will not distinguish or it's
+
+00:43:54
+also custom to not distinguish between the few more 'fuck manifolds we call them the same seen through the glasses of differentiable structures they are the same now remark it is custom to consider if your morphic manifolds smooth manifolds to be the same this is all a question of the level of structure so you could have two sets you could have two sets M and M that as sets are the same okay exists a by direction between them then you equip one with the topology and the other one with the topology but unless
+
+00:44:58
+these two poor unless they exist a homeomorphism between the extended structures so they will not be homeomorphic so we have two sets that are the same seen through the glasses of set theory but once you add more structure they're no longer the same seeing through the structure through the glasses of topology but now you can push this on but even if they're the same is topological space if they are homeomorphic you can equip them with different differentiable structures and they're different as differentiable
+
+00:45:29
+manifolds we saw this before with the real line equipped with the standard topology the real line equipped with the stem topology is the same as the real line equipped with the standard topology to really homeomorphic so they're as topological spaces but we can pick one smooth atlas for one and one another smooth atlas for another one and as differentiable manifolds there they're no longer the same well that's clear so as soon as as soon as I start painting people's hair red and green and then
+
+00:45:58
+they're no longer the same okay good so now it always depends on context when you say these manifolds are the same so now we can go back yup yes okay it's somewhat it's not necessarily a linear stacking so okay thank you for the question so let me um so let's go back to page 1 so here we have a set now we can equip a set with a Tripoli G and I need to modify my picture a little so this is now equipped with the topology but instead of equipping it with the topology I could also equip it with some blob or
+
+00:47:07
+some diamond which is a so set M which is a map mm to M if this diamond satisfies certain properties like socha tivity the existence of a neutral element in m and the existence of inverse elements that i call this a group now you can certainly and I didn't close this year because you could certainly equip a set with the topology and such a structure and then again you get a so-called topological group or also called le group however well if you're on top ok let me refine this picture a little further
+
+00:47:53
+ok so on top of the Tripoli topology you can see it's a manifold and then finally put there a differentiable structure differentiable structure your differentiable manifold so that that is the path we went here right Chuck and as a side remark we did this at some point right ok so now once you are here so once you've arrived here so you have a set with the topology and a group structure you have a so-called Li group now this continues if you stay over here it was one of Hilbert's problems you
+
+00:48:33
+know this Hilbert Hobart around I think 1900 he gave a big speech he said that 22 problems that need to be solved in the 20th century in that era and one of the problems was whether every topological group called li group is already a differentiable Li group and the answer is yes ok so and indeed the analysis of the group's topological groups is best done by already employing some differentiable structure and we will do so in this course so we'll study lis groups and because the differentiable structure
+
+00:49:09
+gives rise to the so called Li algebras and by using Li algebra so you can study these Li groups very efficiently at least some aspects of it okay anyway so what this picture should confer to you is that you can have one structure and not the other and then uh but what you cannot have you cannot have a differentiable structure of doing without the thing being a topological space it can't be turbo logical space without being a set but then you can combine these things in various ways so another
+
+00:49:41
+thing you could do once you have here okay the picture gets even more elaborate so let's say here now you could also have a peeler to stick it out right here you could have an additional structure like an an S multiplication and then you have this and this and if they satisfy the right eight axioms then it's a vector space now you could equip a vector space oh my god it gets complicated you could equip it with the topology and so on you get the picture you can combine the structures in almost arbitrary ways but
+
+00:50:12
+not completely arbitrary ways because some structures require the unknown structure to underlie and it's always very important do you talk about a vector space or do you talk about the topological vector space we'll come to that in a second okay yes no no no because this is talking about the same set is being equipped with more and more structure of this thing that type in that in that combination if you look at the topological manifold as we did so you're somewhere here and you identify the term the fundamental group
+
+00:51:11
+then that is constructed from the topology it's constructed from the topology you construct a group which however has its own underlying set so remember the torus which had the underlying set integers Cartesian product with integers Z cross Z but that's then a different set which carries a group structure and so on so it doesn't mean that in one mathematics problem things have to always come in this structure you can construct from one you can construct a group based on a different set and then you have another
+
+00:51:44
+building like this okay it looks pretty I maybe it's more confusing than enlightening but I wanted to say that it's not like every structure has its exact place in in one such linear stacking here I mean that that is not what I wanted to convey in my original drawing in the first lecture okay good so now that we have the notion of differentiable manifolds to be essentially the same we can return to this question how many differentiable structures are there up to isomorphism so the question is before so now return
+
+00:52:28
+to question now return to the question of whether for instance we consider the realign equipped with the standard topology but we equip it with the maximization so the extension of this Atlas one we constructed for the real line you remember the the previous example and we can now ask the question whether this is maybe at least if you morphic to the real line it could be the standard topology and equipped with the atlas a2 or rather its maximal extension so you see they were clearly not the same because this atlas a1 Max and the
+
+00:53:24
+Atlas a2 max they were different okay we constructed only one chart in each atlas but once you have one chart you can add all the other charts that are compatible with it and you get the maximization of that Atlas clearly these two were different and we started worrying so well I mean if that's possible which structure on the real line would I use as the differentiable structure okay but we shouldn't be so precise and look only at the others we should worry whether the resulting differentiable manifold
+
+00:53:55
+differs in an essential way from the other one an essential different in a non-essential way would be if there the few morphic then we'd say well then they are the same from the point of view of differentiability because every function that's differentiable on here can be pushed over here will be differentiable and so on okay so we can now revisit this question and they are the following results which are however rather deep result we're not going to prove them and some of these results are real big achievements so um
+
+00:54:31
+we can now ask the question how many differentiable structures how many differentiable structures how many different how many different yeah how many different differentiable structures 10:1 establish put and one put on a given topic or manifold to the ideas I hand you a topological manifold and you have to decide which differentiable structure do I put on it and the whole thing is up to diffeomorphism and the results are quite surprising so the answer is depends on the dimension depends on the dimension of the manifold
+
+00:55:40
+so dimension M equals one two or three is one class so up to three dimensional manifolds everything is fine so this is a rod on Moi's rod on Murray's theorems they say that there is only essentially only one differentiable structure well there are several differentiable structures but all these manifolds are the few morphic okay up to diffuse or there is only there is a unique differentiable manifold and I should say a unique smooth manifold smooth manifold one can make of a given topological manifold that's nice
+
+00:56:59
+so although we had this issue that we could choose different smooth charts already for the real line it doesn't matter that the atlases are not compatible but the resulting manifolds they at least if your morphic so we don't worry that's great so everything you do with differentiability is unique even if you put it on a manifold you can now do have no notion of differentiability on the torus say I mean see what any treatment is this right so in Huestis in high school you learn how to do differentiable calculus
+
+00:57:37
+of one variable over the real line then you go to university and you take an engineering course and do it over RN or r3 let's say and so on you continue but now you can do it on arbitrary manifolds there holes in it and whatnot okay but up to that mention three everything is unique so that's a now B is well let's go to let's leave out four amendments let's take dimension of m is greater than four but not for decidedly not four so I mean the symbol says it all but I emphasize it decidedly not four then
+
+00:58:19
+there is a technique toolbox that's called surgery theory and surgery theory is really what it says you take say a sphere and you operate it like a surgeon so you take your scalpel and you cut out some piece of it and say you also take a scalpel and cut out some piece now your colleague comes and gives you the new heart but here it's not a heart let's say the colleague comes and gives you a cylinder and you push the cylinder in here and then you saw it here and you sue it here and then of course what you
+
+00:59:06
+get is the isn't that right so you perform surgery on the sphere again I don't know what the gender theorists say to this but if you have a sphere any other - okay you perform surgery okay and the idea I mean this this is a big field the idea is you understand the sphere pretty well you understand the the cylinder very well and now if you perform surgery in such a way that you control topological invariants you care about like say the homotopy group the called the fundamental group and stuff
+
+00:59:45
+like this and later on we'll talk about homology then you can understand the torus by performing surgery but there's of course only a very trivial example the idea is to understand all the manifolds in higher dimensions higher than four by reducing them to elements and suing surgery procedures you understand and by doing this in a systematic way I think it was in the 60s this has been done in the 1960s people showed that for amazing mmm greater equal to four there are only finitely many there are only finitely many
+
+01:00:32
+different smooth manifolds one can make from a topological manifold from the given topological manifold but the dimension needs to be greater than four okay so that's not so neat like one two dimensions one two three at least they are finitely many so you have a chance in principle to enumerate them to write them all down so you say let's take the the four sphere okay and let's try to find all the differentiable structures well if you really want to do this in practice for a given manifold may be
+
+01:01:14
+very difficult to do that to find all of these but the theorem says there are only finitely many so imagine like some physicists believe that the world is say attended the the space-time is ten dimensional and okay not not proposing or condemning that but if that is the case then you need to worry which smooth structure you equipped as this manifold with you can say yeah okay physics can make experiments if these different structures lead to different results different observations we can at least enumerate them and make finitely
+
+01:01:53
+many observations and distinguish between all of them in principle okay so this situation is not so bad so if the world is higher dimension if the world if the space-time is higher dimensional that's in a sense good news because you could probably improve in principle you could maybe determined by experiment if you apply this to physics by experiment which of these structures Nature has chosen if any if it's if space-time is a differential manifold in the first place but you see the point this has direct
+
+01:02:23
+impact to fundamental physics that these are finitely many you can say oh this is very abstract mathematics has immediate impact on physics if you take it seriously and we want to do that okay so now see the special case the dimension is four so I hand you a four dimensional smooth manifold like our four and I ask you how many different up two differ morphism smooth manifolds can you construct from this and the answer is a non-count to be many different smooth manifolds can be made of the same four dimensional topological
+
+01:03:31
+manifold in particular our four equipped with the standard topology we know this is a topological manifold of dimension 4 you have non countably many different ones this is at least true for non compact for the non compact case so here we can have see that one is the non compact case and see the two would be the compact case okay and in the compact case at least compact case the only partial results okay partial results if the so-called Pesci number there are several betting numbers this is the Betty number B - that's a
+
+01:04:28
+topological invariant is greater than eighteen what's the Betty number very roughly speaking the first Betty number thirteen numbers they actually find in terms of homology groups but I mean intuitively the first bet in the zeroth Betty number is the number of connected pieces your space has the first Betty number is the number of shockula holes one dimensional holds and b2 is the number of two-dimensional holes and that that continues and if the number of two-dimensional holes like say the
+
+01:05:18
+bretzel but with nineteen holes or so okay the Betty number is greater than eighteen then you control their only countably many countably infinite ly many different smooth many fourteen but you see okay compact would probably not be space for anyway it's still infinitely many so it's not it's not much better the compact case is a little better than the non compact case but so when Einstein says space-time is an r4 equipped with some additional structure and they made a light construction or the metrics more
+
+01:06:02
+specifically or more especially which is special relativity and you derive you you find the tangent vector to your world lines I mean special relativity the question is which smooth structure do you put on this are for as a topological manifold in order to do special relativity you have non countably many you could choose can you do experiments to distinguish between them well you would need to if you're lucky you need non countably many experiments to distinguish or to find the one it's not so good right that's
+
+01:06:46
+the result so unfortunately I have nothing better to say about this but it's just it's just an observation and this is what the analysis yields okay so maybe I mean this am i but it's serious I mean from from a philosophical point of view this is serious I don't know whether from a scientific practical point of view it's serious but in principle our theories could fail if we do it on four diamond on our floor they could fail maybe because we chose the wrong differentiable structure and maybe
+
+01:07:26
+could be repaired by choosing another one okay I don't think this is a point where you could start doing research but maybe you can I don't know but as a mathematical result it stays and should be noted so alright so we define a differentiable structure and the question is so what we have a structure we can classify but what we really want and what is really new about differentiable manifolds is that roughly speaking they have tangent spaces we can now meaningfully talk about tangent spaces so the key feature of a
+
+01:08:08
+differentiable manifold the exists exists a tangent space and I put this in quotation marks because you may have an idea of what a tangent space might look like may look like but that idea we will actually not use well but we'll go about this in a different way exists attention space at each point at each point of the manifold so the intuition to this is the following say you have a shear now if we look at the sphere as a topological manifold as true we intuitively always think about the sphere as being embedded in the
+
+01:09:13
+3-dimensional space but of course as a topological manifold it doesn't care about whether it's embedded in a 3-dimensional space or not it simply doesn't care it's we say it's the topology as a matter it's intrinsically defined you have a set it's equipped with the topology and the Tripoli neither the set points on the topology make any reference to what lies outside the surface of the sphere ok now the same stay is true if I start equipping the sphere additionally with a
+
+01:09:40
+smooth atlas say it's still this thing by itself again we can think of it as being in Bennet in r3 okay but actually it's an object that doesn't depend on the embedding now if I explain ten room spaces in the following way and I said take one point of the sphere and for dramatic purposes I rotate the point such that it's here on the horizon for you and then I say the tangent space I imagine to be all those points or vectors or whatnot that lie in the tangent plane you immediately get the
+
+01:10:15
+feeling well hang on this now starts making reference to the space into which this is embedded because this tangents plane as it's drawn here is a part of the space in which I think this thing to be embedded but which has nothing to do with the smooth structure because that is quite independent of the embedding okay and indeed this is not the way we work we are going to define these tangent spaces we're not going to define them as being planes in some exterior space in which the smooth manifold is
+
+01:10:49
+embedded we're not going to do this well due to various theorems that have been proven one could do it this way without loss of generality okay nevertheless we're not going to do it because now imagine this is not two-dimensional but it's four-dimensional and it presents our universe so we want to talk about space-time and then we are going to construct an ocean and if the space-time is supposed to a comprehend entire universe model the entire universe it would be kind of a little bit funny to
+
+01:11:24
+think of the universe being embedded physically speaking now being embedded in even a bigger space which then the tangent space is lie because in that bigger space would obviously be what we should call the universe the thing that comprehends everything okay so even from a physical point of view not purely an aesthetic point of view in mathematics but also an aesthetic point of view from theory building in physics it's nice to construct everything intrinsically that means without taking recourse to
+
+01:11:51
+structures that lie outside the actual object so we need to come up with an idea to define these tangent spaces only using the structure we are handed notwithstanding our intuition you may think of tangent spaces this way but it's better not to pretty fine them this way okay that's the first remark so now in the following few subsections we will fix a point on the manifold and we'll start constructing the tangent space at this point to dual to this tangent space and even the tendon of the tensor space
+
+01:12:28
+spaces over this point that's the first thing and then there will be a couple of subsections later where we're actually looking at all the tangent spaces together and if we can talk about vectors tangent vectors at one point they will constitute a vector space but if we look at all the points together the whole thing will constitute a vector field on the manifold because at every point I can look at a different vector okay now you know the mathematics of vector spaces well that's linear algebra like you
+
+01:13:03
+probably took a course and it's in the algebra and we'll quickly review some linear algebra notions in particular the construction of tensors and so on because there are some standard confusions that we will now try to eliminate once and for all now however if you continue to consider it to consider vector fields vectors everywhere you still have a linear structure on vector fields because you can add two vector fields but you can also scale a vector field but at different point of the manifold you
+
+01:13:34
+could scale it differently it could scale it with a function and it turns out that the strict notion of a vector space is no longer it's too restrictive to also deal in a clever way with vector fields and we go to another type of structure that's called a module who've used some modules in linear algebra Oh fantastic okay good very good so that would be new for you but then it's my responsibility or all your future miss conceptually my responsibility anyway and so this is also started I think normally if you're
+
+01:14:11
+studying mathematics its linear algebra to you modules very useful structure and again we'll see us in physics we use them all the time we just choose to ignore that they're not really vector spaces anymore
+

@@ -1,0 +1,390 @@
+00:00:05
+[Music] so good morning and welcome back uh today we'll turn to differential forms and that will be the last chapter of the uh the last section of the chapter on differentiable manifolds and differential uh forms are very important in physics um because for instance the electromagnetic field strength is a um is a differential form and uh the question of whether you can find an electromagnetic potential uh will be a question that will concern us uh but in a more General context uh differential
+
+00:00:42
+forms also give rise to something called the dam cohomology uh of a smooth manifold and the big surprise is that although the definition of the soall the ram cohomology groups employs differential struct differentiable structure of a smooth manifold um it simply tests the underlying topology so it gives you a tool to construct topological invariance by using the differentiable structure and of course uh that makes it more easily computable than if you would just touch the topology firsthand and that is
+
+00:01:21
+why it has such an important role in mathematics so uh this is physically and mathematically important it's a 4.7 differential forms and the ram the ram cohomology so what's the differential form that's something extremely simple it's simply a totally anti-symmetric tensor definition if we look at the smooth manifold M uh then a def um an N form or a often one doesn't say differential a differential n form is a zero n tensor field Omega that is totally anti symmetric that means if you consider Omega you evaluate
+
+00:02:56
+it on its n entries and because zero n tensor field it eats n vectors X1 to xn and the idea is you pick up a minus sign if you exchange any pair of entries um and more formly that is that um if you now consider Omega but you permute the vector Fields by some permutation Pi so you look at the entries X x Pi 1 to x Pi n then you pick up a minus sign depending on whether the signature of your permutation is even or odd so this is where Pi is a permutation of the first n numbers and obviously X1 to xn they're
+
+00:03:57
+all Vector Fields so they're smooth smooth sections of the tangent bundle any such zero n tensor that has this total anti symmetry property is called a an N form okay so um examples I think we saw n forms before because uh if a manifold If a smooth manifold m is orientable now what is orientable orientable means that you can uh make a certain pick of charts so you restrict you can restrict an atlas in a certain way such that the transition functions um uh behave in a certain way I put this on a problem
+
+00:04:49
+sheet and if m is orientable uh then there exists a nowhere vanish top form I think I introduced this notion before a Top form and this simply means that um aha I should tell say here that we can have zero less or equal to n less or equal to dim M for these n forms because obviously if I have more vectors in here than the dimension of the manifold is than any per that will always yield zero so you could have a dim m+ one form but it necessarily would have to be Zero by anti- Symmetry and um it's also clear that a one form is not
+
+00:05:44
+the one forms are not restricted by the anti- Symmetry Condition it's void there and zero form neither but the zero forms are the z0 tenses are the scalar Fields okay now but now we have a nowhere Vanishing top form and top form means that the N is the maximum maximal n n equals dim M uh Omega uh providing a volume I think we talked about this before so that's an example for a differentiable form and so this provides a volume now in every tangent space um because it's a field um B for instance the electromagnetic
+
+00:06:35
+field strength field strength F uh is a two form it's the the Faraday tensor um and Fin see uh In classical mechanics on on classical mechanical face space let's be more concrete so if Q is a smooth manifold that In classical mechanics uh describes your configurations of the system uh then the face space is T star Q it's the coent bundle where where to every Point roughly speaking you attach all the momenta all the co- vectors so if we're here in classical mechanics in the simplest case
+
+00:07:39
+and then uh on tar Q There exists even a canonically defined so you don't need to Define this as extra structure it's already there on T star Q um uh there exists a two form Omega which is called the simplec form now not every two form Omega is a simplec form it needs to have additional properties but I can't write them down yet I will only be able to write them down once we develop differential forms a little bit but one of the ideas one of the facts is that it's a two form and so
+
+00:08:22
+you have a two form that means you have two entries you can switch them and you get a minus sign and that minus sign that you get is the sign in the Hamilton equations you have the Hamilton equations right Q dot is um D DH by DP and P dot is minus DH by DQ and this minus the second minus uh in the Hamilton equations comes from here okay very mysterious remarks very simple I just want to show you this has uh immediate implications for physics okay so introduce some rotation so the set of all n forms um be
+
+00:09:14
+denoted um Omega n of M so this is uh first of all a set and um uh which naturally becomes is whatever is if you equip it with the appropriate structures you inherit the structures from uh the sections of the tensor bundle uh is a c Infinity M module obviously it is because the zero n tensors are a c Infinity n module um and the this is just a a Subspace of those a Subspace that's closed under addition obviously because the sum of two two forms yeah sum of two sorry of two n forms is an N form and uh the um C Infinity M
+
+00:10:22
+multiple of some omega in Omega n is again in Omega n that's all quite obvious and so um this is a c Infinity M subm and it's it's obvious okay now we have this so that means this is closed under the inherited addition of tensors and the inherited C Infinity Ms multiplication um but it is not closed under the tensor product now however um Omega n of M well obviously uh well it's not closed but it's also obviously okay I should write taking tensor products or forms doesn't
+
+00:11:16
+lead to forms it's it's even worse than not being closed right taking uh tensor products of forms does not uh yield a form unless one of the forms was a zero form okay generically it doesn't um uh but we would like to have a kind of tensor product that again yields the form and so we Define [Music] um a wedge product probably saw this before somewhere a wedge product where that eats an N form and it eats an M form and it produces in n+ M form and the important thing is it's anti-symmetric again and we of course
+
+00:12:17
+need to make sure it is and we do this as follows so we take an N form Omega an M form Sigma and we send it to Omega wedge Sigma but how is this defined well if this is an N plus M form we can Define it by having it act on n+ M tensor field Vector Fields Omega wedge Sigma acting on X1 to x n + m many uh we can Define this as um uh okay need to return okay yeah so we need to take out factors 1 / M factorial 1 over M factorial and then we take a sum over all the permutations uh of the first m+ n numbers uh then we introduce a sign of
+
+00:13:23
+the permutation and then we simply take omega wedge um sorry Omega tensor Sigma we know that guy uh and we feeded the x of pi1 down to the x of Pi n + m and you know that uh the tensor product is defined by uh satisfying the first tensor in the product with as many entries as it needs and then taking the remaining entries and having them on this second tensor having them acted upon by the second intenser and then these two numbers are simply multiplied so this defines this and obviously this construction with the
+
+00:14:07
+sign um produces again a form okay and I know the simplest example would probably be you take a one form Omega and you take also a one form Sigma uh and what you then get is um Omega tensor Sigma minus Sigma tensor Omega and so the convention I chose here uh doesn't put a weight here so there are several conventions you could choose for defining this wedge you could also put a weight here anyway so this is the convention we're going to choose here and uh and these guys of course just compensate for
+
+00:15:01
+the fact that the Omega and the sigma are already anti-symmetric you don't want to pick up ever more factors here okay so um and then quite obviously uh it goes from here to here and also importantly it is of course a uh bilinear map from here to there it's C Infinity by linear because multiplying the Omega or the sigma by some function that will just pull out and uh it's additive anyway okay so it's the bilinear it's a linearity is a bilinearity but because we're dealing
+
+00:15:40
+with C Infinity M modules this must be a c Infinity M by linearity there's no doubt about that okay so we have this wedge product so it's a soall wedge product wedge product or uh exterior product some people call it the exterior product okay [Applause] um right so uh now one of the questions aha well let's first talk about the pullback any questions so far so uh you recall that we had uh if we have a smooth map H between two smooth manifolds that this induces uh Maps H star the soal pullback
+
+00:16:54
+maps uh at at certain points p uh but they go the other direction so they go from TP star n back to T um I'm sorry they go from th of P star n back to T star TP star M it's the pullback it uses pull backs right and um obviously if you free yourself from the idea that this happens at a particular point but that it happens at all the points you can of course pull back uh an an entire uh co- Vector field right um can be used to define can be used to define uh a pullback that no longer speaks about a specific point and that
+
+00:17:49
+takes a co- Vector field right so uh we can now write a covector field as one form because that is what it obviously is it's a one form so before we would have written here gamma of T star M but that's just a one form uh on I'm sorry on n and it pulls it back to a one form on M that's just what it does and it does so by doing at every point this right so we only wrote it down for one particular point but obviously you do this with every point you then have this map this pullback map and that is a
+
+00:18:33
+linear map and in this case it should be yeah right okay so we have this and now the question is if this works with one forms does it actually work with n forms and in fact it does so uh we have the definition um let Omega be an N form uh then we want to define the pullback of that n form instead of a one form and uh how do we Define this well if it's an N form so this is supposed to be uh I'm sorry this is again on N because we pull back have to start with a an N form here and we can pull it back
+
+00:19:25
+to an N form here so the Omega is in Omega n of N and now this is of course supposed to be that's what we want to construct an element of the N forms but on the original manifold M well okay how can we Define this um we have it act on N Vector fields on M so X1 to xn and each of those uh is an element of gamma t M that is of the smooth sections of the tangent bundle or uh simply we say is these are vector Fields so how do we Define this well we Define the pullback of a one form by using the push forward on its argument
+
+00:20:20
+now there are several arguments well we use in every argument we use the push forward of the vector field and this is the as it was previously the push forward uh of a vector field uh and that's the same construction as we did here we only defined the push forward from a certain tangent space to the tangent space uh to the corresponding tangent space in the uh image manifold here Target manifold um and now we extend this we do this at every point and this is what is this is what is meant here okay okay so um this is then
+
+00:21:01
+the push the pull back of this one form and of course you got to check whether it's C Infinity linear if you put Fs in here but it is because this one is and it jumps out of here and you got to check if you want to ensure it's a form again that it remains its anti- symmetry but obviously it does because we only touch the individual uh entries here and the Omega is uh an n form so this thing is an N form okay it's a very simple extension of the pullback uh to n forms and so before we had this statement
+
+00:21:40
+vectors are pushed forward and Co vectors are pulled back and now we can extend this uh Mantra uh to forms any n form forms are pulled back that's it so um okay this leads to an extension of the Mantra uh forms are pulled back they're not pushed forward they're pulled back okay so we have that well and then of course we got the question how does the uh so it's okay so always try to get the perspective we defined this set of all or this module of all n forms now on this module we established a
+
+00:22:41
+bilinear it's not quite true that on this module we Define a bilinear map because it goes from here to here to to quite a different set we we come to that in a second but anyway the question is how does the pullback distribute over this wedge that is something that comes up quite often so we have the well theorem anyway it's a result um the pullback distributes distributes over the wedge product sounds good it's very simple um if you got the pullback of a wedge product and again the
+
+00:23:31
+understanding is that they come can come from very different uh spaces so one can come from the N forms and the other one from the M forms that doesn't matter the only thing we know is that the total thing here is then an element of n plus M forms quite obviously okay uh the pullback of that is simply the wedge of the individual pullbacks so really the pullback distributes over this wedge and that can be easily shown and uh well that's a just a few lines from the definition I put this on the problem
+
+00:24:15
+sheet so you get some facility in manipulating these Expressions that's quite simple okay so now uh you see I several times had the urge to say that this wedge acts on a certain space well it doesn't it takes this n space the m space and Sensi to the N plus m space wouldn't it be so much nicer if there was one space that is closed under the operation of this wedge product and in fact there is and it's the so-called grasman algebra so in a sense we we want to to extend the form space the various n form spaces such as
+
+00:25:04
+to have the wedge product being a closed operation so definition he definition um the C Infinity M module G ah okay no we call it okay there there are several names uh being used we just call it Omega of M so there's no more mention of any particular degree of the form well the degree of a for of the form is simply the the n n is the degree of an N form you could also call it the rank of the form because it's after all the rank of the tensor anyway there's no particular mention of that and that guy
+
+00:25:58
+simply is the direct sum of this module direct sum this module Omega 1 direct sum this module plus dot dot dot plus the finite direct sum up to the dim M forms on M and we know those are the top forms there are no further I remind you that the this sign simply means as a set this is the cartisian product but then you equip this Cartesian product with a componentwise addition and then we immediately write it like this and that's why I could immediately write here the C Infinity M module because this is a direct sum of
+
+00:26:40
+modules and again the reminder these are the zero forms the zero forms are z0 tensors this is nothing but the familiar functions smooth functions on M and these are the one forms and those are of course nothing but the familiar um co- Vector fields on M uh so we met these guys before they're kind of special cases of forms and then it goes on with with these higher forms and here lie the top forms we met so we have a c Infinity M module and um okay some some other name that is being used I write the
+
+00:27:19
+triple equal meaning it's just different notation some people also call this the grasman algebra over M um um yeah so this this module but now I already said I call the grasman algebra well what does that mean um well I have a module that means I have a module addition and I have a module s multiplication namely with C Infinity elements but in fact I can also add a bilinear map so this is a c Infinity module C Infinity M module and we had the definition of an algebra before that if you have a vector space and you can
+
+00:28:00
+extend it to a module and you equip it with a bilinear map and the wedge is certainly by linear acting on here I write this down in a second um it's of course by C Infinity M by linear this is called an algebra right it's called um the grasman algebra on M it's an algebra of forms and um well obviously uh uh where this guy acts on all of Omega M takes two elements of Omega M and sends it to an element of Omega M and but we don't know how that works because we only know how the wedge takes
+
+00:28:55
+one from here and one from here say and sends it to one in here but that of course predestines this wedge here so it's in a sense a new wedge name the wedge on the grasman algebra um but that uh says that uh where this is defined by linear continuation of the old wedge and um well that simply means you uh take a general element so example you take an General element s in Omega M well not a general one but you say um you take s equals um Omega plus Sigma but now this Omega is an element of say the one forms and
+
+00:30:00
+this Sigma is an element of the three forms for instance that could be right now you say how on Earth could you add a one form to a three form well that's obviously not the addition on tensors of a certain rank but it is the addition here because they're all parts of this big space so this is the addition in Omega of M that comes from this direct sum and so the whole thing is an element of Omega of M right looks funny but that's perfectly fine and say you have this and say you have uh a
+
+00:30:43
+simple thing like a fi which happens to be but doesn't need to be um uh which is an element of a very specific uh n form space and um uh then you have that fi and now I need my green color that the wedge product between the two because this is obviously a sub module of Omega of M so I can use this wedge that acts on Omega of M to wedge these two together now the question is what is this and this is where linear continuation comes into play uh you write it down Omega plus Sigma the green wedge and say the
+
+00:31:33
+FI and well that's fine because this is in Omega of M this is in the grasman algebra well this guy also is in the grasman algebra more particular it's in this n Subspace but who cares so this is defined but now how is the green one defined well it's defined and this is the principle or the definition of linear continuation uh this is then Omega wedge fi plus uh Sigma wedge F now the Omega is from a specific is a one form the FI is In N form so this whole thing is in n + one form on M and uh over here you have what
+
+00:32:18
+is it a three form and N form is an n+ three form on M and now this plus is the Plus on Omega M because obviously you have to take an N plus one form and N plus3 form that can only be a plus as it comes from here from from this Omega but that is of course then defined and that's the uh linear continuation of this okay and if you work with this you say a well this is distributive because this is bilinear but the question is always bilinear where this is bilinear on Omega of M and you reduce this to the
+
+00:32:58
+wedge on specific subsets by linear continuation okay there's no secret there when you calculate you almost don't see this but yeah oh I'm um hang on uh the Omega and the FI and the sigma well that was uh by mistake I'm sorry was by mistake okay so we have this uh wedge and and this makes the the so-called grasman algebra um so uh there is a lot of talk about grasman numbers so I say example grasman numbers and they're used particularly in super symmetry and the usual saying goes these are
+
+00:34:01
+numbers that do not commute and that anti-c commute um well the thing is it's not the numbers that do not commute how can it be the objects that don't commute it can only be an operation that is commutative or not right the addition is commutative or not um well it is commutative uh the uh the Le bracket is a bilinear map it can be commutative or not well it's not because it's uh anti- symmetric and so on but it can never be the objects that commute or not it's the operation between the objects
+
+00:34:44
+okay so that's the first uh Misa in this grasman numbers that the numbers do a certain thing or not it's the algebra that does it and in fact the whole secret about Grassman numbers uh is it's not an accident this is called uh uh the the the grasman algebra you can understand these grasman numbers by uh reducing this to such a grasman algebra okay so that is heavily used in super Symmetry and so on and maybe it's worth emphasizing this at this point okay so there are a few more remarks but so the question is what is
+
+00:35:18
+it about the commutativity or commutation behavior of the wedge um theorem so if you restrict to um particular n form subspaces so if you take omega uh to be an N form and you take Sigma to be an M form on a smooth manifold uh then you find that Omega wedge Sigma is well you want to compare this to Sigma wedge Omega what happens if you flip the two well if they belong to to specific subspaces of the grasman algebra then it's very simple to say what they do they pick up a minus sign namely how many well the degree of Sigma
+
+00:36:09
+time the degree of Omega - 1 to the n * m it's very simple to prove this but mind you this is only true I emphasize again if the Omega is not just an arbitrary element from the grasman algebra which could be a linear superposition of an N form and n plus2 form but if it's a specific n form and sigma is a specific M form then it's this and uh if you have more General elements of a Grassman algebra um so um remark uh if uh what do we call them s and fi are elements of the grasman algebra uh then obviously it's not you
+
+00:36:54
+cannot simply say s wedge fi is some something uh F which s because different parts of the S which is an N form and N plus1 from the on of the FI will have different commutation Behavior so there is no such relation here uh well I write it's not related whatever that means um if you're coming from the full Grassman algebra then you have to break it up to its individual summons with respect to this direct sum and in each of these summons so to speak well can be different yeah anyway everything is said there you can apply
+
+00:37:34
+this this rule okay that's important so there's no um overall commutation or anti-commutation of the wedge if it acts on so we had it in green before if it acts on General elements of the of the algebra then you need need to break it down by linear continuation and do it on the individual factors okay this just as a warning okay um so we have this don't commute no anti- commute right aha um yeah and uh now the question is uh what about differentiation so we had differentiation of functions in terms of
+
+00:38:23
+the gradient and we had differentiation of maps in terms of the uh of the push forward after all right that was the differential of the map the question is what is the differential what's the derivative of the of the forms and um so we first recall that we had this gradient at a point so um if we had a smooth function f um we could Define this gradient operator but now not at a particular point but we can Define it um on any function and what it yields is a one form because what we had before okay so
+
+00:39:10
+I write it down so f is sent to DF and that's a one form well why is that because I can Define this one form uh at a point well if it's a one form U then at the point it makes it an element of the cotangent space right uh and I can Define this by what I wrote down before as d sub PF and this guy was defined right d subp we defined now we do this at every point and of course we get this extension of the DP to a d that takes a function to a co- Vector field okay but now we want to extend this and we want
+
+00:39:52
+to uh extend this to aha okay to a covector feied and this guy here is of course the zero forms so you have here aha so this D we already have takes zero forms to one forms and now what we would like to do we would like to extend the D such that it takes an N form to an n + one form so this can be extended be extended to n forms now you ask okay you extend it to n forms why don't you extend it to any tensors n forms are just specific tensors and the answer is on tensors you cannot write down a derivative without
+
+00:40:44
+adding further structure to the manifold so the differentiable structure we have on the manifold is not enough to define a so-called covariant derivative on arbitrary tensors but on forms on these anti totally anti-symmetric tensors there is a notion of derivative so-called exterior derivative we're going to Define that can be defined just in terms of the differentiable structure so in accordance with our philosophy that we always want to keep track which structure which operation which definition we can have at what
+
+00:41:17
+structural level in our building this is an important Point okay so this can be extended to n forms and we have the definition um the exterior derivative operator exterior derivative operator D takes a an N form on M and sends it to sends it to an M form over M and it does so by virtue of the following definition where D Omega okay so Omega is an N form so this whole thing is in n + one form once I'm finished so I can Define it by having it act on n + one covector Fields right so these guys
+
+00:42:25
+here they're no Vector Fields I'm sorry there are smooth Vector Fields if I know the action of an n + one I'm sorry this is not M this is n + one I raise the degree of the form by one if I have this n+1 form act on n+1 Vector Fields uh and I know how that works then it's defined so how is this defined um well uh I take the sum from 1 to n + one so as many as I have entries here and I apply the I entry the I Vector what can I apply a vector to I can apply a vector to a function how do
+
+00:43:12
+I get a function well I take the original Omega which is just an N form and I feed it with all the vectors I've had the n+ one form here with well that's of course not possible because that's one too many well the I I one I let act on it so I cross out the e one that leaves you n in here and I act with the that gives you then a function because uh yeah this is a function because this is an N tensor it eats n Vector Fields it's a function and uh I act with this D with this Vector on the
+
+00:43:50
+function that's kind of the directional derivative and I do this democratically for every entry so I sum over all of these but I want this thing to be a form again so it needs to be anti- symmetric and in order to ensure this um I have to put a minus sign occasionally and I put a minus sign with the power I + 1 yeah that's what I want precisely that's what I want that's not all of it um then there is a plus and now there is a term uh that goes over pairs here I took individual everyone but now I take all the pairs
+
+00:44:36
+well but all the ordered pairs so I take I less than J but both of them well run from one to n one to n + one and um here I have the original Omega which can eat in Vector Fields but the first entry I fill with the so-called commutator of of two Vector Fields I'll Define that in a second and then the remaining ones X1 2 then there is the I one then there's the J one and then there's the n+ one well I already used two of those and made one of them so I cross out the I I cross out the J I keep the others I took two out I
+
+00:45:20
+put one in that means I have n Fields I feed this guy and the anti- Symmetry is already taken care of by this commutator and that is the definition of this exterior derivative it's the coordinate free definition and um all right so um well proof you ask why proof it's a definition isn't it well uh we have to make sure that this D Omega is indeed an n+ one form okay how do you do this well um uh Omega anti-symmetric totally anti- symmetric uh that is clear from the definition you check that you exchange
+
+00:46:07
+any two you pick up an overall minus sign but that's not the only thing we need to check we need to check that it's C Infinity M multilinear so that in each of the slots it's additive well that's quick that in each of the X's it's additive that follows immediately oh I have to still Define the commutator I'm sorry but what you have to do is the crucial thing always is is it um if you put a function if you multiply any of the entries by a c Infinity function does this guy pull out and in fact
+
+00:46:43
+intuitively one wants to have this but this extra term here is to ensure the C Infinity multilinearity so that this is really a tensor field okay so yeah um so I need to explain to you what this commutator is well the commutator of two Vector Fields okay so what is this um so let's make an aside of this aside commutator of two Vector fields an extremely important notion also later on when we discuss Le groups in Le algebras commutator of two Vector Fields is the following um you take X and Y
+
+00:47:40
+Vector fields on a smooth manifold and if you study consider uh X acting on the result of YF for any smooth function f okay and then you subtract y acting on X on F well this expression is defined you know this expression and it gets a name X comma y on F and what you can show and that's the problem sheet um show problem sheet that only this combination X comma y but not X after y or Y after X but only this combination is again a vector field okay so you can take two Vector fields and you make a new Vector field
+
+00:48:48
+you construct a new Vector field by taking the so-called commutator and it acts on a function and it has the uh the C Infinity multilinear property it's a vector field okay and so this commutator we use here okay that's this and it's of course anti-symmetric the commutator of XY is minus the vector field commutator YX okay so um let's have an example I think one should have seen this once I should demonstrate it once um let's consider the case um n equals 1 so we take a one form and we calculate the um the
+
+00:49:32
+exterior derivative okay so n equal 1 uh that means we look at D Omega and that is then a two form so I write vectors X and Y instead of X1 and X2 okay so if Omega is a one form then the Omega is a two form so we should be able to write down this number or this function here um so according to the definition what do I have to do um I take the first one then the second one so I take the X and let it act on the Omega as it acts on y minus I take the Y and let it act on omega as it acts on X and X is the first
+
+00:50:16
+entry and so it's 1 + 1 is two the sign goes here the sign stays that's already this entire sum and then over here ah no I forgot something here I need minus1 to the I + J I'm sorry so there's also a sign here and it takes the I plus J so I claimed before that anti- symmetry is taken care of by the commutator that's not true you need this additional sign and now um so you have to go over all pairs well ordered pairs there's only one ordered pair there's only the ordered pair one two you can go over but
+
+00:50:54
+then uh you pick up a minus sign here because -1 to the 1 + 2 is -1 to the 3 so that's a minus sign and you just have omega of the commutator and there are no further Vector Fields so that is it now let's check for this particular example uh let's check C Infinity multi-linearity well additivity is obvious so check um C Infinity M scaling and because it's anti-symmetric by construction it suffices to check the scaling in one entry because then in the other entry it's obviously also there so
+
+00:51:37
+let's try to fit this into this line so we consider D Omega of X comma FY so I scale the Y and what I want to show is that for any F in C Infinity M the F pulls in front that's important and we'll see that we need the second term here so this last term in this expansion to achieve that so how does it look like okay so we plug in here uh the Y is scale so this is X of Omega FY but there the F immediately jumps in front it's F Omega y why well because the Omega is a co- Vector field it's of course the
+
+00:52:17
+infinity linear minus well here the F already is right in front f * y Omega of X okay now here we need to work a little it's Omega and now it's the commutator of X and Y and there is an F in here in between so how does that look like well that's an X acting on FY minus FY acting on X this finishes like this so we go up here equals aha so now the X is a vector field it acts on this product of functions but because it's a derivation it acts by the product rule but the lipets rule so this is
+
+00:53:09
+XF time Omega of Y and there's a second term namely it acts on a second Factor plus FX on Y no so X on Omega on Y X on Omega on y y this is just the first term here because X as a vector field is a derivation then comes minus well this term we do not massage any further this is FY acting on Omega of X all right now this last term we have to work a little uh Omega is a one form so it's certainly additive so we can pull this apart uh so we get minus Omega GA of the first summon but let's work on this first summ
+
+00:54:01
+that's the same thing that's the lipnet rule XF and then y plus F and then X on y okay that's the first term uh close bracket well I I I do not quite close the bracket yet I I do not use that yet I I continue minus F YX aha but now uh the whole thing transpires here um I now see that I rather use the additivity at this point and I take this together uh so well let me discuss it like this so I just take the second term here including the minus sign in front only the second term this is uh minus XF
+
+00:54:54
+because XF is only a function that jumps in front of of the Omega because this is a uh a co- Vector field XF Omega of Y and then the remainer here is minus Omega fxy minus fyx but the F jumps in front so I can put the F here Omega of X and Y aha so that was just the second term but now XF Omega y minus XF of Omega y this goes against this and this term that term and that term together is simply f * D Omega of XY so in fact the F pulled out and hadn't it been for the second for the second term here so the last term in
+
+00:55:46
+here uh it would not be C Infinity linear it would be R linear but not C Infinity linear so for this to be a tensor field we need the second second term okay all of this without choosing any components any bases because we don't even know whether we have a global basis a basis uh well so we um we do it this [Applause] way okay so that was this and uh so then there are two more remarks um so the question is how does this D commute or well commute how does it talk to the wedge so um let Omega be an n
+
+00:56:57
+form and let F be in M form then the D of Omega wedge fi is now this is a product it's a kind of a product it's an anti- symmetric product and here I have some kind of differentiation so we expect something like a lipnet rule that should be a product rule of some sort but it's not an exact liet rule because neither is this an ordinary differentiation it's an exterior differentiation nor is this an ordinary product it's an antisymmetrized product in fact what it is you act on
+
+00:57:38
+the first one all right so that's the Omega and then afterwards you take the wedge well if you think want you can put brackets around here and if it was an ordinary liet rule you'd put a plus and then you'll keep the first one and you apply the derivative operator to the second part and that would be the liix rule but it simply isn't like this there is an extra sign Factor here but only the degree of the Omega counts so this degree here is irrelevant irrelevant for the for the formula here okay so this is uh well
+
+00:58:21
+this is kind of a graded action when one calls this a graded action and up here you call this a graded algebra because it depends on the degree of whether this commutes or anti commutes okay so we have this uh thing that's the first theorem uh that can be proven maybe I'll torture you with it on the problem sheet or not anyway this is to be memorized and uh the other wildly I mean really wildly important theorem so it deserves uh a box or something because it comes as a gift it comes in a
+
+00:58:56
+box um is um that the pullback commutes with the exterior differentiation so exterior differentiation commutes well I put this in quotation marks uh commutes with the pullback uh how does that look like well so you um take the pullback of some exterior derivative and it's in fact true that that is the exterior derivative of the pullback right okay um so well obviously if this is an N form then this is an n + one form so this is the pullback of an n+ one form whereas this is the pullback of an N
+
+01:00:01
+form and it only becomes an n+ one form afterwards so in a sense these are different D's so this D here so this D here uh takes an N form say takes an N form and makes it to an n + one form that's what we did all the time right and this D here well it's the same D but it's the D acting on a no no they're both no no no it's both the same this is an N form and this is also an N form I'm sorry so they're really the same these I'm sorry agree yeah pardon me on a different manifold oh well that
+
+01:00:51
+that is true okay so I yeah okay that's true but that was not the point I wanted to make certainly on different manifold so that's that's the one so if it's the pullback this must be the one on the manifold so if H I should say h is a smooth map from M to n then this Omega must be a form on n and this Omega um must be a form on n and exactly so this D acts on the on an N form on N so acts on an N form on N to make it an n + one form on N that is right and here this D because the pull back has
+
+01:01:29
+already happened takes all right an N form but on M and makes it to an n + one form on M so in a sense they're not the same D's but uh and so in that sense you should say commutes because not the same operator but symbolically it commutes so you can remember it that way if you know if you know there what you are doing and of course uh similarly um the action of d uh extends bilinear continuation or at least additivity um to to the entire grasman algebra right so um you can actually take an
+
+01:02:25
+element of the grass algebra and map it to an element of the grasman algebra it just so happens that this element was a sum of a two form and a three form then the result will be a three form and a four form okay in the four form Subspace but this is also this is also closed here okay so there is this extension so let me give you two physical examples and they're very brief because in fact we don't have enough technology yet to embellish them but the first example is a well-known one and that's Maxwell
+
+01:03:19
+electrodynamics but actually I shouldn't say Maxwell electrodynamics I should say any electrodynamics okay so I mean what is Maxell electrodynamics if you go to the books like Jackson they say Maxell electrodynamics is the Maxwell equations they give you four equations and that's it well the question is are there other electrodynamics and if there are which of the equations can you change without leaving the domain of electrodynamics and um well any electrodynamics has to talk about the
+
+01:03:55
+field strength F and in fact DF equals zero so f is a two form we had this before the electromagnetic field strength if you think of it in components on a for manifold you have the E and the B field in there okay you saw all of this before I hope otherwise uh I'll torture you with it on the problem sheet well I certainly torture you with it on the problem sheet but then the DF is a three form and you require that this three form so this the Z on Omega 3 of M require that this three form be zero and
+
+01:04:35
+this has a name this is called the homogeneous Maxell equations so it looks like only one tensorial equation instead of the two Mixel equations but in fact it uh it covers both okay now what do you usually do with these homogeneous mixwell equations if you have them in the standard formulation well you look at them and you um um put your rots on your Cur your curls and your your divergencies and you you play all these games and you find in standard electrodynamics or standard Theory as it's taught in classes you
+
+01:05:32
+find that this two form can actually be expressed as the exterior derivative of a one form okay so f is a two form and now this can be written as this exterior derivative and then this guy when if this guy is called the field strength field strength this guy is called the gauge potential or simply the potential okay now what I want like to draw your attention to is this implication arrow is it really true that from the vanishing of the exterior derivative of F You can conclude that there is an a
+
+01:06:17
+such that the f is a DA and the answer is yes that's certainly true if the space time on which you work as a smooth manifold is R4 as the smooth manifold okay but it fails to be true as soon as you start uh taking out entire lines and stuff like this from R4 then it starts failing to be true okay that's one thing we're going to investigate and uh the last part of today's lecture will also have to do with that that's the first example where the exterior derivative appears in physics
+
+01:06:56
+the second example is um on simplec manifold so we're going back to our um classical mechanics example and there I already said that you have something like well it's just a name you call it a simplec form and I already told you that one of the requirements on a simplec form is that it be A2 form that's only one of the conditions there's another condition that says it needs to be non degenerate let's forget about this at the moment we come to that back to that later but you also require
+
+01:07:38
+that this two form again very similar to here it's essentially the same thing only this is always on R4 uh whereas this can be on any uh cention bundle oh I'm sorry so the Omega I'm I'm terribly sorry the Omega doesn't live on M it lives on the cotangent bundle of some configuration manifold you can generalize this to a simplec manifold M but we're not there yet so it's the co it's a form on the coent space on the face space and require this form be closed well it turns out if you're hear
+
+01:08:12
+on the cotangent bundle this is always true uh because on tar Q um you can always write down a Theta and this Theta has the form Pi dqi what are pi and dqi well pi and dqi are the components of a point in the cotangent bundle so this goes to dim q and then P1 to P dim q and very much like we uh so these are coordinates right uh very much like we co construct a coordinate system on the tangent bundle you can construct one the co potention bundle you can write down this guy and then indeed it follows that
+
+01:09:00
+if you well then if you Define omega as the exterior derivative of this simplec potential you see this is really an analogy simplec potential uh then indeed you find that D Omega is d d Theta and you calculate this and you get zero aha so if your face space is the co- tangent space of some configuration space then this is trivial that the D Omega is zero if you define the well you can trivially find one such thing at least in in some local patch but in fact you can always but then you could say well let's not have
+
+01:09:50
+uh the cotangent bundle of something let's just have an even dimensional manifold M here equip it with such a two from Omega and then you have to require by force that the D Omega is zero and then you call this whole thing if this Omega also satisfies some non degeneracy condition you call this a simplec form and you call the pair M and Omega a simplec manifold and that's essentially the whole business of hamiltonian mechanics and we'll come to that okay we'll come to the fact that uh if you
+
+01:10:20
+come from a lent formalism you go to the cotangent bundle but as soon as you start doing canonical trans formations you violate the bundle structure here and so you need to think more generically in terms of a simplec manifold anyway if these remarks seem mysterious to you just take them as examples where in electrodynamics and In classical mechanics the exterior derivative plays a an important structural role and the question under of under which circumstances The Vanishing of an exterior derivative implies that the
+
+01:10:58
+form on which it acted itself can be expressed as a exterior derivative is a very important one and it gives rise to the so-called cohomology Theory uh which I'm now going to um discuss okay so the ram cohomology okay so the basic theorem on which this whole business of cohomology is built is the following um d^2 equal Z full stop um well proof well obviously by D Squared uh we mean that you apply D and then you apply D again so it's D cir D and so it can act on some function or it can act on
+
+01:12:02
+some n form uh so let's say Omega is some n form for definiteness um so this is the D of the D of the form so clearly this is a an N +2 form the result but in fact the claim is that it's already zero and um well you can show this directly from the definition of the D but there was a little involved um you can show it immediately in local coordinates because in local coordinates the D Omega of an N form can always be expanded and that you should do in detail on the problem sheet in order to get the factors right but in
+
+01:12:50
+fact there are no particular factors it gets expanded in the form Omega it's an N form so it has indices A1 to a n with respect to some smooth bases for instance the coordinate induced well we're using coordinates here coordinate in Ed spaces um and then you take the derivative aha so I should not use that notation I should use the partial derivative notation DB DB on these functions because if Omega is a n form it's a field right a TENS of field field so it has components that are functions
+
+01:13:29
+okay and so you take the be partial derivative of the component function Omega A1 to a n and then of course you have to get back an N +1 uh uh form uh and that's indeed XB we know this is a one form and one form field wedge so you can wedge these fields wedge dxa1 wedge dot do dot wedge DX a n so you can always in local coordinates expand the exterior derivative like this but then it's immediate that the D of the D of Omega must then be the d c d b of Omega A1 to a n and you have DX C wedge DX D wedge DX
+
+01:14:23
+a b I'm sorry a one wedge do do wedge DX a n and that looks all right however these these wedges these are all one forms so the exchange of any two of them picks up a minus sign and you have all of these indices contracted here the B and the A1 to a n with all these indices down here now if you have such a situation then it actually turns out that this is the same as this is the same as and I write it down only once Omega A1 to Omega a n dxb so I copy the expression DX A1 wedge do dot wedge DX a n it's the same of
+
+01:15:15
+whether I put anti- symmetrization brackets here or not now do you all know these antisymmetrization brackets or you want me to explain them expand okay so what are those well uh the idea is if you have an object okay an object o that carries indices um M1 to m f okay then you want to Define an antisymmetrization bracket as follows it's the sum over all permutations pi of the F numbers here and you write here the sign of the permutation and then you take this object o and you look at Pi of M1 dot do do dot
+
+01:16:13
+down to Pi of MF M1 to MF you pick up the sign and you also that's my convention here and you also intr produce a factor 1 / f factorial that's the definition of the antisymmetrization bracket and there's also a symmetrization bracket that's then round brackets around indices it's exactly the same thing but without the sign of the permutation it symmetrizes and doesn't anti- symmetrize that's one thing you need to know about this okay so that's uh the brackets that's just notation okay
+
+01:16:57
+notation but there's also a a little uh result to be learned so assume you have a an object with two indices a and you have another object with two indices a and I really say object it doesn't mean what it is it doesn't mean that these are scalar coefficients and these is a a two form which is labeled by A and B like it is here it is a fact that if this one is already anti-symmetric so then I can put these brackets there because the result is an anti-symmetric anti symmetric thing that is the same as
+
+01:17:37
+writing the indices down here okay and this can be easily proven so one says that if you fully contract a number of indices this could be symmetric anti symmetric whatever you contract them with something totally anti-symmetric this IND use is an anti- symmetry down here I mean it's a two liner try to to show this from from the definition also is true for more indices and that's the case here back here this is manifestly under exchange of any of the DX somethings with another DX something
+
+01:18:12
+else you pick up a minus sign so all these indices up here are totally anti- symmetric that induces an anti- symmetry down here okay so whether these had been symmetric or not before in this combination they are and there's really an equal sign okay so if you uh don't see this immediately calculate it at home it's very important to be able to uh to see this because it simplifies many calculations like this one because I see ahuh so up there now this whole sequence of indices CB A1 A2 to a n all of these
+
+01:18:52
+are already anti-symmetric by definition of the wedge product so there is no harm in me putting the anti symmetry brackets there because any repeated factors are killed by the F factorial but that also means it induces an anti- symmetry on all of these c b A1 to a n aha but then there's the next result that is if you have something that is symmetric and you have something that's anti- symmetric in indcs and you contract over these you necessarily get get zero that's exactly what happens here
+
+01:19:29
+these two are of course already symmetric if this is at least uh if these coefficients are at least C2 According to which LMA or theorem Schwartz that's right Schwartz theorem tells you that this is zero aha there you go so at least in a coordinate chart we showed this that whatever form you act upon if you act upon uh it with d twice you get zero so this zero is the zero on the N form space on the n + 2 form space uh when if the D originally here acted on an N form right so D Squared is zero uh and that's an essential thing
+
+01:20:24
+now why is this so important you say okay that's an amusing fact let's uh push on but in fact Lots follow from that okay this implies that we have a sequence of maps so now let's be careful so I start out well almost I start out with the zero forms that is the smooth functions but actually I will have one more space in front of that now if I have a smooth function so forget this Arrow at the moment I can apply the D and I get a one form right I increase the degree by one once I have a one form
+
+01:21:33
+I can of course use again the D and produce a two form and so on it goes dot dot dot I go by DDD I finally reach the N forms from there I go to the n + one forms by the D and so it continues until I reach which forms until I reach the top forms name the forms of rank Dimension M and once I reach them and I again act with d we know we get a dim m+ one form but that's always zero so we write uh zero here uh yeah it's a kind of a vector space with brackets zero but let's write it like this this
+
+01:22:20
+customary and the same here I start from a trivial Vector space that has only one element so I'm probably to be very precise one should write the vector space that just consists of one element there are no smaller ones and I can extend the definition of my D by defining this green D here okay and the green D takes you from zero to well where should it take you it takes you always to the zero in here so the green d uh just takes the zero in here uh um to the zero in here so this is defined to be the zero in C Infinity m in the in
+
+01:23:03
+the zero forms okay so I extend this a little to have this entire this entire line and so it's also customary to to not write these brackets it's the vector space of consisting just one element so I have this sequence well I had the sequence anyway that's nothing new but what does the d^2 equal Z uh tell us well it tells us the following it tells us that well let's first make two definitions or recall the following definitions from linear algebra so if we have a map fi that takes us from one module P to another
+
+01:23:45
+module Q so p q let's say uh there are C Infinity M modules okay specifically but quite independent of the C Infinity M if you have a linear map between two modules you probably saw this between Vector spaces but then you can Define two things you can define something called the image of the map which is a subset of course of the target of the map and it is all those objects F of P for p in P is all the images and you can define a subset of the domain called the kernel of f it's called the kernel of f that's just a
+
+01:24:42
+short name for all those p in p uh for which five that are sent to Zero by five now the kernel is even a sub Vector space uh sorry a sub module of this this fi here okay and if you now look at the particular case for d right so all these D's are actually different D's and let's focus for a moment because they come from different spaces they always are called D but obviously uh this map here from the N to the N plus first is a different map from the one that takes you from Omega 0 to Omega 1 but we call
+
+01:25:33
+it D okay we have to keep in mind from where to where the D Maps so I could ask about this green D what is its kernel and what is it is its image okay so I can certainly look at the kernel of the green D and that will be a subset of Omega n and I can look at the image but now let me do something different I look at the image of the D that was once before so the the red D here so I should have rather looked at this okay um so the image of the red d That's this other map left and right of this um this is also a sub set of
+
+01:26:25
+Omega n right so this kernel of the green D in the image of the red D they lie in the same form space is that right clear that's clear no okay and so what does it now in this language language what does it mean that we have D after d equals zero what does this Translate to well the first D takes you here the second D takes you to zero that means the image lies in the kernel right so that means that the image of the red D is a subset of the kernel of the green D okay well it's a subset now the question is
+
+01:27:56
+well it's a subset and let's give elements in these subsets names because they're very important subsets it's just terminology terminology so we look at Omega n minus one of M we go to Omega of m n Omega n of M we go to Omega n + one of M so we look at these three spaces as parts of this as a part of this sequence and we have the red D here and the green D here okay um now we focus we want to classify subclassify forms in this space so we call an Omega in Omega n of M right in this blue space
+
+01:29:15
+here we call an N form called exact it's called exact if this Omega lies in the image of the red one and we call an Omega well and it's called the same Omega not the same an Omega in the N forms is called um closed closed if it lies in the kernel well not of the same D but of the next D okay so in general form will be neither exact nor closed but those that lie in the image are called the exact forms and those that lie in the kernel are called the closed forms well it's immediate uh that
+
+01:30:25
+d^2 equal Z implies or rather here MD in the kernel means uh every exact form is closed okay because you can think of the exact forms as follows you can say for an exact form Omega exact for practical purposes well it's just true is there exists a form Alpha of one degree less of course such that Omega is d alpha that's exact and of course closed Omega closed is that D of Omega is zero so this just a reformulation and you need to be able to switch between this formulation of exact which is of course precisely this
+
+01:31:35
+definition but here it's useful to think in terms of images and kernels if you think about the sequence okay and now we go back to this electrodynamics problem um so example if you have D if you have a a one form a if you have an electromagnetic potential and from it you define the field strength as its exterior derivative then of course it follows that the D of the field strength being the D squ of the a is zero so all right if you have such a gauge potential you satisfy the homogeneous mexel equations and that's
+
+01:32:21
+of course the reason why we choose that electrodynamics if we can but the question is whether you can actually take this implication arrow and turn it around can you already conclude from the homogeneous mix equation that there is an a such that f is exact so this that means the Maxwell homogeneous Maxwell equations homogeneous Maxell what they say is that the field strength is closed in this language that's what the Maxell equations say now you may ask well if that is so is this closed one also
+
+01:33:09
+exact right cuz that's just uh the image is just a subset of the kernel but is it equal to the kernel that's the question okay so under what circumstances are these inclusions at every point of the sequence actually not inclusions but equalities that's a question you can ask it's a question of immediate importance for instance in electrodynamics and of course in many other fields so in an attempt to make the subject incomprehensible uh people further rename uh so further needless
+
+01:34:02
+terminology uh not enough that we recognize that the image of the D is important uh and the kernel of the d i now no longer emphasize the different D's you should always go back to this right um they actually call the image uh the image is the exact ones they call them BN if this is the image of the D that results in an N form this set and uh if you look at the D whose kernel is a sub space of the N forms uh then you call these exact forms uh you call them uh sorry the the closed forms you call them ZN so these are the
+
+01:34:52
+exact for forms the space of exact forms and it's the space of closed forms so you again rename a clear object well maybe there's some virtue to it because you say the exact ones of degree n the closed ones of degree n and otherwise you here have always to say this is the D that acts on the Omega n minus one and this is the D that acts on the Omega n so here this well okay but anyway that's the traditional notation okay and um so again we we know uh we know that the image lies in the kernel so we know that the exact
+
+01:35:38
+ones lie in the uh in the closed ones okay and uh the question is when are they equal okay question are they equal the answer is no okay uh but there is the panar Lama and the panar LMA says that uh uh BN is actually ZN for all n greater than zero and n equals z we look at in a second um if m is some RM so equality holds on RM so on some RM apart from the the case n equals z all the forms are actually um all the closed forms are exact and all the exact forms are closed it's the same thing and
+
+01:36:49
+therefore in electrodynamics on R4 if you just have an infinitely extended SpaceTime uh you can go back and forth between the homogeneous mixell equations and the um the gauge potential that is just equivalent but that is just on R4 and already if you take out of space say say you you pose some longish electr magnet somewhere right um some some coil uh then you already start disturbing this business right and that plays for instance a role in the uh what's it called the effect in quantum mechanics the the aarun of bom effect
+
+01:37:30
+and stuff like this so it's not very esoteric to kind of say you're not on r on R4 you can easily bring up experimental setups that produce this effect okay are they equal no but on R4 but that's not the whole uh that's of course just a very special case and what if not that's the next question so question one are they uh question two what if not well what if not then we would like to quantify like to quantify by how much um the um closed forms uh fail to be exact by how much do
+
+01:38:20
+closed forms fail to be exact it's one thing to know it's not the same the other question is how different is it and if we want to quantify and we have one uh Subspace in the other we can have the following definition definition the in Dam cohomology group in theology group is the quo Vector space with the nice name H like homology so it's the h in the homology if we were defining a homology group we would put an index down here but because we're defining a CO homology group we put an
+
+01:39:32
+index up there hn of the manifold okay and it's defined as the um closed forms n that n quotient with the exact forms with the exact n forms and now you might ask what is this quotient of vector space well this is just short notation for saying you have on ZN uh you have an equivalence relation equivalence relation uh that relates to forms Omega and sigma that are already closed that relates them by definition if and only if their difference is actually exact right so this twiddle has to do
+
+01:40:24
+with the exactness okay and therefore this guy here what write ZN by BN is just another notation for ZN modulo twiddle but this twiddle depends on the exact forms so it's mod twiddle BN and then people forget about the twiddle and just right BN okay so that's not something new it's just the old game of equivalence relations and uh looking at the equivalence the set of equivalence classes that is at this quotient Vector space now in order to Aha look okay so we have this now comes theorem before I
+
+01:41:06
+give you the first example of this I uh quote a theorem and that's the Rams theorem and I don't quote it in its technical detail but only in its philosophical well in its conceptual implication the the Rams theorem says that the hn of M only depend on the topology topology of M now this is of course remarkable because everything in here it's supposed to be an exclamation mark because everything in here is defined by exterior derivatives how they relate to each other and exterior derivatives have
+
+01:41:56
+everything to do with the local differentiable structure if you wish so I can put an unneeded word here but I write down there it depends on the global topology so uh for instance how many connection how many connected components your space has will show up in the age zero here okay if you put n equals z in fact uh well maybe we can we can still quickly do this uh that gives h n of M so okay I just write as a remark or example example I put this on the problem sheet due to time reasons uh the age zero of some smooth
+
+01:42:42
+manifold real manifold is actually isomorphic to R to the to the number of connected pieces of M okay it's the number of connected pieces of M and that's very easy to prove if you think about what the covariant what the um exterior derivative does uh and uh if you see that the um um that the closed forms um form is closed if it's so the zero form is closed if its exterior derivative vanishes but the exterior derivative of a zero form is the exterior derivative of a function is the gradient of the of a function okay if
+
+01:43:36
+the gradient of a function vanishes everywhere that means it's a constant function but if you have a space consisting of several pieces this piece and another disconnected piece here the function could be constant on this piece with one value and constant with another value over there if you do this and then you also ask yourself what are the exact forms exact zero forms you come to this result I put it on the on the problem sheet okay if you want to calculate higher cohomology groups which is very
+
+01:44:14
+interesting the Practical calculation even in the simplest cases like for um R so okay so first of all from here it follows immediately that a Z of the real line is the same as h0 of the circle this is all R because this is connected and this is connect has only one connected piece um but then uh there's other stuff like hn for n greater or equal to one of the real line they're all the vector space with just the element zero okay so you can show this but in order to show this you already
+
+01:44:50
+need integration on manifolds not in a heavy way but you need it and we're only going to do this later but I wanted to give you the theorem first so the Practical calculation is one thing but the fact is another one again from d^2 equals z the central uh underlying identity there we get this sequence with inclusions where always uh the images are included in the kernels of the next map and if we want to quantify how much the images deviate from the kernel or do not give the entire kernel we can quantify by modding
+
+01:45:32
+out the exact forms from the closed forms and that gives you the the rology groups and although everything depends on the differentiable structure the objects you get the groups you get you remember we had the fundamental group was also a group concerned with the topology these are also groups concerned with the topology they're built another way they have a certain relation to the fundamental group but it's not so simple um these chology groups but anyway we learn purely topological information the
+
+01:46:03
+topological invariance right so two diff different differentiable manifolds that are built on the same topological manifold will have the same theam cohomology groups and you know how difficult it is to to actually really deal with the topology to really use the the open sets to construct objects it's much easier to calculate stuff like this and so uh you you get you get this and now again the pank array LMA was that just this essentially is the pray Lama for the real line but it also extends to
+
+01:46:37
+RM all the n greater equal to one Co Ram chology groups are just the zero Vector space of course the zero isn't the zero is just R because it's one one connected piece so that's the um basis of cohomology theory and uh of course carries significance you can uh also show that the other identity that I wrote down um oh okay so let's continue next time okay thank you
+

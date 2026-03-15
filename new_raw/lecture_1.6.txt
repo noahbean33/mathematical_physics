@@ -1,0 +1,443 @@
+00:00:09.160 with these foundations we can actually
+00:00:11.960 proceed to an important topic that's
+00:00:16.760 1.6 classification of
+00:00:25.519 sets now this is an important exercise
+00:00:29.240 every time you defined a notion in
+00:00:33.040 mathematics you immediately ask what is
+00:00:36.399 the
+00:00:37.360 classification how
+00:00:39.120 many different objects of this type do I
+00:00:43.079 have how do I get an overview over this
+00:00:46.000 structure it's fine to write down a
+00:00:48.160 definition it's fine to write down in
+00:00:50.480 this case nine
+00:00:51.879 axioms but we would like to have an
+00:00:54.280 overview what type of in this case sets
+00:00:57.320 are there um but this this is something
+00:01:00.519 that doesn't only happen in set theory
+00:01:02.320 it's a recurrent theme in mathematics so
+00:01:04.640 let me write this down a recurrent theme
+00:01:07.080 in
+00:01:15.159 mathematics is
+00:01:17.880 the
+00:01:21.640 study well study is very general let's
+00:01:24.119 be more precise is the
+00:01:28.840 classification of
+00:01:32.119 spaces I explain a second what a space
+00:01:34.799 is supposed to mean it's the
+00:01:36.240 classification of
+00:01:38.040 Spaces by
+00:01:41.159 means of structure
+00:01:47.320 preserving Maps between those
+00:01:57.560 spaces so we have to clarify ify what we
+00:02:00.439 mean by spaces and we got to clarify
+00:02:03.200 what we mean by
+00:02:09.038 Maps
+00:02:11.560 space is
+00:02:14.440 usually
+00:02:16.800 meant to
+00:02:20.640 be some
+00:02:24.840 set
+00:02:27.280 together or let's say equipped
+00:02:32.959 with some
+00:02:39.879 structure and in the beginning of the
+00:02:42.120 course I told you that we'll uh put
+00:02:45.800 layers of structures on top of each
+00:02:48.200 other so we'll equip sets with more and
+00:02:50.879 more and more structure and that's the
+00:02:53.800 structure I'm talking about here so it
+00:02:56.000 will be topology as the next step then
+00:02:58.519 it will be a differentiable struct
+00:02:59.760 structure and so on okay but uh it could
+00:03:02.879 also be other structures like a group
+00:03:04.640 structure so you give a um an operation
+00:03:08.799 on a set and so you add structure like
+00:03:11.599 this and every time this principle
+00:03:14.720 applies a space is usually meant to be
+00:03:17.080 some set equipped with some
+00:03:19.720 structure and now you want to classify
+00:03:22.560 such a space well the case of sets is of
+00:03:25.360 course a trivial instance of this
+00:03:27.560 because it's a set without addition
+00:03:30.000 structure okay fine but it's
+00:03:31.879 nevertheless a set and a structure
+00:03:33.959 preserving map in the case of set theory
+00:03:37.040 simply becomes a map because there's no
+00:03:39.560 structure that could be preserved well
+00:03:41.599 it's the structure of the set itself but
+00:03:43.239 it's kind of the the lowest uh the
+00:03:45.480 lowest level structure and we'll
+00:03:47.120 investigate this in the set has
+00:03:49.959 structure um so this is this so
+00:03:52.879 obviously we need a notion of map
+00:03:56.680 definition a
+00:03:58.680 map
+00:04:01.200 f is a
+00:04:06.400 relation um well it's a map
+00:04:09.760 F from a set a to
+00:04:13.360 B is a
+00:04:17.639 relation uh such
+00:04:21.880 that for every
+00:04:26.080 a in
+00:04:28.080 a there exists
+00:04:33.000 exactly
+00:04:36.199 one b in B such
+00:04:42.360 that f a comma B full stop what does it
+00:04:47.840 mean f of a well it means F of a is true
+00:04:51.720 you remember a relation of two variables
+00:04:54.160 can be true or false and if a and b are
+00:04:57.360 sets then a map from A to B is such a
+00:05:01.080 special relation such that exists for
+00:05:03.720 every a exactly one b in B now
+00:05:08.840 um our standard notation for this
+00:05:13.720 somehow hides the fact that f is a
+00:05:16.800 relation that eats two variables and
+00:05:19.720 produces a truth value the standard
+00:05:22.479 notation for this is to write F
+00:05:27.600 A and then to write
+00:05:31.280 a to the value a in a we assign the
+00:05:36.160 value five of B in B and you see if if
+00:05:40.440 you say fi is a relation then this is an
+00:05:44.560 abuse of notation because the relation
+00:05:46.600 needs to eat two objects and produce a
+00:05:49.680 truth value but once we agreed that for
+00:05:52.840 every a and a the exist exists exactly
+00:05:55.160 one B and B such that F of a b then F of
+00:05:59.240 B B I'm sorry F of a then F of a is
+00:06:04.400 precisely this B okay so this is then
+00:06:07.800 defined as precisely the B That's Unique
+00:06:10.360 such that five of a is true and that's
+00:06:13.199 that's the standard notation right but
+00:06:15.880 um structurally
+00:06:18.039 speaking well I don't know whether it's
+00:06:20.319 important but it's at least structurally
+00:06:21.919 correct to keep in mind that a map is
+00:06:24.160 actually a
+00:06:25.479 relation um if you don't look at a map
+00:06:28.880 as a relation
+00:06:29.919 then you get into trouble because you
+00:06:32.360 have to say well a map is such that to
+00:06:34.240 every a there is assigned a unique B the
+00:06:38.680 question is what do do I mean by there
+00:06:41.360 is assigned a certain B what does it
+00:06:45.160 mean to assign to one element in a
+00:06:48.919 another element in B this notion of
+00:06:51.280 assigning is not defined and um so it
+00:06:54.319 comes from from a relation okay so
+00:06:57.160 that's the basic idea of a
+00:07:01.160 map so there's some further
+00:07:08.360 terminology um so if you have a map five
+00:07:11.280 from A to B then uh a is called the
+00:07:14.720 domain of the
+00:07:17.720 map um B is called the
+00:07:21.400 target of the
+00:07:23.400 map uh then there is an object that we
+00:07:27.360 write down as five of a or sometimes we
+00:07:31.800 write it down as IM the image of the set
+00:07:36.440 a uh under the map F and is nothing but
+00:07:40.520 the set defined by restricted
+00:07:44.000 comprehension is the set of all five of
+00:07:47.560 a where a comes from a and of course we
+00:07:51.599 know that this must lie in B by
+00:07:54.720 definition so it's really restricted
+00:07:57.440 comprehension we can Define it like this
+00:08:00.440 this is the
+00:08:01.720 image and then we have further
+00:08:03.840 definitions also well known to you um
+00:08:06.759 that a map
+00:08:09.080 fi from A to
+00:08:11.680 B
+00:08:13.199 um is inject um
+00:08:19.280 surjective if its image five of a
+00:08:24.360 coincides with the target so if every
+00:08:27.199 point in the Target is hit by the map
+00:08:31.000 it's
+00:08:33.958 injective if the equality of two values
+00:08:39.479 of the map if five of A1 equals 5 of
+00:08:42.799 A2 already implies that A1 equals
+00:08:48.880 A2 and the map is bjective and that's
+00:08:52.160 the key notion it's bjective if it's
+00:08:57.720 injective and
+00:09:05.680 subjective and bjective is the by far
+00:09:09.240 most important
+00:09:11.920 notion and in fact we have the following
+00:09:14.959 key definition two
+00:09:18.240 sets A and
+00:09:20.800 B are
+00:09:24.600 called I put the qualifier here set
+00:09:28.120 theoretically
+00:09:36.640 isomorphic so they're called isomorphic
+00:09:39.680 in set
+00:09:43.760 theory um and for this we write
+00:09:48.120 a equal with a twiddle on top B and the
+00:09:52.640 qualifier set as a subscript it's called
+00:09:58.120 isomorphic
+00:10:00.279 if there
+00:10:03.680 exists a
+00:10:07.760 bje let's call it
+00:10:10.000 f uh from A to
+00:10:15.959 B now you
+00:10:17.920 see um we just require the existence of
+00:10:22.079 some
+00:10:25.560 bje and by not asking for a particular
+00:10:28.519 bje how would
+00:10:30.120 we actually this becomes a property of
+00:10:33.079 the two sets they are such that there is
+00:10:36.279 such a bi
+00:10:38.040 ejection um important remark is if there
+00:10:41.480 is any
+00:10:43.240 bje there is any bje at
+00:10:50.519 all from A to
+00:10:52.760 B then
+00:10:56.160 generically that means only in
+00:10:58.320 exceptional case this is not the case
+00:11:00.399 then
+00:11:01.639 generically there are
+00:11:05.600 many that means there is not a unique
+00:11:08.880 such bje the whole Criterion is there
+00:11:12.040 exists such a
+00:11:14.160 bje and um the intuition about this
+00:11:20.440 is um pair
+00:11:23.880 up
+00:11:26.760 elements of a
+00:11:29.880 and B so if you have two classrooms one
+00:11:34.320 with boys and one with girls you can ask
+00:11:37.000 are they isomorphic all you got to do is
+00:11:39.480 pair up the boys with the girls in pairs
+00:11:42.800 and if there's nobody left then
+00:11:45.920 obviously you have a bje because to
+00:11:47.680 every boy you find a girl but you find
+00:11:50.399 exactly one girl so it's injective and
+00:11:53.440 uh subjective and every girl gets a boy
+00:11:57.360 or gets assigned to a boy
+00:11:59.480 um then you have the intuition of equal
+00:12:03.600 size but it's actually better than an
+00:12:06.959 intuitive notion of equal size because
+00:12:09.399 it also works and it's designed to work
+00:12:11.920 for infinite
+00:12:13.800 sets for finite sets equal size is an
+00:12:16.639 equal is an easy thing you just count
+00:12:18.720 you say it's the same number but for
+00:12:21.560 infinite sets that's not so easy by the
+00:12:23.760 way we could clarify what an infinite
+00:12:25.519 set is um and that's already the promise
+00:12:31.000 classification classification of
+00:12:34.399 sets by way of studying structure
+00:12:38.440 preserving maps and the structure
+00:12:40.480 preserving maps are the BS in the case
+00:12:43.680 of set theory classification of
+00:12:47.480 sets
+00:12:49.480 um a set
+00:12:53.480 a
+00:12:55.040 is let's start with the definition of
+00:12:57.959 infinite
+00:13:00.880 infinite if there exists a
+00:13:04.920 subset a proper subset if there exists a
+00:13:08.480 proper
+00:13:11.920 subset what's a proper subset it's a
+00:13:15.639 subset but by force it's not equal to
+00:13:21.079 the set the exists so the set a contains
+00:13:25.399 an element that the set B does not
+00:13:27.760 contain okay it's infinite if there
+00:13:31.240 exists a proper subset well that's not
+00:13:33.199 it yet there exists a proper subset um
+00:13:37.519 that
+00:13:38.800 is isomorphic to
+00:13:45.000 a so B in fact set theoretically
+00:13:49.880 isomorphic to
+00:13:51.600 a now for finite sets that's an
+00:13:54.360 immediate contradiction if you have a
+00:13:57.000 finite set a and you have have a proper
+00:13:59.399 subset say the finite set 1 2 3 you have
+00:14:02.279 a proper subset the set one and two okay
+00:14:05.639 it's a proper subset then one two is not
+00:14:09.000 isomorphic to 1 2 3 you don't find a bje
+00:14:13.040 there so for finite sets this seems
+00:14:16.000 impossible but this precisely the
+00:14:19.320 signature of an infinite set that there
+00:14:22.079 exists a proper subset such that the
+00:14:24.279 subset however is still isomorphic to a
+00:14:28.440 so a typical example would be the um the
+00:14:34.160 integer numbers
+00:14:36.639 Z and the natural numbers
+00:14:40.680 n right N is a proper subset of Z
+00:14:44.079 because minus one is not in N that
+00:14:46.320 suffices okay but
+00:14:48.800 nevertheless uh Z is isomorphic to n you
+00:14:52.920 can make a
+00:14:55.079 bje okay you can write down a bijection
+00:14:57.759 so that is in infinite now if it's
+00:15:00.399 infinite there are two different types
+00:15:02.360 of
+00:15:03.560 infinite a set is called countably
+00:15:06.920 infinite so a is
+00:15:09.480 called called
+00:15:14.519 countably
+00:15:20.079 infinite if a is in fact isomorphic
+00:15:26.600 to the natural numbers to the nonzero
+00:15:30.279 the non- negative
+00:15:32.319 integers intuition is if you can label
+00:15:35.480 the elements of a set if you can attach
+00:15:37.519 a label to this number one number two
+00:15:39.560 number three if you can label all the
+00:15:41.519 elements the set is called countably
+00:15:44.319 infinite and the set is called
+00:15:47.440 uncountably infinite
+00:15:49.959 otherwise called nonc
+00:15:56.319 countably infinite
+00:16:08.000 otherwise
+00:16:09.560 and then a set is called
+00:16:14.399 finite again
+00:16:18.319 otherwise but now the otherwise of
+00:16:20.560 course refers to this level of the
+00:16:23.079 structure if it's not
+00:16:25.040 infinite
+00:16:27.519 okay
+00:16:29.279 fine so that's the classification of
+00:16:33.160 sets and there is not more to be set
+00:16:37.120 well maybe that if you have a finite set
+00:16:40.959 a in this case a will be set
+00:16:44.040 theoretically isomorphic to the set one
+00:16:47.720 2 up to an integer number n for sum n in
+00:16:55.920 the natural numbers uh and then then
+00:17:03.360 write that the size of
+00:17:06.640 a is n they n elements in
+00:17:23.079 a that's the
+00:17:26.839 classification any questions so
+00:17:31.080 far
+00:17:32.960 okay so
+00:17:35.440 um some more words on
+00:17:49.880 maps well given two maps so the first
+00:17:53.000 thing is that given two maps we can
+00:17:55.240 build a new map you see it's always the
+00:17:57.200 same given two maps um from A to B and
+00:18:03.280 sometimes it's convenient to denote the
+00:18:05.400 map on top of the arrow from A to B and
+00:18:08.600 another map from B to C that's called
+00:18:11.840 this other map
+00:18:13.760 s given two maps one can
+00:18:18.840 construct a third
+00:18:22.640 map in this case the map uh would name s
+00:18:27.360 after F so we read
+00:18:31.919 this
+00:18:34.240 after s after F which is a map from a to
+00:18:38.440 c and it assigns to a the value of s of
+00:18:43.360 f of
+00:18:45.039 a that's the
+00:18:48.280 composition of
+00:18:55.919 maps composition of maps and very often
+00:18:59.520 this situation is diagrammatically
+00:19:05.640 represented by writing a diagram a b
+00:19:09.640 Arrow F on top that's like the first
+00:19:12.960 piece of data uh from B to C it's the
+00:19:16.240 second piece of data and then you write
+00:19:20.840 here s after F and if you're very
+00:19:25.960 precise you say that this Di
+00:19:30.039 commutes but very often people don't
+00:19:33.760 write this explicitly but by writing
+00:19:36.720 down this diagram they say there it is
+00:19:39.960 it commutes which means you can go this
+00:19:42.880 way or you can go that way and if you
+00:19:45.520 start from here you arrive at the same
+00:19:47.880 result and if then this arrow is called
+00:19:50.280 s after fi that obviously defines s
+00:19:53.240 after fi an element in a is first mapped
+00:19:55.960 by fi and then the result is taken on by
+00:19:59.960 Sai and Ma to C and this is this map and
+00:20:04.280 um well this might seem Overkill as a
+00:20:07.200 notation but we later on meet situations
+00:20:10.080 where many maps go from many places to
+00:20:12.039 many other places and then actually
+00:20:14.000 these diagrams are much more convenient
+00:20:17.520 um than writing down the data in the
+00:20:21.200 traditional
+00:20:22.600 way now uh quite
+00:20:25.960 obviously but it needs to be checked but
+00:20:28.240 it's a oneliner obviously
+00:20:35.919 composition Circ and this Circ um
+00:20:41.080 obviously is an operation on the space
+00:20:43.799 of maps because of two maps it makes a
+00:20:46.440 new map but only if the target of the
+00:20:50.080 first map well this map is the domain of
+00:20:55.720 the other map obviously so obviously
+00:20:57.840 comp position Circ is
+00:21:03.960 associative so if you have a third map s
+00:21:08.480 after
+00:21:11.640 s after F and you first evaluate this
+00:21:16.240 then it ought to be the same and it is
+00:21:18.200 the same as s after
+00:21:20.840 SII after
+00:21:23.279 five okay composition is
+00:21:27.039 associative
+00:21:28.640 now you need a composition in order to
+00:21:31.279 be able to speak of an inverse map if
+00:21:34.679 you have no composition you can't speak
+00:21:36.559 of the inverse map
+00:21:40.159 definition let F from A to
+00:21:44.640 B be a
+00:21:49.039 bje so only for BS we Define the
+00:21:52.400 following then the
+00:21:57.039 inverse
+00:21:59.480 of
+00:22:00.799 f
+00:22:02.840 is the
+00:22:05.880 map uh f up to the minus one of course
+00:22:10.200 just means inverse from B to
+00:22:14.880 a
+00:22:16.960 defined uniquely so there's no ambiguity
+00:22:21.000 defined uniquely
+00:22:23.679 by um f inverse sir
+00:22:28.520 fi so you need the Circ in order to
+00:22:30.400 speak of the inverse F inverse cir fi
+00:22:34.279 well let's uh for practice write the
+00:22:36.440 diagram a b fi goes like this fi inverse
+00:22:41.640 goes like this so if you f inverse after
+00:22:44.360 fi you go back to a you require that the
+00:22:47.760 result is the identity on a and if you
+00:22:50.520 go the other way around f after F
+00:22:53.000 inverse then it's the identity on B and
+00:22:57.760 the
+00:22:59.400 the identity on a set m is a map from
+00:23:04.320 the set to the set where every element
+00:23:07.159 of the set gets assigned to itself
+00:23:11.159 that's the identity
+00:23:22.080 map which obviously we have for every
+00:23:26.880 set
+00:23:30.600 okay so an inverse only exists for
+00:23:35.120 BS now however another notion which
+00:23:38.039 we're going to meet in topology
+00:23:39.679 particularly is the notion of a
+00:23:41.400 pre-image and the pre-image is kind of
+00:23:44.720 something like the image of the inverse
+00:23:46.919 but actually the map you look at doesn't
+00:23:49.080 need to be a bje it can be any map so
+00:23:53.279 let fi from A to B be any
+00:24:01.720 map then we
+00:24:05.000 Define the
+00:24:08.000 set um preim like
+00:24:12.919 pre-image of a set
+00:24:15.799 v um well and this set V is supposed to
+00:24:20.480 be a
+00:24:21.679 subset of the target of the
+00:24:24.760 map and the pre-image of V under the map
+00:24:28.320 f is defined as all those a in the
+00:24:34.120 domain whose image under fi lies in the
+00:24:39.159 specified set
+00:24:48.880 V okay now if you have a bje then the
+00:24:54.559 pre-image of an individual element will
+00:24:57.840 always be a set with a single
+00:25:00.200 element
+00:25:01.760 obviously if you have a non
+00:25:04.320 bje then the pre-image of a one element
+00:25:08.520 set can
+00:25:10.640 be a set with several
+00:25:14.039 elements okay but so the pre-image is
+00:25:17.760 always a
+00:25:19.480 set it's called the
+00:25:25.279 preimage of the set V in the
+00:25:28.320 Target with respect to wrt with respect
+00:25:32.279 to the map F pre
+00:25:46.360 image all right it's all basic Notions
+00:25:49.720 it's convenient to fix notation once and
+00:25:52.279 for all so that was the classification
+00:25:55.279 of sets and before we leave set theory

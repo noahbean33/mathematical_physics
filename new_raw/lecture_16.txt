@@ -1,0 +1,363 @@
+00:00:08
+so good morning and welcome back today we continue our study of the special linear group SL to see for the relativistic spin group and in particular of its Li algebra and today we would like to conduct the analysis that we did in theory in the second previous lecture we'd like to do it for the example of the special linear group and it's algebra namely the construction of the thinking diagram so last time we arrived at the point that we constructed from the coordinate induced tangent vectors D by DX I at the identity so
+
+00:00:57
+those are elements of the tangent space at the identity element of the special linear group SL to C so this is this guy we constructed from these and where I runs from 1 2 3 the left invariant vector fields on all of SL to C by virtue of taking a left translation to a point ABCD and the push forward they're off so we apply this to the 1st 2nd and 3rd tangent vector at the identity and we found already last time that this gives rise to the following vector field left invariant vector field and Esso to
+
+00:01:51
+see a minus B C 0 a 0 B 0 and this is d but in the coordinate chart chosen the first coordinate chart we constructed this is 1 plus piece over a but this is just a symmetry of numbers where m is the row and I indicates the column and this is to be multiplied by D by DXi but now at the position at the point ABCD of the underlying so2 C manifold so from a tangent vector at a point from three tangent vector at the point we construct three right a3 left invariant vector fields of this form so why did we do
+
+00:02:52
+this well we're working towards the following so we have the we have the theorem that taking the tangent space of some ly group at some point that tangent space can be equipped with a ly bracket which here for distinction from the differential geometrically bracket I indicate by this double bracket symbol that as a ly algebra so not only as a vector space but also as a ly algebra this is isomorphic to the set of left invariant vector fields l of three on a li group equipped or which inherits so
+
+00:03:39
+this is a this set is certainly a subset of all the vector fields on the Li groups a subset set of the section of the tangent bundle of the Li group which is an infinite dimensional vector space over R or C whereas this is a as we saw a finite dimensional vector space but this L of G the set of left invariant vector fields inherits a bracket from the differential geometrically bracket here which is this one and it's of course much more handy to deal with the tangent space at the identity in to
+
+00:04:20
+equip it with a bracket in order to mirror this behavior here but here this bracket as I said we get free because the differential geometrically bracket whereas on this side this bracket we need to induce from over there and so of course how that works in this context is that we define the bracket here D by DX i which is supposed to be a vector at the identity and D by DX J also vector at the identity with respect to say the first coordinate chart and we define this bracket by its action on the function to
+
+00:05:07
+be given by now here we have the differential geometric d bracket as indicated above we push forward the D by DX I vector to a point ABCD in the manifolds if you are really picky we indicate here that this is a vector at the identity that's being pushed forward and again at ABCD push forward of D by DX j X the identity here like this and now the differential geometrically bracket closes we decided to define this by action on an arbitrary function f which is a smooth function on SL to C okay but now this of course eals the
+
+00:06:03
+derivative of f at the identity this yields the derivative of f everywhere last time i indicated that one possibility to remedy this is that before we act on f we actually have this pushed the opposite direction but an even easier way to obtain the relevant vector at the identity is to evaluate the whole guy here so this bracket to evaluate it at the identity before we apply it to the function f so we get a vector at the identity and in order so this full defines this Leigh Brackett on this tangent space but in order to study the
+
+00:06:46
+corresponding structure here we definitely need to to calculate the right-hand side so unfortunately at this point there is no better method than to just carry through the calculation so we need to calculate the following three brackets we need to calculate and uh-huh okay so um ya need to calculate the following brackets D by D a at the identity with D by D B at the identity where I now use the fact that in the coordinates ABC the first coordinate chart of course the x one stands for a the X 2 stands for B the x3 stands for C
+
+00:07:43
+it's convenient to label it here in the general formula like this but once we start calculating these brackets it's easier or more transparent to label them by the actual names these coordinates so then we also calculate D by D a D by D C all at the identity I don't need to indicate this again and D by D B D by D C well not to get confused let me write it here so this is supposed to be indicate the same identity element okay so how do we evaluate this bracket well by action on on function by using this
+
+00:08:30
+definition but now we can plug in what we learned up there so we take the differential geometrically bracket and we have to look at what is the push forward of the first tangent vector with respect to these coordinates so that's I is 1 so but that's the column so the row here oh there's my so this is an M here of course so there's a summation convention going down here so the column is being fixed to the first column and the M is running so it's a D by D a a D by D a minus B D
+
+00:09:08
+by D B plus C D by D C comma so that's the first one the second put forward of the second vector fields the same game obviously played with the second row but that's much simpler that's a d by d be closed bracket acting on the function so let's first write down all the brackets so this is again the a vector field so d by d a minus B D by D B plus C D by D C but now acting on the third and that's B D by D a B D by D a and plus one plus BC over a D by D C close the frontal geometrically bracket acting on F and as
+
+00:10:01
+we said we want to evaluate this bracket at the identity before we let it act on the function okay so we have this and finally the the third bracket is given by the second vector field well we already wrote this down here that's a simple one a D by D B and the third one this is that one BD by DA plus one plus BC over a D by D C close bracket evaluated at the identity on F so that's the task at hand and I remind you that these are not the nev partial derivatives but they're the differential
+
+00:10:47
+geometric derivatives referring to a chart you will remember our our convention here in our notation now okay let's start with the third bracket because it's the simplest one and we'll learn there which in principle we already know but it's good to see this in practice let's evaluate this bracket so this bracket of course evaluated as follows I let this field act on F and then I let this vector field act on the result - the other way around first this acts on every man this vector field acts on the
+
+00:11:27
+result so let's write this down once in full to not get confused ad by DB of BD by DA plus 1 plus BC over a D by D C acting on F so I can immediately write the F here F F - the other way around is B D by DA plus 1 plus BC over AD by DC and this acts on a D by D B on F yes that's right so that's the that's this guy so now let's do this action properly so now you see D by DB acts on this guy but that's a product rule needed because the BX on the first factor and on this one so by the product rule this is d by
+
+00:12:27
+d be on B already looks like 1 it is 1 but you see it's not the partial derivatives we have to do one or two intermediate steps but that's how this always works out so this is one times and then all that's left is d by da if but now because of the product rule there's an extra term there's the term a you keep the B and you let this derivative act here so you get a second derivative D - D be da acting on F that's the first the action here now we continue this is plus now this acts on
+
+00:13:04
+this same game there's a bee in here to have to take this derivative the a goes against this Abe we derive with respect to B so what remains is a see let's write a C and then D by D C F but now product rule we have a term 1 plus BC over a times a a from from here and and now the second derivative del true they'll be del C acting on F so it's the first part of the bracket and here the same procedure of course applies it's the - from here then you have the B be D by D a is 1 so you get D by D be F but
+
+00:13:52
+product rule instructs the product rule instructs you to have - ba - be a second derivative D by D a D by D B on the function f and then the final term here minus the derivative of C now you don't need to prague rule here because the first factor doesn't contain a C so you can pull it out immediately so that's minus 1 + BC the 8th here cancels and then del - del C del b acting on F okay so now looking at this we have an expectation and a justified expectation that is that the Lee bracket of two
+
+00:14:46
+vector fields is a vector field so the vector field can of course always expanded in the basis in a d by D a D by D B and D by D C but here there's some other guys appearing there the second derivatives appearing there there there and there and these have nothing to do with an expansion of a vector field and they better be absent well let's check this so there's the derivative with respect to B a but there's also the one with respect to a B now despite this being not directly the partial derivatives it
+
+00:15:25
+of course very quickly reduces to the partial derivatives of the function composed with the inverse chart and the Schwarz lemma that allows you to exchange the partials also applies here because our manifold is sufficiently often continuously differentiable and you see have plus a B times this minus a B times this this guy cancels against that guy now what about the D by D be D by D see while also that one has its counterpart here the factors so here the ACE cancel of course first if the plus you have the minus this one
+
+00:16:04
+cancels against that one and it must it's not a surprise it's more like a check on our algebra here and what remains is the following vector field aha and we decided we didn't indicate this here in these lines but we decided to evaluate the vector field at the identity so but let's first write down the full vector field it's a d by d a then we keep the minus b d by d b and we have the plus C D by D C on F but we want to evaluate this at 1 0 0 1 acting on F and you know that the coordinates
+
+00:16:49
+the first chart we chose of 1 0 0 1 is ABC so it's 1 0 0 so only a is non 0 a is 1 that's this guy and those two guys are gone so we get D by da at the identity on F aha ok so we evaluate this bracket and so maybe yeah maybe really note this here so this bracket so this is the equation the equal sign that comes from here this is simply D by da at the identity acting on F so if you forget about the F because valid for any F you have that the B vector the vector in direction B at the identity the vector at the in the
+
+00:17:42
+direction C at the identity they have the Lee bracket that leads to the D by da2 the first vector in this coordinate in used basis at the identity so this is how this calculation works and in evaluation of these two lis brackets we will now simply immediately drop the second derivative terms because we know they will cancel there must cancel and that makes the calculation more transparent and a little bit simpler but I also indicate to show you or I'm I want to emphasize that we got here exactly what
+
+00:18:21
+we wanted we take the bracket between two elements of the tangent space at the identity and we get a vector at the identity okay that's what it is but yeah okay so now let's evaluate the the other two brackets so I mean we keep this here so you can see this so um well let's do this here okay so evaluation of this bracket that's the second bracket works as follows so we act with the a on on this one so we have ad by da that sees this one we wanted to drop the second derivatives but the second derivatives also only if
+
+00:19:05
+this derivative acts on this one so in this case we have an A and in fact it acts non-trivial e on this factor so we get a first derivative namely this one a D by DB next one minus B Axia doesn't act trivially it doesn't it only acts trivially on the first factor that means it would produce a second derivative we drop that one same here this D by D C acts trivially on that first factors would produce a second derivative we drop that that's it on F now the bracket the other way around
+
+00:19:45
+- now ad by DB acts on these guys but of course the d by d be only act non-trivial e on that factor so the other ones will produce second derivative which we decided to drop that's the - from the definition of the bracket that's the - from here yields a plus the a comes from here non-trivial action gives a 1 and we remain with D by D B on F and that's already X so we need to evaluate this vector field at the identity first that's a equals 1 B and C equals 0 so this is simply 2 times 2
+
+00:20:25
+times D by D B at the identity acting on F it's that quick although the bracket is more complicated we achieve this by by immediately dropping the second derivatives so let me also denote here in similar fashion the result this is 2 times D by D be at the identity and because we act upon if they are let me act on F here all right so now let's take this bracket here so okay so this is this is done hmm okay so now let's take this last bracket here so nothing to do with this equal now we
+
+00:21:12
+react here okay same game ad by da we're going to need to be a little organized because they're more terms but let's always take this term let it act on everything back there ad by da on what can it act non-trivial e well if the factor contains in a this doesn't but this one does so it's a times now we act on here the derivatives of course minus 1 over a squared 1 plus BC that's this non-trivial action and what remains is the D by VC on if there will be an extra term from the product rule but it's the
+
+00:21:49
+second derivative we can drop it so we dealt with this one now this one here acts and everything has a B that's both factors so minus B times D by D B is 1 D by D a acting on F from here minus B times acts on this by derivatives with respect to B yields a C over a B you see over a that's right and then D by D C acting on F that's these two terms okay now next term this one X and everything that has a C in the factor this one doesn't but this one does it's plus C times C is B
+
+00:22:38
+over a B over a mmm ah-huh and the derivative that remains is d by DC on F okay so that's the first part of the bracket now we have to have a minus sign and do the second part so maybe to be safe we open a bracket here and keep the signs that are there so now this one let's have an act on each of these so PT by da can non trivially act only on this guy so you get a B times one times D by D AF it goes and that's the da from here that's right so um and on the others it only acts truly so now let's take this
+
+00:23:31
+gentleman here is one plus BC over a can on trivially act only on this one so you get a D by D C of F that's it okay so the brackets are not really needed when you have this under control there's a minus sign here as well okay so same game as before we now evaluate we could simplify first or evaluate first let's evaluate immediately we evaluate this at the identity so let's get this here at the identity we evaluate identically these coordinates as a equals 1 B equals C equals 0 so this is 1 times 1 plus 0
+
+00:24:19
+over 1 is a minus D by D see if haha so this one is zero times zero times zero times and always the a is one so that's well defined and this is zero times and this is one - it's another - 1 plus 0 over 1 D by D C is d by d c f is minus 2 D by D C acting on F aha so at the identity of course because that's what we where we evaluate so we have our third bracket here was plus 2 now here it's minus 2 D by D C at the identity okay so we achieved finally and defining the LI brackets in the tangent space at
+
+00:25:18
+the identity of the SL to see group and that's the full calculation and that is what in principle you have to do every time you start with a lead group and wish to derive the corresponding lis algebra in its full glory so for future reference let's repeat what we found and I now use the short notation X 1 for the first vector D by DA at the identity and X 2 as d by d b at the identity and this we found is 2 times X 2 and X 1 X 2 X 3 we found is minus 2 X 3 and finally X 2 and X 3 we found to be simply X 1 so we're from now
+
+00:26:49
+on we have X I equals D by D X I at the identity and obviously the Lee algebra is spent by this because that's the tangent space so you see the Lee algebra of SL 2 C is just these abstract tangent space vectors has nothing to do with two-by-two traceless matrices or so of course there are a representation of this algebra will come to representations later but this is the definition we had working so now once we have this algebra the first thing we can read off are its structure coefficients
+
+00:27:35
+or structure constants structure constants as a to see in this basis if we had chosen different coordinates on the on the ly group we had a different coordinate induced basis in the tangent space and you'd get different structure constants so the structure constants depend on the basis but of course we know how to transform between various spaces so in fact it's enough to say in some basis they look like this you can it you can get another one so the structure constants of course you remember
+
+00:28:16
+you read off by having X I XJ and you know that the result must be again an element in the tangent space at the identity and because the X 1 X 2 X 3 constitute a basis there must be a way to expand the result in that basis now you need expansion coefficients CK but there will be different for various I J's and because the this bracket of course inherits is anti symmetry and Jacobi identity from the differential geometrically bracket in particular this guy is anti-symmetric down here so i can
+
+00:28:55
+write without changing anything I can write this anti symmetry this weighted anti symmetries ation bracket but I don't have to maybe it's clearer here to say that this is of course minus CK ji XK by construction ok and these guys are the structural coefficients and because we're dealing with a complex Lee algebra these are simply a collection of complex numbers and i j k run over the labels of the basis vectors those are the structure constants and so we saw that there's an important object called the
+
+00:29:39
+killing form the killing form overly algebra in this case of SL 2 comma c that guy was abstractly given by k of an a and b being elements in the tangent space at the identity in this case and that was given as the trace of the adjoint of a composed with the adjoint of b but now since we're dealing here anyway with a particular basis we can also represent the components of the killing form we calculated that last time i think and there we found that you need to take the structure coefficients twice they come
+
+00:30:33
+with such an index structure so of course one would never be enough because has three indices this has two by no contraction would you make out of three indices two but if you have these six indices you can and carefully taking care to not unduly exchange lower indices because the whole thing is anti-symmetric in there we have the IJ here and the other two are being summed over but you can only sum this upper MSA with this lower m and the slower in with this upper end that's the only possibility and be careful if you start
+
+00:31:12
+exchanging here without doing the same here you get an overall minus sign which doesn't do any harm as long as you're aware of it now obviously it's quickly seen that if you have taken to account that here you have the complex conjugation between these coefficients that in fact you can of course exchange these two numbers the times cm i n and after you did that you're fully free to rename to real Abel these dummy indices M into n if at the same time Yuri label the ends in two M's that there's dummy
+
+00:31:55
+indices but now carefully looking at this and taking into account this definition this is of course King ji and of course the killing form is symmetric we indicated this before now why are we interested in the killing form of a Lee algebra well one thing you can decide is that the Lee the semi simplicity of the lie algebra and in fact the claim is that SN 2 comma C our relativistic spin algebra is semi simple as a Lee algebra semi simple now how do we check this while we apply Qatar's criterion
+
+00:32:43
+Cotto's criterion and that was you've got to check this is equivalent to the killing form being non degenerate degenerate and that of course means expressed in these terms that if you can easily take the the square matrix define rate and you know evilly take the determinant I say Nev Lee because you can only take strictly speaking the determinant of an endomorphism and this is a bilinear form well this is a density what not but anyway you do this Nev Lee and it better be not 0 if it's
+
+00:33:27
+not 0 then k is non degenerate and yeah that's right it's non degenerate and that that does the trick ok so we need to calculate this guy now this is a lot of work and I'll only show you this for some sample components so obviously you have to well it's a symmetric matrix so it's 3x3 symmetric so you have to calculate these three guys and these three guys and these three are determines we have one two three six numbers you go to calculate well I'll show you for the first entry K
+
+00:34:05
+1 1 let's calculate this and you can calculate the others on your own what is K 1 1 well it's just a disciplined execution of the Einstein summation convention have a summation here you have a summation here the best advice is to do this step by step so plug in the IJ so you have a c 1 m n c 1n m and now we have two summations solve them one after the other because usually after solving after writing down the first and using stuff you know the second one is very simple so let's do this so let's
+
+00:34:47
+run let's have the M run and the end stage so 1 1 n see in 1 1 plus C 2 1 n CN 1 2 plus C 3 1 n CN 1 3 so this is just resolving here the summation over m and now we already see C is antisymmetric in the lower truth so this term must go out these terms stay but now if we look at the structure coefficients we have what are the non-trivial structure coefficients we have C 1 2 that's this one only has the 2 component and that is true ok then we have here the c-13 only has a 3 component up here that's minus 2 and
+
+00:35:52
+finally C 2 3 only has the one component here and that is one and all unrelated C's all unrelated C dot dot dot vanish now what do we mean by unrelated well you see because of the anti symmetry for instance this is the same as C 2 2 1 if you add a minus sign here and the same here so those of course are therefore not zero but they're not unrelated they are related but all the others are 0 so now if with this knowledge we go here and we see we have C n 1 2 so the only one with one true that doesn't vanish is
+
+00:36:35
+this one ok so that is a 2 this is a 2 but it's only a true hang on a second it's only a true if the upper index is a 2 as well so in fact the only if in resolving this sum the only one that survives is C 2 1 2 C 2 1 2 because C we need the two but then we have to have a 2 here 2 then if C 1 to C 2 1 2 C 2 1 2 is 2 times 2 is for according to our inside here similar here similarly here see n13 the only one that survives see three one three so this is plus C three one one because here you
+
+00:37:27
+have c11 three knows that right c11 no there's a three I'm sorry so there you have a one three there that's this one so you have to have two three up here and the three here that's it because it's the one three the only one with the three up survives so three one three so this this guy is minus 2 times minus two but it's also for so in total we have as the one one component of the killing forms so this entry here this is a number eight that's it so now you repeat this for these
+
+00:38:07
+seven more entries and precisely this fashion by Stan with k12 yielding this one and so on and you get the killing form I think it's too boring to go through this here but my assurance to you is that calculating the k1 the K IJ is this way one finds two things a K is non-degenerate that means that the SL 2cv algebra we're looking at is semi simple and I remind you that semi simplicity implied that SL to C can be written as a finite direct sum of Lee algebras l1 to Ln that are each simple
+
+00:39:10
+Lee algebras okay and B is more like a side remark that is weak there's something else we can read off the killing form namely I mentioned that before the killing form K is also negative definite so I hope I got the sign conventions right here and it should turn out to be negative definite and no it's not okay okay now the statement is it's not negative definite it's not negative definite because negative definite means only negative definite would imply that the Lee group over it the lead group we came
+
+00:40:01
+from some time ago the lead group capital s l2c was compact was a compact group so that the manifold underlying as a topological space is compact but it's not so this group is not compact and that's true the so2 C is not compact and K is not negative definite all right so we saw that si - si is semi simple the question is is it already simple so is so2 C really still decomposable into simple algebra or is it already just only one summand so the claim here is yes indeed the si - si Lee algebra is already simple not
+
+00:40:54
+only semi simple is indeed simple now what was the definition of a Lee algebra being simple le algebra le is simple so this is a recall reminder li algebra is simple if it contains no non trivial ideals and what is a what is an ideal so we also recall I being a vector subspace of L is an ideal of the lie algebra arrow if now this is a symbolic notation if you take any element of area and you take the bracket with any element of any element of I in the bracket with any arbitrary element of air L so that's
+
+00:42:04
+obviously a set if I notate denote it like this and if the result again lies in I so if the elements in eyes are so strong you can think that even if bracketed with an L you do not land outside I you stay within I that's that's an ideal okay and of course I equals just the zero in the vector space L always is an ideal because zero with something is zero and I equals the entire vector space in this case the entirely algebra is an ideal of the silly algebra because L with L lands just in L so these are called the
+
+00:42:43
+trivial ideals they're always there if we require them to be absent and only algebra would satisfy that but simplicity just requires that there are no others than these two so now how do we check this in practice because we have to show there are no such ideals well well consider a set I that consists of Alpha X 1 plus beta X 2 plus gamma X 3 so so far arbitrary linear combinations of a basis of our basis we have here and well we now try to restrict the alpha beta gamma such that we do not get a trivial ideal restrict
+
+00:43:42
+alpha beta gamma such that we do not have a trivial ideal so restricting them all three to be zero would produce the zero ideal not interesting not restricting alpha beta gamma these complex numbers not restricting them at all would of course yield any linear combination of these basis vectors which recovers the entire L so we try to find another restriction and will in fact show that there is no other restriction and that means there is no ideal well let's look at this so we take this alpha X 1 plus beta X 2
+
+00:44:29
+plus gamma X 3 and we need to check whether whatever element in L we take we get again an element that lies in here for suitable restrictions but because the bracket is bilinear it's in particular linear and a second entry so all we need to look at in consecutive order is how this guy here this general element from our would be ideal i how that computes with the three basis vectors because that tells us all there's no need to look beyond the basis vectors X 3 comma X 3 bracket so what we
+
+00:45:13
+need to do we need to calculate these brackets in order to get an insight now ok so I now erased it but you remember that X 1 with X 1 well that's 0 because of anti symmetry X 2 with X 1 yielded the plus 2 I think it's the plus 2 so we have here the opposite so it's minus 2 beta X 2 and the one with the 3 yielded the minus 2 but here we have the other order it's plus 2 gamma X 3 so that comes directly from the from the bracket of these basis vectors we have now let's calculate this 1 X 1 with
+
+00:46:02
+X 2 we said was 2 so it's 2 alpha X 2 X 2 with X 2 vanishes and this is X 2 with X 3 yield at X 1 wrong order so minus gamma X 1 and this guy here is X 1 with X 3 yielded minus 2 so it's minus 2 alpha X 3 that was X 2 with X 3 yielded X 1 right order so this is plus beta X 1 so these are these brackets and now in this case we can discuss this very quickly look at the right hand side so what we produce here so that's this right hand side here what reproduce consists of a completing a combination
+
+00:46:54
+of vectors 2 with 3 but this is 2 with 1 and this is 3 with 1 ok now if no if neither alpha nor beta nor gamma which are the factors a beta gamma alpha gamma alpha beta vanish so they could be related they could be the same but if none of them vanishes then what we got here is three linearly independent vectors on the right hand side we have three linearly independent vectors on the right hand side of this equation what about three linearly independent vectors of course produce if I chose different factors here and I choose to
+
+00:48:02
+put into the third and into the second entry an arbitrary linear combination is an arbitrary L I would recover the hi al okay so that means if I have restrictions here whatever the restriction is if not alpha beta gamma are zero I recover all of the lie algebra so but then that means that the I would be what could only be the I could only be all of L so it'd be a trivial ideal now that we don't want so hence one of alpha beta gamma must be at least one this one must be zero and now we have to do a case-by-case analysis
+
+00:49:05
+case alpha equals zero now let's assume alpha zero now we said alpha to 0 here that's our restriction that means our ideal just lies in the x2 x3 plane now if that is true then in order to have an ideal also the result must lie in the x2 x3 plane but everywhere for all these three but you see in the x2 x3 this gamma is in the way for this guy to lie in the x1 x2 x3 plane so gamma must be zero in this case it immediately follows that gamma must be zero but also here in order to lie in the x2 x3 plane this
+
+00:49:51
+guy's in the way through beta also needs to be zero aha so in this case it follows that there all are zero and that means that I just is this trivial ideal aha so this case is excluded if we want to have a non trivial ideal now let's say Peter is zero same game Peter is 0 then the I must be just the x1 x3 plane or a subset thereof and if we look at that one three one three so this one needs to go well that already goes one three this guy's in a way so that means we need alpha equals zero and now we cannot
+
+00:50:37
+immediately read off the other one we have to now takes uses we have beta equals zero alpha equals zero that means the whole result must lie in the x3 plane well but in all true line x3 for instance here this gamma is in the way because that gives you a contribution in the x1 direction so in the next step it follows that gamma equals zero however with the same result I is trivial and the last case well that's too boring to go through exactly the same thing hi is again trivial so the only possibility is we had we
+
+00:51:17
+started from here I could be either the entire Lee algebra or it could be the zero vector space that means there is no non-trivial ideal there exists no non-trivial ideal I in SN to see and that just means s to see by definition is already simple so it's not only semi simple it is simple okay so that we just did for completeness so now let's go to the roots and the fundamental roots so roots and fundamental rules of the special in a group of the relativistic spin algebra story head of the group of
+
+00:52:20
+the algebra okay so first we observe the following from the commutation relations let me write them down once more X 1 X 2 equals 2x 2 x1 with x3 it's minus 2 X 3 and X 2 with X 3 is X 1 so that's our the algebra in this example and we observe ok so this is the algebra and we observe that H being the span the complex span of just x1 is a cat a sub algebra the coton sub algebra of L but why is that well that since add the adjoint of x1 acting on X true is by the definition of the adjoint
+
+00:53:30
+being just to bracket between X 1 and X 2 is 2x true and the adjoint of X true xx 1 on X 3 that's minus 2 X 3 and so we see we have a decomposition of the basis that means that the basis well that L being the complex span of X 1 X 2 X 3 such that this spans the spans the cat a sub algebra and these two are our eigen vectors eigen vectors of the adjoint of every element in here well every element in there is just a little age in age but every age has of course to form sy times X 1 wex i is a complex number because H is
+
+00:54:45
+one-dimensional so it's the Qatar sub algebra we have there and you know that we decided to read this the set of eigenvalue equations somewhat differently so we have to well okay so now we get a a notation issue here because in the past what we did we denoted these guys H 1 H 2 H 3 and these e1 e2 ok well let's stick with one type of notation and maybe that even clarifies more the conceptual conceptual issues here by having to think about why the numbering is no different so so actually so we have we have two
+
+00:55:40
+functionals one is called lambda 2 and the other one is called lambda 3 and their associated to this this X 2 and X 3 so the past we call this e1 and e2 in the abstract theory and then corresponding called is lambda 1 and lambda 2 now we stick here with this labeling but the key point is that each of these is a linear functional so they actually linearly map the elements of the katana sub algebra into C and of course a linear map on define on a 1 dimensional vector space is fully defined so defined by well like any
+
+00:56:19
+linear map is defined by action on the on a basis now in the 1 dimensional vector space the basis is just this we defined this to be true so this is lambda 2 on X 1 of X 1 not 1 of X 1 and here the lambda 3 also linear functional defined by lambda 3 on X 1 and one basis element is minus 2 so that means that the - twos here this guy and that guy they we secretly or not so secretly think of them as lambda 2 of x1 and we think of this guy we think as lambda 3 of x1 so it's the evaluation of these linear functionals at x1 which
+
+00:57:07
+is the x1 from over here ok good so this if you compare this to the general theory you know why we do this and so of course we have lambda 2 and lambda 3 are therefore elements of the dual of the coton sub algebra and they're called the roots yeah there are the roots of SL to C and the entire root space we always constructed in the general case capital Phi simply consists of these two guides and you see we have the abstract result that if you have a root then minus that root is also a root and that is the case
+
+00:57:52
+here minus lambda 3 is lambda 2 okay that's the root space of so2 C and it's these particular roots defined on the basis like this now we also wanted to look at fundamental roots what are those fundamental roots is a set high which is a subset of all the roots a decidedly a proper subset such that such that a the set PI is linearly independent and B every lambda in size every root can be written as follows for every root they exist numbers and 1 to N n dim they could be 0 I think was that was to be positive
+
+00:59:03
+non-negative no all right so we could take em to the size of pi these numbers are integers but they could be 0 because our notation of the integers included the 0 and there exists an epsilon which is either minus 1 or plus 1 such that and let's see the expansion lambda is epsilon times the sum I equals 1 to size of pi n I times pi I so these n is so you can either have a only non-negative coefficients if you take all of these together of the PI's or non positive coefficients but you cannot have plus PI 1 minus PI 2
+
+00:59:53
+that's not allowed that's this construction here we discussed this before and well now in this case here it's particularly easy so here we choose PI to be for instance the root lambda 2 because obviously the other root I get by this rule by just taking this to be 1 and this to be minus and we could have equally chosen that's a good example here the choice of fundamental roots is not unique we could have equally well chosen lambda 3 to be the fundamental root but we make this pick this is the
+
+01:00:32
+fundamental root okay so well once we have the fundamental root we can make the following check we can look at the wild transformations transformations which constitute the wild group and you remember that the wild transformation you have an S lambda acting on mu and the lambda can be any can be any root and and so can be the the Phi here and this was linear in news it was mu minus 2 times lambda comma mu by lambda lambda times lambda so this is decidedly linear in mu but it's also decidedly nonlinear in
+
+01:01:25
+lambda the sistine is the wild group and we know that the wild group that only plugging in fundamental roots here generates the entire wild group and the only thing we can do here is to consider s PI or PI pi PI well yeah so we could call this guy PI 1 so it's the first fundamental root ok maybe that's silly um maybe here it's clearer to say we take this fundamental root and we can act on itself and and we calculate this this is lambda 2 minus 2 lambda 2 lambda 2 by lambda 2 lambda 2
+
+01:02:09
+ah and here of course this is the dual by these brackets I mean the dual of the killing form restricted to the really fication of the coton sub algebra so K star is the dual killing form on the reallocation of the dual kata algebra ok well here lambda 2 but of course this is 1 this lambda 2 minus 2 lambda 2 is minus lambda 2 well indeed acting with the wild group on lambda 2 with respect to lambda 2 produces the other root because we know action of the wire root a group or repeated action of the wire
+
+01:03:03
+loop on the fundamental roots generates the entire root space so it's clear that our general theorem here applies to the wild group acting on the fundamental roots generates the set of fundamental roots generates the all the roots the entire root space as expected well if it didn't it show that we calculated wrong so and finally what we can write down is of course the the Dinkin diagram well first the carto matrix maybe well that's particularly simple because we have just one fundamental root the
+
+01:03:47
+cut our matrix is a matrix but it's one by one matrix and so it has only a diagonal element and we know this diagonal element is always the two because we're dealing here with symbol with a simple Lee algebra so that's where it pays off that we checked this and the Dinkin diagram is also particularly simple the Dinkin diagram we have here is of course just two schakal because the Dinkin rules instruct us to draw a little circle for every fundamental root well the fundamental root space is just one
+
+01:04:21
+element that's the thinking diagram and so that means that si - si has this thinking diagram but this it's not a zero it's a it's a dinking diagram and that is of course in the classification of the Lee algebras this is the space a1 so space a1 so we found at the end of this road that the Lee group the lie algebra of the big SL to see Lee group is a 1 in the standard classification ok so now let me so the example of SL to see is finished but I will like to give you another example and that is the
+
+01:05:14
+reconstruction of a Lee algebra from its thinking diagram so so far we came from the group who went down to the algebra and then to the drinkin diagram now we go the opposite way well at least from Dinkin diagram to the lis algebra but now we won't start with this one this is too boring we consider the dimpling diagram that looks like this let's consider this guy so how do you reconstruct from this the lis algebra well obviously you have two fundamental roots you have a fundamental root space
+
+01:06:08
+that consists of two fundamental rules because every tree for every fundamental root we have a circle so these are the fundamental roots now we have something on top we have one bond between the two but so that means that the bond number N 1 to say this is the root 1 this is 2 root 2 it doesn't matter because the diagram is symmetric but the bond number n 1 2 is 1 now what's the bond number well if you remember the bond number I J was CIJ c ji so c1 to c2 1 and be careful the kata matrix entries they are
+
+01:07:01
+not symmetric they're not symmetric because C I J was 2 times K star of Pi I high J by K star of Pi I pi that's the CIJ you see it's linear here in the J but the PI I appears three times so it's definitely not not linear so this is this guy well we further found that these guys are less than 0 for I not equal to J so the off diagonal elements of the cotton matrix on negative now okay so that will play a role in a second and we also found that the that the NIJ was equal to four times the cosine
+
+01:08:08
+squared of the angle between the eyes and the J's fundamental root aha so that means in our case we have one equals n 1 2 equals four times the cosine squared of the angle between our two fundamental roots and this angle of course referred to to this case star on the really fication and i may be also well yeah let me remind you that Pi was a proper subset of Phi and Phi was lying fully of course in the real span of Pi so that was in H R star which was defined as the real span of Pi of Pi and
+
+01:09:13
+that of course lies fully in H star which is the dual of the cart on algebra and which we said was also spend by PI so maybe you want to note these inclusions in evaluating what we do here so if I speak about angles I of course required need a bilinear map and well I need a metric even and because we're semi simple it's a non degenerate metric and so on and I have this year and we also found that although the killing form may be a non positive definite or indefinite even on here or the dual of it on this real
+
+01:09:55
+education we saw it's even positive definite so can definitely define these angles now of course we can take the square root here with some care that so this is 1/2 equals yeah but then the cosine it's the absolute value of the cosine of the angle between the two guys here and if we think about the cosine here at pi here at PI 1/2 or 90 degrees then I'll only need to go to here they're actually two way to places where the absolute value of the cosine is 1/2 and that is at 60 degrees and that is at 120 degrees
+
+01:10:46
+ok the question is which of the two is the right solution so by taking the square root we lost this but now you see we need to go back to the cut our matrix since 0 is greater than c1 2 and C 1 2 is K star of PI 1 with PI 2 over K star of PI 1 PI 1 which is positive we saw this is positive that means that the K star between PI 1 PI 2 is negative so the situation is not 60 degrees where the projection is positive the situation is 120 degrees where the projection of one on the other is negative so that
+
+01:11:37
+means we have that the angle between the two fundamental roots and that's of course a general rule because the off diagonal elements are always less than zero when ever coming from a Dinkin diagram you have to decide whether you have a left angle less than 90 degrees or greater than 90 degrees you picked the one greater than 90 degrees you must pick it because of this sign and so this is 120 degrees okay so this means that in this in this in this two-dimensional real vector space is two-dimensional because
+
+01:12:13
+pi has two elements of fundamental root space this means we have the following picture in H R star the real efficient of the dual so let me draw two axes I can choose one of the roots to be represented by well this point this is 1 comma 0 and then the other one must be at 120 degrees so let me put it here for instance it doesn't matter you could rotate the whole thing but that that needs to be if this is length 1 minus 1/2 square root 3 half let me think this is squared as 1/4 plus 3/4 is 1 yeah
+
+01:13:05
+that's right ok so we can take this year as the other root ok so these are the two fundamental roots now so this is PI 1 and this is PI 2 well at least it generates this well you see PI 1 PI 2 are what yeah it's fine since these functions so it's the space of the functionals it's two dimensional so now by repeated action of the wild group so repeated action of the wild group we should recover all the roots so what do we do well we start with this one we already know that s PI 1 of PI 1 we
+
+01:13:46
+calculate this before that that gives you minus PI 1 so you definitely can get from this guy here you get this root here which is minus PI 1 ok so but what else can we do we can act with the PI 1 is PI 1 y transformation we can act on the PI 2 now that's interesting let's write this down this is PI 2 minus 2 times by definition PI 1 comma PI 2 by PI 1 PI 1 times pi 1 now what does that yield well that's - and we already know what happens between pilots with us again k star K star what happens between PI 1 and PI 2
+
+01:14:31
+well it's 120 degrees well this is represented here so we can simply take this components we project this one to that one that gives you a minus 1/2 so this is PI 2 minus minus 1/2 over well this one has length 1 PI 1 okay but this year of course in total it's just a - hang on a second minus 1/2 + no and there's a 2 in front I forgot the true ok so then in this case it's just a plus 1 so it's PI 2 plus okay the notation is well you can do this elementary arithmetic this is PI to plus PI 1
+
+01:15:16
+uh-huh so I start from here and I take this 1 here so I go here and I land here so the next one we get here is this guy here this guy here so that's that's this calculation and this one here it's that calculation aha so we got these two so now you can imagine I am NOT indicating this in detail you can imagine by repeatedly acting for instance by acting on this result again with PI 1 well let's do it so we take PI 1 and we act on the result on PI to plus PI 1 you can calculate what you get so this is PI to plus PI 1
+
+01:16:04
+minus 2 times oh dear ok so this is a PI 1 comma PI 1 plus PI 2 divided by i okay divided by PI 1 PI 1 times pi 1 so what is this PI 1 with PI 1 plus PI 2 is the projection of this one and that one and that yields you plus 1/2 so what you get here is PI to plus PI 1 - and then there's a plus 1/2 so minus 1 over 1 PI 1 minus PI 1 I know by this you go back to the PI - okay so that didn't yield anything so this one gets you here well then you have to act with this on that and so on anyway what you get if you do a repeated
+
+01:16:56
+actions here I don't want to go through it in detail you get two more routes you get this one and you get that one and any further action of the wire group will only permute this route these routes amongst each other so what do we have we have routes a route space of size 6 and we have a dimension of H which is true how do we know this well beat this we know because the dimension the complex dimension of H certainly the complex dimension of its vector space dual because it's a finite dimensional
+
+01:17:43
+vector space but this is certainly the real dimension of the reallocation you can see this from here right so this has two elements this is - it's the real basis is two elements the complex basis two elements so the complex dimension is the real dimension and that is simply - and we know that the sum of these two that the dimension of the lie algebra is the dimension of a sorry this is without these guys just dimension this tool is the dimension of the katana sub algebra plus the size of the root space which in
+
+01:18:20
+this case is eight so we already found that the dimension of this Lee algebra is eight so from this it follows the dimension of whatever li algebra is represented by this stinking diagram is 8 ok and we constructed the entire root space so having reconstructed from the stinking diagram for a 2 that's obviously the a 2 algebra in the standard classification the root space which we found was a 2 dimensional real space will leads to really reallocation of the dual of the katana algebra was this root space here with these two
+
+01:19:18
+fundamental roots 1 0 and minus 1/2 and square root of 3 1/2 but by repeated action of the wild group we also got 1/2 square root of 3 half as well as minus 1/2 minus square root of 3 1/2 then this one which is 1/2 minus square root of 3 1/2 and of course also this one here is minus 0 minus 1 0 that's the root space so from here we go to here and now we want to go from there to the full algebra so we want to really understand the commutation I said commutation relation that's a terrible mistake
+
+01:20:11
+because some this is no representation this is just the leave bracket it's abstract it has nothing to do with any commutation it's more like a habit to say this and their structural coefficients here so if I chose the basis X I XJ there'd be structural coefficients i j k here and we already saw that in this case here I and J run from 1 to 8 because it's an 8 dimensional algebra so this we already complete and this step will now perform so how do we get these commutation relations well
+
+01:20:53
+one thing we know is this is by construction a simple Li algebra we already identified the Qatar sub algebra it's the one spend by by these two fundamental roots or where all these roots live and so what we definitely know is that we have two of the basis vectors h1 and h2 they constitute the cart on sub algebra so if you write here the span over C then we have here the katana sub algebra spend okay fine kata and then we have e 1 to X we have six vectors those are the eigen vectors corresponding to these root eigen values
+
+01:21:44
+and we know that we can choose such H 1 H 2 and E 1 to e 6 such that we have the ad of some H acting on the Alpha is lambda alpha of this H evaluated at this age P alpha where the lambda alpha are these roots in the root space ok but thought of as these functionals and alpha runs from 1 to 6 aha so in particular we can choose a base we can evaluate this on the basis vectors and H 1 of alpha is lambda alpha of H 1 alpha and and H 2 e alpha is lambda alpha of H 2 e alpha and now these are concrete numbers and these are the
+
+01:22:43
+numbers that appear here so this guy here so this whole guy is the pair let's say it's associated with the first vector here I can make that choice its lambda 1 of h1 and the second member of this pair is still lambda 1 but evaluated for the second basis element I chose here for the cotton sub algebra so actually taking this into account we have aha so this is one thing and the other thing is that this ad so right here implication arrow like this but this adjoint action is nothing but H 1 with a
+
+01:23:32
+alpha and this adjoint action is simply H 2 with a alpha ok and ok and we know that we have here the e alpha so we read off from here we read off that from up here see so I now look at the structure coefficients this one is the structural coefficient C 1 alpha and you see the only this can be expressed as simply a factor times 2 e alpha so FC alpha 1 alpha is well it's lambda alpha of H 1 and down here we have C 2 alpha alpha is lambda alpha of H 2 and here there's no Sun okay so this is really the alpha
+
+01:24:40
+alpha so it runs from alpha from 1 to 6 alpha from 1 to 6 so we get 12 structural coefficients 12 of the structural coefficients we have because of the anti symmetry we have actually aha ok so there's a it's a potential danger the potential danger is that I labeled this as 1 and that corresponds to the h1 and the Alpha also runs from 1 to 1 so you could think that 1 1 is 0 but that's not true so we should call these guys 1 bar 2 bar these are other ones than these otherwise we get into trouble with our
+
+01:25:19
+index notation but you see it's not not so much of a bother so H bar H bar bar bar okay Baba so we have a bar over here so one bar is not one it labels another faces element so these are 6 plus 6 makes 12 and because of anti symmetry these are already 24 of the structure coefficients its structure constants their coefficients too much let's say structure constants of the Lee algebra which we recover directly from the root diagram now that's not all of them you see I mean what about the 1 bar up here
+
+01:26:04
+and what about Alpha Beta down here so how do you do get the remaining ones well in particular we see that coming directly from the definition of this katar algebra we only learn about commutator z' that contain an element of the katana sub algebra but we certainly also want to study so also want okay so we already got more sorry let me let me add this we know that if we have h1 h2 and we have a simple Lee algebra we know that the cart a sub algebra is always a billion so we also learn about the
+
+01:26:54
+coefficients C 1 1 1 2 that are all of these but the non-trivial ones are these here and let me write and I up here if I mean all eight so these guys are certainly 0 so that's another another 8 non-trivial 1 16 in total and so on okay fine so we learn these two but this is all commutators that contain at least one element of the car and sub algebra so but we also need to learn about expressions like this how do the peace amongst each other works we know how these work with the ages we know how the ages work amongst each
+
+01:27:44
+other all that remains to be clarified is how the ease work amongst each other and by the way of course everywhere here I strictly speaking in our notation I mean this double Leigh Brackett so please apologize whenever depending on context this is this so this is that thing okay but obviously it doesn't seem that at first sight from the carton construction we get information about this well but of course we have the Jacobi identity so the idea is use the Jacobi identity to learn the following
+
+01:28:27
+we need to use some age to learn some things so take H one of the ages so let's call that with a capital index a so a then runs from one to two we're here safely firmly in the spaces representation H eight and we then take the bracket with an e alpha and an e beta and so we take these nested brackets alpha beta runs from 1 to 6 and we hope to learn something of course we do because by use of the Jacobi identity this is - now we cyclically rotate through is e alpha comma bracket a beta comma H a closed bracket - open bracket
+
+01:29:17
+a beta comma H a comma e alpha closed bracket closed brackets and simply the Jacobi identity and of course this gentleman here for instance we already know what that is this is lambda alpha of this H a times e alpha okay this here is - because you could flip this it's minus lambda beta of the same H a and so therefore what you learn here is aha times e beta of course so you can have this alpha beta there's a minus here this minus there this is just a number once it's evaluated the the bracket is
+
+01:30:12
+bilinear so you can pull it out this is plus lambda beta of age a times the commutator the alpha comma and all that's left of here is the e beta and back here it's similar but you get an e beta e alpha well let's write it down it's minus lambda alpha of H a of a beta comma Y alpha but of course the ebj alpha is just minus T alpha I beta so in total we have lambda alpha of H a plus lambda beta of H a bracket is the factor that goes with e alpha D beta okay so what does that tell us
+
+01:31:04
+well that tells us that this bracket a alpha I beta is also an eigen vector of the H a but if this is an eigen vector okay but so therefore we have that ad H a acting on this commutator a alpha I beta is lambda alpha H a plus lambda beta H a times e alpha I beta that means alpha a beta is also a root okay so hence D alpha D beta is well I say it's a root well it's a root if the sum you see you could write the lambda alpha plus lambda beta you could take the sum considering them as the H star elements
+
+01:32:10
+and only after taking the sum in H star you act on H a this can either be root with corresponding to the root lambda alpha plus lambda beta if there is such a root okay so let's look at the diagram here over here so assume we call this guy uh-huh let me get some color so it's important to not get confused here so so this year corresponds to the root lambda 1 but associated with this root is of course the e 1 is the eigenvector to which the lambda 1 of H is the eigen value and similarly let's take this guy
+
+01:33:10
+here so this guy here this is lambda 3 say and of course this is associated but it's not the same as a vector e 3 so now the question is what about the commutator of e1 and e3 well if you want to write down that commutator so maybe I am so if you now wish to have that commutator he won with III okay then you know it's a route you take this guy lambda1 you add it to lambda 3 and you learn exactly here so this is lambda 1 plus lambda 3 apply to some age if I act on here with some age from Capital age
+
+01:34:30
+and then I get exactly this guy back II 1 e 2 but you already know that the e 1 that the vector that yields this factor here which is now yet another colors may be in order which corresponds to that guy so this is of course lambda 1 plus lambda 3 okay this this lambda 1 plus lambda 3 you already know what that guy is that must be the root we found before so e1 and e3 must course must be the e2 that corresponds to this root okay so we found that a1 and a3 is e2 because these two sum up to lie here so this is one
+
+01:35:33
+type of relation you get now there could be two things two other things happening so this is this is the case where lambda 1 plus lambda 2 yielded another root okay so we could say this in general generally the commutator a alpha with a beta equals now we have three cases and we just clarified case one that is in a gamma if lambda alpha plus lambda beta the corresponding roots add up to the Lambda gamma okay that's this case so but what if they hadn't added up to something that already exists so take
+
+01:36:35
+for instance this lambda 1 and this lambda 2 here well there's some so I refer again to this rule that you get the son there some would lie here but this is not a root so in this case where this is not a root the result is 0 if I should say if this sum here is in the root space that's the right formulation and it's 0 if the some lambda alpha plus lambda beta is not in the root space and is nonzero then we put a 0 there but then there's a third case that is you take you take for instance this root and
+
+01:37:26
+you take that route so you take these opposite roots but of course the corresponding eigenvectors they are not linearly dependent there's a 1 and a 1 2 3 4 e 1 and e 4 you know they're linearly independent the roots are not but the corresponding eigenvectors are what happens if the sum of the roots is 0 if the sum of the roots is 0 what can happen is that this die is an element of the coton sub algebra now you do not immediately know which one by repeated application of what you know using your
+
+01:38:08
+brackets you'll find out and example we had before that is again simplest this one was SL to see with this stinking diagram and this root space we didn't draw it at the time but we know that the root space is one dimensional so that stage was really vacations real one dimensional and we had only one fundamental root that was this one okay that was the fundamental root at the time it was called lambda 2 and of course the action of the wild group we get this guy here we get the opposite we get minus lambda 2 which you
+
+01:38:49
+could get by s lambda 1 acting on lambda 1 okay so we we saw all of this and we saw that this one plus this one is zero and indeed we had we had that the eigenvector corresponding to this one so this was the lambda we then called lambda 3 that the eigenvector of this one with the eigenvector of that one that that yielded x1 and that was in the in the cart on sub algebra and that's an example for this third case up here and so this way first evaluating what happens on the cart on sub algebra by
+
+01:39:32
+definition and then using the Jacobi identity and making this distinction of cases you can recover the entirely algebra the commutation relations that is the Lee algebra not commutation relations I correct myself again the Lee bracket relations which only if it's a representation would appear in the form of commutation relations of say matrices or linear maps and the Lee bracket relations are recovered fully from the root diagram and the root diagram comes directly from the Dinkin diagram so the Dinkin diagram really contains
+
+01:40:07
+all the information about a simple Lee algebra see you next time thank you you
+

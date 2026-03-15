@@ -1,0 +1,809 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/V49i_LM8B0E
+
+00:00:07.970 so welcome everybody to the course on the geometric anatomy of theoretical
+00:00:14.040 physics and you being advanced students you know that theoretical physics is all
+00:00:21.570 about casting our concepts about the real world into rigorous mathematical
+00:00:28.140 form for better or worse and but theoretical physics doesn't do that for
+00:00:34.920 its own sake but it does so in order to fully explore the implications of what
+00:00:42.210 our concepts about the real world are so to a certain extent the spirit of
+00:00:51.719 theoretical physics can be cast into the words of Wittgenstein who said what we
+00:00:57.090 cannot speak about clearly that we must pass over in silence
+00:01:03.439 well so indeed if we have concepts about the real world and it's not possible to
+00:01:11.549 cast them into precise mathematical form that usually is an indicator that some
+00:01:18.210 aspects of these concepts have not been well understood so if your ethical
+00:01:24.540 physics aims at casting these concepts into mathematical language but then
+00:01:29.970 mathematics is just that it's just a language and if we want to extract
+00:01:37.079 physical conclusions from this formulation we must interpret the
+00:01:43.140 language and that's not the purpose or the task of mathematics that's the task
+00:01:48.299 of physicists and that is where it gets difficult again but again mathematics is
+00:01:53.909 just a language and to again use Wittgenstein
+00:01:59.310 he says the theorems of mathematics all say the same namely nothing ok and so
+00:02:08.340 what does he mean by that well obviously he doesn't mean that mathematics is useless refers to the fact that if we have a
+00:02:14.890 theorem of the type a if and only if B a and B being propositions that obviously
+00:02:22.000 B says nothing else then a does and a says nothing else then B does it's a
+00:02:29.380 tautology okay now of course mathematically logically it's a
+00:02:34.990 tautology but psychologically or for understanding of a it may be very useful
+00:02:41.350 to have a reformulation of a in terms of B right so with this understanding that
+00:02:50.320 the mathematics just gives us a language for what we want to do the idea of this
+00:02:56.860 course is to provide proper language for theoretical physics and certainly for
+00:03:04.690 the for courses you have heard so far so the aims of the course the aim the
+00:03:12.400 overarching aim is to provide proper
+00:03:19.030 mathematical language for classical
+00:03:33.250 mechanics electro magnetism
+00:03:48.710 quantum mechanics and statistical
+00:03:57.150 physics now so these subjects you
+00:04:06.870 studied in the modules gp1 to tp4 here
+00:04:12.720 at a line or at many other universities and obviously we're not going to revise
+00:04:19.410 all the mathematics that are needed for these four subjects but rather we will
+00:04:25.770 develop mathematics from a higher point of view that we can now approach that
+00:04:30.990 you have some prior knowledge of these subjects and so far you have certainly
+00:04:41.070 used a fair amount of analysis in order to study these subjects further a fair
+00:04:48.240 amount of algebra mainly linear algebra
+00:04:53.670 but also non linear algebra at times and geometry in one or the other form so
+00:05:03.660 very often in classical mechanics you would appeal to geometric intuition in setting up a problem or finding the
+00:05:10.560 solution to a problem the same goes for electromagnetism algebra you mainly used
+00:05:15.870 in quantum mechanics that's the modern way to do quantum mechanics is by means of linear algebra and in statistical
+00:05:22.170 physics you use some geometry maybe without really realizing it by looking at convex cones of states and so on now
+00:05:30.630 if you take these four fields and you
+00:05:36.390 try to be pedagogical if you draw circles around them
+00:05:48.919 and so classical mechanics and
+00:05:54.300 electrodynamics certainly use a fair amount of analysis in geometry and so
+00:06:01.259 does general relativity for those of you who took that course or about to take it
+00:06:07.800 well quantum mechanics lies certainly well in intersection of analysis and algebra usually called functional
+00:06:14.490 analysis and well algebra and geometry let's do statistical physics justice ed
+00:06:23.039 more or less lies there of course this is not a pure picture this is mainly where the intersections of these fields
+00:06:31.370 come to play and here in the middle
+00:06:36.620 where these three fields intersect we have differential geometry as a
+00:06:42.000 mathematical subject and it's differential geometry that this course is mainly about so the mathematics of
+00:06:50.909 this course will be that part of the mathematics of these different theoretical subjects where these three
+00:06:57.449 fields intersect that's the rough idea of this course now the structure of this
+00:07:07.439 course
+00:07:16.210 and indeed the development of differential geometry that we're about
+00:07:22.070 to start starts well with sets so we'll
+00:07:32.479 talk about set theory because any space
+00:07:39.169 in classical mechanics the space of configurations or the phase space
+00:07:45.370 electromagnetism the space in which you work or in quantum mechanics the
+00:07:50.660 physical space over which you construct your hilbert space and so on all these spaces are certainly sets of points
+00:07:58.610 that's the coarsest structure of such a space it is a set but what precisely is
+00:08:05.210 a set well one can delude oneself into thinking one understands set by saying a
+00:08:11.449 set is a collection of elements but that just raises the question what a collection is and what elements are so
+00:08:18.410 we certainly need to do better and there is a fundamental problem if we start
+00:08:23.510 writing a book about mathematics of whose pages are all empty yet because
+00:08:29.599 what could the first definition be for definition you need notions that you
+00:08:35.089 already have in order to define a new notion but if you don't have any notion yet how do you start well the trick is
+00:08:43.130 to start axiomatically and so we'll have to write down axiomatic set theory but
+00:08:48.589 that then raises the question in what language would you possibly do that so actually before we come to set theory we
+00:08:55.430 need another building block down here and that will be logic and we will deal
+00:09:03.589 with propositional and predicate logic first that will define our language and
+00:09:10.370 then we'll be able to write down the axioms of set theory now once we have
+00:09:15.500 the axioms of set theory and we have our beautiful sets the question is what can we do with them
+00:09:20.899 and one thing we certainly need at least for these four subjects we need a notion
+00:09:27.680 of continuity for instance in classical mechanics are famously
+00:09:32.860 particles don't jump so the particle trajectory doesn't stop somewhere and
+00:09:38.030 start somewhere else again it's continued so you need a notion of continuity and such a notion you get by
+00:09:44.960 distinguishing certain subsets of the basic set you have and that leads to the
+00:09:52.070 notion of topology so we'll deal with topological spaces and all the notions
+00:10:00.340 associated with that now there is an abundance of topological spaces such an
+00:10:07.220 abundance that you cannot even classify them and so we will need to restrict
+00:10:13.670 somewhat to interesting topological spaces well topology topologists may disagree
+00:10:19.760 that only those I'm going to write down are the interesting ones but from the point of view of theoretical physics
+00:10:25.420 immediately interesting are the topological manifolds topological
+00:10:33.440 manifolds which we're going to define a topological spaces that locally around
+00:10:39.050 the point look like some R to the D now
+00:10:46.010 that's not enough if you have topological manifolds you also need in
+00:10:51.260 physics especially in classical physics you need a notion of derivative you need
+00:10:56.390 to be able to talk about the velocity of a curve and that cannot be done in
+00:11:02.180 topological manifolds what you need there you need differentiable manifolds
+00:11:09.100 and that's an entirely new beast and they will need to introduce the
+00:11:14.240 technology of charts and the technology of charts will for the first time make
+00:11:19.310 contact to much of the formulism you already used in the standard courses in fact all the standard courses have been
+00:11:26.570 formulated in charts so far I'll explain later a chart is like Sailor uses a chart of
+00:11:35.660 the world you travel across the globe and if you want to know where you are and where you want to say you take out
+00:11:41.840 Atlas and the Atlas you'll turn the pages and you'll find the appropriate chart around the point where you are in
+00:11:48.080 the real world you can navigate in the chart and there and the chart should be
+00:11:53.210 a one to one picture of the world locally because if you then move in the
+00:11:58.730 world such that in the chart you would leave the page you better turn the page and you'll find the other page that slightly overlaps with the chart in the
+00:12:05.810 Atlas so that you can then navigate on with the other chart and very much the same thing looking for another chart
+00:12:12.200 that overlaps and understanding how the overlap works that's the whole philosophy behind manifolds and
+00:12:19.220 certainly behind differentiable manifolds because differentiation the charts are parts of Rd like r2 for
+00:12:26.270 instance and them so you understand differentiation in the charts and we
+00:12:32.120 will lift the notion of differentiation that we understand well in the charts we'll lift it to the general concept of
+00:12:37.880 differentiation on the manifold that's already the entire philosophy it's it's
+00:12:47.540 roughly the same chart it's the technical term in this case that's right okay so we will certainly come to that
+00:12:54.640 now once we have differentiable manifolds maybe already before we'll
+00:13:01.220 come to a notion which well in some sense is yet another structure but it's
+00:13:08.870 bundles so the idea of bundles is you
+00:13:15.890 take a manifold and you take another manifold and to each point of a given
+00:13:21.290 manifold you attach the other manifold you build a bundle you could have a vector bundle at each point you attach
+00:13:27.230 the tangent space and so on and bundles are a very important concept in geometry
+00:13:32.600 in differential geometry and indeed much of modern physics can be understood or
+00:13:37.790 can be cast into the language of bundles so this is true for particle physics but
+00:13:43.010 also for gravity and so on certainly for quantum mechanics so I'm actually about
+00:13:49.960 here now already here we will learn that a notion of
+00:13:55.910 position vector should be forbidden there is no such thing as a position
+00:14:02.660 vector doesn't matter how often it's repeated there is no such notion now in
+00:14:10.700 bundles you learn there is no such thing as a wave function in quantum mechanics
+00:14:16.430 you get away with the notion of position vector unless you look too closely and
+00:14:22.460 then it fails and the same is true in quantum mechanics you get away with the notion of wave function but then it
+00:14:28.970 fails in fact a wave function is so a position vector is just a collection of
+00:14:35.000 coordinates but they do not constitute a vector and the wave function in quantum mechanics is not a function at all it's
+00:14:42.110 a section in a complex line bundle over the physical space you cannot understand
+00:14:49.400 this but you will at the end of the course so these notions are needed if you really want to say what's going on
+00:14:57.070 now ok so once we have bundles or maybe also alternative to bundle sometimes so
+00:15:04.940 don't take the picture too seriously it's a rough idea of how this building is constructed will have geometry
+00:15:12.700 geometry comes in form of so-called tensor fields on this structure so that
+00:15:20.150 could be symplectic geometry that would be the drama tree of classical phase
+00:15:26.420 space in mechanics but actually it's a much bigger subject because for virtually all dynamical systems of
+00:15:32.900 interest to us the phase space is equipped with the symplectic geometry there may be a metric geometry this is
+00:15:41.810 certainly the case in electromagnetism due to a certain extent needed drama tree just in the volume form and
+00:15:48.950 certainly it's the case in relativity and special and general relativity you need a so called lawrencium metric this
+00:15:56.270 is a structure that sits on top here but you need to understand more or less all of this in order to really
+00:16:02.680 professionally deal with geometry well and then to complete this
+00:16:09.260 then when I promised you that all these different subjects you learn about
+00:16:15.560 before so up to here it's just physical mathematics but then up here it's
+00:16:23.060 physics we have classical mechanics electromagnetism quantum mechanics
+00:16:28.190 statistical physics and special relativity and general relativity all of
+00:16:34.340 these physics can be understood and can
+00:16:41.150 be properly understood by mastering all these mathematics and again the purpose
+00:16:52.520 of this course is to develop these mathematics and then to show mainly by
+00:16:58.570 examples of how the insights you gain from here play out at the level of
+00:17:06.290 physics that's the ID of this course are
+00:17:16.160 there any questions so far okay so let's start with logic
+00:17:38.450 so chapter one is actually already
+00:17:44.450 axiomatic set theory in the first
+00:17:58.440 section here yes yes and the logic
+00:18:07.350 behind the logic is that now the first subsection will be propositional logic
+00:18:13.130 so I summarized the logic under axiomatic set theory because it's the language for axiomatic set theory so one
+00:18:21.360 point one is propositional logic
+00:18:31.310 now the key notion of propositional logic is a proposition definition a
+00:18:39.440 proposition P small p is well let's call
+00:18:49.500 it a variable whatever that means it's a variable that can take the values true
+00:19:02.430 or false
+00:19:12.730 and no others that's it that's a proposition from point of view of
+00:19:19.059 propositional logic so in particular it is not the task of propositional logic
+00:19:26.880 to decide whether a complex statement of the form there is extraterrestrial life
+00:19:33.419 it's true or not that's not the task of propositional logic propositional logic
+00:19:40.900 already deals with the complete proposition and it just assumes it's either true or false you can say well
+00:19:47.590 let this proposition B have the value true yeah yeah you can do that but if
+00:19:52.720 nothing is said it's either one not not true at the same time of course no other
+00:19:58.330 it's true or false you know this it's also not the task of propositional logic
+00:20:03.370 to decide whether a complex proposition of the type in winter it's colder than
+00:20:11.860 outside well this is a proposition at all well obviously the one I just mentioned doesn't seem particularly
+00:20:18.429 reasonable but it's not the task of propositional logic to decide this is important to realize this okay
+00:20:25.090 propositional logic deals as its atomic elementary notion with the notion of
+00:20:32.169 propositions now certainly you can build new propositions from old ones
+00:20:48.950 from given ones and one does so with the
+00:20:56.700 help of logical operators and they come
+00:21:07.169 in different forms and the simplest form is unary operators and there are four
+00:21:20.460 unary operators what's a unary operator unary operator takes one proposition P
+00:21:28.350 and makes from it a new proposition so the the one that sitting in the unary
+00:21:35.700 means you take one proposition as given you construct new ones and of course
+00:21:40.860 this one proposition can have values true or false now I said there are four
+00:21:48.509 unary operators let's write them down well a famous one is the not operation
+00:21:54.779 not P not P is again a new proposition
+00:22:02.360 proposition called not P in this proposition if P takes the value true
+00:22:07.919 this proposition takes the value folds and if P is false this proposition takes the value true it's one of them and you
+00:22:15.779 certainly saw this before well there are three others there's the identity let's call it EDP this is true folds there is
+00:22:25.320 something like we might call the tautology operator TP this is always true independent of what P is and there
+00:22:33.240 is this operator let's put it upside down P that's the contradiction that's
+00:22:39.419 false whatever P is and you quickly check that if P can be true or false these four are all the possibilities you
+00:22:47.490 have for defining a unary operator well
+00:22:53.129 the next step are binary operators
+00:22:58.490 in order to see how many of those we have well you need to start with two
+00:23:04.380 propositions that you assume are given and they can take the values true true
+00:23:10.830 true folds folds true and folds faults and so the easy one certainly known to
+00:23:21.840 all of you is the end P and Q and P and
+00:23:26.880 Q is a new proposition so this in total is one new proposition this is true
+00:23:33.020 false false false in the cases where this is true and this is true this is
+00:23:38.580 true and so on now there's a whole number of others and you can quickly
+00:23:43.620 calculate if for these four rows you can each row decide whether you put a true
+00:23:50.010 or a false we have two to the four equals sixteen binary operators yes
+00:24:08.090 that's right so a bi a unary operator takes one proposition and construct from it a new proposition yes but that's the
+00:24:19.890 notion of an operator it takes two variables from this set so it goes if you would say from a Cartesian product
+00:24:26.250 of the set true/false with the cetera falls to the set roof holds it's a map however I'm not saying it this way
+00:24:33.120 because we don't know yet what set is we don't know yet what a Cartesian product is this is a an elementary presentation
+00:24:42.300 of this one can do this even more abstractly and just write down deduction
+00:24:51.030 rules never writing never write down such a table and you write down deduction rules this is the even more
+00:24:58.050 abstract way of doing this I didn't choose it because it has no purpose
+00:25:03.330 whatsoever if you do standard logic if you do non-standard logic like
+00:25:08.940 intuitionist logic then you reduce certain deduction rules and then you get a logic that you can no
+00:25:15.360 longer express with these tables okay and well that is very esoteric I don't
+00:25:21.450 say it's not interesting I find it very interesting but every course has to define its bottom line and so this
+00:25:28.590 course defines the bottom line at not writing down propositional logic using deduction rules and axioms but rather
+00:25:35.160 presenting the tables because it's really sufficient for what we're going to do okay okay so now there are a
+00:25:43.140 number of others there is the or there is the exclusive-or and so on so the P
+00:25:48.630 or Q you know this is true true true false the exclusive-or is false true
+00:25:55.140 true false and so on so in medieval ages
+00:26:00.240 people were discussing whether the or that appears in some sentence actually
+00:26:06.870 means the inclusive or the exclusive or and obviously they appealed to the Bible
+00:26:12.600 in order to see how God used it well it was actually again Wittgenstein and
+00:26:19.290 Frigga and others who wore less around the turn of the century to the 20th
+00:26:25.260 century said no hang on it's just a
+00:26:30.450 table it's just a definition they have 16 binary operators each of them maybe deserve their name or not you have 16 of
+00:26:37.440 them you have the inclusive or you have the exclusive or and so on now this is all child's play and you've seen you've
+00:26:43.290 seen this before but I go to such lengths in writing this down because there's one binary operator which
+00:26:50.730 sometimes is little ill understood unless you're maybe very knowledgeable
+00:26:57.960 about these things and that's this implication arrow so from school days we use this implication error as saying I
+00:27:04.230 write down sim write down something that's true and now I do something valid and then I may write down this
+00:27:09.900 implication arrow and that means I did something okay now the implication arrow
+00:27:15.090 as much as the end is a binary operator that takes a proposition and another
+00:27:20.340 proposition and makes one new position out of it so this whole thing P
+00:27:26.500 implies Q is in total true or false when is it true and when is it folds
+00:27:32.980 from true follows true this is evaluated to be true from true follows false
+00:27:40.149 no no mistake you don't pass the test from false follows true you say no no no
+00:27:47.679 well yes yes yes yes you should write a team here that's at least the definition
+00:27:53.500 and from false follows false well that must be certainly wrong hungrily no it is not it's also true now this is the
+00:28:01.630 definition of the implication arrow and this is why I go to such great lengths
+00:28:06.730 about this well this principle that from a false assumption you can conclude
+00:28:14.350 anything and the whole thing is evaluated to be true deserves a name
+00:28:20.919 which this principle has been in place for a long time so the principle is
+00:28:27.100 called in Latin x-files awkwardly bit roughly
+00:28:33.100 translated it means from a false assumption you can conclude whatever you
+00:28:40.000 like x-files awkwardly bet and these first two they're kind of intuitive now
+00:28:47.649 the question is why on earth would you define the implication arrow like this
+00:28:52.899 and the answer is hidden in a little theorem it's very simply proving the
+00:29:05.380 theorem is P implies Q this statement I
+00:29:10.899 put it in brackets is actually equivalent to now this equivalent arrow
+00:29:16.450 the equivalence arrow we haven't defined I define it here on the left-hand side P
+00:29:21.630 equivalent q is true if both are true
+00:29:26.649 false if one of them is not and the other is and true again if both are false P implies Q is an equivalent
+00:29:34.600 statement to now careful not Q implies not P so the order if you
+00:29:41.100 put the knot in front the order is exchanged and because I didn't tell you
+00:29:46.690 about the binding strength yet you may be careful and put brackets around here
+00:29:51.899 now this looks funny it's quickly proving we'll do it in a second but the
+00:29:57.970 important thing about this logical mumble jumble is the corollary this
+00:30:05.380 actually means we can prove assertions
+00:30:14.490 by way of contradiction so see we know
+00:30:23.620 that P is true it's the assumption that P is true and we want to prove that then Q is true what we can do instead which
+00:30:31.480 is fully equivalent is to assume that what we want to prove is not true and to
+00:30:37.000 prove that that means that the assumption isn't true and we say Oh contradiction so Q must have been true
+00:30:45.210 well this is what this says so this statement says you can prove assertions
+00:30:51.000 by way of contradiction it's a very elementary principle a very sharp tool
+00:30:56.200 of mathematics now coming back to your question about these tables and what map
+00:31:02.320 this is such an operator if you formulated logic in terms of these
+00:31:07.779 deduction rules and axioms without the tables you could surgically remove
+00:31:13.570 certain deduction rules and one of them that you can be remove such that the
+00:31:21.250 whole thing cannot be written down by tables anymore would be one that destroys this theorem
+00:31:26.980 and then you would have a logic and build on it you would have a type of mathematics where proofs by
+00:31:33.340 contradiction are no longer allowed you probably in every good mathematics
+00:31:40.090 department you find one professor who follows that kind of I think they call
+00:31:45.309 it intuitionist logic and it's a pain because the cost as long as usual because you have to
+00:31:52.920 constructively prove everything you want to prove and some people make a strong point that that is very meaningful it's
+00:31:59.890 certainly a better result if you know something constructively but they make an even deeper point they say we do not
+00:32:05.830 trust the proofs by contradiction anyway we're not going into that with our definition we have logic that allows
+00:32:14.320 proofs by contradiction essentially by this by this definition well so how do
+00:32:20.170 you prove such a thing well this is important for the first vanilla problem in any exam well of course you use the
+00:32:27.610 tables and your constructors you have P Q you construct not P and not Q so true
+00:32:35.620 true true false false true false false false false true true false true false
+00:32:42.310 true and then you write down P implies Q and you know this from before it's true
+00:32:49.690 false true true you write down not Q implies not P while you construct it
+00:32:55.480 from here false implies false is true true implies false is false false
+00:33:00.850 implies true it's true exercise record limit and true implies
+00:33:07.870 true is certainly also true so we have true false true true true false true true are wonderfully these two columns
+00:33:15.820 are equivalent this is exactly the statement up here this is to prove of
+00:33:21.100 such statements by way of writing down in out in full the table the truth table
+00:33:34.140 okay so there are certain remarks in order
+00:33:41.449 remark one we agree on decreasing
+00:33:49.469 binding strength in the sequence
+00:34:04.459 decreasing okay not is very strong and it's not so strong or it's even less
+00:34:12.469 then we have an implication arrow and then we have an equivalence arrow okay
+00:34:19.440 so if you have more symbols you need to extend the sequence however the question
+00:34:28.679 is how many operators do you actually need well we had a few unary ones we had
+00:34:34.049 a few binary ones well what about higher order operators
+00:34:40.940 remark to higher order operators say the
+00:34:52.440 operator heart-shape that eats P 1 to P
+00:34:58.470 n statements will be an operator of
+00:35:03.569 order N or unary operators obviously of order 1 binary operators of order 2
+00:35:10.259 higher order operators heart-shape can be constructed I should say all higher
+00:35:19.710 order operators can be constructed from one single we're not only high of any
+00:35:28.619 order in from one single binary operator
+00:35:35.059 and it's the so-called NAND operator P Q
+00:35:42.029 I write down the table of the nand operator P so let's have an up arrow
+00:35:48.569 for this guy so true true true folds
+00:35:53.910 fold true folds folds always the same order in case my writing gets worse NAND
+00:36:00.089 is false true true true because it's end
+00:36:08.660 but the negated version of it it's NAND not end and my statement is
+00:36:17.819 that any operator can be constructed from the NAND operator alone so in fact
+00:36:26.329 we do not really need this binding strength thing it's just a convenience
+00:36:36.019 all right so I guess there will be some finger practice problems on the first
+00:36:43.559 problem sheet on that yes and just to try question if you want writing
+00:36:50.519 equivalent operator in the tail surfaces is it only true when both sides are true
+00:36:56.429 or both sides of false or what's that much that's the definition of the equivalence operator it's true if both
+00:37:04.429 propositions take the same value yeah yeah that's because on the other blackboard yes okay further questions
+00:37:13.369 all right so this was a very quick recap of propositional logic and we'll proceed
+00:37:20.969 to predicate logic so section 1.2 predicate logic
+00:37:37.040 definition a predicate is what my one
+00:37:45.960 might informally describe as a proposition valued function of some
+00:37:58.950 variable of some variable or variables
+00:38:07.130 variable because it could depend on several so for example you could have a
+00:38:15.810 proposition P of X and it's truth value
+00:38:22.790 depends on what X is true or false
+00:38:30.470 dependent on X you could have a
+00:38:39.590 predicate that depends on two variables x and y and now it's true or false
+00:38:46.230 dependent on what the combination of X and y is now like in propositional logic
+00:38:54.810 it was not the task to study complex
+00:39:01.280 propositions it is strictly speaking not the task of predicate logic to tell you
+00:39:09.480 how these predicates are actually built you might ask okay so what could this be
+00:39:15.750 could this be Q of X and y is true if X is greater than Y as if x and y are
+00:39:21.570 numbers say real numbers and X is greater than Y that would be constructing such a predicate strictly
+00:39:31.380 speaking it is not the task of propositional logic to construct them because obviously in order to construct
+00:39:38.369 them you need some further language how you can combine objects x and y so first
+00:39:45.740 thing and then you might ask well what set do you take the exes from and from
+00:39:52.790 what set do you take the X and the y from and so on and the answer is no such thing we leave
+00:40:01.460 it entirely open what x and y what they are where they come from what their
+00:40:07.190 nature is they're just variables they say this is very weird because since
+00:40:12.440 elementary school days we've been conditioned to always say what set does it come from now the point is we need to
+00:40:20.060 leave this open in this fashion because we only want to define the notion of set
+00:40:26.360 later using this language so we cannot already use sets and in fact it will be
+00:40:33.650 a part of set theory to introduce a fundamental predicate that takes two
+00:40:41.450 objects and makes out of these two objects a proposition that's either true
+00:40:47.119 or false and you know this the fundamental so if I we're not using this
+00:40:52.490 here this comes later so I write here later we might define a fundamental
+00:40:58.060 predicate of two variables in this way
+00:41:03.920 using this element symbol and you see now if we already have a rough idea but
+00:41:12.170 don't use is just the outlook if you already have a rough idea x and y's well if they are sets and that's it actually
+00:41:17.990 the statement if ignored if x and y are sets then X element Y is a predicate of
+00:41:25.640 two objects which is either true or false okay but this will come later
+00:41:31.340 because so far strictly speaking in predicate logic of the first kind and so on you do not have this symbol yet so
+00:41:39.230 again I cross this out because it's only later at this level we're only dealing with these predicates as the elementary
+00:41:46.310 objects okay it's always important to know what the subject is not talking about in this case it's not talking
+00:41:53.390 about how to build these guys now however
+00:41:59.109 what we can do we can again construct new predicates from old ones construct
+00:42:05.680 new predicates from given ones and well there is the
+00:42:17.049 simple way we could define a queue of XY
+00:42:22.210 and z to be well you see the instead of
+00:42:28.239 : equal sign which means defined as because this whole thing for given XYZ
+00:42:33.489 is a proposition we can say it's defined to be equivalent to say P of X and R of
+00:42:42.390 Y and Zed but obviously if the X is supplied if the wine is that are
+00:42:48.519 supplied this is a proposition this is a proposition it two propositions that can
+00:42:53.680 be conjoined by the by the end operator and you have a new predicate now of
+00:42:59.170 three variables stuff like that very simple now a more interesting way is the
+00:43:06.130 following you can actually convert a predicate of one variable into a
+00:43:12.160 proposition convert predicate of one
+00:43:20.619 variable this can of course be extended into a proposition let's call this
+00:43:32.829 predicate P capital P of one variable so
+00:43:37.989 let's write it down let's write down the proposition which proposition the
+00:43:43.089 proposition is this funny upset down a X
+00:43:49.170 : P of X so what is the proposition well
+00:43:56.859 the proposition is all of this if you
+00:44:02.799 ask what does this guy in the Box mean the answer is its a proposition it's a
+00:44:09.609 proposition that has been constructed from a predicate of one way Herbal and we may read it believe me
+00:44:16.480 gloop and that's the proposition well we may read more reasonably for all X P of
+00:44:22.750 X is true so that is how we read this
+00:44:29.610 for all X P of X is true but how is it
+00:44:38.410 defined and this proposition is defined to be true defined to be true if P of X
+00:44:51.820 is true independent of X independent Li
+00:45:02.640 of X so if the X doesn't matter you can
+00:45:09.490 substitute whatever you like for X it's true this is the definition of this
+00:45:16.390 proposition and obviously this proposition has been constructed from this predicate now I warned you it's not
+00:45:29.800 our task here in principle to provide specific predicates nevertheless as an
+00:45:40.960 example as a feel-good example we might
+00:45:49.060 do so nevertheless so we could define a
+00:45:57.430 predicate P of X is defined as so now it
+00:46:02.770 becomes fishy but that's the feel-good part if you're good always involves an amount of imprecision X is a human being
+00:46:18.060 implies X now let's be politically
+00:46:24.790 correct X has been created this includes
+00:46:38.350 all Sates if you think God created it or the Father whatever and so but but this
+00:46:43.570 is the whole statement so there the whole proposition the whole proposition is this implication now I said we won't
+00:46:51.790 don't want to say where the X's come from well I don't I just hide this in
+00:46:56.800 here X is a human being means X has been created in the mother's womb or whatever
+00:47:02.490 well this is certainly always true then for all X P of X is true that's it it's
+00:47:15.730 nothing more nothing less yes and so far you said you don't know anything about X Y P but if the words
+00:47:22.030 could be also convert a predicate and other ways is a proposition let's say
+00:47:27.580 okay but for all X but for some X yes indeed absolutely thank you that's what
+00:47:34.150 I was coming to next there is the brother of this all quant or so this
+00:47:39.490 called the ol quandra and we can also define the existence quantification
+00:47:45.990 existence quanti vacation it does the
+00:47:52.030 same well a similar thing it takes a proposition of one variable and now
+00:47:57.520 there is a different mumbled Rumble in front of it which in total is a proposition and this here we will read
+00:48:09.180 there exists an X such that P of X this
+00:48:19.690 is how we read it but how do we define it what it's a proposition so we need to
+00:48:24.970 provide the proposition that defines it and that's simple because it's not
+00:48:31.090 all X not P of X so obviously brackets
+00:48:38.320 like this if you want them we don't eat them maybe we'll put a bracket around here for clarity so having available the
+00:48:46.270 all quant or you define the existence quarter as the negated all
+00:48:52.170 quantification if ocation of the negated predicate okay and an immediate
+00:48:59.530 corollary from this is well three very
+00:49:04.930 true rule is that for all X something is
+00:49:10.720 not true is equivalent to it's not true
+00:49:19.240 that there exists in X for which it is true if something isn't true for any X
+00:49:31.140 then certainly it's not true that the exists one where it's true very simple
+00:49:41.250 it seems simple and once it's written down is perfectly clear anything as mathematical training it's clear but if
+00:49:48.130 you go to the hairdresser from time to time you see that in many drum bubble
+00:49:53.320 shops on the door it says what hairdressers can do only hairdressers
+00:49:59.260 can do it sounds good but if you think about it it means they
+00:50:04.300 can do nothing a non hairdresser can do so if I is a non hairdresser can draw
+00:50:11.620 nice pictures it means a hairdresser cannot ok so careful with the negations
+00:50:17.290 and the all xx fusion to quickly run into things you don't want to say
+00:50:30.160 other questions so far okay
+00:50:36.130 so a remark the order also obviously we
+00:50:52.359 can use quantification also for predicate of more than one variable
+00:50:59.819 quantification for more for four
+00:51:09.099 predicates of more than one variable for predicates with more than one variable
+00:51:20.430 right so that looks like for all X P of
+00:51:27.190 x and y which is now a predicate of two variables well what does this yield we'll obviously this yields a predicate
+00:51:35.170 of just one variable namely the variable we didn't quantify over so usually one
+00:51:43.509 refers to this as the bound variable and
+00:51:49.410 to this Y that survives the quantification and then appears again we
+00:51:56.710 call this the free variable and well if
+00:52:04.809 you quantified once you quantified one of the variables away you have one variable left you can quantify again so
+00:52:13.059 that's remark one and the remark two is that the order matters remark to the
+00:52:22.359 order of quantification matters
+00:52:31.170 so for all X there exists a Y such that
+00:52:37.810 P of X in Y is generically different
+00:52:47.190 proposition then there exists a Y such
+00:52:56.140 that for all X P of X and Y and because
+00:53:02.200 the order matters one should avoid although it's very tricky to do so in
+00:53:08.320 the heat of calculation but one should seriously avoid writing quantification
+00:53:14.980 after the expression so very often we write this and that is true for all X Y
+00:53:20.080 Z or they exists in a Y such that this inverse is true and then we say for all
+00:53:26.050 X Y Z well you should arrange all the quantification before the predicate and
+00:53:33.070 then you have a clear idea of what the order is because sometimes you write one behind if you formulate not so formally and
+00:53:40.600 then sometimes one means you pull it to the front or you pull it here you don't know so it's best to stick to such an
+00:53:47.710 order and you know this from say statements about inverse and neutral elements now so neutral elements for all
+00:53:56.650 X in the real numbers they exist a real number zero such that X plus zero is X
+00:54:03.150 but it's of this type to have the inverse element no it was just the wrong way around I'm sorry you see already
+00:54:09.820 mistake again so for the neutral element there exists a neutral element zero such
+00:54:15.100 that for all elements X plus 0 is X law of the neutral element of the additive
+00:54:23.290 neutral element of the real numbers but for the inverse elements for every X you have a Y that means depending on what X
+00:54:29.620 is you can choose your wire differently something is true ok so there you have
+00:54:34.870 an application of this it's all very clear but nevertheless it's sometimes the root of some trouble
+00:54:48.390 okay so well this actually concludes our
+00:54:54.910 quick overview of predicate logic and but there's an immediate application to
+00:55:01.570 all of this is our section 1.3 and that's called axiomatic systems and
+00:55:17.760 theory of proofs you all met proofs your
+00:55:34.090 physics lectures and theoretical physics lectures mainly in a mathematics lectures and so on but what actually is
+00:55:40.270 a proof well it's a way of arguing why something is true of something else that
+00:55:45.820 you assumed is true but how do you argue what are the valid rules of writing down
+00:55:53.619 a proof well this can actually be defined and there are some subtleties in
+00:55:59.080 this that actually render some of the proofs that are sometimes given really
+00:56:04.600 actually non proofs and if you are very
+00:56:10.180 serious about proving something you need to know what the definition of a proof is well we start with the definition of
+00:56:16.480 an axiomatic system definition an axiomatic system and you
+00:56:25.900 see all this is preparation to write down the axiomatic system that defines set theory an axiomatic system is a
+00:56:34.440 finite sequence of propositions
+00:56:44.150 a 1 a 2 dot dot dot 2 a in now if one
+00:56:54.830 wants to be very smart about it one could object you and say what do you mean by finite and what we mean by
+00:57:00.350 numbers 1 2 3 4 5 2 n because if you haven't defined sets yet how on earth
+00:57:06.140 are you talking about numbers well you could write this down as a1 / a2 slashes
+00:57:16.000 1/5 less less less less less so logicians call these pre mathematical
+00:57:22.220 numbers it's what you're doing Bavarian pubs okay
+00:57:29.330 so again if these lectures are attended by mathematical logician he will
+00:57:36.980 probably shout all the time well hang on a second this is a little bit too Nev it's true I'm not using the full first
+00:57:45.410 predicate logic approach to halt this thing it's already showed up in my use of tables and so on but it gives you the
+00:57:52.220 right ideas it's conceptually exactly what they do without going into too much of the formal nitty-gritty which for
+00:57:58.940 what we're going to do and what we're going to use it for would be fully redundant okay so this is supposed to
+00:58:07.280 give you the right idea it's the right idea it's not necessarily what a professional mathematical logician would
+00:58:13.370 write down if he publishes his new research monograph okay but this is putting the whole thing to to classroom
+00:58:19.880 use so this is my disclaimer doesn't mean that anything of this is wrong it's all is all right okay so an axiomatic
+00:58:26.570 system is a finite sequence of propositions and these propositions are
+00:58:36.860 called axioms which are called the
+00:58:44.710 axioms what's top definition what is the proof
+00:58:52.820 a proof of a proposition let's call it
+00:59:07.250 small P that's the thing we want to prove a proof of a proposition within an
+00:59:13.520 axiomatic system so the idea is I first
+00:59:24.260 give you axioms and then I set a homework problem prove P starting from
+00:59:30.860 the axioms a proof of proposition P within an axiomatic system a 1 to a n is
+00:59:39.070 a sequence and again is a finite
+00:59:44.620 sequence of propositions informally
+00:59:55.580 would say this finite sequence of propositions Q 1 to Q Capital m are the
+01:00:02.300 steps of the proof if you wish is a finite sequence of propositions Q 1 to Q
+01:00:08.150 M such that now obviously we need conditions for this to be to constitute
+01:00:15.770 the proof and the finite QM proposition
+01:00:21.200 is supposed to be the thing you want to prove the proposition you want to prove
+01:00:27.520 obviously if you have proved and you have steps at the end you better had the statement what you that you wanted to
+01:00:33.530 prove yes yes yes
+01:00:46.730 with like in finance name like infinite series and yes but the individual steps
+01:00:54.410 so actually a finite sequence of propositions I should add here or
+01:01:00.820 propositional schemes now we're very
+01:01:08.359 clear and the point is one single proposition in an axiomatic system can
+01:01:14.690 come in the form for all X this and that is true and then you can actually use the
+01:01:20.810 individual statements if I the proposition is for all X P of X it's just a proposition but you can actually
+01:01:27.380 take the P of X out and say well is it for all X then I can use P of X as an individual object which is then true in
+01:01:34.070 maybe infinitely many instances maybe for all the x's that could be and that we call a propositional scheme so there
+01:01:41.030 is some subtlety there but the actual steps of the proof must be a finite
+01:01:46.970 number of steps it's very important and when I was in my first semester I had
+01:01:53.329 the well today I would say I was fortunate that my analysis professor was
+01:01:59.660 an intuitionist so he didn't have contra proofs by contradiction that was one thing and the
+01:02:05.780 other thing is that he was sometimes really mad at some textbook proofs of analysis theorems and he very often said
+01:02:13.970 and this proof is not cyanide and we didn't understand what he meant well we
+01:02:20.000 now understand because in the form of fear of proofs you need a finite sequence of propositions it's very
+01:02:25.790 important anyway so it's such a sequence of steps and
+01:02:31.849 they need to satisfy certain conditions so proof is a finite sequence of
+01:02:40.180 propositions Q 1 to Q n such that
+01:02:49.570 well condition a is satisfied a one of the following such that one going on I'm
+01:03:00.870 young okay such that for any J that lies
+01:03:09.700 between one and the final step so that for any step of the proof either of the
+01:03:19.750 following is true either condition a is true and that means that
+01:03:25.630 this J step of the proof that this Q Dre
+01:03:31.090 is a proposition from the list of axioms
+01:03:43.590 it means at an arbitrary step in your proof you may pick one of the axioms and
+01:03:50.350 put it there very clear you may put it there be an OT
+01:03:58.500 tautology or the J's step of the proof
+01:04:05.500 is a plain tautology is a tool ecology I
+01:04:12.390 think I didn't define how many what a tautology is a tautology is a statement
+01:04:18.190 is a proposition that is always true independent of the elementary
+01:04:24.910 propositions it's made up of so to paly
+01:04:30.490 tautology
+01:04:36.630 eg P or not P this is a proposition
+01:04:44.080 right and because P appears in there and we don't know whether P is true or false
+01:04:51.180 generically we would know whether P or not P is true or false because it could depend on would depend normally on P but
+01:04:57.670 this specific combination P or not P well this is always this is always true
+01:05:04.330 as you can check from the table this is called a tautology a tautology is a
+01:05:13.740 proposition that is always true independent of the elementary propositions it's made of and so either
+01:05:25.780 this or this or for the J's step of the
+01:05:31.480 proof the condition M is satisfied so this stands for axiomatic this stands
+01:05:38.140 for tautology and this M stands for modus ponens which is a very old logical
+01:05:48.400 how do you say deduction rule but we'll
+01:05:53.470 write it down here I mean there's nothing in the name modus ponens such
+01:05:59.050 that there exists m m and n somewhere in
+01:06:08.260 the proof that we had some note not somewhere but actually before the
+01:06:15.910 current step so if for every step it's true that the so we're in the J's step
+01:06:22.780 of the proof we may use any of the previous steps step M and step n which
+01:06:31.390 are before the current step such there exist such guys such that the
+01:06:39.430 proposition Q M + q n so you take M step
+01:06:45.850 of the proof you take the nth step of the pro you put an end between implies the cue
+01:06:55.660 of the Jade step such that this is true
+01:07:05.700 so please realize this is a proposition
+01:07:11.910 okay so it could be that we have two steps before the proof and if I put them
+01:07:18.279 together by and and I can show that from this end implication arrow Q J is true
+01:07:26.819 for some m and some N before this Jade step this whole thing is true that also
+01:07:34.719 qualifies the Jade step as a valid one so the Jade step can consist of an axiom
+01:07:40.390 it can consist of a plain tautology or it can be deduced from two previously
+01:07:48.609 arrived steps steps we arrived at if this is true yes do you really need the
+01:07:56.709 last one or doesn't it follow out of a and T somehow I mean it's pretty much
+01:08:01.930 just in the assembly of proportion is this okay let's trollee know it you need
+01:08:12.640 it you definitely seriously desperately fully need it it's just probably some
+01:08:19.060 somewhere it's just sorry to intrude leaders you don't really see anything yes because you have some kind of
+01:08:25.029 kindergarten intuition about this thing you CIA if this is true then I can do this but remember this is a binary
+01:08:31.359 operator it's not more it's not more it has not this nice intuition about where
+01:08:37.270 the arrow goes the other thought goes or something it's just a binary operator
+01:08:42.339 this is a logical statement as one of the axioms will at the moment we don't
+01:08:48.040 have enough technology to provide a meaningful proof but in this course I
+01:08:53.259 will write out one proof in full according to this scheme one single one
+01:08:58.420 and that is I think the uniqueness of the empty set now there will be an
+01:09:05.359 axiom that stipulates the exists an empty set with such-and-such properties and then you have to show there's only
+01:09:11.960 one such set it's a very quick proof and intuitively we say 'yeah it's clear that
+01:09:17.720 it up if you know the definition of the implication arrow but if you really want
+01:09:22.970 to write it out I think it has something like 16 lines it's a 16 step proof if
+01:09:28.040 you write it out in full like this and I want to present one proof that is
+01:09:33.500 precise and the other proofs will be given in the form they're usually given
+01:09:38.779 by some quick arguments but the understanding of mathematicians is where
+01:09:44.000 here I mean even in the best journals and the most celebrated theorems are
+01:09:49.069 usually not proven in this fashion because this goes in the millions and billions I don't know of lines proving
+01:09:56.380 comparatively simple stuff okay so we don't do that we use electric this
+01:10:01.940 is kind of like machine code in computer science right almost like the zeros and
+01:10:08.210 the ones the binary code and actually the proofs we give in the higher language like C++ also okay so this is
+01:10:15.260 what we do in mathematics but the understanding is that the proofs we write in books we say well now it's
+01:10:21.290 obvious that dah dah dah dah the understanding is it's only a proof if your fellow mathematicians agree that
+01:10:28.340 in principle what was written down now could probably according to our
+01:10:33.350 intuition be broken down to proofs of this type okay and if somebody has the
+01:10:40.520 feeling that what you do here will not lead to approve of this type for instance not to a finite step proof or
+01:10:47.270 proof with finitely many steps then mathematicians will raise objection to
+01:10:53.450 this proof we will say well we're not convinced and then in principle as long as somebody says I'm not convinced a
+01:10:59.870 mathematician has to break down to prove more and more until you arrive here so
+01:11:05.690 you can obstruct any lecture in mathematics so it's don't tell anyone you can abstract any
+01:11:11.520 lecture in mathematics by you know okay
+01:11:20.239 no it doesn't matter because you can go back and your proof to an arbitrary point because the rough idea is that
+01:11:27.810 everything there has been there anyway it's an axiom or it's a tautology and all the other stuff has been arrived at
+01:11:34.320 by implication arrows that's the intuition and so it suffices to look at
+01:11:39.360 stuff that was before but because everything that comes after has been connected by an implication arrow but
+01:11:45.540 you cannot go further than the current step because that would imply that you
+01:11:50.699 used equivalence arrows if you use equivalence arrows you can go further down say oh and later I show so I can
+01:11:56.880 use it again now apart from some circularity it's the the directedness of
+01:12:03.360 this thing very roughly speaking intuitively speaking that allows you to go to any previous pair of previous
+01:12:09.750 steps even if there's something in between but not further okay fine okay
+01:12:23.850 so remark if P can be proven from an
+01:12:39.390 axiomatic system a 1 to a n we often write a 1 dot a n then this symbol means
+01:12:54.630 proves
+01:13:02.470 P Sauer short form for this and of
+01:13:09.980 course an obvious remark is that this definition of proof proof allows you to
+01:13:20.360 recognize the proof this definition
+01:13:27.820 allows to easily recognize a proof so in
+01:13:44.630 principle you can give this a computer you say computer please check is the following a proof of this that's very
+01:13:51.560 easy to check and altogether different manner is to find a proof different
+01:14:05.390 matter is to find a proof for a certain
+01:14:14.690 proposition and as you all know from your own experience even set problems
+01:14:20.000 where usually if you ask to prove something it can be proven it's not so
+01:14:25.400 easy and sometimes it's so difficult that if you find a proof where people before didn't you become a celebrated
+01:14:32.270 mathematician so the theory of proofs here doesn't give you any hint of how to
+01:14:38.060 prove things better but at least it tells you what you have written down
+01:14:44.240 right now that is a proof and that can be very useful of course ok
+01:14:56.650 a further remark is that obviously any
+01:15:06.719 tautology should it occur in an
+01:15:17.440 axiomatic system what's in the axioms
+01:15:23.040 if among the axioms there's a tautology can be removed from the list of actions
+01:15:40.230 without impairing the power of the
+01:15:53.260 axiomatic system and it's very poetic it
+01:16:01.300 means you can still prove the same stuff because if you don't pull your proposition from your tautology from the
+01:16:07.060 list of axioms you can put it any way so it's actually this axiom t-that guarantees that
+01:16:17.689 and an extreme case of this is that's
+01:16:22.939 why I'm mentioning it what is the axiomatic system for
+01:16:30.320 propositional logic axiomatic system
+01:16:46.969 that describes propositional logic what
+01:16:55.010 is the list of axioms there it's the empty sequence because in XML in
+01:17:07.159 propositional logic or we can prove our tautologies want to show something is true well but then you don't need any
+01:17:15.739 axioms because you can always pull a tautology into your proof by axiom T
+01:17:22.989 okay I push this up for thee for the camera so this will become important in
+01:17:36.679 a second but let's have one further definition namely an axiomatic system is
+01:17:44.300 consistent an axiomatic system is
+01:17:53.050 consistent called consistent if there
+01:18:02.050 exists a proposition Q
+01:18:14.450 which cannot be proven which cannot be
+01:18:20.360 proven from tea or within the system of
+01:18:29.880 from the axiomatic system from the axioms or to express this formally not a
+01:18:39.290 1 to a n proves Q exists such a Q now
+01:18:52.140 what's the idea behind this surprising maybe definition or it's very simple yes
+01:19:07.370 and I may be wrong but I think a 1 sir that is proven that it can't be proven
+01:19:14.310 that the system is consistent we'll come to that my last statement of this
+01:19:21.330 today's lecture will deal with that ok so the idea behind the definition of
+01:19:27.390 consistent axiomatic systems is imagine or consider an axiomatic system
+01:19:41.090 containing contradictory propositions
+01:19:54.110 so for instance a one data whatever I'll pop up a pot then we have P well p s as
+01:20:04.110 one of the propositions and later on in the list we have not s so we have an
+01:20:10.770 axiomatic system that stipulates this
+01:20:18.710 then by the deduction rule M the one
+01:20:25.500 whose existence or justification was doubted tentatively then by M clearly
+01:20:39.140 yeah I can pull the s into my proof I
+01:20:46.080 can pull the not s into my proof by axiom a and then I can use these two by
+01:20:52.830 M and connect them with an end and I
+01:20:59.370 only need to check whether for an arbitrary Q this is always true is this
+01:21:06.150 a tautology yeah this is a tautology because s and not s as and not as is
+01:21:18.360 always false you remember but if some is the assumption is always false the
+01:21:25.830 implication arrow is defined such that the whole statement is always true
+01:21:32.270 x-files awkwardly bit so it's again the definition of the implication arrow
+01:21:37.890 which a dwelled on at the beginning so much which shows that this is true
+01:21:43.520 x-files look what limit whatever you like well whatever statement you like can be
+01:21:50.280 concluded so by M we can arrive at the truth of
+01:21:55.470 any statement Q can also arrive at the statement of not Q it doesn't matter so
+01:22:01.320 the problem is any statement can be proven if you have contradictory
+01:22:07.080 some shion's contradictory axioms now it's a sign of not having inconsistency
+01:22:17.130 of not having contradictory axioms if it's simply not true that every
+01:22:24.480 statement can be proven but here every statement can be proven hence we need to
+01:22:30.750 exclude that every statement can be proven there's just one example this is
+01:22:36.240 the general definition of consistency
+01:22:42.290 well having come this far we can now write down an impressively sounding
+01:22:50.580 theorem which is very trivial propositional logic is consistent
+01:22:58.160 propositional logic is consistent that's
+01:23:11.490 reassuring what's the proof well we have to it
+01:23:17.300 suffices to show suffice is to show that
+01:23:24.780 there exists a proposition that cannot
+01:23:37.880 be proved with in propositional logic
+01:23:50.560 that's clear there's at least one that cannot be proven then it's consistent
+01:23:56.920 now propositional logic has an empty set
+01:24:04.580 on empty sequence empty sequence of
+01:24:10.520 axioms you don't have any so the only
+01:24:16.490 rules for proof only T and M must carry
+01:24:24.220 any proof now let's look at T and M
+01:24:33.470 again
+01:24:42.449 the only way by which you can introduce an entirely new step is by writing down
+01:24:49.320 a tautology and then the modus ponens only allows you to take previous
+01:24:54.840 tautologies and to write down the QJ where all this thing is a tautology so
+01:25:03.300 the only thing you can prove are tautologies only tautologies can be
+01:25:21.300 proven but that means that is Q and not
+01:25:34.139 Q cannot be proven because not a
+01:25:42.270 tautology so we constructed the proposition that cannot be proven and so
+01:25:49.920 propositional logic is consistent and this is really trivial now again the
+01:25:57.960 important remark is that while it's perfectly fine and clear how to define
+01:26:06.440 consistency it's perfectly difficult to prove it for a given axiomatic system
+01:26:13.040 propositional logic being a big exception but if the X Ematic system
+01:26:18.989 becomes more powerful if you have more axioms like we're going to write down for set theory you might then again ask
+01:26:25.380 the question is this set of axioms consistent in this sense and it's very
+01:26:33.270 difficult to prove that in fact there famously these statements first arrived
+01:26:39.840 at by girder that say to certain extend it's even not possible to show this
+01:26:47.159 under certain circumstances and I will give only a very
+01:26:52.930 rough taste of what of one of the things
+01:26:59.140 good proved so that's a theorem
+01:27:08.130 Scootaloo and it roughly not being technically goes as follows
+01:27:14.670 any axiomatic system that is powerful
+01:27:28.690 enough to encode the elementary
+01:27:43.590 arithmetic of natural numbers which are
+01:27:52.360 the positive integers so you see I use
+01:27:58.630 imprecise language here what's elementary arithmetic well in elementary arithmetic it depends on what you need
+01:28:04.540 to prove it means you understand prime numbers you understand
+01:28:09.870 product stuff like that okay rather elementary stuff let's say elementary
+01:28:15.100 school mathematics hmm what exactly it is one would see the proof what you need
+01:28:22.440 but any axiomatic system it's powerful enough to encode elementary arithmetic of natural numbers is either
+01:28:31.950 inconsistent nevermind its successes
+01:28:37.270 with the arithmetic of the natural numbers is either inconsistent or contains yeah well it contains well you
+01:28:50.410 know or contains a proposition that can
+01:28:57.790 neither be proven nor disproven
+01:29:09.369 so variants of this formulation are it contain true statements that cannot be
+01:29:15.530 proven I mean this sent shockwaves
+01:29:20.570 through the mathematics world at the time was this beginning of the 20th
+01:29:27.050 century 20s 30s something like that because in mathematics of all the arts
+01:29:36.320 if you wish the notion of truth seem to
+01:29:41.960 be clear up to then truth or the truth something was true if it could be proven
+01:29:49.510 based on a system of assumptions this was the pure truth of mathematics but
+01:29:56.179 then girdle came along and he ironically proved this and variants of this now how
+01:30:07.579 does the proof proceed well the proof is complicated on its rather say the proof
+01:30:16.280 is involved but the basic idea of the proof is the following a sign to first
+01:30:26.809 assign to each mathematical or also meta
+01:30:34.719 mathematical statement or proposition a
+01:30:44.050 number the so called what later on
+01:30:50.179 people called now called girdle number
+01:31:03.079 well a mathematical statement is a squared plus B squared equals C squared
+01:31:10.289 something of this kind yarn for all kilala exists and so on and good I mean very
+01:31:19.949 roughly speaking says the plus sign gets a number the the exponent gets a number
+01:31:27.499 every variable gets a different number the equal sign gets a different number
+01:31:33.089 and then you can start talking about this equation you can say the left-hand
+01:31:38.609 side of this equation has more symbols than the right-hand side that would be a
+01:31:45.030 meta mathematical statement because obviously not a mathematical statement is a meta mathematical theory lessons
+01:31:50.339 that is more similar than the right-hand side but even to such statements such
+01:31:55.919 metal mathematical statements girdle would be able or devised how to do how
+01:32:01.530 to assign a number to even such a statement
+01:32:06.859 take Prime's everything everything gets a every elementary symbol is assigned a
+01:32:12.719 prime and then you take powers of primes and you multiply the powers get big numbers and then to meta mathematical
+01:32:19.409 statements you get a huge number boom there it is right now you do this for
+01:32:25.829 just everything okay and then once you did that in a sense you have a number
+01:32:32.789 for everything and because you have to multiply the numbers you need elementary arithmetic now you understand why
+01:32:39.209 there's this mysterious condition on the axiomatic system that you're using being
+01:32:44.969 able to handle the elementary arithmetic because this assignation of numbers and
+01:32:50.239 the calculation and so on requires this elementary arithmetic and then what you
+01:32:58.229 do you use a use a
+01:33:08.930 the barber chains all people in his
+01:33:17.330 village who do not shave themselves type
+01:33:35.500 argument to identify a proposition that
+01:33:54.280 is neither true nor false neither provable nor disprovable so you use some
+01:34:09.440 reflexive construction you notice I think from the proof that they're over
+01:34:21.950 countably many real numbers you know that proof you assume that you're right
+01:34:27.500 can write down every number in the real number in the form integer decimal point
+01:34:33.560 and then decimal places d1 d2 d3 d4 to the dirt and then you assume that you
+01:34:40.070 can number every such expression you
+01:34:45.320 sign a number to them but then you actually use the number of the expression to construct a new expression
+01:34:52.490 a new real number which you control is not in the previous list of numbers it's
+01:34:57.500 kind of reflexive you might want to revisit this proof this of a similar similar reflexive type and here you do
+01:35:04.580 the thing you assign to statements girdle numbers and then you produce a statement that uses the girdle number of
+01:35:10.130 the very same statement okay and then
+01:35:16.880 you arrive at such a contradiction and as you can see we define axiomatic
+01:35:24.360 system we defined what it is to be provable and thereby therefore what it
+01:35:29.370 means to be disprovable that means it can prove the opposite if you can prove the negation and we define what is
+01:35:36.450 consistent so according to our definitions we fully understand this
+01:35:41.550 theorem we understand this statement the theorem makes the proof is a different matter okay so at this place I will rest
+01:35:52.350 with the development of the language we're going to use to define axiomatic
+01:35:57.810 set theory which that we will start next time and we will start by looking at the
+01:36:04.800 element symbol which is nothing but a by a predicate of two variables because it
+01:36:11.730 takes a variable on the left X element Y a variable on the right was just a matter of notation to write the symbol
+01:36:18.090 in the middle rather than writing element brackets X comma Y okay it's
+01:36:23.520 just notational convenience and we we very often do this for predicate of two variables that we write the name of the
+01:36:29.790 predicate in the middle because it just saves you two brackets and a comma but
+01:36:35.190 this will be the elementary predicate of two variables and there is no other in
+01:36:42.120 set theory even the equal sign between sets will be defined in terms of the
+01:36:48.180 element sign and from this one elementary predicate of two variables
+01:36:53.910 which will not be further explained there will be nobody explaining to you in axiomatic set theory what it actually
+01:37:02.040 means that X is an element of Y and indeed x and y will both be sets so
+01:37:08.580 there's no such hierarchy like you are a set a grown-up set but you're only an
+01:37:13.830 element no no sets can be contained in sets and a priori one could even think
+01:37:20.040 about the question is a set an element of itself there's no a priori reason why
+01:37:26.040 you would exclude this would give you some kind of recursion and you could ask can you construct a set of all the sets
+01:37:32.910 that do not contain themselves if you don't like these sets containing themselves you could think well let's contain constrain the set
+01:37:40.140 universe to all those sets that do not contain themselves and then you very
+01:37:45.420 quickly actually in two lines you prove that this construction will do this next time is not a set the set or the let me
+01:37:53.700 call it the collection of all the sets that do not contain themselves you only use this element predicate this is no
+01:38:01.470 longer a set as you can prove by asking a question whether that set contains itself or not and that is neither prove
+01:38:07.860 nor disprove well both leads to a contradiction so that immediately shows okay so then the eve set theory is
+01:38:14.490 tricky and we need an axe system of axioms that regulates our use of the
+01:38:20.280 element predicate okay because we know nothing of it we just know there it is and now the
+01:38:27.420 axioms give you rules of how to deal with it it's a kind of an operational definition okay you see if it behaves
+01:38:34.290 like this or if you use it like this then you get what we can construct sets there are some actions to tell you these
+01:38:39.780 and those sets exist for instance there exists an empty set or if you have a set
+01:38:44.880 that exists the power set of the set that's the set of all the subsets of the set you have to postulate this by axiom and
+01:38:51.840 all the other sets we're actually going to construct from these previous sets well in fact you control that the only
+01:38:58.290 set you really need to postulate is the empty set so in principle every set we ever going to talk about is ultimately constructed
+01:39:06.180 from the empty set the set that contains the empty set in the set with the element empty set that stuff like this
+01:39:11.850 okay but they are actually I think nine axioms we'll see depends on how you
+01:39:17.280 write them down the number varies slightly there are about nine axioms that you can orate I think I wrote down
+01:39:23.010 that you can write down that regulates set theory and that reproduce the set theory on which all of modern
+01:39:29.370 mathematics is built and occasionally so you have an axiom that's called the
+01:39:34.770 axiom of choice for instance famously or zones lemma some people call it the
+01:39:41.280 axioms of axiom of choice and you wonder well do you really want to have that and why do we need to be so picky about the
+01:39:47.460 axioms there we go for instance if you do not postulate the axiom of choice you cannot
+01:39:53.190 prove you cannot that every vector space has a basis now this we use very often
+01:39:59.340 so you see already in our building down there where we're talking about sets there already there are some screws you
+01:40:06.480 have to justify in order to have the whole building stand as we want it to stand okay and there are other examples
+01:40:13.260 for that so at least for completeness and that's the purpose of today's lecture on of the next lecture is to
+01:40:22.710 really look at the foundations of the subject to have a good and justified
+01:40:27.920 justifiably good feeling about the further constructions that are to come
+01:40:32.989 see you next time with axioms of set theory thank you

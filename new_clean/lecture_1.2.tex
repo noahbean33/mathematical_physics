@@ -1,0 +1,59 @@
+\section{Predicate Logic}
+
+\textbf{Definition.} A \emph{predicate} is what one might informally describe as a proposition-valued function of some variable or variables. Because it could depend on several. So for example, you could have a predicate $P(x)$, and its truth value depends on what $x$ is---true or false, dependent on $x$. You could have a predicate that depends on two variables, $P(x, y)$, and now it's true or false dependent on what the combination of $x$ and $y$ is.
+
+Now, like in propositional logic it was not the task to study complex propositions, it is strictly speaking not the task of predicate logic to tell you how these predicates are actually built. You might ask: okay, so what could this be? Could this be $Q(x, y)$ is true if $x > y$, as if $x$ and $y$ are numbers, say real numbers, and $x$ is greater than $y$? That would be constructing such a predicate. Strictly speaking, it is not the task of predicate logic to construct them, because obviously in order to construct them you need some further language---how you can combine objects $x$ and $y$---so first thing. And then you might ask: well, what set do you take the $x$'s from, and from what set do you take the $x$ and the $y$ from? And so on. And the answer is: no such thing. We leave it entirely open what $x$ and $y$ are, where they come from, what their nature is. They're just variables.
+
+You say this is very weird, because since elementary school days we've been conditioned to always say what set something comes from. Now the point is, we need to leave this open in this fashion because we only want to define the notion of set later using this language. So we cannot already use sets. And in fact it will be a part of set theory to introduce a fundamental predicate that takes two objects and makes out of these two objects a proposition that's either true or false. And you know this---the fundamental---so if I\ldots\ we're not using this here; this comes later. So I write here: later we might define a fundamental predicate of two variables in this way, using the element symbol $\in$. And you see, now if we already have a rough idea---but don't use it, it's just the outlook---if you already have a rough idea: $x$ and $y$, well, if they are sets---and that's it actually---the statement is: if $x$ and $y$ are sets, then $x \in y$ is a predicate of two objects which is either true or false. Okay, but this will come later. Because so far, strictly speaking, in predicate logic of the first kind and so on, you do not have this symbol yet. So again, I cross this out because it's only later. At this level we're only dealing with these predicates as the elementary objects.
+
+Okay, it's always important to know what the subject is not talking about. In this case it's not talking about how to build these guys. Now, however, what we can do is again construct new predicates from old ones---construct new predicates from given ones. And well, there is the simple way: we could define $Q(x, y, z) :\equiv P(x) \land R(y, z)$. But obviously, if the $x$ is supplied, if the $y$ and $z$ are supplied, this is a proposition; this is a proposition. Two propositions that can be conjoined by the ``and'' operator, and you have a new predicate, now of three variables. Stuff like that---very simple.
+
+Now a more interesting way is the following. You can actually convert a predicate of one variable into a proposition. Let's call this predicate $P$ of one variable. So let's write down the proposition. Which proposition? The proposition is:
+\[
+\forall\, x : P(x).
+\]
+So what is the proposition? Well, the proposition is all of this. If you ask what does this thing in the box mean, the answer is: it's a proposition. It's a proposition that has been constructed from a predicate of one variable. And we may read it---believe me---and that's the proposition. Well, we may read, more reasonably: ``for all $x$, $P(x)$ is true.'' So that is how we read this: for all $x$, $P(x)$ is true.
+
+But how is it defined? It's a proposition, so we need to provide the definition. This proposition is defined to be true if $P(x)$ is true independently of $x$. So if the $x$ doesn't matter---you can substitute whatever you like for $x$---it's true. This is the definition of this proposition. And obviously this proposition has been constructed from this predicate.
+
+Now I warned you: it's not our task here in principle to provide specific predicates. Nevertheless, as an example, as a feel-good example, we might do so nevertheless. So we could define a predicate: $P(x)$ is defined as---so now it becomes fishy, but that's the feel-good part; feeling good always involves an amount of imprecision---``$x$ is a human being $\Rightarrow$ $x$ has been created.'' This includes all cases---if you think God created it, or the father, whatever---and so, but this is the whole statement. So there, the whole proposition, the whole proposition is this implication.
+
+Now I said we don't want to say where the $x$'s come from. Well, I don't---I just hide this in here. ``$x$ is a human being'' means ``$x$ has been created in the mother's womb,'' or whatever. Well, this is certainly always true. Then for all $x$, $P(x)$ is true. That's it. It's nothing more, nothing less.
+
+Yes---and so far you said you don't know anything about $x$, $y$, $P$, but if the words could be---also convert a predicate in other ways into a proposition, let's say, okay, but for all $x$, but for some $x$? Yes, indeed, absolutely, thank you. That's what I was coming to next.
+
+There is the brother of this \emph{universal quantifier}---so this is called the universal quantifier---and we can also define the \emph{existential quantification}. It does the same---well, a similar thing. It takes a predicate of one variable, and now there is a different symbol in front of it, which in total is a proposition:
+\[
+\exists\, x : P(x).
+\]
+And this here we will read: ``there exists an $x$ such that $P(x)$.'' This is how we read it. But how do we define it? Well, it's a proposition, so we need to provide the definition. And that's simple, because it's:
+\[
+\exists\, x : P(x) \;:\equiv\; \lnot\, \forall\, x : \lnot\, P(x).
+\]
+So having available the universal quantifier, you define the existential quantifier as the negated universal quantification of the negated predicate.
+
+Okay, and an immediate corollary from this is---well, three very useful rules:
+\[
+\forall\, x : \lnot\, P(x) \;\Leftrightarrow\; \lnot\, \exists\, x : P(x).
+\]
+If something isn't true for any $x$, then certainly it's not true that there exists one where it's true. Very simple. It seems simple, and once it's written down it's perfectly clear. With any mathematical training it's clear.
+
+But if you go to the hairdresser, from time to time you see that in many barber shops on the door it says: ``What hairdressers can do, only hairdressers can do.'' It sounds good, but if you think about it, it means they can do nothing a non-hairdresser can do. So if I, as a non-hairdresser, can draw nice pictures, it means a hairdresser cannot. Okay, so careful with the negations and the universal and existential quantifiers---you quickly run into things you don't want to say.
+
+Other questions so far? Okay.
+
+\textbf{Remark 1.} Obviously we can use quantification also for predicates with more than one variable. Right, so that looks like: $\forall\, x : P(x, y)$, which is now a predicate of two variables. Well, what does this yield? Obviously this yields a predicate of just one variable, namely the variable we didn't quantify over. So usually one refers to $x$ as the \emph{bound variable}, and to $y$, that survives the quantification and then appears again, we call this the \emph{free variable}. And well, if you quantified once---you quantified one of the variables away, you have one variable left---you can quantify again.
+
+\textbf{Remark 2.} The order of quantification matters. So
+\[
+\forall\, x\; \exists\, y : P(x, y)
+\]
+is generically a different proposition than
+\[
+\exists\, y\; \forall\, x : P(x, y).
+\]
+And because the order matters, one should avoid---although it's very tricky to do so in the heat of calculation---but one should seriously avoid writing quantification after the expression. So very often we write ``this and that is true for all $x$, $y$, $z$,'' or ``there exists a $y$ such that this inverse is true, and then we say for all $x$, $y$, $z$.'' Well, you should arrange all the quantification before the predicate, and then you have a clear idea of what the order is. Because sometimes you write one behind, if you formulate not so formally, and then sometimes one means you pull it to the front or you pull it here---you don't know. So it's best to stick to such an order.
+
+And you know this from, say, statements about inverse and neutral elements. So: neutral elements---for the neutral element, there exists a neutral element $0$ such that for all elements $x$, $x + 0 = x$. That's the law of the additive neutral element of the real numbers. But for the inverse elements: for every $x$ you have a $y$---that means, depending on what $x$ is, you can choose your $y$ differently---such that something is true. Okay, so there you have an application of this. It's all very clear, but nevertheless it's sometimes the root of some trouble.
+
+Okay, so well, this actually concludes our quick overview of predicate logic. But there's an immediate application to\ldots

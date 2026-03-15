@@ -1,0 +1,327 @@
+00:00:08
+so good morning welcome back so having finished the formal part of the course we'll have a rather informal chapter six applications and the first application we're going to look at is quantum mechanics on curved space so in this section and the next few we're going to discuss I would like to change the character of the course a little bit from telling the truth or telling the existing structure to discovering together how in formulae and expressions and methods and folklore in physics that you all know how we
+
+00:01:10
+recognize the structures we we found because that's good training in order to apply the whole stuff and well if we look at quantum mechanics let's look at it in a in a rather naive way and that's the way it's presented usually in introductory courses so in quantum mechanics we discuss wave functions and such a wave function sigh is if we talk for instance about some position space representation we think about it as an element of some space l2 over some R dimensional space Rd so in most physics
+
+00:01:54
+applications of course R 3 as the underlying physical space and this L 2 space well well actually we should talk well there's a number of issues here and it's the question so let's call this Roman l2 Rd and let's construct this l2 so let's first have a script l true of Rd and let's say that's the space of all sigh which are complex valued functions on Rd such that a certain integral converges in the integral d x sy absolute value squared converges okay now this space is not this space
+
+00:03:03
+because in this space we only look at the equivalence classes of such guys where it's inferred that the two functions only differ so any any two elements in here are to be identified in here if the difference has a vanishing integral of this type okay so this is one of the issues the other issue is that here you need a big integral in order to make this really work rather than a Riemann integral and so on so there are lots of things at this point to be said however this is far not all the subtlety one needs that I only
+
+00:03:47
+mentioned this because I want to disregard this we're not going to look into these subtleties but there should be mentioned once so if we now look at some position space representation or some representation in general we wish to have operators we need self adjoint operators and they should act on this space l2 but it will turn out they can't so let's call them q I supposed to act from on l2 linearly and P I supposed to act on l2 linearly I equals 1 to D ok and they're supposed to be self adjoint
+
+00:04:39
+with respect to an inner product which in a sense already used here Phi comma sy DDX size star of X Phi of X ok and they're supposed to be self adjoint and satisfy they're also supposed to satisfy the commutation relations that the Qi QJ 0 the Qi PJ is Delta I J and P I PJ again ought to be zero and here you may insert H bar but let's say H bar is 1 okay so this is certainly the standard folklore of what what you want to do now it's also the standard folklore that you can represent this operator Qi on sy and
+
+00:05:54
+called position space representation by just multiplying with the Iife coordinate here it's this guy and the p ice i can be represented represented minus I h-bar which was set to 1 del I sine of X now the problem with this folklore is that if you have a square integrable function and you derive it well can you derive any square integrable function no you can't because you could have a function that just consists of little boxes you see and that can't be derived at every point so clearly this is the wrong domain if this
+
+00:06:51
+guy is supposed to be represented like this okay now let's assume we have a square integrable function and we multiply it by the coordinate it depends on the result needn't be square integrable anymore okay it's also pretty obvious so it's also clear that this here it's the wrong target ok so all of these things are taking care of so these issues issues domains and targets and you see this has a bearing on what self-adjoint misses rather than just hermiticity issues of domains and
+
+00:07:40
+targets can be taken care of and that's using the gelfand triple so there you look at the space of schwartz functions which are certainly square integrable okay and but however these again can be embedded into the dual space so in linear functionals of a certain type well on this SWOTs functions and then actually you can first define operators here so you can define this from s to s and s to s that works because they're very fastly decreasing and have nice properties on the arbitrary often differentiation and
+
+00:08:40
+however the dual space the l squared can again be embedded into the dual space and then you can lift these operators that you define on as you can lift them to here and then you can do everything you want to do and this is the space so these are the schwartz functions what functions and schwartz space and this is the space of tempered distributions so in my statistical mechanics lecture I explained this at some length so if you want to look that up somewhere there's some lecture notes okay why am I telling
+
+00:09:25
+this I'm telling this because first of all it summarizes what is usually said it points out some issues there and but I want to use this as a kind of a waiver we're not going to look at this we could look at this but this has less to do with differential geometry but more to do with functional analysis so we're not going to look at this this can be looked at at the same time we disregard this in order not to obscure the discussion too much okay so this will be not the issue here okay what will be the issue here is
+
+00:10:01
+the point that it's very often said that a the wave function is exactly this the wave function is a function on some physical space the complex valued function well it turns out that this is an untenable point of view this is simply not correct so it's already the starting point that causes us some trouble and from this starting point onwards one is usually led to making all kinds of claims like well this is the right quantization rule for the operators okay but it only works if these guys represent the position in
+
+00:10:44
+Cartesian coordinates and these are the corresponding momentum and Cartesian coordinates that's also wrong but in order to solve this one has to get rid of this idea that wave functions are complex valued okay so now let's discover what the problem is okay so first however we quickly check that for instance this represent this P here and and the Q that they have the right properties so the standard view or the standard yeah the standard view works is this so first of all this P I which is
+
+00:11:26
+the - I well PJ is better - I del J operator acting on some suitable restriction of l2 in this case is self-adjoint with respect to the inner product we defined let's very quickly write this down so we have sy + pj fie what is to be shown is that this is the same as PJ sy comma fine okay so this is quickly done because this is just this integral here we have a size star of X now comes a minus I times Del J acting on Phi and then this whole thing being evaluated at X now I said I act on well maybe I've okay
+
+00:12:30
+acting on these test functions that sufficiently quickly decayed we do now an integration by parts we shift this over to all the other factors here but there is just one in this case so there is a - from the integration by parts there's a - I anyway so there is an eye okay then there is a del j sy which is then starred evaluated at X and that remains a Phi of X now this I that I have left over however can be pulled into this bracket of this object that's being starred then of course it gets a
+
+00:13:17
+minus I because it's being starred but now it's pretty obvious this is PJ sy comma Phi so indeed this choice acting here these are Cartesian coordinates on RD this guy's satisfies the self adjoint this property and so does the queue that just acts by multiplication it's also self-adjoint everything is fine the second thing we should check is the commutator well you know so you would take the Qi with the PJ okay and it's always clever to apply this to some function here and then you get the
+
+00:14:07
+Qi - I dare J acting on sy - minus I so plus I del j qi acting on the side by X sorry pull this guy's X and now it's clear this guy back here this has two parts I Delta I J Phi of X plus I X I del J sigh of X but this cancels against this first this cancels against this first part so all let's lift this I Delta I J as claimed okay so everything is absolutely simple and easy so why why do we worry well we worry because we're differential drama ters and one thing we do not want to take for granted is that we are
+
+00:15:22
+restricted to a particular choice of coordinates why would we do that there is no detector that detects in physical space coordinates coordinates on a product of our imagination so let's in our discovery here consider the case where instead of the coordinates x and y we use coordinates r and feet in the plane so let's consider our two because we just we just want to discover something we'll do it more generally once we got the idea of what's going wrong and how to repair it so let's
+
+00:16:09
+consider our true but let's choose to coordinate eyes it by well strictly speaking are true without the origin and let's coordinate eyes it by r and theta by the usual polar coordinates how does the whole business present itself now now claim i can now introduce q alphas position operators but now alpha runs for over R and theta instead of one and two it's convenient to write it like this and well this would be R if well if alpha is our well it's a little silly and this is theta if alpha equals theta
+
+00:17:02
+and the P alpha I said - I del alpha which again is supposed to mean that this - I D by D R if alpha is R and minus ID by D Phi is alpha is 5 I claim that this satisfies or D satisfy the commutation relations Q alpha P beta is I Delta alpha beta and you can calculate this and it's correct this is true of course it's true because the only thing I'm using here is that if I derive one coordinate with respect to itself I get a 1 if I arrived with respect to another one I get zero and this is one in the
+
+00:17:53
+other and these partials acting on these coordinates this way absolutely satisfy this ok so the problem there is no problem in going to polar coordinates as far as the community relations are concerned if I choose this representation and we want to choose this representation okay the problem however comes up so this is no problem however what about the self adjoint miss of the Q alpha and the P alpha and there were in for some surprise but first we have to write down for these abstract wave functions we so and we're still
+
+00:18:45
+adhering to the idea that this is a complex valued function otherwise our calculations don't apply if we now write down our two-dimensional integral of course it's dr d phi x r because this is the DX dy using the Jacobian of these of this coordinate transformation we get this extra factor R right ok so we have this and then we have here a sy star that depends on R and theta we have the five that depends on R and theta and this defines a proper inner product so there is no problem with this guy so
+
+00:19:29
+this is a proper in a product so it could be that there is an issue here already well there isn't how would there be because this is exactly the same value you see here we're not talking about coordinates here we're using the representation you were using the abstract wave functions it's exactly the same integral as well not this one but it's the one for the inner product it must be a proper inner product ok nothing has happened because we legally changed coordinates by introducing this
+
+00:20:03
+guy here so still everything seems to work quite fine so um well this however was a little premature because everything was still fine now really however using this inner product we can now check whether for instance our P alpha is self-adjoint okay so what do we check sy P alpha with respect to R with respect to theta fine so what is this is the integral dr d-theta r is our volume form then we have a sigh of r and theta and we have a minus i del alpha phi of r theta and this p alpha already proved it's worth
+
+00:21:03
+by satisfying the commutation relations with the with the x mmm sorry with the r and the theta as the coordinates so we think it's just a matter of routine of doing this so let's follow the same recipe as before we have here this derivative and we want to get rid of it because we want to make this phi free of any operator so we use integration by parts to pull it over but now there's an important difference to before the important difference is that now if we apply the integration by parts rule this
+
+00:21:46
+guy as always acts on the entire rest but now this R here coming from the change of measure will also be affected if we pull this over and that may will make all the difference and that is where a serious problem will arrive and that problem we're going to have to solve now let's just see what the problem is so put a minus there from the integration by parts then a minus I is a plus I let's keep track of it like this then we have a dr d-theta del alpha of r sy the whole thing will depend on R and
+
+00:22:24
+theta and there will be the Phi freed of any derivative operator action I'm sorry and here of course we need start site that we had before we can still star here because the ours of course real and we can also put brackets before we start the whole thing and pull this guy in with the - I and we already see what the problem is the R should be out here in order to yield P alpha sy comma Phi but the are unfortunately is in here after this derivative okay so this is generically this is not well let
+
+00:23:16
+me write down what it is run and what it is not okay so now let's apply this derivative to this factor and to that factor and that will of course depend on what the alpha what value the alpha takes so that's case take case 1 let's say alpha is just the theta okay we're dealing with the theta coordinate in this case sy p theta phi is well in that case I can this R is not seen by this derivative and game can be pulled out and then everything is fine this P theta is indeed is indeed self
+
+00:24:02
+adjoint with respect to this inner product that's not the problem but what about the other case to the alpha being the arm itself well in that case we have Phi P R no sorry sy P R Phi is the integral and now I use the product rule here and split this into a part we would have expected in a part we didn't expect so using the product rule I have dr d-theta are so i do not act on the R then I have minus I del R acting on sy the whole thing being starred and the function of R and theta and Phi of R and
+
+00:24:55
+theta aha so that's good that's exactly what we want we wanted if the I worse self-adjoint but you see because of the product rule there is an extra term plus well okay so what's the extra term the dr goes acts on the r and all that's left is the size star itself so well it's minus i times the integral dr d-theta the r has vanished by the action of the del r and it's just a size star of r and theta and phi of r and theta okay so but you see the problem there isn't even a real that this is not the
+
+00:25:50
+proper volume form here there's an are missing so this is not sci-fi or something this is just some other extra term we just don't want okay because it renders this PR non self adjoint what do we do so this is an observation and at this point one is inclined to give up well that's the first point where i might give up because one says okay we satisfy the commutation relations but somehow these non Cartesian coordinates in cartesian co-ordinate works or find these continent Cartesian coordinates
+
+00:26:29
+they set up the whole thing and somehow this simply doesn't work okay so the idea one might have here at this point and it's nothing more than an idea is to say well hang on these partial derivatives acting on this function Phi well why might we give up so I'm discouraging and say discouraging it's discouraging because one thing is ingrained on our mind by many lectures and that is that sigh indeed is a map of this type suitably restricted to be falling off sufficiently fast and square-integrable
+
+00:27:15
+and whatnots and so with all kinds of restrictions but ultimately it's a complex valued function here and it's the name wave function and the solution to the riddle is to get rid of exactly some solution to our problem namely to use other than Cartesian coordinates any other than Cartesian coordinates a solution to the problem is to forget about this and now you say well how would we forget about this because this is the basic idea of quantum mechanics it's the first line in almost any
+
+00:27:58
+quantum mechanics textbook right and of course it's differential dramatis we have another idea it could be that this is just locally true so vague idea what if psy is a section of a C vector bundle over Rd ok so the idea would be that if this is our D which I just draw in one dimension of course you can also do this in one dimension then at every point I could attach fiber which is the vector space see it's a vector bundle with suitable bundle projection and the whole shebang right and the idea to this of course a local
+
+00:29:04
+picture looks like this locally and that the sigh is just a section of this bundle so if this is the bundle total space my total space the idea would be that the wave functions are a section of this vector bundle and locally yes that looks like a function over Rd but what's the difference what's the difference if we turn to this view which has this fantastic property of being almost the same as the standard view okay so I mean it would be ridiculous if you want to solve a problem by deviating so
+
+00:29:52
+far from the standard view that has nothing to do with it anymore right so it's the subtlety of considering like this what does this yield well the idea is you can now consider consider this bundle II as an Associated bundle - well you could consider this as an associate bundle - many many principal bundles but which is the principal bundle of interest if we're dealing with changing with general changes of coordinates what's the bundle of interest what's the frame bundle because if I can
+
+00:30:49
+arbitrarily change coordinates on the base manifold I induced by this changes in the coordinate in used frames okay and I want to study how this guy behaves and what happens if I change coordinates from one system to another system which also means I change frames okay so consider this as an Associated bundle to the frame bundle LM PI well then this is PI e PI down to M and an M is Rd so this is the vague idea right now still our feeling is why would this possibly help us why could this help us I mean it's what's the
+
+00:31:42
+difference here well you know that if you have a frame bundle you can establish on the frame bundle a connection if you have a projection you can define a covariant derivative on sections of any associated bundle right and then you have a covariant derivative acting here do you remember how these sections of such a bundle and associated bundle can be represented they can be represented as C valued functions but not on the base space but a C valued functions on the total space of the principal bundle we had this theorem you
+
+00:32:32
+remember that okay so rather so saying that SCI is a section of this associated bundle with fiber C is the transition to saying SCI is a complex valued function once again but not on this space so let's say the sections show like this but not on this space but it can be represented as a complex valued function but on the total space of the associated principal bundle okay so remember we have a theorem to that effect aha and then because we're on the principal bundle we can use there the
+
+00:33:25
+exterior the covariant exterior derivative of SCI can take the variant exterior derivative of sigh and you know that well in any case from control that this is this I plus Omega wedge sigh but sigh is just a function Omega sign and you know that in this wedge the Omega actually acts from the left on the side and this is the left action of the VL de mem group so in this case g LD comma r group that i need to establish on these fibers in order to make this an associated bundle aha ok so this is a very vague idea it comes from
+
+00:34:27
+this that i say i want to get something like this locally at least but this is a slightly different way a subtly different way to implement this it leads us here it leads us to this exterior covariant derivative now this is on the principle bundle we can then pull this down by choosing some section to the corresponding yang-mills field and so on one second ok and we get from this by pushing it down to the base space we get a covariant derivative of this side aha and now this is very different from
+
+00:35:07
+what we did so far because so far we only looked at this part so far we represented the P as - I just as this partial but first of all this was on the base manifold not on the bundle and second it acted on the sy as a function there well as you see you can actually you have an extra term if you start considering this sy as a section of the C bundle you can generate you must have an extra term in order to have a geometric quantity so this is the very vague idea which we are now going to forget again the only
+
+00:35:55
+thing we're going to see is that we modify our definition of the momentum operator by allowing an extra term and will determine from down-to-earth physics calculations of what this guy must look like and so we'll slowly so this is just a cloudy idea okay but now once we had this idea we store it we take some inspiration from it we go back to the nuts-and-bolts business on the base space and we try to finally come up to this whole picture okay but the idea is modify this partial derivative
+
+00:36:45
+because this partial derivative supposes this is a function and even if you make this a covariant derivative on a functional covariant derivative acts like a partial derivative it must be the section of some bundle in order to warrant this extra term there were the question yes yes this is the projection from in this bundle where over the base space M we have at every point of fiber C and this is the PI where over the base space each fiber this L M each fiber is the type of all the frames you can have
+
+00:37:31
+here all the tangent space bases and the PI it takes you down here so it's a PI on a totally different bundle army takes you to our D yes yes yes because this is what we learned and that's what we use and what gives us the transistor and what not okay just the quantum mechanics that works and we have a rather highbrow mathematical idea here we are claiming that you have to get rid of a very of the cornerstone of standard textbook quantum mechanics I mean that the wave function is a function complex
+
+00:38:30
+valve function on the physical space we want to throw this out now if you start yeah well can you write down what the connection is right now no moneda that's the point so this is the the nature of research so we we kind of start at some point we try to achieve something we have the idea we must make this independent of coordinates and so on and this is as I said just a vague idea that's what's in the back of my mind let's try we have an extra term here we use a derivative here this is given by a
+
+00:39:05
+derivative operator and we produce an extra term question had we taken instead of this derivative on a function Phi had we taken a covariant derivative on a section of a C bundle very roughly speaking which then produces an extra time with this extra term how could that have been used by appropriate choice of Omega well you have to push this is still on the principle button you have to push this down but that's another issue by an extra term here maybe this extra term could have cancelled this
+
+00:39:42
+term and everything would be fine that's what we're going to try but we're coming from a base space picture okay and this is already on the on the frame bundle and we'll connect them eventually but at the moment we play it safe we only do stuff we fully understand rather than starting to guess stuff here and trying to work by trial and error whether we arrive at the right thing we rather come from something we know that works it's quantum mechanics in cartesian coordinates we know that works
+
+00:40:15
+so what we do we start from what works then we apply mathematics we do only if you want naive but we only do valid operations like change of variables and integrals and so on and we try to arrive here but in order to go somewhere you need to know what direction you go so this is kind of this thing we're going about this direction is the vague idea but now we start here and we see how exactly we have to to go there okay so fine okay so we have this so let's use this idea and let's rather simple
+
+00:40:52
+mindedly propose a different thing then we propose that P alpha be represented by minus I and something we could call a covariant derivative nabla alpha and so this is supposed to be a covariant derivative on a C or on a section of e of this bundle and you know the point is with covariant derivatives it's on the problem sheet a covariant derivative acts on a function now f is really a function if it's really a function from our D to C say it acts like a partial derivative that's one of the properties
+
+00:41:52
+of covariant derivatives more abstractly written if you have any tangent vector to the base space on a function this is just the action of the tangent vector on the function we all know this however if a covariant derivative on a section of a bundle on which it is defined then this is simply not the partial derivative but then this can be written or at least we write it at this point like this there is an extra term and if this is a C so there's an an Omega Alpha acting on the Sigma right this is a one form and this is the M
+
+00:42:45
+this is the young notes field because we are down on the base manifold okay so this is what we what we have here and so what we're going to do or trying to do is we assume that this derivative here is not a partial derivative acting on function but a covariant derivatives acting on a section of a sea line bundle okay so how far do we get with this idea well let's try so we take the problematic well we take both so we take sy comma P alpha again acting on Phi equals dr d-theta our that was our volume form
+
+00:43:43
+size star of r and theta but now the derivative here is minus I times del alpha is the trivial action Phi plus some Omega Alpha which we are going to determine fine this is this guy and now we do precisely the same calculation we pull this over to here this is dr d-theta the - i becomes an i because of the integration by parts del alpha r sy start R and theta okay so we pull the I in here again that's a - I I'm sorry I'm sorry I pull the I here and we do this it's the same thing
+
+00:44:51
+and then the Phi is free of any derivative action and then there is an extra term in extra integral minus I times the r dtheta our size star of r and theta Omega Alpha which will depend on the point of theta and Phi of R and theta so we produced an extra term here this extra term comes because we use the covariant derivative and we gave up the idea that this is a wave function but rather section of a sea lion bundle now again we have these two cases we have the case alpha equals theta and we already know that this integral here
+
+00:45:46
+then simply is site P theta sy comma Phi yeah well and then this term is not needed it would destroy what we want to achieve because we want to achieve that this equals this so in this case therefore choose the Omega theta the Omega where alpha equals theta choose this in these coordinates to be 0 but then we have the case alpha equals R and then unfortunately I erased it but you know this also gives you a PR sy comma Phi but there was a correction which maybe you could tell me again what the correction term was we had before
+
+00:46:44
+for this - I yeah yeah exactly thank you yes that was it we have this - I and then we have another - I uh huh and that - I was correct it was a plus I it because this guy here is start I think it must be a plus I you're positive okay and then now he'll have a - I integral dr d-theta are so there isn't are there isn't otherwise it's the same size star theta Omega sub R because when the case alpha equals R of R and theta and Phi of iron theta now it doesn't take a big genius to see how to choose Omega R to
+
+00:47:42
+make this work namely Omega R needs to be chosen as in order to for these two terms to cancel one over our owner Omega is 1 over R then this R goes and these two integrals are the same correct well the same up to assign and hence cancel ok aha so we now achieved two by a modified definition of this P we achieve to get rid of the extra term in both cases by choosing the Omega appropriately now one might worry whether this change of the P here now however destroys the commutation relations this could of course be the
+
+00:48:55
+case well let's check that so what we found is that P alpha is minus I del alpha plus Omega Alpha well if acting on a wave function sy and this whole thing in coordinates R theta so that this is the tangent vector index to the R theta coordinates that are being induced but let's not forget that this is for any size being a section of this bundle we imagine I mean this bundle I'm going to use because that's that's what is well strictly speaking well okay um well strictly speaking this is not quite
+
+00:49:51
+correct so this sigh is not this sign okay so let's take a capital sy with this which is a section of this bundle okay and we said that the section of this bundle can be equivalently represented so I'll use the same symbol can be represented as a fiber valued in this case C fiber valued C valued but now really hmm but not on the base space em but on the principle bundle associated with it we think of this being associated and now we this sigh here is supposed to be the pullback under at Rose the section
+
+00:50:43
+on this principle bundle where Sigma is a section of the principle bundles so pie after Sigma is the identity on the base space so you see this happens up there on the principle bundle but he and our down-to-earth formalism so far we're still considering functions on the base space okay however this function on the base space is not a function on the space it's it's it's a it's a field a C valued field okay and hence we can have this additional term here we'll have to take
+
+00:51:24
+this into account I put this in the cloud because when we later on want to make the transition to this will have to take into account what this size is but the moment we treat it like this it's being derived by covariant derivative now however what would happen if we apply the same momentum operator to a function for an F which now really is a smooth function on the base space which we can say is Rd as a manifold okay well in that case it's just - I del alpha F right because only sections of a bundle
+
+00:52:11
+only on their the covariant derivative acts with an extra term on functions it still acts like this okay so well with this inside let's define the Q alphas like before it's our if we're the first coordinate Peter if the cordon is the second coordinate and let's check what Q alpha comma P beta acting on some side okay so in principle we have to go through all the various options well let's try that so it's let's let me call this how do I call this little Q alpha but Q R is R
+
+00:53:04
+and Q theta is Theta and it's a function okay Q alpha there's a minus I now comes the covariant derivative right so that's the let me write it like nabla beta that's what we used before so this if AK yeah well this is the nabla nabla alpha here nabla beta acting on psy minus minus is plus i nabla beta acting on Q alpha sigh okay so now the question is what happens here well this is a tensor product but careful so this is a well if you want a vector because it's values are in the bundle in the fiber right but
+
+00:53:55
+this is a function and that's the point so nevertheless that doesn't free us from the lightness rule so - I there'll be this I plus I now let's write down this aliveness rule it first acts on this guy and this guy is unchanged plus I this guy stays there with the tensor product if you want but and it takes this form but now because these are really functions because our theta R coordinate functions on the manifold this simply becomes a del beta Q alpha alright whereas this guy stays what it is but in
+
+00:54:40
+in any case there's a plus I'd as a minus I this guy cancels against that guy and because this is just a function this is a delta alpha beta because the R by R or R by theta and so on so this is nothing but I Delta alpha beta sy hooray hooray so although we modified this guy by an extra term which if you looked at this naive ly and didn't understand that this is a covariant derivative that acts differently on vectors it's an element of a vector bundle on vector X differently on vector fields then it
+
+00:55:22
+acts on functions you would be stuck here because you would have to decide how this Kaveri River there's an Omega term you wouldn't get the Delta but this is a function and this is a vector field okay the difference vector of you being a section of this vector bundle ax right hence this works so it's crucially important to understand that a covariant derivative I wrote it down before a covariant derivative on a vector it acts very different from how it acts on a function because on a function X
+
+00:55:57
+trivially but on a vector it simply doesn't okay so only by the view of covariant derivatives and bundles and so on do you actually get these two things to work together the self adjoint miss and this result and the other commutation relationship and you can show similarly okay so we seem to have an insight here this whole idea somehow works the question is does it only work for polar coordinates maybe polar coordinates are so simple that it works maybe it only works in two dimensions now we had to fix some some numbers
+
+00:56:34
+there one could worry if I go to higher dimensions I do not have enough numbers to fix and so on so um I'd say after the break we try to investigate how this works in general coordinates in the break I realized we just made a mistake but you didn't realize so I'm we started with sy p alpha fine and we calculated that this is something which I claimed and that's the mistake I claimed this was P alpha sy comma Phi and then we had two extra terms and there were in principle correct so can
+
+00:57:17
+you tell me the true extra terms we we had here exactly so this is what we had and I asked you how to match the Omega such that these cancels and this remains the problem is this term I got from another term that was written there before and there was the integral of dr d-theta - i del alpha sy star Phi agree now the problem is this isn't P alpha sy because the P alpha now has an extra term if it acts on the side okay so I prematurely identified this with what I wanted right okay great result
+
+00:58:28
+unfortunately wrong so let's let's do it right let's do it right okay so this is dr d-theta now let's write what we want to have we want to have that this is del alpha plus Omega Alpha acting on sy then starred on Phi plus the other two terms but I now didn't write what is here so I need to correct this now what's the correction term aha okay so what did we add we added okay - III be careful so BR the I think there's another are here no there isn't an are yeah there's an are
+
+00:59:19
+here yeah okay so the r d-theta are so i take away what i added what i added was minus I Omega Alpha sigh start fine you all concur that's what I added and I subtract it again and then there is a plus I B R Theta Phi star Phi minus I the R D theta R Omega Alpha Phi star Phi aha so now the whole thing presents itself somewhat differently have a minus I that's being starred that's a plus I which I take to the front here now I write this as an Omega star size star because that is what it is
+
+01:00:22
+okay they have this guy here and now I see that this term and that term they're the same up to the fact that here is an Omega n stand unstart Omega and there's a start Omega okay so now these two terms together need to cancel this term and this is certainly affected if Omega are because Omega theta is zero anyway is if Omega R plus Omega R star plus Omega R must be 1 over R agree so that was that was the mistake that was the mistake ok and so that's twice the real part okay and what do we do about the
+
+01:01:55
+imaginary part set it to zero we could leave it open well that's what we read off from here anyway ok that's what we read off from here now if we look at the I'm sorry so this was the result we had from before but we only had this result if the alpha was our isn't that right so this is only for the alpha being our the our derivative okay so this is the Omega R yeah okay good good ok anyway so that was what we wanted what we wanted to see and we can choose the imaginary part to be zero and
+
+01:02:53
+nothing changes everything works out fine ok good ok now we already checked the commutation relations commutation relations also work fine so now let's look at the general case ok so this was just our our introductory example where we detected the problem and now we want to do this in more generality in more generality well so if we go to uh-huh so let's look at an integral D to the D X where X are some coordinates I propose to write a determinant of a zero two tensor I indicate this by two dots down
+
+01:03:49
+here so let G be a section of the zero two tensor bundle over m over the base space with the property that if you plug in two vectors that this is the same as plugging them in in the opposite direction so this is for any X Y being vector fields and I also proposed that if XY were I I require that if XY equals zero for every vector field Y but you can also do this point wise then already the vector field X is zero everywhere in coordinates on a patch U of M this amount to the fact that the coordinates
+
+01:04:57
+that the what indices were used so far none okay that the coordinates that the coordinates in terms of the components of this zero two tensor fields in terms of this are of course symmetric like this and the matrix G alpha beta is non-degenerate but not only that it has positive signature so that means that the exists a coordinate system and that means that exists a transformation at each point a frame at each point such that Alpha Mu T beta nu this being the coordinate transformation equals this matrix and that Sylvester's
+
+01:06:00
+theorem and that these are all positive comes from here okay so this is nothing but standard inner product on this on this manifold and this these don't need to be I'm sorry these are not coordinates which produces it there are frames at every point that produced this there may not be coordinates that produce this in an extended region okay anyway we now consider our base space M to be equipped with such a zero two tensor field with a metric and such a thing is called a metric manifolds if we
+
+01:06:46
+take a smooth manifold and equip it with such an object this is called a metric manifold or roumanian manifold okay and one of the things a romanian manifold gives us is such an object I can take the determinant of this guy which is funny at first sight because normally we take determines of endomorphisms index up and down but this is a bilinear form now nevertheless we can take the determinant in every in any frame and get a number the point is if we change the frame if we change coordinates there
+
+01:07:29
+will actually be it will not behave as a scaler so the determinant of a bilinear form does not behave like a scaler under transformations it picks up extra terms however it picks up precisely those extra terms I should maybe these components down here I should make them explicit these are the components with respect to a particular coordinate system and I choose the same coordinates i Troost here for integration in the chart now the interesting thing is if you change here coordinates then you will pick up
+
+01:08:06
+from here you'll pick up a Jacobian factor but you'll pick up the inverse factor from this expression and so the Jacobian factors cancel that means even if you start in Cartesian coordinates by the way what are these famous Cartesian coordinates were always using these famous Cartesian coordinates can only be chosen in flat space because in flat space there's even a coordinate system on the entire space such that everywhere by the induced frames from the coordinates everywhere the metric takes
+
+01:08:45
+this form and what is then the square root of the determinant of this is one that is why it's normally never written in Cartesian coordinates that's what we were I will write these integrals but secretly there is a one which is not a one that remains a one and the changes of coordinates however what it does it changes exactly the opposite way to the two the Jacobian from this change in hence if we want to write down a volume integral an integral over an entire manifold over some function scalar
+
+01:09:22
+function on the manifold we must always include this factor and then we never again need to worry about the jacobians that come up okay so that's the definition we're going to use okay so in more generality we want how to define sci comma Phi this inner product is this factor x sized star of X Phi of X okay this integral but now for any choice of coordinates on em now if you wish you can choose m to be our D and you can choose the coordinates that make the metric everywhere have this form then you come
+
+01:10:09
+back to the original integral we had now if you have that you can change coordinates and then you just have a different coordinate representation okay of the same integral of flat space however nobody forces you to start with a metric that for which there exists a coordinate system such that everywhere takes this form and then this formula still works and this way we put our inner product on a curved physical space and hence we're going to do quantum mechanics on a curve stress for instance
+
+01:10:47
+on a sphere you could ask how does an electron that's for some reason confined to a sphere what is its quantum mechanics we need to start you need to start here ok fine so we have this and now with this we're going to we're going to redo our calculation from before so we again assume that we have a P that we have several P alphas or pap now let's call them P is again and there - or P J's there - I who variant derivative J and if acting and we have Q J's that are multiplication with the
+
+01:11:51
+corresponding coordinate but you see now the coordinate x1 could be our X true could be theta and this would be with respect to Knobloch with respect to D by D our D by D theta okay so we have this and we know that the application of this guy on a function is just a partial derivative in the coordinate direction but the application of this guy to açaí is the partial derivative plus the correction term by the corresponding component of the yang-mills field in the same coordinates so one form on the base
+
+01:12:34
+space this young males field okay so now let's look again at sine comma P the P made the problem is obvious that this multiplication because it's a real coordinate this is always hermitian right this is very clear under the integral so this this guy can only cause the problems as we saw before an example and we now apply this like this like before and want to look at this in more generality so now we have our inner product on our D dimensional space with arbitrary coordinate ization X but we're
+
+01:13:15
+calculating in a chart here of course but we have here the square root of the determinant of the metric components expressed in the very same chart X like I wrote down before this is the short-form of this and then we have Desai star of all the exes and then we have the - I dealt a of the file okay so now we see before when we buy integration by parts pulled over this del J we had to deal with acting it acting on and the sea star and on the R that was the in polar coordinates well you can quickly
+
+01:14:02
+check if you start in Cartesian coordinates then you change to polar coordinates the G will change too so the G in Cartesian coordinates in flat space was that and the G in polar coordinates is actually it's actually this right yeah absolutely right thank you very much thank you very much very important things okay and then the G changes to this and if you don't take the determinant you get the R squared then you take the square root you get the RR that was the are there you see if you come from Cartesian coordinates you get
+
+01:14:47
+the R but again this is just a special case of this formula because the G could be such that it changes from point to point in any coordinate system because there is none that makes it constant everywhere which is equivalent to the space being flat so this is a very general expression your very general formula okay so this was just the application to OD reassurance that what we did before fits into this scheme and now of course we have to deal with revolving this over here so do we get a minus integral d DX and now a plus I
+
+01:15:25
+because the minus I and then we get a del J but acting on this entire things I write it in a shorter shorter form so just write the G I mean the determinant of G and then we have the sigh we can obviously first derive it like this then star it because this is real then we can pull the I in the start expression then it's a minus I and we have this guy again five and that's this term and then we get an extra term plus integral PDX square root of G sighs star of X Omega J Phi of X correct so exactly the same
+
+01:16:24
+idea as before now we execute this derivative on this product here okay and so we get integral DD X square root of G Z first act on the second term minus I del J sigh starred Phi plus integral DD X minus I times d/dx del J square root of G I can forget about the star because this ah it's a plus ion or because of the star I can forget about the star because it's all real size star Phi plus or for completeness what we had before square root of G Phi star Omega J Phi right please correct my signs if
+
+01:17:46
+there should be mistake so now we again rewrite the right-hand side because we have to introduce in the first term our additional Omega in order to make this a covariant derivative so here we have again the invariant volume form here then we have minus I del alpha but we add an Omega Alpha and then we only let it act on the sy star and there's a Phi left we need to compensate for this term so we need to subtract what we added to subtract T DX square root of the determinant of G and we added minus I
+
+01:18:43
+Omega Alpha but the whole thing starts to added this guy here size star fine okay and then we should already have a similar term so let me take that one first and write it below integral d DX square root G that's the last term from before and there's an ia missing here so we had a - I hear and I think yeah that's just it just went missing right this is just a - I hear is that correct - I times this guy so this is a - I hear okay so on that's a - I I mean that correct yeah that's right that's right
+
+01:20:11
+so this the I from here that goes here one two times exactly thank you thank you okay so um Omega Alpha size star hi that's right that's right that's this time alpha well it's a J okay Jay Jay Jay Jay okay and the extra term plus I integral D DX and now there's del J of this density size Starfire ah-ha so what do we conclude now we know that this guy here is PJ sy comma Phi so this is precisely what we want so all these terms ought to cancel so how do we get this well we get this
+
+01:21:16
+by Omega J star plus Omega J but both of them still coming with this factor square root of the determinant of GE must be the same as del J of the square root of the determinant of G right in other words two times the real part of Omega J must be Del J of the logarithm of the square root of the determinant of G because I multiply this through down here and then it's the derivative of the logarithm so let's check with our that's the general results so for a generally curved manifolds a general manifold with
+
+01:22:28
+a wear locally well with the with a metric and then locally we go to local coordinates obviously because we're using partial derivatives on in a local patch take the square root of the determinant of your metric on the manifold take the Ln and derive with respect to the various coordinates and you get the real part of the young notes field so check check with our hands-on example so what we have there we had there in polar coordinates that was g RR gr theta G theta R and G theta theta components which for flat space if you
+
+01:23:22
+just come from Cartesian coordinates it's just 1 an R squared therefore the determinant of G in polar coordinates is R squared that means the square root of the determinant is R because everything is positive we can forget about any absolute value signs and so then we calculate del J of Ln R right and this is supposed to be 2 times the real part of Omega J and you know what that is this is Del J R over R and that is 4 Omega theta we already take it real this is what is 0 and 4 Omega R this is 1
+
+01:24:25
+over R and that's exactly the result we got before by hand obviously we this is the general calculation but again before we nearly took curvilinear coordinates in this example curvilinear coordinates for in any way flat space this here is true for any manifold for quantum mechanics or this inner product on any manifold but of course this is still a local expression because we chose coordinates on the sphere we have to choose the coordinate patch another coordinate patch it looks differently
+
+01:24:59
+but of course this meshes together properly aha okay so I'm we were able to write down this this inner product in the right way such that we were also able to write down the appropriate covariant derivative in order to define this P in the right way okay now the challenge so this looks very good ok so the idea looks very good this seems to work we're now able to we freed ourselves from any such full klore that says you cannot realize these commutation relations in the self adjoint nurse unless you're on a flat
+
+01:25:53
+space you can do it on a curved space but even if you're in flat space you can go to arbitrary coordinates which on curved space you need on curved space there are no color cut using coordinates that's the whole point ok so this all works pretty well however we still have to understand properly where this guy lives I mean this is a calculation that works out numerically where does the guy live well this is the young Milt field no doubt about it it has a tangent space index or well it's a
+
+01:26:27
+co vector right has it has an index down here which is to the base manifold and it acts on on the side okay so this is the young Mill's field so this must be what if the Sigma is the sec to the frame bundler that associates with every point a frame in this case a local section which associates with every point in this you wear for this you we have a coordinate map x2 Rd we have a coordinate chart which associates to every point the induced frame here so our side that we have here is the young
+
+01:27:14
+Mills field under the pull back of this right of a section of our fire associated bundle but we already saw that the section of the Associated bundle is nothing but a function that is vector fiber valued in this case the C fiber on the principal bundle that was this theorem we had and that's the way we get the side so our sigh here it's still see valued but it's C well it's the C valued function on the frame bundle well or rather the pull back of this to the to this local chart and
+
+01:27:58
+hence on this local chart yeah it is a complex valued function but if you go to another chart it doesn't transform like a function transforms like such a pulled back section on the vector bundle or alternatively C valued function on the frame Bunder okay so this is the the first thing to keep in mind in order to understand this thing better and we'll continue next time with that so that's that's the sigh that's the sigh on the Phi on which we act then this Omega J is the yang-mills
+
+01:28:33
+field so there must be an Omega a set Omega living on the frame bundle so if you pull it down by the very same section that is in use by local coordinates we're using local coordinates if you're pulling this phat Omega down you of course get up with one come on here you pull it down it's a one form on there it has little J tangent index on the base manifold that's our little Omega J is the yang-mills field of some connection that lives on here now this covariant derivative that we
+
+01:29:15
+have here acting on there well that must be understood as to pull back of the exterior covariant derivative of our fats I that lives up here okay you have to pull that down too so this must be the sy we're looking at and so on so these are just some thoughts on how now from this calculation which works perfectly fine on the basement fold okay how we relate this to the various geometric objects you have in this game okay and the aim is to now make what happens on the base many fold in this kind of calculation I'm always tempted
+
+01:30:08
+to say numerical way well it's not numerical it's but it's you know it's it's a chart calculation we're dealing with objects and charts and how they transform is on and to relate this and to deduce what the overarching structure is on the frame bundle and then we get a proper picture of what quantum mechanics is on curved spaces in an arbitrary coordinates and failing to record and you see that in in order to reconcile this with things we know in quantum mechanics we have to go so far back as
+
+01:30:43
+to give up the idea of a wavefunction being a function okay this is just a bad idea just a bad idea and obviously if you want to do things like quantum gravity and well if you even want to do quantum matter on curved space-time where there's only curved space but say you had only curved space in room you see it's not can't be two different curved space-time curved space that is of course a difference but failing to understand this you have no hope of understanding the bigger question okay
+
+01:31:16
+but it's something that's already in basic nonrelativistic quantum mechanics okay so nothing to do with the difficulties of space-time and relativity this is something to recognize in order not to have the wrong idea okay so so we might look at this in more detail next time but I think it gives you the idea how these concepts can help you understand standard issues okay and then of course always the problem of matching things we know with a formal idea we might have but one shouldn't start from the formal idea the
+
+01:31:54
+formal idea is only the guideline where you push what you already know okay and then at some point I need to imagine that okay thank you very much see you on Thursday
+

@@ -1,0 +1,164 @@
+
+00:17:16.160 there any questions so far okay so let's start with logic
+00:17:38.450 so chapter one is actually already
+00:17:44.450 axiomatic set theory in the first
+00:17:58.440 section here yes yes and the logic
+00:18:07.350 behind the logic is that now the first subsection will be propositional logic
+00:18:13.130 so I summarized the logic under axiomatic set theory because it's the language for axiomatic set theory so one
+00:18:21.360 point one is propositional logic
+00:18:31.310 now the key notion of propositional logic is a proposition definition a
+00:18:39.440 proposition P small p is well let's call
+00:18:49.500 it a variable whatever that means it's a variable that can take the values true
+00:19:02.430 or false
+00:19:12.730 and no others that's it that's a proposition from point of view of
+00:19:19.059 propositional logic so in particular it is not the task of propositional logic
+00:19:26.880 to decide whether a complex statement of the form there is extraterrestrial life
+00:19:33.419 it's true or not that's not the task of propositional logic propositional logic
+00:19:40.900 already deals with the complete proposition and it just assumes it's either true or false you can say well
+00:19:47.590 let this proposition B have the value true yeah yeah you can do that but if
+00:19:52.720 nothing is said it's either one not not true at the same time of course no other
+00:19:58.330 it's true or false you know this it's also not the task of propositional logic
+00:20:03.370 to decide whether a complex proposition of the type in winter it's colder than
+00:20:11.860 outside well this is a proposition at all well obviously the one I just mentioned doesn't seem particularly
+00:20:18.429 reasonable but it's not the task of propositional logic to decide this is important to realize this okay
+00:20:25.090 propositional logic deals as its atomic elementary notion with the notion of
+00:20:32.169 propositions now certainly you can build new propositions from old ones
+00:20:48.950 from given ones and one does so with the
+00:20:56.700 help of logical operators and they come
+00:21:07.169 in different forms and the simplest form is unary operators and there are four
+00:21:20.460 unary operators what's a unary operator unary operator takes one proposition P
+00:21:28.350 and makes from it a new proposition so the the one that sitting in the unary
+00:21:35.700 means you take one proposition as given you construct new ones and of course
+00:21:40.860 this one proposition can have values true or false now I said there are four
+00:21:48.509 unary operators let's write them down well a famous one is the not operation
+00:21:54.779 not P not P is again a new proposition
+00:22:02.360 proposition called not P in this proposition if P takes the value true
+00:22:07.919 this proposition takes the value folds and if P is false this proposition takes the value true it's one of them and you
+00:22:15.779 certainly saw this before well there are three others there's the identity let's call it EDP this is true folds there is
+00:22:25.320 something like we might call the tautology operator TP this is always true independent of what P is and there
+00:22:33.240 is this operator let's put it upside down P that's the contradiction that's
+00:22:39.419 false whatever P is and you quickly check that if P can be true or false these four are all the possibilities you
+00:22:47.490 have for defining a unary operator well
+00:22:53.129 the next step are binary operators
+00:22:58.490 in order to see how many of those we have well you need to start with two
+00:23:04.380 propositions that you assume are given and they can take the values true true
+00:23:10.830 true folds folds true and folds faults and so the easy one certainly known to
+00:23:21.840 all of you is the end P and Q and P and
+00:23:26.880 Q is a new proposition so this in total is one new proposition this is true
+00:23:33.020 false false false in the cases where this is true and this is true this is
+00:23:38.580 true and so on now there's a whole number of others and you can quickly
+00:23:43.620 calculate if for these four rows you can each row decide whether you put a true
+00:23:50.010 or a false we have two to the four equals sixteen binary operators yes
+00:24:08.090 that's right so a bi a unary operator takes one proposition and construct from it a new proposition yes but that's the
+00:24:19.890 notion of an operator it takes two variables from this set so it goes if you would say from a Cartesian product
+00:24:26.250 of the set true/false with the cetera falls to the set roof holds it's a map however I'm not saying it this way
+00:24:33.120 because we don't know yet what set is we don't know yet what a Cartesian product is this is a an elementary presentation
+00:24:42.300 of this one can do this even more abstractly and just write down deduction
+00:24:51.030 rules never writing never write down such a table and you write down deduction rules this is the even more
+00:24:58.050 abstract way of doing this I didn't choose it because it has no purpose
+00:25:03.330 whatsoever if you do standard logic if you do non-standard logic like
+00:25:08.940 intuitionist logic then you reduce certain deduction rules and then you get a logic that you can no
+00:25:15.360 longer express with these tables okay and well that is very esoteric I don't
+00:25:21.450 say it's not interesting I find it very interesting but every course has to define its bottom line and so this
+00:25:28.590 course defines the bottom line at not writing down propositional logic using deduction rules and axioms but rather
+00:25:35.160 presenting the tables because it's really sufficient for what we're going to do okay okay so now there are a
+00:25:43.140 number of others there is the or there is the exclusive-or and so on so the P
+00:25:48.630 or Q you know this is true true true false the exclusive-or is false true
+00:25:55.140 true false and so on so in medieval ages
+00:26:00.240 people were discussing whether the or that appears in some sentence actually
+00:26:06.870 means the inclusive or the exclusive or and obviously they appealed to the Bible
+00:26:12.600 in order to see how God used it well it was actually again Wittgenstein and
+00:26:19.290 Frigga and others who wore less around the turn of the century to the 20th
+00:26:25.260 century said no hang on it's just a
+00:26:30.450 table it's just a definition they have 16 binary operators each of them maybe deserve their name or not you have 16 of
+00:26:37.440 them you have the inclusive or you have the exclusive or and so on now this is all child's play and you've seen you've
+00:26:43.290 seen this before but I go to such lengths in writing this down because there's one binary operator which
+00:26:50.730 sometimes is little ill understood unless you're maybe very knowledgeable
+00:26:57.960 about these things and that's this implication arrow so from school days we use this implication error as saying I
+00:27:04.230 write down sim write down something that's true and now I do something valid and then I may write down this
+00:27:09.900 implication arrow and that means I did something okay now the implication arrow
+00:27:15.090 as much as the end is a binary operator that takes a proposition and another
+00:27:20.340 proposition and makes one new position out of it so this whole thing P
+00:27:26.500 implies Q is in total true or false when is it true and when is it folds
+00:27:32.980 from true follows true this is evaluated to be true from true follows false
+00:27:40.149 no no mistake you don't pass the test from false follows true you say no no no
+00:27:47.679 well yes yes yes yes you should write a team here that's at least the definition
+00:27:53.500 and from false follows false well that must be certainly wrong hungrily no it is not it's also true now this is the
+00:28:01.630 definition of the implication arrow and this is why I go to such great lengths
+00:28:06.730 about this well this principle that from a false assumption you can conclude
+00:28:14.350 anything and the whole thing is evaluated to be true deserves a name
+00:28:20.919 which this principle has been in place for a long time so the principle is
+00:28:27.100 called in Latin x-files awkwardly bit roughly
+00:28:33.100 translated it means from a false assumption you can conclude whatever you
+00:28:40.000 like x-files awkwardly bet and these first two they're kind of intuitive now
+00:28:47.649 the question is why on earth would you define the implication arrow like this
+00:28:52.899 and the answer is hidden in a little theorem it's very simply proving the
+00:29:05.380 theorem is P implies Q this statement I
+00:29:10.899 put it in brackets is actually equivalent to now this equivalent arrow
+00:29:16.450 the equivalence arrow we haven't defined I define it here on the left-hand side P
+00:29:21.630 equivalent q is true if both are true
+00:29:26.649 false if one of them is not and the other is and true again if both are false P implies Q is an equivalent
+00:29:34.600 statement to now careful not Q implies not P so the order if you
+00:29:41.100 put the knot in front the order is exchanged and because I didn't tell you
+00:29:46.690 about the binding strength yet you may be careful and put brackets around here
+00:29:51.899 now this looks funny it's quickly proving we'll do it in a second but the
+00:29:57.970 important thing about this logical mumble jumble is the corollary this
+00:30:05.380 actually means we can prove assertions
+00:30:14.490 by way of contradiction so see we know
+00:30:23.620 that P is true it's the assumption that P is true and we want to prove that then Q is true what we can do instead which
+00:30:31.480 is fully equivalent is to assume that what we want to prove is not true and to
+00:30:37.000 prove that that means that the assumption isn't true and we say Oh contradiction so Q must have been true
+00:30:45.210 well this is what this says so this statement says you can prove assertions
+00:30:51.000 by way of contradiction it's a very elementary principle a very sharp tool
+00:30:56.200 of mathematics now coming back to your question about these tables and what map
+00:31:02.320 this is such an operator if you formulated logic in terms of these
+00:31:07.779 deduction rules and axioms without the tables you could surgically remove
+00:31:13.570 certain deduction rules and one of them that you can be remove such that the
+00:31:21.250 whole thing cannot be written down by tables anymore would be one that destroys this theorem
+00:31:26.980 and then you would have a logic and build on it you would have a type of mathematics where proofs by
+00:31:33.340 contradiction are no longer allowed you probably in every good mathematics
+00:31:40.090 department you find one professor who follows that kind of I think they call
+00:31:45.309 it intuitionist logic and it's a pain because the cost as long as usual because you have to
+00:31:52.920 constructively prove everything you want to prove and some people make a strong point that that is very meaningful it's
+00:31:59.890 certainly a better result if you know something constructively but they make an even deeper point they say we do not
+00:32:05.830 trust the proofs by contradiction anyway we're not going into that with our definition we have logic that allows
+00:32:14.320 proofs by contradiction essentially by this by this definition well so how do
+00:32:20.170 you prove such a thing well this is important for the first vanilla problem in any exam well of course you use the
+00:32:27.610 tables and your constructors you have P Q you construct not P and not Q so true
+00:32:35.620 true true false false true false false false false true true false true false
+00:32:42.310 true and then you write down P implies Q and you know this from before it's true
+00:32:49.690 false true true you write down not Q implies not P while you construct it
+00:32:55.480 from here false implies false is true true implies false is false false
+00:33:00.850 implies true it's true exercise record limit and true implies
+00:33:07.870 true is certainly also true so we have true false true true true false true true are wonderfully these two columns
+00:33:15.820 are equivalent this is exactly the statement up here this is to prove of
+00:33:21.100 such statements by way of writing down in out in full the table the truth table
+00:33:34.140 okay so there are certain remarks in order
+00:33:41.449 remark one we agree on decreasing
+00:33:49.469 binding strength in the sequence
+00:34:04.459 decreasing okay not is very strong and it's not so strong or it's even less
+00:34:12.469 then we have an implication arrow and then we have an equivalence arrow okay
+00:34:19.440 so if you have more symbols you need to extend the sequence however the question
+00:34:28.679 is how many operators do you actually need well we had a few unary ones we had
+00:34:34.049 a few binary ones well what about higher order operators
+00:34:40.940 remark to higher order operators say the
+00:34:52.440 operator heart-shape that eats P 1 to P
+00:34:58.470 n statements will be an operator of
+00:35:03.569 order N or unary operators obviously of order 1 binary operators of order 2
+00:35:10.259 higher order operators heart-shape can be constructed I should say all higher
+00:35:19.710 order operators can be constructed from one single we're not only high of any
+00:35:28.619 order in from one single binary operator
+00:35:35.059 and it's the so-called NAND operator P Q
+00:35:42.029 I write down the table of the nand operator P so let's have an up arrow
+00:35:48.569 for this guy so true true true folds
+00:35:53.910 fold true folds folds always the same order in case my writing gets worse NAND
+00:36:00.089 is false true true true because it's end
+00:36:08.660 but the negated version of it it's NAND not end and my statement is
+00:36:17.819 that any operator can be constructed from the NAND operator alone so in fact
+00:36:26.329 we do not really need this binding strength thing it's just a convenience
+00:36:36.019 all right so I guess there will be some finger practice problems on the first
+00:36:43.559 problem sheet on that yes and just to try question if you want writing
+00:36:50.519 equivalent operator in the tail surfaces is it only true when both sides are true
+00:36:56.429 or both sides of false or what's that much that's the definition of the equivalence operator it's true if both
+00:37:04.429 propositions take the same value yeah yeah that's because on the other blackboard yes okay further questions
+00:37:13.369 all right so this was a very quick recap of propositional logic and we'll proceed

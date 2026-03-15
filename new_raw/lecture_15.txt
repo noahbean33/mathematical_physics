@@ -1,0 +1,405 @@
+00:00:01
+[Music] so good morning and welcome back uh it's about half time uh for this lecture course and I decided that I would like to present one Central physical well example uh that uses about everything we did so far so it will be a very good exercise it's a very simple example but if you really carry this through properly uh you'll see we'll really meet almost everything we did and um so this is uh formly speaking still part of this section on on Lee groups in Lee algebras because we haven't finished
+
+00:00:43
+this section yet um but uh in a sense it stands there as a halftime example um so it it goes in this consecutive numbering 4.4 and it's the relativistic spin group which goes by the uh name of SL 2 comma C that's what the thing is called and we will now really want to understand this guy and its Lee algebra uh in every detail very properly now um although I say it's a relativistic spin group and it is in order to really apply it to physics we also need to study representations we haven't done that yet but I hope we'll
+
+00:01:33
+we'll get there but alone to understand this group as a Le group and in order to uh uh derive the Lee algebra and so on we got to work a little bit but again it's very good exercise so let's see whether we can carry this through just with what we have Okay so let's first start with a definition of this guy and first and foremost before it's a lead group or whatever it's a set it's a set and this set has a definition SL2 comma C is the set of four tuples okay quadruples but I follow tradition and
+
+00:02:15
+instead of writing a b c d with commas in between I write a b c d as such a um a square scheme of numbers but obviously this is a for Tuple because I always know the first the second the third the fourth okay nothing new um and it comes with a condition and that condition is that uh Aha and it's uh well if it's a four truple it's an element of I take the complex numbers to the fourth but that obviously means Cartesian product cesium product cesium product but not all all of these four
+
+00:03:01
+tupal I have a condition I impose the condition that a D minus BC B1 that's my condition so obviously C is a set this is a set this is a restricted comprehension there is a condition here that's a set right and it's a subset obviously of what we denote by C4 which is the short form of this and this is s L 2 c as a set these are the elements of the set there is nothing to be said beyond that about the set well but now we make the set into a group um and the group uh is then SL2 c a group is first
+
+00:03:51
+and foremost a set but then it has a group operation which we call blob and this blob is an operation that takes two copy no that takes two elements of SL2 C and makes them into one new element of SL2 C and this blob is defined as follows we take one element which we decided to denote in this funny fashion we take another one uh ABC d e f GH and how do we Define The Blob we Define The Blob by the following Arcane uh construction it's a e plus BG uh a f plus BH uh C plus DF no uh plus DG C plus DG and uh
+
+00:04:51
+CF plus d of course it's easy to remember this because you have been trained to perform an operation called matrix multiplication and it is exactly this but what on Earth is a matrix it's a for Tuple and another for truple we produce from it this for Tuple don't think about matrix multiplication it's just this rule of how to combine these tupal and of course what we got to check is whether this rule obeys this restriction so whether the result is really again in SL2 C now uh it is because you know this is
+
+00:05:36
+matrix multiplication we could now check this uh um by hand well yeah you could you multiply this with this and you subtract this and this and you'll reduce it uh if you know that uh ad minus BC is one you know that eh minus FG is one you will find that also here this rule is satisfied so this needs to be checked but it of course applies or if you want to think in terms of determinants of course the product of two determinants no the determinant of a matrix product is the product of the determinance so uh
+
+00:06:09
+it will stay one okay so obviously we have here a set and we defined a very funny operation but it provides a yeah such a map and then you check that the whole thing is associative uh this is now really boring you believe me it is uh you'll check that there exists a neutral element neutral element um and this neutral element is 1 0 0 1 as you can also quickly check and that has a d is one aha it lies in SL2 C very good so there is a neutral element that looks like this and you can also check that
+
+00:06:56
+for every element small G well in SL2 C for every Matrix a b c d you find an inverse Matrix let's write it down okay so for every a b c d in SL2 C I claim and you will quickly check that um 1 over a D minus BC plusus Plus plusus uhhuh like this uh [Music] D A minus b c I think this is the inverse otherwise you please look it up but I think this is the inverse uh this is the inverse um so we denote this A B C D inverse of course the formula one over determinant and then this funny uh chessboard pattern and then but you take
+
+00:08:01
+the transpose first and then you do these uh these these minors and stuff like this okay you know how that works okay anyway so for every element that exists an inverse element you can quickly check that the inverse element has again a D minus BC is one because this is a d uh minus minus minus BC but it's divided by this so it's again one so also the inverse of course is an element of SL to C ah so at this point we learned indeed SL 2C this set together with this operation is a non-commutative a non
+
+00:08:42
+ailan but nevertheless it's a group okay fair enough well fine so but now uh we come to the next step I want to think about this group now about the set that underlies the group as a a topological space um so let's think about the topological space SL to C well that's the set so we need to equip it with some topology before anything else so how do we do this well we will always avoid constructing this explicitly if possible we inherit a topology from a space we know aha C4 doesn't look so bad but so
+
+00:09:32
+far we took took the real numbers but of course one of the things we can do we can extend our techniques to the complex numbers so first step so c.1 if you want is um establish a topology or Define a topology o subc on the set of complex numbers um and we do this uh by virtue of the standard Construction and uh that is defining by virtue of defining uh the open bolds open bols well that's just the name the open bolts B subr but now of a point Z in the complex numbers uh and the r is still in
+
+00:10:20
+r+ and here we take simply what do we take all the complex numbers y for which it's true that the absolute value of Yus Z is less than R this is now of course the com the absolute value on the complex numbers but obviously this is if you go to the complex if you go to the complex plane uh this is the point z uh it's well without the boundary it's all the complex numbers in here for a positive radius R so you define these guys and then the standard construction you call a subset of C open
+
+00:11:04
+if for every point of the subset there exists a positive real number uh such that uh the ball with that radius of that positive real number around that arbitrary point of D to be checked as open subset uh lies entirely within that subset it's exactly the same construction like in r or in R2 okay and obviously this uh yields a topology uh on on C further remarks needed no or no no okay good okay so we have this on C uh but then very quickly of course if we have it on C then we can define a topology on
+
+00:11:48
+C dot in a finite cartisian product so on CN right uh as the product topology if I have one on C I have one on C4 by virtue of the construction of the product topology okay now so we have one on C4 but SL2 C is not C4 but SL2 C is a subset is a proper subset of C4 of course because it is C4 with a condition now any subset can be equipped with the subset topology so Define this o by which we equip SL2 C Define it as uh the take the C4 so c c c four times cesium product that is what we constructed here and restricted to
+
+00:12:48
+SL2 C remember that was the induced subset topology um uh those were all the sets of the form U intersected SL to C where U was open in C4 in the yeah in C4 and then we have a topology and we equipped SL2 C with some topology very natural to do that right okay so now we have SL2 C A topological space so you see not a single Technique we introduced was in vain right we need all of this so now we continue it's a topolog topological space but is it one of these particular topological spaces that we call topological manifolds so um
+
+00:13:47
+uh check whether or check that so I assume the result no I don't assume there is anyway check that um SL 2 C with this topology we just constructed is a topological manifold so what was that if it's a topological manifold that means by definition that around every point of this topological space you find an open set that you can map homeomorphically to some R to the D okay now here of course we can all do all these constructions and map homomorphically to some C to the D okay and maybe one thinks oh it must be C4
+
+00:14:38
+but see this is only a subset and this condition kills one degree of Freedom so um and on the right hand side it's 1 + 0 * I so it really kills a complex degree of Freedom so we have the feeling this is complex threedimensional but we don't need feelings we can just construct this I construct charts that cover the manifold and uh where you have exactly this property and if it covers then you of course know you can do it for every point so okay so construct charts construct charts and I think um well we'll see how
+
+00:15:16
+many we need let's see how many we need construct charts aha okay let me think so so the intuition is but we're going to write it down exact intuition is I can kill one of the degrees of freedom in this matrix by using this condition for instance I could express the D in there I could could express it using this condition in terms of the b c and the a but if I do this then I have D equal 1 + BC divided by a ah okay so construct charts we construct two charts the first chart we call U and what is u a so a chart consists of
+
+00:16:01
+a a chart domain and a chart map the chart domain is a subset of the topological space right so I need to Define u as some subset a b c d of the topological space so it certainly needs to satisfy this condition but it should really be well it could be necessary to have it a subset and I claim it is necessary Neary because I uh do this for a non Z okay so that removes some points from SL2 C because they SL2 C matrices that have a zero here okay so this chart domain doesn't cover the entire SL2 C
+
+00:16:48
+okay why do I do this well now I look at the chart map I call x x is supposed to go from the chart domain down to and now let me see what my intuition is right here we go down to C3 so we do not so our charts are C3 charts and I take an element in U and I map it by X and I land here so I have to take an element or X of it's a bit funny notation but let's be precise here huh X eats such a guy uh and I need to say what it is and I write it down as a three Tuple well let me let me really write it as a tuple
+
+00:17:38
+this is uh c c c cesium product so the result is a three Tuple and I choose ABC so I look at such an element in SL2 C and I say the coordinates of this guy this is this is a point in the ab in the in the manif in the um excuse me in the topological space but I coordinati it by saying I only look at these three and these are the three coordinates of this point that's what I do so you say what about the D of course the idea is I idea is I don't need the D because if I know these three guys by virtue of this being
+
+00:18:23
+an SL2 C I already can reconstruct the D right okay so this this is a map it goes from here to here I know SL2 C being um a topological space I can then certainly decide uh what it means to go and this is an open set because I say not equal to zero this produces an open set in that topology and I can now decide on whether this map is continuous well is it continuous yes in that topology we constructed there it's continuous to just look at this this this and and to write down this so this is
+
+00:19:07
+continuous what you need to check you need to check whether the uh pre-images of open sets are open pre-images of open sets here under this map are open here this is the case okay it's very trivial okay this is continuous now that's not enough it needs to be a ah aha aha no yeah okay fine this is continuous is but um I also want it to be invertible so I need to restrict the target it's true this whole thing lands in C4 which is uh c c is C3 I'm sorry C but I want to restrict the image so that I can now
+
+00:19:52
+invert the map okay that's what we always did you interrupt me if you get lost or okay okay um so the question is what is the inverse of this map well let's write it down explicitly so I take the inverse of the X map I start at X of U and I go back to U how do I do this well obviously I need to be able to feed the X inverse this triple ABC and to reconstruct from it an element in U and this must be a b c I take them immediately and the d i reconstruct as 1 + b c over a at least that's what I said
+
+00:20:39
+so I take this uh 1 + BC over a is the D and you see this only works uh because I restricted the chart to have a non zero yes aha so um um okay open in what topology uh open in the topology on SL2 c um the entire set is open and I now uh have a an inequality well not yeah well it's it's not equal to zero I take this out so the complement here so the thing that I take out is the set where this equals zero it's a one-dimensional subset of which you can check it's closed you take out a
+
+00:21:28
+closed one the result is an open one so you have to work a little to show this but it's it's the case here and that is because um every lower dimensional subset well yeah uh um will be closed in that topology in that standard topology so you're right in principle you have to go through the motions to prove this uh well then we'll need three three days to to do this okay but um if you want you can check I uh guarantee to you it is open in that topology okay okay but I welcome the question because that's what
+
+00:22:07
+this is all about we go through an example and we have to see okay what do we have to do and in some place I'll have to say okay look this can be done now okay but it's not like uh it takes further techniques you apply the standard techniques you show this okay so good homework because we don't have a problem sheet this week take this okay so that's the inverse uh we have this and you can check again because a is non zero on that domain on that domain certainly this is a again a continuous
+
+00:22:45
+map so the map is Contin invertible and continuous in both directions that means X from the chart domain U into the image in the chart in the well in the chart is a homeo so local homeomorphism of the SL2 C is a homeo this guy is a homeo in fact it is a chart that is U with X is a chart of SL2 C but this chart doesn't cover all of SL2 C because there are a number of SL2 C Transformations all those with a equal Z they're excluded right so there is no other way but to construct at least one
+
+00:23:37
+more chart and let's see whether we can cover and it's really worth writing it down okay so um construct another chart so let's call that chart V and that is a b c D in SL2 C and now I let the D be non zero and now my chart map let's call it y from V to Y of V which is certainly a subset of the three-fold cartisian product of c um be defined as follows go I take the Y and I apply it to a b c d but only from the set V and I Define this to be the three Tuple of complex numbers let
+
+00:24:40
+me think if I the D I divide by the D then I get the a so I can forget about the a so I take b c d okay so now I only look at B CD I say these are the coordinates the first the second and the third coordinate of this guy on this domain it's again the same business you check the pre-images of open sets are open and so on you check this is continuous and um you construct the inverse y inverse from y of V back to V uh y inverse now eating BCD it eats these three complex coordinates and it reconstructs this
+
+00:25:33
+element of B of SL2 c b CD but now you have to reconstruct the a uh that looks very similar it's one plus BC by D ah okay so the by D worries us but we excluded it yeah this me because that's right I didn't say it's the only other chart okay okay but but you're right okay so so but okay so but then I'm only missing okay then I need a third chart probably that that's the point okay fine fine so okay so this is also continuous uh and by the same arguments it follows that
+
+00:26:37
+VY is a chart okay and now you say do does the union cover no the union doesn't cover and what I need is I need a third chart UV let's call it w it's defined as before but now for B non equal to zero and then we construct the coordinate map Z of a b c d and if I have the B non zero I can divide by the D but then I can express the C so I will have a b d as this map and I construct the inverse of ab of this map Z and it will yield the a b d and the C I can reconstruct is a d minus1 by
+
+00:27:52
+B agree uh hang on I take the BC to the right hand side I take the one there yeah okay we may fail at mental arithmetic but okay anyway so so this is this guy and now by be but now these three cover that's obvious so this is again a chart so the same arguments every time wz is a chart and now the um the overall result of this little subsection is that the union of U with V with W this certainly covers SL2 C because the only Point that's not covered now is where all four are zero but that doesn't have a determinant one
+
+00:28:45
+okay so these three charts cover not convinced yeah do we need the second chart aha no aha I see you say if I have only these two I cannot have uh the case that both of them are zero you're right you're right ah very good very good okay so we don't need this one these two already cover now of course there's no harm in having more charts because we can anyway always extend the collection of charts the atlas to a maximal atlas but you're right it's not strictly needed so the U
+
+00:29:26
+and the W actually suffice to cover this guy are we happy we're happy and they're all homeos and because I have uh that also means that about every point of this guy I uh have a homeo into some C to the three uh and from that it immediately follows that SL 2 C with the already defined topology we just checked facts for this topology is a complex threedimensional so complex threedimensional manifold so sometimes we would write well dim subc with respect to complex numbers of SL to C is three there we go
+
+00:30:18
+have a three-dimensional complex I should say topological manifold topological manifold Okay so some people would call this no not yet okay full stop good I have questions so far yeah um you would not be a ah um well you would not be able to um to have a a b then you have a y and you have a y inverse so if um ah so you mean okay it could be this is a subset of C4 but one of the coordinates I never use something like this ah yeah no no okay so that that would be very silly so that um but then you would have to have uh uh an
+
+00:31:17
+additional entry here right uh yeah but it's not so simple because if you do this this map if you do this and you go back you get more than SL2 C you see if I can choose uh BC d and a independently that's the idea if you're in C4 they're all independent and then you can go back and you can construct a b c d but then you do not land in SL2 C you land in C four so so in principle once you did this you have to check whether you in C4 because you're claiming you go back to V and V is a subset of SL2
+
+00:32:14
+C uh and you need to check this here uh well it will fail if you just choose any a and or you mix up the a could use this a and right in there that would fail okay so then it's indeed this bje property that that is lost because this map doesn't know about it this this map only knows about this restriction by putting by encoding it explicitly here okay okay so we have a complex three-dimensional manifold so it's a topological manifold um if we want to see it's a Le group we need to check it's a smooth manifold how
+
+00:32:55
+do we do that so what's step is the step number pdon e okay um so uh topological smooth differentiable manifold so now we want to check that SL 2 C can be given an atlas a uh such that it is a differentiable manifold a complex differentiable manifold okay so how do we do this now so far we constructed maps from the manifold from the yeah from the manifold into charts but we know that in order to do differentiability we need to see whether our charts that we have chosen allow smooth or C differentiable uh transition
+
+00:34:01
+Maps so um we recall uh that we had charts ux and w z that we wanted to use and this one had to do with the a nonzero and this had to do with the B nonzero well that was the was the domain it's written down precisely before and we saw that this covers so we know that if we take these two charts together we certainly have a an atlas but let's call it the topological Atlas because that's all we know so far by construction there will be c0 compatible these two charts but now we need to check whether they're um
+
+00:34:47
+compatible um whether they're C infinity or C1 or whatever compatible so check uh compatibility yeah well see question mark compatibility uh of the charts in the topological atlas there certainly c0 but are there more so what do we do uh we consider a transition map so consider the transition map um Z after X inverse where does this start it starts at the image of X but of the intersection of U and W because the transition map of course can only look at a domain that's the intersection of
+
+00:35:43
+the two charts and it Maps you to uh Z of U intersected W and now we need to construct this guy okay I'm sorry I need to to write down again what the what the X inverse was the X inverse took ABC am I right and reconstructed from it the point which was a b c 1 + BC by a was that right that what we wrote down okay and the zmap so that's the opposite direction uh that took an element A B C D in SL2 C uh and it mapped it to the coordinate triple where B was non zero that is I could Could reconstruct
+
+00:36:36
+the C is that right so it went to a b d is that what we wrote down yeah okay thank you okay so now we compose these two maps so I start with an arbitrary point in here so let's call that arbitrary point in the image of x uh uh let's call it ABC so we start somewhere in the chart image of the chart ux and then we apply to it this transition map okay and we want to check what the properties of this guy here are so we let it act on the stuff it acts on and because this is the chart domain of here
+
+00:37:22
+and the intersect intersection with here we know that the a is non zero and we know that the B is non zero as well because it comes from the intersection here right okay so fine so with this understanding let's just evaluate well not it is already equal to so we take the Z after we made out of the ABC we make this guy here and then we take this guy and plug it in here and follow this rule right so what we get is we get the first entry up here on the left but that's an a fine comma then we get the second
+
+00:38:05
+entry here but it's this guy it's a b and then we get the entry down here but that in this case is 1 plus BC over a that's this guy and now of course this guy here so we could have written this differently where does it come from it comes from C Star Cross C Star Cross C but now the star is not the the vector space dual or something uh it means C without the zero element I think we used this notation before okay so this is guy is from there and now we have to check here uh it is the chart domain of the Z and the Z also
+
+00:38:58
+says that the uh second guy I think that's the same domain it's C star C star C okay so we have to check whether is that me oh okay doesn't matter okay so we have to check whether the uh whether this map as a map from C3 to C3 on this domain is differentiable and you check yeah because the a here cannot be zero this thing is certainly differentiable once and you can check it's differentiable two three four times and so on okay so this thing actually is uh uh arbitrarily often complex
+
+00:39:41
+differentiable right uh so well we just call it C differentiable okay um even if you take the uh um I mean differentiability on C is stronger than differentiability on r you could write this as six tupal of real numbers with the three real parts and the three imaginary Parts but then you also have to check whether these kosi reman equations hold and stuff like there very ways many ways to do this again you can now delve in and really revise your uh complex analysis skills and so on but this thing is C
+
+00:40:19
+differentiable well that's one transition map there only two charts but don't forget you also need to go backwards okay so we also need to check similarly check that the opposite transition Map X after Z inverse Z of u intered w to X of U intered uh W um which you also need to construct um is also C differentiable you'll find that is the case so what do we have that means that this topological Atlas that we constructed happens to be more than a topological Atlas is even a differentiable
+
+00:41:05
+atlas fine now if I have that you can certainly uh Define uniquely the maximal atlas a as the maximal atlas containing so the maximal differentiable atlas con containing uh a top so you put all the other charts that come to mind also in there that are to the desired degree of differentiability compatible with these charts okay but we never do this explicitly so this maximal Atlas is more like the excuse later on that if you want to do a calculation and for that you need a third chart that you would like like the one we redundantly
+
+00:41:54
+constructed and you say oh darn this should also be in the atlas and I forgot this so I mustn't use it no you can use it because well you can always maximally extend your Atlas that's the secret of the maximum Atlas you never write it down explicitly but you draw an element out once you need it and if you want to have a particular chart you quickly check whether it's compatible with all the charts that are already in there and then you may use it okay that's that's the philosophy okay so what do we have we
+
+00:42:24
+have therefore that SL2 comma C with this maximal Atlas uh is a um well it's a smooth manifold it's a complex differentiable manifold uh whatever is I write differentiable to arbitrary degree uh C differentiable to arbitrary degree well on C if it's differentiable you can anyway uh what is it Taylor expanded Muran expanded and so on so on on C this is very strong okay so there we go so at this point we now can look at step F and we can ask is SL 2C which we can now think of as being
+
+00:43:15
+equipped with a topology and a differentiable atlas okay we are not going to write this down all the time we can take it and look with add it together with The Blob which we already know is a group that was one of the first things we checked but it's a group where the underlying set happens to be or has been made into by us into a smooth manifold so the question is is this Le group is this a Le Group Well there we need to check something remember a Le group was a set with an operation that together is a
+
+00:44:00
+group we already know such that the underlying set is a smooth manifold or arbitrarily often differentiable manifold here but there was more we need to check we need to check whether the um two maps new that take two elements of SL2 C into an element of SL2 C by virtue of the group operation so let me call the elements just G well a b c d uh E F G H uh takes it to the result by the group operation that's this map we need to check that this map and this map I that takes only one element to an element of SL2 C by virtue
+
+00:45:04
+of a b CD by virtue of mapping this to the inverse so that was 1/ a D minus b c um minus minus d a b c we need to check that whether whether this map and this map are smooth you see I'm not very careful here with how often it's differentiable and in the complex number it's it's anyway a very strong thing even if it's once differentiable so anyway uh we check differentiability to the desired degree okay um we need to check this but now we can check this because look for instance
+
+00:45:48
+at this I guy here it is a map from a smooth manifold into a smooth manifold where we know how to check whether a map from a smooth manifold into a smooth manifold is smooth and we need to do this we also need to check whether so now here you have the cartisian product of two smooth manifolds and I think it was on the problem sheet that um you these inherit a smooth Atlas this cesium product of two smooth manifolds inherits a smooth Atlas from each of its factors right so you make this into one
+
+00:46:25
+big smooth manifold by inheriting the atlas to this cartisian product this is already a smooth manifold so again also this mu is a map from one smooth manifold me this big one into another smooth manifold the smaller one but again it's the same principle once you have the charts you check this but we'll carry it through in detail for the ey we want to check precisely that the ey is um is smooth so we have SL2 C we got the map up that sends an element of SL2 C to its inverse between these two smooth
+
+00:47:03
+manifolds and we want to check whether it's smooth now what you do for that uh you need to look at only a chart in the domain and in the Target so let's say we start here and then you need to do this for all charts until you covered the domain of course so um let's start with our first chart u in the ad plus so we restrict the map I to U we only want to come from here but I mean we don't need to write this explicitly it's clear by writing this here I take this map and now the
+
+00:47:40
+question is where do I land here well um the the chart U comes with a chart Map X and you go into C Star Cross C Cross C it was this uh a left the F the upper left entry being non zero okay that was this chart map and um so if we uh look at how this map I acts now unfortunately I wiped it out but was it not the case that this is AB C D and it Maps this to 1 over a D minus BC of uh da The Exchange uh minus C minus B that I think it's the that's the inverse and now you see if you start in the U chart where the a
+
+00:48:38
+entry well I should rather say where the entry here is non zero you take this AB C D and you map it to here but now you see in the result you only know the a is non zero but that's now this lower left a lower right entry and we had this chart which we didn't need necessarily at the time but which I called V that was the chart that came with the chart map y uh and that was the one where this guy here was allowed to be non zero and that's of course exactly what you get as the image okay so um you you can choose
+
+00:49:28
+charts independently here and there but you better make sure that uh at least you really map into that chart so taking you and youu again here which in principle possibility you would have to restrict you here to those that you know okay anyway so um uh you go there and uh so that's the um aha but then this y map uh assigned which coordinates I forgot that so that was y took than an A B C D and assigned it coordinates such that the D can be no such that the D can be divided that means that the a can be
+
+00:50:09
+reconstructed so I think that must have been this map is that right can you quickly check your notes that's what we did no okay so fine so that means that guy goes into um uh c c C star because now it's the D here the lower right uh that is non zero so that goes to here aha so chart here chart here now I can construct this map and that is y after I after X inverse aha okay well strictly speaking this of course only goes to the image oh sorry aha okay okay this of course only goes to the image X of U which however
+
+00:51:01
+happens to lie in C star no by construction it doesn't happen to lie by construction it lies here and this goes to Y of v and that is just part of c c c star that's the situation right and the nice thing is aha this guy here is now a map from some open region of this guy to this guy and of course I can also forget about the star well it doesn't matter it's a map from C3 to C3 well from some region of C3 to some region of C3 and I can ask with standard analysis techniques whether this map is
+
+00:51:48
+differentiable okay and then I call this map up here differentiable okay so let's do this let's construct this map so let's look y after I after X inverse what does this eat for breakfast it eats guys in here so we call them ABC it e coordinates in here images there okay so this equals what is this ah so we want to learn about this guy by virtue of its action aha so first we take it by X inverse we take ABC to let's write it down y after I applied to well very picky you open brackets again
+
+00:52:38
+applied to a b c and x inverse constructed 1 + BC by a isn't that right right okay so that's what this guy does now what does the IMAP do to that so this goes to y of small brackets y of and what does this eat it eats the result of the action of the IMAP but the IM map takes first of all the one over the determinant of this guy so this is a * 1 + bc/ a so it's 1 + BC 1 + BC minus BC Ah that's just one okay nice okay times H I'm sorry now this is over done so times and now comes here come
+
+00:53:30
+these entries it's the inverse so it puts minuses here it puts this guy up here 1 + BC over a it takes this guy down here and it takes the B here and the C there agree that's what the inverse map does okay uh now of course we can simplify this a little because this factor in front here is certainly one and now we need to see what does the Y map do with this point well it picks this entry this entry and this entry in this order and presents it as the coordinates not a problem this one this one this one this
+
+00:54:11
+order minus B minus C A ha great the map whose differentiability want to check eats ABC coordinates and spits out minus B minus C minus a well if this is not differentiable I don't know what is okay so it's differentiable so that means this map here is differentiable and obviously several times okay so then we call I differentiable that means the map I on the manifold level is differentiable you see here it's very tempting to say come on I I know what this guy here is doing it takes these
+
+00:55:00
+numbers to these numbers and that looks all terribly differentiable well but that's because you now start pretending that you know what differentiation is at the manifold level but of course it isn't differentiable because for instance what what happens if ad minus BC uh if okay it shouldn't go to zero but but okay um you you don't know what differentiable is because you're not coming from a four dimensional space you can't say I look at I as a function of four variables and I check whether it's
+
+00:55:29
+differentiable because it's a problem of three variables being differentiable right so you can decide differentiability here but then you always have to keep in mind this constraint that a D minus BC is one well how do you mix that with your question about whether it's differentiable or not well you have to decide you have to distinguish between various cases uh when when this is zero and that is zero and that yeah but that's exactly the chart construction okay okay so you push you need to push the problem down with
+
+00:55:59
+these charts ah okay I I I was too quick here so I I have that this guy here is differentiable but now of course I have to take another chart that covers this such that um okay so we have this is differentiable okay let's be very careful uh now repeat uh such an analysis for the case where you now start with the chart W because we know that if you check it for U and for w you covered the entire manifold okay uh you need to check what chart here you go to okay as I said the same thing then you
+
+00:56:39
+have the Z here uh uh this Z chart had the had the the thing up there that's the B but the B goes with the uh C so you can reconstruct the c um if you can reconstruct the C that means you have the ABD you go to ABD but we said that the B so this is in uh c c star C something like this okay you you you check whether whether I'm right or not and and and so on so you do the whole the whole construction again and you again check that this map down here is again um differentiable okay so okay check also
+
+00:57:24
+differentiable and only now because since SL2 C is covered by U and W together we can then conclude that the map I up there is differentiable now I have to do this for a system of charts that cover and come from a differentiable atlas okay aha so we found that this inversion map is differentiable and uh similarly uh using uh the atlas using the the differentiable atlas uh defined on SL 2 C cross SL 2 c um by virtue of the differentiable atlas a on SL2 C so inherit this I remarked this before um also
+
+00:58:49
+show that mu is differentiable okay so see if you're really skeptic it's a lot of work to check this whole thing as a Le group right it doesn't come entirely for free um but we know that we can do this we have confidence we can do this and uh so we have as the first after more than an hour we realize that SL 2 comma C with this group oper ation is a complex three-dimensional Le group okay it's actually the only example so far I presented of this now so you saw I rushed through this Le group and Lee
+
+00:59:54
+algebra Theory uh without giving many examples because you see to construct such an example you have to invest some effort but now okay good good so um what's next well we want to construct the Lee algebra of the Le group we e step f is that right let's say it's step f f okay um g g um well what's the Le group a Lee algebra L of SL to C of the Le group SL to C okay so uh first of all uh L aha okay L of SL 2 C is lots to write so usually one writes this small s small small L of 2
+
+01:01:29
+C it's just notation so if you have a Le group that and it carries a capitalized name which it always does then the corresponding Lee algebra uh carries the um what you call this the the small letters right SL2 C okay that's just terminology okay notation but now we need to think hard again what is this L of SL2 C well uh recall that the Lee algebra of a Le group The Lee algebra of the Le group as a set it was the set of all left invariant Vector Fields so it was X was a vector field on the group um sorry a vector
+
+01:02:21
+field so it was a section of the tangent bundle vulgar Vector field field on the group G okay uh that was left invariant what was a left invariant Vector field well we had these left translations LG how were they defined they were defined as LG took an element okay so let's write it down for our case uh we take an element of the group in our case this is a point of this sort and uh it then takes you takes one element of the group and produces another element of the group by virtue of L A B C D eating
+
+01:03:13
+EF GH is defined as well you know the matrix product from the left that's the point so use the group operation EF GH and this map here is called the left translation but then you have a map from a smooth manifold to a smooth manifold uh it is after all the me well it's part of the me map because you fix one entry but you can show by virtue of the definition of the atlas on the kesian product that this guy also is a smooth map from SL2 C to SL2 C if it's a smooth map there exists an Associated push
+
+01:03:52
+forward of this map and you can take a Vector u a vector field H and you can look at it at the position uh X and you can look at it at some point H in the group and um you can require that so if you act on it like this then the whole result will be where the whole result will be at LG on H LG on H which is GH it's the group operation in between here and you can require that this is what the vector field at that point already was GH X GH and that's the set of left invariant Vector Fields left
+
+01:04:39
+invariant Vector Fields okay and obviously here G wherever I wrote G uh this is in our case SL2 C that was the definition of this Lee algebra so you really need to look at the whole group manifold and look at Vector fields on there but we saw that there is an isomorphism recall that there is an isomorphism between the tangent space at the identity so did we call this guy ID so ID in our case is well the tangent space at 1 0 0 one to the group to SL2 comma c as a vector space is the same as the le as the left
+
+01:05:39
+invariant Vector fields of SL to C do you remember this result aha now why is this interesting well it's interesting because rather than looking at Vector Fields even though very special vector fields on the entire group I rather look only at one vector in the tangent space or another Vector in the tangent space but how can it be that this guy here this is after all a sub Vector space of all the of all Vector Fields but this is as an R Vector space or in this case as a c Vector space a complex Vector space this
+
+01:06:24
+is infinite dimensional but we saw that this is finite dimensional indeed SL2 C is threedimensional so the tangent space is threedimensional how can it be that as Vector space is there isomorphic well this is a very strong condition the left invariance okay but you see this guy here has an advantage over this guy here this is easy enough to see so let me draw a picture I don't know whether it's good picture but so so assume we had a group manifold that's um well assume we have the S2 well that's
+
+01:06:59
+not one of the guys we're looking at the moment but imagine the group looks like this okay and now you go to the identity let's say that sits here and then there's the tangent space here now you can look in all possible directions here but you only have one one vector now the advantage of this guy of the left invariant Vector Fields so say you have a vector field on here here that looks like this and which at the identity corresponds to one particular vector and Ian the vector that's part of that
+
+01:07:33
+Vector field here if you have this entire Vector field and say you now have yet another Vector field there so you have another Vector field another left invariant Vector field on the manifold apart from the white one you have also a green one and at that point in that tangent space you have this white vector and this green Vector now if you look at the entire Vector Fields they're Vector fields and you can take the differential geometric bracket there right between two Vector Fields here you have the bracket from
+
+01:08:08
+differential geometry which takes a vector field and another Vector field and we check that this is again a vector field okay and that's defined but this bracket you can only calculate if you have an entire Vector field because that is one vector field acting on the other acting on a function so in a sense you you look at the change of one vector field with respect to the other but at one point you cannot do this you could apply the white Vector to the green Vector field and you get a result but
+
+01:08:40
+you couldn't then take uh the green Vector field at that point so that means that green vector and apply to just the white Vector that doesn't get give you a result because you need to derive so you need a white Vector field you need a green Vector field and then you can calculate uh between the vector Fields you can calculate the commutator right now if you restrict attention to just that one point how on Earth do you get inherit a commutator over here you need to get a commutator well a commut you need to get
+
+01:09:15
+a Le bracket this is the differential geometric commutator you need a Le bracket here and uh we constructed this guy it was the double bracket well only for notational purposes it was a double bracket bracket so also recall that um we defined a bracket written like this on T SL2 C well here at least we do this T SL2 C cross T SL 2 C into T SL 2 C okay um how well we take a vector well let's call it a is just a tangent Vector to SL2 C at the identity and I take another such tangent vector and now I need to say which
+
+01:10:26
+tangent Vector at that point is this supposed to be and the idea was well I can use the differential geometric commutator that eats to Vector Fields but I need to construct from the white a vector at this point so it's just the a in this tangent space and the green B Vector at this point I need to construct an entire left in in Vector field from this a and how do I do this well that was not so difficult this is just the left the push forward of the left translation of this a and remember as I
+
+01:11:10
+just said or as this indicates this a sits at the identity of SL2 C right and then I act with this guy on it for an arbitrary G and then I'm at an arbitrary Point G and I mean the vector field that's defined like this so maybe um um yeah this is clear enough so and then I also uh push forward the B which also is just another Vector in there and I do this for all possible G and then I get a vector field here okay notation is a bit funny because there shouldn't be the G here there should be the abstract field
+
+01:11:55
+but you know for all G this this gives you a vector gives you a vector field okay aha so I can choose an arbitrary tangent Vector here now this is a bilinear bracket that's obvious that this is bilinear so I only need to know how the bracket is defined on a basis of the tangent space is that right and if I want to make life simple I choose coordinates well if I want to calculate something I need to choose coordinates anyway and so it suffices and and so I could choose the use the coordinate
+
+01:12:37
+induced uh tangent vectors here right at this point at the identity but then I push them forward to make out of them an entire Vector field and I fully determine this bracket okay let's try to do this so um task determine the bracket or in other words determine the the structure constants of this bracket okay so now how do we how do we have to go about this we have to calculate the push forward of some Vector at the identity aha aha so let's try to calculate that guy so let's try to calculate l subg so G is
+
+01:13:39
+some element of SL2 C so I write here L A B C D and I take the push forward and I act on D by D so now I need to choose a chart that contains the identity the U chart contains the identity you only asks you a to be non zero but in the identity a is one so I can use the U chart use the U chart because that guy covers the identity since so the uxx chart since 1 0 0 1 is an element is covered by the U so I take the U chart with its x coordinates and these x coordinates they run from 1 to three so I can act on
+
+01:14:36
+the I tangent vector and you know we always have to say where well at this point at the identity okay I act with this guy on that guy and of course the entire result will be a vector Nam the pushed forward Vector where will it live it will live at this guy times this guy group operation wise but that's a b c d so I take a tangent Vector at the identity the I tangent Vector in this coordinate system but it's just clever to use that okay and then I do this for IAL 1 2 3 for IAL 1 2 3 I can calculate this guy
+
+01:15:25
+and this calculates this first bit that's the idea okay um I take this at the identity I push it forward to this point to get a tangent Vector at that point and I can do this for any point a BC D and SL2 C well for any such point in U that is and of course I get then from this one vector I construct this way the entire Vector field that come left invariant Vector field that comes from there because we check that if I do this construction the result is a left invariant Vector field okay so now I need to calculate
+
+01:15:59
+this push forward so how do you calculate the push forward well you you check what is its definition this is a vector field where is it it's the map goes from SL2 C to SL2 C this guy uh so you have to act on a function that lies in the Target well that's again this thing you act on some if so for any for any F that is a say smooth function on on SL2 C we act on this and that way we want to find out what kind of vector field this is equals so now we apply our definition what's the push forward of a vector
+
+01:16:45
+field it uh is the vector field d by DX I at 1 0 0 1 acting on F after the map the smooth map underlying the push forward but that's the map l a b CD without the star this is this guy that's the definition of the push forward okay so now we want to calculate this do you remember what this was was this a partial derivative no it was not a partial derivative it used specifically these coordinates but how did we translate this guy into a partial derivative well this was a partial derivative but only by taking the I
+
+01:17:51
+partial derivative acting on the function behind well in this case is f after l a b c d after X inverse the entire X inverse map but then the I derivative you see I used the X and I used the I this was the definition and this is the partial derivative on a map let's check from where to where does the map go from X inverse that means it goes from X of U which however uh is a subset of C Star Cross C Cross C ahuh very good uh goes into um you you go to a point you go to a point in the manifold in SL2 then you
+
+01:18:36
+make a left translation okay you stay in SL2 and then you have a function that takes you from SL to C into the complex numbers so I should say this is a function that goes of course into the complex numbers aha okay very good this is a function from C3 or some open part in C3 to C I can definitely take the first the second and the third derivative and not the derivative with respect to the first entry the second entry and the third entry and this is what this guy means in a cartisian product this tells you Which slot you
+
+01:19:08
+take the derivative of this here tells you much more it tells you there is a chart in between a chart map and that that's why you have to write the X now we I remind you that we agreed that you saw the symbol very often before but wherever you saw it well apart from in differential geometry wherever you saw the symbol before it was illegally used in our notation this is what should have been used always and this is a very special symbol okay you remember I I I made quite some point out of this if you
+
+01:19:38
+forgot ask in the problem class or go back to the notes there so the nice thing here is uh these abstract definitions they actually now are filled with our special definitions of this product on the uh on the group well we'll come to that let me continue here so we have this this guy okay so we have this guy now um so this makes sense but now I want to go one step further and I insert yet another pair of chart map an inverse chart map I write Del I darn l i of f after X inverse after X well
+
+01:20:30
+that obviously has no effect right after L sub a b c d after X inverse very obviously nothing at all happened okay um right so but now I can choose the associativity of the Circ and I find that this here is a function that goes from uh C well from some part of C3 well let's not be so picky here the only thing I want to check is whether we can do this by standard by standard analysis rather than manifold Theory um C3 to C and this guy here it goes from some part of C3 via the manifold down to C
+
+01:21:29
+some part of C3 that's the situation and there is a composition in between and there is a derivative it's multi-dimensional so we need the multi-dimensional chain rule but we can use the multi-dimensional chain rule so how does it work so that's the outer derivative and that's the inner derivative um huh okay so this is Del M of f after X inverse to be evaluated at X after l a b c d after X inverse of well where actually uh so let's go back we evaluate this guy up there that's a vector field as at F at a b c d
+
+01:22:25
+acting on if that means it you evaluate at AB CD right so you should write here that um no hang on that's not true no that's not true because we um we evaluate at one I I was one before I evaluate at 1 01 I evaluate at the identity I evaluate at the identity right so I should have written here MH I should have written here this is the vector there and the full definition of this guy is that it then evaluates at the point so it evaluates at X of 1 0 0 1 if there's a d by d x i at the point P then this is evaluated at in
+
+01:23:20
+the chart at the coordinates of that point agree so it's at that point and uh so here it must say all of this is evaluated at the point x of one1 okay and um so that's here the point x of 1 01 well the X itself is a triple you know it is um 1 0 0 are the coordinates of this point but let's write it here like this because you see now immediately comes the X inverse so it would be silly to to write here okay anyway so that's this and then comes a times and this is the times in the
+
+01:24:05
+complex numbers okay now you need to take the MTH component of this guy but what is the MTH component of this guy this is XM after l a b c d after X inverse and so that's this function and okay I wrote a bit too high because I want by by by custom I wanted to do a a fraction type thing to write d by D but it's not right because now again it's this D I from here this d i goes to the inner derivative but the MTH component and the outer derivative is the m deriv not the M the derivative in
+
+01:24:52
+Direction M or of component M uh of this outer function it's the multi-dimensional chain Rule and it's this d i here and the whole thing is evaluated at X of one 0 1 so this is nothing but the multidimensional chain rule which you learned in the first week of your studies okay just properly applied here aha uh what do I want ah yes so um let's look at this guy here I feed into this function this x of 1 01 but then it's eaten by the X inverse so up to here the 1 01 pulls through to here the left
+
+01:25:47
+transl translation on one with respect to ABCD on 1 01 however so let me right so this is 1 01 then acts the left translation on it and then it becomes AB c d obviously and then acts the X on it and then it becomes the tle ABC the triple ABC because these other coordinates do you agree so this guy is to be evaluated at this point but I rather write this I I do not com do the last step so I write that everything here is X of a b c d that's also true and I could evaluate this but I don't because I now look at this first
+
+01:26:37
+Factor D MF after X inverse evaluated at X of ab c d well this is nothing but d by d x m x at the point a b c d acting on the function f this is this first part do we agree up to here this is this guy right because if I present you with this you say Ah that's the D M on F after X inverse at position X of a b c d oh yeah that's what's written here okay so we go the step back here again but you see it's not undoing this whole thing because we I inserted this identity and I took this part and I separated this
+
+01:27:31
+off and here I end with this and this is of course so now I have a a multiplication a complex multiplication dot do dot do do do do Dot and now comes the second part here and this will be the interesting part we'll see in a second yeah we should evaluate this too and uh yeah how do we do this well before we can derive take the the diff um the derivative of this map we should maybe write down this map okay so consider um XM after l a b CD after X inverse that right yeah and you want to study this
+
+01:28:25
+map well you study a map by seeing how it acts on uh the domain the domain is something like X inverse something like ABC because uh it obviously acts on some X of U I have the ABC so now study this map what is it well equals well we can again go step by step so the X inverse acts on this and it makes out of it the a b c y + BC over a legal yes legal because we look at the chart U the chart U is good enough we're after all we're only going to be interested about points near the identity that's this guy so ah
+
+01:29:08
+okay bad idea AB c d is my okay thank you so um uh e f g I apologize so EFG e FG 1 plus plus FG by E right I think so okay so then you can act with the left translation on this guy so what do you get and now you see at this point the group law this funny strangely defined group law which we're familiar with from matrix multiplication but here it enters the whole thing now think about we're we're trying to get the Le bracket or Le bracket it on the tangent space we induce it from here what on Earth does
+
+01:29:58
+it have to do with the group well this when I now apply this to this by means of left group translation this is where the group law the very specific group law I used enters the whole thing and inherits all it has to say to the Lee algebra this is the point okay the rest is all formal dressing well we need the formal dressing otherwise we don't know what we're doing but this is the point where the the group structure is injected into the whole thing okay so AE plus BG AF Plus B1 + f g over
+
+01:30:43
+e c e plus DG um CF plus d 1 + FG over e correct good ah and finally I look at the M coordinate of this I look at the MTH coordinate well so I can write down all the coordinates under the X chart and then I pick the m one from it otherwise I have to write it down for three okay so how does the X take this guy well the X takes this one this one and this one is a coordinate ahuh a e plus BG a f + b 1 + FG by E and c e plus DG ah good what do we do with this well this guy is to be differentiated with respect to the I
+
+01:32:05
+entry it has and then evaluated here to be evaluated here so let's do that so then or therefore we can look at Del I of this entire line and evaluate it at the point X of 1 01 why well because we we're still lacking the second Factor here second Factor good aha the I entry but you see the I entry if I equals 1 it means derivative with respect to e if I use this formula second entry is derivative with respect to F next do you see how bad it would be if I wrote here D d by D A or something then I'd be totally
+
+01:32:58
+confused it instructs us to derive this with respect to the I slot it acts on now I know what that is okay so um how do I do this well I do this somehow component wise um so this thing has an m in it so it depends on M let me write it out otherwise uh we get into trouble XM after l a b c d after X inverse EV to be evaluated at X1 0 0 1 aha but now maybe this X10 0 1 we should really write it as 1 0 0 because that is what it is okay we evaluated there and uh so what is this well the result will depend
+
+01:33:49
+on the m and it will depend on the I the open so I may if wish choose the cemetery of numbers and I say I write m i and this guy here is the row and this guy is the column and this means nothing but writing down these numbers in a systematic way okay no nothing else is implied by this so I first fix the m to be one that means I look at this first entry that's m equals 1 and that means I'm in the first row so I now fill out the first row and I take this first entry and I derive it with respect to first to e then to F and then
+
+01:34:39
+to G so the first one with respect to e is a done the first one m equals 1 with respect to the second entry I equal 2 f is zero and then the first one first entry with respect to the third with respect to the G is B okay first line done uh we're confident we can do this in general so we look at the second one this is this guy we derive with respect to e aha not a problem this is minus this thing by e s of B1 + FG agree now we take again the second we derive with respect to the F that's not more
+
+01:35:30
+complicated that's uh B G by e b g by E agree okay you should really check my uh my calculation here pardon me ah AF oh yeah very good very good thank you thank you plus a so so the moment I encourage you you find a mistake okay good so um and then the second one with respect to the G is simply BF by E so I really hope that all of this is right because uh well it's an adventure for me too so it's this and now we take the third one that is this one we derive it with respect to the e that's a
+
+01:36:19
+c we derive with respect to F that's nothing zero and we derive with respect to G is a D ah so we calculated all these numbers for every I in every M well and we take this Matrix well Matrix this collection of numbers m i and we put it here and of course there is a summation over the M's why well because it was here summation over the M's and the result depends only on I ah that was the I tangent Vector at the identity we put in I with respect to the chosen coordinate system it makes sense
+
+01:37:04
+that there's an I left and for every x i d by dxi I get another result namely this so what does this all amount to ah pardon me are you're right you're right absolutely um oh okay okay okay okay so let let's see what we're doing here so I I should definitely not uh delete this um we push to the point a c d and we evaluate there and we evaluate here but hang on I I wanted to have a vector field ahuh so now I got to be careful so after all what I wanted is I wanted a vector field defined at every
+
+01:38:21
+Point AB c d that belongs to SL 2 C and I generated this from here so if I leave AB c d undetermined I have a vector field now I was already happy because I have here a basis of a vector field at the arbitary point A B C D ah but then this wouldn't depend on oh yeah yeah yeah no okay yeah okay I mean okay if we calculate right we have to evaluate okay I agree so we evaluate at 1 0 0 okay very good thank you thank you very much um okay now we got to be careful yeah but these are the entries that are handed to us so they are the
+
+01:39:13
+efgs but why are there still ABS ah of course of course yeah yeah yeah very good very thank you thank you okay so e is one but the F and the G are zero Ah that's good because that survives okay so we have a zero yeah yeah yeah very good b b * 1 + 0 is B by 1 is minus B minus B uh e is 1 G is zero it's just an a uh yeah very good uh e is one f is zero uh is nothing zero and C remains z d ah very good very good you saved me okay m i much simpler much simpler so these aha of course this is the only
+
+01:40:07
+stuff that now depends on the point where the V where the the field is and you see this guy acting on an F yields this guy here so now let me take this down here again so now it's uh much easier to to write down our final result here of this calculation equals so I acted on this F and now I because this is a complex multiplication I can write d by DXM at the point A B C D of SL2 C acting on an F I put the F to the right hand side like it is there and in front of here I have this Factor Matrix m i and it's a z
+
+01:41:03
+b minus B a0 and c0 D ahuh there you go so what did we find let me try to squeeze it here we found that the push forward L sub a b c d push forward on the I coordinate induced Vector at the identity so I this Vector at the identity is being pushed forward and of course yields a vector that's defined at AB c d equals I leave out the F because I can leave out the F here and I do it now for the first vector X1 that means I equals 1 that means the column is one that means I have to read down this column this equals a d by d
+
+01:42:10
+x one but this is the tangent Vector coordinate induced at AB C D minus B * d by dx2 at AB c d plus C * d by DX 3 at the point AB c d right this is the tangent Vector in the One Direction at the identity I push it forward to the point a BC D there it becomes a linear combination of the natural of the coordinate IND used um bases at the point a BC d with the coefficients a components a minus B plus C and so the same is true if I write here so everything stays the same but I write d by dx2 and everything else is the same
+
+01:43:07
+equals and then it has the factors minus B no zero a so there's only the a factor here no minus B was right no 0 a0 so 0 a0 so there's only a time d by dx2 that is at that point and the final one is the push forward of the X3 at the identity this whole dressing up here uh and you get b0 D so you get b d by dx1 at AB C D um plus d * d by dx3 at a b c d well do we have a vector field or don't we well we do okay so we constructed from a single tangent Vector at the identity no from three VAR different for
+
+01:44:10
+I 1 2 3 tangent vectors at the identity we constructed three Vector Fields Aha and now we can go up here to the double bracket and calculate it so I can now calculate now calculate I take the double bracket of DX well let's do a specific example I can take uh the first one at the identity because that is where this bracket should act and I can take the second basis Vector X2 at the identity and for this this bracket is defined that's the A and that's the B well but this is defined as the
+
+01:44:59
+differential geometric commutator bracket l a b c d push forward of this D by dx1 at 1 0 0 1 t t comma l a b c d push forward of the second Vector to this point AB c d starting here with a vector at the ident it but now this is a vector field and this is a vector field so I can now use the definition of the differential geometric bracket well I can act on an arbitrary function that always makes life simpler but because it's arbitrary I can just apply it's l well it's this guy but we know how this guy looks like
+
+01:45:45
+this is a minus B plus C this is a - b + C well d by dx1 but now at AB C D and these are related these ABCDs d by dx2 at AB CD and this is C * d by dx3 AB B C D at these points that's the first Vector field and the second one you plug in the same that's a d by dx2 happens to be a little simpler at point A B C D okay you act on an f and how do you do this well you know this is an abstract well I I just do it this is an X and this is a y Vector field and you know that this whole thing is XY minus YX on F what
+
+01:46:43
+does that mean well you first apply it like this then minus y you apply it like that but now you use specific speically this guy here well how do you let well first of all this is multilinear well be careful only our linear not C Infinity linear you execute this and of course you will always meet guys of this form d by dxi at position AB b c d acting on F but you know what that is that's Del I of f after X inverse evaluated at X of ab c d but that's AB CD right so these guys will appear everywhere you plug them in here
+
+01:47:31
+and you will come to result and uh ah aha bad definition bad definition of course I forgot something not so bad nothing nothing happened here I want to be again at at this point so I need to also do the back translation I need to go backwards again uh but that's also not a problem that's just l g inverse push forward I push it in the opposite direction again and of course the left translation has an inverse uh that's obvious you can check that uh L G inverse is the inverse of the left translation
+
+01:48:23
+very quickly seen so I have to put this thing here because only then are we back to this point at the identity because you see what would come out here would be a vector field Vector but at the point a BC D but we want to have a vector at the identity again so we have to plug in here l a b c d inverse push forward and of course we know how to calculate ABCD inverse and we know very very simple okay so this has to go everywhere here this L AB B CD inverse push forward and so you calculate this L AB CD inverse push
+
+01:49:02
+forward you calculate this and what you will get you will get a certain linear combination homework uh flower d by D X1 at the identity uh plus pine tree D by dx2 at the identity uh plus who knows uh star uh d by D X3 at the identity ah very good because if you now so we did this for one and two and of course what you read off from these coefficients you you read off the structure coefficients C one two because we had one and two and then uh here this m uh and that is uh flower pine tree star the MTH component so from this
+
+01:50:08
+calculation if you do it with the first and the second here you get these structure coefficients with down one two and C12 is flower c212 is pine tree c312 is star and then you do this for the other two independent combinations and what do you get you get the structure coefficients of small SL so you do this for all combinations there and you get the structure constants structure constants of SL 2 comma C please do this as a homework but you see this is now it's just simple uh simple calculation there two lines
+
+01:50:53
+time is up uh and there we pick up next time and we'll derive the dinkin diagram of the SL 2C algebra okay thanks [Music]
+

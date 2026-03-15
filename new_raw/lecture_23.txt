@@ -1,0 +1,330 @@
+00:00:08
+good morning welcome back today will consider parallel transport and to an extent this is the hoedown of the whole business about connections because using parallel transport especially on a vector bundle we can define for instance a covariant derivative and that's of course very useful but as I cautioned you at the beginning the notions of connection and parallel transport and covariant derivative they're all to be distinguished in general so it's what parallel transport well the basic idea
+
+00:00:48
+is the following and let me illustrate it in a picture and this picture deals with a principal bundle P down to a basement fold em and this b a.g principal bundle principal g bundle and for the purpose of this illustration let's say the dimension of the link group is just 1 and the dimension of the base manifold is to just that I can draw a nice picture now so assume somehow this is our base manifold and each point that is attached a fiber which is isomorphic to the group alright so everywhere there are these
+
+00:01:46
+fibers and now what we're considering is a curve in the base manifold so this is the starting point so say there is a point a in the base many fold and the point B in the basement fold and we consider a curve through the base many fold let's call this curve gamma okay so now given this curve we would like to lift it to the principle G bundle and there would be various ways to do that but a particularly interesting case is the one where the principal G bundle is equipped with the connection one form so
+
+00:02:31
+let's also assume that we have a connection one form Omega which of course induces or defines at each point of each fiber a little horizontal space if this is the point P in the fiber on the fiber bundle and then this green guy is the horizontal space at this point but of course at other points in this fiber there are other horizontal spaces so this is the this is what a connection one form induces in each fiber and so this continues so at this point may look like this then at this point look like
+
+00:03:24
+that yeah look like this and so on and this is of course throughout the principal bun root so this comes from this connection one form Omega and now we have a special way to lift this curve gamma from the base manifold up to the principal bundle namely simply by virtue of going to a particular point P here and asking is there a tangent vector is there a curve up here so let me let me draw it it may look like this okay such that I use the bundle projection PI here to map the curve down so PI predicts and down along this fiber that
+
+00:04:29
+the projection of the blue curve is the curve we started with that's the first condition second condition that this blue curve goes through a specific point here because I could also look at the point that goes through here and has this property and further that the tangent vector to this lifted curve has zero vertical component and that it lies entirely within this horizontal subspace okay in such a way that the push forward of this tangent vector here in this horizontal subspace under the PI map is
+
+00:05:10
+the tangent vector down here okay so these are four conditions that must be met and then we have a unique lift of this curve down here to the blue curve up there and in that case and I will write this down formally but that's the idea in that case this blue curve will be called the horizontal lift of gamma and we denote this by a little arrow here the idea will be that of course I can do this now for every point in a fiber and this way given a curve I get will see I'll get an isomorphism between all the
+
+00:05:53
+fibers where the curve along whose base points the curve passes okay but this isomorphism so how this point is being mapped to this point is being mapped to this point crucially depends on how the curve connects the two fibers if the curve connects the same two fibers in another fashion there may be a different map of this point to say this point okay so this this mapping between the fibers will depend on what path in the base manifold I choose and that this is dependent on the path and the basement
+
+00:06:31
+fold would lead to a notion of holonomy which we're going to talk about okay so that's the basic idea and once we have that we have such a an isomorphism between various fibers along a certain curve if the fiber we can also push this this is a principal bundle picture a very special principal bundle in picture in order to be able to draw it but we will push the whole formalism to the Associated bundle and once we did this we can look at very specific associated bundles to me namely associated bundles
+
+00:07:04
+that are vector bundles and there we can then use this isomorphous between fibers to push forward or pull back along this isomorphism elements in this fiber in this way to define a covariant derivative so this is the path starting with a connection on a principal bundle how we'll come to a covariant derivative on some vector bundle on which the group G acts from the left okay so this is the outlook this is the intuition so now let's try to write this down more precisely so first we start with the
+
+00:07:41
+idea of the horizontal lift of a curve so definition we first start with let gamma be a curve and we actually only interested in the curve in in this case a closed domain 0 1 because we're always now going to look at starting at 1 fiber and going to another fiber ok so that gamma be such a curve in the base manifold ok so it's important that this is the base manifold and with gamma of 0 being a point a and gamma of one being some point be in the basement fold okay now then the unique curve called gamma up arrow which
+
+00:08:48
+is now a curve from a B into the principal bundle of course this curve lives up here then unique curve through a point gamma hat a gamma arrow of 0 and this point will call P and this must be a point in the fiber over the starting point a so this must be in the fiber over a ok for which this which satisfies well first of all we need that the curve gamma up arrow the horizontal lift it's going to be called projects down to the curve we started from the first condition the second condition is that
+
+00:10:11
+if we look at the vertical part of the tangent vector to the lifted curve so what's the chance elected to lifted curve we denoted this by X and then the name of the curve here at each point along the curve so gamma hat of lambda if lambda is the curved parameter the vertical part vanishes everywhere so for all lambda in a be okay there's no vertical part and the third condition is that if you take this tangent vector and you push it forward along the projection map so pi push forward of X gamma up
+
+00:11:06
+arrow gamma hat of lambda so everywhere along the curve what you obtain is the tangent vector to the original curve in the base manifold X gamma gamma of lambda everywhere along the parameter range so this curves which satisfies this is called the horizontal lift the horizontal lift of gamma through and indeed this uniqueness here solely stems from this condition that you pick a particular point P from where you start and then it's fixed yes oh I'm sorry this this is of course the parameter range is 0-1 and the endpoints
+
+00:12:21
+are a bi I'm sorry so we parameterize from 0 to 1 and starting from the points a and B okay thank you so of course if we start at another point P here or P Prime here then we get another curve that connects all these fibers and which is a horizontal lift of gamma but it's a different one because this is the one maybe where should indicate this this is the one through the point P whereas this is the horizontal IFFT gamma horizontal through the point P Prime at the starting point here okay so their
+
+00:13:01
+various horizontal lifts of one curve but once you fix one of the points it goes through it's a unique curve but one can prove this but it's actually quite obvious so okay so now this is an a definition that allows you to check once you have a horizontal lift of a curve that it is a horizontal lift now we need a strategy to actually calculate and is to write down an explicit expression for such a horizontal lift of a curve so our strategy to write down an explicit expression for a horizont for the horizont lift if I
+
+00:14:06
+talk about the horizontal lift I always chose the point P it's supposed to pass through is to proceed in two steps so the first step which we'll discuss and turn the two steps the first step is to generate the horizontal lift from some arbitrary curve in the principal bundle that projects down to original to the original curve to generate the horizontal lift by starting from some arbitrary curve Delta which is supposed to be a curve also from 0 to 1 in the principal bundles that bundle that
+
+00:15:31
+projects down to the original curve so if you execute the projection map after this curve Delta you get that curve by action of a suitable and of course this needs to be said immediately what I mean by suitable of a suitable curve G and this is now again a curve from 0 1 but with values in the Lee group of our principal bundle then we such that the horizontal lift at a certain parameter value lambda be given by the arbitrary curve Delta there but then moved within the fiber at each point by the value of the curve in the
+
+00:16:48
+group G of T okay so um the idea is if I draw this picture again so this is again our principal bundle so assuming that I have my curve gamma in the base space so this is the curve gamma I wish to lift gamma and now the idea is take any curve green curve Delta in the principal bundle as long as it projects down to the curve which is of course insured if it runs through the same fibers okay so this is the arbitrary curve Delta well not so arbitrary it projects down to gamma and whatever the parallel transport sorry
+
+00:18:08
+deep on the horizontal lift of the curve gamma is so this is the gamma up arrow I would like to generate it by starting from this Delta curve and finding at every point the suitable G the suitable little G that takes me from here up there okay and that's of course then a curve G because G will change from point to point okay it's absolutely clear that I can do this no matter how exotic this Delta here is depending of course what it is I will be able to find a group element that takes me to another point
+
+00:18:54
+in the fiber namely precisely the point where I want to go but of course I need to say this imposes a condition on this G all right so that's the strategy by which we proceed here okay by a suitable curve and in fact we will write down an OD e an ordinary differential equation for this curve in the group in the group manifold and if that ordinary differential equation is satisfied it will be guaranteed that acting with this curve in the group on the arbitrary Delta curve in the principal bundle will
+
+00:19:43
+get the horizontal lift of gamma and of course this OD e for this curve must involve the Delta because it will be a different curve in the group depending for four different Delta's right so that's the that's the strategy we're going to go to follow okay questions so far yeah to be seen topologically so thank you okay so that's the first step and then once we we have this differential equation well let me write it down the suitable curve G from 0 1 to G will be the solution to an ordinary differential
+
+00:21:02
+equation with the initial condition that the curve at 0 in the group is an element G 0 where G 0 is the unique group element for which the Delta at point 0 the value of the arbitrary curve in the prints of bundle at 0 is taken to the point P in the principal bundle through which the lifted curve is supposed is supposed to pass so if this is the point P so there will be an ordinary differential equation and the second step in the explicit construction of the horizontal lift will then be an explicit
+
+00:22:18
+solution of the OD e so we will explicitly solve the OD e for the curve G by a path ordered integral well we will locally will locally explicitly solve the OD e by a path or an integral over the local young mills field which you remember is a the algebra valued one form on the base manifold that contains all the information about the connection one form if one throws in as well the knowledge about the market our form of the Lee group which we did last time okay so what we did last time with the
+
+00:23:37
+yang-mills field will now use explicitly in order to obtain an explicit expression for the horizontal lift okay so well let's start at one we have the theorem the ordinary differential equation for the curve G is ad G inverse push forward oh the one form Omega in the principal bundle evaluated at the point Delta of lambda so we move along this arbitrary curve and we plug in a tangent vector in the principal bundle which will just be the tangent vector to this arbitrary curve along at each point Delta of lambda okay
+
+00:24:47
+plus the market our form a long G of lambda R so here it's also G of lambda inverse so we of lambda inverse and this market our form here and this is along the tangent vector now there's a different construction along the curve Jean so that's a tangent vector in the group it's therefore a ya tangent vector in the group in the tangent space TG of the group three equals zero so this is the Eau de to be solved with the initial condition that G of zero the precisely that G zero we identified here okay and
+
+00:25:56
+indeed this is the first order of the e which may not in this abstract formulation may not be obvious at first sight but there is the tangent vector to the curve so this is the G dot okay and so this is the first order or the e which we need to solve now however this is a theorem and it needs to be proven but this is actually not too difficult and of course the proof amounts to showing that show that now taking the Delta of lambda and acting on on it from the right by G of lambda satisfies all properties of the
+
+00:26:58
+unique horizontal lift curve gamma hat of a curve gamma where the lifted curve is through the point PNM and that's the point of appearing here okay and so this goes to the new problem sheet which is which I'll send to you today okay so this is the task at hand and you see the arbitrary curve from which we generate by this curve G in the group manifold which we generate this lift of course makes its appearance in this differential equation it must so from this we have an immediate corollary and their pains off what we
+
+00:28:08
+calculated last time this corollary is that if G is a matrix group some subgroup of some GL okay if G is a matrix crew then the OD takes the form so we remember that the push forward here simply amounted to taking the matrix and multiplying it from the left through the one form field with Omega Delta of lambda along X Delta Delta of lambda and that of course remains okay and then coming again from the right so these here they are now matrix multiplications okay and but nevertheless this is Lee algebra value
+
+00:29:21
+would this is group valued but because we have a matrix group the group elements can act by matrix multiplication on the lie algebra elements this is just if you wish a numerical coincidence here but that makes it very simple and here the market on Form we also calculated for this case and we found that it's the inverse of the group element acting here and it acts on well on the G dot of lambda where the G dot is just the derivative of the matrix element so there's another matrix multiplication here the
+
+00:30:00
+derivative of the matrix elements with respect to this lambda so we wrote DG by DT or something and that's this thing equal zero and in this form we of course see because we have a group we could multiply from the left Bhaiji of lambda and we get equivalently G dot of lambda equals minus G of lambda inverse acting on omega long Delta of lambda to the tangent vector at each point here and then again G of lambda and that of course resources in this context that this really is a first order Oh de for
+
+00:30:47
+this curve in the group yeah that is correct thank you thank you yeah that's right that's right that's okay so um and in this form it's obviously not too all inspiring now however this is still written in kind of this global way in particular we still have the D globally defined connection one form here which is very elegant but for actual calculations we need to look at a local trivialization in order to write down expressions we can further manipulate that's right that's right well because you don't know
+
+00:32:02
+what the curve is so that's not it so so you choose one arbitrarily and I say well take the one that looks precisely like this I'm going to show an example like this and you write down explicitly but you can choose an outer a curve totally ignoring what the connection one form is and now what you want to obtain is a horizontal lift which depends on the connection one form but to guess that curve is very difficult and to write down an arbitrary curve it's very simple and you may have reason to choose
+
+00:32:34
+this arbitrary curve over that arbitrary curve because you can now quickly construct it or something this but then the question is how do you get from there to the curve you want it it seems a little bit complicated to to to do it this way but you see we reduced the problem of finding the horizontal lift of a curve we reduced it to solving a first-order OD e on the group manifold okay so nothing to do with the principle bundle and well my appearance of this curve Delta it already has but it's it's
+
+00:33:12
+always the same sitting setting you you go to this group manifold you solve an OD e there and you derive everything from it that you want so um so that's the way to proceed here okay okay so um in order to calculate you know whenever we calculate we need to take numbers and to put down an object in terms of numbers or to define in terms of numbers and we do this by going to a local chart on the base material so in order to further manipulate to further yeah well further massage massage it is all de we focus on a local
+
+00:34:07
+chart on the local chart you with coordinates X of the base manifold so now in addition to this local chart choosing of this local chart in addition we choose a section Sigma of the principal bundle you recall that that means that pie after Sigma is the identity on em now such a section induces two things so this induces two kinds of objects so the first thing we get from this we get a curve Delta and now here you get your arbitrary curve in this context you get a curve Delta as Sigma after the curve gamma in the base
+
+00:35:25
+manifold so remember we want to calculate the horizontal lift of gamma so gamma is given in the basement fold now we have a section Sigma so maybe I draw a picture again so we have our curve gamma in the basement fold from one point a to another point B we clearly move along a number of fibers on the way and now I chose a curve a section Sigma here which to every point in the base manifold attaches a point in the fiber Oh that specific point in the basement fold that's a section and you see by defining
+
+00:36:19
+Delta a sigma after gamma I get one such curve Delta now I don't remember what the color for Delta was before but now the color for Delta is green okay so this is a green curve this is an largely arbitrary curve well I generated it from the base curve by the choice of an arbitrary section okay so you say it gets worse and worse first you tell me to choose an arbitrary curve now you produce this one by choosing an arbitrary section but well you see the choice of an arbitrary curve here that projects down to gamma is
+
+00:36:57
+equivalent to choosing a section because with the section I can always go from gamma up there to the same fiber which automatically ensures they're projecting down the Delta I get gamma again that was one was the only condition for our arbitrary curve here that it projects down to gamma so now we did it via a section okay now what we also learn from this is that if we now for the such defined curve Delta if we look at its tangent vectors what do we know well this is a tangent vector this is
+
+00:37:41
+the Sigma and I know that if I take the tangent vector to the curve gamma down here so let me take the tangent vector to the curve gamma in the base space at some point gamma of lambda we know that if this curve Delta has been produced as the image of gamma under Sigma that the tangent vector to Delta can be obtained by the port forward of this tangent vector under sigma so we can actually take the push forward of Sigma of this tangent vector here and what we will obtain is the tangent vector to the
+
+00:38:33
+curve Delta we produced thereby at the same point of the parameter space okay so this is an immediate conclusion from here so now once we have that we recall that in the old e we have the expression Omega along the arbitrary curve Delta applied to the vet tangent vector to the arbitrary curve you remember that was one of the expressions appearing in the Eau de but which in the situation we produce now we can write this X here as the push forward under Sigma of the I'm sorry so this is omega of so the Delta
+
+00:39:39
+is Sigma after gamma right of lambda and we can write this here as to push forward under Sigma of what of the tangent vector to the curve gamma at this point this is what I just wrote down here agree aha but what is the Omega evaluate on this Sigma star this is exactly the definition of the pullback of the Omega at the point gamma of lambda acting on the selling vector gamma of gamma of lambda by definition of the pullback right but this gentleman here and this is the whole point of having generated or one
+
+00:40:40
+of the points of having generated the curve Delta here by virtue of a section we know what to pull back of the connection one form via a section is its D and I'm sorry the the section should have started on it should be a local section here it's only a section on the on the local patch this is nothing but the yang-mills field gamma on U which is defined by virtue of the section the program should always write gamma of U but it mainly depends on this Sigma so this is this one form in this one form
+
+00:41:25
+of course it's this tangent vector here okay and the whole thing is Li algebra valued but if it's a one form and this acting on this tangent vector and this is a tangent vector to the base menu fold I can of course use the coordinates I have just chosen so I have here a mu and here I have the gamma well technically speaking what I have is the is the well let me write yeah it's the tangent vector to the curve gamma at the curve at the point gamma of lambda but it smooth component so this action I can
+
+00:42:11
+of course write in this form right at the action of this one form on this vector because this really a tangent vector to the manifold and of course I should say here this is at the point gamma of lambda good so I said this induces two objects well this is the second object I meant so one this and okay second we already used it it it uses this gamma use Sigma as the pullback of the one form okay that's the yang-mills field which we already used used in there okay so that's the the virtual this is the
+
+00:43:09
+benefit of localizing the whole thing here so going through some you in the base space considering the situation they are being able to choose a local section of the principal bundle you know the global section would mean the principal bundle is trivial which in general is not the case but a local section we can choose and thereby we relate this arbitrary curve via the section to this curve at the same time by the same section we relate the one form to the corresponding yang-mills field okay so by going local we can
+
+00:43:48
+express this in terms of an Avianca notes field okay so this is this part and then of course in the special case so again in the special case special about important case of a matrix group the OD e becomes locally so what do we have we had this where this g dot right so g dot of lambda equals - and now came this guy so this is gamma so I I don't write you Sigma we know it depends on you sigma gamma mu at the point gamma of lambda times the tangent vector to this curve well this is a very complicated way to write this we could
+
+00:45:12
+also in local components of the curve under the coordinate map could say this is the derivative with respect to lambda right this is certainly true in the chart and and then we had another G of lambda there right G of lambda this is what this becomes so you see this this arbitrary curve business where we may have been wondering why we take this arbitrary curve this arbitrariness translates was here encoded in this section and the section translates in a young Milt field which is also only defined with respect to a section okay
+
+00:45:56
+so going through a young Milt field has to do with choosing this arbitrary curve another choice for this young Milt field by virtue of another section would lead to another arbitrary curve we start from okay so at this level apparently the arbitrariness has vanished but of course it hasn't because in the in the definition of the young roots field this arbitrariness is still encoded right so anyway so this is this this thing and we should never forget that this comes with the initial condition that G of 0 must be this
+
+00:46:32
+particular G 0 we determined or we constrained before okay any questions so far so now once we have an Eau de with an initial condition the questions of how to solve it and this seems not too difficult because it's the first order oh oh de but you see the coefficients depend also on the variable lambda and that makes it of course difficult okay so this cannot just be integrated if these these factors here up to here didn't depend on gamma the solution will be just some exponential and that's it
+
+00:47:27
+okay but that's not the case so the question is how to solve this and well simple solution is we just integrate this up but of course that's not the final solution so first step we write down G of lambda or let me now true the difference let me choose T G of T equals well G of 0 is supposed to be G 0 so let's start with this and then I write - and then the integrals are integrate both sides this is just integration constant minus D lambda gamma mu of gamma of Lambda gamma dot mu of lambda
+
+00:48:40
+well in here is the G of lambda so this doesn't seem to have brought as far because we integrated the whole thing over lambda so that removed the dot here integration constant here we start here from 0 to T so indeed if we plug in 0 we get the G 0 so we integrate both sides over from zero to G D lambda so no secret so far but of course it doesn't solve the problem because the G want to calculate the PS here as a function again so this is still recursive okay now before we continue just keep in mind I mean it's obvious
+
+00:49:25
+but the whole thing is Lee algebra valued in particular because this guy here is Lee algebra valued and because we're in the matrix crudely algebras a matrices of the same size one could say its matrix valued okay now of course I emphasize this because if we should have fantasies of commuting several guys of this at several points of course not possible because we don't know whether it commutes or not not for different lambdas anyway so this is the the first step and well now how does this proceed
+
+00:50:08
+well of course we can continue like this we can start you know we can now do the following we have an expression for G of T the G of T appears here again so we can just insert on the right hand side this expression again because the expression is valid okay maybe better this way wrong okay so strategy insert this expression into itself so there's nothing implicit about that so we get G of T equals G 0 minus integral from 0 to t d lambda well let's call Artie Lambda gamma mu of gamma of Lambda gamma dot mu of lambda and now I
+
+00:51:22
+need to insert it into itself so what I get I get a factor G 0 that's this then I get a minus but there's already a minus so I becomes a plus and I repeat this part of the expression 0 DT D lambda gamma mu of gamma of lambda is repeated and now there comes another integral which of course I can pull in front integral D lambda but I only plug in the G of lambda so that only runs from 0 to lambda now I get here conflicts so called this lambda 1 lambda 1 I call this nu 1 lambda 2 then I keep
+
+00:52:03
+the order so before I had this come a mu at the point lambda 1 and then I get a gamma gamma dot mu at lambda 1 and then times the gamma mu gamma of lambda 2 gamma dot new Atlanta - ok G of lambda G of lambda - right yes G of lambda - aha okay what have I achieved well I made the whole thing more complicated without apparently achieving anything because well this term is can I can be calculated now it could be all the time this one can be calculated now there is no more recurse recursion in here
+
+00:53:00
+because this is just a fixed G zero from the beginning only in this third term do I still have this G of some lambda that's running namely from zero to lambda one that hasn't been determined now the strategy of course is to continue inserting well for simplicity we take this one because they are both true who insert this one again into here and of course what you get so I'm inserting again dollar into pound so this is pound and this is dollar and so on we get what do we get well let me try to done is g0 - now we
+
+00:54:11
+get here a simple integral right from zero to lambda D let me call it D lambda 1 or 2 0 to T and D lambda 1 and well let me call this entire thing here gamma of lambda okay just this is just a short form this is gamma of lambda wels gamma of lambda 1 ok and the g 0 i factor out in the end so i take here the identity on the lee algebra ok or rather rather here the identity here - this then comes a + now comes integral from 0 to TD lambda 1 but here only from 0 to this lambda 1 D lambda true gamma of
+
+00:55:05
+lambda 1 gamma of lambda 2 - now comes a triple integral 0 to t be lambda 1 0 to lambda 1 D lambda 2 0 to lambda true this previous one D lambda 3 now come three gammas gamma lambda 1 gamma lambda 2 gamma lambda 3 plus and so on more and more integrals but at the end of every one is the ISTE G 0 okay and it continues like this this is what happens now wouldn't it be fantastic if we got rid or are there any questions so far yeah oh that was this G 0 here that I just reproduced by 1 acting on G 0 so
+
+00:56:14
+the identity acting on G 0 gives you this G 0 now this integral is already Li algebra value would and act on G 0 I just factored the G 0 out and that will appear repeatedly yes exactly exactly and if you continue if you continue with this as a series then we'll just have the G 0 here now we would like to write this in I mean this is to solution ok so if you want to calculate this you have to can calculate this to any arbitrary precision by continuing in this series now it would be nice to massage this a
+
+00:56:52
+little and it's a little annoying that this integral here only runs up to lambda 1 instead up to up running up to as well and here it gets worse this runs to lambda 1 and this lambda 2 lambda 0 the first thing we would like to do would like to convert this expression such that every integral runs from 0 to T and that's a well-known trick so you see what you have you have here these lambda 1 and lambda 2 so lambda 1 so I do it for this integral that the rest will then be be clear lambda 1 and
+
+00:57:33
+lambda 2 and so the lambda 1 runs from 0 up to some T which is given for all the integral to the fixed number so the lambda 1 runs over this range and the lambda 2 however only runs from 0 up to the current value of lambda 1 that means the lambda 0 runs like yeah so the combined integral runs over this domain you agree that's the domain of the double integral and so the idea is that you can actually also let it run over the entire domain if you put a factor 1/2 in front and you can let this guys
+
+00:58:32
+will be do the same thing in three dimensions you can let it run over the entire if the domain 0 t 0 t 0 t if you put a 1 over 3 factorial in front 1 over 4 factorial 1 over 5 factorial and so with that ok but what you need to keep but now that's not the thing if it was if these were simply numbers this were true then we could simply write X of minus because we need to produce this minus integral from 0 to t d lambda gamma of lambda and this would act so the this entire square bracket would be this X so
+
+00:59:24
+introducing an unnecessary bracket but it clarifies which terms it would simply be this this expression here you have them powers of this integral repeatedly but the problem is if you do this in these powers how are the powers of this integral to be ordered because it's not the case that this is just this one integral this times the other because there upsets this path ordering so it's not precisely an exponential it is a path ordered exponential okay so the square bracket is the path ordered
+
+01:00:05
+exponential now if you ask backwards what's the path order exponential well you anyway you defined in terms of this okay so the whole business with with this domain change and in finding these factors of the exponential this is very pretty to explain the notation but it's also pretty useless because it's not the exponential it's the path ordered exponential because that would be wrong because these guys don't commute so my argument here is actually slightly wrong it would only apply if these guys
+
+01:00:40
+commuted otherwise you have to write down the path or that integral exponential and and that's actually defined like this so therefore the : this here okay so if you meet this path order exponential if you want to make sense out of it you need to write down this and then of course you would be crazy to integrate from zero to T and you do it from here to here and then you save yourself from the 1 over N factorial factors of the exponential because they went away yeah from here I mean that that's the idea
+
+01:01:24
+- plus my to hear this - plus - so of course just if you put the gram okay okay yeah sure yes yes it's really well policy you have this o de and at the point of this o de it is it certainly has a a local solution okay and but because we're on ally group this can actually be extended to a global solution it's very similar to the issue with the left invariant vector fields that they are complete okay so in general you wouldn't know but on the lis group you do that's it okay but anyway
+
+01:02:20
+this is the explicit form here the upshot of everything we said is that locally the horizontal lift of a curve gamma and now I only consider its values in this local patch we had and on which we have by our Sigma a lift to the corresponding principal bundle is given by the explicit expression and that is what we were after gamma hat don't have gamma gamma up-arrow horizontal lift of gamma is so we wanted to generate this from an arbitrary curve in the principal bundle but we did this by actually lifting the
+
+01:03:36
+curve gamma to the principal bundle by some section Sigma which we chose so that's our arbitrary curve Delta and on this one we acted from the right by our G of lambda our curve in the group however this we recognized to be given by the path ordered exponential of minus integral 0 to t D okay now I wrote T now I need to write lambda here because I wrote lambda here okay so now exchange the roles that won't confuse you the T and here we had the connection one form gamma along the curve small gamma times
+
+01:04:38
+the coordinate representation so we have also from here from the UA coordinate representation into our dim M and we take this quadrant representation then of this curve and then we can just take the derivative component wise of this guy but this whole path ordered exponential X well after it was calculated it acts on g0 and produces from one group element another one and this entire right hand side it's the group element at the point our router or lambda here again is trippy et this is the group element at parameter
+
+01:05:36
+value lambda by which you have to move within the five of the principle bundle from this point in order to get this guy okay so once again the full picture the manifold M it's the curve gamma down there it's the various fibers through which this curve runs the other fibers are not of interest at the moment we have the section Sigma so this is this gamma here that appears here in several places okay we had this section Sigma that takes us from the base manifold to points on the bundle there and the Sigma appears here
+
+01:06:45
+but you know it also appears here in so I put the Sigma up here which means this young Milt field depends on this choice of Sigma and that is kind of reasonable because if I have here I want to find something it only depends on gamma but I start from something that depends on Sigma well that must be modified in a way that depends on Sigma in order to get something it doesn't depend on Sigma at the end okay makes sense must must look like this then we get this arbitrary curve here so maybe I show
+
+01:07:26
+this one in blue so this is the arbitrary curve Sigma after gamma okay and then I use this path ordered exponential here always acting on the same g0 anyway that depends on the point lambda and that is what brings me by action of this entire was actually rather the uh-huh so I should rather make everything here green okay so by action of everything in the round green brackets I am moved along the fiber to another point in the fiber at each point okay why not going back here also possible okay and the result this white guy here that
+
+01:08:35
+is the curve that results from it and that's the horizontal lift okay so this is how this works and this is the guy you go to calculate okay okay questions are fun so then we have another definition of actually the central object we're going to use in parallel transport in the definition of covariant derivatives and so on again let gamma be a curve from 0 1 into the manifold and let gamma up arrow from 0 1 into the principal bundle be the horizontal lift well let's now indicate this by putting
+
+01:10:01
+a sound P here the horizont lift through a point P in the Phi bar over the point gamma of 0 let's come up zero this gamma of 1 this is the fiber at this point then the parallel transport map transport map T which takes you from the fiber over the initial point of the base space curve to the fiber at the final point one of the base space curve so this is the fiber here right ok so let me call this the initial fiber let me call this the final fiber so this is really a map between some finitely separated fibers ok it's
+
+01:11:40
+not something differential it goes from one fiber to a fiber that may live far away but which is connected by a given curve lambda then this parallel transport map what does it do well no no no it's the it's the lift through through this point and by the lift through the point we always meant that you pick the point here and then it's the unique horizontal lift that goes at the initial point through this p oh I'm sorry I am sorry this is I'm so used to writing the open intervals here
+
+01:12:34
+but here we really need the the closed ones happy okay good thank you sorry I misunderstood the question okay so um now from this initial fiber we might not may now take an arbitrary point and what point do we associate to it well we appreciate the point rate that corresponds to the horizontal lift of gamma but there are several ones unless I specify what the initial point is it goes through a passes through I do this year but then I evaluate this at 1 so that means I arrive at this point over here this point over here this is the
+
+01:13:21
+point gamma horizontal lift passing through at the initial point through the point P but evaluated at 1 this is this guy here so the idea is extremely simple pick two fibers and connect them by some given curve and then there is a map that maps this point P to that point here in the other fiber and to which point this P is mapped emphasize again crucially depends on which by which path you connect the two fibers to obviously many ways you can connect two fibers by a path you can run run around here as
+
+01:14:11
+often as you wish and then you go here that will give you another map T so the map T takes you from here to here that's this map T so it should be probably well it should be labeled by everything it depends on well it depends on the entire curve gamma that's the point it depends on the entire curve gamma where it starts where it ends what path it takes and so on this is the parallel transport map goes from the five over the initial points to the fiber at the final point that's the parallel transport map now the question
+
+01:14:47
+is and that's the key property of this guy it induces a bijection between these two fibers the set-theoretic by direction of everything is continuous it will be a homeomorphism if everything is smooth it will be a difference on but speaking only set theoretically because you can always choose what additional structure you want it it uses a rejection how do we see this why is this true well so observation G gamma is a by injection between the initial fiber and the final fiber and this is essentially
+
+01:15:33
+due to if you think about it the fact that the push forward of a horizontal space at some point actually is the horizontal space at the point P acted upon from the right by G that means within the fiber this guy moves you within the fiber here and if you then if you then look here at the expression of this parallel transport map you learn that your moved here in the same way and really by moving from this point to any other point here you can generate from here any other point there and the T map
+
+01:16:24
+is of course equivalent with respect to that and so you get a bi direction from here to there so that means at the end of the day where we come from from a connection on the principle bundle a connection on the principle bundle always affords you with a bi ejection between one fiber and any other fiber depending on how you connect the two fibers this is all in the principal bundle now there was the question for closed curves so let me say something about this so considering the case of loops there
+
+01:17:20
+is a curve or curves gamma from 0 to 1 in the basement fold with gamma of 0 is gamma of 1 so you go to a certain point here you have a fiber over here and now you consider a loop down here you move away but you decide to return ok it's a loop in the base space and it's loop based at gamma of 0 well call this little a in M at this point and now of course you can again ask the question if I start at a point P here and I look at the horizontal lift of this curve gamma up here where do I end up and in general
+
+01:18:24
+one will end up at another point in the fiber obviously one needs to return but one ends up in another point ok so start here and end there and again once you arrived here you know that there is a unique little gene in the group that acts on this P to produce this guy let's call it the G the G little gamma because it depends on this kind of gamma and this point up here will be the starting point P acted upon from the right by the little G depends on that gamma right okay you could get here by the count by the trend by the
+
+01:19:26
+parallel transport map and there's such a G and this G sub gamma is very interesting and we have them a definition definition let a be point in the basement fold and gamma a loop with base point a that is gamma of 0 is gamma of 1 equals a then the sub group hole at the point a and that depends solely on the connection one form on the principle bundle it's the set of uh-huh ok so if I write it down locally ok I was tempted to write it down locally but I think I will then run into trouble what I need
+
+01:21:02
+to do is I need to say this is the set of all the G gamma well okay oh yeah so I need to express this guy over here okay so before I finish this ice I say I look at the parallel transport map for this guy gamma for this loop and I know that that associates with a point with any point P the point horizontal lived through that point at one but I know because this is in the final Phi bar and the final fiber coincides with the initial fiber this is because we have a loop gamma as a loop I know that this can be written as the
+
+01:22:06
+original point I started from and that there is a unique group element G sub gamma I just call it like this that produces this result from this P this is the guy I wrote here and I take all these G gammas which have this property for all loops for some loop gamma yeah for some loop gamma . okay so the idea is start where you wish and then take all possible loops and come back to there and see what results you get but express the result by how far you had to move this point by a right action and obviously this whole
+
+01:23:29
+thing is a subgroup of the of the lis group we're looking at and that's called the holonomy group whole Omega a is called the holonomy of well of the connection one form of the connection on that principle bundle so this is because you asked about closed closed loops so this is something you can do with closed loops and let's indeed a a special case okay and the Helana me also gives you information about the topology of the manifold so all of this all we did happened on the principle bundle okay so
+
+01:24:37
+don't be fooled by the simplistic picture with these pictures with this one-dimensional fiber that was just the special case of a one-dimensional e group that I chose in order to to be able to draw pictures at all but in general the fibers are the entirely group and if it's higher dimensions higher dimensional but then of course the same ideas in general definition supply so thankfully transferring the whole business to the Associated bundle just rests on one single definition and that is particularly simple and then
+
+01:25:12
+everything can be transferred so we have the definition let P PI M be a principal G bundle and Omega a connection one form on P on this principle bundle and now let's further P sub F be an Associated fiber bundle on whose typical fiber F the group G acts from the left by this object by this action so remember the the total space of the principle of The Associated bundle so I should actually complete this so there is a map PI F that goes to the same base space and you remember how this total space was
+
+01:26:46
+constructed so recall that the total space of The Associated bundle was constructed as the hang on a second as the pairs of a P and an F in P cut his iam product F where the one a second how was this I no no no no no it was it was this equivalence class is that right okay hang on a second right this consisted of these equivalence classes P comma F okay for P in P and F and F where a pair PF was declared to be equivalent to a pair P prime F prime by definition if there existed a G in the group such that P
+
+01:28:15
+prime was obtained from P by the right action of G and F prime was obtained from the F by left action of the inverse of the G right so this was the construction for the Associated bundle okay and now let alpha or let gamma be a curve at end point zero one in the parameter space in the basement fold and let gamma hat sub P be a curve in the principal bundle which is the horizontal lift the horizontal lift of gamma through which becomes unique by specifying a point P in the prints of bundle through a particular point P but
+
+01:29:22
+that must be the initial point in the fiber over the initial point of the curve then now the definition comes so this was all preparation then the horizontal lift of gamma in the associate bundle or to the Associated bundle to the Associated bundle that passes through now we need to specify a point in the Associated bundle that puck passes through the point PF in The Associated bundle is the curve so we need a new name for it gamma up PF gamma up to PF instead of up to p is a curve from 0 1 2 PF and it's
+
+01:30:57
+defined by gamma up PF of lambda is simply the element of the the curve in the Associated bundle constructed from gamma up of lambda comma the initial F that's it so this is the horizontal lift of gamma through the associate bundle that passes through this point that's the whole name of this object and simply generated like this okay it may appear odd at first at this point if it passes initially through remains there right throughout the curve but remember everything that happens in front of here
+
+01:31:57
+by the equivalence relation can be understood as something that happens back there okay so this is this is the definition okay and and so yeah this defines this horizontal lift and another definition which I'm not going to spell out because it's totally obvious is well also spell it well anyway the parallel transport map port map T which still depends on the curve gamma in the basement fold but this is now the transport map on the Associated bundle and it starts in the fiber of the Associated balances this pi
+
+01:32:56
+f preimage that's the bundle projection here / f preimage of gamma of 0 it sends you to the PI F 3 image of gamma of 1 so it's the initial and the final fiber now in the Associated bundle and again well you take take a point in there which which needs to have this form PF okay and it's been mapped to the corresponding gamma up to PF through the point P F if we wanted to indicate the particular fact that this passes through this point like we did before we would indicate it here and we take this guy
+
+01:33:50
+and evaluate it at 1 as of course again an element of The Associated partner but now in the final fiber then the parallel transport map is defined as and again also in The Associated bundle it will provide a bijection between the fibers okay which also in the Associated bundle provides a by ejection or homeomorphism or different morphism between the fibers okay so that means this is inherited very easily okay and so on the final remark to this section is the following if F is a vector space that means it's equipped with an
+
+01:35:14
+addition and an S multiplication okay let's call it an R this is a vector space and the action the left action of G on s is linear then this associate on the PF is called a vector bundle was just a very special case of an associated bundle but what you can do now is of course fantastic because now this is M now this here are again fibers that's a different picture from the one I drew before from the several ones I drew before because now this fiber F is attached at every point the fiber F F
+
+01:36:20
+and the whole thing here supposed to be a local picture of the Associated bundle and what you can now do you can actually take a point here and you can take a point over there like for instance you could consider a section of this vector bundle a section of this vector bundle would be a field an F valued field on the base manifold and now you can actually define a covariant derivative along a curve and I only indicate it because it will be on the problem sheet if you now want to know how this say
+
+01:37:11
+blue section so um let haha field let Phi be a section if you want a local section on this vector bundle so that tie after Phi is the identity on M okay let this be a smooth map a smooth section then we can think of this Phi right as a vector value but not tangent vector will but F vector on a vector in F F valued field and now we can define a covariant derivative of this guy because we can ask at this point if I move in that direction here so let's call this capital so X is an element of the tangent space
+
+01:38:07
+of M at a point little at the point a down here so this is a point a and M okay and now what we can do we can actually consider some curve gamma to which this is a tangent vector and finally this curve gamma we can follow this curve gamma along its parameter value T but we don't need to follow it very far so you can now think of this fiber being very close but we follow it for some T and we can ask how is this blue dot here transported to over here we could also ask how can you if you walk this curve backwards how can trust
+
+01:38:59
+me but let's say how is this guy transported over here parallely transported over there and you know there will be a unique horizontal lift gamma up to PF that's what we justified lift of this curve into the Associated bundle and you'll arrive here but now because you haven't that's the point because you have a vector bundle you can now take the difference between these two points you can then calculate the difference between the value of y the value of the file at this point here at
+
+01:39:42
+gamma of T and the value that parallely transported value here and that gives you a number and if you divide that number by the parameter value T down here you have a differential quotient this way you define a derivative but you see in the differential quotient there is a minus sign and the minus sign that comes from here that's just the additive inverse of the vector space structure on the fiber I put this on the problem and this is the idea behind constructing a covariant derivatives so what we will
+
+01:40:22
+learn a covariant derivative comes you can first of all only be defined on a vector bundle how well if we consider this vector bundle as The Associated bundle of some principal bundle that carries some connection because if the principal bundle carries some connection it has a parallel transport that parallel transport is inherited or it has a horizontal lift of the curves this horizontal lift of curves is inherited to the Associated vector bundle and there gives you the means to compare this value with this value by comparing
+
+01:41:03
+it in the same fiber because you can only compare in one in the same vector space and a special case of this special case is that this is a vector space of the dimension of the manifold and you obtain by in the way we assured it before you obtain the tangent space this way you understand the tangent space of the Manning the the tangent bundle of the manifold is an Associated vector bundle and then of course the whole thing applies in the special case of this special case and then you can inherit from the connection one form on
+
+01:41:37
+your principle bundle the covariant derivative on the tangent bundle of the manifold which very often is just called an affine covariant derivative right this is the guy you use in Francis general relativity but in quantum mechanics for instance you might take as this fiber you might take the complex numbers and then this complex numbers their vector space of course trivially a complex vector space in that case and then a wave function can be taken to be a section of this C line bundle which is
+
+01:42:13
+just an Associated vector bundle here but if you know how to act on this guy how this is associated to some appropriate and we'll talk about this principle bundle you can have a covariant derivative here and in fact that is actually what you and in order to be independent of Cartesian coordinates you need to understand the wave function as a section of the C line bundle over the base manifold that's associated to an appropriate principal bundle with the connection okay so this this is where
+
+01:42:52
+all these guys all this runs together and and of course if you have non abelian gauge theory then you're still on the principal bundle because then you have your gauge group and then the yang-mills field immediately it's a non abelian gauge field right the MU so our gamma sub mu is then D D D mu of non abelian gauge theory ok so Jung Mills theory happens there on the principle bundle but say what you need is covariant derivatives and general relativity or in quantum mechanics this happens on associated bundles ok so this
+
+01:43:28
+is not exactly the same but it belongs very close it's very very tightly connected ok so this will also be on the problem sheet so that you get some practice in in dealing with this and next time I will finish the purely mathematical part we'll talk about curvature it's the curvature of a connection and I also talked about torsion but whereas curvature is defined for any connection on a principal bundle torsion is only defined on Associated bundles that have a where there is an additional structure
+
+01:44:04
+also called soldiering form so a torsion is not as general a notion as curvature is nevertheless we'll we'll discuss this and we'll come to the Kotton structural equation and that then completes the mathematical part and then we will continue with some physics applications you
+

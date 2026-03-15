@@ -1,0 +1,110 @@
+\section{Classification of Sets}
+
+With these foundations we can actually proceed to an important topic. That's 1.6: classification of sets. Now this is an important exercise. Every time you defined a notion in mathematics, you immediately ask: what is the classification? How many different objects of this type do I have? How do I get an overview over this structure? It's fine to write down a definition; it's fine to write down, in this case, nine axioms. But we would like to have an overview: what type of, in this case, sets are there?
+
+But this is something that doesn't only happen in set theory; it's a recurrent theme in mathematics. So let me write this down.
+
+A recurrent theme in mathematics is the classification of spaces by means of structure-preserving maps between those spaces.
+
+So we have to clarify what we mean by spaces and we have to clarify what we mean by maps. A \emph{space} is usually meant to be some set equipped with some structure. And in the beginning of the course I told you that we'll put layers of structures on top of each other. So we'll equip sets with more and more and more structure. And that's the structure I'm talking about here. So it will be topology as the next step, then it will be a differentiable structure, and so on. Okay, but it could also be other structures, like a group structure---so you give an operation on a set, and so you add structure like this. And every time this principle applies: a space is usually meant to be some set equipped with some structure.
+
+And now you want to classify such a space. Well, the case of sets is of course a trivial instance of this, because it's a set without additional structure. Okay, fine. But it's nevertheless a set, and a structure-preserving map in the case of set theory simply becomes a map, because there's no structure that could be preserved---well, it's the structure of the set itself, but it's kind of the lowest-level structure, and we'll investigate this. In the case of sets, the structure-preserving maps are simply maps.
+
+So obviously we need a notion of map.
+
+\textbf{Definition.} A \emph{map} $f$ from a set $A$ to $B$ is a relation such that for every $a \in A$ there exists exactly one $b \in B$ such that $f(a, b)$.
+
+What does it mean, $f(a, b)$? Well, it means $f(a, b)$ is true. You remember, a relation of two variables can be true or false. And if $A$ and $B$ are sets, then a map from $A$ to $B$ is such a special relation such that there exists for every $a$ exactly one $b$ in $B$.
+
+Now, our standard notation for this somehow hides the fact that $f$ is a relation that eats two variables and produces a truth value. The standard notation for this is to write
+\[
+f : A \to B, \qquad a \mapsto f(a) \in B.
+\]
+And you see, if you say $f$ is a relation, then this is an abuse of notation, because the relation needs to eat two objects and produce a truth value. But once we agreed that for every $a$ in $A$ there exists exactly one $b$ in $B$ such that $f(a, b)$, then $f(a)$ is precisely this $b$. Okay, so this is then defined as precisely the $b$ that's unique such that $f(a, b)$ is true. And that's the standard notation, right?
+
+But structurally speaking---well, I don't know whether it's important, but it's at least structurally correct to keep in mind that a map is actually a relation. If you don't look at a map as a relation, then you get into trouble, because you have to say: well, a map is such that to every $a$ there is assigned a unique $b$. The question is: what do I mean by ``there is assigned a certain $b$''? What does it mean to assign to one element in $A$ another element in $B$? This notion of assigning is not defined. And so it comes from a relation. Okay, so that's the basic idea of a map.
+
+So there's some further terminology. If you have a map $f : A \to B$, then $A$ is called the \emph{domain} of the map, and $B$ is called the \emph{target} of the map.
+
+Then there is an object that we write down as $f(A)$, or sometimes we write it down as $\mathrm{im}(f)$, the \emph{image} of the set $A$ under the map $f$, and it is nothing but the set defined by restricted comprehension:
+\[
+f(A) := \{ f(a) \mid a \in A \}.
+\]
+And of course we know that this must lie in $B$ by definition, so it's really restricted comprehension. We can define it like this. This is the image.
+
+And then we have further definitions, also well known to you.
+
+A map $f : A \to B$ is:
+\begin{itemize}
+\item \emph{surjective} if its image $f(A)$ coincides with the target, so if every point in the target is hit by the map;
+\item \emph{injective} if the equality of two values of the map---if $f(a_1) = f(a_2)$---already implies that $a_1 = a_2$;
+\item \emph{bijective}---and that's the key notion---if it's injective and surjective.
+\end{itemize}
+
+And bijective is the by far most important notion.
+
+And in fact we have the following key definition.
+
+\textbf{Definition.} Two sets $A$ and $B$ are called \emph{set-theoretically isomorphic}---so they're called isomorphic in set theory---and for this we write $A \cong_{\mathrm{set}} B$---if there exists a bijection $f : A \to B$.
+
+Now you see, we just require the existence of some bijection. And by not asking for a particular bijection, this becomes a property of the two sets: they are such that there is such a bijection.
+
+An important remark is: if there is any bijection at all from $A$ to $B$, then generically---that means only in exceptional cases this is not the case---generically there are many. That means there is not a unique such bijection. The whole criterion is: there exists such a bijection.
+
+And the intuition about this is: pair up elements of $A$ and $B$. So if you have two classrooms, one with boys and one with girls, you can ask: are they isomorphic? All you've got to do is pair up the boys with the girls in pairs, and if there's nobody left, then obviously you have a bijection. Because to every boy you find a girl---but you find exactly one girl, so it's injective---and surjective, and every girl gets a boy, or gets assigned to a boy.
+
+Then you have the intuition of equal size. But it's actually better than an intuitive notion of equal size, because it also works---and it's designed to work---for infinite sets. For finite sets, equal size is an easy thing: you just count, you say it's the same number. But for infinite sets, that's not so easy. By the way, we could clarify what an infinite set is.
+
+And that's already the promised classification. Classification of sets by way of studying structure-preserving maps, and the structure-preserving maps are the bijections in the case of set theory.
+
+\textbf{Definition.} A set $A$ is called \emph{infinite} if there exists a proper subset $B \subsetneq A$ (a proper subset is a subset that is not equal to the set---so $A$ contains an element that $B$ does not contain) such that $B$ is set-theoretically isomorphic to $A$.
+
+Now for finite sets that's an immediate contradiction. If you have a finite set $A$---say the finite set $\{1, 2, 3\}$---and you have a proper subset, the set $\{1, 2\}$, okay, it's a proper subset. Then $\{1, 2\}$ is not isomorphic to $\{1, 2, 3\}$; you don't find a bijection there. So for finite sets this seems impossible. But this is precisely the signature of an infinite set: that there exists a proper subset such that the subset, however, is still isomorphic to $A$.
+
+So a typical example would be the integer numbers $\mathbb{Z}$ and the natural numbers $\mathbb{N}$. Right, $\mathbb{N}$ is a proper subset of $\mathbb{Z}$, because $-1$ is not in $\mathbb{N}$---that suffices. Okay, but nevertheless, $\mathbb{Z}$ is isomorphic to $\mathbb{N}$: you can write down a bijection. So that is infinite.
+
+Now if it's infinite, there are two different types of infinite.
+
+\textbf{Definition.} A set $A$ is called \emph{countably infinite} if $A$ is in fact isomorphic to the natural numbers, i.e., to the non-negative integers. The intuition is: if you can label the elements of a set---if you can attach a label, number one, number two, number three---if you can label all the elements, the set is called countably infinite.
+
+And the set is called \emph{uncountably infinite} (also called \emph{non-countably infinite}) otherwise.
+
+And then a set is called \emph{finite} again otherwise---but now the ``otherwise'' of course refers to this level of the structure: if it's not infinite.
+
+Okay, fine. So that's the classification of sets, and there is not more to be said. Well, maybe that if you have a finite set $A$, in this case $A$ will be set-theoretically isomorphic to the set $\{1, 2, \ldots, n\}$ for some $n \in \mathbb{N}$, and then we write that the size of $A$ is $n$: there are $n$ elements in $A$.
+
+That's the classification. Any questions so far?
+
+Okay. So, some more words on maps.
+
+Well, given two maps---so the first thing is that given two maps, we can build a new map. You see, it's always the same. Given two maps, $f : A \to B$ (and sometimes it's convenient to denote the map on top of the arrow), from $A$ to $B$, and another map from $B$ to $C$---let's call this other map $\sigma$---given two maps, one can construct a third map. In this case, the map we would name $\sigma$ after $f$. So we read this: $\sigma \circ f$, which is a map from $A$ to $C$, and it assigns to $a$ the value $\sigma(f(a))$.
+
+That's the \emph{composition of maps}. And very often this situation is diagrammatically represented by writing a diagram: $A \xrightarrow{f} B \xrightarrow{\sigma} C$, and then you write $\sigma \circ f$ along the direct arrow from $A$ to $C$. And if you're very precise you say that this diagram commutes. But very often people don't write this explicitly; by writing down this diagram, they say: there it is, it commutes. Which means you can go this way or you can go that way, and if you start from here, you arrive at the same result. And if then this arrow is called $\sigma \circ f$, that obviously defines $\sigma \circ f$: an element in $A$ is first mapped by $f$, and then the result is taken on by $\sigma$ and mapped to $C$. And this is this map.
+
+Well, this might seem overkill as a notation, but we later on meet situations where many maps go from many places to many other places, and then actually these diagrams are much more convenient than writing down the data in the traditional way.
+
+Now, quite obviously---but it needs to be checked, but it's a one-liner---obviously composition $\circ$ is an operation on the space of maps, because of two maps it makes a new map (but only if the target of the first map is the domain of the other map). Obviously, composition $\circ$ is \emph{associative}. So if you have a third map, $\sigma \circ (\psi \circ f)$, and you first evaluate this, then it ought to be the same---and it is the same---as $(\sigma \circ \psi) \circ f$. Okay, composition is associative.
+
+Now, you need a composition in order to be able to speak of an inverse map. If you have no composition, you can't speak of the inverse map.
+
+\textbf{Definition.} Let $f : A \to B$ be a bijection. So only for bijections we define the following. Then the \emph{inverse} of $f$ is the map $f^{-1} : B \to A$ defined uniquely---so there's no ambiguity---defined uniquely by:
+\[
+f^{-1} \circ f = \mathrm{id}_A \quad \text{and} \quad f \circ f^{-1} = \mathrm{id}_B.
+\]
+So you need the $\circ$ in order to speak of the inverse. $f^{-1} \circ f$---well, let's for practice write the diagram: $A \xrightarrow{f} B$ and $B \xrightarrow{f^{-1}} A$. So if you do $f^{-1}$ after $f$, you go back to $A$; you require that the result is the identity on $A$. And if you go the other way around, $f \circ f^{-1}$, then it's the identity on $B$.
+
+And the identity on a set $M$ is a map from the set to the set where every element of the set gets assigned to itself. That's the \emph{identity map}, which obviously we have for every set.
+
+Okay, so an inverse only exists for bijections. Now, however, another notion which we're going to meet in topology particularly is the notion of a \emph{pre-image}. And the pre-image is kind of something like the image of the inverse, but actually the map you look at doesn't need to be a bijection; it can be any map.
+
+\textbf{Definition.} Let $f : A \to B$ be any map. Then we define the set
+\[
+\mathrm{preim}_f(V) := \{ a \in A \mid f(a) \in V \},
+\]
+where $V \subseteq B$ is a subset of the target of the map. The pre-image of $V$ under the map $f$ is defined as all those $a$ in the domain whose image under $f$ lies in the specified set $V$.
+
+Okay. Now if you have a bijection, then the pre-image of an individual element will always be a set with a single element. Obviously, if you have a non-bijection, then the pre-image of a one-element set can be a set with several elements. Okay, but so the pre-image is always a set.
+
+It's called the \emph{pre-image} of the set $V$ in the target with respect to the map $f$.
+
+All right, it's all basic notions. It's convenient to fix notation once and for all. So that was the classification of sets, and before we leave set theory\ldots

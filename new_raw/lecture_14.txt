@@ -1,0 +1,375 @@
+00:00:01
+[Music] uh in the previous lecture we studied Le groups and the Lee algebra that is associated with the Le group now in the next lecture not today but in the next lecture we'll go the opposite way we'll start with a Lee algebra we want we want to study which leag groups and which part of a leag group uh we can can actually go back to starting from the algebra so to Recon how to reconstruct the group from the algebra now today however we'll remain on the Lee algebra level and ask a question that's quite
+
+00:00:45
+independent of the question where the Le group The Lee algebra comes from we'll study a classification of all Lee algebras and that's possible uh but it's particularly simple if we study complex Le algebras so if we require that the Lee algebra we study consists as always of a vector space and a Lee bracket which you may now take as an abstract Le bracket um but this L is a complex Vector space now of course such complex Lee algebras can be generated for instance from a complex Le group so
+
+00:01:42
+example if G uh is a complex Le Group which simply means that the underlying smooth manifold G uh is a complex manifold as we defined it when we studied various uh transition conditions between charts and you may remember that for a complex manifold uh the transition functions didn't only have to be smooth they had to satisfy the Ki reman equations anyway we're going to consider complex Lee algebras in this sense today and the key theorem that things about the promised classification is by Levy now today I'm
+
+00:02:37
+not going to prove very much so I will give you several results uh without proof but um I will be conceptually clean uh in presenting the entire construction of this classification and the theorems that link together the various constructive elements and that's of course important important for applications so the theorem uh we want to work towards is that um every finite dimensional Le algebra well we said complex Lee algebra consisting of a complex Vector space l some abstract Le bracket bracket can be
+
+00:03:38
+decomposed as so the L can be written as a Le subalgebra r a direct sum Le algebra L1 direct sum dot do dot plus a finite number of such Els now now this be great in fact it's a little bit more complicated uh this here these here are direct sums and I'll say something about this in a second and this is a so-called semidirect sum and I'll have to explain this now if you have a so I'll explain what R and the L's are where a so let's start with r and also what uh the sty direct sums and uh
+
+00:04:31
+direct sums and semidirect sums are because on the level of a vector space you know what the direct sum is the direct sum is simply a cartisian product to which you inherit the addition um um yeah the addition so the vector space operations on the various Vector spaces component wise we had this and but now we're not dealing with a mere Vector space the vector space is equipped with more structure namely a Lee bracket and then this is a direct sum between Lee algebras and therefore um we'll have to
+
+00:05:09
+uh have a compatibility condition also for this bracket and I'll provide this for the semi-direct for the direct product here and the semidirect product um also or particularly the semidirect product uh has a different compatibility condition with respect to this bracket so I'll explain all of this in a second so what are these R L1 to Ln so this R uh is a Le sub algebra of L and it has this particular property that it is solvable and uh the solvability condition is the following so you
+
+00:05:59
+consider uh the bracket of r with r now this is of course supposed to indicate the set of all R1 R2 commutator where R1 and R2 both come from R so if I put the set in the brackets I mean this object so you can look at this but you could also look at the commutator where you feed into each slot the commutator this set now this set here will always contain that set over there and now you can continue this sequence you can now again write down a commutator and you feed into each of the slots you feed this entire set here you
+
+00:07:00
+feed it into this slot and you feed the same set into that slot and that again will be such that the result is contained in this set and so on and the crucial question is will this sequence ever terminate and it can only terminate if at some point this is just the vector space that contains only the zero if an only if it does terminate like this then we call r a solvable algebra okay so that's the first bit R is solvable so you can always decompose a finite dimensional complex Le algebra into a solvable bit with a direct sum
+
+00:07:52
+I'm going to explain what that means and such a bit so what is this bit it's B the L1 to Ln are so-called simple Le algebras so I said here that R is a Le subalgebra of L that's true but uh actually in order to State the theorem we only need to know that R is a Lee algebra in its own right which of course a subalgebra is and so the L1 to Ln are simple Lee algebras now what does that mean that is by definition a Lee algebra is simple if I pick out an arbitrary one if Li I is ail non ailion all right and L1 or Li
+
+00:08:53
+contains no non-trivial ideals now what is an ideal an ideal is a subset of an algebra such that if you take the commutator of any element from the ideal so again use this notation where I um take the freedom to insert an entire set here meaning take any element from the set here an ideal is a subset where um well it's not only a subset it's a sub Vector space sub Vector space so where if I calculate the bracket between any any element of the sub Vector space and the entire Vector space the result will however lie again
+
+00:09:53
+in this sub Vector space so in a sense the I elements they are so strong even even if you bracket them with an element from outside you remain inside the I that's an ideal all right and a non-trivial ideal well I explain to you what a trivial ideal is it's obvious that um this Set uh and the entire set are always sub Vector spaces of the entire set trivially and equally uh it follows that whether you take the zero or you take the L so let's do it for the zero uh and you bracket it with any element
+
+00:10:39
+in L of course you'll always get the zero so now you can yeah okay uh and equally if you take the entire L then you just land here so that means these two guys are always ideals right they're always ideals and hence it wouldn't make any sense to require that l or l i here well so Le algebra is yeah I it wouldn't require um let's put an i here everywhere it wouldn't make sense to require that Li contains no trivial ideals no ideals because always contains these so this exclude so apart from
+
+00:11:28
+these two Li I contains no uh ideals and that constitutes a linear a simple algebra and everyone L1 L2 up to Ln finite number of these uh are simple okay so we understand this a little better so every finite dimensional complex Le algebra can be decomposed as a solvable algebra semidirect sum I'll explain in a second and a direct sum of lots of but finitely many simple Lee algebras now let me elaborate a little on the direct sum and the semidirect sum so that's uh C the direct sum plus between Lee
+
+00:12:26
+algebras um so if I have l 1 + L2 this is meant in the sense of direct sum of a Lee algebra so if you go back here uh I should have maybe written here every everywhere direct sum as a Lee algebra and semidirect sum as a Lee algebra and so the direct sum between Le algebras is actually if you consider this as a pure Vector space it's first of all the standard direct sum between Vector spaces but plus the condition that this separation in into two parts um resp is respected by the Le bracket that means you take any element from the
+
+00:13:15
+first uh Vector space and any element from the second Vector space and you take the bracket of these two and that's of course the bracket in the big algebra L um that that be zero so these two parts don't see each other with respect to the Le bracket so that's this direct sum okay and uh then D you have the semidirect sum semidirect sum plus s well that can only exist between Le algebras because otherwise you wouldn't have enough structure on a vector space to to Define this so um our example was an L an R
+
+00:13:58
+semidirect with resp respect to Le obviously and then comes some say L1 that's shif fies um again as a vector space this is a Lee algebra hence in particular a vector space this is a Lee algebra hence in particular a vector space um this is the direct sum between Vector spaces no questions asked plus the additional condition that um the braet of any element of R and any any element of L1 in this case well won't be zero that would be a direct sum that it is in R again so that R is here an ideal
+
+00:14:47
+so that's the semidirect sum and uh so we can Now understand go back to the theorem again now we have everything clarified every finite dimensional complex Lee algebra decomposes into a semidirect sum of this part which is a solvable Lee algebra and a direct sum of simple Lee algebras so that's the basic Levy decomposition theorem which we want to use and there are a number of remarks in order so the first remark is that it is very hard to classify uh the solvable algebras hard to classify the
+
+00:15:39
+solvable Lee algebras now uh so at least there's no classification known you have to rely on a Case by case analysis um B is that it is indeed possible to um classify the simple Le algebras but another remark first um the Eli algebra that uh has no solvable part that is which can can be written as a direct sum of Lee algebras that are semisimple that are simple so if each of these are simple but there is no solvable part uh such a Le algebra uh is called semi simple is called semisimple okay and that's uh something that's very
+
+00:17:02
+easy to check as we will see in a second and remark see is that in these lectures obviously um so the solvable algebras we can't classify so let's focus on semisimple Lee algebras and obviously we don't need to classify all semi simple ones because they again decompose into a number finite number of Lee algebras that are simple and that don't see each other because this is the direct product in the Lee algebra sense so it suffices to study one of these building blocks in order to understand any Lee algebra that
+
+00:17:42
+decomposes like this so um the uh simple Le algebras simple Le algebras um are the building blocks are the independent building blocks we will classify okay so that's what we're going to do in these lectures um and there is some preparation needed to do this so preparation of the classification so there actually two technical constructions so the first one is the so-called adjoint map so Define so let um L bracket be a complex Le algebra quite generally um and let small H be some element of
+
+00:19:07
+L then we Define the following map add H so this is the name of the map for each AG you define a new map with name add AG what does the map do it takes an element in L and it Maps it to an element in L in linear fashion and it's defined as follows so you take an element small l in L you map it to add H acting on L and the definition of this is simply the commutator well the Le bracket I should say not not clear whether it's a commutator it's the Le bracket of H with L or um simply uh at
+
+00:19:51
+H is symbolically written uh H and the second is an open slot so at H eats a Le algebra element and splits out the Le algebra element and of course it does so in linear fashion because in particular in the second entry the lead bracket is of course linear so that's the ad joint uh called the adjoint map with respect to the element H in L that's the Ed joint map and we'll use that quite heavily so of course only again one of these formal tricks uh where you say I could perfectly well Express the
+
+00:20:40
+commutator why do I need to write it like this well it's again one of these formal tricks very often it's just convenient to just think of this map rather than to think of this map as it acts on something that's always the same the same thing so that's the um the ad joint and we'll look at that in in a basis in a second so but before we look at the components of the Ed joint map in a basis we'll uh Define without choosing a basis yet another uh object of the utmost importance and that's the
+
+00:21:15
+following so throughout this lecture L will be a complex Lee algebra and sometimes yeah complex algebra and so now we Define The Killing form um the bilinear map the bilinear map k um that takes two elements of the Lee algebra and Maps them to the complex numbers in following fashion Al a by linear map um that K of well A and B elements in the Lee algebra is defined as so what can we do we can take the ad joint of the element a that's a linear map from L to L and we can of course compose it
+
+00:22:07
+with another linear map from L to L which we choose to be the ad joint of B so this in total is a linear map from L to L and of such a linear map of such an endomorphism on L we can of course take the trace okay and now because we're on a well anyway this bilinear map uh is called The Killing form now form is a little unfortunate well it refers to bilinear form which needn't be anti-symmetric so in previous lectures we uh defined differential forms and forms and they were always anti symmetric so this form is not uh
+
+00:22:55
+supposed to imply that uh it's rather going to be a killing well it's going to be a symmetric uh bilinear form so this anyway this is called the The Killing form that's a traditional terminology and immediately we have the remark that uh because L is a finite dimensional Vector space uh it follows that the trace I have here uh is uh cyclic you know that the trace only is cyclic over finite dimensional Vector spaces this caus a lot of trouble in in in quantum mechanics that this doesn't
+
+00:23:35
+gener generalize to infinite dimensional Vector spaces but here the trace is cyclic uh and hence the killing form kab for any AB in the Lee algebra is the same as K ba so it's symmetric in its entries so it's the first remark about the The Killing form now the second remark I wish to make is that if L is semi simple or rather we have L is semi simple if and only if and only if the killing Form K is n degenerate I think I mentioned this before but I say once again what N degeneracy means uh it means for a
+
+00:24:26
+bilinear form if for all a in L it's true that K of a comma B is zero that already implies that b was zero so this is the non degeneracy of a symmetric by linear form and so you see the semi Simplicity um that the algebra can be written as a direct sum of simple algebras or in other words that it doesn't have a solvable part U that sounds like when it is actually at first s not so easy to determine but all you have to do is you calculate the killing form of the Lee algebra and you check uh
+
+00:25:07
+whether it's non degenerate if it's non degenerate there is no solvable part now this may seem a little abstract at first side because this at a and at B um there are these uh Maps I defined but you can actually really calculate this if you go to a basis so um now consider for actual calculations uh the components of add of some H and uh The Killing form with respect to yeah with respect to what well this add a is a map on the lead from the algebra to the Le algebra that means in particular it's a linear
+
+00:26:01
+map on the underlying Vector space and the K is a bilinear non degenerate form if L is semi simple uh on the underlying Vector space so with respect to a basis um of this Vector space and uh we could choose this space we could call the spaces well it doesn't matter um let's call it E1 we're going to use the ones later um well call it capital E1 to capital E dim L okay and how does this work well it works this always uh if you have such a basis of L then you can definitely write down a dual basis Epsilon 1 to Epsilon
+
+00:26:56
+dim L of the finite dimensional dual Vector space l star um and then you find the components of a map add of H but why should we choose an H we can immediately plug in one of the basis vectors here so add of EI uh that map will have components let's call them j k um that you get as follows as Epsilon J acting on ad of uh E I acting on e k because that is how you get the JK component of an endomorphism you plug in the E and you extract this one by the Epsilon well this just this always this dual construction it's
+
+00:27:56
+essentially it's the definition of components of a tensor well but now we can calculate this this is Epsilon J uh add EI i e k is simply the commutator EI with e k all right and um Aha and now there is a an important definition we make we make it in this derivation here so this commutator of course you take an element from L you take another element from L and you calculate the commutator the result will be an element in L well but L is a vector space and we've chosen a basis so certainly this result can be
+
+00:28:35
+expanded in the spaces with coefficients CM but of course the coefficient will depend on what Vector you plugged in here which of the basis vectors in this case and so we should label them by the I and the and the K of these two basis vectors as well so it's clear that such uh coefficient CM i k in the complex numbers exist this is clear uh since the result of a bracket is again an element in L okay hence this is clear Aha and these guys here they have an uh an important well role if you go
+
+00:29:27
+to components they're called the structure constants that the structure constants of the Lee algebra well with respect to the chosen basis of the underlying Vector space the structure constants ah so we can continue our little calculation here uh this yields Epsilon J of structure constant C m i k e m well here's of course a summation convention at work but now the Epsilon J they're co- vectors elements in L star so certainly you can have the constants jump out you get CM i k Epsilon J of e
+
+00:30:20
+m now we can choose independent bases e and Epsilon L and L star but if we choose the Dual basis Epsilon 1 to Epsilon dim L with respect to this basis uh which you remember is defined as Epsilon J on EI is Delta ji we can always do that uniquely determined then this is a Delta JM and the result here is c j i k okay so this I from here here appears down here in the middle and the J K appears here and here uh if you um submit to this definition of the structure coefficients so in fact the structure
+
+00:31:13
+coefficients are very simple thing a very natural thing to calculate here and the add of the I basis Vector is nothing the components JK of that are nothing but uh this collection of structure Coe I and that's very useful and that is why this map abstractly without having chosen a basis plays such a big role because in a sense it represents the structure coefficients but without having to choose a basis now so that's the add now we can look at the killing form in components so killing form in components
+
+00:32:01
+well how does that work very much the same way as always I take this bilinear form and I plug in the I and the J basis vector and this defines the i j component of this bilinear form with respect to the chosen bases that's always the same business but now let's plug this in so this is the trace of the add e I uh Circ so composed with ADD EJ all of this we take the trace but we know that if the Matrix representation of this guy is c i in the middle and let's call it J M okay uh that then the and the here it's
+
+00:32:53
+the J well let's call it n first J uh L something like this or k then actually this composition at the level of the maps is mimicked or it's it's not mimicked it's yeah it's mimicked at the level of the coefficients by doing this contraction here so it's this matrix multiplication of the representing matrices of the of the maps always remember that these guys just label which map you look at here and then of course the trace at the level of a matrix is just the diagonal the sum of the diagonal
+
+00:33:33
+elements if J equals K and know sorry j was bad here let's call this L okay because the J appears here again so it's then the trace of the diagonal elements so anyway this here I should maybe write this down so far what we wrote is the components of add EI cir add EJ the l k component all right and now you execute the trace well how do you execute the trace you execute the trace by setting L to L so by putting this here okay and that's it and so the killing form again k i j is C you write
+
+00:34:17
+the I here you write the J here these are these components and then there four indices open and you can only contract in one way you can contract this one with this one well you could contract in between but that's not meaningful uh and then you have an n and you have an N so that's the killing form in components and this is always very easy to calculate because this you get directly from calculating all the brackets of your basis elements and um and then you calculate this guy and recall then you look at
+
+00:34:51
+this Matrix and if it's non degenerate uh then the killing you you detected that the underlying Le algebra is already semi simple okay so I um again remark again emphasize because I said it before and now say it in slightly different words can emphasize um L is semi simple if and only if K is a pseudo inner product well what's a pseudo inner product it's a bilinear map from uh the vector space cross Vector space into the vector space and uh it's a pseudo inner product if it's non degenerate hence uh
+
+00:35:40
+I repeat it again like this so you just check whether this is a pseudo inner product and it will have a signature over R well we see the signature vanishes uh but that's this uh thing that's the uh The Killing The Killing form and that is is so you consider again add of some H some element in L is a linear map from L to L now in quite in general if you have a linear map and you have a bilinear form in our case k from L cross L to L um you can actually decide on whether the linear map is symmetric with respect
+
+00:36:23
+to an inner product so recall um um a linear map f it goes from some Vector space into the vector space is called anti- symmetric or symmetric right with respect to and that's important you need an um let's say a non degenerate in a product with respect to a non degenerate um bilinear form a symmetric by linear form to emphasize this B if by definition if B of f of V comma W is the same as uh B of V comma f w that would be symmetric uh so that's plus and the minus here in Brackets corresponds to
+
+00:37:43
+these brackets is anti- symmetric if you pick up a minus sign here uh for all v w in a vector space V and then here it's simply a fact and you can check that that um add H for any H in L is anti- symmetric with respect to the killing form Form K and you know for the killing form to be non degenerate we require the Lee algebra be semi simple um uh and for a simple Lee algebra in any case uh because simple implies semi [Music] simple and uh what we want to focus on from now on are these pieces L1 to Ln
+
+00:38:49
+that are simple and there we will use this okay so this was our preparation we we met the ad joint map uh with respect to a picked element from the Lee algebra we met the kartan uh The Killing form um and now we'll uh find the um the key definition for the classification and everything follows from this definition and the following theorem um so if L with this bracket is a Lee algebra um then the subalgebra then a carton subalgebra so it's a particular type of subalgebra Kon subalgebra uh traditionally carries the
+
+00:39:42
+name H for whatever reason probably because C was already taken by the structure coefficients structure constants so then a Kon subalgebra H is well as a subalgebra it's certainly a vector Subspace of the Le algebra Vector space so um Vector Subspace okay um and it uh correct um it's that and uh it's a maximal um uh subalgebra such that and now this is the key such that uh there exists a basis exists a bases um H1 to H subm of this sub algebra well if it's a subalgebra it's an algebra in particular
+
+00:40:59
+um it's a u there exists such a basis of age um that can be extended to a basis so extended means I take those base elements of the subalgebra but I find further ones let's call them e E1 to e Dimension d of the algebra minus M because we already have M basis vectors so we only need D minus M further basis vectors such that and now it comes such that uh the extension vectors E1 to E D minus M are igen vectors for any add of H where small H is an element of Capital H aha what does this mean
+
+00:42:19
+in in in a formula it means that I can take ad of H and I let it Act on E Alpha but I can do this for any Alpha from 1 to D minus M can let it act on any of these D minus M extension vectors that make this to a basis I should say to a basis of the whole Le algebra L and then I know this must be proportional to e Alpha again because that is what IG Vector means and there will be a proportionality constant that will of course depend on what Alpha I look at the E1 will have another IG value than the E2 and so on but this IG
+
+00:43:06
+value will also depend on what age I chose here obviously because for any other age this is a different map right so that means that this guy here including the of AG this will be some ID Vector okay and that's it so this is called a Kat subalgebra of a algebra full stop if something like this exists of course the big question is does it always exist okay so theorem says any finite dimensional Lee algebra possesses a Kat subalgebra it's the first part of the theorem that means such a choice can
+
+00:44:15
+always be made it's very special and this is the central equation for the classification so if there's any theorem to be proven it's this one but we're not going to prove it because a little involved okay but this is what you want to look up if you don't believe the whole thing Katan subalgebra and the second thing is that if L is simple uh then it follows that this cartan subalgebra is a billion which is to say that taking any Two element elements of H they commute so for any five dimensional Le algebra
+
+00:45:06
+something like this exists and if L is simple then you also know that these all commute with each other they are the Caton subalgebra they span the Katon subalgebra but the ad ages of those all simultaneously are diagonalized by these guys well the Ed h of all the ages are simultaneously diagonalized by these guys you oh if they're all simultaneously diagonalized this is what this thing says then they better commute well so it's consistent with what you what you know there so this is from this is from
+
+00:45:45
+there okay um right so uh now we make an important observation you might take this as pure notation you say it's the alpha IG value for a given age and for another age it's another Ang but if you now look at the left hand side uh you have that the left hand side here is H comma e Alpha and the right hand side is Lambda Alpha of h e Alpha right this is the left hand side it's just in fancy language but it's obvious that this is linear in h because this is linear in ag is linear in small H in
+
+00:46:41
+ag but that means that Lambda Alpha from H to the complex numbers if I feed an H into the lamb Alpha if I take triple the H it will pull out and as will the three pull out here because it pulled out here okay um and if you take the sum there will be the sum of such lambas so that means the Lambda Alpha taking this not as pure notation you can understand the Lambda Alpha without the AG as a map and as a linear map right there a linear map so it's important whether you write the of AG because then it's a complex
+
+00:47:21
+number or you leave it out then it's a linear map but that means or it's the same as this is also the same as um uh that Lambda Alpha is an element of the Dual space H star okay okay definition the Lambda 1 to Lambda D minus M because there as many without you see it's valid for any age but I do not always want to say and it's valid for any age so I rather speak of the Lambda Alphas as linear Maps it's good enough okay so Lambda 1 to Lambda DM which are all linear Maps so which
+
+00:48:12
+are all in ag star are called now this is traditional terminology but it's good terminology are called The Roots the Roots of the Lee algebra they're called the roots of the Lee algebra okay now we also have a name for the set of all rules um call F which is simply the collection of all these roots call this the root space or the root set I like better root set because it's really just the set and um you see it's a um it's a subset it's a subset of H star is the root set okay
+
+00:49:31
+um remark or remarks I um so again these are kind of like the IG values the linear functions defined by the IG values of the EDH linear maps and uh we found that EDH is anti- symmetric with respect to the killing form and we're over the complex numbers and so on and so on from this it follows after all uh that um that if Lambda is a root so I don't say which one one Lambda in the root space if Lambda is a root then it follows that minus Lambda is also a root so The Roots come in pairs if I have
+
+00:50:30
+root Lambda then I also have minus Lambda that has to do with the fact that um if something in anamorphism is symmetric with respect to a bilinear form and this form is symmetric but it's non it's non degenerate it's not necessarily positive if you think about all these um diagonalization theorems you have that symmetric endomorphisms can be always diagonalized right yeah if they're symmetric with respect to an inner product however this diagonalization theorem is destroyed once the inner product is not positive
+
+00:51:12
+definite makes trouble in in relativity because there you have this non only non- degenerate but no longer positive inner product got to be careful okay um however because you're over the complex numbers signature doesn't count because you always get rid of the signature by making complex spaces changes signature is only defined for real Vector spaces for by linear forms on real Vector spaces symmetric ones anyway the whole blah blah blah we have complex numbers anti- symmetric and so on uh after all I
+
+00:51:42
+can always find these block diagonal form where I have only uh minus ones and ones on little uh on little boxes on the diagonal right um and um and from this you come you can write this complex as I minus I on the diagonal and I minus I and and that gives this result that's the the plus I and that's the minus I but the I is already maybe absorbed or not anyway that's just a remark if you have a root you have always the negative of this is all also a root and um the other thing is that uh the Lambda
+
+00:52:26
+one so the the set fi um is not linearly independent it's just a just remark one can show this um it's not linearly independent however uh what we can do we can find a set of fundamental Roots I give this as a definition definition um a set of fundamental Roots Pi that's how it's called the set is called Capital Pi a set of fundamental Roots is a Subspace a subset of all the roots so I pick certain Roots I pick certain Roots such that um a this set now is linearly independent why do I talk about linear
+
+00:53:36
+Independence well this is a subset of a vector space so I can decide linear Independence or not but now I take a subset of the set such it's linearly independent and the property B is such that every Lambda every root that I found for any such root root there exists there exist um aha integer numbers N1 up to n yeah okay now we have to uh probably say if this is a finite set as we saw then this is a finite set so we can name the elements of this finite subset let's say down to to little r or little F like
+
+00:54:29
+number of fundamental Roots then you have numbers in one to and F from the integers okay so it's a definition you look for such a set of fundamental Roots such that any root you have in the F can be written as sorry as plus or minus but you have decide once and for all well you have to decide for every Lambda you have to decide okay so I to be mathematically clear should say exist such guys and there exists an Epsilon that's either plus one or minus one but for every Lambda you could choose a new one such that Lambda can be
+
+00:55:19
+written Epsilon times the sum I = 1 to F of these integer numbers and they can be zeros of these non- negative numbers n i Pi I okay it's very simple you get these IG values from the cartan subalgebra these roots these Maps but you want to only pick a subset of these guys so they get a special name they're called fundamental Roots such that they're first of all the subset is linearly independent whereas this was not linearly independent and secondly you also demand that you can generate every of the guys in five from
+
+00:56:08
+the subset but by only using non- negative numbers well that would already prevent you from if you chose a root would prevent you from choosing the negative root which we know is always also a root okay but these two are certainly linearly dependent this Lambda and the minus Lambda so I can only choose of any pair of roots I can only choose one of them so that I don't destroy this but if I had this I must be able to produce the minus sign well I will not be able to produce the minus sign if I only have
+
+00:56:41
+non- negative integers but then I need an overall sign that takes me to the negative that's something different than requiring that these guys are from Z because then the first coefficient could be positive and the second coefficient could be negative that's not allowed the either all positive or all negative because the Epsilon moves in there okay so this is the set of fundamental Roots uh and the fact is can always be found such Pi in F can always be found okay uh theorem in particular if I take only these
+
+00:57:30
+fundamental roots and I now don't only take these funny integer coefficients but I take any complex coefficient and I look at the span of this so I look at all complex linear combinations of this what I will get is I will get the dual of the cartan sub algebra so you see the lambas there were a subset in the in a duel of the Katan subalgebra but there were not a basis of the Katan subalgebra because they were not linearly independent but they have a very important role and so I need to know all
+
+00:58:08
+these roots but that there's redundant information in there I only choose a basis from these roots and they already span this entire guy okay so this is to be kept in mind um yeah that's that's this thing they they span it is ah so that's the set of fundamental rules uh and an important uh remark is as usual with finding a basis Pi is not unique that means two different mathematicians may choose two different sets of fundamental Roots but they're always to be chosen from the root space
+
+00:58:53
+from the entire root space okay so we need some more Machinery so we need more machinery and unfortunately this is the case but if you then follow the argument further on you'll see this is very natural Machinery maybe a little seem a little at hoc first but um the first thing we now Define is we Define a space with a fancy name HR star okay now what can this possibly be well we had the H star and that was the span over the complex numbers of the spaces and now I decide to take these fundamental Roots but to not take
+
+00:59:45
+complex linear combinations which would give me the whole H star but you guessed it I only take real linear combinations okay so um this kind of leads to a uh so that's a definition and that will be a very useful space to look at okay um so uh thus we have so let me uh uh we have this root space pi and that's a subset the fundamental roots are subset of all the roots and these guys here they are band so I I write here an equal sign in quotation marks okay they're in a sense this funny
+
+01:00:37
+span um of the integers but with this overall plus or minus sign that we had of the pi so we have this fundamental root space if we take these integer linear combinations but with an overall sign then we get back all the roots I remind you the roots were just the functions the linear fun the functionals that came from the IG values of the add of the Ed joint map okay now certainly this is a special case of taking real coefficients without any overall sign so this clearly is a subset in Spen R of Pi it's a subset in HR Star
+
+01:01:22
+so this is now the span Well I this quotation this this thing is funny but you know what I mean it's defined for span R of the pi and this clearly again is a subset in the complex span of the pi okay so we're dealing with all these different ways this is what we originally came from because we have complex Le algebras we now decided we're also interested in this guy this guy came up from the Katan decomposition and these pies from the need to find the basis for this guy or for this guy this
+
+01:02:02
+is the fundamental Roots so all these three ways of combining the fundamental Roots play a role that's what it is okay I think if one writes it down like this one can keep track of the various uh various thing one things one looks at here um so that's the first definition and the second definition is um we want to look at the killing form but not on L so we have we already have a killing form that takes two elements of L and Maps them to an element of L what we can certainly do we have and we can we can look at the
+
+01:02:47
+killing form but the killing form restricted to H well that's a simple thing that is just a bilinear map from h H to H because H is a subalgebra of L the Katon subalgebra I can just choose to only plug into the K elements from H I am sorry this is not right this is um like this goes into the complex numbers I'm sorry it's a killing form goes to the complex numbers and I can certainly restrict this to the H by just plugging in these guys for H it's a restriction of the killing form but I now want something different
+
+01:03:26
+what I want is I want to take a dual of the killing form that is restricted to the Dual of H well that's a complicated object so we're not going to call it like this we're just calling going to call it K star we want a k star which takes you from two copies of the duel into the complex numbers well you know this if you have an inner product on V vectors it induces an inner product on the co vectors if this is non degenerate because if it's non degenerate you can find the Matrix inverse as the
+
+01:04:06
+coefficients okay and um if you want to Define this guy you have to say k star of an H star what lies there um I know let's say in lambas we already used the LI M's and new so we have a mu and we have a new in h star and of course we want to reduce this to the killing form on l or the restricted one uh and then I need to use this canonical isomorphism I that takes me from uh H to H star okay and I can do this by so I Define this in between this is in a little Cloud uh by saying I of little
+
+01:04:54
+H is is given as the killing form of H comma open slot because obviously this is I can linearly put in another element from H here and I get a complex number that means this guy is an element of H star I take this here but then I use its inverse have to show that but this has an inverse if the K is non degenerate um and so the inverse exists so think again I inverse exists if the K is non degenerate if L is semi simple and semi simple simple is enough okay and we have a simply algebra so we have the inverse you can think about
+
+01:05:45
+this and then I take the inverse mu I inverse mu and I defined this dual killing form again it looks terrible it's just the if the killing form has the indices K down i j this guy has the indices K up IJ and K up i j with K down J K is Delta i k it's as always is as it's as always but this is the um um the coordinate free version think about this okay so we have the Dual killing form on this dual space H star now theorem if I take this dual killing form and look only at H star over R so I
+
+01:06:44
+restrict it further to only act on these guys then uh then it lands in the real numbers first of all it's by linear lens in the real numbers and it's positive definite so K star of any I don't know how to call them Alpha comma beta where Alpha Beta are from H star R only from this real linear combinations um or alpha alpha sorry is greater or equal to zero and equal to zero if and only if Alpha is already the zero in h star R which is remarkable because before we only knew that on the complex Vector
+
+01:07:41
+space this killing form is non degenerate but now we found a restriction to real Vector space where this becomes a real inner product okay that means that on H star R which again was the span of the fundamental Roots over R we can calculate lengths and angles in particular and that's the reason why one constructs this in particular one can calculate the length and the angle or the length of and the angle between fundamental Roots fundamental Roots because they span it so I can certainly calculate the length and the
+
+01:08:52
+angles between bases vectors I found but all the roots they're a Subspace of this span R Pi hence I can calculate lengths and angles between any Roots okay but we'll actually so I take away the bracket again but we'll actually need it to calculate on the fundamental Roots okay so we're slowly coming to completion now there's one more thing we need and that's the so-called V [Music] group the motivation is the following again we chose the pi such that it spans the cart subalgebra over the complex
+
+01:09:43
+numbers all right and that it's a subset of the FI that's fine but once you have chosen a subset you might worry how if I have only this information you can spend this whole guy but can you recover any of the other elements in the set of roots remember the set of roots is important that came from the kartan dec composition can you recover every guy in here purely starting with this information the answer is yes and the the whole classification of Le algebras comes from understanding the fundamental
+
+01:10:24
+roots of the algebra so everything about the Le algebra doesn't matter the only thing that matters is this pi and you see this is not even the whole year this is only the the Dual of the kartana sub algebra but the whole big L if it's simple you understand if you understand this little guy so we recover everything here but can I now I know okay I can span all the F with this funny overall sign and then non- negative integer linear combination but you see by taking this entire aha you see this was wrong and I knew why
+
+01:11:03
+this is only of course a subset of this I can span by this I can spend much more than this the condition was choose these such that you can span every guy in here but the entire span is bigger than only this okay so the worry is Can I with this information recover precisely the guys that sit here the answer is yes but that works as follows so um question how do does one recover precisely the set fi precisely the set fi from a given set Pi of fundamental Roots how do I recover all the roots from the
+
+01:11:56
+fundamental roots and uh the key is in the following definition um let uh for any Lambda in fi although in a second we're only going to use it for lambas in pi but we Define like this for Lambda every Lambda in F we Define uh the map S Sub Lambda uh which takes an element in h star R and Maps it linearly to an element in h star R and it's defined as follows as Lambda acts on some mu which lies in h star r as follows it takes the MU that's certainly linear and then it subtracts two times and this
+
+01:12:52
+expression you might recognize um Lambda comma mu by Lambda Lambda time Lambda takes this Ray okay so anyway this is the definition you can check this is linear in mu because linear here there's one mu in here sits in a in a slot of a bilinear map so that's linear in mu but it's of course highly nonlinear in Lambda uh you might say well yeah well it's highly nonlinear in Lambda because for instance if you scale Lambda the scale vanishes because an alpha pulls out here an alpha here an
+
+01:13:29
+alpha here is Alpha by Alpha square but there's another Alpha the scale vanishes right so by real rescalings because this is only a real Vector space in quantum mechanics you look at objects like this and you want complex res scalings this the ray this the state of the space anyway so this the same construction here so uh I put up a warning sign yeah uh linear in mu so certainly nonlinear nonlinear in Lambda and anyway this thing we Define and is called the while a while transformation um so any
+
+01:14:10
+such um s subl Lambda is called a while transformation and it acts on this real version of the Dual of the Katan algebra uh and if you take W uh and you take all these s lambas together for any Lambda in the root space uh this is called the vile group it's called the vile group uh with the group operation being well what can be the group operation these are maps the composition of maps Okay this is the while it's the while group so um now we have an important theorem uh about the while group a theorem that relates the
+
+01:15:24
+fundamental to the entire y group so uh the first statement here is that uh I first give it in language terms the Y group is generated I'll say in a second what that means is generated by the fundamental [Applause] Roots so in the roots in Pi okay and uh so the remarkable thing is that the fundamental Roots suffice in order to generate the Y group now what do I mean by it's generated I mean that um that's the explanation that for every element small W in the while group there actually exists a finite collection of
+
+01:16:18
+Pi 1 to Pi n just a selection of Pies uh in Pi uh such that uh the W can be written as a composition as Pi 1 cir s pi 2 cir dot dot dot dot finite s pi n so this is the group operation the cir and you can generate every element in there by only taking the S down some fundamental root that's the first statement um the second statement very important is that is that every root can be reached from a fundamental root by an action of an element of the while group so every root every root well let's call it
+
+01:17:14
+Lambda in the root space which is not only the fundamental Roots is every root every root can be reached yeah or produced let's say produced can be produced um from a from a fundamental root fundamental root uh let's call it small Pi in capital Pi so it's a set of fundamental Roots this is a particular one from a fundamental root Pi in pi uh by action of some element of the Y group so let's say by action of the Y group so that means that uh for every Lambda in the set of roots uh there
+
+01:18:08
+exists a w in the while group and a small Pi in the set of all fundamental Roots such that the Lambda is simply the S Sub uh the w Well w can take the form of some s something according to here of some W acting on Pi that's it so if you know the fundamental Roots you already know the entire y group but even more if you know the fundamental Roots you then also know every root because it can be generated by the Y Group which comes from the fundamental generated by the uh fundamental Roots so the fundamental
+
+01:18:54
+root Ro s in this two-step process determine the entire set of roots that's why they're so important and that's why the Y group is so important and now the final question is what happens if the while group doesn't act on a fundamental route but it acts on a general roote well uh the while group nearly permutes The Roots what does that mean it means that if you take the Y group so for every element W in the Y group it's true that for all uh Lambda in the set of roots the action of Y of the element of the while
+
+01:19:50
+group on Lambda lies again in the set of roots that means the the um the while Transformations which actually could take you out I mean they act on all of H star um they could actually take you out of the FI but they don't they simply permute the groups and these three properties are very important for the following in transformation just comes from the sort of dual killing I am sorry yeah very good thank you very much this is the Dual is the Dual killing form in both places thank you very important didn't use it anywhere else
+
+01:20:31
+yeah that's right okay it's from the Dual killing form because that can eat these guys good yeah thanks for the remark so now Showdown okay so what what do we do now well we we tie together all the um information we have consider the following expression we take the while transformation of one element from the fundamental Roots acting on another element of the fundamental Roots so for any the I and for the J element in the fundamental roots look at this guy we talked about it before but now we write out its definition so
+
+01:21:30
+by definition of this y transformation this is the pi J needs to be linear in a second slot minus 2 * as was just remarked the Dual killing form of the pi I by the Dual killing form of the pi I comma the pi I and there's the pi J a once in here because it's linear and Pi J and these are just the coefficients if I have here the pi I so it's the application to the fundamental Roots now I know that I if I have these two guys I know that the result lies in the root space because that is
+
+01:22:22
+what I just claimed I said you do this for any two and you guaranteed to exactly reproduce the root space so I know this from the previous theorem okay but what do we know you see this is an expansion of a root in terms of two fundamental Roots but what do we know about the roots being uh expanded in terms of two fundamental Roots I know there is an Epsilon and there are coefficients ni I so that I can do this so there exist n i in the non- negative integers such that I can write any element well
+
+01:23:06
+okay this is the span oh dear uh set any guy in here can be written like this aha that means in particular this guy must be of this form you say sure Factor one and there's another integer Factor no not integer Factor if this is a factor one then I write this as plus that's the sum sign- 2 * that's a number minus 2 * this guy but if these are fundamental roots and they are then this coefficient must have the same sign as this coefficient is that right because if if a coefficient that's non zero appears it
+
+01:23:56
+has the same sign as the other coefficient hence we know that this whole guy must be in N must be in N okay so that's uh that's important um that is if I leave out the minus sign then I know that uh what well well I used the two I know that 2 * K star of Pi I comma Pi J divided by K star of Pi I Pi I so you should be very careful this is a j this Pi J only once in this expression I know that this is a some negative integer some negative integer uh what about zero no some non-positive integer non positive integer because
+
+01:25:03
+this could be zero and then if I leave out the minus sign it becomes from non- negative it becomes non positive this is a non-positive integer and these guys are so important they get a name and they're called C now this is not the structure coefficient C this is a new c c that has two indes namely i j and now I ask you is the C J symmetric what do you say so is C J the same as cji yes no that's what I thought this morning at 4:00 thought darn I mean it's symmetric it mustn't be it's not symmetric because
+
+01:25:54
+look the J appears in there once and the pi I appears there three times only the numerator it's symmetric because the killing form is symmetric but if I replace I by J I have to write the JJ here that may have another length and it fails to be symmetric so early this morning I thought the same okay so uh exclamation mark CI J not symmetric don't only look at the numerator look at the whole expression it's not symmetric and it's called the carton Matrix carton Matrix and uh we of course also
+
+01:26:42
+know clear that if you look at CI that will always be two so the Caton Matrix has on the diagonal it has twos two two two two and on the off diagonal is some non positive integer that's the Katon Matrix Now define the following Matrix n j and that's defined as c i j cji you know this is not CI J squar so no sum there are no sums taken no summation convention I take the CI J and I take this the object if I exchange the I andj but it's not the same object it could be another number yeah
+
+01:27:53
+ah okay hang on what's what's the what's the business here C J is to I'm confused oops um no that's not good okay let's think again so I think we arrived here and that was right because that came from the while group now I have a positive factor here so this whole thing needs to be non- negative it needs to be well roughly speaking need lie in N now I take the minus sign away right this this this cannot be thank you for this um this looks silly um yeah but you see my problem is if I put
+
+01:28:58
+c i i then I have Pi I Pi I by pi I Pi I that's one the result is a two yeah it simply doesn't work but on the other hand from here I have this minus sign because this is the while group and the while group needs this minus sign so it's really Pi J minus this other thing because otherwise for that I check so you need the minus sign here I'm I'm I'm I'm puzzled I'm really puzzled yeah isn't isn't star you Pi be zero because Kar is anti symmetric and then you have no K star
+
+01:29:45
+symmetric K star is the um the induced bilinear in the sense the the the the non degenerate metric or the even the positive definite metric no this this this is symmetric this is symmetric no I'm thinking about something else aha if I maybe I can make this conclusion Mo for I non equal J because if I equals J these two aha aha very good thank you for the remark this conclusion is only true this here is only true for I not equal J and this is also true for I not equal J why because I have this
+
+01:30:22
+expansion but if I equals J then these two factors they combine into something positive or negative but that perfectly fits this definition because there's only one factor that was my my m so thank you very much for the remarks so this needs to be restricted to this and then everything is fine and this is nevertheless still true this this is true um which uh so you make this definition aha so that's the thing you make this definition for any any combination i j for any J but it's a non some non-positive
+
+01:31:02
+integer only for i non equal to J as we read off from here and for I equals J I have to discuss a new but then I don't get a constraint I only get the constraint it's an integer but then I immediately learn uh it has something to do no but hang on but then it's uh uh uh then it should be minus one okay I'm puzzled I hope I will be safe by by the Bell like like um okay let let let let me think about this again I'm pretty sure that the Kon Matrix has the two on the diagonal no it has the two on the
+
+01:31:35
+diagonal there we are I Define this for any I it's correct for any I I said I to J then I get the two that's fine this is the Kon Matrix and I know that on the off diagonal is some non-positive integer that's all I want to say no no it's fine it's fine there's no no contradiction anywhere okay but thanks for this remark now I Define these guys uh and I could call it the bond number so small bond is the bond number and what does it mean well let's write down what it is what is the CI J
+
+01:32:12
+it's two times and another two times it's four times K star of the pi I Pi J divided by the K star of the pi I Pi I but then times K star now opposite order Pi J Pi I so the J is in front the J is here in the back but now it's divided by K star Pi J Pi J okay it's this guy and what is it it's four times the cosine squared of the angle between the I and the J e root isn't it because this is the cosine squar the yeah it's anyway that's what it is it's the cosine squar of the angle
+
+01:33:07
+between the two roots and because it's the cosine squared we know that Z is less or equal to n j is or equal to four because the cosine squared only takes values from zero including to one including so the factor of four produces this okay so this is for all i j for all I so you find uh that zero is less or equal to the bond number between two Roots less than four if I is non J you can think about this okay and you also know the bond number is the product between two for I non J is it the product
+
+01:34:12
+between two nonpositive integers so this thing here is the product c i j CGI and these are non positive integers and the product must be less than four that is n j can take the values 0 1 2 3 because the product of two well anyway that's this but in what ways can it do that so I can have c i j and cji and it this can result in an N J which is the product of the two well first case m is zero that can uh that happens if this is zero but if this is zero then also this is zero there is no other way to realize this then you have
+
+01:35:05
+an you can think about that and then you have an N J here um this essentially because of the um that this can only be zeros at the same time because of the non um of the positive definiteness of the killing form anyway now you have the n j that you can only get by having a minus here and a minus here that's the only way by which a product can yield you the one from the way it's defined but now it becomes interesting you have the cases two and three and here you have two choices either I J is minus one and j i
+
+01:35:40
+is min-2 or the other way you can generate this two is having here the minus two and there the minus one and the same is true down here for the three Bond number three you can have a minus one and a minus 3 or a minus 3 and a minus1 okay okay but if you have this if you have this situation so let's look at this situation then you can derive that's a two liner I leave that to you you can leave that the pi I pi I is then either less than the pi J Pi J so the length of one of the roots of of the I
+
+01:36:32
+root is less than the root of the length of the J root or it's exactly the other way around this is all you get from the um from the Katan Matrix and now you can write down the diagrams the first rule is for every fundamental root draw a circle okay the second rule is if these two circles represent uh Pi I and Pi J from the set of fundamental Roots Draw N J lines between them so EG DP DP two lines but what can you draw you can draw no lines that's the case n equals z you can draw one line you can draw two lines
+
+01:38:01
+or you can draw three lines and that's all you can do because the N only runs over that range and the third is um if there are two or three lines between two Roots so if we're in this case or we're in that case then you know that goes into two subcases use a less than sign to relate The Roots so for instance you can have two lines between the roots but then can be two cases it can be that one root is less than the other root or the other way around and we put the relation sign over here it's like an arrow but that
+
+01:39:02
+means the length of this root is bigger than the length of that root theorem and that's by killing and independently by carton says any finite dimensional simple C Le algebra can be reconstructed from its set of fundamental Roots set Capital Pi of fundamental roots and they and the letter only come in the following forms so now we go a there is a series a l well yeah the series is called a and this is a root space that's one possibility then you can have this root space fundamental root space you can
+
+01:40:29
+have this one and so on so you can add more and more to this at infinum and uh you call this the space A1 this you call or the diagram A1 this call A2 this you call A3 and so you have a serious Al L for L greater or equal to one any such diagram is a Lee algebra of the series a the series BL starts with two and it has a double line and now you could imagine a whole number of things that happen but in fact the only thing that happens is you can have an arbitrary number of single lines and only at the
+
+01:41:19
+end there is one double line and so on but at the end you have the double line and so on and these are called the spaces BL and they only start at L greater equals to two because the L1 would be the same as this one um and for instance you do not have you never have a space where you have uh the double double line here or double double double it simply doesn't exist that's not a Lee algebra and you can actually prove this that's this thing but now we have the double line we have to say how the bond
+
+01:41:56
+goes and what's the convention I keep forgetting the standard convention is the bond goes out check check che check now obviously you can have also the possibility where the bond goes the opposite direction but if I start with two that's the same diagram because of symmetry but as soon as I have one line like this this is a different diagram and so on and that's the so-called C Series and it starts at L greater equal to 3 and then finally there's the D series and that starts at L equals to or
+
+01:42:36
+greater than four uh well in anyway start here that's 1 2 3 4 that diagram looks like this and then the next in the series is this one the next in the series is this one and so on that's the this series and these guys are called the four classical Lee algebra series well it's actually sequence sequences but they're called the series and then there are five exceptional Le algebras and they look like this 1 2 3 4 5 five six and this guy is called E6 but there's no series they they don't go on well goes on a
+
+01:43:31
+little then there is E7 uh four five 6 and you have here this guy this is E7 and you also have E8 1 2 3 4 5 six 78 that's called E8 so some people try to base physics entirely on the E8 group um and then there two more one is called F4 uh that guy looks uh yeah exactly like this then there is a double line with an orientation but that's F4 obviously you can do the orientation in the opposite direction but it's the same diagram and then finally there is a diagram the only diagram with G three
+
+01:44:22
+bonds that that's called G2 and that also has a Direction but it's also the same as the diagram with the with the other direction four infinite series and 1 2 3 four five so-called exceptional Le algebras they all the algebras in the same right these are all the fundamental root spaces these the number of lines between them tells you what the angle between the roots is if you think about it because the bond number had something do with the coine squared between them okay uh and the arrow has to do with the
+
+01:44:58
+relative sizes of the roots that means here all the roots have the same size okay only if you have double or triple bond will the sizes jump okay and because these diagrams are all each one is a connected diagram each one stands for a simple Le algebra but these are all the simple Le algebras there's no other Le algebra so for instance is not a simply algebra okay for instance you could have thought so you can write down the root spaces but it doesn't correspond to a simple algebra and these are all of them
+
+01:45:38
+and that's the final result and these guys are called dinking diagrams and once I give you such a diagram and I will do so on the problem sheet I will move you through it on the problem sheet I will give you and maybe we'll do it in the uh okay anyway um I will give you the diagram and from the diagram you will reconstruct the root space and from the root space you reconstruct the enti Le algebra so an exam question could be write down the root space for G2 or write down the Lee algebra for A3
+
+01:46:16
+or for uh D1 2 3 4 5 for D5 okay well I we won't ask it in the exam but it's something you can do and so these diagrams are all the the algebras can construct from them that's cool right I hope okay thank you [Music]
+

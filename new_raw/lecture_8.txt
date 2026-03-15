@@ -1,0 +1,558 @@
+00:00:05
+[Music] uh let's have a quick review 4.2 um quickly Vector spaces Vector spaces so how was that well a vector space um is built on a structure that's called a field now that's an algebraic field not what a physicist calls a field but what a mathematician calls a field so um a set K or let's say a field an algebraic field but mathematicians just call it field an algebraic field is a triple k+ times um is a set K all right together with two maps and two maps plus here plus takes two elements
+
+00:01:16
+in K and Maps it to K and multiplication also takes 2 KS and Maps it to k um that satisfy c n i c n i so you saw this before therefore I make it quick the addition is commutative it's associative there exists a neutral element let's call it zero in the set so whatever element in the set it is we call it zero and for every element there exists an inverse with respect to addition the inverse being defined that you take take an arbitrary element and you add the inverse and then you get the neutral
+
+00:02:03
+elements you have to first write down this axium before you write down that axum now it's also C * a * n * I * but uh this only applies to the set K where you removed the neutral element of addition once you did this then you have commutativity of multiplication you have associativity you have a neutral element and the neutral element in that case we call one if it was named differently we rename it one uh and then the inverse now you see why we had to take out the zero um excuse me why do we have to
+
+00:02:46
+explicitly take out the zero we can can we just choose to ignore it yes that is the meaning of taking it out okay okay I I would still leave it in in the in the um How do you ignore it you close your eyes when it comes along well that's that's the close your eyes operator here okay okay okay no no seriously I mean if if you take zero it doesn't have an inverse so unless you take this out okay right for zero itself right that's that's the idea yeah okay do I need to spell this out more or is it
+
+00:03:25
+clear okay it's the definition of a of a field and these are the tools you learned in high school okay that's a field now remark um a weaker notion to become I should add wildly important to become important later namely when we consider modules is a so-called ring and the ring comes very much like a field it is a set equipped with two uh operations plus and times uh of the same shape but now but now this only satisfies C ni I for plus so it stays a commutative or a bilan group with respect to plus but of these guys here
+
+00:04:33
+the commutativity is gone the associativity needs to stay the neutral element needs to stay well they even rings without neutral element so a unital ring mathematicians would say we take the with with unit and most importantly the inverses are gone so you no longer require these because you no longer require these that means of course every field is a ring but there are rings that are not Fields okay um example um first grade high school mathematics you already know what uh negative integers are you can add them
+
+00:05:27
+and you can multiply them that satisfy cany um it it would be commutative so that would be a commutative ring that's a special Beast not special Beast it's a nice nice ring it's a commutative ring but famously what is the multiplicative inverse of two it's one half map it's not in there okay so this guy is rings so you actually earlier in your life learned how to calculate with rings before you learned how to calculate with Fields okay so rings are really simple okay this field is very special and and
+
+00:06:04
+obviously stuff like R plus times but also q and so on these are all Fields very special Rings okay but that will become important later another example for a non-commutative ring would be the M cross M matrices over the real numbers because you know how to add them and you know how to multiply them by matrix multiplication say you know matrix multiplication is not commutative and you know not every Matrix has an inverse if the determinant is zero it doesn't have an inverse okay that means the m m cross M
+
+00:06:56
+matrices over R are a ring as defined here okay so it's a very natural structure you see Rings everywhere um function well we come to that later okay good so but now we we uh zero in on the fields and then we have a definition a vector a k Vector space a k Vector space where K is a field that's important a k Vector space is also a triple and now I Circle the operations because they're not the operations of K so the field K has operations plus and times and this plus is not this plus and this
+
+00:07:50
+times is not this times full stop totally different structure okay um where these stay as they were defined before where the Plus the Circ plus takes two elements in the vector space makes an element in the vector space and the Circ times doesn't take two vectors and makes a vector it takes an element in the underlying K in the underlying field and the vector and makes it into a vector of course standard example is a real Vector space is over the real numbers where you can add vectors and you can have an S
+
+00:08:25
+multiplication uh which satisfy now there's a new set of rules um they're again KY now I write them okayy KY and now it's k for the suplus a for the cplus N for the cplus and I for the Surplus exactly the same rules but now applied to these Vector space elements it's the same same laws right so I didn't spell them out before I don't spell them out here you saw all of this before but then now for this times there cannot be cany because because they're not two vectors taken so
+
+00:09:02
+there another is another set of four axioms um and this uh a well you cannot really say for which operation they are because all the operations apart from this one this is for the Circ times um these aims link uh these and these operations so the associative law uh you know how that works then there two distributive laws because you can distribute over this Plus or you can distribute over that plus do you know what I'm talking about or you want me to write it down you know what I'm talking about
+
+00:09:39
+okay so these are the vector space axioms okay full stop so if if you don't uh remember this precisely go go back to your um linear algebra book and and and study this now you have a vector space and you can Define um U a subset of V is a vector Subspace or sub Vector space the vector Subspace well the V is a vector space um if for all U1 U2 in U it's true that both this their sum is again in U and for all Lambda in K also l l u 1 is again in U one also says a subset of a vector space is a vector
+
+00:10:39
+Subspace if the Circ addition I'm sorry the Circ addition and the Circ dot um close on youu so you take two elements from U and they don't lead you outside there you also saw all of this before okay so uh from now on drop uh the circles okay we drop the circles we write plus between vectors but we must always know is it the plus between elements of the underlying field or is it the plus between vectors is it the multiplication of two k elements or is it the S multiplication of a k element
+
+00:11:23
+with a V element and we can drop the the plus the Cs uh because um the expression always tells you what it is so for instance if you have EG you have Lambda mu V is Lambda mu V where Lambda and mu are from the underlying field and V is from the vector space now what are the the dots I left out um what's the dot in between here Circ dot or normal Dot tell me cir dot or normal dot between these two elements normal Dot and here cir and here cir and here also cir because that makes it into vectors and so on and so
+
+00:12:17
+on so you can always see this but they're really different operations that we don't that we suppress the notation is a different issue but now we drop the Cs because I'm going to use them in a second for yet another operation Okay so so now as always you now know uh you classify these sets and so on by looking at the structure preserving maps and the structure preserving Maps the homomorphisms are called linear Maps so f is called a linear map a linear map F from one vector space V in
+
+00:12:51
+another Vector space W uh and now I should again emphasize this may be equipped with Plus and with cir plus cir times and this is uh equipped with uh box plus and box times because the different Vector space it can carry different pluses and S multiplications and a linear map is a map for which it's true always true that for all V V1 V2 in V it's true that F of V1 sock plus V2 2 is f of V1 box plus F of V2 so you can first add in the first Vector space and then map the result or you can
+
+00:13:42
+map the individual vectors and then add in the Target Vector space and you get the same result and that's the property of the map F that's the additivity and here you have for any Lambda in the underlying field and for any V in the domain you have F of Lambda Circ * V is Lambda box Time F of V okay and uh you saw this before probably without the cirs and the boxes but it's important to emphasize this once and of course it could be that W is the vector space v as a set it could still be the same Vector space as a set
+
+00:14:25
+and in principle yeah well it could have different operations on it so you still have to obey this but of course these two the domain and the target could be totally identical as Vector spaces including uh their um um their operations and then of course you do no longer need to distinguish but that's kind of the degenerate case not not the rule uh that's a linear map uh and a linear map that's um uh a bje and the bjective linear map is called a vector space isomorphism and this is automatically
+
+00:15:10
+linear in the uh in the other direction Vector space isomorphism um and again call Vector spaces um W and V including the operations but I again suppress this call them isomorphic as Vector spaces if there exists an isomorphism F from V to W and so on and so on and so on it's always the same this is again an equivalence relation you um look at Vector spaces and you consider them the same if there exists a bjective linear map between them and so on it's always the same idea okay these are those guys
+
+00:16:01
+question so far now we come to uh a very important thing and that's is uh we can actually take all linear maps from V to W Define a new set home V comma W that's a set and as a set it consists of all the functions f from a vector space V to a vector space w and in the future I will just put a twiddle on the Arrow whenever I write a twiddle I mean to say that this is a linear map the twiddle means linear because everything will be linear from now on so uh that saves considerable amounts of
+
+00:16:54
+chalk as a set it's this thing now the question is can I make this set that consists of all linear Maps between two Vector spaces can I make this into a vector space again yes I can can be made into a vector space again or the vector Space by defining okay I Diamond Plus yeah Diamond Plus takes two elements of Home VW and Maps them to home VW and it does so by taking one and the other it takes the pair and it Maps it to some map that I call f+ G but I have to tell you what f+ g means where F + G
+
+00:17:47
+is again a map from V to W and it's defined by taking a vector v and it Maps it to F of V plus G of V and this result we then call f+ G applied to V and this is the Diamond Plus and as you see the Diamond Plus here is reduced to this plus and this is the plus the Plus on v no that's wrong that's the Plus on W because it's the results that I add up okay so home e w inherits its addition from the addition of the target Space by this definition and similarly you get an S multiplication Diamond dot for home
+
+00:18:57
+VW now I very quickly said where f+ G is a linear map well I have to check whether this definition for the Diamond Plus indeed yields a linear map and it does it's additive and in fact the definition for the diamond times that I'm going to write down or could write down in a similar fashion indeed also satisfies this uh axum here for linear map so indeed this is again a linear map so it again lies in home VW that's right now at this point if we hadn't taken a field here but if we had
+
+00:19:37
+considered a vector space over a ring so if I removed the commutativity and the existence of an inverse element I could still write down these axim for a vector space but now over a ring that's a wildly different structure and that is why we would not call um talk about a vector space over a ring it deserves an extra name it would be called a module over a ring but a module over a ring which we're going to look at later in the course is actually nothing but a vector space structure but the
+
+00:20:13
+underlying field is not a field it's a ring it's widely different because you can go through all of this you can do all of this also for modules over a ring until you come to this point and if you come here and you want to show well I should write it down after all that f diamond. g Diamond do G you apply this to a V and you define this as I'm sorry not F Diamond Lambda diamond. G and you define this as Lambda times and it's the times in the w space g of V looks innocent enough can you show that this
+
+00:21:00
+resulting guy is again a linear map and the answer is no because for that you should scale it here and pull the scaling out you can do this you can pull the scaling out but you cannot pull it in front of the Lambda because the scaling is a ring element Lambda is a ring element but they no longer commute so for a module over a non-commutative ring you cannot make home VW again into a module you see simply cannot you can only do that for a module over a commutative ring it's a very small subtlety but it plays a big
+
+00:21:37
+role and and the other okay so that's already the Outlook but here everything is fine home VW can be equipped with Diamond Plus and Diamond times and is then equipped with these operations a vector space in its own right so there's some uh terminology after all yes please you have to take it out of the field line be or no no the field is K but the field under wi under W under V Yes W they could be okay right no they okay I I see what you mean your question is could there be Vector spaces over different
+
+00:22:25
+fields good question um quick [Music] thought for this H VW okay let's talk about this H VW you're asking specifically here we saw that the Diamond Plus is inherited from the target space plus and so is the Diamond S multiplication because this is the S multiplication on Double U and so what you what I should say is that a k Vector space V and a k prime vector space w can be made into a k prime vector space home VW where do you take the LDA from I just said so if this if this is over K and
+
+00:23:21
+this is over K Prime then the vector space I make out of this is also over K Prime because you see the K Prime you use here for the Diamond S multiplication is the multiplication uh you take from from the um Target space because you're already mapped so you could generalize to this point yes good question thank you okay so there's some terminology um as it is with terminology it can be terribly confusing if you don't know it and once you know it it's trivial so let's make it trivial uh we talk about
+
+00:24:06
+the endomorphisms over a vector space uh that's the maps from V the linear maps from V into itself so these are the endomorphisms morphisms on V okay before and the the home VW were were the homomorphisms then there is is the automorphisms out v um that's a little bit more uh that's the linear maps from V to V so they are homomorphisms but they're invertible these are the automorphisms or before we called them the isomorphisms that's the set of isomorphisms and uh we have those yes
+
+00:24:57
+and of course they are all sub Vector subspaces so out V is a vector Subspace and it's uh well usually it's proper maybe in some low dimension in the lowest Dimension and it's do like this as as vector vector subspaces of the endomorphisms well the're linear maps from V to V and they're invertible linear maps and they're less invertible linear Maps than there are linear Maps full stop okay uh and it's a a proper inclusion unless the dimension is zero or something like
+
+00:25:35
+this okay so it's the automorphisms and then there is one very special so that's one that's another follows this and then there's yet another one and that's V Star and V Star is defined as home V comma K now the underlying field K is of course a k Vector space in itself okay is a k Vector space in itself hence this makes sense so here in this K is considered K considered as a k Vector space and roughly speaking the addition on the vector space is the addition on K and the S multiplication on the vector
+
+00:26:25
+space is the multiplication on K okay and this is called the Dual Vector space dual Vector space and again so because out is uh lies in end and end is a special case of H of course this end and this out all inherit the just constructed uh Diamond addition and Diamond S multiplication of H VV hence V Star is not only the set but it's the set equipped with uh with diamond plus and Diamond my diamonds are not nice uh Diamond Plus and Diamond S multiplication and this dual Vector space will play an important role
+
+00:27:09
+because from a vector space and its dual next time we're going to construct all the no we have three more minutes so we do it now definition um a PQ tensor T is a multilinear map is a multilinear map T that takes P copies of V Star P copies and takes further the cesium product of Q copies of v and Maps multi linearly in K so now this means multi-linear and multi-linear uh simply says it's linear in each entry that is linear in each slot independent of the other slots so before for the linear map we had this
+
+00:28:26
+additivity and scaling property this this now applies to each slot and you have a multi-linear map and then we Define uh V tensor dot do do dot tensor V tensor V Star now the order of unstart and start V is different we Define this object this is just a name I just wrote down is the name um this is defined as the set of all T where T is a PQ tensor these are P many these are Q many where T is a PQ tensor that's the set of all these PQ multi-linear maps and we can equip this equipped with um well uh the
+
+00:29:34
+pointwise addition and S multiplication so what do I mean by by Point wise so EG t plus s if uh they're both one one tensors so let's say for one one tensors t + S that then depend on what do they eat they eat an element of V Star and they eat an element of v a small V and the sum of these two is then defined as T of Sigma V plus s of Sigma V and this plus here is of course the Plus in the Target K and similarly Lambda T of Sigma V for this one one case is defined as Lambda time T Sigma V and again this is the
+
+00:30:44
+multiplication in K and so then this space with this funny name it's just a name if you ask how is this symbol defined I don't need to tell you it's a name it's it's a name I could also call this identically could call it t p q v that would be an equally good name for what is written on the left what is written here it's just a symbol but it's the symbol for that set equipped with this pointwise addition s multiplication and that's the PQ tensor space over this Vector
+
+00:31:27
+space and then we will take off next time questions yeah for this remark about the home W um is it really possible that there are different okay W from K Prime okay and what means linear because in the defition L on the left ah you're absolutely right you're absolutely right right so here so here it would work but then where it doesn't work anymore is what this linear means if these are not the same Fields because here it's it's the same it's the same Lambda and you cannot you cannot switch
+
+00:32:32
+you're absolutely right thank you very much so in principle here it works but then from here you have K must be K Prime yes yeah I mean I you see I didn't even consider it in the beginning but then the the question actually made me consider it it was very clever at this point but it fails at at at this linearity that linearity forces you to have k equals K Prime thank you very much for pointing that out out so in our discussion of vector spaces uh we arrived at the point that we constructed
+
+00:33:05
+uh the space of PQ tensors tpq uh which over a vector space V we assumed as given and uh this was uh this also had the name uh V tensor product V dot dot dot dot P copies of the V and then there's another tensor product symbol and then there are Q copies of V Star and all of this is just a symbol and it's defined to be the set first of all the set that contains all multi-linear maps that start from P copies of V Star so you see you have P copies of V here but the map goes from P copies of V Star and Q copies of
+
+00:34:01
+V multi linearly so also multilinearity will be indicated by a twiddle in the basic algebraic number field that underlies all of this and um now if we Define a set like this as you know uh so the the multilinearity is like a condition we impose instead of writing this I could impose the condition that these maps are multilinear and as you know if you want to be sure that this is a set you need the principle of restricted comprehension so you ought to say from what set these elements are taken and uh so that's a general
+
+00:34:48
+question and I will not every time write this down but the basic idea is if you say you consider maps from A to B that may have some additional property or not then by the principle of restricted comprehension you need to say where these objects come from and now you remember that I put quite some emphasis on the fact that this uh notation for a map is just hiding the fact that a map is always a relation and the relation is after all the specific it's a very special type of relation namely a functional relation
+
+00:35:27
+but the relation is always a subset of the cartisian product of the domain and the target so these objects are although it looks funny formally but if you go back to the definition of maps that we wrote down then the Restriction is that the whole thing ought to be an element of the power set of A cross B if f is a map from A to B all right so that is how the principle of restricted comprehension tells us uh that actually what I'm constructing here the PQ tensor space indeed is a set so that whole thing is a set so that's the
+
+00:36:08
+definition as a set and then we can equip it with addition and multiplication I have an addition that takes a PQ tensor that takes another PQ tensor and produces from it a PQ tensor um over some given Vector space V and uh that is defined pointwise so it's the addition on tenses is the addition of these Maps as it's defined pointwise and there is an S multiplication takes an element of the field and uh together with a PQ tensor produces a PQ tensor uh as usual so that's uh that's this and hence
+
+00:36:55
+this space tpq over some given Vector space V equipped with these two operations is a vector space in order to check this of course you have to check whether it satisfies the eight axum's commutative associative neutral inverse uh another associative law two distributive laws and the unitary law so the tensor space is a vector space now how do we construct new tensors out of old tensors there's several ways the most important one is the so-called tensor product and unlike the addition that
+
+00:37:41
+takes two tensors of the same Valance so this pair PQ is the valance of the tensor sometimes people call the sum p+ Q the rank of the tensor and now the tensor product takes a tensor t of Valance PQ over some Vector space and another tensor s which may be of an entirely different Valance let's say the valance r s then the tensor product of T and S is this gentlemen and um so this is a double working of the symbol up here we use this symbol AS mere notation so let's say that's the orange tensor product Sy and
+
+00:38:28
+that just indicated by via this definition this set now here um we're using the same symbol again uh but it's different it's the um the tensor product between two elements of such a tensor space so it should be called the Blue tensor product and this tensor product is then by definition a tensor of Valance p p + r q + S over the same Vector space um and it's defined quite simply T Tor s now T can eat up P um P vectors so that's a vector uh V1 to v p so these are not components of
+
+00:39:22
+a tensor or a vector we've never talked about this so far um so these are individual vectors they're called V1 to VP but then the S can eat R of those so we have further VP + 1 to VP + r and um and then we can eat Q + S co- vectors so let's call a co- Vector denoted by an Omega this is Omega 1 to Omega Q um Omega yeah Omega Q + 1 to Omega Q + S and so if you plug these in it's a p + RQ plus s tensor you land in the field so on the right hand side we need to write down a number in K and that is
+
+00:40:17
+simply T eats up as many vectors in that order as it can V1 to VP and then it eats up as many co- vectors as it as it can Omega 1 to Omega Q that's a number and now we have here the multiplication which must be the multiplication in K of course and then the S eats up the rest it's the VP + 1 to vp+ R and the Omega Q + 1 up to the Omega Q + S and this is the 10 sub product that's very simple so that's one important way how we construct new tensors from given tensors now however examples are in
+
+00:41:12
+order for tens spaces and um we start with the t01 tensor space over a vector space and uh let's see what that is so t01 uh that is according to our notation here just to practice this a little this is uh just a V Star isn't it yes it's just a V Star so there's no tensor product so that looks good okay so if that's supposed to be the case then better this is just notation at this point and this is all the t's that start in One V and multil linearly go to k oh yes we agree that is
+
+00:41:56
+indeed our definition of the V Star so this notation uh is consistent with what we defined before that's pretty obvious so the 01 tensors are just the Dual vectors are just the Dual the whole Space is the Dual Vector space and the 01 tensor is a co- Vector that's another name for a tensor in the Dual space so and in physics we call these guys often Co vectors now what is a vector and what is a co- Vector depends on what you call a vector and the co- Vector if you call the elements of V vectors then those are
+
+00:42:31
+the co- vectors um for finite dimensional Vector spaces we can turn this around I'll come to that in a second okay so first thing now it's also uh Illuminating to look at the one one tensors over a um over a vector space so according to notation uh that would look like like this right wouldn't it and uh that again is just notation um so I should rather say so this is definition so I have this triple it's just another symbol for the same thing and actually the definition starts here so those are
+
+00:43:11
+all the multilinear maps now you got to turn this around V Star and cross V multil linearly in K and the question is whether we already know such objects and I now claim and I'm going to show this I now claim that this is actually the same as the no endomorphisms is wrong no it's true as the endomorphisms on V Star so V Star is a vector space and you can look at the endomorphisms on V Star so how do you see this that multilinear maps bilinear map from V Star Cross V to K is the same as this well the idea is for
+
+00:43:52
+every such bilinear map construct an element of endv star and show how to recover precisely the map you started from from the map you constructed then that means you can go back and forth it contains the same information you can map this one to one and um and you have to check that this is as a vector space the same so you not only have to construct a bje you have to see that it's linear in both directions but that's very simple so I start um so given a t in V tensor V Star so such a guy uh you
+
+00:44:34
+construct a t hat let's call it t hat which is now an element in endv Star as follows what do we got to do well an end that means that t hat is a linear map from V Star to to V Star that's an endomorphism so to every Omega element of V Star we must assign another element in V Star and I would like to induce this map from a given T and I do this by employing the T up here and the T up here has the nice property that if I fill the second slot with this Omega I satisfy this then all that's left is an object into which
+
+00:45:22
+I can plug in what I can plug in a vector and I get a number but an object into which you plug in a vector and you get a number so that's a map from V to K but because it's a linear map from V to K obviously because if you have a sum here or you scale it it's linear but such a linear map is of course the same as this whole thing being an element of V Star oh very good that is what we wanted we wanted an element A V Star so from a t we construct a t hat the question is do we use information no we
+
+00:45:59
+don't because we can reconstruct reconstruct the T up here uh what is a t you need I need to give you a V and a an Omega and you reconstruct this simply by employing the T hat which I just constructed the T hat eats an Omega and results in an object namely this one that lies in V Star but if it lies in V Star it can act on the V and you get a number the question is is this number the original t well yes it is because you can really reconstruct because you use the definition this is by definition t of V
+
+00:46:46
+and W oh yeah you reconstructed so it means you have as sets you have this here bctiv and the question is is it linear while you check this is also linear so we saw that the one one tenses over Vector space are isomorphic to the endomorphisms on V Star now you might also feel that it might also be the same as the endomorphisms over V but this is generically not true so we have the following questions I continue here the following questions I would like to continue this list and in particular we had the 01 one
+
+00:47:32
+tensors now you look at any physics textbook it will tell you that the one zero tensors they're actually as Vector space tensor space is a vector space so it makes sense to write this isomorphic as a vector space it will tell you that's the same as the vector space itself whereas the0 ones were were the duels but the question is is this really true and the answer is in general it is not um then another member of the list could be again the one one tensors and the question is aren't those the same as the
+
+00:48:08
+endomorphisms over over V well yes but not generically okay and um finally and that's actually the fundamental question that links these two that answers the question okay so this is the the key thing to check is actually if you take the duel and then you take the Dual of the duel is it actually true that you get ve back the vector space and again here the answer is no that's not always true but it is true if we have a finite dimensional Vector space and that we're going to look into that in a
+
+00:48:47
+second now we haven't defined yet what the what the um dimension of a vector space is so that's something we need to do and only if we have a notion of Dimension we can start restricting the dimension to the finite dimensional case now here's some care needs to be taken in the definition of dimension in particular what we're dealing with here are bare Vector spaces we have no additional structure assumed we have no Norm on the vector space and if you have no further structure than the vector
+
+00:49:29
+space structure uh the only notion of bases you can Define is a so-called HL baces definition so if V plus s multiplication is a vector space then a subset B of V is called a basis but in order to not cause confusion we call this a HL basis or the H basis if a every finite subset if it's finite we can name the elements we call them B1 to B capital N natural number any finite subset of B is linearly independent and you know what that means that is so linearly independent it can be yes or no true or false and this
+
+00:50:54
+condition is let's write it like this by definition linear Independence is sum from IAL 1 to capital N Lambda i b i equal zero well for future use will write the index up here this implies Lambda 1 equals equals Lambda n they're all zero now you see this is an application of our inside that this is a a proposition this is a proposition this is a a um a binary operator so everything in the box is a proposition so what is in the Box the box is either true or false and the truth or the falness of this box is equivalent
+
+00:51:47
+to this thing being linearly independent or not okay so this is something that in high school causes students usually great pain to evaluate this that is mainly because they haven't had a proper explanation of the implication error okay so it's linearly independent and what I would like to draw you attention to is here we only look at I mean every finite subset of the bases must have this property and the finiteness is uh important because then we can we have a finite sum if I had defined a basis if
+
+00:52:23
+all the elements in B well are linearly independent I have two problems first B could be overc countable non-countable if it's noncountable you can't write down a sum in the first place you can't even write down a series because the series requires that you have partial sums so if you have an uncountable basis that wouldn't be possible uh but even if you have a countable basis this would result in a serious up to Infinity but if you want to know what a serus does you need to have a notion of convergence
+
+00:52:57
+of course there's a limit involved well if you have a vector space without additional structure not even with a topology you cannot talk about convergence so on a bare Vector space the only thing you can do you can check whether for every finite subset this is true and uh and condition B so that's the generating system property and B is that for every element V in the vector space there exists a finite set let's call call them V1 to V capital M and those are all elements in the number field such that
+
+00:53:37
+the vector v may be written as the finite sum I = 1 to m v i um b i ah there exist these guys and there exist as well B1 to B capital M elements of this B again a finite subset so that the vector can be written as a finite linear combination but the guys you choose to construct the um the linear combination they may be taken from the possibly big space b and this is called a HL basis now if you remember some Fier analysis or something there you have Fier series that goes up to infinity and you say well you have an analytic not
+
+00:54:30
+analytic you have a um uh fuy expandable uh function then you have the cosiness and the signs over the real numbers right they're countably many yeah that's a basis but it's it's a countable basis it's not a finite basis and you can actually do this F analysis with this countable basis but only at the cost of having fous Series so obviously the co co science and Science in fua analysis do not constitute a HL basis I think they constitute something that's called a sha basis but then you
+
+00:55:05
+need to have a notion of convergence so you need more structure on the space you're on and this uh and The Hil basis for these Fu uh expandable functions would actually be uh uncountable whereas the Sha basis is countable and when uses the shter bases okay so this however is the notion of basis for very general Vector spaces with no further structure assumed well um you can then Define and in fact there's something to prove but we're not going to do that Define the dimension of the vector
+
+00:55:41
+space the dimension of V is the number dim V and it's defined to be the cardinality of the bases so that may be Infinity various Infinities but may also be finite okay so uh now we have the uh theorem and this theorem you're asked to prove on the problem sheet the upcoming problem sheet the theorem is that if dim V is less than infinity so if you have a finite Vector space then V Star Star is isomorphic as a vector space to V and uh so we have the remark uh if you have V and you look at
+
+00:56:38
+V Star then you could identify V with V Star Star if you're finite dimensional and that means you could call the elements of V vectors and then you call the elements of V star Co vectors but this is a vector space so its elements could also be called vectors and then the elements of V would be the Dual of those vectors those would be the co- vectors okay so in finite Dimensions what is a vector and a co- Vector you could turn this around and we will have opportunity however in manifold Theory to think of tangent
+
+00:57:21
+spaces as the vector space and then over the tangent space we construct the coor space um and so usually one then has this uh conventional asymmetry one calls these guys vectors and those co- vectors but you need to know that you start with this vspace uh it's no problem in practice but once you start thinking about this you might get confused so I tried to confuse you beforehand and then uh maybe the confusion I don't know where that works pedagogically but what I said is true okay good so um then we
+
+00:57:55
+can go back to this and once we saw this that the V Star Star is again the V you can redo this construction here but you can do it from V to V and you will very quickly see that if you use V Star Star V that from this one uh immediately you have this and from this one you also immediately have that and you know only yes but only for finite dimensional Vector spaces for finite dimensional V so that's the caveat here um and we wanted to be a little um precise now so far our choice of basis or our uh
+
+00:58:41
+considerations of bases have only been used to classify Vector spaces into finite and nonfinite dimensional ones but bases have another property and you of course know that already once you have a basis in instead of talking about the vector which is a rather abstract concept an element of a vector space that might not be very enlightening if I tell you take this vector v and take another Vector W and then you ask me which V and which W are you talking about if I want to give you concrete vectors well I say well this one and
+
+00:59:15
+that one well that's not good enough what one usually does one agrees on the basis and then I hand you a particular vector by handing you the so-called components V1 to VM with respect to that basis I can hand you another concrete vector by handing you the components of that other Vector with respect to the bases okay so bases are used to communicate which precise Vector you mean but it's always subject to your choice of basis we have to agree on that and uh but however there is a warning if
+
+00:59:50
+you want to understand the theory in the constructions there are things if you have a v if you have to the components of a vector and you start defining new objects and you define them in terms of components there is a danger and the danger is that you do illegal constructions that are not good in Vector space theory in particular constructions that would take a very different shape if you changed bases so the general rule is really always construct everything you want to construct without choice of bases okay
+
+01:00:25
+and only once you constructed it with choice of basis then you may introduce a basis to study what array of numbers need do I need to provide in order to provide this uh new object okay always try to be to do construction spasis free so uh some people say a gentleman only chooses a basis if he really must okay and and that's it so if you have a uh concrete reason to choose a basis to calculate something but construction should be basis free now once we have a basis for instance we can Define what we mean by
+
+01:01:06
+the components of a tensor so the components of a vector I already said what I mean but uh this can be generalized definition um let T be a PQ tensor over some Vector space and let and let V be finite dimensional so from now on let's only talk about finite dimensional Vector spaces so now let B1 to B dim V be a basis of V so you choose a basis of the vector space it turns out that uh induces a basis on the tensor space but first we Define the components components of the tens so the tensor is
+
+01:01:57
+an abstract thing it's a multilinear map and the components of a tensor they're not so abstract it's a PQ tensor so the components are numbers but there are a whole lot of numbers they're numbers T A1 a p B1 or B uh B okay let's call this basis small e is also more standard B1 to BQ and these are numbers and these numbers are defined by taking the tensor which is multilinear map and plugging in oh I see I forgot something anyway I write it down and you'll see how it works and I plug in um ahuh
+
+01:02:38
+Epsilon A1 comma Epsilon A2 to Epsilon a comma e B1 to e BQ and this is the basis e and the Epsilon is a basis so let's say epsilon 1 to Epsilon dim V Star but dim V Star because it's isomorphic to dim V finite dimensional uh it has the same size is the basis of V Star so you choose a basis on V and you choose a basis on V Star and then you can Define the components of any tensor and you see all these components are numbers in the underlying Fields say the real numbers those are the components of a tensor uh
+
+01:03:29
+however remark usually one does not choose independent bases on V and V Star you can do this these are two Vector spaces you can choose a bases here you can choose another bases there but usually uh one chooses on V Star uh a basis that is induced induced from a previous choice of bases on V by what condition by the condition that the eighth basis Vector of V Star is a co- Vector right as a co- Vector it can eat a vector for instance it can eat the beef vector of the basis of v and you require that this be Delta AB where
+
+01:04:32
+Delta AB is just a symbol that's 1 if a equals B and zero if a is not b and this is a linear relation and it has a unique solution so for every choice of bases on V if you impose this additional condition you get a unique basis on V Star why would you impose this this condition and not another no particular reason but if you have to make a choice make sure that you don't make choices all over the place if one choice can already be used to imply another Choice it's usually most efficient to keep the number of your
+
+01:05:13
+choices minimal although you could argue that imposing exactly this relation makes the choice once and for all makes the relation once for all anyway it's a very convenient um uh induction principle for a basis here from a basis for a basis on V Star from a basis on V because many uh calculations actually actually simplify because there's so many zeros around that's the basic idea and uh the such induced basis is called the Dual B okay it's called the Dual basis on the Dual space
+
+01:05:56
+the Dual space so what the Dual space is you already know that's the V Star and the Dual basis that has to do with this condition that is this dual is called because of this dual and this is called dual because it's a dual space it's the Dual basis of the Dual space you could choose not the Dual basis of the Dual space you could choose just a basis of the Dual space but we choose the Dual basis of the Dual space I will not go into that detail in the future but it must be said once okay now the most important thing
+
+01:06:33
+here however is I can define components and you say very pretty uh but what do you do with them and the answer is once you have chosen a basis and you have a tensor and you know its components you can reconstruct the abstract tensor from its components that's the whole point so the components suffice to determine the tensor so reconstruction reconstruction of T from its components and it works as follow you take the big guy T and um you take its components T A1 to a p B1 to B Q those are numbers right so you know the
+
+01:07:21
+Blackboard went on I would put now a multiplication here the multiplication is no that's wrong uh hang on a second I'll tell you in a second what the multiplication is it's actually the T the S multiplication the tensor space anyway and then I write down um e A1 tensor dot dot dot dot tensor e a p tensor Epsilon yes Epsilon B1 tensor dot dot dot dot tensor Epsilon B Q now which tensor symbol is this is this the blue or the orange one well we know that this is a vector because it's an element of a basis but
+
+01:08:10
+uh that means it's in particular it's a one zero tensor and those guys in particular every basis Vector here is a 01 tensor um and for PQ tensors we Define the tensor product so it's the blue one right so this is the blue tensor product here so in particular without this if I just take this last line This string here what type of tensor is this well it's a PQ tensor okay it's a PQ tensor oh like our T that's pretty it's a PQ tensor but there actually many PQ tens it's a PQ
+
+01:08:54
+tensor for particular choice of A1 = 7 a p = 28 B1 = 1 BQ equals also one but I put here so okay line uh I put here the S multiplication and this is the S multiplication s multiplication of tpq over V because I have a number in the field and I multiply with a given tensor that's our s multiplication third line from above here okay that is this okay and now the question is does this really recover the tensor well you can check by uh evaluating the tensor on an arbitrary vector and you need to know how the E
+
+01:09:49
+and the epsilons act on arbitrary vectors and co- vectors which you do by expanding them themselves so prove that this recovers is essentially it's very basic um and it's a finger exercise on the next problem sheet this recovers this is indeed T So this equal sign here this equal sign here is correct because it's in every textbook and it has practical importance let's briefly talk about the change of bases so again we have finite dimensional Vector spaces so say E1 ah and I okay yeah so let's say E1 to
+
+01:10:40
+e d and let's call this Dimension D for short E1 to e d is a basis of whatever Vector space we look at then of course uh we can construct a new basis let's call it E A twiddle for a equal 1 to D it will have the same number of elements and it will these will be vectors again right if these are vectors each of these vectors can be expressed as a linear combination of the original basis because that's what a basis is it takes a vector e riddle and you can express it with components which I now call
+
+01:11:29
+AB in terms of these guys uh and you take a sum over b equal 1 ah I should have said this before I'm sorry okay I continue then I'll tell you something Bal 1 to D you take the sum this is a linear combination and of course you have to do this for every new Vector so actually you have a components for every a so this object gets two components so these guys here they're just elements of K this here is the S multiplication in V okay and that is the new basis now not every such linear combination will lead
+
+01:12:12
+to a basis because you can easily uh destroy can you destroy the linear Independence property this way no that can you cannot do but you could this no you could destroy that too that's true you could also destroy the linear Independence and the the generating property so the point is there is a condition you need to be able to also recover the old bases EA from the new bases e tridle and let's say that is by coefficients B ba a and there's a sum b = 1 to D and if you can do that it's easy to check uh that if
+
+01:12:54
+this is both possible then um um b as a matrix if you wish is the inverse of a okay that's this but we'll talk about matrices in a second there's something else I forgot to mention before maybe you saw it before that's why you didn't complain uh but there is a um um an aside on notation as we saw before when we reconstructed so when reconstructing T A1 no t as T A1 to a p B1 to BQ um some space here I wrote e A1 tensor dot do dot tensor e a p tensor Epsilon B1 answer Epsilon BQ actually what I
+
+01:14:00
+forgot over there but that's something I will from now on systematically forget is a succession of p + Q sum symbols namely the sum runs A1 equal 1 to the dimension of the vector space that's this a index we're summing over A2 from 1 to D down to B1 from 1 to D which also a manag of the co- Vector space and these are so BQ these are p+ Q sum signs okay they are there they must be there because yeah there's you sum over all of these this is the expansion and I forgot to write down the sum signs on
+
+01:14:46
+the previous Blackboard however I forgot so because it's convention to forget them we do not write them in in the future because every time there is an up index and the down index there will be the understanding unless something else is explicitly said that they're being summed over so whenever you see an up down pair you sum over it now you might wonder how does an index deserve to be up and how does it deserve to be down so the up down convention is the following there's only one choice and all the other choices
+
+01:15:31
+follow from it so the fundamental choice or a fundamental convention is the following that the basis the basis vectors of V basis vectors of V not vect basis vectors of V uh are labeled by downstairs by a downstairs index by a downstairs index and that is what I did so I wrote E1 to e subd those are not components each of those is an element of V it's the first Vector the second Vector it's the D Vector that is the fundamental convention well and bases yeah and bases of the Star by upstairs
+
+01:16:39
+inds so Epsilon one and I did that as well I just didn't talk about it Epsilon 1 to Epsilon D those are all elements of V Star so why does everything follow already well remember what the definition was of these tensor components the definition was you take the tensor and the tensor eats first of all those co- vectors but they have their index up you see the co vectors it eats first they have their index up so the resulting object the resulting component also has the indices up so if you're on two sides of an
+
+01:17:16
+equation you always want to have The Upstairs Downstairs level matched but the component that corresponds to this first entry has its index up because the basis Vector you put in according to the fundamental convention has the index up that's nothing you have to memorize on top you just have to memorize here uh the fundamental conventions okay and these indices are down simply as a consequence of these indices being down okay and everything else follows and then it's clear if you reconstruct
+
+01:17:50
+it will already be in position okay so actually the the the backbone of the summation convention the summation convention is that we don't write these sums and always when we see an Upstairs Downstairs index pair we sum over it okay same index up and down and this is sometimes called the Einstein summation convention summation convention is omit the sigma a = 1 to D if a appears once up and once down if a appears as a an upstairs and a downstairs index in the same product well product in a generalized
+
+01:18:50
+sense of course not if it's in a sum if it's in a in a product now there is one remark again with conventions you could easily think oh yeah let's always do this in all branches of mathematics um it's a good convention because it saves chalk but in fact the convention only works remark convention only works with linear spaces with linear spaces and in particular linear Maps I provide one very basic example which however says it all so imagine you take a um a linear map F or let's call it
+
+01:19:43
+f from V to V well we know that this F actually corresponds to a well let's let's be not so one could start from here let's take a f that goes from V Star Cross V into K multil linearly so let's let F be a one one tensor now if I evaluate fi I can plug in some co- vector and some vector and I will get a k so if this is an element of V Star and that's an element of v why well because that is what a one one tensor is now the business with the indices starts if I have a basis so if I
+
+01:20:29
+now choose to write the Omega the co- Vector in a basis how do I do this well I need to choose the basis on the co- Vector space but that basis has its indices up but then an Omega has components Omega a and the Reconstruction theorem previously written down for General tensors on the co vectors works out like this and the V is expanded similarly but with the basis on V according to the fundamental convention the basis vectors are labeled down and that means that the oh sorry I choose a different dummy index B again
+
+01:21:05
+up down they're according to the summation convention they are um contracted okay but um we can with invisible Chalk in this case uh orange chalk uh we can write the sums for cl it at this stage B1 to D okay so you don't need to con uh if you're if you're blind to Orange then you need to use the summation convention so what am I driving at here I just expanded these objects here uh in terms of the bases and the co- bases but now we know because fi is a multi-linear map I know I can pull out this first sum is
+
+01:21:53
+that correct because the finite sum multi-linearity includes additivity in this slot additivity means you can pull out sums so I can pull out the first sum a = 1 to d uh and I'm left with f of um Omega a Epsilon a but the sum is taken outside that's fine I can also pull out the second sum so I can first leave it and then in the next step but I do this in one step I can pull out the second sum from the second slot and I have VB EB that's all fine okay and if you now wish you can also pull out and and
+
+01:22:38
+remember so these VBS here they're all elements of K and so are the Omega A's but these are elements of V Star and V now you could also by linearity pull these guys out and they go here let's do that so that's the sum a = 1 to D sum b = 1 to D then you pull out the Omega a and the VB and you're left with Fi of Epsilon a and EB ah but this F here is nothing but the components f a b so what you arrived at is abstract object f one one tensor an abstract object Omega a coor abstract object V
+
+01:23:25
+gives you a number the question is what is this number well forget about the abstract objects equal equal equal you take the compo if you choose one basis in v and the Dual basis you take the components of uh the vector you take the components of the coor and you take the components of the tensor with who with respect to a given basis are all numbers and you build this big sum and this product and the result is this number k that comes out if you plug in Omega and V so that's the idea you can have
+
+01:24:00
+components and the components have all the information and this is how you usually work in introductory physics courses you take vectors in their components you take linear maps in matrices I'll talk about matrices in a second this is a matrix of objects and they normally you would say you come with Omega from the left and with v from the right I'll talk about this in a second that's this but what I want to drive at is Imagine now you are you are color well not color blind you don't see orange if you don't see
+
+01:24:35
+orange what's the difference between the first and the second line what's the difference between this and this if you don't see orange nothing right it's nothing but this equal sign is not for nothing this equal sign is because of the linearity of fi isn't it I can pull out the orange because fi is linear so if you choose to Omit Su signs that's fine but an invisible sum sign can be invisible here or invisible there that's the point of invisibility you don't see where it is but if it can be
+
+01:25:15
+invisible here or invisible there then better the map be linear because otherwise it makes a difference where you don't see it and because you don't see it that would be a problem okay so that's the whole point the summation convention only works when it plays with linear Maps if you play with polinomial maps like in algebraic geometry and you use the summation convention at least in unclever ways uh you're in trouble that's my point okay so let me uh make a few more poic remarks about
+
+01:25:53
+matrices um remark so having chosen a basis in V and a dual base in V Star the bases will always be the Dual bases unless I say something uh in particular it's very tempting and you see if in the mathematics lecture uh which has nothing to do with temptation the word tempting comes up of course you got to be careful okay so it's very tempting to then say well an Omega which is a co- Vector can be expanded as Omega a Epsilon on a using the summation convention but because the basis is chosen so this is fixed this guy is
+
+01:27:02
+fixed it's very tempting so the tempting part is this one it's very tempting to think of the Omega I put an corresponds to symbol to think of the Omega as a collection of its components and uh so you write them down like this okay um similarly if you have a vector which of course you can expand like this there's nothing wrong about this this is fixed okay that was the arrangement well if it's fixed then it's very tempting to say well the vector really is and now that I write this as a row vector and
+
+01:27:50
+this as a column Vector is is already part of the of the witch mathematics that is about to come um but you've seen this kind of witch mathematics before uh you say uh the vector actually corresponds to the components yeah yeah we have the bases in mind but it's these components and the co Vector we write as as a row Vector well it's just convention yeah you can do this now it goes on you can take a fi which is an element of NV so you can take a n V take a linear map on the vector space that's of course the one
+
+01:28:29
+one tenses over V as we said and you take a linear map let's call it fi now we know that this fi can be written as f a ea tensor Epsilon B okay so that's what we showed before you can do this well this at least as Vector space is isomorphic and then it's not only very tempting but it's the basis of any engineering mathematics that you say you think of the linear map you think of the linear map as such an an array in this case a square array where the one one component is here the one two component
+
+01:29:17
+is here the One D component is here so the first line always has the one here and then this continues with f 21 is here and so on it goes down to F D1 is here it goes up to fi DD and so the D up is in the last line and sometimes one says this is the convention that if the object has two indices uh the first one and the second one that well uh that you say this this is the row and this is the column so you take the one one element and you put it in row one column one you take the one two number and you put it
+
+01:30:10
+in row one column 2 it's this row column Rule now the polemics I want to convince you of that we should all be uh poic in this way um this is just one way to arrange the information in here you have Dsquared many numbers and one way to arrange the information in there is like this as much as this is one way to arrange D numbers that's another way to arrange D numbers so what we do here on the right hand side are just conventions of how to arrange numbers and um so some people call this a
+
+01:30:57
+symmetry of numbers so if you go to a symmetry and you look for your great great grandfather I choose this because you have no emotional attachment to him so your great great grandfather where does he lie he lies in row 7 column 5 that is where he is there you find him of course it's pure convention if they run another scheme he R in you know okay it's pure convention to do it this way aha um what does that imply well if you choose this convention then you can do the following um so if we
+
+01:31:48
+consider two endomorphisms fi and SII they're both endomorphisms on the same Vector space and then we can look at fi after s well fi after SII will be again an endomorphism on V is the composition of two linear Maps is a linear map okay but now uh if that is true um it should actually have uh a basis well it's an NV you can also think of it as uh it uh is has components given like this but this may be confusing because you think if it's in n v it only eats a vector but then you define this guy you say this is a tensor
+
+01:32:31
+you define by saying this Epsilon a acting on the result okay so that is this and now you want to figure out what that is so let's write it down it's Epsilon a that's F of s of EB no doubt what is that that's Epsilon a is f of what's s of EB well s of EB is s m b em that you can quickly check from what was said before now fi is in these are just numbers but fi is linear there's a sum I can pull the sum out well it's invisible fortunately we don't need to explicitly pull it out we
+
+01:33:16
+pull it out invisibly and then we pull out the numbers as well so this Epsilon a s m b they're just numbers and all you left with is f of em but then the Epsilon a is just a co- Vector so it's a map from vectors T it's linear so again you can pull out the numbers so you end up with s MB Epsilon a of f e m but we said this Epsilon a f m is just a way to talk about the corresponding tensor F that has an Epsilon a m so what you really have here is s MB time F and now something went wrong
+
+01:34:04
+no it's correct uh times 5 a and what is the multiplication in here it's the multiplication in the number field K okay that's all very simple and this is true but if this is in k k is a field so it's commutative so in particular this is precisely the same as commuting the two factors there's no difference between this on the left on the right it's the same thing because these are numbers but now once you start looking through your graveyard glasses you say I like the second order better because
+
+01:34:47
+once I have the second order I can have the additional rule that I want to have indices that are close to each other and I sum over and then I have here this is the row this is the column for the numbers representing the first endomorphism f after s here I have again the row and the column of the numbers representing the second endomorphism and what do I sum over I sum over this index that gives this column and this index that gives this row so if I actually calculate this what do I do well you sum over these guys here and
+
+01:35:31
+what's the left hand side here okay it's all equal so the left hand side here is fi after s can be considered a one one tensor with indices a b aha the in the eighth row and the be column if you choose this symmetry convention ath row be column lies what number lies this number that you get this way but then you see you run over the columns but you fix the row and in the second Matrix you fix the column and you run over the row and that is the standard rule that if you have the Symmetry for fire and the Symmetry
+
+01:36:18
+for five that you do row times column or you can even write it down like this you probably saw this before so this is the Symmetry for F this is the Symmetry for S and you go over the row and here over the column and the result so there's an equal sign in between here the multiplication is between this one and that one then you land here and this here and you get the rule row time column for matrix multiplication and then you say ah I now choose to only write down the Symmetry let's give it uh I don't know the
+
+01:37:01
+symmetry has flowers so there a flower on top the Symmetry for this and I write down the Symmetry for that and I Define a new rule that is this row times column rule this is matrix multiplication and the whole point of matrix multiplication is it's actually the symmetry rule for finding the representing symmetry for the composition this is the Deep reason behind row times column but it relies on this additional construction here now if you use this Rule and you extend it to home VW with corresponding
+
+01:37:49
+dimensions then you can also act with an Omega from the left on a v so with this rule I write it down here so I derive the rule from here but you can also say you have an Omega and it acts on a V without coordinates without bases it's clear this is possible this is a co- Vector a co- Vector acts on a vector to yield a number that's the definition act a vector to yield a number uh but that's Omega a Epsilon a VB e EB you pull out the sum that's invisible you pull out the numbers VB
+
+01:38:31
+and they have iyon a EB and now if you have chosen the Dual basis this is a Delta a and if this is a Delta a then this double sum over A and B yields Omega M VM and if you then have this as a row and this as a column you can think of this again as the Symmetry representation with the flower on top and you again have here the matrix product okay and then you end up writing stuff like it's written here which without the summation convention is Omega a now these are all numbers this these are numbers so I can
+
+01:39:24
+write them in a different order F A VB you say ah there's a matrix multiplication here if I write this as a row and there's a matrix multiplication here if I write this as a column and this goes on to be written as Omega transpose because you want to emphasize that you do this then comes the FI which is a matrix so these are all the the Symmetry representations and then comes the V and you've certainly seen things like this and this transpose makes you think that there is some that this is
+
+01:39:58
+some good object the transpose the transpose is not a good object at all okay um it's very bad notation it pretends to be it it almost pretends to be basis independent but it it is not at all okay so you might think of this result oh Omega comes from the left and V comes from the right and I calculate this like you do in the introductory course okay okay but this is I mean it's not necessary right it requires a lot of additional convention um it's really just not worth it and if you continue to higher rank
+
+01:40:36
+tensor this is a one one tensor if you have higher rank tensors you would have to represent them say a one two tensor would have to be represented by by a cube of numbers you have a two two tensor you have a four-dimensional cube of numbers I mean what's the point okay it's a singular possibility for one one tensor and 02 tensors to to come up with such witchcraft notation okay I encourage you I introduced it and that's the tempting bit and on this occasion we will resist temptation uh resist the temptation to
+
+01:41:11
+think of it like this crap this right uh think in terms of components the summation Rule and always try to understand these guys from the component free and basis free notation that's the task and you need to uh gain some Facility by practicing in switching between basis notation and basis free notation like I did here by plugging in the basis that that's key and uh forget about this kind of stuff this is confusing okay and I mention it because um well it's ingrained on our thinking because we
+
+01:41:53
+used it often in the beginning but essentially the the lesson is um don't do this the upshot was a gentleman only chooses a basis if he must and there's the stronger Widow principle a lady must never go to the cemetery okay you should enjoy the fortunes of the basis free notation and in this Spirit uh we now look at change of bases it was a rather longish aside the change of basis is I have a basis and I Define a new basis EA by some coefficients a a e um I'm sorry ba a EB and I study how the components
+
+01:42:39
+change how do components of vectors and co- vectors change because the components are basis dependent so it's very simple so say you have a um Co Vector Co Vector Omega uh this Co Vector Omega has components Omega a because you apply Omega to EA that defines the components choice of bases the abstract object you plug in the bases you get the components now however under a change of of bases always write equal signs EA well that's the other way around can be written as using the Matrix B from before uh b a m
+
+01:43:34
+say e m that's the same guy because we had um E A equals B A M E M and A and B were inverses as matrices and in fact the inverse of a matrix with index up down UPS down is actually really the inverse of the corresponding endomorphism and then the representing Matrix so this all fits together you have this and you get here B ma this is linear so you can pull out the numbers you can pull out the invisible sum sign so you have omega of e m but this is nothing but Omega M that means if you change a basis sorry there's the twiddle
+
+01:44:22
+missing here there's the TD missing here the twiddle missing here and these are the components of Omega in the twiddled bases are called Omega twiddle so if you change bases new bases or old bases is BM times the new base or the other way around you get the rule for the change of components like this is this Matrix B that you use and you do the summation convention with the components in the twiddle system for the Omega and you get the components here it's precisely the other way around for vectors as we'll
+
+01:44:55
+see so the eighth component of a vector how do you evaluate this well that's the vector applied to a co- Vector I say that's strange Vector applied to a co- Vector well this already uses this considers here the vector as a T10 tensor and then of course it eats a co- Vector uh the definition of this after all is considering the vector uh as an element of v and then you can act on it with the co- Vector so this is this Duality I showed before because this is Vector space isomorphic to v um
+
+01:45:34
+that is this and now you can expand the V and say that's v b EB in this basis but then you can represent this basis differently it's Epsilon a uh VB um and you have uh B m b e m twiddle you have this but these are numbers those are numbers you can pull them out because this is a co- Vector so what you end up with down here is VB B MB and here what remains is Epsilon a on E twiddle M aha hang on a second yes and now I need to show that I can actually represent ah one brief moment please that is this that is that so and
+
+01:46:32
+what I end up with here ahuh okay I hope I'm not in trouble is Epsilon a of e tdle m now that I cannot expand there's something going wrong here V Epsilon a I apply this to this I expand this in that basis and this gives that aha what I should have done and would have been much clever I expand the V here in the twiddled bases so it's the twiddled bases and the twiddled components that go with that basis that means those are component with that basis so then I have the twiddled components here and now I
+
+01:47:09
+need to use this relation I'm not using B I'm using a a b m is the E twiddle but in terms of the untd E so now I'm in business so I pull out the V twiddle and this here is the a MB and back here I have the Epsilon a e m it's just as my choice whether expand this V in the twiddled or in the UN twiddled basis that's my choice I made a better choice now for what I want to prove now this is because we chose dual basis is Delta a m so the result here is um a m b am I got the indices
+
+01:47:56
+somehow no should should be fine so an A M am B yes am VB correct am B VB twiddle and the Delta makes this into an a it's perfect right so you have the relation that the VA components are the components v tdle b from the other system and here you have the summation Convention of course and now it goes with the opposite Matrix with the inverse of this Matrix so if vectors transform this way co- vectors transform the other way you can generalize this to tensors and if you have if you have tensor
+
+01:48:35
+components uh so C for this is a this is B for the vector and for tensors uh you have the rues so let's start in the unwit system you have ta A1 and then you have B let's write it like this there can be several I just write the first bit because all that matters is whether the index is up or down if the index is up then you use the Matrix a a and you introduce a dummy index M and that goes with this M over here do and for an index down an N you use the Matrix uh B but then the N is up here
+
+01:49:15
+and the resulting index B is down there so you have many of these A's you have many of these B's and so the upstairs indices transform form like vector indices would be the rule and the uh downstairs indices like the others of course those are the components in the new in the new frame and we always remember that um if a is a linear map from V to V which it is uh then B is the inverse of a that's well defined we know what that is that's also a linear map from V2 V and uh a a b are just the
+
+01:49:52
+components of a and b a b are the components of B and those are the guys I'm talking about and so if I say the inverse Matrix that either uses the Witchcraft matrix multiplication or it uses the notion of the inverse of a linear map which is totally free of any uh coordinates and then you represent these maps by the corresponding matrices of course this relation that b is a inverse implies the matrix multiplication uh so it follows it's not the definition but it follows that a a m b m b is Delta a that follows from this
+
+01:50:32
+inverse but this is defined uh basis free okay so that's the uh transformation rule for a tensor under a change of bases and you see it's a little bit uh you have to see where the twiddles are and the A's and the B's and so on um it's best every time you need this if you want to explicitly know if the basis goes like this how does the upstairs index transform it's best to quickly rederive this okay otherwise you get probably confused okay so are there any questions so far
+
+01:51:19
+yeah how I come from here to there here from this to the next okay so that was essentially so let's um okay it's good that you ask so um it's this little Cloud okay um we had this fact that if I have a one0 tens over V that that's actually the same as a vector one Zer tenses are vectors but it was not so immediate immediate immediate is that the 01 tenses over V there are all the linear Maps F from V to K but that's by definition is V Star so the 0 ones are V Star is immediate
+
+01:52:27
+that the one zeros are V is not immediate and it's only true if V is finite dimensional okay and it went like this so elements in here uh are linear maps from V Star to K that was by definition and how do you understand that the linear map from V Star to K is again an element of V well you realize that this is of course V Star Star is all the linear maps from the vector space V Star into the number field this is this and in order to understand this you need to construct uh what you have to construct on the
+
+01:53:08
+problem sheet then on the problem sheet you remember I uh said there will be you will be asked to prove that there is an isomorphism a vector space isomorphism from here to there so once you did this proof on the problem sheet it's the constructive proof you will from the problem sheet understand that this considering v as a T10 tensor it can act on a co- Vector you see if something is an element here it can act on a co- Vector that's this interpretation the V can act on the co- Vector once you
+
+01:53:47
+interpret this element in here as an element here via this isomorphism you're going to to construct that moment the co- Vector can act on the vector it's just the other way around so where you saw the problem there is a problem and in finite dimensional Vector spaces it's solved by the isomorphism you're going to construct on the problem sheet and now following your question I will add another sub question that will make this very explicit okay so you're absolutely right it could
+
+01:54:21
+not be understood technically from precisely what I wrote down because I outsourced the solution of this uh construction of this canonical isomorphism to the problem sheet but it's outsourced there precisely because it's so useful so you should um deal with that okay I mean usually this is just presented as let's say this acts like this or so right okay but not let's say we we construct this properly and it has to do with the slightly increased difficulty to show this isomorphism whereas this
+
+01:54:55
+isomorphism of the 0 one tenses to the co- vectors is immediate this is just a thing here it requires further study but it's true nevertheless it's just not that obvious okay that's the point so this is a subtlety that's usually well usually in physics is sometimes not mentioned okay further questions so far okay now um something we're also going to use and which uh sometimes comes with a lot of confusion is the notion of determinant so let's look at determinance so you need to trust me
+
+01:55:39
+that uh a the order in which I present these things first without the basis then the basis to get Dimension then going back to the basis free notation and again introducing the components on this precise order is important to understand the whole subject you have to understand it in this order um if you started from the beginning and you think from the beginning as a vector of a vector as a collection of numbers that are its components then you already are on the wrong track you need to start thinking abstractly and only after
+
+01:56:13
+introducing a basis you allowed to do so okay it's very important to to get this order straight because otherwise all kinds of confusions arise and uh one part particular thing we're going to use heavily is determinants now in witchcraft mathematics determinants you take a symmetry of numbers and you calculate the determinant According to some mysterious rule okay and once you establish this rule you show things like well heavy heavy work to show it that actually the rows and the columns if you exchange to
+
+01:56:52
+rows the deter picks up a minus sign if you exchange to columns it picks up a minus sign and it's a very mysterious rule acting on a cemetery okay now the Symmetry is not particularly meaningful and uh the Symmetry also hides another fact um um so again some polemics on symmetries symmetries um you see if you have F which is a one one tensor then you have these components a b and you may think of them as being here ordered according to the row and column Rule now unfortunately um if you have
+
+01:57:42
+another tensor which is a 02 tensor what's 02 tensor well a 02 tensor if you write down the components according to our rules it has indices downstairs why do the components have indices downstairs well because the 02 tensor actually eats two vectors that means it eats in particular the components eat to basis vectors but the basis vectors have the indices down so the components have the indices down uh then you can arrange this again according to the row column rule that then looks somewhat like this
+
+01:58:14
+gd1 and gdd now this is an endomorphism or a one one tensor and this is a 02 tensor sometimes people call this a bilinear form endomorphism bilinear form entirely different beasts in particular this one has an index up down the index up transforms with an a the index down with a B Matrix under change of basis this guy transforms with two times a b Matrix um in mathematics you see transformations of this type you say you take the a Matrix and um you come okay how does this it it looks somehow like this
+
+01:58:58
+um you say Transformations look like this and here so also in mathematics you write Transformations look like um a transpose G A I'm sure you saw this you saw this as a transformation rule in linear algebra and you saw this as a transformation rule in linear algebra ra there's the inverse there's the transpose I wrote transpose before like this now the transpose as I showed you before is a concept from witchcraft mathematics okay from symmetry mathematics this is slightly better and
+
+01:59:39
+the re the difference between this is this is the transformation rule if you want for an endomorphism and that's the one for a bilinear map for the components of a one one tensor for the components of a zero to tensor two totally different objects transform totally different under change of bases now if you do not change bases you might delude yourself into thinking this is a matrix that's a matrix what I can do with a matrix I can do with a matrix so in particular you could say I Define the determinant for this Matrix
+
+02:00:16
+According to some witchcraft rule well then I can take the determinant of that Matrix down there as well no no determinants are only defined for endomorphisms how can I see this well I have to do it basis free then I can see what goes on very important okay so let's uh okay I think I I stay here for a moment so so first we need a definition and the definition is the following um on a dim V equals D dimensional so finite dimensional Vector space V an N form an N form is a0 n/ V tensor the zero n
+
+02:01:34
+tensor let's call it Omega um that is totally anti-symmetric totally anti symmetric what does that mean well so first of all yeah so the N must be somewhere between zero and the dimension of the vector space the case for zero is and okay so special let's first do the case non n non zero n greater than zero and the N equal Z case comes in a second n greater than zero is you have an Omega and you plug in um if it's an N form it eats n vectors so I can plug in the vector uh V1 down to v n because
+
+02:02:33
+it's a zero n tensor but it has a special property and the property is that the result of this is the same as if you took a permutation of these vectors so you map the one by a permutation pi to another number to the seven say V Pi of 2 comma V Pi of n for any permutation Pi in the permutation group as n so that's not the sphere this is the permutation group but then you have here a Signum a sign of the permutation and you know the sign of a permutation is + one if it's an even permutation
+
+02:03:20
+it's minus one if it's an odd permutation I trust you you know this simp more simply said is if you exchange any two you pick up a minus sign if you change another two or the same two again you pick up yet another minus sign so you don't pick up a sign so a totally anti symmetric zero n tensor is called an N form and this anti- symmetry is wildly important and the case n equals z uh that is just Omega is then just a number okay so a z00 tensor I should have said this before I had the one zos
+
+02:03:56
+the 0 1es the pqs and a z00 tensor by definition by convention is the underlying number field or a scalar that's just convention and so that is uh plays out in particular here of course if there's no entry the Symmetry condition doesn't have any effect also if it's a one form 01 tensor the antisymmetry condition has no effect because there's nothing to be exchanged okay so that's this and then uh a special case of this a special case uh are the socalled top forms top forms what's so top about the top forms
+
+02:04:36
+the top thing is they have the top rank uh you have a form that has as many entries as your vector space has Dimensions couldn't you consider a zero D+ one tensor you can there are tensors that have more entries than the dimension of the vector space right but if you then require them to be anti-m totally anti-symmetric in this way then you will if you plug in tensors they will always be linearly dependent because you have more than Dimension many and then the anti- Symmetry actually will kill the whole thing to
+
+02:05:14
+zero so you could drop this restriction that n must be less or equal to the dimension to have a form to have an n form but all the higher n forms would be zero so we don't consider them and the highest rank form hence the top form has the rank equals to the dimension of the vector space top forms and have the following property if Omega and Omega Prime are top forms then there exists a number c such that Omega Prime is C * the Omega if they're non zero top forms both non Vanishing that means essentially up to a
+
+02:06:05
+scalar multiple there is only one top form on a vector space constructed over a vector space okay that's very very easy to see because it's totally anti-symmetric uh it can only differ by by a factor okay so um Choice definition choice of one top form Omega and you see the choice isn't big you can choose one another one is five times the the one you chose it's not a big choice choice of what one top form um is called a choice of volume form of volume on the vector space okay why is this well because you
+
+02:07:00
+make the next definition definition um let V1 to VD be D vectors on uh on a d dimensional Vector space V then the volume spaned by V1 by them is well let's call it Vol volume that's span by these vectors V1 to VD the order matters uh is simply defined as Omega of V1 to VD so what happens if you have in a three-dimensional space you have three vectors if you plug them into your choice of volume form that will give you a volume okay if two of the three no if the three are linearly dependent if they
+
+02:08:01
+lie all in one plane then the anti- Symmetry will kill it of course if the three lie in one plane the span volume is zero they need to be linearly independent to spend a volume non zero and the same is true in higher Dimensions but in order to assign a volume you need to choose one such top form so you might have thought that volume is like uh you need an inner product or so because you need an inner product to have angles and lengths and so on but volume is actually a choice of a top form that will come back uh in the
+
+02:08:37
+lectures we'll need this at some point so that's one uh place where you need the um the volume form so if you if you wish a vector space to together with a choice of top form can then be called a vector space with volume so it's additional structure you choose but all your choice is in the factor now what is a determinant definition so first of all there is no determinant on a vector space without a volume form but it's not that bad we'll see in a second definition let fi be an
+
+02:09:41
+endomorphism and for an endomorphism or for I emphasize again for finite dimensional ones for a one one tensor or emphasized again for a map v2v linear and so on for an endomorphism uh we Define the determinant of the endomorphism it's not the determinant of the components it's a determinant of the abstract object and that's a number that's a number and this number is defined as the quotient of you take a top form Omega and you use a basis F E1 to f e d we're D dimensional and you divide by Omega E1
+
+02:10:38
+to Ed for Su volume form Omega and some bases E1 to e d of v and of course if I say for some for sum I need to check whether this is well defined well defined that means is it independent of these choices independent of these choices of which Omega you choose and which BAS you choose now you immediately see why it's independent of the choice of Omega do you see that who can tell me why it's independent of the choice of Omega exactly the the fact factor C as we call them so two different I mean
+
+02:11:40
+it's one Omega another Omega gives you a factor C but they cancel exactly so it's independent of the volume form Omega that's immediately clear that it's independent of the basis you you show by plugging in the basis change we had before you plug it in here you plug it in here you pull it out and so on and you'll find it's independent of that too because essentially you get the Omega of the basis change Matrix here survives and and those factors cancel as well so in fact yes it's it is well
+
+02:12:16
+defined yes check not going to do this right here now you see why you need an endomorphism because you have a vector but you need to produce from this Vector a vector again very important now you can read off a few other things I mean we know that the determinant of this F of course it will coincide with the determinant according to the Witchcraft rule if you apply it to the Symmetry for f for the arrangement of its components I mean what you learned is correct the determin determination rule okay will
+
+02:12:57
+coincide and the determinant to what order to what power what power of um components of fi appear in the determinant so if you have an n * n Matrix and you calculate the determinant what what kind of products do you have in this determinant in the number that comes out well it's the power of the dimension of the vector space right I mean you have this um um so witchcraft rule is um you have the determinant the Witchcraft determinant of the representing Matrix a b c d say and that's a D minus BC so it's a 2X two
+
+02:13:50
+Matrix and so you have factors of two if you have a 3X3 Matrix you have a d m or whatever a d m minus then come all the other product it's always this power well you see this here because every F E1 gives you one component of fi right with an with a vector again and then the Omega eats D many of those and that is why the corresponding Powers appear here but now other rules like what happens even in a big representing Matrix for fi so expand in some bases what happens under an exchange of row and column of
+
+02:14:28
+of of two two rows into two columns and so on right uh you can you can read it off from here because the Omega is totally anti-symmetric so if you if you change rows and columns in five you keep the order of the bases only up here there will be one switch of row and column up here because it's in the representing Matrix of F that picks you up a minus sign because the to the Omega is totally anti symetric and so on so all these rules follow directly directly from here and this is the abstract
+
+02:15:00
+definition now it's also clear what happens under a change of bases well we already said that because we said for some base under a change of bases nothing happens and that is in witchcraft rules is this that the determinant of so here you have of the Symmetry representation uh you say you change the bases you remember that in an endomorphism you change bases like this I I erased it and you say but that's the same as the original determinant of the Symmetry right if you have this a inverse and
+
+02:15:41
+well you know that that um works like this you can also show that the determinant of the composition so take the determinant of the composition of two linear Maps this is not a matrix it's a composition because the determinant eats an endomorphism totally basis free uh that can be shown to be the determinant of one endomorphism times but that's the times in the multiplication in K times the determinant of the other other endomorphism and that also follows here simply from looking at compositions and
+
+02:16:20
+so on so all the standard rules right uh come come up in this way okay so now why did I emphasize so much the difference between um bilinear forms by linear maps not forms sorry bil linear maps and endomorphisms well because in uh physics and also in mathematics one has opportunity to also use the determinant of a bilinear form and that will also be on the problem sheet but I'll show you the basic idea so again there is no doubt that the determinant as it is defined can only be defined for an endomorphism because you
+
+02:17:28
+need to produce vectors here again um problem sheet speaks of the following um so again the Witchcraft version which we're trying to replace by a better version on the problem sheet the Witchcraft version is this so we're only talking about matrices now you have for an endomorphism you have the representing Cemetery um and you know it's the same as that this rule for changing bases and you have the uh rule for M for determinance that this is that a inverse a so that a inverse that F that a but
+
+02:18:20
+then these are number so you can push this here and then you can use the rule backwards is that a inverse a * that F and of course this here is the unit Matrix now if you or the unit endomorphism that's it but if you have the unit endomorphism you of course get one for the determinant is also very clear from this definition so the whole thing results in De fi that means determinant do not depend on the choice of bases well they better don't we man Define them this way but this is the Witchcraft version to show this okay so
+
+02:18:56
+this is not a big result of the Witchcraft definition of the determinant uh it's it's an important consistency check that the whole thing doesn't depend on the choice of bases but now we do something different we calculate according to the Witchcraft rule the determinant of a bilinear form so of a 02 not form of a bilinear map so of a two 02 tensor okay whereas here this was an endomorphism a one one tensor okay now so this is the Witchcraft definition but it coincides with the proper definition now this is
+
+02:19:38
+the Witchcraft definition and it cannot possibly coincide with the proper definition because the object here needs to be an endomorphism and I now act on the representing matrix it's illegal it's deep in deeply illegal okay from an abstract point of view but if you do this you can check what happens under a change of bases and I showed you before witchcraft calculation shows you this is a transpose GA that's correct because you come from the left and you come from the right that's what the transpose does
+
+02:20:12
+and if you calculate this this is that a that a transpose that g now the determinant of a transposed Matrix is Again The Matrix the determinant of the Matrix you know that too so what you have here is the determinant of the Matrix squared times the determinant according to the Witchcraft rule so question is the determinant of an of a bilinear map is that independent of the choice of bases the answer is no it will pick up a factor determinant of the change of bases Matrix squared it is not well defined now hence we wouldn't use
+
+02:21:08
+it but it turns out and that's the trick we do something IL defined from an abstract point of view but in other places there will be factors like this coming up in the denominator so they will also be not well defined under change of basis but then the product of something that in this fashion is not well defined under change of bases and something that picks up the opposite Factor the product will be independent of a change of bases okay and hence one starts considering these guys and now you say okay so what now if
+
+02:21:48
+it abstractly cannot be defined you you commit say a mistake and later on the opposite mistake and the mistakes cancel how can we cast this into proper mathematics and the answer is we can by considering bundles because we will consider basis changes we'll consider a bundle where you have the basis basic manifold you're interested in and as a fiber we will attach at every point the transformation group that you have here for a change of of uh bases it's called a principal fiber bundle and using this principal
+
+02:22:27
+fiber bundle will then be able to give a a bundle definition of what a tensor is and that will work and we'll give a bundle definition that's the keyword what a tensor density is and the density picks up this but we can do it without this hand waving mathematics in the bundle formalism all of this has its place that's one of the big reasons why we need bundles
+

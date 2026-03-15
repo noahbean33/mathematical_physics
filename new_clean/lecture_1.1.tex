@@ -1,0 +1,98 @@
+\chapter{Axiomatic Set Theory}
+
+\section{Propositional Logic}
+
+Are there any questions so far? Okay, so let's start with logic. So Chapter 1 is actually already axiomatic set theory, and in the first section here---yes, yes---and the logic behind the logic is that the first subsection will be propositional logic. So I summarized the logic under axiomatic set theory because it's the language for axiomatic set theory. So 1.1 is propositional logic.
+
+Now the key notion of propositional logic is a proposition.
+
+\textbf{Definition.} A \emph{proposition} $p$ is a variable that can take the values \textbf{true} or \textbf{false}, and no others.
+
+That's it. That's a proposition from the point of view of propositional logic. So in particular, it is not the task of propositional logic to decide whether a complex statement of the form ``there is extraterrestrial life'' is true or not. That's not the task of propositional logic. Propositional logic already deals with the complete proposition and it just assumes it's either true or false. You can say, well, let this proposition $B$ have the value true---yeah, you can do that---but if nothing is said, it's either one; not true at the same time, of course; no other; it's true or false. You know this. It's also not the task of propositional logic to decide whether a complex proposition of the type ``in winter it's colder than outside''---well, is this a proposition at all? Well, obviously the one I just mentioned doesn't seem particularly reasonable, but it's not the task of propositional logic to decide. This is important to realize.
+
+Okay, propositional logic deals, as its atomic elementary notion, with the notion of propositions. Now certainly you can build new propositions from given ones, and one does so with the help of \emph{logical operators}. They come in different forms, and the simplest form is \emph{unary operators}. There are four unary operators. What's a unary operator? A unary operator takes one proposition $p$ and makes from it a new proposition. So the ``one'' sitting in ``unary'' means you take one proposition as given and construct new ones. And of course this one proposition can have values true or false.
+
+Now I said there are four unary operators. Let's write them down. Well, a famous one is the \textbf{not} operation. $\lnot p$ is again a new proposition called ``not $p$.'' In this proposition, if $p$ takes the value true, this proposition takes the value false, and if $p$ is false, this proposition takes the value true. It's one of them, and you certainly saw this before. Well, there are three others. There's the identity; let's call it $\mathrm{id}(p)$: this is true $\to$ true, false $\to$ false. There is something like we might call the \emph{tautology operator} $\top(p)$: this is always true independent of what $p$ is. And there is this operator, let's put it upside down, $\bot(p)$: that's the \emph{contradiction}---that's false whatever $p$ is. And you quickly check that if $p$ can be true or false, these four are all the possibilities you have for defining a unary operator.
+
+Well, the next step are \emph{binary operators}. In order to see how many of those we have, well, you need to start with two propositions that you assume are given, and they can take the values: true--true, true--false, false--true, and false--false. And so the easy one, certainly known to all of you, is the \textbf{and}: $p \land q$. And $p \land q$ is a new proposition. So this in total is one new proposition. This is true, false, false, false, in the cases where $p$ is true and $q$ is true, $p$ is true and $q$ is false, and so on.
+
+Now there's a whole number of others, and you can quickly calculate: if for these four rows you can for each row decide whether you put a true or a false, we have $2^4 = 16$ binary operators. Yes, that's right. So a unary operator takes one proposition and constructs from it a new proposition. Yes, but that's the notion of an operator. It takes two variables from this set, so it goes---if you would say---from a Cartesian product of the set $\{\text{true}, \text{false}\}$ with the set $\{\text{true}, \text{false}\}$ to the set $\{\text{true}, \text{false}\}$. It's a map. However, I'm not saying it this way because we don't know yet what a set is; we don't know yet what a Cartesian product is. This is an elementary presentation of this.
+
+One can do this even more abstractly and just write down deduction rules---never write down such a table---and you write down deduction rules. This is the even more abstract way of doing this. I didn't choose it because it has no purpose whatsoever if you do standard logic. If you do non-standard logic, like intuitionist logic, then you remove certain deduction rules, and then you get a logic that you can no longer express with these tables. Okay, and well, that is very esoteric. I don't say it's not interesting---I find it very interesting---but every course has to define its bottom line. And so this course defines the bottom line at not writing down propositional logic using deduction rules and axioms, but rather presenting the tables, because it's really sufficient for what we're going to do.
+
+Okay, so now there are a number of others. There is the \textbf{or}, there is the \textbf{exclusive or}, and so on. So $p \lor q$, you know: this is true, true, true, false. The exclusive or is false, true, true, false. And so on. So in the Middle Ages, people were discussing whether the ``or'' that appears in some sentence actually means the inclusive or the exclusive or, and obviously they appealed to the Bible in order to see how God used it. Well, it was actually again Wittgenstein and Frege and others, more or less around the turn of the century to the 20th century, who said: no, hang on, it's just a table; it's just a definition. They have 16 binary operators, each of them maybe deserves their name or not; you have 16 of them; you have the inclusive or, you have the exclusive or, and so on.
+
+Now this is all child's play and you've seen this before. But I go to such lengths in writing this down because there's one binary operator which sometimes is a little ill-understood, unless you're maybe very knowledgeable about these things, and that's the \emph{implication arrow}. So from school days we use this implication arrow as saying: I write down something that's true, and now I do something valid, and then I may write down this implication arrow, and that means I did something okay.
+
+Now the implication arrow, as much as the ``and,'' is a binary operator that takes a proposition and another proposition and makes one new proposition out of it. So this whole thing, $p \Rightarrow q$, is in total true or false. When is it true and when is it false?
+
+\begin{center}
+\begin{tabular}{cc|c}
+$p$ & $q$ & $p \Rightarrow q$ \\
+\hline
+T & T & T \\
+T & F & F \\
+F & T & T \\
+F & F & T \\
+\end{tabular}
+\end{center}
+
+From true follows true: this is evaluated to be true. From true follows false: no, no---mistake; you don't pass the test. From false follows true: you say no, no, no---well, yes, yes, yes! You should write a T here. That's at least the definition. And from false follows false: well, that must be certainly wrong? No, it is not; it's also true.
+
+Now this is the definition of the implication arrow, and this is why I go to such great lengths about this. Well, this principle---that from a false assumption you can conclude anything and the whole thing is evaluated to be true---deserves a name. This principle has been in place for a long time. The principle is called, in Latin, \emph{ex falso quodlibet}. Roughly translated, it means: from a false assumption you can conclude whatever you like. \emph{Ex falso quodlibet.} And these first two are kind of intuitive.
+
+Now the question is: why on earth would you define the implication arrow like this? And the answer is hidden in a little theorem. It's very simply proven.
+
+\textbf{Theorem.} $(p \Rightarrow q) \Leftrightarrow (\lnot q \Rightarrow \lnot p)$.
+
+Now this equivalence arrow we haven't defined. I define it here: $p \Leftrightarrow q$ is true if both are true, false if one of them is true and the other is false, and true again if both are false. So $p \Rightarrow q$ is an equivalent statement to---now careful---$\lnot q \Rightarrow \lnot p$. So the order, if you put the not in front, is exchanged. And because I didn't tell you about the binding strength yet, you may be careful and put brackets around here.
+
+Now this looks funny. It's quickly proven; we'll do it in a second. But the important thing about this logical mumbo jumbo is the corollary.
+
+\textbf{Corollary.} We can prove assertions by way of contradiction.
+
+So see: we know that $p$ is true---it's the assumption that $p$ is true---and we want to prove that then $q$ is true. What we can do instead, which is fully equivalent, is to assume that what we want to prove is not true, and to prove that that means the assumption isn't true. And we say: oh, contradiction! So $q$ must have been true. Well, this is what this says. So this statement says: you can prove assertions by way of contradiction. It's a very elementary principle, a very sharp tool of mathematics.
+
+Now coming back to your question about these tables and what map this is: such an operator, if you formulated logic in terms of these deduction rules and axioms without the tables, you could surgically remove certain deduction rules. And one of them that you can remove, such that the whole thing cannot be written down by tables anymore, would be one that destroys this theorem. And then you would have a logic, and built on it you would have a type of mathematics, where proofs by contradiction are no longer allowed. You probably, in every good mathematics department, find one professor who follows that kind of---I think they call it intuitionist logic---and it's a pain, because the proofs take twice as long as usual, because you have to constructively prove everything you want to prove. And some people make a strong point that that is very meaningful; it's certainly a better result if you know something constructively. But they make an even deeper point: they say we do not trust the proofs by contradiction anyway. We're not going into that. With our definition, we have logic that allows proofs by contradiction, essentially by this definition.
+
+Well, so how do you prove such a thing? Well, this is important for the first vanilla problem in any exam. Well, of course you use the tables. You construct: you have $p$, $q$; you construct $\lnot p$ and $\lnot q$.
+
+\begin{center}
+\begin{tabular}{cccc|c|c}
+$p$ & $q$ & $\lnot p$ & $\lnot q$ & $p \Rightarrow q$ & $\lnot q \Rightarrow \lnot p$ \\
+\hline
+T & T & F & F & T & T \\
+T & F & F & T & F & F \\
+F & T & T & F & T & T \\
+F & F & T & T & T & T \\
+\end{tabular}
+\end{center}
+
+So true, true, true, false, false, true, false, false becomes false, false, true, true for $\lnot p$ and false, true, false, true for $\lnot q$. And then you write down $p \Rightarrow q$, and you know this from before: it's true, false, true, true. You write down $\lnot q \Rightarrow \lnot p$: well, you construct it from here. False implies false is true; true implies false is false; false implies true is true; and true implies true is certainly also true. So we have true, false, true, true and true, false, true, true. Wonderfully, these two columns are equivalent. This is exactly the statement up here. This is the proof of such statements by way of writing down in full the truth table.
+
+Okay, so there are certain remarks in order.
+
+\textbf{Remark 1.} We agree on decreasing binding strength in the sequence:
+\[
+\lnot, \quad \land, \quad \lor, \quad \Rightarrow, \quad \Leftrightarrow.
+\]
+So $\lnot$ is very strong, $\land$ is not so strong, $\lor$ is even less, then we have the implication arrow, and then we have the equivalence arrow. Okay, so if you have more symbols you need to extend the sequence. However, the question is: how many operators do you actually need? Well, we had a few unary ones, we had a few binary ones. Well, what about higher-order operators?
+
+\textbf{Remark 2.} Higher-order operators: say the operator $\heartsuit$ that eats $p_1, \ldots, p_n$ statements will be an operator of order $n$. Unary operators are obviously of order 1, binary operators of order 2. Higher-order operators $\heartsuit$ can be constructed---I should say, \emph{all} higher-order operators of any order can be constructed from one single binary operator. And it's the so-called \textbf{NAND} operator.
+
+\begin{center}
+\begin{tabular}{cc|c}
+$p$ & $q$ & $p \uparrow q$ \\
+\hline
+T & T & F \\
+T & F & T \\
+F & T & T \\
+F & F & T \\
+\end{tabular}
+\end{center}
+
+NAND is false, true, true, true---because it's ``and'' but the negated version of it; it's NAND, ``not and.'' And my statement is that any operator can be constructed from the NAND operator alone. So in fact we do not really need this binding strength thing; it's just a convenience.
+
+All right, so I guess there will be some finger practice problems on the first problem sheet on that. Yes---and just to try: question, if you want---writing the equivalence operator in the truth table, is it only true when both sides are true or both sides are false, or what's that? Much---that's the definition of the equivalence operator. It's true if both propositions take the same value. Yeah, yeah, that's because on the other blackboard---yes. Okay, further questions?
+
+All right, so this was a very quick recap of propositional logic, and we'll proceed.

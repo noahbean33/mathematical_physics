@@ -1,0 +1,330 @@
+00:00:01
+[Music] so good morning and welcome back um after the last uh lecture uh some of you asked me about representations of Lee algebras and Lee groups and um I decided to have a brief section on this because indeed mostly you meet Al Lee algebras and Le groups in physics uh in terms of their representations and very often they even defined in terms of their representations this is something we didn't do we defined a Le group as a smooth manifold with a group law that is compatible with the smooth structure and
+
+00:00:43
+we defined the Lee algebra uh as the left inv Varian Vector fields and of course we could pull all of this back to the uh tangent space at the identity with a suitably induced bracket but what on Earth are these repr presentation so we should comment on that because it's very important so we have a section 4.6 linear representations of Lee algebras and Le groups and we start with the algebras and when we then we briefly comment on the groups now again uh you can give a at least half semester long lecture on
+
+00:01:42
+this topic uh so I'll present mainly no proofs but I'll introduce the uh important Concepts so the key concept is the following definition let L with our abstract Le bracket be a Lee algebra uh then a representation of this Lee algebra is the following it is a linear map which we may call rows so let's say a representation row of this algebra uh this Lee algebra is a linear map row that goes from L why can I say linear well because l in particular is a vector space goes into the endomorphisms of sum Vector space V so
+
+00:02:52
+this is sum Vector space V over the real or the complex numbers such that okay does that make sense well if V is a vector space let's say some finite dimensional Vector space and then we have a finite dimensional representation does that make sense well L is a vector space yeah uh and V well that's a vector space because that's all the linear maps from V to V which by themselves constitute a vector space again uh such that well we need somehow compatibility with the Lee algebra bracket such that well I can first take
+
+00:03:39
+the bracket of two Lee algebra elements let's call them A and B and then the result will be a Lee algebra element and I map it and I require that this be the same as first mapping one of them and mapping the other of them and then the result being put into brackets these are now of course not the differential geometric brackets because these are not Vector Fields they're just uh endomorphisms on V and where this bracket is defined so this is defined as whenever we write this now we mean this
+
+00:04:24
+is an endomorphism this is an endomorphism so what I can certainly do I can execute one after the other I can compose them and then I can again compose them but in the opposite order and that's of course what we know as a commutator you take this and apply to this minus this apply to this this is of course again an endomorphism so this bracket here is a bracket is a bilinear map from v and end V and V into end V that is uh the bracket here goes from end V cross end V into end V and of course
+
+00:05:12
+it's bilinear is easily checked and in fact by construction it's anti- symmetric and you can also check that it satisfies the jacobe identity aha that means why do I map into the endomorphisms well because the endomorphisms by virtue of having a natural composition on them can be immediately made into a Lee algebra okay so and what I formulated here is that I say a representation of an abstract Lee algebra is a linear mapping into NV which itself carries Lee bracket namely this commutator bracket
+
+00:05:56
+and I require compatibility that I can First Take the bracket and then map or I can map the elements and then take the bracket and should be the same outcome okay and uh so the this row is then called the representation and uh the vector space the particular Vector space that we used here the particular Vector space V that comes with a representation is called the representation ation space the representation space okay so that is uh maybe confusing because one might have thought well you map the Lee algebra to end V so you
+
+00:06:45
+might say NV is the representation space where you represent the L well that is what it is but the terminology says this V is the representation space okay and the idea behind mind it is that once you have a row of some Le algebra element some row of a you can act on the representation space V because row of a of a little a is an endomorphism in V so an endomorphism can act on a vector and produce a new Vector that's the idea okay so that's the abstract definition of a linear representation so
+
+00:07:25
+we should call this then a linear representation because we do this by endomorphisms on a vector space okay so example or examples well uh so we discussed at Great length the SL 2C Le algebra and we found that it has three generators well three basis vectors uh this is threedimensional algebra and we wrote down these commutation relations for it this was 2 X2 this is X1 X3 is - 2 X3 and this is X2 X3 is X1 and we derived this from the left invariant Vector fields and the structure was inherited after all from
+
+00:08:30
+the product structure on the Lee group Capital SL2 C but this is a Lee algebra and now these three Vector fields we we only these three vectors we had only the interpretation these are the representatives of the left invariant Vector fields at the identity we didn't know more now a representation representation because there in general there many many representations a representation of SL to C is provided by um ahuh um so let's call it row and it takes the first Lee algebra basis Vector ah because it's a
+
+00:09:17
+linear map it suffices to prescribe it on a basis right so I prescribe it on a basis I say this one is 1 - 1 0 0 uh on the second one it's uh 0 1 0 0 and row on the third one is 0 0 1 0 so what I'm obviously doing here I'm providing a representation SL2 C which chooses as its representation space let's say C2 and obviously I can give elements in C2 with respect to a canonical basis because this is C Cross C I'm acting on um I can represent linear maps endomorphisms by they representing
+
+00:10:06
+matrices and I choose these now this is a linear map all right well by linear extension of course continuation but now check whether this satisfies this compatibility condition well we can calculate what is row of X1 commutator row of x 2 for instance so let's take these two guys I have to take the commutator uh and that's of course the composition here in the abstract uh represent in the abstract writing of course corresponds to matrix multiplication once I take these um uh basis representations and so I have to
+
+00:10:51
+calculate 1 0 0 minus one on 0 1 0 0 minus 0 1 0 0 on 1 0 0us one using uh the infamous matrix multiplication and that yields zero there's a one here uh zero here and zero here minus okay what does this yield 0 here minus one here 0 0 so this is equal to 2 * 0 1 0 0 but 2 * 0 1 0 0 is 2 * row of X2 right and uh aha 2 * row of X2 uh but this X2 so this is of course because row is linear this is row * 2x2 because of the linearity of row um but that is row of the commutator of X1 with X2 because X1 with X2 is
+
+00:12:00
+2x2 and uh so we see that for the pair X1 X2 uh this relation here this compatibility condition is satisfied why so now I also check this for uh one and three and two and three and if for all of these it's valid it's already valid for any elements of the Le algebra because the bracket is bilinear so I only need to check this on a basis okay so yeah that's right this is a representation of SL2 C this kind of Matrix representation okay and that is how it's usually given and then you can
+
+00:12:39
+ask well if that is so so what is row of SL2 C so the entire image so that lies in end in end c s okay but if you now think about the the row of all of this is of course the uh the Vector space generated by these three and that's of course the vector space of matrices um Alpha Beta Gamma Delta where Alpha plus Delta equals z or more abstractly written uh it's the space of all endomorphisms here uh that have Trace zero they're the trace free matrices that's what usually said it's
+
+00:13:26
+usually said it says SL2 C the group group is the matrices of determinant one and the corresponding algebra is the 2x2 matricies of that are Trace free but in fact this is just a statement on the representations of the group and the algebra didn't tell you what a group pres pres um representation is we'll come to that later uh but usually one defines the algebra this way but we didn't because we come from the group went the abstract way and this is just one representation and the whole
+
+00:14:03
+business about representations is that for any given Lee algebra well certain conditions apply you have several representations there's not one representation and this is just a representation here okay now a representation that of course appears in physics very often or an algebra that appears in physics very often is um is the rotation algebra so this was the first example a and uh let's have an example B you can have l b s SO3 R so the uh rotations well that's the idea that's the Le
+
+00:14:58
+algebra that comes from from the rotation group uh here and um well should I take this or I yeah I take this one and um it's defined like any Lee Algebra I can Define it by saying there is some basis uh it's a three-dimensional Lee algebra so s SO3 R happens to be threedimensional and so it has a basis and I and J run from 1 to three and the statement is there is a basis uh where the structure coefficients which I always have so I always have these guys and now I need to determine these guys and I do this as
+
+00:15:38
+follows first um I um Define The Killing form killing form uh that's uh k a is c a CB MN n m we had this before and then uh using the killing form I pull down this index I Define uh C down k i j what is this I don't know because I only know what CK C up k j is well I Define it to be c k um CK m c m i j so I could say I pull the index but well that's just a way of saying this so you can do this also um coordinate free but anyway let's do it like this or basis free uh so this is then this guy and the S so31 is now
+
+00:16:35
+defined by uh s o not 31 uh 3 R is defined by having these c's with the indices down k i j to be Epsilon I JK uh well what that means is that um is one if I J K is an even permutation of 1 2 3 it's minus one if this is an odd permutation of 1 to 3 and it's zero else if it's no permutation at all for instance 112 So if you have these totally anti- symmetric structure coefficients but in order to be able to say that're totally anti- symmetric you need to have the killing form to pull this down okay and
+
+00:17:28
+of course you can reconstruct this and you can think if you have this how do you get back this guy and so we construct this from this Epsilon okay so um that's s3r so the question is uh are we able to uh actually find a representation for S SO3 R and again uh representation uh is given by row taking s SO3 Comm R linearly into the endo morphisms over R3 that is what you learn in elementary school that the rotation algebra can act the three-dimensional rotation algebra can act on R3 uh and in fact you do
+
+00:18:14
+something like row of X1 is 1 - 1 0 0 0 0 0 0 0 um row of X2 is so now it could be that uh I start being inconsistent in my choice of signs I think there the sign choice is the other way around so here it's plus minus and here it's minus plus but I'm not entirely sure you should uh check uh for yourself but uh up to science this is right so 0 0 0 0 0 0 let's say it's here again like this and uh please check whether it's right with the signs and you can start checking whether again
+
+00:18:59
+this compatibility condition that the Le bracket is respected in the above sense is satisfied so this is also a representation of s3r but as you famously know from quantum mechanics there is another representation right so another representation of s O3 R uh is row let's call it row Spin and what does that do well it takes elements of s SO3 R and it Maps them linearly to the endomorphisms over c squared so it acts on two component complex objects right two complex component objects and and there it's
+
+00:19:50
+something like row spin takes again the first uh basis element if the basis is given such that this these are the um the algebra relations and um so now there is an issue of whether you get there an i or you don't get an I so it's something like uh 1 half Sigma 1 Matrix 1 half the sigma 2 Matrix and one half the sigma 3 Matrix uh and don't kill me if you need an overall I please figure this out for yourself as well uh so and again the sigma matrices they also mute like this maybe Plus or including a factor of I or
+
+00:20:32
+not uh and that's another representation of the rotation algebra so you uh yeah so you have the rotation algebra so that's the algebra of the rotation group in three dimensions and um you can represent this on R3 know you can rotate stuff in in um in three space in real three space or you can represent the same algebra on C2 and these are of course the Spinners you'd use in Shing our Theory right and um yeah so they're transformed under the same symmetry algebra or algebra okay so these are different
+
+00:21:10
+representations okay so here I gave you a second one maybe it's worth giving a third example well it's definitely worth giving a third example and the fourth one so the the Third example so this one I gave because we know all the background the SL2 C1 the so31 I gave because you know it from physics anyway and there's another one you know anyway uh and that is um uh there is always there is always the trivial the trivial representation um on any Vector space as the representation space although yeah so um so if you have
+
+00:22:12
+a Lee algebra you can always give row trivial that takes the algebra linearly in the endomorphisms over some Vector space but every element a is simply being mapped to the zero map on these endomorph morphisms so on The Matrix with only zeros if you if you wish um and this is of course a representation because a row of a a row of the commutator of A and B not the commutator a row of the Le bracket well whatever it is it will be send to zero and row of a row of B with the commutator on the endomorphisms well if each of these is
+
+00:22:56
+zero then this will be of course be zero and um uh and that's the same zero because this is the zero in the endomorphisms and this is also the zero in the endomorphisms so that's always the same so compatibility is always there and physicists call this the scalar representation Scala here in the sense that um nothing changes under well because the algebra we come to that later anyway that's the trivial representation and um there is another representation we used all the time in the last during the last few lectures
+
+00:23:42
+but uh we never called it a representation and it answered the question so every Le algebra has a trivial representation question does every Lee algebra question does every Le algebra have a non-trivial representation have a nontrivial representation and I also introduced the notion of a faithful representation in a second and the answer is yes what you can do you take a row and you call this the ad joint representation is the following that's the representation that takes the Lee algebra and linearly Maps
+
+00:24:25
+it into an endomorph endomorphism space and you already got the heck of it what uh is one choice you make for representation is the choice on which space What representation spaces you choose um the other tr once you have chosen a representation space there may still be different linear Maps right and these are then representations on the same representation space but they could still be different Maps it's clear if you chose the target you haven't chosen the whole thing yet okay but anyway so
+
+00:24:59
+one choice is choosing the representation space and you want to represent a linear algebra now imagine you you're very short of examples for Vector spaces where one vector space already gave you name the vector space underlying the Lee algebra so it's an interesting question to ask is it possible to represent the Lee algebra on the representation space that's given by the Lee algebra itself so not a problem I I I think okay so we choose this as the representation space and the question is
+
+00:25:49
+how do we construct a Lee algebra there and I already showed you how namely you take an element here and you map it to a comma well this Le bracket a comma open slot what does that mean well uh this guy we called add of a so the add map we had all the time does nothing but it takes an element from the Lee algebra and sends it to a linear map from the Lee algebra to the Lee algebra because this guy if I feeded an element L of the Lee algebra it sends this to a comma L which is again an element of the Lee algebra
+
+00:26:38
+so Ed a is an endomorphism on L right so it's the adjoint representation yes the adjoint representation okay and you see that our classification of semisimple and finally simple Le algebras made essential use of the ad joint representation because we took these guys at and we on the Katan subalgebra we said all the others are um uh igen vectors and so on okay so this is the ad joint representation so now uh if we want to study representations again we want to study building blocks so if we have a representation that can
+
+00:27:33
+be understood by understanding two other representations we don't need to bother about this uh representation we can understand understand in terms of others and so the key definition is a representation sentation row of L into some and V of a Lee algebra um is called reducible so it can be put into can be decomposed into pieces it's called reducible if there exists a vector Subspace of the representation space let's call it u a vector Subspace U of the representation space um such that um
+
+00:28:31
+applying Row for any Le algebra element a to an element U of that Subspace so such that for all a in a in L and for all U only in the Subspace the result of this action again lies only in that Subspace so in other words you can restrict this map so in other words in other words uh the map the representation map row restricts restricts to row sub U which is a map from only from from all of L only into end of U yeah that's right only in end of you and this is still a linear map okay and uh the point is if such a nonrival
+
+00:29:37
+exists a sub Vector space that's nonzero it's not the zero Vector space because that for that one of course always works uh then we call the representation reducible and um otherwise the representation is called irreducible otherwise row taking L into NV is called irreducible so uh let me provide an example for that so we saw we had the uh row that took s SO3 Comm R into the endomorphisms over R3 with the row of x X1 X2 and X3 being defined as I did okay and we also had the representation row spin
+
+00:30:37
+well we could call this row Vector right and we call this row spin that takes the same Lee algebra into endomorphisms on C2 so that can act then the results can act on uh Spinners in shinger theory say now of course we could construct we could construct a representation um that we now call row this will Row V and row Spin and we could construct a row that is s O3 Comm R and that sends it to the endomorphisms okay I hope I didn't get into trouble here with it morphisms there I think that's fine into the
+
+00:31:25
+endomorphisms over R3 3+ C2 okay so um the idea is that now I say a row of still just some element from here is being mapped to now I give you the representing Matrix of this guy uh is being mapped to uh Row V of a that's a 3X3 real Matrix uh and here I go to row spin of a that's a 2 x two complex Matrix whatever the whole thing can be considered as a complex Matrix and there are Zer here I can definitely do that and if you now ask about the commutation behavior of these of two objects of this
+
+00:32:14
+form it's clear the matrix multiplication can be executed blockwise right that means by if I start commutating these guys this guy will only see the relevant Block in the other row of B and this guy will only see the relevant Block in the in the row of B and of course this is again representation if this is a representation and this is a representation and I have this of this block form uh then it can immediately be checked that row is again a representation okay but now but row um but U equal
+
+00:32:59
+uh R3 namely this part of R3 and uh U Prime equal c² this part and the others being set to zero um so I should write here uh plus uh plus nothing well you know what I mean by this um our subspaces are vector subspaces of this Vector space okay they're vector subspaces and indeed if I act only on a vector you have to think about you act well so think about this thing acts on a vector that has only entries up here and two Zer here that's of course an element in this Subspace if you act on this again blockwise the
+
+00:33:46
+result will again lie in here there will from these three stars there will nothing put here because of this block structure so this R3 here the Subspace is uh what you call an invariant Subspace well I didn't call you like this there exists a vector Subspace you called an invariant Subspace such an action on there produces a result still in there and the same here so we see immediately if it has this block form uh then the representation is reducible okay and um one can also show that these two representations are not
+
+00:34:23
+reducible and I can always if I have a reducible representation I can always understand it this is just an example I can always understand it by the building blocks which are reducible representations and then of course I only use these building blocks now in particle physics people say particles are irreducible representations of the underlying symmetry group so let's say you take a partic where the Symmetry group of classical mechanics is the galile group so you have to bother not only about
+
+00:34:53
+rotations but also about galile boosts and also about translations in in in space time well that's the the yeah okay fine uh but that's a little complicated let's take the Symmetry group of a particle that I trap at some point so I trap a particle in in a certain place but then the particle there's still rotational invariance right you cannot move still rotational invariance and um so that would be a particle that has a an S SO3 group capital S SO3 rotation group in variance this is the
+
+00:35:26
+corresponding algebra if you say particles are representations of that group you can see if you trap a particle um then one representation is to represented by a vector the other one is by a scalar but one representation is to represent it by a two component spinner and that's of course what you do in quantum mechanics but you could now if you said you said a particle is an irreducible representation of the Symmetry algebra in this case um if you took a reducible one you could always make two part particles out of it okay
+
+00:35:59
+so two particles also transform according to the Symmetry and some representation but you want to understand an elementary particle is only an irreducible representation okay you can understand you can study the elementary particle on its own you don't if you always have to study a particle together with another particle well then neither of them is Elementary then the whole thing is maybe Elementary right so that's the well I'm just um talking about why this term irreducible representation comes up in particle
+
+00:36:30
+physics you want to understand the elementary building blocks in physics you call that elementary particle okay um question to reducibility yeah yes yeah yeah yeah a non well proper a non-trivial I should have written non-trivial and you're right it's not it doesn't suffice to exclude uh the zero it you need to exclude the entire space too because otherwise yeah that's right thank you that's right okay good there's yet another definition uh one uses quite frequently and that is
+
+00:37:20
+um a representation row L into end over some representations space v um is called faithful if row is injective so one Lee algebra element under the map row doesn't hit uh the same endomorphism twice okay yeah that's right hit the same and mo no any no what did I say so you know that injective means that if you have equal images you had equal so no two here hit the same there that's it no two here hit the same here under the map row so it's the lovers map and then you understand faithful it's
+
+00:38:42
+injective okay so um so you could check whether the Ed joint representation for instance is injective and you could check whether the Ed joint representation is irreducible okay well let's formulate this as a homework problem so let's say problem sheet uh check irreducibility and faithfulness of row equals add of the Ed joint representation now there's a very important Concept in the study of representations and that's the concept of a so-called Casimir operator and because in physics very
+
+00:39:56
+often you are handed the lead algebra already in a representation there's Sometimes some confusion that you can construct a kazimir operator for a given Lee algebra but that's not true the Kazmir operator can be constructed for a given representation of a given Lee algebra kazm operator can be constructed for any given representation of Any Given Le algebra okay uh how can we do this well this proceeds in several steps so I all subsume this under the definition of kazimir operator but fine so the first
+
+00:40:51
+thing we can do of course if we have a representation row of our Lee algebra on some repres presentation space uh we can Define the uh killing form killing form um on end V with the commutator bracket because after all NV equipped with the commutator bracket is a Lee algebra so I can definitely Define The Killing form on there and that would be the killing form and I put K down row because it has to do with a particular representation um K down row of um okay how do you call this over here uh the
+
+00:41:38
+endomorphisms I don't know call them fi and S okay is defined as as usual ah hang on a second now I want to do this differently um now I want to do this differently I'm sorry so it's obvious you can Define The Killing form on NV uh with the bracket because that's a Lee algebra uh but I want to do something different um I want to define a new Killing form on L but now uh it's the row killing form and I call it K row it takes two elements of L and it still sends them to well say the complex
+
+00:42:26
+numbers in case of a complex um Le algebra and but now it's defined as uh K row takes an A and A B in the Lee algebra and sends them to the trace of and now it comes of row of a c row of B and you see that for that the killing form we defined so far so uh hence the killing form we had so far was the killing form with respect to the ad joint representation so as we previously defined it because there we put here add a cir add B okay but you can of course Define this K Row for any representation okay so well that's
+
+00:43:28
+that's the first thing that has nothing to do with the Well it has to do with the km operator but um so you have that now you define the kazimir operator so that's step B Define the kazim operator let's call it Omega with respect to the given representation as well what is it it's a a map from V to V so it's an element in end V and uh it's defined as Omega row um hold on a second yes Omega row is defined as the sum I equal one to the dimension of the Lee algebra and you take the row of XI XI is
+
+00:44:46
+a basis I'll write this down in a second of the Lee algebra after row of um s i what on Earth is I well because it's eaten by the row this must be in the Le algebra and this must be in the Lee algebra to where X1 to X dim L is any basis it doesn't matter which one is any basis of L okay and S one to dim L is the other basis of L for which we use our newly defined Co K row killing Form K Row for which K row of x i comma J you see it eats another set of vector on L uh is Delta i j uh which
+
+00:46:02
+with two indices down looks funny but it's one for I equals J and zero L okay so the idea here is what I could also do I could use XIs here and I could again use the XIs but then I need to Alon normalize the basis of the of the um Lee algebra with respect to the killing form okay and as it's written down here um I could only find an authon normal basis um if the league group I come from is Compact and then I probably have to put a minus here minus one or something um yeah let me think for a
+
+00:46:53
+second yeah so this actually this only works if the D group is compact because otherwise I don't find such a basis okay so for compact groups it works like this now okay you have this and this here is the so-called Casmir operator and obviously can you can feed it a vector in the representation space and it munches it through it kicks out a vector in the representation space and uh we have the theorem and I ask you to prove that on the problem sheet um that if you take the row Omega row this is an element of
+
+00:47:36
+n v as we just saw and you take any other the row of any other Lee algebra element a so that the whole thing is again in end V then you can of course calculate the commutator of these two and you will always get zero so uh the motto here is is that the Kazmir operator commutes with uh everything well everything everything meaning every image with the whole row of L so everything is row of L okay and this is how it's often often introduced okay so um now about objects like this um there is something called sh
+
+00:48:46
+slma okay and that states in this particular context that if row is irreducible if row is irreducible but that we can always do because we can always study the irreducible parts of a representation if row is irreducible then the Omega row is always equal to some number c that depends on row so this is just an element this is just a number well I say it's an element of C or it could also be an element of r it depends on over what Vector space you are times the identity on the representation space or if you
+
+00:49:38
+would express it in terms of a matrix it would be a diagonal matrix with z z z z z on the diagonal that's show LMA uh but this only is true if row is irreducible okay so the kazimir operator of an irreducible representation is actually um a constant multiple of the identity on the representation space now uh let us try to show let's try to show uh the following claim that this number c is always given in the irreducible case by the dimension of the Lee algebra divided by the dimension of the
+
+00:50:49
+uh of the representation space okay so if you ask what's okay let's let's let's try to show this so prove Pro uh let's see how how this can be done um aha right so if uh row irreducible it follows that Omega row is Z times the identity on V and that means that the trace of Omega row Omega row is an endomorphism on V so I can take the trace uh is the trace of c row time ITV but the trace is R linear so this is c row or C linear times the trace of ITV and what is the trace of the
+
+00:51:54
+identity map on the vector space I he di the dimension of the vector space that's right it's Z time dim V aha so this dim V we apparently get somehow from here okay that looks good because we have a z * stim V we could take this here so what we have to show that the trace of Omega row has something to do with the dimension of L here I guess okay so let's write down what that is so the trace of Omega row is the trace of what was Omega row was the sum from I equals 1 to the dimension of L aha
+
+00:52:40
+starts looking good um row of x i after row of Cai I okay mhm ah okay so now let's pull out the sum dim L and we just have the trace of row of x i after row of Cai I um but this is nothing but our killing Form K row with respect to the row map of x i commaai i do you agree but the C eyes were chosen exactly such that this is Delta that this is always one right for every I this is one because I I is a Delta i j is a one so we have the sum over IAL 1 to dim L over one and that very nicely is dim l so dim L is C * dim
+
+00:54:11
+V so C is them L by dim V okay good so um that comes out and what does it mean well it means that if I have different representation spaces for the same two representation spaces V1 and V2 for the same Lee algebra they are labeled by this factor C R uh that defines for irreducible representation defines the Kazmir operator okay so in other words I can act with the Kazmir operator on any element in the vector space V of this one particular representation space and I'll get the same number okay and um well if you do this
+
+00:55:09
+in uh in physics you know that if you act with so example but now we got to be careful because in in physics we're uh choosing different factors here but uh the example in spirit is you have j i JJ equals Epsilon i j k j k okay something of that type um so this just being considered numerically uh is the are the um commutation relations so abstractly algebra so this is the s3r rotation group and um then you can of course take this row spin okay take row Spin and um take it of any of the JS well it doesn't matter
+
+00:55:57
+the I one and um you so J1 J2 j3 and then you can Define what usually in physics you call J Vector squared but it's not J Vector squared it's um the row of the j i squared so you take row of j i times row of j i and you sum I = 1 2 3 and you see now in principle if you do this then you claim these are the x's and these are the the JS uh the the size as well well you got to be careful that uh you have the right uh normalization here and I think you don't I think you you need a factor2 or something in
+
+00:56:47
+front yeah I think that's right not entirely sure something like this okay and this you call the the row Omega row yeah the Omega row and now if you choose here you can take omega row Vector uh and then you can take the sum say it's 1/2 and then you take this times this so you take the square of every individual one so how is that that's the 1 - 1 0 0 0 0 0 squared no it's this composition with itself goes into matrix multiplication plus this Square squ squar now these three what
+
+00:57:29
+does it give it's 1/2 um and it yields one one Z for this first one you agree and for the second one we defined it yields one 1 and for the third J we defined in the vector representation it yields 01 1 agree because there always this one minus one blocks and everything else is zero you get this so what do you have you have 12 * 2 2 2 = 1 1 1 one one one one one one and this is a particular example so the c row Vector * 111 uh the number for the vector representation C is one agree so I should have written this one half
+
+00:58:30
+here so these are the okay so you go here and the row we just calculated for a particular representation we calculated this kazim operator gives the c r v times the identity that means so from here we learn c row in the vector representation is one does this work with our theorem oh yeah the threedimensional rotation algebra divided by the dimension of the vector representation the representation space is R3 is 3 / 3 is 1 aha wonderful so again in in physics we don't have the factor 1/2 and then
+
+00:59:29
+everything is wrong by a factor 1/2 but I need to make sure that this is the if you want dual other bases with respect to the killing form once you've chosen this basis yeah oh yeah where this one so we we believe that without the square this is row of J1 in the vector representation and now I take the oh I see okay yeah because this is an i this is like a complex I this block and it's a minus sign aha but didn't I always say that I have a also say I have a problem with the minus sign over there where I
+
+01:00:12
+said it only works for compact groups but if I want to have it work for compact groups I know that the K row uh of the X IAI J I want to have to be Delta i j for compact groups um I can only achieve for compact groups The Killing form would be negative definite so I should have a minus sign here um so that means I should have an overall minus sign here in the definition uh and then the signs are right okay so I I apologize for for the signs but it's uh excellent that you see this okay thank you all right but so
+
+01:00:52
+uh now let's not miss out but I need your help with the sigma Matrix let's not miss out on the next example which is again the abstract rotation group uh Epsilon i j KJ k um but now we take not the vector representation so I here wrote row spin well I have row Spin and I have Row V and then we evaluated it for Row V um now for row spin we said the I one is represented by the I Sigma M Matrix one 1 half um and you can you remind me of the sigma matrices this is embarrassing but uh Sigma matrices
+
+01:01:44
+011 yeah yeah okay thank you very much okay so let's very quickly check Sigma 1 with Sigma 2 how that works 0 1 1 0 * I I'm after a factor here so I need to check this minus I i0 um that yields uh i0 0 minus I and so this is um I * Sigma 3 aha exactly and now the opposite is 0 - I i0 on 0 1 1 0 equals - i 0 0 I and that is minus I Sigma 3 so that means the commutator that's really the commutator of Sigma 1 with Sigma 2 yields two times I Sigma 3 because this minus goes by the minus from from this bracket and um so
+
+01:03:03
+the sigma 3 is good because 1 2 3 there's a one but I have a a factor of 2 I that I don't like so therefore I take Sigma half matrices that gives me an overall factor of 1/4 right compared to what I had but this is over overall factor of 1/2 so that's Sigma 32 so if instead of Sigma matrices I take Sigma half matrices I I have the unit factor and that's why I chose the half here but there's a remaining problem that is I have an I here so that means however I can do a similar
+
+01:03:45
+trick and I can then choose um I * Sigma I half so I put an i here and an I here uh the problem is that gives me a minus sign here I don't want that either uh but if I choose a minus I have a minus I here and a minus I there then the minus sign goes because of the two minus signs oh oh well that's not so nice no it stays because of the two minus signs well you should complain I have a minus sign four and I have two minus signs on the left hand nothing changes minus * minus time minus is
+
+01:04:31
+minus that means if I choose this thing so I take this as a block and this as a block comma and this as a block so I Define the representation like this then I get precisely this commutation relation okay so this is how how you do that and in quantum mechanics we often decide that we want uh this to be permission or something and then then uh we we put an extra I here okay but but we can always arrange for this so I I chose this the rotation algebra so we'll stick to this this would be the spin
+
+01:05:05
+representation and now we calculate the Kazmir operator of the spin representation so this again Works precisely like this so we said the kazm operator here uh is minus 12 sum I = 1 2 3 of row x i r after row x i again this 1/2 actually belongs into here by linearity that works because um uh because we need to have the size okay fine so but now that's again the general formula now I have row of the spin representation is minus one2 um so the sum what is the sum well we have to take the representing
+
+01:05:51
+matrices we have this one * minus I we have minus I - i 0 squared uh that's right no and we have plus it's this plus from the sum we have uh 0 1 - 1 0 no okay I mean anyway the overall I we have minus itimes Min I minus one it's like this well it doesn't matter because there's a square and the final one is uh - i i - I I on the diagonal squared that we have to evaluate is - 12 times uh okay what is this this is uh - i² is -1 - one agree should be uh plus now this guy squared is this times this is minus1
+
+01:06:56
+uh hold on this this time this is minus one and then I have uh this this times this this is again minus one is that right yeah and then I again have over here this squared is -1 -1 ah exactly so this is in total the minuses all go out and cancel this one and then there is a three everywhere so it's three half of the identity agree I think that's right it's three2 okay and hence the c row spin is 32 or as we like to write it one2 * 12 + 1 does it work well of course it works because the algebra has still Dimension
+
+01:07:52
+three and the representation space is now two dimensional so it's 32 is of course the J * J + 1 okay no ah this is uh okay hang on some something yeah that's right that's right what's wrong with our factors so here the factor was right ah of course I took the sigma matrices and I should have taken the sigma half matrices but that gives me a factor of a fourth now okay so I should have taken the sigma half matrices but that says I have an overall Factor by four that doesn't make it much
+
+01:08:44
+better because now I have again a factor one2 wrong oh dear ah ah j+ j+ uhuh ahuh so obviously yeah yeah yeah yeah okay look look we we have a mismatch between the physics and the mathematics definition because if this if this was the spin one the vector representation the number should be two J * J + 1 Jal 1 being a vector would be 1 * 2 1 + 1 is 2 but I I have this here so there is a difference between the physics and the mathematics definition so I claim this result is three well it is 38 I I cannot change it
+
+01:09:33
+this is 38 uh and it is not J * J + 1 because in the vector case it wasn't either there is an overall factor of so in a vector representation uh the physics J the physics result I have here is a factor of two of this and here also the physics result is a factor of two of this me 34s J * 1 12 * 1/ 12 + 1 so this is just a mismatch so you would say in physics okay let's uh have this here as an explanation and I think it's really true I mean this is not just uh okay I think it's really true so the point is that
+
+01:10:12
+the Kazmir operator in physics physics is defined as twice the Kazmir operator we defined here this an overall Factor of two yeah and we know this because in physics we take the J squar don't you see this in physics you take the 1 half over here so times two and you say it's the J Vector squared meaning the representation of this guy squared there is no Factor 1/2 that goes here so this is the right mathematics result because you want to have the Dual Bas well the the Dual basis on the the same space
+
+01:10:56
+with respect to the killing form in order to make the whole thing basis independent and how we Define it in physics if I re uh uh um if I changed bases I would get a different kazimir operator which is not good so that's actually the the better definition here but uh it it relates to this like that yeah well this is C2 this is um uh we treat this all as a complex dimensional representation spaces also this one could have acted on on C3 ah okay so I need to take a step back and look from your perspective that
+
+01:11:55
+seems to work better so interesting interesting I don't know yeah no but the factor is 38 isn't it so it's the 1/2 from this definition and then I take the minus I Sigma I la la matrices and I square and then I have the the 1 half Factor comes a 1/4 from the squaring this 1/2 is there by definition here I always get something of the type minus one is three is minus three up here I mean yeah if it was a three over four i' say yeah it's a complex thing counted up I'm I'm I'm I'm I'm a little
+
+01:13:17
+confused I must admit I'm I'm sorry I don't get the alra straight unless you you see it now uh I I need to think about it no we we we need it here yes because this has to do with ah ah okay so you say we chose the bases ah yeah yeah yeah yeah you absolutely think that that sounds absolutely right so we said that in the definition of the Omega row um which is the sum of I = 1 to dim L uh of uh row of x i after row of I aha very good Benedict thank you very much um we said that the K that
+
+01:14:24
+this guy these guys here are such that x i with J is minus Delta i j that was the correction because of the compact Le group and um but of course that depends on this row that depends on this row because this is the trace of row of XI after row ofai J aha aha aha aha okay the plot thickens so if you then use these guys in the spin representation of course because of this business here and using these matrices and so on you of course get a different Factor by which the Cai JS well if they're
+
+01:15:11
+anyway colinear to the x i the I but then you get a different Factor here that you need to use in order to make this work it's an excellent problem sheet question okay okay I'm sorry but thank you B it's an excellent observation it's not always the same way you construct the Cai eyes if this is the XI I I was deluded by saying well it has just to do with the Lee algebra elements yeah but it's with respect to the K row to The Killing form with respect to the representation then
+
+01:15:50
+you have to adapt this so This Factor here is in question and it's now entirely clear to all of us that this Factor here is uh well so I have a fourth here so this one half goes this one half goes there's a three um so uh this one half goes so it's a 34 but it must be 32 so it's everybody agrees that it's very likely a factor of two that you have here so that you get 3 over two okay but now uh I should make no further guesses here just calculate but that's that's the the
+
+01:16:30
+origin of the trouble okay good excellent excellent so um so you see that different representation spaces at least if they differ in their Dimension are labeled by different uh numbers in front of the Kazmir operator all right good um and hence we say a particle has spin spin one half or a particle has spin one you can act on any representing Vector uh and and and and it yields the same value for the Kim operator so I still maintain that this factor of two between mathematics and physics Still Remains uh but the other
+
+01:17:21
+comment is of course important as well to to clarify the mismatch in case of the spin Kazmir operator now um let's talk about representations of a Le group so now turn to Le groups definition um let G with The Blob be a finite dimensional Le group then a representation of the Le group is a map now let's call it capital r and it takes a group element not an algebra element it takes a group element and it Maps it to well not the endomorphisms but almost to GL L over some Vector space so again the V is some
+
+01:18:36
+Vector space okay so very similar idea but the GL is of course not the end V it's a little less what is glv well we had it in a special case over C to the n or R to the N glv is the set of all linear Maps F from V to V so I should say fi in the endomorphisms okay but there's an additional condition and the condition is that the determinant of f be non zero or in other words then the endomorphism is invertible that it be invertible okay so there's this restriction and um so this is a map so huh uh such that so
+
+01:19:28
+before I write this warning sign uh such that um if you represent a group element G1 as a general linear map on v as an invertible so as an isomorphism on V and then you use the composition on glv because obviously glv has a composition and the composition of invertible maps is again invertible so the Circ is closed over glv fine so you can do rg1 after R G2 and you again land in glv and you already guess it you require compatibility with the group law by saying you could have also first blobbed
+
+01:20:19
+the two group elements with respect to the Le group operation and only then have it mapped over here that means nothing different but that the Circ on glv mimics what the blob does on the group and of course the the way the the map acts here um um uh is important so that's a representation of the Le group so it looks very similar okay now uh examples uh are in order so now take as the Le group you take uh s o two okay s SO2 and um well you have to to use a chart and so on because the manifold s SO2 as a
+
+01:21:16
+manifold uh so as a differentiable manifold this is S1 so the circle is the manifold that under I the S so operation and of course the multiplication on S SO2 is moving vectors uh well moving points along the circle okay we we we know all of this and um uh you can choose a chart where um S1 well a chart U that lies in S1 that goes to uh well let's call this the uh the angle map that goes to um the angle of U lying in R so it's a onedimensional manifold and um the angle well let's not
+
+01:22:07
+be childish so this is called the Fi Fi is called the angle and um you know that if you have S1 uh you have to take out some point okay and then you can uh let's say you take out this one and then you can in a sense intuitively take this angle but you cannot cover all of it because then here you wouldn't be open anyway you can do this and then you can represent you have a representation well not on the entire group because you choose coordinates to write it down but on this U uh you have
+
+01:22:43
+a representation uh into um uh I'm sorry I'm I'm confused yeah you have a representation into G l r squared so we have a representation space r squared and it works like that um for the uh group element that corresponds to this coordinate five so you take ahuh so I should have called this anyway the angle the angle map and so then you take the uh angle map inverse of five okay and that's then obviously an element in the group and to this element in the group you associate The Matrix well you can represent this
+
+01:23:32
+by a matrix cos F sin 5 minus sin F cos F okay um and you can check that first adding angles here is of course the same as doing compositions there at the end of the day because of the uh laws the the addition theorems for cosine and uh uh and sign so I claim um so this is the r so I claim that R of the angle inverse of F1 + 5 2 is the same as R of the angle inverse of F1 after R of the angle inverse of 5 2 and hence this is a and this angle inverse I only need in order to represent the elements from some chart
+
+01:24:29
+this is just more complicated on groups um but if you think about it you'll see this is very simple okay so um we have a representation of s of the group I'm sorry this should be a capital s o i treated it like that but it's a capital have a representation of this group on R2 and this is usually how you first meet it but it's a representation of this of this Le rou okay and um there's another important example and that answers again the question are there any um are there any non-trivial
+
+01:25:10
+representations of a Le group and you can Define the following um you can construct the adjoint representation but you say hang on the adint joint representation that was something on the Lee group Lee algebra we're now on the Lee group and if you're on the Le group The Ed joint representation is something different and one usually writes it with a capital A whereas the Ed joint representation on the algebra is written with a small a they have the same name because they're related uh but this is a priority
+
+01:25:45
+different thing this Capital ad joint is a capital representation on the capital group rather than uh the small ad joint being a little row on on a little algebra okay so construct the adjoint representation that goes in two steps so first you define uh the adjoint uh map uh that goes by the name Capital Ed subg now the G is not a Le algebra element but the G here uh is an element of the Le group what is ADD G add G eats an element in the group and spits out an element in the group obviously there's no linearity of any kind here
+
+01:26:33
+and um and how is it defined well it's defined that add G acting on some element h of the group is defined as g h g inverse and what is between these objects of course there is the blob the group operation now this seems a little extravagant this kind of definition but you can nonetheless make it it's not a left translation it's a left translation with L and the right translation with uh G inverse uh one after the other okay so um okay so yeah anyway I said it um that's the Ed joint map and the Ed joint
+
+01:27:18
+map has one fantastic property namely note that the ad joint map um acting on the identity yields g e g inverse leads g g inverse yields the identity so the Edon map keeps the identity where it is why is this great uh interesting since if we consider the push forward consider the push forward of this ad joint map so you have the add G with respect to a group element and of this map you consider the push forward what does that do well you consider it at a point and it goes from a tangent space of the group at a
+
+01:28:15
+certain point and I like to choose the identity why because that is where our Lee algebra lies okay it goes into to the tangent space at another Point namely at the point at G of e you remember the push forward takes you to the tangent space in the image but at the point where the map acted on that base Point here aha but I just showed you that this is the identity again in case of the Ed joint map so what does that mean the Ed joint map defined this way has a push forward that is a lar mapped by construction between the
+
+01:28:57
+tangent space at the identity to the tangent space at the identity ah we know that guy that is the Lee algebra of G well it's at least isomorphic to the Lee algebra on G okay that's the tangent space at the identity and that means we have here a map that takes you to this add G if you provide the G is a map from g to g hence I can look at add and add is without the G down here and add takes you from G to the GL L on what Vector space well on the vector space at the the Lee algebra of G so I can write it as
+
+01:29:48
+TG okay where uh the G is mapped to the add subg because add subg uh oh to the add push forward add G push forward because that guy lies here well you have to show that it's invertible uh but that's not so difficult because this guy is invertible obviously it's at G inverse is the inverse of this and obviously so you can go back here as well so hence this is true and what did I show by this I showed that there is a map that takes you from the group into the general linear group over the Lee
+
+01:30:27
+algebra in other words you can always find a representation of a Lee group on the vector space V given by the Lee algebra so you could find a representation of the Lee algebra on the Lee algebra but you can also find a representation of the Lee group on the Lee algebra a Le group representation and that is why this is also called the add the add G uh this is again if you have no fantasy if you just are handed a a Lee group and you know about the Lee algebra you know oh with a group I always have a vector space that comes
+
+01:31:04
+with it the Lee algebra the vector space underlying the Lee algebra um you can say okay why not try to find the representation that represents the group exactly on that Vector space that comes with it and uh the map that does that is this add map here that's the ad joint representation of the Lee group all right so um are there any questions so far okay fine so we discussed the representations of finite dimensional Lee algebras we discussed the representations of finite dimensional Le groups and next time finally we'll come
+
+01:31:49
+to the point so we now we're down there on the league algebra level for quite a while how do we get go back from the Lee algebra level back up to the group and can we hit the entire group the answer is generally no okay um but there are kind of some interesting um facts that one uses very often in this going up and this going up is called the exponential map uh it's a concept from differential geometry but in uh uh on Le groups these uh exponential maps have very nice properties U even nicer than they are
+
+01:32:23
+they have on on normal smooth manifolds and we'll study them next time thank you [Music]
+

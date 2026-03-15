@@ -1,0 +1,575 @@
+00:25:58.279 there's one more topic or well one of
+00:26:01.399 two more topics I would like to talk
+00:26:03.600 about and um that's equivalence
+00:26:13.080 relations I try to be very quick about
+00:26:15.440 this because I assume that in one form
+00:26:17.080 or the other you saw this before I just
+00:26:19.480 want to demonstrate how to get this from
+00:26:21.320 the basic axim and that everything is
+00:26:24.159 fine if you will and um well well
+00:26:28.159 equivalence relations provide a heavily
+00:26:30.799 used way to look at a set but to give it
+00:26:35.880 structure in a certain way in which way
+00:26:38.480 by identifying certain elements in a set
+00:26:42.679 okay um not in any way but in a way that
+00:26:45.960 we will call an equivalence
+00:26:47.679 relation actually much of our thinking
+00:26:50.880 is in equivalence relations so if I come
+00:26:53.600 into this classroom um I might or uh say
+00:26:58.520 somebody else comes into this classroom
+00:27:00.840 uh they might think of you as one entity
+00:27:03.080 and of me as another entity there's the
+00:27:05.080 class and there's the teacher of the
+00:27:06.679 class okay great but
+00:27:09.520 then when the thinking might change and
+00:27:12.000 he might want to look at all of us of
+00:27:14.720 the same gender classifies according to
+00:27:16.840 gender and he'll say okay there this
+00:27:19.120 many men there this many
+00:27:21.159 women and our thinking flips back and
+00:27:24.320 forth between regrouping things that are
+00:27:27.159 there okay and looking at sets in a
+00:27:29.720 coarser way
+00:27:31.840 therefore okay and um in order to group
+00:27:36.120 a set entirely so that really no one is
+00:27:38.919 left out and that there are no
+00:27:40.919 intersection between the
+00:27:42.720 groups uh one employs very um cleverly
+00:27:48.279 equivalence relations so the definition
+00:27:51.039 is simple
+00:27:53.799 definition um let M be a set
+00:28:01.480 and
+00:28:04.039 twiddle um a
+00:28:07.480 relation such
+00:28:10.399 that there are three axioms to be
+00:28:13.399 satisfied um the first one we call um
+00:28:19.440 reflexivity such that reflexivity
+00:28:22.960 holds reflexivity means that for all m
+00:28:27.200 in the set
+00:28:29.000 M it is true that M twiddle
+00:28:32.440 M and you remember our
+00:28:37.159 um convention that this means twiddle mm
+00:28:43.000 is true but if we have a relation we
+00:28:45.559 very often put the relation symbol in
+00:28:47.799 between the two arguments because this
+00:28:50.039 saves uh
+00:28:52.840 CH second um there must be symmetry in
+00:28:58.000 the following sense uh if M and N are
+00:29:01.840 elements of M and assume it's already
+00:29:05.000 clear that m twid
+00:29:08.159 n then that's supposed to be the same as
+00:29:11.720 n twiddle
+00:29:14.720 M and the third condition a relation
+00:29:17.320 needs to satisfy in order to qualify as
+00:29:20.399 an equivalence relation is that there's
+00:29:26.320 transitivity transitivity means that for
+00:29:29.519 all m n and p in a set
+00:29:34.080 M if it's clear that M twiddle n is
+00:29:39.760 true and additionally
+00:29:42.840 and n t p is
+00:29:46.080 true then it must be true that from this
+00:29:49.840 it
+00:29:50.960 follows M twiddle
+00:29:55.360 P so let M be a set and twiddle a
+00:29:58.200 relation such that these three axim are
+00:30:00.679 satisfied then twiddle is called an
+00:30:06.519 equivalence
+00:30:12.279 relation on
+00:30:19.679 M now uh some examples are in
+00:30:26.240 order
+00:30:27.919 um so let's say first example
+00:30:31.519 um let's define p t
+00:30:35.880 q by definition this is supposed to be
+00:30:38.840 that P is of the same
+00:30:45.840 opinion as Q
+00:30:49.080 is let's think of them as human beings
+00:30:52.919 um then it's clear this is
+00:30:56.240 reflexive
+00:30:58.200 I mean if you let's say they are
+00:31:00.159 mentally sound human beings okay of your
+00:31:02.519 own opinion it's reflexive uh it's also
+00:31:07.320 symmetric if I agree with someone then
+00:31:10.279 that person agrees with me and it's also
+00:31:14.880 transitive so if you wish this is the
+00:31:17.519 basis for
+00:31:19.399 democracy
+00:31:21.279 okay um B let's say we Define a
+00:31:25.559 different equivalence relation
+00:31:29.480 um like P is the
+00:31:32.639 sibling of Q sounds good but it already
+00:31:37.000 fails to be
+00:31:41.159 reflexive because you're not your own
+00:31:45.120 sibling not reflexive so uh here it is
+00:31:48.639 an equivalence
+00:31:50.360 relation this is not an equivalence
+00:31:53.360 relation p is the sibling of Q
+00:31:59.639 um it would be symmetric
+00:32:06.000 though
+00:32:07.720 but
+00:32:10.240 symmetric um let's say p t q defined as
+00:32:14.720 p is
+00:32:16.679 taller than Q this would be perfectly
+00:32:23.000 transitive yeah um but it's not
+00:32:26.080 reflexive could make it reflexive if you
+00:32:28.720 say taller or equally tall then okay but
+00:32:33.200 certainly it's not symmetric generically
+00:32:36.679 okay this is certainly not
+00:32:39.440 symmetric and therefore fails to be an
+00:32:42.000 equivalence
+00:32:43.279 relation and then my favorite is uh p
+00:32:46.360 tle
+00:32:47.880 q is p is in love with
+00:32:55.080 Q so um
+00:32:59.399 uh this is uh not
+00:33:04.840 reflexive on
+00:33:09.240 occasion the people who don't like
+00:33:11.360 themselves very
+00:33:12.559 much um it's certainly not normally
+00:33:17.960 symmetric That's the basis of much drama
+00:33:21.039 in
+00:33:22.960 literature and uh it's not transitive
+00:33:30.240 maybe only in French
+00:33:32.080 movies French art Cinema it's
+00:33:38.080 transitive all right so only the first
+00:33:40.200 one is really an equivalence relation
+00:33:42.440 and you see is very easy to check
+00:33:44.480 whether something is an equivalence
+00:33:46.039 relation and if it is uh there are
+00:33:50.600 important constructions one can make and
+00:33:53.919 these constructions have interesting
+00:33:55.960 properties
+00:33:58.320 that is why you want to check and um we
+00:34:03.320 have the central definition if twiddle
+00:34:06.840 is an equivalence or B an equivalence
+00:34:14.719 relation on the set
+00:34:19.000 M then for any element of M we Define
+00:34:27.399 a
+00:34:28.440 set Define the set and the set gets a
+00:34:32.000 funny name it's m with square brackets
+00:34:35.480 around it but it's a set and has a
+00:34:39.079 simple definition those are all those
+00:34:41.520 elements n of the set M which are
+00:34:46.639 equivalent to n so once we have an
+00:34:49.239 equivalent relation we very often read
+00:34:51.560 this as m is equivalent to
+00:34:54.560 n okay the set and this set is
+00:34:59.440 called the equivalence
+00:35:04.240 class the equivalence
+00:35:09.960 class of this element
+00:35:13.800 M now for these equivalence classes
+00:35:17.320 there are two Key
+00:35:25.800 Properties
+00:35:27.640 and the first property is that if you
+00:35:30.800 take an element a from such an
+00:35:34.320 equivalence class equivalence class is a
+00:35:36.880 set it's a subset it's obviously a
+00:35:41.040 subset of the entire
+00:35:44.520 set right so if you take any element
+00:35:47.800 from this subset then it already follows
+00:35:51.319 that the equivalence class of this
+00:35:54.000 element you took from the subset
+00:35:57.839 is
+00:35:58.920 already the same equivalence
+00:36:02.079 class or in other words one says that
+00:36:06.040 any element of the equivalence class can
+00:36:10.200 act as a representative of the
+00:36:12.800 equivalence class so um that's taking it
+00:36:16.200 the other way around if you start with
+00:36:17.480 an element you build this set okay but
+00:36:20.760 if you already have this set you can
+00:36:22.800 take an element out of it and you can
+00:36:25.920 generate the set in the same way from
+00:36:27.920 that element um so this is
+00:36:30.680 usually interpreted
+00:36:33.280 as uh a is or any
+00:36:37.640 element any
+00:36:40.200 element of an equivalence
+00:36:45.560 class can act as its
+00:36:54.079 reative
+00:36:55.680 okay
+00:36:57.880 that's just a
+00:36:59.119 notation in the
+00:37:00.960 terminology and the second key property
+00:37:03.920 is that one of two things holds
+00:37:07.800 either two equivalence
+00:37:10.680 classes for two different elements are
+00:37:13.760 the
+00:37:15.520 same
+00:37:17.440 or if they're not the same then they
+00:37:20.720 have no element in common that means the
+00:37:23.960 intersection is empty and there's no
+00:37:27.400 other
+00:37:30.480 possibility two Key Properties a proof
+00:37:33.480 is very simple
+00:37:36.000 um
+00:37:40.440 simple and you should do
+00:37:51.720 it now the intuition about this is the
+00:37:57.280 following assume you got the set
+00:38:01.400 M and you have
+00:38:14.160 elements we have these elements
+00:38:17.880 and now you
+00:38:21.599 may Define an equivalence
+00:38:25.520 relation by saying uh have the
+00:38:30.440 same same shape now they need to be
+00:38:33.839 distinguished as elements I don't know
+00:38:36.079 uh Carpet One Carpet 2 carpet 3 star one
+00:38:39.480 star two star three star four uh cir one
+00:38:43.079 Circ 2 cir three cir four so they're
+00:38:45.560 really different elements but uh the
+00:38:48.240 index doesn't matter if we uh uh
+00:38:52.079 consider their shape I want to make it
+00:38:54.040 simple here the same shape what are the
+00:38:56.640 equivalence classes here well the
+00:38:58.920 equivalence classes
+00:39:03.079 are this set is one equivalence class uh
+00:39:07.599 we could call it it's the equivalence
+00:39:09.240 class represented by Circ one but
+00:39:12.480 obviously is also the equivalence class
+00:39:14.520 of Circ 2 and so
+00:39:17.839 on uh the next equivalence class is this
+00:39:25.440 set
+00:39:28.520 and the third equivalence class and
+00:39:30.560 those are all is this
+00:39:33.839 set and having the same shape is
+00:39:36.319 symmetric as reflexive everything has it
+00:39:38.920 the same shape as itself it's symmetric
+00:39:41.520 and it's also transitive and indeed you
+00:39:43.760 say see this is an equivalence
+00:39:47.079 relation and if we classify and if we
+00:39:49.960 build these um equivalence classes with
+00:39:53.319 respect to an equivalence relation which
+00:39:55.160 you need to have then you see every
+00:39:57.400 element gets covered and if you now
+00:40:00.720 don't look if you put on your
+00:40:03.119 glasses that are so coarse that that
+00:40:06.440 they make you see not so clear but they
+00:40:09.240 actually make you see this blurred so
+00:40:12.160 that from Far Far
+00:40:14.119 Away you only see it only looks as if
+00:40:18.040 the set M contained three elements these
+00:40:21.839 equivalence classes well that's no
+00:40:23.560 longer the set M because the set M was
+00:40:25.760 what was there before um this is then
+00:40:28.040 the quotient set so the set you see here
+00:40:31.520 is the set
+00:40:32.800 M modul twiddle well this is obviously
+00:40:36.400 just a symbol but this m modu twiddle is
+00:40:39.480 the set whose elements are the
+00:40:42.440 equivalence
+00:40:44.240 classes okay so there we have a formal
+00:40:48.400 definition definition twidle be an
+00:40:53.640 equivalence
+00:40:55.319 relation
+00:40:59.240 on
+00:41:01.319 M uh then we
+00:41:03.880 Define the so-called quotient
+00:41:09.359 set it's the quotient set I already
+00:41:13.280 introduced the symbol it's m modulo
+00:41:15.520 twiddle looks very dangerous but it's
+00:41:18.200 very simple and that's the set whose
+00:41:21.319 elements are the equivalence
+00:41:23.680 classes m in M
+00:41:27.280 why can I do this well where do these
+00:41:29.960 M's lie so this looks like um Universal
+00:41:34.400 comprehension right so we need to
+00:41:36.960 convince ourselves we can actually build
+00:41:38.960 this set so if I write it down like this
+00:41:41.760 there it's very
+00:41:43.800 likely restricted comprehension okay but
+00:41:47.640 what is the set that these equivalent
+00:41:50.319 classes come
+00:41:55.240 from
+00:41:57.640 well the equivalence classes are subsets
+00:41:59.560 of
+00:42:00.560 M so in which set do all the subsets
+00:42:04.720 lie power the power set exactly there's
+00:42:08.160 an element of the power set of M aha
+00:42:10.560 it's restricted comprehension but then
+00:42:12.760 we need to know that the power set of a
+00:42:15.200 set is a set ah we know this by the
+00:42:18.119 power set axum everything is fine so you
+00:42:22.119 see you in principle always have to
+00:42:24.559 check that you can actually construct
+00:42:25.880 the you're constructing it's hereby
+00:42:28.040 restricted comprehension anyway it's
+00:42:31.040 exactly this picture it's the quotient
+00:42:35.520 set
+00:42:38.559 okay
+00:42:41.800 um so now
+00:42:47.520 remark uh due to the axum of
+00:42:55.160 choice
+00:43:00.920 there
+00:43:04.559 exists
+00:43:06.520 a complete
+00:43:11.240 system of
+00:43:17.800 Representatives for this equivalence
+00:43:21.040 relation for the equivalence class of
+00:43:23.319 these equivalence
+00:43:24.599 relations that is set
+00:43:30.880 R such
+00:43:33.760 that
+00:43:36.400 um there is a one to one correspondence
+00:43:39.920 there's a bje between the elements of R
+00:43:44.359 and the quotient
+00:43:51.240 set namely you pick from each class you
+00:43:55.800 pick one
+00:43:57.559 element and put it into the set
+00:44:01.559 R and then obviously you represent every
+00:44:05.319 single
+00:44:06.680 class how do you pick which element do
+00:44:09.599 you pick from which equivalence
+00:44:12.440 class don't know that's
+00:44:16.680 dark but the guarantee by the axim of
+00:44:19.280 choice is there exists a complete system
+00:44:22.400 of such
+00:44:24.400 representatives and that's of course
+00:44:26.119 very
+00:44:27.520 useful so if you wish it's gender theory
+00:44:30.559 in a nutshell that there are several
+00:44:33.160 types of equivalence relations on the
+00:44:34.960 same set
+00:44:36.240 normally okay um a further remark is the
+00:44:41.920 following care must be
+00:44:50.040 taken when defining
+00:44:54.960 Maps
+00:44:59.240 whose
+00:45:04.640 domain is a quoti
+00:45:12.880 set and if addition if in this case um
+00:45:19.240 one uses
+00:45:24.880 Representatives
+00:45:26.559 to define the
+00:45:33.400 map okay what do I mean by this
+00:45:35.760 mysterious remark
+00:45:43.200 example
+00:45:44.960 um
+00:45:48.119 uhuh take as the set
+00:45:51.880 M the integer numbers Z
+00:45:59.920 and Define two integer numbers M and N
+00:46:03.640 to be
+00:46:06.720 equivalent if and only
+00:46:10.599 if
+00:46:14.599 um M minus
+00:46:23.280 n is an even
+00:46:31.559 number I hope this is what I want okay
+00:46:35.040 if M and N is an even
+00:46:37.640 number now um the first question is is
+00:46:41.280 this reflexive uh yes it is because m m
+00:46:45.240 is M minus m is zero zero is an even
+00:46:48.079 number good uh is it symmetric m- n in 2
+00:46:52.000 Z what about n minus M well it's also
+00:46:54.760 then in two Z because just the sign
+00:46:56.680 changes and the
+00:46:59.559 transitivity is also given okay so this
+00:47:03.079 is an equivalence relation good it's an
+00:47:06.359 equivalence
+00:47:07.440 relation and if it's an equivalence
+00:47:09.599 relation we can ask ourselves what is
+00:47:13.640 the equivalence class of zero say which
+00:47:17.319 lies in Z and the equivalence class of
+00:47:19.880 zero is of course
+00:47:22.079 two
+00:47:23.960 four and so on but also
+00:47:27.520 min-2 Min
+00:47:29.400 -4 and so on and the equivalence class
+00:47:33.200 of one is
+00:47:35.440 three and
+00:47:37.920 five the same as those Ence classes is
+00:47:40.839 minus uh
+00:47:43.640 1 Min - 3 and so on and uh so we get the
+00:47:49.920 quotient
+00:47:51.640 set Z mod
+00:47:54.720 tdd consist just of two different
+00:48:00.000 elements I mean the others are also all
+00:48:02.280 in there but they coincide with this or
+00:48:04.440 this one so as a set it's the same as
+00:48:07.880 this so it's just the zeros and the ones
+00:48:11.200 okay that's this quotient set and now I
+00:48:14.359 could get the
+00:48:16.800 idea to
+00:48:19.240 inherit addition from Z idea uh on Z
+00:48:26.200 uh we have an
+00:48:29.000 addition which we just assume is given
+00:48:31.400 at this point it's the kindergarden
+00:48:34.160 Edition you addition you do it takes two
+00:48:38.319 integer numbers and it Maps them to an
+00:48:40.559 integer number and this guy here this
+00:48:43.640 cartisian product between two
+00:48:48.480 sets cartisian
+00:48:52.079 product this was actually this is
+00:48:54.960 actually the um the set of all ordered
+00:48:59.319 pairs of integer numbers and what is an
+00:49:02.520 ordered pair well that's defined on
+00:49:04.559 problem sheet
+00:49:05.880 one problem sheet one problem
+00:49:11.880 five sub problem
+00:49:14.760 B okay um that the cartisian product is
+00:49:18.839 defined so in a we Define the
+00:49:22.040 ordered pairs and in B then the C
+00:49:25.880 product is defined only on the basis of
+00:49:29.280 our aims of set theory but you of course
+00:49:31.680 have an intuitive notion at this point
+00:49:33.720 on that we have an addition plus and we
+00:49:36.880 wish to
+00:49:38.720 inherit wish
+00:49:40.920 to
+00:49:43.680 inherit an
+00:49:46.760 addition which deserves a different name
+00:49:49.760 plus and this addition uh is supposed to
+00:49:54.160 take two elements of of the quotient
+00:49:57.520 space and return an element of the
+00:49:59.720 quotient space we wish to inherit such
+00:50:02.760 an addition from there and we could come
+00:50:06.160 up with the idea that well the
+00:50:11.040 definition our tentative definition and
+00:50:14.200 we say okay I take an equivalence
+00:50:17.640 class it's an element from here I take
+00:50:21.200 another element from here and I add them
+00:50:25.200 because because that's exactly what this
+00:50:27.920 addition is supposed to do and well I
+00:50:30.920 have to specify how this works and I
+00:50:33.319 want to Define this in terms of this
+00:50:35.520 addition on Z that's what I mean by
+00:50:38.319 inherit
+00:50:39.799 it and well an idea could be to just
+00:50:43.000 take these two
+00:50:44.640 Representatives one has chosen here so
+00:50:47.559 you see there are brackets around it but
+00:50:49.799 here on the right hand side before I put
+00:50:52.559 the brackets I took this representative
+00:50:55.200 and took the other representative and I
+00:50:57.880 used the addition in Z so the Plus
+00:51:00.559 without the circle around it is the
+00:51:02.119 addition up here and obviously it can
+00:51:04.240 only act on the representatives because
+00:51:06.359 the
+00:51:07.440 representatives of this equivalence
+00:51:09.480 relation here they lie in Z so I pick
+00:51:12.520 the
+00:51:13.440 representatives I add them and after
+00:51:16.520 this addition has been completed only
+00:51:18.640 then I take the equivalence class that's
+00:51:20.520 the prescription but this certainly
+00:51:22.680 satisfies our remark that conditions of
+00:51:26.040 our assumptions of our remark that we
+00:51:29.400 actually Define a map whose domain is a
+00:51:32.480 quoti set well here it's the even the
+00:51:34.680 cartisian product of twice the same quo
+00:51:38.119 set and one uses the
+00:51:41.200 representatives these guys one uses the
+00:51:44.359 representatives to define the
+00:51:46.880 map now you say this is my definition
+00:51:49.720 and that's it well there is an issue
+00:51:51.960 with that and um care needs to be
+00:51:57.559 taken needs to be
+00:52:00.200 taken
+00:52:03.280 precisely
+00:52:06.319 because um this could be
+00:52:11.880 inconsistent
+00:52:13.599 inconsistent and the technical term in
+00:52:15.960 these circumstances is il
+00:52:18.880 defined instead of being well defined
+00:52:21.559 could be
+00:52:22.559 inconsistent because Imagine The
+00:52:24.839 Following happens imagine you take a
+00:52:28.000 different representative for the same
+00:52:30.359 class here but you take an
+00:52:32.799 representative a
+00:52:34.799 prime such that it's the same class and
+00:52:37.960 you take a different representative B
+00:52:39.799 Prime such that however the class of B
+00:52:42.359 Prime is the same class as B then if
+00:52:45.720 this addition acts on the quotient set
+00:52:48.160 it should yield the same result because
+00:52:50.559 you use the same classes you just chose
+00:52:53.359 to represent them differently
+00:52:57.000 now depending on what you write here on
+00:52:59.040 the right hand side how you use the
+00:53:01.720 representatives it could be nevertheless
+00:53:04.040 that if you used a different
+00:53:05.240 representative here different
+00:53:06.359 representative here that first adding
+00:53:08.760 these arbitrarily chosen representatives
+00:53:10.839 and then again taking the equivalence
+00:53:12.920 class with respect to the predefined
+00:53:14.599 equivalence relation could lead to a
+00:53:16.400 different result in that
+00:53:18.079 case and it's easy to construct such uh
+00:53:21.160 bad
+00:53:22.079 examples
+00:53:24.160 um talk about this later um but I think
+00:53:27.720 this one is okay but you need to
+00:53:30.640 check
+00:53:32.720 check
+00:53:35.240 whether choice of
+00:53:41.720 Representatives
+00:53:44.000 matters so how do we check this well um
+00:53:48.440 let a prime and B Prime such that a
+00:53:53.359 prime represents the same class as a
+00:53:56.119 does and B Prime represents the same
+00:53:59.119 class as B does then certainly we hope
+00:54:03.079 to be able to
+00:54:04.559 prove that with the such defined Circ
+00:54:08.160 addition on the quotient
+00:54:10.599 set we get the same result so we write a
+00:54:13.599 string of equal signs that we get the
+00:54:16.119 same result as if we added up A and B
+00:54:19.960 the equivalence class of A and B so
+00:54:23.440 let's see what this means so if if a
+00:54:26.280 prime is the same represented uh um
+00:54:29.040 represents the same class as a that
+00:54:31.280 means certainly a prime needs to lie in
+00:54:34.160 this class because of this property one
+00:54:36.640 we had before uh and then that means
+00:54:39.480 that the difference between a and a
+00:54:41.760 prime must be in two Z and here's the
+00:54:45.640 same so if B Prime is supposed to
+00:54:48.040 represent the same class then B minus B
+00:54:51.040 Prime also lies in 2 Z
+00:54:55.799 now we can use this and we can say well
+00:54:58.160 if it lies into Z then there exists an m
+00:55:02.680 in Z such that a minus a prime is 2 m
+00:55:06.200 and there exists an n in Z such that B
+00:55:10.200 minus B Prime is 2 N for
+00:55:12.880 particular B and B Prime for particular
+00:55:15.520 a and a
+00:55:16.599 prime well it's not an element sorry in
+00:55:19.240 that case it becomes an equal
+00:55:21.799 sign so uh we can use this we can uh use
+00:55:26.079 the definition of Circ plus that would
+00:55:28.520 be a prime plus b Prime I just blindly
+00:55:31.480 take the two Representatives that I
+00:55:33.680 happened to have there and now I replace
+00:55:37.599 a prime is a minus 2
+00:55:42.760 m and plus b Prime uh is
+00:55:48.520 B uh - 2
+00:55:51.880 N well that of course is the same same
+00:55:55.319 as a + b no so first associative law
+00:55:58.640 then commutative law a + b um minus 2 *
+00:56:03.920 m +
+00:56:05.720 n aha But A + B minus 2 * m plus n is
+00:56:11.920 certainly the same class as a plus
+00:56:16.000 b because this guy and that guy only
+00:56:20.240 differ by an even integer so by
+00:56:23.760 definition they are the same class but
+00:56:26.319 this here I can again using the
+00:56:28.039 definition of cir plus backwards it's
+00:56:30.440 the sum of a cir
+00:56:32.720 plus uh the class of B and
+00:56:37.240 indeed for arbitrary other
+00:56:39.920 Representatives I showed it's well
+00:56:43.799 defined well
+00:56:48.119 defined so it's only you only need to
+00:56:51.359 take care if for the definition you use
+00:56:54.440 represent resentatives if you manage to
+00:56:57.200 write down the definition of an
+00:56:58.440 operation on a quoti set without using
+00:57:01.039 Representatives no care has to be taken
+00:57:03.079 it's just a normal definition if you use
+00:57:05.640 Representatives you need to do that
+00:57:15.280 okay
+00:57:20.200 okay and um so this happens in various
+00:57:24.280 shapes forms and Fashions uh throughout
+00:57:28.039 many constructions in in mathematics and
+00:57:30.359 in fact throughout many constructions
+00:57:31.680 we're going um uh to uh to to discuss in
+00:57:35.960 this

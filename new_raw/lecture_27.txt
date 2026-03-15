@@ -1,0 +1,360 @@
+00:00:01
+[Music] so good morning welcome back uh today we are going to discuss spin or rather spinner fields on curved spaces but also on curved space times and the spin on curved spaces curved space times is a topic that cannot be um made precise without the full formalism of principal bundles Associated bundles and so on so this is uh another honest application of what we did so that's 6.2 uh Spinners or spinner fields on curved spaces and space times and in order to develop the definition of what uh a spinner field is
+
+00:00:59
+well it will be a section of an appropriate bundle and uh that appropriate bundle that spin bundle will be the associated bundle of some suitable principal bundle okay will be the spin frame bundle that principal bundle but in order to write down all of this we need some uh preparation and the first thing we need to look at is um well it's the spin group so spin groups what is a spin group uh a spin group is a double cover I'll explain that in a second in this context that's a more General um topological notion but
+
+00:01:46
+uh in this context of Le groups it's uh it's quite simple is a double cover of the special orthogonal group uh s o n so that would be the group of all the linear maps from RN to RN such that an inner product is kept constant but because if we're just on a vector space r n we can always use Sylvester's theorem and if it's a positive definite inner product we could equally well take the standard inner product so that is if uh RX r y = XY is kept constant and this is the standard inner
+
+00:02:39
+product on r n so uh XY is defined as um the sum I = 1 to n x i y i okay so uh the spin group is a double cover of the special orthogonal group group uh what does that mean that means um we can construct a Le group homomorphism from that spin group and that spin group will be called spin of n okay that it's is its official name spin n and we can construct a Le group homomorphism so of course in the context of Le groups twiddle doesn't mean linear there is no linear structure it means the uh compatibility with this structure
+
+00:03:37
+okay I I could write uh as a Le group okay as a Le group uh into s o n and note I just asked for a homomorphism uh that means it's structure structure preserving map where let's give it a name let's call that M uh map row um I I don't ask for it to be a a Le group isomorphism so it's not one to one okay indeed it's the very prop um the very definition of the spin group uh that the kernel of this map the kernel of row well you know the kernel from linear algebra uh where it's all those
+
+00:04:25
+elements um in the domain uh which are mapped to zero well zero is the neutral element of the uh group operation on a vector space and that's the addition well here the group operation is a different one in any case uh we want all those in the domain that are mapped to the identity um in the Target to the neutral element I'm sorry to the neutral element in the Target but in the group of course in a group the neutral element is the identity okay so um where the kernel that's just the definition of the kernel
+
+00:05:10
+where the kernel and that's now the definition of spin where the kernel is isomorphic to the group Z2 and you know Z2 is the group with just two elements um it certainly needs the identity element whatever it is and it needs a second element and whatever the group operation is uh e with e must give you the identity again okay that's Z to okay so again a spin group is a double cover and this double cover in the Le group sense here uh simply means um well in this context of s so n it means that you
+
+00:05:50
+have a Le Group homomorphism which has a kernel with two elements in other words this map is 2 to one um um yeah it's two to one one so there are two here that map to the same over here and not only two there always pairs that map to the same it's a map that's 2: one in other words the map is 2 to one okay so that's the spin group and um we will construct the spin group explicitly and we'll have need constructed explicitly in cases that interest us um well I give you the result first for
+
+00:06:39
+various dimensions and we'll concentrate on three and four dimensions on three dimensional space and four dimensional space time which is still what seems to be the case out there so um let's uh look at the dimension n okay and and let's write down what is spin n um Aha and we'll also look at spin well I I'll do that in a second so in one two three dimensions what's this spin n group well what you all need to know is that in three dimensions the spin three group spin three is su2
+
+00:07:30
+okay one can check this so that if n is three then su2 does this trick and we'll study that in detail okay um in two Dimensions it's um U1 I think and uh in one dimension it's 01 okay uh and that goes on now if I say that goes on one calls these here um coincidential isomorphisms so we have spin n is as a group isomorphic to okay uh but in some Dimensions there is simply no no other classical simple classical Le group where this fits in okay um at least not in this simple way um and so this seems like a complicated
+
+00:08:28
+definition but as soon as we understood this we can of course work with this as usual okay so um so if people say oh su2 is the spin so if you see the spin three group you know it's su2 if somebody talks about U1 you would know it's uh spin two maybe they use it in another context but that that's the case okay now I said here that we're looking at s o n however we could also look at so um extension of this idea look at a row that takes goes from s o PQ uh sorry uh that defines spin
+
+00:09:12
+PQ which is a double cover of s o p comma q and by P comma Q I mean that I no longer have a positive definite inner product but I have an inner product with uh P pluses and Q minuses in the Sylvester form okay okay and obviously this is of interest in relativity because there we have the lawence group so13 and there we need that okay so um we can also ask about uh the spin P comma Q groups okay and uh I just give a few examples of interest and the examples of interest to us are well if any uh it's certainly the 13
+
+00:10:02
+example because that's a minkovski inner product okay so we talk about the Lawrence group that goes with it the question is what is the double cover so this this remains so the idea is again that the kernel of row still ought to be isomorphic to Z2 okay so the question is what do we find for spin for spin one comma 3 what's the what are the Spinners in three dimensions and it turns out it's SL 2 comma C well it's isomorphic to it so we could we can just take SL2 C you can't see this we look at this
+
+00:10:46
+okay so this needs to be proven that's why I said result so don't be puzzled um then it's may be interesting to look at one and uh one comma two that's like um your um you take a thin film or something and you look at electrons in there well if the electrons are effectively constrained to this in this thin film you of course have the Lawrence group s s so1 comma 2 and there the spin group um is given by SL2 comma R it just so happens SL is special linear so it's the general linear group but only those
+
+00:11:25
+elements that have determinant one right ah uh of course this was incomplete what I wrote down here is the orthogonal group I have to restrict this to determinant + one so this s here uh is this extra condition that the determinant B1 I'm sorry I suppressed that and um I think Spinners in one comma 1 so in 1 + one dimensional SpaceTime um I think it's a gl1 r but this one I'm not so I think it's true I think it's true um okay so here maybe would been smarter I mean this is one dimension that goes
+
+00:12:19
+like this this is the two Dimensions okay this is three dimensions um I think in four dimensions that are ukian so where you have plus plus plus plus signature the spin group is su2 cross su2 so you see this is the the four dimensions and obviously there is no Zero Dimensional space time well 1 comma 0 is just the the time axis whatnot okay so these are these um accidential isomorphisms which I have a very very useful to work with that and um we will now focus on this one okay focus on this one so we would like to constru because
+
+00:13:19
+that's obviously the case in um in non-relativistic physics in physical space in the lab it's threedimensional and uh we want to understand spinner fields in there and once we understand this it turns out that this case here which is the spin 13 group uh that's of course the the spin group in um in four dimensional space time well I should always say at a point so don't be confused so if I say our ENT to our n you shouldn't think of this as space time you should think of it rather as
+
+00:13:57
+the tangent space to space time okay because it's only happening at one point okay and um and the whole point of the uh principal bundle approach will be to actually distribute this over the whole whole manifold right so very often we talk about minkovski space as a vector space and so on well that is very fishy right um it's the tangent spaces to space time that are vector spaces so if I write here RN and we first have to get this algebraic stuff working later on this will be identified with the tangent
+
+00:14:28
+space to space time okay okay we we'll come to that okay so um focus so aim well you could say okay why do you make this definition well it will turn out to be important okay so we first have to work a little bit in order to have the the structure we need so our aim is to now construct a Le group homomorphism um row that takes you from su2 to S3 okay that's the case we're looking at um such that so it's a Le group homeomorphism such that the kernel of row is the Z2 group and in order to do
+
+00:15:20
+this um we need to introduce we need to make a few observations okay um strategy make a number of observations okay so uh let me try to discover this with you rather than just um provide the constructions well so we want to talk about this su2 group and we found before if we want to think about representations of the group and that is certainly something if we want to uh put our make our yeah to put our hands on this it's good to write down a representation in order to work with numbers okay and how can you always
+
+00:16:16
+represent a Le group well you can represent it trivially that's not so interesting but how you can you always represent it by the adjoint action right what is the adjoint action the adjoint action of a group is how it acts on its only Le algebra okay and so that's always a way to get a non-trivial action so whenever you know nothing and you want to get started why not look at the adjoint action okay so the first question is uh what is actually the Lee algebra little su2 uh of su2 algebra of
+
+00:16:57
+su2 well uh you know that that is a very long calculation if you want to do this properly in a differential geometric spirit and I provided that to you in in one of the previous lectures now we'll do a quick and dirty derivation which is just two or three lines long uh and uh the challenge is to match this to the formal derivation and you'll see that the formal derivation is much more insightful much clearer without any ambiguity or question what what means but it's just most of the time not
+
+00:17:29
+really necessary okay so um we say su2 Let's uh get a definition of su2 well we start with some um uh matrix definition su2 contains all those U's that are complex 2x two matrices such that that u u dger is the identity on C2 and such that the determinant of U is one right now the quick and dirty calculation how to get the Lee algebra is to consider a group element close to the identity because of course if you uh have the identity and then you uh have another 2x two Matrix H for some H being
+
+00:18:23
+a complex 2x2 matrix and you use a small Epsilon of course in the small Epsilon you recognize immediately there will be something with the differential and very roughly speaking if you make the Epsilon small this is like the tangent Vector at the identity that takes you to an element close to the identity you know how dirty this is because there's no such thing as an addition on the group itself and la la la so this is all very dirty and it's absolutely not possible to make any real sense out of this apart
+
+00:18:57
+from the fact that it's exactly what you need to do okay so if you if you say okay where does this plus live and I say well it's the Plus on the matrices yeah but what on Earth does it have to do with the group because this is a Matrix Group the only operation is the matrix multiplication who on Earth allowed you to use the addition of these matrices of course you have this addition but it could totally destroy the properties of the group and so on so you can do this and it's good physics tradition to do it
+
+00:19:28
+and will Pro produce exactly the right result but if you really start to question this what this actually means and why you can do this you're pressed to go back to the formal definition of what the Lee algebra is and we I think we derived the Lee algebra of some of what group did we derive it it was SL2 C right so this yeah okay so this is the um the non-relativistic version of it and you see SL2 C is exactly the one for so13 this is the one for SO3 and so on so here it's now the place to um to put
+
+00:19:59
+in the quick and dirty stuff but again if you want to ask what this means need to go back to the formal stuff okay so but the idea once you have this it's uh in incredibly simple because we now evaluate this condition that's 1 + Epsilon H * 1 plus Epsilon H Aha and um you now say what what kind of trick is this I put an i here and I can because this is still close to the identity and this is the addition on the complex matrices so what the heck it's just convenient to have the I there okay so
+
+00:20:32
+um we have this plus I this plus I this dagger is supposed to be the identity so you do this left hand side this here is of course 1 minus I Epsilon H dagger okay uh and now of course you use uh the binomial theorem and you get 1 minus i s uh epile no no nothing I squ one yes I squ 1 minus hang on what are we talking about this is one oh yeah exactly uh what on Earth am I doing here okay so this is the one with the one so now comes plus I Epsilon H aha plus I Epsilon H um minus I that's it it's not the binomial theorem
+
+00:21:32
+because there's an H de and there's an H that's why it's not the binomial theorem okay one minus I Epsilon H dega and then comes a plus order of Epsilon squared term equals 1 now if we make Epsilon small or in other words if we take the derivative with respect to Epsilon at zero and so on what we see is that we can neglect this term and we get 1 + I Epsilon * hus H dagger is the identity well in order for this to be true for nonzero Epsilon uh it implies that this Matrix this kind of tangent
+
+00:22:16
+Vector in a sense needs to be a her Mission Matrix H equals hga right if I hadn't put the I here it would be an anti-mission Matrix that's as good yeah R Epson is in R that's right otherwise it couldn't be small that's well it could have small absolute value but it could be small all by itself okay good to just consider complex Factor well that's the idea because I want to go away in directions so I I this is the curve parameter I I start at the identity and I make a curve okay
+
+00:22:57
+then I take the T and then I want to find out what the tangent vectors to the curve are right I mean this as I said it's dirty as hell okay once you know the differential geometric definition you say what on Earth are you doing but of course one feels it's still there and the result won't be different if you do the full the full derivation uh well that's not worth it because I showed it to you once and uh we all agree we don't want to do this again okay so this is this and the
+
+00:23:26
+second uh uh condition is that the determinant of U which is now 1 + I Epsilon H that the determinant B1 that's the s in su2 um but then there's the determinant formula for the expansion of a determinant so determinant of 1 plus something is one plus the trace of this something iepsilon h plus well higher orders in the something so that would amount to to higher orders in the Epsilon which we again forget about but the trace is linear so the I Epsilon go out the only way for this to equal one is that the
+
+00:24:09
+trace of H vanish okay so what we found is that the tangent vectors at the identity are traceless Herm Mission matrices in two Dimensions okay um and this space deserves a name so Define H to be the space of all the how to call them X's Capital X's uh these are matrices I could also say they're linear maps from C to C but okay the matrices such that um their Herm mission and they're Trace free okay yeah that's just um an expansion formula for the determinant you can tailor expand the determinant and then the
+
+00:25:20
+first term is a one because the determinant of the uh yeah the determinant of the identity is one plus then comes a term uh uh linear in this Epsilon uh and it turns out to be the trace of AG uh and then come higher terms so it's the tailor expansion of the determinant if you wish um yeah okay so that's this that's this result okay so I'm I'm just claiming this and you trust me so this is this uh this space here so now okay so what are we talking about here so we we want wanted to talk about su2 why did we look
+
+00:26:02
+at the Lee algebra well because we know that on this space which is the Lee algebra we can represent su2 okay and how do we do that well we can have an su2 action uh su2 cross H going into H um by taking a u and taking an element X from from H and mapping this to well we know how that works to the adjoint action of U on X X which is just uux and it is uh U inverse right but we see from U uer is one that uh UD dger is the inverse of U so uh in particular in this context this is uxx UDA okay so what have we achieved well
+
+00:27:00
+we found some representation of su2 on this Le algebra you say okay we can do this with any group what's the special deal well the special deal is that what we are after is a map from su2 to S SO3 well not any map but Le group homomorphism now s SO3 acts naturally on what space so su2 acts in its uh defining def um representation on two by on on on C2 right a maps from C2 to C2 s SO3 in its [Music] um defining uh representation uh acts on R2 cross uh on R2 from R2 to R2 and we know that this
+
+00:27:48
+is r r transpose equals uh the identity but now in three dimensions in three real dimensions in R3 and the deter minent of R is + one right we know that this is the um defining uh representation of s SO3 now if I had taken the defining um representation of s SO3 going from R2 to R2 and the defining one of so SO2 going from from R3 to R3 okay uh and compared it to the defining representation of su two that goes from C2 to C2 they have nothing to do with each other one is R3 the other one is C2 you can think of C2 maybe as
+
+00:28:37
+an R4 with an extra structure but it seems to have nothing to do with R3 but the trick is you can take this one the rep the representation space R3 of s SO3 so it's the defining representation space and compare it to this Lee algebra because how many dimensions does this Lee algebra have well the Dimension observe the dimension of this Le of this Lee algebra of this H right as a real Vector space is three because roughly speaking you have 2X two complex matrices but you require that x equals x
+
+00:29:23
+dger but you know that X dger is X transpose star okay in this very simple uh setting here uh that means these two guys need to be real numbers independent real numbers and this can be a complex number but this is simply that complex number from up there start so there's no new information uh aha so you have 1 2 three four real numbers but then there's also the trace free condition so this number down here must be minus the number up here so you have a three okay so dim of this representation
+
+00:30:03
+space and this is a representation space of su2 this representation space has the same real Dimension as the representation space of this representation okay that is why this is now interesting it's an accident okay it's an accident and that's the table I wrote down before with these accidents okay so anyway we're going to to come there okay so we uh we found this guy so we now would like in order before we can write down such a Le group homomorphism we might get an idea of how that works
+
+00:30:43
+by um having a conjecture and then proving the conjecture and the conjecture is that um well that's not so much of a conjecture it's obvious that exists but it's interesting to see how it looks like there must be this is a real Vector space of Dimension 3 and R3 is also a real Dimension a vector space of Dimension 3 uh we know that all the finite dimensional real Vector spaces are isomorphic to R to the dim V dim H in this case so this is clear okay no no no no look yes so so I confused you
+
+00:31:33
+here so this is right what's written here um this is already the representing Matrix I that means R is a linear map from R3 to R3 and hence if I write down with these properties this is the representation space of this group because these RS are maps from V to V you remember that a um representation of a group was a map um yeah we called it capital r not too many RS in here a representation let's call it curly r a representation of a Le group was the Le group in this case s SO3 of the Le group into the general
+
+00:32:25
+linear group over V of one some Dimension and so General linear means it's all the linear maps that are invertible you need this because otherwise uh you need to send the identity to the identity and that must be must be respected because you want this to be a Le group homomorphism if this is a group with some operation plop okay then this GL is also a group because you can always use the composition of linear Maps you make this into a group okay and this goes here usually it will be maybe some Subspace
+
+00:33:02
+some subgroup of this here but that's a representation so you can consider s SO3 as RS in N R3 in GL lr3 but GL lr3 are just the 3X3 real matrices that have determinant non equal to zero and if you then have S O3 you even know the determinant is plus one one okay so that's the um that's the the confusion so it's not this R that's threedimensional but it's the representation space on which it acts it's an accident that this guy is three-dimensional okay but I'm talking
+
+00:33:47
+about the representation space in which it acts okay so well this not much of a conjecture this is actually clear that this is the case um what's more interesting is so this is as Vector spaces uh if I take R3 with the standard inner product I can also show that in as an inner product space it's the same as H with a particular inner product we're going to Define on H so from now on we should distinguish between the inner product on R3 and the inner product there so this here is clear but you know in order to
+
+00:34:25
+have an isomorphism I need to construct a con a particular map we know there is one but then the claim is with respect to such a map I can also um show that with here with the standard inner product and here with an inner product to be defined they are isomorphic as inner product spaces okay so again we want to construct this Le group homomorphism but the first thing we do we construct an isomorphism of representation spaces for the various Le groups and that will become useful in defining this
+
+00:35:00
+isomorphism uh this Le group homomorphism we're actually after I mean I could write this down in line one and then you say how on Earth do you come to this kind of expression for this map uh well that's what we're discovering so I try to to show you how the thinking could have gone in some if if we didn't know the answer already so in order to write down explicit Maps it's useful to choose B bases so choose bases um and the first bases we choose is um E1 = 1 0 0 E2 = 0 1 0 E3 = 0 0
+
+00:35:46
+1 of R3 so not um so sometimes people are confused because they say hang on you give me a you provide a Vector in terms of its components but isn't the whole point of a basis to introduce a basis per se without already using components with respect to another basis you know what I mean but it's not like that um R3 is R cross R cross R agreed so this is the space of three tups so this is an honest element of here with without having chosen a basis okay so uh good okay so Tru basis um of R3 and we choose another basis
+
+00:36:39
+namely uh Sigma 1 being this guy Sigma 2 being this guy and sigma 3 being that guy you see I learned them meanwhile um as a basis of this AG space because obviously these are three matrices they all are Trace free they're linearly independent and they're her Mission so they must provide a basis of H and uh now we want to explicitly construct an isomorphism let's call it mu from R3 into H and I do this by taking a triple here X1 X2 X3 and map it to X1 ah yeah that's correct X1 Sigma 1 +
+
+00:37:37
+X2 Sigma 2 plus X3 Sigma 3 or if you want to write this in short form you may want to write it like this but uh this is the definition obviously this an element of R3 and quite obviously this element of H it's a linear combination now uh an interesting question is okay and obviously it's linear because this the X only appearing once here and it distributes linearly here now we find explicitly and it's useful to write this down explicitly the inverse so mu inverse from H to R3 is given how well
+
+00:38:24
+now you give a matrix capital x which is an element of the is is a complex 2x two Matrix but with the Restriction that it be her Mission and Trace free okay and where do you send that guy you send that guy to 12 times the trace of X Sigma up I and sigma up I here is exactly the same as Sigma I because we Define the sigma up I Sigma up I we Define them as Delta i j well with the indices up it's actually not a Delta it's more like well it's symmetric g j Sigma J right symmetric um but we use this here in
+
+00:39:19
+the in this form okay standard in our product anyway that means as a matrix it's exactly the same it doesn't make a difference okay um so the sigma eyes are Sigma up eyes are the sigma down eyes and once we do relativity this will be defined with a relative minus sign hence I explain it here explicitly the index is up it it ought to be up because we want our indices on the components up in R3 uh so obviously um I have this but now I want an element of R3 well very strictly speaking I need to provide the
+
+00:39:55
+basis Vector here again and I have a summation convention here and then I get an element of R3 right or you could say the first component is given by half Trace X Sigma 1 the second by half Trace X Sigma 2 and so on okay so uh well I claim again this is linear it's obvious that is linear because the X appears here linearly and this is obviously the trace over the 2x two complex matrices right because there's no other Matrix inside here um now let's quickly check uh whether this can be true
+
+00:40:34
+whether this is uh what we want uh so we should check that something like um new inverse of mu of a little X that this recovers the little X right and the other way around um well let's quickly write this down so um we don't want to assume this yet we we calculated mu inverse is 12 the trace of mu of X time Sigma I EI I okay and so this is one half the trace what's mu of X mu of X is X dotted into the sigma so this is the X J Sigma J summation convention right this is exactly this XJ Sigma J
+
+00:41:31
+agree um this times Sigma I EI aha so what's Sigma J Sigma I well that's simple um we know or we calculate quickly that Sigma I with Sigma J down commutator is twice g j where g j is again this thing in the C down is the inverse but it's again one one1 so usually you write Delta i j but I don't like that because Delta uh is The Chronic Delta one index up one index down this is a bilinear form that transforms differently the chrona Delta is the same in all coordinate systems in all in all uh in
+
+00:42:22
+this context in all bases whereas the g j is not the same in all bases right um anyway but we choose the basis where it has the simple form uh you have this anticommutator looks like this right the commutator is uh up to factors is the um rotation algebra right the angular momentum algebra uh but the the anticommutator is precisely this uh so that means that um here because of the cyclicity of the trace we have of course uh X up J well I can write down here Delta I Down K if I write g k i up here you
+
+00:43:07
+agree um but then this is the trace over the 2x two complex matrices this these are just for every Ki is just a a real Factor so I can pull it out and then I have Sigma J Sigma K here and then I can write this as Sigma J Sigma K and because of the Cy liity of the trace plus Sigma K Sigma J but I doubled the trace in this case so I have to have another compensating factor of 12 um uh this this thing bracket closes uh e gkii happy so far so but this is because of the cyclicity of the tray nothing else
+
+00:43:56
+cyclicity well of the trace okay and now we use the um the anticommutator bracket is 1/4 Trace XJ 2 * G KJ bracket closes e i g k i ah so this guy again drums out but then K goes with K and gives you a Delta i j so this is the two goes here is 12 Trace XJ ah and here you have still a 2X two complex unit Matrix so everything goes and here you have still the identity 2x two complex right uh and they have your Delta i j EI so the the XJ goes out but the trace over 2x two complex identity is two cancels this one2 so this is the trace
+
+00:45:13
+is taken care of this is x i EI and indeed that's X very good so mu inverse of mu of x equals X okay and now of course you also have to check the the other direction but I think that we leave similarly this is the case so indeed that's the proof it's a linear map this mu and we explicitly constructed its inverse hence this is an isomorphism and we knew it has to exist okay because we know this is a three-dimensional real Vector space it must be isomorphic to some R3 and now we constructed one such isomorphism
+
+00:46:07
+explicitly and that will be very useful okay so it's not a surprise that it's so but the construction will be good for us question so far good so now I made an extended statement the extended statement is so extended claim that um if I now equip R3 with its standard inner product which now all the time I called small G but this just at one point an inner product on this um it's it's it's not a um um a metric field over a manifold R3 it's just an inner product on this Vector space okay
+
+00:46:52
+uh I claimed that this as Vector spaces has the same structure as H with an appropriately defined inner product on there um what does that mean as inner product spaces it's isomorphic well it means it's isomorphic as Vector spaces and um well you know not to get too confused I I called it before in AO on R3 let's keep it now um I mean that there is a an isomorphism between the spaces which we just constructed and we need additional an additional condition in order to have them isomorphic as inner
+
+00:47:35
+product spaces and of course what would it be uh I take two elements of R3 and I take the inner product on R3 and then the result I know no no hang on um I no no no so I take the inner product and and that ought to be the same as the inner product on the h space and this inner product we're going to have to construct of the images under the isomorphism okay this is what we mean by compatibility or isomorphism uh with respect to the inner product structure so now uh let me Define for you this inner product on H
+
+00:48:27
+so what does it do it takes two elements of H and it produces a so now let's be careful um this is well it needs to be a real inner product because otherwise H hang on a second um is this real value well it it better be well it's only under this map but this map is any I think it's real valued so real inner product yeah otherwise okay and um what do we do we take two elements capital x and capital Y so 2x two complex matrices that are her Mission and Trace free and we Define this to be again 1 half the trace
+
+00:49:13
+of uh X matrix multiplication y so this is the multiplication on 2x two complex matrices okay so I claim that's that's an inner product um right so why is it symmetric well it's symmetric because of the cyclicity of the trace um why is it positive definite well you take the X squar but that's an element always of these guys you check that this is uh always uh non- negative or positive unless X is already the zero map and um yeah and in principle you also have to check the Triangular inequality however
+
+00:49:58
+if you can show that this holds then of course you know because this an isomorphism this mu uh you know this has all the properties that this guy has okay good um so that's the that's this guy yes that's that's the right that's the right thing so um shall we quickly check um so I take um where do we best start maybe we start there so um proof so proof of what uh proof of carpet and this is the equation carpet okay um so let's start with the MU of some X and the MU of some Y where
+
+00:50:46
+X and Y uh are of course just elements in our three vectors here uh what with respect to H so what is this this is 1/2 the trace time mu of little X mu of little y uh this is 12 the trace of what was mu mu was x i Sigma I then this here was the blob here the blob here this is y j Sigma J of course and the trace also here the trace is of course the trace of our complex 2x2 matrices so this is for every i j this x i XJ are numbers so this is x i y j and then we have the trace of Sigma I Sigma J well that guy we met before we can
+
+00:51:40
+write this as 1 half the trace of this plus Sigma J Sigma I simply because the trace is cyclic and then we can use that this is 2 * g i j time the identity on the 2X two complex matrices this two because the trace is linear goes against this two um and um the trace and the g j jumps out and then uh there's another Trace over this complex Matrix here uh and that goes against this one so what we end up with is x i YJ g j and that's precisely what we defined to be the standard inner product on R3 okay so yes
+
+00:52:28
+indeed uh this inner product is the same as this one under this isomorphism mu so again we had the R3 with the standard inner product and we saw that as inner product spaces uh they're isomorph this one is isomorphic to H with the just defined inner product and we know that the um defining representation of s SO3 so the vector representation or the defining representation as we called it acts on R3 and we know that the adjoint representation uh of s o su2 acts on H well it must because H is the Le algebra
+
+00:53:22
+of su2 and the Ed joint representation is precisely this it's the action of the group on its own algebra aha but now we can check whether the ad joint action really keeps this inner product invariant which if it does we can use all these constructions and that works because the vector rep keeps exactly this inner product invariant now the question is does the Ed joint representation keep this inner product invariant and well you bet because um uh keeps uh this inner product invariant because well let's look at it
+
+00:54:05
+um we take add U acting on some X add U acting on some y um well this is of course 1 12 Trace add U on x dot add U on y because that's the definition of this H product uh and this is 12 Trace uux U inverse well U dagger it doesn't matter in this context because s U2 um times Uh u y uder but now this is the identity and you can also pull this uder here because of the cyclicity of the trace this is yet another identity this is one half Trace X doy and this is just X x y h aha so the Ed joint so the defining
+
+00:55:03
+representation on R3 s SO3 was defined as the Transformations that keep this inner product invariant and have DET determinant plus one the Ed joint representation here was not defined by keeping any inner product invariant it was well originally the su2 the su2 has of course a defining representation by keeping some her mission in a product invariant but that's certainly not this one but now the ad giant one can be understood as the as the uh group that keeps this inner product invariant okay so now we have all the
+
+00:55:42
+elements together and we can now dare to uh conjecture that we have a map from su2 down to S SO3 let's call this map row um that's a Le group homo morphism and I need to write it down I need to write it down and um so I need to take a matrix in su2 hang on ah right so I need to take a matrix u in su2 and I map it to a matrix row of U in s SO3 um and now I need to tell you how this map row of view looks like so if it lies in s SO3 and should lie in the defining representation of s O3 it needs
+
+00:56:51
+to be a linear map from R3 to R3 now this map I Define so I Define this image as a map because the image is a map okay so this is row of U acting on a little X that comes from R3 and uh I Define the map if I Define it for all X in R3 and I need to Define element of R3 I no I can do this better I can do this better I can do it without the x i define the U to be now I'm no doubt inspired by the con instructions of from before working trying this a little you get you use one half Trace um dear
+
+00:57:43
+um you take the U I'm confused you take the U Sigma something is wrong um hang on a second Sigma I Sigma J Epsilon I tensor e [Music] j ah yeah yeah it's not linear that's the trick that's the trick it's U Sigma I uder Sigma up J yeah can't be linear yeah that's that's my definition that's how I Define this map so I associate with a su2 matrix U well I with an su2 Matrix u i associate an S SO3 Matrix I claim it's an S SO3 Matrix we have to show this row of U defined by
+
+00:59:01
+1 12 the trace this is the trace over the complex 2x2 matrices I employ this U Matrix then I take the sigma I I take the UA I take the sigma up J then I have i j running from 1 to three and I use here and the Epsilon I is the Dual basis to the east that I defined so Epsilon I acting on EJ is Delta i j is the Dual basis of the Dual space um this is a complex Matrix okay um but the trace of it is real one can check that so I have real numbers i j so this whole thing is an element of um GL 3 R for sure because
+
+00:59:53
+um uh this eats a vector and this spits out a vector uh this is of course a basis for linear maps from R3 to R3 okay and these are its linear coefficients so it's clearly an element of here in fact s SO3 is an element of here so that's an element of g3r that I see immediately that's an element of s SO3 so of a sub particular subgroup of this I need to show okay so but I I construct this map so I have to obviously um need to show a number of things so prove uh we need to show so the first thing we need to show
+
+01:00:36
+is that indeed uh row of su2 just only takes me to do to the S SO3 subgroup of gl3 R okay so that we no okay so let's let's try to do this first so how do we do this well we have to check whether if we take the row U on an X and the row U on a y so remember the this is a unit this is an su2 Matrix but row of U is an S SO3 Matrix well if I want to show that this row of U is s SO3 I must calculate and I must get the inner product of X and Y because that's the defining property that it be in O 3 and
+
+01:01:21
+then I also need to calculate the determinant of row VI and that's one and then I I'm done okay so let's first calculate this guy so this is now the inner product on R3 um but now we're trying to be clever about this um so this is the inner product on R3 and we already know that if I take this inner product and I apply a mu to it then I can convert it into an inner product on H right so I know that this is the same as an inner product of on H one once I apply the MU to it agree because we had this thing inner
+
+01:02:07
+product of mu something mu something else is the inner prod a sorry without the MU then apply the MU okay we we just prove this this is this but now you see remember what the MU was the MU was in particular the inverse of the MU inverse okay uh let's not be silly so what was mu inverse mu inverse went went from H back to R3 agree and it was X being sent to2 trace of X Sigma I uh EI is that correct is that what we defined I think that's what we defined right that was the the back transformation and don't we see so
+
+01:02:55
+nicely here that our definition of row of U is precisely something of the type it's a mu inverse it's the MU inverse of this being taking the role of this x here it's the MU hang on so this is Mu inverse of X so it's the MU inverse of U Sigma I UD dger uh Epsilon I hang on mu inverse Sigma J yes and this is a vector that's the point so the MU inverse goes back to R3 exactly so there should be um well depends on how you want to write this tensor product you could also have written EJ tensor Epsilon I and then
+
+01:04:19
+this is simply Epsilon I this may be better because it first accepts a vector from the right and then it's spits out a vector better up there and uh so now the point is that this entire guy here this entire guy here is of course precisely this here because this is the sigma J EJ and this is the sigma well can make a j out of this as well EJ okay yes yes so this is a vector depending on what i is one vector the other Vector next Vector no I is just a number of this basis element here that's this guy
+
+01:05:07
+aha but if row of U is this guy and we have here mu of row of U on X then we have mu of mu inverse of but that's simply U Sigma I UA tensor Epsilon I acting on the vector X right because there's a map that acts comma U Sigma j u Epsilon J acting on the vector y on this h space the me it's not inside the inverse no this is all inside me of the entire ah yes but ahuh okay hang on hang on row view of the inverse of the M okay what does mu act on but the MU only acts on the on this AG yeah but it doesn't act no it doesn't
+
+01:06:48
+act on it I mean it's uh I see what you mean so you say it's the result it acts on so this is what you what you want you um no but it's fine it's fine no I mean it's it's um so it's the me of the so it's clear that what is left here is I see I I I see your point I just don't think it it it acts on there okay let's write it I I see your I see your point you say the um it's true that this is the MU inverse of this and then tensored with this and uh so this makes sense because this
+
+01:07:59
+is an element of AG now this is this map here aha yeah but it's simple okay I simply okay you're right so okay let's let's let's do it properly but it's uh all seems to be fine um so this is again the the AG in our product and so now for your peace of mind I write it out it's mu of or after well of mu inverse so let's calculate this of U Sigma I uer that correctly ends here tensor Epsilon I on X close bracket so far so good right and then the same thing again it's mu of mu
+
+01:08:54
+inverse of U Sigma J uder thing closes tensor product Epsilon J acting on the Y uh bracket of the MU closes and the bracket Capital H closes now I simply evaluate this once I evaluate this this is just a number XI okay and now the MU and the MU inverse here you still see it they're both linear so I can pull the ey in or out so I decide to pull the number x i and the numbers or numbers XJ in so I use the summation and so I Ed to full linearity scaling and additivity I pull this in and uh right I pull this in that that's
+
+01:10:04
+correct that's correct and then I really have mu of mu inverse and that's it okay and then mu of mu inverse goes away so this is U Sigma i uder x i comma U Sigma j uder y j all with the H in our product yeah when the X and the Y is pled into the get rid of this yeah it's just a number that's right now it says number no it's exactly the definition of what what the tensor product does because if you have Maps T tensor s and you apply them to Omega comma e or something then um sorry to Omega cross e
+
+01:11:00
+then is exactly T of Omega times s of e and that's this times that is the definition of the application of of the map and the Epsilon is a map on these guys yeah that's right this T yeah yeah yeah yeah yeah yeah yeah yeah exactly that's that's a DOT that that's right that's right thank you thank you it's it's yeah that's fine very good very good okay fine and now we use the definition of the age in our product and you remember that was2 the trace of the product of everything
+
+01:11:39
+that's in there but the x i and XJ for every i j is a big sum and the trace is linear so it's x i y j and there's just the trace of UA Sigma i u UA Sigma J UA and of course they all go uh there's one dger too much here this one is wrong so they were wrong right so this is the identity this is the uua by cyclicity also the identity is the trace of the sigma I Sigma J and sorry it's 1 half the trace um and we calculate the number of times that's two time time g i j the two goes against this two TR La La
+
+01:12:30
+in the end what we get is the inner product of X and Y over R3 that's exactly what we wanted to show so from this it follows so from this calculation it follows that the row of U is certainly in O3 it's an orthogonal transformation it's not yet s 3 you in order to show that it's S3 you also have to calculate the determinant to show uh row of U lies in S3 uh show that the determinant of row of U so this now the determinant over real 3x3 matrices that this is one and the trick here is you
+
+01:13:23
+need to use the Epsilon definition of the determinant of an endomorphism okay anyway um problem sheet uh there may be no problem sheet but you know if I write problem sheet that's uh uh it's an imperative okay good so we have this so so what we did so far we showed that indeed the map the funny map we defined here really takes su2 to S SO3 okay but we wanted to show much more we wanted to show that it's a Le group homomorphism still to show that this map row is a Le group homomorphism so row of
+
+01:14:18
+two guys from here uh one after the other is the same as the the composition of two guys from of the images here right uh still to show that this is a Le group homomorphism uh I also leave this to you because it now always works like the stuff we did before problem sheet and finally we want to know what the kernel is what's the kernel of row well let's look at this the colel of row uh those are all elements u in su2 for which the map we just constructed row of U and what was this map it was 1 12 Trace U Sigma I UA Sigma
+
+01:15:15
+up J uh EI tensor product epyon up I and was the e j okay that this guy is actually the identity map on R3 but this it is if the components of it are Delta i j or Delta J I agree that's this guy so now again it's a matter of uh playing around a little bit with it but it's pretty clear that if you in su2 here is uh a solution to this then also minus U is no because the U appears there quadratically okay and uh from this you learn that there're two in there okay good okay so um does
+
+01:16:41
+spin 3 equals su2 as claimed okay so all we did is prove what before in the table I claimed for one special case okay good good good but uh we have the explicit map that does it the explicit map is our map row and that's good we need that okay so again so uh um reminder uh the R3 is to be understood with the tangent space at some point of a three-dimensional manifold in everything we did so far okay and um now we want to put this over an entire manifold so um we make the following definition
+
+01:17:57
+a spin frame [Music] bundle a spin frame bundle is a principle ah a spin frame bundle over a threedimensional threedimensional manifold m is a principal su2 well let's not be silly okay a spin frame bundle over an N dimensional manifold let's not do three an N dimensional is a principle spin n bundle with the pretty name p totally new that the principal bundle is called P okay and all I do is I take a particular group namely the spin n group it's the principal spin n bundle such that
+
+01:19:14
+well such that the whole diagram is such that that from there I have a map to the orthogonal frame bundle olm over M so this is the pi of the orthogonal frame bundle well you know what the frame bundle is LM and the orthogonal frame bundle requires that every frame so m is like LM is like the frame bundle with the Restriction so I don't allow all frames with the Restriction that if I have a frame uh that the EI and the EJ um Aha and now orthogonal I can only do if I equip the manifold M with the
+
+01:20:16
+remanion metric so this be a remanion metric can we defining the course what that is well remanion metric is a uh an um a second rank tensor field so is an element of the sections of t0 2 m that is symmetric gxy is G YX but now X and Y are tangent Vector fields to the to the manifold um and that is um positive definite that means G of XX is greater or equal to zero for whatever Vector fields and the equal to zero if and only if the vector field X is already zero that's it okay so that's a remanion
+
+01:21:18
+matric I equip the manifold with this metric and if the m is equipped with this metric I can in particular if I have a frame at a position m i can require that pairwise all these frame vectors at the point where I am give me this that only the if I take the First with the first I get one and that all the the uh the First with the second gives you zero so they're aoral to each other they're authon normal okay and so this is the orthonormal frame button is like this one but I restrict to to only frames that satisfy this
+
+01:22:01
+condition and in order to do so I need a remanion metric I can't do this on a smooth manifold okay so such that a principal spin n bundle such that well first of all such that this diagram where there's a map f up here that this diagram a commute so you can first go from the spin bundle to the orthogonal frame bundle and then project but that's the same as if you had projected immediately that's the first thing and the second um condition is that this is a bundle morphism and it's uh that fi this bundle morphism uh
+
+01:22:48
+is supposed to be um row equivariant what does that mean well we we met that before you see if I now want an equivariance condition I have a group here the group can act on the total space and I act on the total space with a fi so I can take the FI and apply it to a point p in here but because this is a principle bundle there is a spin n right action so let's call it U okay a spin and right action uh right action and an element of spin n let's call this U uh and I want to require that this is
+
+01:23:29
+compatible that I first map the point p over here but now I'm on the orthogonal frame bundle um and I would again like to act from the right because this is also a principal bundle I act on the right it's another right action on here so I should make this the solid right action so this principal bundle comes with a solid action this principal bundle comes with the non solid action it's a different bundle but I cannot act on here with spin n because spin n Only acts on here well by definition it acts
+
+01:24:06
+on here but I can of course act on here with s o n if this is an N dimensional manifold and that is of course will keep this definition invariant right if I act with s o n i don't upset this because s o n at the point is exactly the designed to keep this invariant so really by acting with s so n here uh but how do I make the U that is spin n how do I make it to an S so n well I need a double cover map row that does the trick so this is the case uh and where where Row from spin n to s o n is
+
+01:24:54
+a double cover map well that does exactly what we constructed before for the special case of su3 su2 to S SO3 okay so this is a spin frame bundle and the data you need to provide to for this the data are obviously this is all wet the data you need to provide is obviously this Total Space and this map into the orthogonal frame bundle so once you're given an N dimensional remanion manifold you can actually um you need to provide this spin Total Space and this F such that this is satisfied and while
+
+01:25:46
+this is also a double cover map and so on and then you construct it over the remanion manifold or rather over the principle bundle associ that to which this ranan manifold is associated was the base base of um if you provide these data you provided a so-called spin structure so this pair of data P5 is called a spin structure for mg and a natural question is does it exist does it exist and the complicated answer is it exists if and only if uh the second Ste whitne class uh vanishes and that's a topological
+
+01:26:46
+invariant that you can look up how to calculate now for our special case there is a nice Theory that says when it does that a remanion manifold admits a spin structure if and only if the second stif Whitney class which is a topological invari we're not treating here but you can look that up vanishes so that means you can always decide whether you can put such a spin structure on a remanion manifold um special case um is uh the dimension of M is less or equal to three so we won't cover space time well anyway as I
+
+01:27:56
+defined it it's anyway only for remanion manifolds but of course this can be extended naturally to spin one comma n minus one and so on the M less than three um and then if m is Compact and M is orientable then a spin structure exists always exists well compact we know it's a topological notion what's orientability well orientability can actually be defined in terms of the chart transition Maps if you can restrict the chart transition Maps such as to have positive jacobe determinant
+
+01:28:46
+everywhere and you can restrict the atlas such that you still cover everything then the manifold is called orientable so this goes back right to the beginning where we impose structure okay so um EG um quantum mechanics on a sphere right on a sphere on an S2 you can establish a spin structure because it's compact it's orientable and has Dimension less than three or less or equal to three okay but also if you do quantum mechanics in uh in physical space well the compactness is a problem you need to somehow
+
+01:29:27
+restrict your physical space if you take all of R3 it's not compact well it doesn't mean it's not if and only if so I mean this guarantees it exists the spin structure exists on R3 with the uh ukan metric flat metric it should also exist okay so that's this thing so okay so we have existence theorem and there may be obstructions okay so not for every reming manifold there exists a spin structure um it's a special case uh then let's go the other direction a [Music] generalization is um same
+
+01:30:05
+construction for spin one comma n minus one uh on lorenzian manifolds and the lorenci manifold is like a remanion one but this uh positivity definition is weakened to saying G if for all X gxy is zero then already Y is zero uh well that's pseudo remanion allows you any signature so if the signature of this guy of this bilinear form is 1 n minus one uh that's a lorenzian manifold of Dimension n like we have it in general relativity and then you do the same construction all is fine the question is
+
+01:30:53
+why on Earth do I want to spin structure well I want a spin structure in order to Define Spinners definition a spinner field right a spinner field is a section of a spin bundle not of a spin frame bundle this is a spin frame bundle and now of a spin bundle so I should tell you what a spin bundle is definition a spin bundle is a vector bundle with typical fiber with typical fiber f a vector space um Associated to the spin frame bundle associate to the spin frame bundle by virtue of a linear left action
+
+01:32:28
+now if you have a frame bundle and have a principal bundle if you have a principal bundle you can write down an Associated bundle if you provide a left action on the fibers you want to have by a left action well a left action of the spin group that you have here so whatever signature um um on this fiber it's a linear supposed to be a linear action so if you fix spin then this is a linear if you fix the element from spin then it's a linear map by virtue of a linear left action that is a representation of spin so you want
+
+01:33:13
+this to be a representation space right that is a representation of spin okay aha so that means these fibers are the values in which our spinner that's the space in which our spinner field takes its values okay and we want to this needs to be understood as the associated bundle to the spin frame bundle so we need the spin frame bundle in order to say what the associated spin bundle is and the spinner field is just a section in the spin bundle okay and because of this construction here you know if you do something in the
+
+01:34:05
+spin frame it has a bearing on the orthogonal frame right and that's what we do in physics all the time we say we uh rotate our measurement or our macroscopic classical well non-spin apparatus by 2 pi okay um and then however we have only gone from here say from the identity to we only rotated the spin half the full angle when we have to rotate the apparatus once again and then the spin has come up to where we were okay now the question is why did we have to constrain to the orthogonal bundle
+
+01:34:41
+here well we showed that the orthogonal bundle is of course precisely the bundle that's kept um uh invariant by action of the s o n group um one could ask what if we hadn't take the orthogonal bundle so if we don't ask for metric then we have here the frame bundle that's a principal GL bundle and the question is are there double covering maps in other words are there spins corresponding to GL like there are spins corresponding to S so the answer is no they are not hence our understanding of
+
+01:35:22
+spin is something thing that requires an underlying metric an understanding of tensors only requires a smooth manifold that's how we constructed them but if you go from tensor to spin you already need a metric geometry underlying or lenan geometry underlying in that case it's SL2 C in spin one3 is SL2 C and so on uh in order to even Define spin okay so it's sometimes said in uh particle physics books or field Theory books that yeah tensors are fine but spins are more Elementary well that's true because I
+
+01:36:06
+can usually use spins to construct tensors and so on right because this is the double cover so if you understand this you understand this okay but you only understand the olm you don't understand the full the full frame bundle that's that's the point okay so it's true that on a remion manifold a spin is more Elementary than tensors but tensors are there even if you don't have a metric okay so our concept of spin that we have depends on having a metric geometry if you didn't have a metric
+
+01:36:41
+geometry like some theories um uh use um then it's not so clear what the spin is supposed to mean okay and then this needs a review okay good so that's the construction it's very abstract but uh when you go to the literature well now you have a frame bundle and you see you have sections of an Associated line bundle now you want to construct the spin covariant derivative as you find them in general relativity books the spin covariant derivative if you look at this just in the standard formulation you write down
+
+01:37:19
+all the formula but the understanding is clear a section of the associate ated bundle can be made into a spin n equivariant fiber valued function on the spin frame bundle like we did it last time then you can push the Whole Thing Down by choosing a particular section of the spin bundle you get the local version in terms of young Mills fields and so on in the formula in general relativity books you find for the spin covariant derivative sometimes mysteriously defined there is exactly the construction we did before for General
+
+01:37:55
+covariant derivatives of sections of associated bundles okay so if you only think about the spin you forget this part this is just to Define how this P needs to be constructed and you do the construction from last time and you get the spin coant derivative it's just the coant derivative that uh has to do with the with choosing a connection on the principal Spin and bundle it's totally exactly the same as we did before now for the spin and bundle so there's no mystery what the spin covariant
+
+01:38:28
+derivative and the spin connection and all of that is by spin connection people usually mean the young mils field of the connection chosen on the spin in bundle the push down the pulled back young millsfield along the action uh the section here okay so so all this unifies or unifies it actually precisely defines what you find in gr books so unfortunately time is up so I'm not going to write this down in in more detail but if in the future you meet this um you can refer to here and then you really understand what's going on in
+
+01:39:03
+the standard in standard fashion [Music]
+

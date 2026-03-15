@@ -1,0 +1,357 @@
+
+
+00:55:01.570 all of this is our section 1.3 and that's called axiomatic systems and
+00:55:17.760 theory of proofs you all met proofs your
+00:55:34.090 physics lectures and theoretical physics lectures mainly in a mathematics lectures and so on but what actually is
+00:55:40.270 a proof well it's a way of arguing why something is true of something else that
+00:55:45.820 you assumed is true but how do you argue what are the valid rules of writing down
+00:55:53.619 a proof well this can actually be defined and there are some subtleties in
+00:55:59.080 this that actually render some of the proofs that are sometimes given really
+00:56:04.600 actually non proofs and if you are very
+00:56:10.180 serious about proving something you need to know what the definition of a proof is well we start with the definition of
+00:56:16.480 an axiomatic system definition an axiomatic system and you
+00:56:25.900 see all this is preparation to write down the axiomatic system that defines set theory an axiomatic system is a
+00:56:34.440 finite sequence of propositions
+00:56:44.150 a 1 a 2 dot dot dot 2 a in now if one
+00:56:54.830 wants to be very smart about it one could object you and say what do you mean by finite and what we mean by
+00:57:00.350 numbers 1 2 3 4 5 2 n because if you haven't defined sets yet how on earth
+00:57:06.140 are you talking about numbers well you could write this down as a1 / a2 slashes
+00:57:16.000 1/5 less less less less less so logicians call these pre mathematical
+00:57:22.220 numbers it's what you're doing Bavarian pubs okay
+00:57:29.330 so again if these lectures are attended by mathematical logician he will
+00:57:36.980 probably shout all the time well hang on a second this is a little bit too Nev it's true I'm not using the full first
+00:57:45.410 predicate logic approach to halt this thing it's already showed up in my use of tables and so on but it gives you the
+00:57:52.220 right ideas it's conceptually exactly what they do without going into too much of the formal nitty-gritty which for
+00:57:58.940 what we're going to do and what we're going to use it for would be fully redundant okay so this is supposed to
+00:58:07.280 give you the right idea it's the right idea it's not necessarily what a professional mathematical logician would
+00:58:13.370 write down if he publishes his new research monograph okay but this is putting the whole thing to to classroom
+00:58:19.880 use so this is my disclaimer doesn't mean that anything of this is wrong it's all is all right okay so an axiomatic
+00:58:26.570 system is a finite sequence of propositions and these propositions are
+00:58:36.860 called axioms which are called the
+00:58:44.710 axioms what's top definition what is the proof
+00:58:52.820 a proof of a proposition let's call it
+00:59:07.250 small P that's the thing we want to prove a proof of a proposition within an
+00:59:13.520 axiomatic system so the idea is I first
+00:59:24.260 give you axioms and then I set a homework problem prove P starting from
+00:59:30.860 the axioms a proof of proposition P within an axiomatic system a 1 to a n is
+00:59:39.070 a sequence and again is a finite
+00:59:44.620 sequence of propositions informally
+00:59:55.580 would say this finite sequence of propositions Q 1 to Q Capital m are the
+01:00:02.300 steps of the proof if you wish is a finite sequence of propositions Q 1 to Q
+01:00:08.150 M such that now obviously we need conditions for this to be to constitute
+01:00:15.770 the proof and the finite QM proposition
+01:00:21.200 is supposed to be the thing you want to prove the proposition you want to prove
+01:00:27.520 obviously if you have proved and you have steps at the end you better had the statement what you that you wanted to
+01:00:33.530 prove yes yes yes
+01:00:46.730 with like in finance name like infinite series and yes but the individual steps
+01:00:54.410 so actually a finite sequence of propositions I should add here or
+01:01:00.820 propositional schemes now we're very
+01:01:08.359 clear and the point is one single proposition in an axiomatic system can
+01:01:14.690 come in the form for all X this and that is true and then you can actually use the
+01:01:20.810 individual statements if I the proposition is for all X P of X it's just a proposition but you can actually
+01:01:27.380 take the P of X out and say well is it for all X then I can use P of X as an individual object which is then true in
+01:01:34.070 maybe infinitely many instances maybe for all the x's that could be and that we call a propositional scheme so there
+01:01:41.030 is some subtlety there but the actual steps of the proof must be a finite
+01:01:46.970 number of steps it's very important and when I was in my first semester I had
+01:01:53.329 the well today I would say I was fortunate that my analysis professor was
+01:01:59.660 an intuitionist so he didn't have contra proofs by contradiction that was one thing and the
+01:02:05.780 other thing is that he was sometimes really mad at some textbook proofs of analysis theorems and he very often said
+01:02:13.970 and this proof is not cyanide and we didn't understand what he meant well we
+01:02:20.000 now understand because in the form of fear of proofs you need a finite sequence of propositions it's very
+01:02:25.790 important anyway so it's such a sequence of steps and
+01:02:31.849 they need to satisfy certain conditions so proof is a finite sequence of
+01:02:40.180 propositions Q 1 to Q n such that
+01:02:49.570 well condition a is satisfied a one of the following such that one going on I'm
+01:03:00.870 young okay such that for any J that lies
+01:03:09.700 between one and the final step so that for any step of the proof either of the
+01:03:19.750 following is true either condition a is true and that means that
+01:03:25.630 this J step of the proof that this Q Dre
+01:03:31.090 is a proposition from the list of axioms
+01:03:43.590 it means at an arbitrary step in your proof you may pick one of the axioms and
+01:03:50.350 put it there very clear you may put it there be an OT
+01:03:58.500 tautology or the J's step of the proof
+01:04:05.500 is a plain tautology is a tool ecology I
+01:04:12.390 think I didn't define how many what a tautology is a tautology is a statement
+01:04:18.190 is a proposition that is always true independent of the elementary
+01:04:24.910 propositions it's made up of so to paly
+01:04:30.490 tautology
+01:04:36.630 eg P or not P this is a proposition
+01:04:44.080 right and because P appears in there and we don't know whether P is true or false
+01:04:51.180 generically we would know whether P or not P is true or false because it could depend on would depend normally on P but
+01:04:57.670 this specific combination P or not P well this is always this is always true
+01:05:04.330 as you can check from the table this is called a tautology a tautology is a
+01:05:13.740 proposition that is always true independent of the elementary propositions it's made of and so either
+01:05:25.780 this or this or for the J's step of the
+01:05:31.480 proof the condition M is satisfied so this stands for axiomatic this stands
+01:05:38.140 for tautology and this M stands for modus ponens which is a very old logical
+01:05:48.400 how do you say deduction rule but we'll
+01:05:53.470 write it down here I mean there's nothing in the name modus ponens such
+01:05:59.050 that there exists m m and n somewhere in
+01:06:08.260 the proof that we had some note not somewhere but actually before the
+01:06:15.910 current step so if for every step it's true that the so we're in the J's step
+01:06:22.780 of the proof we may use any of the previous steps step M and step n which
+01:06:31.390 are before the current step such there exist such guys such that the
+01:06:39.430 proposition Q M + q n so you take M step
+01:06:45.850 of the proof you take the nth step of the pro you put an end between implies the cue
+01:06:55.660 of the Jade step such that this is true
+01:07:05.700 so please realize this is a proposition
+01:07:11.910 okay so it could be that we have two steps before the proof and if I put them
+01:07:18.279 together by and and I can show that from this end implication arrow Q J is true
+01:07:26.819 for some m and some N before this Jade step this whole thing is true that also
+01:07:34.719 qualifies the Jade step as a valid one so the Jade step can consist of an axiom
+01:07:40.390 it can consist of a plain tautology or it can be deduced from two previously
+01:07:48.609 arrived steps steps we arrived at if this is true yes do you really need the
+01:07:56.709 last one or doesn't it follow out of a and T somehow I mean it's pretty much
+01:08:01.930 just in the assembly of proportion is this okay let's trollee know it you need
+01:08:12.640 it you definitely seriously desperately fully need it it's just probably some
+01:08:19.060 somewhere it's just sorry to intrude leaders you don't really see anything yes because you have some kind of
+01:08:25.029 kindergarten intuition about this thing you CIA if this is true then I can do this but remember this is a binary
+01:08:31.359 operator it's not more it's not more it has not this nice intuition about where
+01:08:37.270 the arrow goes the other thought goes or something it's just a binary operator
+01:08:42.339 this is a logical statement as one of the axioms will at the moment we don't
+01:08:48.040 have enough technology to provide a meaningful proof but in this course I
+01:08:53.259 will write out one proof in full according to this scheme one single one
+01:08:58.420 and that is I think the uniqueness of the empty set now there will be an
+01:09:05.359 axiom that stipulates the exists an empty set with such-and-such properties and then you have to show there's only
+01:09:11.960 one such set it's a very quick proof and intuitively we say 'yeah it's clear that
+01:09:17.720 it up if you know the definition of the implication arrow but if you really want
+01:09:22.970 to write it out I think it has something like 16 lines it's a 16 step proof if
+01:09:28.040 you write it out in full like this and I want to present one proof that is
+01:09:33.500 precise and the other proofs will be given in the form they're usually given
+01:09:38.779 by some quick arguments but the understanding of mathematicians is where
+01:09:44.000 here I mean even in the best journals and the most celebrated theorems are
+01:09:49.069 usually not proven in this fashion because this goes in the millions and billions I don't know of lines proving
+01:09:56.380 comparatively simple stuff okay so we don't do that we use electric this
+01:10:01.940 is kind of like machine code in computer science right almost like the zeros and
+01:10:08.210 the ones the binary code and actually the proofs we give in the higher language like C++ also okay so this is
+01:10:15.260 what we do in mathematics but the understanding is that the proofs we write in books we say well now it's
+01:10:21.290 obvious that dah dah dah dah the understanding is it's only a proof if your fellow mathematicians agree that
+01:10:28.340 in principle what was written down now could probably according to our
+01:10:33.350 intuition be broken down to proofs of this type okay and if somebody has the
+01:10:40.520 feeling that what you do here will not lead to approve of this type for instance not to a finite step proof or
+01:10:47.270 proof with finitely many steps then mathematicians will raise objection to
+01:10:53.450 this proof we will say well we're not convinced and then in principle as long as somebody says I'm not convinced a
+01:10:59.870 mathematician has to break down to prove more and more until you arrive here so
+01:11:05.690 you can obstruct any lecture in mathematics so it's don't tell anyone you can abstract any
+01:11:11.520 lecture in mathematics by you know okay
+01:11:20.239 no it doesn't matter because you can go back and your proof to an arbitrary point because the rough idea is that
+01:11:27.810 everything there has been there anyway it's an axiom or it's a tautology and all the other stuff has been arrived at
+01:11:34.320 by implication arrows that's the intuition and so it suffices to look at
+01:11:39.360 stuff that was before but because everything that comes after has been connected by an implication arrow but
+01:11:45.540 you cannot go further than the current step because that would imply that you
+01:11:50.699 used equivalence arrows if you use equivalence arrows you can go further down say oh and later I show so I can
+01:11:56.880 use it again now apart from some circularity it's the the directedness of
+01:12:03.360 this thing very roughly speaking intuitively speaking that allows you to go to any previous pair of previous
+01:12:09.750 steps even if there's something in between but not further okay fine okay
+01:12:23.850 so remark if P can be proven from an
+01:12:39.390 axiomatic system a 1 to a n we often write a 1 dot a n then this symbol means
+01:12:54.630 proves
+01:13:02.470 P Sauer short form for this and of
+01:13:09.980 course an obvious remark is that this definition of proof proof allows you to
+01:13:20.360 recognize the proof this definition
+01:13:27.820 allows to easily recognize a proof so in
+01:13:44.630 principle you can give this a computer you say computer please check is the following a proof of this that's very
+01:13:51.560 easy to check and altogether different manner is to find a proof different
+01:14:05.390 matter is to find a proof for a certain
+01:14:14.690 proposition and as you all know from your own experience even set problems
+01:14:20.000 where usually if you ask to prove something it can be proven it's not so
+01:14:25.400 easy and sometimes it's so difficult that if you find a proof where people before didn't you become a celebrated
+01:14:32.270 mathematician so the theory of proofs here doesn't give you any hint of how to
+01:14:38.060 prove things better but at least it tells you what you have written down
+01:14:44.240 right now that is a proof and that can be very useful of course ok
+01:14:56.650 a further remark is that obviously any
+01:15:06.719 tautology should it occur in an
+01:15:17.440 axiomatic system what's in the axioms
+01:15:23.040 if among the axioms there's a tautology can be removed from the list of actions
+01:15:40.230 without impairing the power of the
+01:15:53.260 axiomatic system and it's very poetic it
+01:16:01.300 means you can still prove the same stuff because if you don't pull your proposition from your tautology from the
+01:16:07.060 list of axioms you can put it any way so it's actually this axiom t-that guarantees that
+01:16:17.689 and an extreme case of this is that's
+01:16:22.939 why I'm mentioning it what is the axiomatic system for
+01:16:30.320 propositional logic axiomatic system
+01:16:46.969 that describes propositional logic what
+01:16:55.010 is the list of axioms there it's the empty sequence because in XML in
+01:17:07.159 propositional logic or we can prove our tautologies want to show something is true well but then you don't need any
+01:17:15.739 axioms because you can always pull a tautology into your proof by axiom T
+01:17:22.989 okay I push this up for thee for the camera so this will become important in
+01:17:36.679 a second but let's have one further definition namely an axiomatic system is
+01:17:44.300 consistent an axiomatic system is
+01:17:53.050 consistent called consistent if there
+01:18:02.050 exists a proposition Q
+01:18:14.450 which cannot be proven which cannot be
+01:18:20.360 proven from tea or within the system of
+01:18:29.880 from the axiomatic system from the axioms or to express this formally not a
+01:18:39.290 1 to a n proves Q exists such a Q now
+01:18:52.140 what's the idea behind this surprising maybe definition or it's very simple yes
+01:19:07.370 and I may be wrong but I think a 1 sir that is proven that it can't be proven
+01:19:14.310 that the system is consistent we'll come to that my last statement of this
+01:19:21.330 today's lecture will deal with that ok so the idea behind the definition of
+01:19:27.390 consistent axiomatic systems is imagine or consider an axiomatic system
+01:19:41.090 containing contradictory propositions
+01:19:54.110 so for instance a one data whatever I'll pop up a pot then we have P well p s as
+01:20:04.110 one of the propositions and later on in the list we have not s so we have an
+01:20:10.770 axiomatic system that stipulates this
+01:20:18.710 then by the deduction rule M the one
+01:20:25.500 whose existence or justification was doubted tentatively then by M clearly
+01:20:39.140 yeah I can pull the s into my proof I
+01:20:46.080 can pull the not s into my proof by axiom a and then I can use these two by
+01:20:52.830 M and connect them with an end and I
+01:20:59.370 only need to check whether for an arbitrary Q this is always true is this
+01:21:06.150 a tautology yeah this is a tautology because s and not s as and not as is
+01:21:18.360 always false you remember but if some is the assumption is always false the
+01:21:25.830 implication arrow is defined such that the whole statement is always true
+01:21:32.270 x-files awkwardly bit so it's again the definition of the implication arrow
+01:21:37.890 which a dwelled on at the beginning so much which shows that this is true
+01:21:43.520 x-files look what limit whatever you like well whatever statement you like can be
+01:21:50.280 concluded so by M we can arrive at the truth of
+01:21:55.470 any statement Q can also arrive at the statement of not Q it doesn't matter so
+01:22:01.320 the problem is any statement can be proven if you have contradictory
+01:22:07.080 some shion's contradictory axioms now it's a sign of not having inconsistency
+01:22:17.130 of not having contradictory axioms if it's simply not true that every
+01:22:24.480 statement can be proven but here every statement can be proven hence we need to
+01:22:30.750 exclude that every statement can be proven there's just one example this is
+01:22:36.240 the general definition of consistency
+01:22:42.290 well having come this far we can now write down an impressively sounding
+01:22:50.580 theorem which is very trivial propositional logic is consistent
+01:22:58.160 propositional logic is consistent that's
+01:23:11.490 reassuring what's the proof well we have to it
+01:23:17.300 suffices to show suffice is to show that
+01:23:24.780 there exists a proposition that cannot
+01:23:37.880 be proved with in propositional logic
+01:23:50.560 that's clear there's at least one that cannot be proven then it's consistent
+01:23:56.920 now propositional logic has an empty set
+01:24:04.580 on empty sequence empty sequence of
+01:24:10.520 axioms you don't have any so the only
+01:24:16.490 rules for proof only T and M must carry
+01:24:24.220 any proof now let's look at T and M
+01:24:33.470 again
+01:24:42.449 the only way by which you can introduce an entirely new step is by writing down
+01:24:49.320 a tautology and then the modus ponens only allows you to take previous
+01:24:54.840 tautologies and to write down the QJ where all this thing is a tautology so
+01:25:03.300 the only thing you can prove are tautologies only tautologies can be
+01:25:21.300 proven but that means that is Q and not
+01:25:34.139 Q cannot be proven because not a
+01:25:42.270 tautology so we constructed the proposition that cannot be proven and so
+01:25:49.920 propositional logic is consistent and this is really trivial now again the
+01:25:57.960 important remark is that while it's perfectly fine and clear how to define
+01:26:06.440 consistency it's perfectly difficult to prove it for a given axiomatic system
+01:26:13.040 propositional logic being a big exception but if the X Ematic system
+01:26:18.989 becomes more powerful if you have more axioms like we're going to write down for set theory you might then again ask
+01:26:25.380 the question is this set of axioms consistent in this sense and it's very
+01:26:33.270 difficult to prove that in fact there famously these statements first arrived
+01:26:39.840 at by girder that say to certain extend it's even not possible to show this
+01:26:47.159 under certain circumstances and I will give only a very
+01:26:52.930 rough taste of what of one of the things
+01:26:59.140 good proved so that's a theorem
+01:27:08.130 Scootaloo and it roughly not being technically goes as follows
+01:27:14.670 any axiomatic system that is powerful
+01:27:28.690 enough to encode the elementary
+01:27:43.590 arithmetic of natural numbers which are
+01:27:52.360 the positive integers so you see I use
+01:27:58.630 imprecise language here what's elementary arithmetic well in elementary arithmetic it depends on what you need
+01:28:04.540 to prove it means you understand prime numbers you understand
+01:28:09.870 product stuff like that okay rather elementary stuff let's say elementary
+01:28:15.100 school mathematics hmm what exactly it is one would see the proof what you need
+01:28:22.440 but any axiomatic system it's powerful enough to encode elementary arithmetic of natural numbers is either
+01:28:31.950 inconsistent nevermind its successes
+01:28:37.270 with the arithmetic of the natural numbers is either inconsistent or contains yeah well it contains well you
+01:28:50.410 know or contains a proposition that can
+01:28:57.790 neither be proven nor disproven
+01:29:09.369 so variants of this formulation are it contain true statements that cannot be
+01:29:15.530 proven I mean this sent shockwaves
+01:29:20.570 through the mathematics world at the time was this beginning of the 20th
+01:29:27.050 century 20s 30s something like that because in mathematics of all the arts
+01:29:36.320 if you wish the notion of truth seem to
+01:29:41.960 be clear up to then truth or the truth something was true if it could be proven
+01:29:49.510 based on a system of assumptions this was the pure truth of mathematics but
+01:29:56.179 then girdle came along and he ironically proved this and variants of this now how
+01:30:07.579 does the proof proceed well the proof is complicated on its rather say the proof
+01:30:16.280 is involved but the basic idea of the proof is the following a sign to first
+01:30:26.809 assign to each mathematical or also meta
+01:30:34.719 mathematical statement or proposition a
+01:30:44.050 number the so called what later on
+01:30:50.179 people called now called girdle number
+01:31:03.079 well a mathematical statement is a squared plus B squared equals C squared
+01:31:10.289 something of this kind yarn for all kilala exists and so on and good I mean very
+01:31:19.949 roughly speaking says the plus sign gets a number the the exponent gets a number
+01:31:27.499 every variable gets a different number the equal sign gets a different number
+01:31:33.089 and then you can start talking about this equation you can say the left-hand
+01:31:38.609 side of this equation has more symbols than the right-hand side that would be a
+01:31:45.030 meta mathematical statement because obviously not a mathematical statement is a meta mathematical theory lessons
+01:31:50.339 that is more similar than the right-hand side but even to such statements such
+01:31:55.919 metal mathematical statements girdle would be able or devised how to do how
+01:32:01.530 to assign a number to even such a statement
+01:32:06.859 take Prime's everything everything gets a every elementary symbol is assigned a
+01:32:12.719 prime and then you take powers of primes and you multiply the powers get big numbers and then to meta mathematical
+01:32:19.409 statements you get a huge number boom there it is right now you do this for
+01:32:25.829 just everything okay and then once you did that in a sense you have a number
+01:32:32.789 for everything and because you have to multiply the numbers you need elementary arithmetic now you understand why
+01:32:39.209 there's this mysterious condition on the axiomatic system that you're using being
+01:32:44.969 able to handle the elementary arithmetic because this assignation of numbers and
+01:32:50.239 the calculation and so on requires this elementary arithmetic and then what you
+01:32:58.229 do you use a use a
+01:33:08.930 the barber chains all people in his
+01:33:17.330 village who do not shave themselves type
+01:33:35.500 argument to identify a proposition that
+01:33:54.280 is neither true nor false neither provable nor disprovable so you use some
+01:34:09.440 reflexive construction you notice I think from the proof that they're over
+01:34:21.950 countably many real numbers you know that proof you assume that you're right
+01:34:27.500 can write down every number in the real number in the form integer decimal point
+01:34:33.560 and then decimal places d1 d2 d3 d4 to the dirt and then you assume that you
+01:34:40.070 can number every such expression you
+01:34:45.320 sign a number to them but then you actually use the number of the expression to construct a new expression
+01:34:52.490 a new real number which you control is not in the previous list of numbers it's
+01:34:57.500 kind of reflexive you might want to revisit this proof this of a similar similar reflexive type and here you do
+01:35:04.580 the thing you assign to statements girdle numbers and then you produce a statement that uses the girdle number of
+01:35:10.130 the very same statement okay and then
+01:35:16.880 you arrive at such a contradiction and as you can see we define axiomatic
+01:35:24.360 system we defined what it is to be provable and thereby therefore what it
+01:35:29.370 means to be disprovable that means it can prove the opposite if you can prove the negation and we define what is
+01:35:36.450 consistent so according to our definitions we fully understand this
+01:35:41.550 theorem we understand this statement the theorem makes the proof is a different matter okay so at this place I will rest
+01:35:52.350 with the development of the language we're going to use to define axiomatic
+01:35:57.810 set theory which that we will start next time and we will start by looking at the
+01:36:04.800 element symbol which is nothing but a by a predicate of two variables because it
+01:36:11.730 takes a variable on the left X element Y a variable on the right was just a matter of notation to write the symbol
+01:36:18.090 in the middle rather than writing element brackets X comma Y okay it's
+01:36:23.520 just notational convenience and we we very often do this for predicate of two variables that we write the name of the
+01:36:29.790 predicate in the middle because it just saves you two brackets and a comma but
+01:36:35.190 this will be the elementary predicate of two variables and there is no other in
+01:36:42.120 set theory even the equal sign between sets will be defined in terms of the
+01:36:48.180 element sign and from this one elementary predicate of two variables
+01:36:53.910 which will not be further explained there will be nobody explaining to you in axiomatic set theory what it actually
+01:37:02.040 means that X is an element of Y and indeed x and y will both be sets so
+01:37:08.580 there's no such hierarchy like you are a set a grown-up set but you're only an
+01:37:13.830 element no no sets can be contained in sets and a priori one could even think
+01:37:20.040 about the question is a set an element of itself there's no a priori reason why
+01:37:26.040 you would exclude this would give you some kind of recursion and you could ask can you construct a set of all the sets
+01:37:32.910 that do not contain themselves if you don't like these sets containing themselves you could think well let's contain constrain the set
+01:37:40.140 universe to all those sets that do not contain themselves and then you very
+01:37:45.420 quickly actually in two lines you prove that this construction will do this next time is not a set the set or the let me
+01:37:53.700 call it the collection of all the sets that do not contain themselves you only use this element predicate this is no
+01:38:01.470 longer a set as you can prove by asking a question whether that set contains itself or not and that is neither prove
+01:38:07.860 nor disprove well both leads to a contradiction so that immediately shows okay so then the eve set theory is
+01:38:14.490 tricky and we need an axe system of axioms that regulates our use of the
+01:38:20.280 element predicate okay because we know nothing of it we just know there it is and now the
+01:38:27.420 axioms give you rules of how to deal with it it's a kind of an operational definition okay you see if it behaves
+01:38:34.290 like this or if you use it like this then you get what we can construct sets there are some actions to tell you these
+01:38:39.780 and those sets exist for instance there exists an empty set or if you have a set
+01:38:44.880 that exists the power set of the set that's the set of all the subsets of the set you have to postulate this by axiom and
+01:38:51.840 all the other sets we're actually going to construct from these previous sets well in fact you control that the only
+01:38:58.290 set you really need to postulate is the empty set so in principle every set we ever going to talk about is ultimately constructed
+01:39:06.180 from the empty set the set that contains the empty set in the set with the element empty set that stuff like this
+01:39:11.850 okay but they are actually I think nine axioms we'll see depends on how you
+01:39:17.280 write them down the number varies slightly there are about nine axioms that you can orate I think I wrote down
+01:39:23.010 that you can write down that regulates set theory and that reproduce the set theory on which all of modern
+01:39:29.370 mathematics is built and occasionally so you have an axiom that's called the
+01:39:34.770 axiom of choice for instance famously or zones lemma some people call it the
+01:39:41.280 axioms of axiom of choice and you wonder well do you really want to have that and why do we need to be so picky about the
+01:39:47.460 axioms there we go for instance if you do not postulate the axiom of choice you cannot
+01:39:53.190 prove you cannot that every vector space has a basis now this we use very often
+01:39:59.340 so you see already in our building down there where we're talking about sets there already there are some screws you
+01:40:06.480 have to justify in order to have the whole building stand as we want it to stand okay and there are other examples
+01:40:13.260 for that so at least for completeness and that's the purpose of today's lecture on of the next lecture is to
+01:40:22.710 really look at the foundations of the subject to have a good and justified
+01:40:27.920 justifiably good feeling about the further constructions that are to come
+01:40:32.989 see you next time with axioms of set theory thank you

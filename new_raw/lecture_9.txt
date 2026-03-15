@@ -1,0 +1,396 @@
+00:00:05
+[Music] so today we um come to tangent spaces to a manifold and the definitions we're going to make will be the probably single most important definitions in differential geometry namely that of a tangent Vector to a manifold in all the other constructions we are going to derive from from it now having reviewed last time uh the uh basics of vector spaces and in particular having included infinite dimensional Vector spaces we're today going to make good use of that and the tangent space to a manifold will
+
+00:00:48
+ultimately no will be a finite dimensional Vector space if the manifold is finite dimensional it will have the same Dimension as a vector space as the manifold has as a topological manifold but first and foremost before we come to that we will construct an infinite dimensional Vector space from a given smooth manifold and that object will uh appear again and again throughout these lectures so um let M be a smooth manifold and actually throughout this section throughout this chapter and um I already emphasized that if I say m is a
+
+00:01:33
+smooth manifold it comes without saying that it is equipped with a topology in a smooth Atlas I will suppress this now in the notation and only when several manifolds with several topologies and atlases are chosen and it becomes particularly important to emphasize the differences then I will uh um return to writing that down explicitly but from now on we're grown up you assume this is given um so let MB a smooth manifold um then we can construct a vector space or the vector space um over R so over the real numbers
+
+00:02:16
+because we're looking at smooth real manifolds the vector space over R uh whose underlying set is the set of all smooth function on the manifold and it is equipped with an addition and a multiplication an S multiplication so these are the smooth functions F from M to R but they ought to be smooth and then this plus is the pointwise addition so whenever you have maps you can actually Define their addition so say you have an F and G which are both smooth maps and then you define this addition which is then an
+
+00:03:06
+addition on C Infinity of M of course and you can Define uh the resulting sum function as the sum of the functions this is what you mean by pointwise if you do this at every Point P of the underlying manifold and now this here of course is the addition in the real numbers because f and g send a point to the real numbers and similarly here you have pointwise pointwise S multiplication um which is Lambda times F but this here is the S multiplication on this set and it is defined as Lambda time F of P if you
+
+00:04:00
+evaluate this at p and this is inherited from this s from this multiplication on R so now it's my claim that this is a vector space It's Quickly checked that this is a vector space uh you believe that or you check it it's pretty obvious and this is an infinite dimensional Vector space um but it will play an important role now the central concept we're going to Define is the following definition let gamma well that gamma from let's say the whole real line into the manifold be a
+
+00:04:45
+smooth curve I write from the whole range R into M because I don't want to bother about what exact range whether it's an open interval well this is an open interval you can always reparameterize and change that it's just convenient to not have to bother about this one could be very picky and say well this is just an interval from A to B and then you always have to worry about U the domains and so on actually everything becomes very simple if if we're a little bit uh uh coverly here um and uh if you want it
+
+00:05:24
+to have it more precise and sometimes I might want to have it more in a more precise manner then I will be more specific here but let's say a curve has for the purpose of what we're going to do here um full the full real line is a parameter range so let gamma be a smooth curve um through a point through a point p in m so in a sense we pick a point and we look at the curve through it now without loss of generality W log without loss of generality um we may arrange for p to be that point through which the
+
+00:06:16
+curve where the curve is at parameter value zero right so if it's not you can easily Define a curve with a shifted parameter value um such that at time at time if you wish at parameter value zero it is at the point P this without loss of generality we can always arrange for this it's just convenient to do that also this could be dropped but makes formul simpler so now if we have this situation then the directional derivative the directional derivative operator that's the full name of this
+
+00:07:05
+guy well not quite then the directional derivative operator at the point P along the curve gamma so actually all of this belongs to the name of this object then directional derivative operator at P along the curve gamma is the now very important linear map linear map um with name X but it depends on the curve you have chosen and it depends on the point P you have chosen this linear map so from where to where does it map well it's a if it's a linear map it must send a vector space to a vector space and the
+
+00:07:55
+vector space where it starts is C Infinity M now this is this underlying set but because it's a vector space I can talk about it being a linear map into the real numbers which here because if we want to talk about this being a linear map we must consider as a real Vector space well over itself as an R Vector space r to the one so both of these come with their additions the C Infinity M comes with this Plus in s multiplication just defined this R is the R1 comes with the vector addition and multi s
+
+00:08:34
+multiplication which coincide with the field addition multiplication anyway this is a linear map and the linear map is defined as follows you take a smooth function f and you map it to f after gamma now what is that that kind of guy is now a map from R to R because G takes you from R to M but an arbitrary smooth map F takes you from M again to R so in total this is a map from R to r as such we know how to build its derivative which we denote by a prime and that is a function but we want the derivative at
+
+00:09:19
+zero which of course the parameter value at which the curve goes through the point p and by that by calculating the derivative and eval Val ating it the result is a real number as it should be okay now why is this map a linear map well essentially because we take the derivative here and we'll look into that further so anyway this linear map this is the name of the linear map is called the directional derivative at the the directional derivative operator at the Point P along the curve gamma now um there is an
+
+00:10:06
+important piece of terminology and that is that in differential geometry uh this x gamma comma p is usually and we will follow this convention is usually called the tangent Vector the tangent Vector to the curve gamma at the point p in m so there it is a tangent Vector but we shouldn't be by the terminology be deluded into thinking that this is any anything like a collection of of numbers well finally it will be but at this point the tangent Vector formally abstractly is a directional derivative operator the
+
+00:11:12
+tangent vectors are operators derivative operators that act on smooth functions that is how the concept of a vector of a tangent Vector survives in technically survives in differential geometry Okay so from uh undergraduate physics you have this notion that you have a vector you have directions and now you can in a sense dot them into say the nabler operator or something nabler x dot the naer operator right and that gives you a directional derivative now so there in in in undergraduate or vector calculus
+
+00:11:50
+whatever you call it in engineering mathematics you have the concept of a direction and then you combine it with the concept of derivative and you get the directional derivative now in differential ometry these concepts are married to each other but they cannot separate okay there's no longer an independent notion of Direction and an independent independent notion of derivative there's only the combination of the two okay this is very important to keep in mind because this is the key point in the technical understanding and
+
+00:12:21
+therefore the Practical understanding of tangent vectors in differential geometry and today we'll uh elaborate on that and we'll find all the conse quences of that but the definition as it stands is uh of course Crystal Clear like this okay now um ahuh so um um a precise intuition is the following a precise intuition is the following um X gamma comma p is the velocity of the curve curve gamma at the point P now you remember that we said given a smooth manifold we wish to construct tangent
+
+00:13:22
+spaces not by referring to an outside space into which we can think of the man as being embedded come to that later but we want to do this intrinsically now this is exactly the idea you have a smooth manifold and without referring to the um to the bulk space around it you consider through a point a curve gamma and one of the tangent vectors to the manifold at this point is the velocity of that curve the velocity definitely is a vector well that is how we Define it here and this is this guy now um some in order to Pro provide some
+
+00:14:07
+evidence for this for this of some consistency of this interpretation uh you may consider uh the curve let's call it Delta uh which is exactly the points runs exactly through the points through which gamma runs but it does so at Double the speed so you you multiply the parameter by a factor of two so you run through it double as fast that's the intuition now if you now calculate what is X Delta at the point P so in particular at Lambda equal zero they both are at the point P what is X Delta
+
+00:14:49
+P well we find out by acting on an arbitrary smooth function f it's then f after Delta you derive it and evaluate at zero and it's not difficult to see that this is 2 * f after gamma derived at Point Z because you get an inner derivative from here it goes here and of course any other Factor 3 * 20 * pi * will pull in front so indeed if you run through the curve at Double the speed you get double you get double the X X gamma comma P you get a vector that's double as long well that's our intuition you
+
+00:15:36
+run through the curve double as fast so if this is to be identified or has something to do with the velocity it better scale with the same factor and in fact it does okay so that that gives you some feeling indeed this has to do with the velocity but again this is just a an intuition this is the full definition that te techical definition okay now once we manage to construct the tangent Vector we have the important concept of the tangent Vector space definition the tangent Vector space the tangent Vector space
+
+00:16:30
+um T PM yeah what is this so this is the set underlying uh the tangent Vector space this is the set of all the X gamma comma P so for some p in m at p in m so at the particular point is the set of all tangent vectors where gamma is a SM smooth curve curve through the point P okay so um so the intuition here is you have your manifold you pick your point p and now you don't only look at this curve but you also look at the same curve through which you run at Double speed you also look at the curve at
+
+00:17:24
+which you run uh through which you run at M times the speed and then you get all the intuition is you get all the tangent vectors in this direction longer and longer and longer you can run through the curve backwards then you get the tension vectors in the opposite direction but then you take any other smooth curve through this point and if you take all the velocities of all the curves run through at any arbitrary speed which then makes technically a different curve because it's a different
+
+00:17:56
+map from R to M the collection of all the corresponding tangent vectors technically meaning of all the linear Maps built there of all the directional derivatives this is the set that underlies the tangent space it's very simple it's very simple okay so that's this guy now this is just a set is the set equipped with two operations and now we got to be careful equipped with okay we want to make this into a vector space if we want to do justice to this name uh and then we need to Define two operations again to be
+
+00:18:40
+careful we first call them so plus and so times okay and the addition must take us from two Co from two tangent vectors to well to a tangent Vector of course if this is the addition needs to close on the set but I'm going to Define it in a way in which it will first remain open whether the addition will actually produce again such an object okay and it will be one of our tasks to show that it does okay and an S multiplication well the tangent Vector space will be an R Vector space so it will be R *
+
+00:19:25
+TPM should produce again an object in the basic set but again we'll choose a definition that's very straightforward but for which we need to show that also the S multiplication closes equipped with addition and multiplication defined and now very simple [Applause] pointwise now I should again say what it means here uh these objects here the X gamma P will remember they are linear maps from the definition linear Maps into the real numbers ah into the real numbers that means we can take one such
+
+00:20:08
+linear map let's say x gamma comma p and we can take another such linear map call it X Delta comma P you see two different elements in here must come from different curves gamma well I call the second curve Delta okay and I can Define this sum by evaluating this on well on a smooth function f because these guys so I emphasize it here again because it has gone um X gamma comma p is structurally a linear map from C Infinity M to R so I can Define the sum by telling what new map this is supposed to be well
+
+00:20:57
+this is supposed to be X X gamma comma P applied to F or just on F it depends on how you not plus X Delta P applied to F and this plus is just the Plus in the real numbers because the X gamma P sends you there and the X Delta P2 so it's no problem to define the addition of vectors because it's Maps into the real numbers and on the real numbers you know an addition that's very straightforward and I'm not going to write it down exactly the same happens for the S multiplication only that you have a
+
+00:21:35
+Lambda here in X gamma P you again reduce this to uh the definition of the multiplication in the real numbers now you say okay there it is you have the addition and there you are well not quite yet because we need to ensure and this is the question here we need to ensure that the result is again in TPM now the sum of two maps right the sum of two maps is again a map of the same type that's not in doubt but this only takes care of the definition up to here if you really look at this you got to say ah hang on but it's not just any
+
+00:22:18
+linear map from C Infinity M to R but it's a linear map that has been constructed from a curve through the point in a very specific way namely in the specific way that X gamma comma PF is actually given as the f after some gamma derivative at zero which means we need to find for this sum we need to find the underlying curve that produces this tangent Vector okay so the question is the question is does there exist i' got to be very careful this is not a formal symbol it's does there exist a um
+
+00:23:00
+curve Sigma like sum such that the sum can actually be be written as the tangent Vector to a curve Sigma evaluated on an arbitrary smooth function f only if such a sigma exists can we actually be confident that the summation as defined the addition as defined closes in this set problem is clear okay so that's uh that's the idea and now we're about to construct this so um okay uh claim um plus and S multiplication close in TPM which is just to say this leads to TPM and the result is again an element
+
+00:24:02
+of TPM now um proof construct the curve Sigma as indicated down here and then similarly do the same for the S multiplication which is simpler so how do we construct the curve Sigma now um it's easiest to do this by employing a chart so employ a chart U comma X and the point of Interest so we have a tangent point at a point a tangent space at a point P the point p uh be part of that chart domain employ a chart ux and Define the Curve um the curve is Sigma and it depends on a parameter Lambda and it's built as
+
+00:25:05
+follows it is um X inverse so I take the inverse of the chart map and here I take after X inverse after X after gamma plus X after Delta so gamma and Delta are these two curves whose tangent vectors I want to add minus x x of P now this is a very funny looking definition let's first see whether it makes any sense at all so the curve Sigma if it is a curve it better go from some interval lying in the reals so you see now if I wants to be very precise one needs to specify which interval but um talk about that in a
+
+00:25:57
+second in the reals a curve that goes into into M now because we chose a chart we only want to construct this over the chart but but let's not be so picky so we want a curve in the manifold and we have the curve gamma and Delta given now the curve gamma and Delta I represent them here by by gamma that's something like this is a curve and now you only look at how it goes into this chart so if you want to be precise you only have the pre-image of U and Gamma you see you can do this um and then you use the chart
+
+00:26:37
+map here you come to X of U which lies in Rd and now the key point is you can go this path this is X after gamma this is a map from some interval on R to to Rd so this is the chart representation of the curve in the real world and the key point is that this here is a map from r or part of R into Rd and this is a map from R to Rd well strictly speaking this is also a map from R to Rd but it is the constant map from R to Rd it always leads to the point x of P now because these are maps from R to Rd I
+
+00:27:19
+can add them because this addition is the addition on RD and so is this the addition on RD or rather the addition of the inverse element okay so no doubt I can do this here and what this means in pictures is I have here the real world I have the point P there's one curve gamma running through it there's another curve Delta running through it and what I want to construct here is if you think of the velocity of gamma and Delta well we we can't have we don't have an intuitive picture yet the velocity is this funny
+
+00:27:54
+uh directional derivative but the idea is there needs to be another curve in the manifold whose tangent Vector is the sum of these two tangent vectors that's the idea and but we cannot add curves I mean the idea is that a little bit like we want to add the curves or find the intermediate curve or something we can't do this in the manifold because the manifold doesn't have enough structure so instead we choose a domain U map this domain to a chart so this is X of U is part of the chart map and in this chart
+
+00:28:31
+where you have your nice Rd in this chart the first curve oh there's no color okay the first curve say this the point x of P the first point runs through it like this the other curve runs through it like that and in the chart you can take the coord the coordinate representation of the images of the curves X after gamma and X after Delta X after gamma X after Delta and this Point here is X of P you can take the representatives and you can add the curves okay and that is then this thing in Brackets and this minus X of P that's
+
+00:29:13
+the addition of the Curves in the chart and this minus X of P actually ensures that at parameter value Lambda equals z the resulting curve really goes through this point as well okay now you have a curve in the chart now that sounds very bad okay because you know that the same curves you could represent by wildly different charts you could choose such a different chart that what here the sum is this curve you do something very crazy and the sum looks very different in another chart so if we were to define the sum of
+
+00:29:52
+Curves as such this would be very wildly IL defined now however we seem to be doing exactly this because then we take this resulting curve in the chart and we take this curve and lift it back up here to produce this curve this is this x inverse takes you up again looks wildly IL defined but what will save the day is that we will not be interested in the entire sum curve we'll only be interested in its derivative and the derivative will take care of all the stuff that will make the sum of Curves ill defined but the sum of
+
+00:30:38
+the tangent vectors which is the first derivative to the curve at that point that will be well defined okay so many words but the question is what is now the um what is now the tangent Vector here so calculate so so far this is just a suggestion what we could do so we calculate what is the tangent Vector to the curve at that point well in order to find out we best apply it to some arbitrary smooth function f and it becomes f after sigma derivative at position zero because we have ensured here by construction Sigma
+
+00:31:23
+of 0 is again the point p because it is well Sigma of 0 is X inverse of X after gamma of 0 this is X of p plus X after Delta of Z is also X of P minus X of p is X inverse after X of p is p so it is a curve through P at parameter value zero fair enough so the definition of the tangent Vector of this strangely constructed curve is this guy okay so now how do we go about this um well we plug in the definition of our Sigma so this is f after uh f after sigma right and sigma is this is f after X inverse after now it comes X after gamma
+
+00:32:16
+plus X after Delta minus X of P close bracket from here and then we have big brackets let me draw square brackets derivative at position zero this is just plugging in the sigma now again it helps to look at uh the the domains and the ranges of these Maps f after X inverse um that is um hang on that's from RD to R that's a map from RD to R it's the chart representation of of the function on the manifold and uh this whole guy we figured out before is a map from R to Rd correct yes from R to Rd
+
+00:33:08
+and that's fine you can take it R to Rd and then afterwards you do Rd to R that's fine and then you derive the whole thing so it's one such map after another such map and that means you can use the um the chain rule for this derivative you have a composition of two maps over r D to R and so on you know the chain Rule and it's of course the multi-dimensional chain rule because you can take the derivative in Direction a or the direction is the wrong word the eighth partial derivative of this first
+
+00:33:42
+function f after X inverse okay and then you take the this derivative of the eighth component of this guy well what is the eighth component of this guy this is um so first of all you evaluate this at this point with the zero plugged in that's of course X of P that we know times so I need a new line and times normal multiplication uh the derivative of the eighth component here but what is the eighth component the eighth component is XA after gamma plus x a after Delta minus x a of P of this we take the derivative at
+
+00:34:33
+position at parameter value zero okay now yes no no no the no no sorry yeah the dots well yeah just suppose yeah I don't know you don't need them right okay okay so this is just the the chain rule okay but now and this is now the beauty of the derivative and what I was talking about before this is just a sum in the chart but now you derive it and because you derive it this derivative now uh is linear of course so it acts on every Factor separately and it acts on the first factor to get you x a gamma Prime but
+
+00:35:31
+this recombines with this guy here to f after X inverse after X after gamma Prime at position zero the second Factor does the same thing it recombines with f after X inverse after X after Delta derivative at position zero and the last one is of course zero because it's a constant function but now here here the X inverse in X I mean I freely use the associativity of the Circ of the composition that's of course is f after gamma Prime zero this of course X gamma comma p and acting on F and this back
+
+00:36:13
+here is X Delta comma P acting on F aha but this is nothing else but our definition X gamma comma P sock plus X Delta comma p P both acting on F so we manag to show that indeed the sum of the two directional derivatives or the part um the tangent vectors to the curves gamma and Delta in the same point P indeed equals the um tangent Vector to another curve Sigma which we constructed here explicitly okay so we have to pull this stunt of going to a char and constructing the sum of Curves which something terribly IL defined well but
+
+00:37:02
+what is not IL defined is the first derivative of it that is independent of the chart map because the chart map cancels out again and that's the trick and indeed the sum was the tricky part so we showed the sum is closed and the S multiplication is much simpler because there you just do the same thing and you write Lambda time X after Gamma or something like this yeah Lambda times and uh and you don't need all the rest okay it's much simpler and okay but so this is the the basic idea so in fact if you look back uh to
+
+00:37:41
+to the left part of the Blackboard um could we have the camera back to the left one um if if you look back here uh then then you see in fact it's a very simple definition of what the tangent Vector space is once you accepted this definition of the tangent vectors being these linear Maps because the addition and S multiplication is just the addition s multiplication of maps once you convinced yourself that it closes in TPM but now that we know it does we never need to care about this anymore we
+
+00:38:15
+always know there is the underlying curve okay for the sum and the S multiplication before we continue looking at uh properties of this uh of these tangent vectors uh there is a little aside um on algebras and derivations so it's not derivatives but derivations and that's a technical term and um so the definition that we need is the following definition a vector space a vector space um V plus and S multiplication um equipped with a and now we call this a product and this can take various shapes
+
+00:39:12
+of forms you'll meet several in the future uh with a product and uh let me call this product simply Big Blob what is a product uh with a product that is a b linear map by linear map blob which takes you from V cross V to V in bilinear fashion um is called an algebra an algebra which is therefore a quadruple where you don't only have the s multiplication with respect to the underlying field but you also have a product between the elements of the vector space okay this is an is an algebra and
+
+00:40:15
+um yeah so um there are various examples for for products in particular we'll meet a Le product which is an anti- symmetric product there's no assumption that it's symmetric it's just a b bilinear map right um or you already know from from high school mathematics in R3 you can establish the so-called cross product with this rule here uh that's a product and it makes R3 to a to an algebra you can't do this on R4 okay um there are Concepts that lead beyond that but anyway you can't do
+
+00:40:52
+that so anyway here you have the algebra and the example why uh I bring this at this point already is that c Infinity M which we recognized to be a an R Vector space yeah uh you can of course Define a blob C Infinity M Cross C Infinity M to C Infinity M uh that sends a pair of smooth functions to The Blob of the two smooth functions where the blob is just defined pointwise F blob G at a point f is just def defined as F of p time G of p and this is um the multiplication in R so it's the multiplication of two functions
+
+00:41:47
+whereas this s multiplication was only the multiplication with respect to a fixed constant it's a different thing it's structurally totally different it's very important to to realize this so what we could therefore say the C Infinity M we defined is not only a vector space it's even an algebra with respect to the obviously defined multiplication okay so this seems formal Overkill because we knew before how to multiply two functions but the point here is to realize what the structural level of this whole thing is
+
+00:42:22
+so that's a k Vector space so now the next definition is that of a derivation definition a derivation is a linear map it's a linear map um uh so derivation capital D is a linear map D that takes an element of an algebra and sends you to an element of the algebra which additionally well additionally in addition to be it being linear which additionally satisfies uh the lipets rule well this is just to refer to this rule in the future the lipnet rule and that is you take um ah okay I'm sorry um I I should
+
+00:43:29
+do this more generally so not well this is the example we're going to to use but uh we can speak more generally of a derivation is a linear map from an algebra to an algebra where this is an algebra and this linearity here of course refers to the algebra being a vector space otherwise we couldn't talk about linearity but which additionally satisfies now you guess it if it's an algebra we now need to uh have a compati comp we have to have a a rule that uh uses the blob the light rule is that D
+
+00:44:09
+acting on two elements of the algebra I might call f and g you blob them you get an element of the algebra again and the question is how does the D act on this and um the liut rule stipulates that it act like this that you act with the D on the F and then you blob it into the G plus you take the F and then you blob it into the DG now of course this terribly looks like the product rule from differentiation that you know yeah that's true because the normal differentiation you know is also a derivation okay uh it's linear you know
+
+00:44:53
+that uh differentiate differentiating is linear you call call this the sum rule but it also satisfies the lipets rule you call this the product rule okay but this is the abstract version of this and this um Works in Far More situations than just the one uh we use it here now um but I'll provide both examples so example or examples um uh you can have this as the algebra C Infinity m plus time blob and as a derivation you take um any X from a tangent space so I no longer need to say to which curve well I
+
+00:45:43
+don't need to say to which curve at which point it corresponds because if it's an element of TPM it's clear it's a curve through the point p and there will be some curve that reproduces this x actually there will be many many curves that will generate as the tangent Vector This One X from the tangent space because I could have different curves running through the same point intuitively at the same speed and they will produce although they're different curves they will give rise to the same
+
+00:46:13
+tangent Vector right but it suffices that I know there is some curve so I take some element of the tangent space and I act with it on C Infinity M so any X I take any tangent Vector I take of course takes such a function ah ah okay okay okay okay hold on a second so we have to okay I have uhuh uhuh I can generalize this and uh take a derivation from one algebra to another algebra so I take two algebras and then this will be the blob in the a algebra and this will be the blob in the B algebra okay you see this
+
+00:47:08
+is more General even than what I wrote down before okay and now uh we take as the first algebra this and as the second algebra we take the vector space r over itself it it I mean all the blobs and the dots and what not here are the multipli on R so this is also an algebra no doubt okay and now this is a derivation because one can quickly check that F xfg where this is the blob in here I don't need to write this down uh so one can check that this is XF G plus fxg and let's uh put this to the problem
+
+00:47:51
+sheet this is very straightforward and you may have seen this before so that means a tangent Vector at the point p is a particular example of a derivation now you say this abstract view is is really heavy machinery to say something very simple as this but uh we'll later on actually quite soon we'll meet another type of algebra well we'll meet several but um well let me make another example the other example is the following you take um let a be um the set of all M * n matrices um so uh small a is uh a is M * okay
+
+00:48:51
+nonsense um let's take as the algebra the endo morphisms on some Vector space V some Vector space V okay we take the endomorphisms and now as this is just a vector space now we know that the endomorphisms over a vector space are again a vector space so it's not quite an algebra yet it's the vector space underlying the algebra but now we can define a blob on the algebra um a cross a to a now we need a multiplication a bilinear map and it's defined as follows a fi and a s so two endomorphisms on fi are to be mapped to
+
+00:49:44
+fi after s minus s after fi it's obvious now the composition of two endomorphism endomorphism it's a vector space so I can add the additive inverse this is again an endomorphism okay so it lies again in a that's fine and um if you want to but this is really the definition by the left hand side uh you can give this guy the name square bracket F comma s square bracket and you can read this as the commutator but what's a commutator a commutator is defined as the difference between the
+
+00:50:20
+two compositions abstractly you don't need matrices or matrix multiplication it's this composition quite abstractly now this is the algebra and you see uh that this kind of so so the blob has a different notation here it has the notation of these brackets but it eats two algebra elements it spits one out it's an example for an anti- symmetric algebra sorry an anti- symmetric product well but we said nothing about the pro bilinear map being symmetric or so so this is fine so this is an algebra so we have um
+
+00:50:58
+NV equipped with the addition and S multiplication and this guy is an algebra uh and people call this a Lee algebra ahuh so you have an algebra uh a Le algebra is a vector space yeah equipped with a non-symmetric product well actually in this shape because it has a specific property um uh it has it set ifies the jacobe identity that's quickly calculated so that is that five comma s comma row and then you take a product in the product but how else then this you take this plus and now you cyclically permute s
+
+00:51:47
+comma row comma fi plus uh row comma F comma s this is zero and this really follows from this definition okay so we have this and so we have this algebra and this is called a Lee algebra so it's a special instance of a Le algebra anything any algebra that satisfies the jobi identity is a Lee algebra but this is one particular way to produce it but now where's the derivation Okay so can now Define a derivation and the derivation well could be called D well no uh let's give it the name it has uh its um H comma open
+
+00:52:49
+slot well if the bracket takes two elements of the algebra bilinearly then leaving one slop slot open produces a linear map all right and uh so this guy I could call the D okay the d That's produced by the H and this H is some fixed element of the algebra now guess what you take this D and you apply it to a product of elements of the algebra so to a blob B well the blob happens to be the bracket now okay this is the D applied to the blob and using the Jacobi rule that we just wrote down it's very
+
+00:53:42
+easy to see that this is the product of D applied to a comma B plus a comma the D applied to B well but because the bracket is the blob this is the liet rule If instead of the bracket I wrote The Blob D of a blob B is d a blob B plus a blob DB you'd immediately see the liet rule and you of course know this kind of derivation where do you know it from from quantum mechanics or also from classical mechanics because in classical mechanics the pon is also a derivation on which algebra yeah but the algebra is the
+
+00:54:36
+functions on face space and that In classical mechanics the functions on face space you call the observables the plus one bracket in classical mechan okay so remark the plus bracket In classical mechanics is a derivation on functions on the algebra of functions on face space will go the observables and this and only this is the reason why In classical mechanics you can identify this derivative with this derivation I mean this must certainly satisfy or if it acts on observables must certainly give rise to the product
+
+00:55:52
+rule because it's just a derivative well better this guy also gave rise to the product rule okay um so that's of course a remark a uh remark B quum mechanics d by DT is to be identified with h comma open slot acting again on the observables but now they are self adjoint operators ta ta you know okay so this fact this idea of derivation on an algebra satisfying the product rule this something you met in classical mechanics you made it in quantum mechanics now you meet it in differential geometry it's an extremely
+
+00:56:31
+common concept and it's maybe worth once and for all clarifying its algebraic status okay now okay but my main point was that the um that the tangent vectors are derivations oh okay are there questions so far good so that's the um the end of the aside on algebras and derivations now we have an important theorem we looked at the tangent spaces or at the tangent space at one point of course we could look at the tangent space at another point and the tangent space is a vector space and so as a vector space it has a
+
+00:57:39
+dimension Dimension as a vector space so this is the vector space Dimension which is given by the size of the basis in case it's finite dimensional now the theorem is that the dimension of the tangent space as a vector space equals the dimension of the manifold as a topological manifold these are two entirely different Notions of Dimension right a vector space Dimension has technically nothing to do with a manifold Dimension the manifold Dimension was R to the D the charts you go to but the charts were
+
+00:58:24
+not considered Vector spaces just Rd a topological space now uh here this is the vector space Dimension so in principle they're very different dims you could call one Capital dim and the other one dim so there's nothing obvious about this and we need to prove this okay now obviously we need to relate this type of Dimension to this type of Dimension so we will construct a vector space basis from a chart basis idea construct a vector space basis from a chart from a chart okay so let's make the
+
+00:59:30
+usual preparations for this to set up such a proof uh you choose a chart ux that contains the point of Interest the tangent space tangent Vector space of interest and um now uh the idea now is consider uh dim M many bad English but very clear dim M many curves and these curves are called gamma a I put this in Brackets to not confuse this with any type of component of a curve this is just the eighth curve so a runs from one to dim M such a finite set of Curves um that yeah um see that go from R to m in principle but we
+
+01:00:41
+just want them to go to U and so then well we can write all of R we write the pre-image of u under the curve gamma a doesn't matter such curves um with the following property that having chosen a chart that the X well let's put the B let's put this down here as an a such that if you take the be component of the chart map and you apply it after the eth curve that you then have a chart representative of the curve right this is now down in the chart that has the very simple sh shape Delta ba a
+
+01:01:33
+times T so I choose very special curves who in this chosen chart have this simple form it's very s clear what this is you have your manifold M you have your domain u in which the point of Interest lies so together to this U corresponds or together with it comes a chart map that Maps you down here to Rd my illustration is of course R2 uh r d is the cartisian product of D copies of R so I have a very clear notion of the first component second component third component I put here the first one and the second one and and so
+
+01:02:24
+on and now what is it means that the chart image XB after gamma is the eighth curve has all components in the chart zero but the eighth component and that runs linearly oh I'm sorry not t linearly with the Curve parameter Lambda so I chose a curve that up here may look like this but down here looks like looks like this right this would be the curve Gamma 1 because this down here is X after Gamma 1 this is this curve and then I have another curve up here which up here may look like this through that point
+
+01:03:21
+that will be the curve gamma 2 but it's only the curve gamma 2 if in the representation it looks like that okay so in a sense I if you think about X inverse I could have also started with the chart representations down here and by X inverse I take the I could take the entire coordinate web here and go to the manifold and look look for a given chart what are the coordinate lines if I draw them on the manifold that that's the idea but we're only interested in the coordinate lines through the point P
+
+01:04:10
+so it's kind of these curves and this is the definition okay this is this set of Curves I'm looking it's a very specific set of Curves and clearly it on the manifold and it clearly employs a given chart to produce them another chart would produce another coordinatization this is what we've been doing all along maybe one should have drawn this picture quite in the beginning to get a better idea of the back and forth between the charts here and there but but that is what it is okay so we got ourselves these very
+
+01:04:42
+special curves and um once we have them we can of course uh uh uh calculate the tangent vectors to this very special curve tangent vectors uh so there is a a number of those um let's call them e A's tangent Vector EA and this EA is nothing but another symbol for X gamma what do we say sub a we said sub a yeah gamma sub a um at the point P but the point P we saw all these curves gamma sub a put this brackets uh at Value zero ran through the point P by by construction did they um yes hang on what did I write down I
+
+01:05:45
+wrote down that uh gamma a is such that XP after gamma a um of Lambda is Delta ba Lambda that means at Lambda equals zero the value of this I'm sorry I'm I'm a little confused is the x0 ah okay I should um have written that I choose a chart centered at P so um um using a chart centered at p and this centered means simply that the x of p is the zero in R dim V so that the point P at which I have the tangent space gets the coordinates 0 0 0000 0 in this chart now this is without loss of generality obviously I
+
+01:06:47
+could arrange for this by suitably subtracting coordinates like we did before um it's just terribly convenient to use a chart that's centered there let's do this so good that I looked at this again and um yeah and then it's indeed we calculate for each of these curves that we pulled up into the manifold we can calculate in the manifold the tangent Vector that is what we always do okay and now it's instructive to see how this eth tangent Vector so the a we have a number of such
+
+01:07:19
+tangent vectors how the eighth tangent Vector acts on a smooth function so f is a smooth function of course how does it do that well it does so by X gamma a comma P acting on F now this is by definition of the tangent Vector this is f after gamma a derivative at position zero right this is this guy um and now we insert the chart well we can first do this algebraically this looks like this x gamma a derivative at position zero I just inserted the identity so to speak um and now I do what I always do
+
+01:08:09
+in this case I use the associativity of the Circ and I get d a f after X inverse this is already using the so this is at X of gamma a of zero the ch rule times and then the eighth component of this guy but what is the eighth component of this guy this is XA ah sorry I already have an A here so I need to use another dummy index B this a stays then it's the be component XB after gamma a derivative at position zero all right it's just application of the definition in the chain Rule and now the first part
+
+01:08:59
+we're not going to change f after X inverse that stays like this it's to be evaluated at X of gamma a of Z but that's X of P well evaluated X of P times now this guy we know better because we know underived this is Delta ba * Lambda that's what we Define but so if I derive it with respect to the parameter it's just Delta ba that remains at zero well that's Delta ba it's Delta ba well but that simply means it's still a some Rule and so on F after X inverse right yeah well that is what it is and
+
+01:09:47
+again I emphasize and um maybe a at first mysterious remark here this is the eighth partial derivative of a function from RD to R in physics we sometimes write instead of this write d by dxa right now that makes absolutely no sense because if you have a function from RD to R this Rd is a d * cartisian product of R now you always know which is the first entry of this function which is the second which is and so on because the cartisian product is the ordered it's the tups right so all you need to instruct me is whatever this
+
+01:10:48
+function here is if it's a function from RD to D you tell me derive with respect to the eth entry say the third okay does it matter how I call this third entry when I Define the function I can say it's function fxy z f of XY Z is x² + y s plus z s or something does it matter how I call the second entry whether I call it Y no I could call it B then the function is defined with this B but for the abstract derivative it doesn't matter as little as it matters in one dimension for this derivative how
+
+01:11:26
+I call any this X or Lambda or whatever with respect to which I derive this say nothing to do with the name of the depend independent variable that's clear right it's the abstract derivative and that it is what it is here now why do I make so many words about this because obviously there would be no harm one thinks in writing d by DX a well I mean the eighth variable that appears here and let's call him X1 to XT well the harm is there there where I now Define a new symbol which much more deserves to
+
+01:12:02
+have that shape it's called d by D XA it's a entirely new symbol has nothing to do with this symbol absolutely nothing and it doesn't act on a function from r d to R it acts on a function f well it's the F that's here but recall that this F is a function from m to the real numbers that's not a function from RD to R if I have a function from the manifold to R I have no idea what it would mean to derive with respect to the first entry the manifold is a topological space what do you mean by the first
+
+01:12:42
+entry you first need to use a chart map to coordinati the manifold around the point of Interest where you derive it okay so I should write here of X of p and then one would say here this is the derivative at the point P right of P or something okay I first need to coordinati and then well how do I do this well then I get a chart representative of this function on the manifold which is then a function on RD and then I can take the derivative in the eth direction so um again again d a takes you from a function from
+
+01:13:32
+a smooth function from RD to R to a smooth function from RD to R it always did it always will it's called the partial derivative and it's an object that acts on function from RD to R where the Rd implies an order of the entries in contrast d by DX a at the point P it doesn't matter where you put the point you know what what I mean at the point P that's a totally different Beast namely it takes a smooth function on the manifold into R but that's our definition of this object uh and it takes this well at the
+
+01:14:15
+point P it takes this to a real number uh if you did this here at a specific point x of P if you wish it would also take you to a specific real number okay let's look at it like that let's not produce the derivative function but just the derivative at the point okay now you see the difference now for the manifold it makes perfect sense it doesn't only make perfect sense it's necessary that you picked a chart in order to derive with respect to the eighth something entry but so whenever you see the symbol
+
+01:14:50
+in this course and I recommend to you in the future for your own calculations whenever you write d by D x a f the x is the X from the chart map I mean it's just a symbol right it's just a symbol but this x refers to the specific choice of chart map by which you can think of the eighth component of a function the whole thing is defined as this is the partial derivative ah we know how to calculate this because this is just a symbol applied to f after the inverse chart map it's a chart representative of
+
+01:15:21
+the function okay very important to not confuse this so my claim is you never so far needed this you always needed this and here it makes sense because it refers to a certain chart which you need okay so we have this guy and so what we saw in summary the eighth tangent Vector with respect to these very special curves we can now write as d by dxa if you want at the point P because this the tangent Vector at the point P so but this is just meaningful because this symbol if it acts on a function which is what defines such a map is
+
+01:16:14
+defined like this and this you can calculate okay so these were the tangent vectors uh to the to these coordinate induced curves are the tangent vectors to the Chart induced coordinate induced whatever uh [Music] curves gamma a now what's their meaning why do I look at these specific curves and why uh do I look at their tangent vectors well the claim is any Vector claim any Vector X in the tangent space TPM can be written as x equals XA but these xas are just real numbers XA times d by dxa at the point
+
+01:17:23
+p and there is summation convention here so we sum over these A's in other words the D by dx1 to D by DX dim M are a generating system for the tangent space so let's see whether we can show this and then of course the next step will be to show that they're also linearly independent if they're linearly independent in their generating system there are a bases and because we have dim M many of them the dimension of the tangent space would be the dimension of the manifold this is was our claim but
+
+01:18:20
+you see in this constructive proof there's much more technique and much more than just the proof of the of the theorem is there a question so far y have youed I mean it's clear what it is oh yeah yeah no I I I don't think I well I I think I did before but it is as always Delta AB is one if a equals B and it's zero else that's that's again the same thing it's just short notation for writing down an array of equations yeah okay so now let's let's see whether we can do
+
+01:19:03
+this so um proof of the claim um so there certainly exists a smooth curve mu in a manifold such that that the arbitrarily chosen X which I want to expand is the tangent Vector to the curve mu at the point p through P curve through P such that I can represent this tangent vector by the tangent Vector to the curve because that's exactly the definition of being an element of TPM there must be an underlying curve there are many underlying curves that can reproduce this but I I pick one I have one of those and now the claim is
+
+01:19:56
+I can expand this in terms of these special tangent vectors let's see whether we can do that so X mu comma P how do you study a map you study a map by letting it act on an arbitrary element of its domain that's always the clever thing to do um so this is again f after mu in this case derivative at position zero so all the provisions from before uh namely for instance that mu at parameter value zero goes through P we always take make the same assumptions here f after mu Prime zero so now again
+
+01:20:37
+we insert the chart um and it's of course the chart with respect to which we built these special curves so we take f after X inverse after X after mu Prime Zero by the way if you wonder is it first the X and then the X inverse you can always draw your little pictures this is a curve and this is a function and if you restrict this to a chart map well then maybe here you have the pre-image of the curve of the domain la la then you have the chart map you go to x of U this is a part of Rd and then
+
+01:21:15
+you construct the representative of the curve is X after gamma and you construct the representative of the function this is f after X inverse ah so they come in these pairs okay so you can either do gamma after oh mu sorry um mu we call it mu in this case uh you can do f after mu or you can do this combination f after X inverse after X after mu and then you can drop the the brackets because of the associativity of the composition okay so just uh these diagrams are always very useful okay so um you might think of them
+
+01:21:59
+okay so but now it's pretty obvious what happens here uh we again do the chain rule you see it's the same calculation over and over again uh you do the chain rule you evaluate at um X of mu of Z is X of P this is at X of P times and now here you take the uh ath component well again I probably want to take the B component uh XB after mu inverse evaluated at zero but this gentleman here we know this is d by dxb acting on the manifold function f rather than the chart representative of f evaluated at the point
+
+01:22:45
+p uh but there's our result um because you can write this as um XB after mu derivative at point0 what is this this is for every B this is a number right for every B this is a number times d by dxb now I put the P down here by notation and this acts on F and there's a sum rule here a summation convention so I can put uh I don't know big brackets around it and now you can compare you have well I even box it I box it and I box this and you see aha every x m p which is any X in TPM can be written as some linear
+
+01:23:41
+combination I even constructively found which linear combination of these tangent vectors to these chart induced ones now these guys of course are the component with respect to this generating system okay I almost said basis but we haven't shown that yet okay and we'll come back to that because that is what you always did in physics you took a curve but you didn't take it in the manifold abstractly you didn't take it in the real world you took it in the chart representation you said the particle
+
+01:24:19
+flies along the curve mu and the first component is this function of time the second component is this function of time that's your curve and you see you derive every component componentwise you define well the components of the tangent Vector physically speaking derivative but they were the components with respect to what bases of the tangent space well with respect to the Chart induced bases but because you usually always took Rd as the basic space and then you could identify retention space with this
+
+01:24:56
+Rd itself it's usually muddled up what is what but but but this is the real logic behind it okay so um uh thus indeed um the uh d by dx1 to D by DX dim M and if you're very careful you say act they act but then they evaluate at P this set uh is a generating system of TPM of course there are many others you could take this basis you what basis this generating system you build linear combinations of certain types and you get again get generating system it's not unique no it's a very
+
+01:25:45
+special one induced from the coordinates but it has this advantage in coordinates I can calculate the derivatives to Curves in the chart picture so it's very useful um there will be we will have opportunity later to consider tangent a bases to a tangent space that are not coordinate in use especially if we look at well at a point it can always be constructed from coordinates but if you look at extended regions Vector fields and so on it can be advantageous to not look at coordinate induced basis Fields
+
+01:26:18
+but we'll come to that later okay so this is technically very so um uh now that they are linearly independent ahuh how do we do that well we consider uh Lambda a d by well this is a different Lambda I should call it differently you you know how that works uh d by DX a at the P point and we assume this is zero and if they're linearly independent we should be able to show that every of the lambdas zero right now how do we show this well again this is a tangent Vector I mean it's an element of a basis of TPM
+
+01:27:17
+so in particular it's an element of TPM each for each a an element of TPM are the tangent vectors but the tangent vectors are these linear Maps they are the directional derivative operator so this is actually an operator equation how do you deal with this again by letting it act on an arbitrary object in its domain that's how you get a good handle on this guy um now my question is whether I wanted that ah yeah okay very good so in order to show linear Independence however I now let it act on
+
+01:27:52
+very on a number of very specific functions and there will be some words to be said about this I will let them act on the functions XB there is the immediate question is this legal a lawyer will always tell you it depends that's the safe answer uh no the answer is yes it is legal but it's not so obvious why is it not so obvious well um let's look at this so the X's this is the chart map the components of the chart map the chart map is this kind of guy you remember and what do we know about it we
+
+01:28:42
+know about this chart map that it's a homeo it's a homeo from U to its image it's continuous invertible all that kind of stuff and so from that it follows that the be component of this is U goes to um R some part of R well some subset of R so um some subset s of R we know that the components of a homeo um are homeos uh essentially because the um product topology on RD is the same as the standard topology whatever I think the last problem on the last problem sheet kind of used that too
+
+01:29:30
+okay so we have these no homeo can't be true I'm sorry this is not homeo this is a continuous that's certainly true it's continuous right can't be homeo because this is higher dimensional than this but it's continuous continuous map now can I act with a derivative operator on there the way we Define it the answer is no at first no because um this was defined to act on C Infinity M on the smooth functions but the components of the coordinate maps by construction they're continuous they
+
+01:30:04
+can't be more than continuous because this is on the manifold I wouldn't even know how to say that this guy is differentiable well but they are smooth because how would the same problem you have with any function f for any function f uh you could look at it on U to R so that's now well I should write it here for any if that's defined on the manifold um you you can look at how it maps to R so I don't need to subset here how it goes to R and here very well we can say whether it's smooth or not because we decide
+
+01:30:45
+this by choosing a chart Map X is an X of U um and we say that if this is f here we say that if f after X inverse is smooth then the f is called Smooth ah but now it's simple because if I apply this to the be function of the component map so in order to decide whether it's smooth in addition to it being continuous anyway I take the chart map I land at X of U and here I'm at XB after X inverse but what is this guy well this lies in r d this lies in R so XB after X inverse of a tuple here in Rd let's call
+
+01:31:32
+it A1 to a d That's the coordinates here if you wish um this is you go back and then you go back to the be one well that's the projection map to the D component so this is simply a b you pick out the be component or XB after X inverse is the projection to the be component and of course this projection to the be component um is smooth of course it is right that's very clear and because this definition in general is well defined is well defined here that means yes it is legal and you could say this definition
+
+01:32:16
+of smooth what if smooth function is in particular is chosen such that the co any chart um uh component Maps coordinate maps are rendered smooth okay so this is a little um as side it's a favorite for uh an oral exam right because at first this can be very confusing okay so this is uh a very big thought on this okay so we can act on all of these now that we ensured that we'll do it so Lambda a d by DX a acting on XB is assumed to be zero well uh first of all we look at the leftand side what
+
+01:33:19
+is this well we can practice now so this is at a point P what does this symbol in this action mean well it means that you take the eth partial derivative you take the function on which you act in this case the be component function and you compose it with the inverse of the chart map so this x here says you put the X inverse here this a here says you put this a there and this XB here says you put this XB here not sure this makes it look better but so this is the definition of this symbol okay now but now you know what this is
+
+01:34:05
+so this is evaluated at the point x of P that's the full thing now but you know this is the be component of this you derive it with respect to a this is nothing but Delta a b right you take the be component of of this and and then you derive it with respect to the eighth component well but this is like the projection map so it gives zero everywhere apart from the eighth component where it gives you the identity so it's Delta ba but that means that the whole left so this is the equation and this the whole
+
+01:34:42
+left hand side so the whole left hand side is Lambda B because you have of course the summation convention here right is Lambda B well there you go you're done you start on the assumption that this guy is zero so in as as an operator so in particular it must be zero if it acts on particular functions we picked clever ones uh we derive Lambda B is zero Lambda B is the left hand side is zero okay uh so hence d by dx1 at P dot dot dot to D by DX dim m at p is a basis of TPM and that proves the
+
+01:35:40
+theorem questions so um terminology so if um well it's trivial right uh XA if if a vector X in TPM can be written XA or is written can always be written XA um d by by dxa P um uh then the real numbers X1 to X dim M are called the components of the vector X in TPM with respect to the um tangent space bases tangent space bases induced from the chart U comma X where of course the point Point P must lie in there in this U and on the problem sheet I shall ask you to um study change of components
+
+01:37:58
+under a change of charts it's of course a very obvious question and the key issue there I mentioned here for completeness will be you can of course have a chart transition map that's highly nonlinear I mean you can go from cartisian to Polar coordinates is a highly nonlinear function but at any given point this highly nonlinear chart transition map which is a function from RD to Rd will induce a linear transformation on the vector space at a point and it must because vectors need to transform
+
+01:38:43
+linearly okay um so um if you if you have a chart transition map where you go to a new chart Y which in terms of the Old Chart X is given as well this is physicist notation ya a is ya a of X1 to X dim M but you know what I mean you go from one chart to the other chart uh then the linear transformation d y a by dxb this can be evaluated at the point x of P this point in Rd this linear transformation will govern the change of chart uh the change of bases on TPM if you go from one coordinate induced chart to another coordinate IND
+
+01:39:55
+used chart and because I mean this derivative you know this uh what's this the Jacobi Matrix of course is again a function I mean it depends several functions is square array of functions but you evaluate at this one point x of p and that will correspond Now kill me I don't know whether it's the Matrix a I wrote down last time or whether it's the Matrix B I wrote down last time but it's in any case is this basis transition map and you see this is the full point of what I'm always talking about about
+
+01:40:31
+there are no position vectors because the position is this now the position in a chart if you want to assign a collection of numbers as indicating the position you're talking about a chart because on the manold a point is a point what are the coordinates of Paris there are no coordinates of Paris unless I choose a chart and then look ah it's 72 okay in a particular chart but then you can change charts in any diff morphic way they just need to be a c Infinity from RD to Rd function you can change
+
+01:41:05
+chart can be highly nonlinear now these components which are actually the coordinates the components of the chart map but they're certainly not components of a vector because if they were components of the vector they should transform under change of chart linearly but well they they don't want to they they transform highly nonlinearly if you wish if you go to another chart but the tangent vectors to Curves they're totally unimpressed by the high nonlinearity of the chart change they only see at a point The
+
+01:41:39
+jacobe Matrix evaluated at that point as the linear transformation map array whatever that changes the basis on the tangent space so in in the old books people said a vector is what transforms like this a vector is whose components transform by this or by the inverse okay depending on whether it's the a or the B you figure this out I don't even remember which I called A and B last time but the vectors transform according to this well but positions simply don't okay now only if you restrict
+
+01:42:13
+attention to linear changes of coordinate system then of course if this is a linear function the new y of the old X's then this transformation coincides with this one very very obvious right I mean if you then put in in another ya so only if you artificially say I always stay with one coordinate system and at most linear Transformations linear changes of chart then you can yield to the illusion that also the components the coordinates constitute a vector that transforms linearly under change of chart but then
+
+01:42:49
+you say you can only do cartisian coordinates and you can never go to Polar coordin let alone any other coordinates that are slightly more interesting uh the point is it's just you delude yourself into thinking that positions components of positions combin into a vector and much of special relativity is done with this confusion so people say well you have these very special linear Transformations the lawence transformation they act on all of position space the X Muse are being transformed no they are not the XM you
+
+01:43:22
+can transform any way you wish and only the derivatives that's the tangent vectors at specific points they will transform of course if this highly nonlinear then in the tangent space at P the transformation will not be the same as the transformation at the point Q you see so these linear Transformations will if this is nonlinear these will differ from point to point from tangent space to tangent space this is different if they're linear then they're everywhere the same okay but we should never abuse
+
+01:43:53
+this by arbitrary restrictions of these functions to only to save our concept of a position Vector it's an artificial concept it's pointless it causes confusion okay
+

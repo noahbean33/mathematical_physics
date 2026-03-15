@@ -1,0 +1,130 @@
+\section{Construction of Natural Numbers, Integers, Rational Numbers, and Real Numbers}
+
+So a final section of this chapter is 1.8: construction of natural numbers, integers, rational numbers, and real numbers. We already talked about them, but I now mean including the operations on them. So if our axioms of set theory are any good, we're able to construct these important sets. And what I want to give here is an outline---you can certainly write books on various of these topics---what I give here is an outline. Some more details will appear on the next problem sheet, on problem sheet two. So before, I refer to problem sheet one.
+
+\subsection*{Natural Numbers}
+
+Recall that from the axiom of infinity we got the set $\mathbb{N}$, which by the axiom of infinity was actually identified as a set that consists of these sets $0, 1, 2, 3, \ldots$. And $0, 1, 2, 3, \ldots$ are sets---namely which set? Well, the set with name zero was actually the empty set $\emptyset$; the set with name one was $\{\emptyset\}$; the set with name two was $\{\emptyset, \{\emptyset\}\}$; well, and so on. And by the way, here you see that the computer science zero is exactly the zero of mathematics. Okay, that's wonderful.
+
+So that's the set $\mathbb{N}$. But now we wish to establish an addition on $\mathbb{N}$. And of course we should do this in a set-theoretic way; we need to derive this from the axioms. And the idea is to define a \emph{successor map}:
+\[
+S : \mathbb{N} \to \mathbb{N}, \qquad n \mapsto \{n\}.
+\]
+
+\textbf{Example.} What is the successor of two? Well, $2 = \{\emptyset, \{\emptyset\}\}$. Now I add another layer of brackets around it: $S(2) = \{\{\emptyset, \{\emptyset\}\}\}$. Ah, and this is just a short form of three. So the successor of two is three. Wonderful.
+
+Now in order to make progress we also need to define the \emph{predecessor map}. This map $P$ is only defined on $\mathbb{N}^* := \mathbb{N} \setminus \{\emptyset\}$---star means without the zero. So $P : \mathbb{N}^* \to \mathbb{N}$. The trick is to assign to $n$ an element $m$ such that $m \in n$.
+
+\textbf{Example.} The predecessor of two: $P(2) = P(\{\emptyset, \{\emptyset\}\})$. This set only has one element, and that element is $\{\emptyset\} = 1$. Ah, the predecessor of two is one! That's the trick to reduce a layer of set brackets.
+
+So we have the successor map, the predecessor map, and now we can define the $n$-th power of the successor map, $S^n$:
+\[
+S^n := S \circ S^{P(n)} \quad \text{for } n \in \mathbb{N}^*, \qquad S^0 := \mathrm{id}_{\mathbb{N}}.
+\]
+Informally: if $n > 1$, and $S^1$ is of course simply $S$. That's defined recursively.
+
+And once we have that, we can define the addition:
+\[
++ : \mathbb{N} \times \mathbb{N} \to \mathbb{N}, \qquad (m, n) \mapsto m + n := S^n(m).
+\]
+You start with $m$ and you add $n$---that means you $n$ times apply the successor map.
+
+\textbf{Example.} $2 + 1 = S^1(2) = S(S^0(2)) = S(2) = 3$. And $1 + 2 = S^2(1) = S(S^1(1)) = S(2) = 3$. Oh, it's the same!
+
+This generalizes, and you get the \emph{commutative} addition. You can also show it is \emph{associative}. Zero is the \emph{neutral element}: $m + 0 = S^0(m) = m$, and $0 + m$ also turns out to be $m$.
+
+What about the inverse element of addition? Well, we know that doesn't lie in the natural numbers: $5 + (-5)$ would yield zero, but there is no such thing as $-5$ in $\mathbb{N}$. So it's not a group; it lacks one of the group axioms. And obviously that motivates us to define the integers $\mathbb{Z}$.
+
+My point is to show how exactly this follows from the axioms of set theory, and that indeed these axioms all need to be used in order to reconstruct even high school mathematics.
+
+\subsection*{Integer Numbers}
+
+I claim that you can define the integers, the set $\mathbb{Z}$, actually as the quotient set
+\[
+\mathbb{Z} := (\mathbb{N} \times \mathbb{N}) / {\sim}
+\]
+modulo a suitable equivalence relation $\sim$. Now what is the suitable equivalence relation?
+
+Define $\sim$ on the pairs of natural numbers as follows. A pair $(m, n)$ is called equivalent to a pair $(p, q)$---by definition---if
+\[
+m + q = p + n.
+\]
+
+Let's first check that this is an equivalence relation. What about symmetry? If $(m, n) \sim (p, q)$, is then $(p, q) \sim (m, n)$? Well, you have to swap $m$ and $p$ and at the same time swap $n$ and $q$. Then the sides of the equation are just swapped, which is obviously still the same equation. So it's symmetric. Reflexive is clear: $(m, n) \sim (m, n)$ because this is then $m + n = n + m$, which is also clear. And you can also check it's transitive---let's not do this right now. This is an equivalence relation; it needs to be checked.
+
+Now what is the intuition behind this? I want to define numbers with a sign---that's the basic idea. The idea is that the pair $(m, n)$ stands for $m - n$---what we na\"ively would call $m - n$. And obviously, if I have two natural numbers, by having a pair of them I can reach every integer number this way. That's the idea.
+
+And when are two differences the same? $m - n = p - q$ if you take the $q$ to the other side and you take the $n$ to the other side, and then you get $m + q = p + n$. So that's the intuition. And now you say: yeah, okay, sure, by taking pairs of natural numbers you reach every integer number this way. But you reach every integer number in many ways. That's clear, because $1 - 2$ is the same as $3 - 4$---that's the same integer number. And that's precisely why we want to identify them: if two differences are the same. I could have written this as $m - n = p - q$. I chose not to do so---well, I couldn't do so, because I don't know what minus means. That's the problem. But if I take them to the other side of the equation, I have only pluses. So that's the clever idea: to actually define this by only using the addition on $\mathbb{N}$. Then you reach every integer number in various ways, but then you identify these various ways---you put on your equivalence relation glasses that can't distinguish the different ways anymore---and you get exactly the set $\mathbb{Z}$.
+
+So anyway, it's an equivalence relation, and with this equivalence relation we know the quotient set is defined, and I call this quotient set $\mathbb{Z}$. Now the question is whether this is the $\mathbb{Z}$ we normally have. Well, according to these musings, it is. But we might also wish to identify: normally we would think $\mathbb{N}$ lies in $\mathbb{Z}$. Well, it doesn't quite lie in this set---it cannot, because this is a set of pairs of natural numbers with some equivalence relation. But what is true is that you can embed $\mathbb{N}$ into $\mathbb{Z}$ by saying: an $n$ I had in the natural numbers before, I now identify with the equivalence class $[(n, 0)]$. And in this sense it lies in there.
+
+Can you then strictly say that $\mathbb{N}$ is a subset of $\mathbb{Z}$? No, strictly speaking not, because this has a totally different structure. But you can make this embedding and say: these are actually the elements of $\mathbb{N}$; redefine the elements of $\mathbb{N}$, and then they are a subset. That's the idea.
+
+Obviously, because of the definition of the equivalence relation, $[(n, 0)]$ is the same equivalence class as, say, $[(n+1, 1)]$---they're all identified. That's clear.
+
+So you have this embedding. And then you also wish to define the inverse of a natural number: let $n \in \mathbb{N}$, and define $-n := [(0, n)]$---do it the other way around. And this $-n$ is then also an element of $\mathbb{Z}$, obviously.
+
+Now we of course want to inherit the addition, so we define: the addition on $\mathbb{Z}$,
+\[
++_{\mathbb{Z}} : \mathbb{Z} \times \mathbb{Z} \to \mathbb{Z},
+\]
+is given by
+\[
+[(m, n)] +_{\mathbb{Z}} [(p, q)] := [(m + p,\, n + q)].
+\]
+We use the representatives to define this operation, so we need to check that this is \emph{well defined}. The intuition is: this is $(m - n) + (p - q)$; you add up the positively contributing ones, you add up the negatively contributing ones, and their sum is being subtracted. That's the intuition. That's a valid definition; it needs to be checked. It is well defined.
+
+\textbf{Example.} $2 + (-3)$. Well, the $2$ in $\mathbb{Z}$ is $[(2, 0)]$. Then comes the addition in $\mathbb{Z}$. Then comes the representative of $-3$: $[(0, 3)]$. Now we take the definition of the addition: this is $[(2 + 0,\, 0 + 3)] = [(2, 3)]$. Now, $(2, 3)$---one can check by the definition of the equivalence relation---is in the same equivalence class as $(0, 1)$. But $[(0, 1)]$ has the trivial name $-1$ according to our definition. So $2 + (-3) = -1$. Hallelujah! This is how this works.
+
+And obviously with the integers, we could have defined a multiplication in similar fashion; we could have inherited the multiplication. That's just more of the same. My point here is the basic principle. Questions so far? Everything from axiomatic set theory.
+
+\subsection*{Rational Numbers}
+
+Now let's do the rationals. That works similarly. First of all, we have to define them as a set, and once we have the set we can define the operations. The rational numbers are given by
+\[
+\mathbb{Q} := (\mathbb{Z} \times \mathbb{Z}^*) / {\sim},
+\]
+so of the second member in the pair I take off the zero again, modulo some suitable equivalence relation. This equivalence relation $\sim$ on $\mathbb{Z} \times \mathbb{Z}^*$ is defined as follows. A pair $(x, y)$ is by definition equivalent to a pair $(u, v)$ if
+\[
+x \cdot v = u \cdot y.
+\]
+
+So here we already think of $\mathbb{Z}$ as being equipped with both an addition and a multiplication. Assume we already constructed this---you believe me that this works in similar fashion. And now we call a pair $(x, y)$ of an integer and a nonzero integer equivalent to a pair $(u, v)$ if $x \cdot v = u \cdot y$.
+
+The idea is that of course, if in elementary school we write $\frac{x}{y}$, this fraction thing here morphs into a comma, and $x$ and $y$ stand on the left and right of the comma---so $x$ is the numerator, $y$ is the denominator. We would like to identify the fraction with this pair. But wait, that's not quite true, because the fraction $\frac{2}{3}$ is the same as the fraction $\frac{4}{6}$, because you can cancel common factors. So it's supposed to be not the pair but the equivalence class $[(x, y)]$ with respect to this relation, because obviously:
+
+\textbf{Example.} The fraction $\frac{2}{3}$ is the same as $\frac{4}{6}$, since $2 \cdot 6 = 3 \cdot 4$.
+
+So this implements the rule that by extending the fraction or canceling factors, you have the same fraction. The glasses you put on now is: you ignore common factors of the numerator and the denominator. And then it's pretty clear: indeed fractions are pairs of numbers---in the numerator and in the nonzero denominator---but under the identification of cancellations. Very simple.
+
+And in fact, the rational numbers have absolutely nothing to do with division. In school, it's usually alluded to this idea: well, what is $8$ divided by $2$? That's $4$. Aha, now this is $\frac{8}{2}$---that's what you're told in school---$\frac{8}{2}$ is $4$, and then they pretend that this is the same $4$ as the $4$ in $\mathbb{Z}$. But that's not true, because you have to identify this also as a fraction: it's the same as $\frac{4}{1}$. And if you wish, you can embed the integers into the rationals by saying: an integer $x$ is now being represented by $(x, 1)$---by $\frac{x}{1}$, if you wish. It's the same thing. So you do not know that $\frac{4}{1}$ is the integer $4$; $\frac{4}{1}$ is $\frac{4}{1}$, and then we have this idea: whenever we achieve to get a one down here, then we identify it with this integer. And that's this embedding here. It's very much like with the minus signs before.
+
+And of course you need an addition. You define an addition on $\mathbb{Q}$:
+\[
+[(x, y)] +_{\mathbb{Q}} [(u, v)] := [(x \cdot v + y \cdot u,\; y \cdot v)].
+\]
+So you first have to get the fractions to the same denominator, and that trivially can be achieved by writing $y \cdot v$. That's the rule given for the addition of fractions.
+
+And the rule for multiplication of fractions---that's the simple one:
+\[
+[(x, y)] \cdot_{\mathbb{Q}} [(u, v)] := [(x \cdot u,\; y \cdot v)],
+\]
+where you should note that this is the addition on $\mathbb{Z}$ and the multiplication on $\mathbb{Z}$---so we're always only allowed to use structure we already have. Now these are both well defined, as you may wish to check.
+
+And here there is the typical \emph{ill-defined} addition, the ``fool's addition'' on $\mathbb{Q}$:
+\[
+[(x, y)] +_F [(u, v)] := [(x + u,\; y + v)].
+\]
+Well, of course that hurts. If you take the sum of the numerators and the sum of the denominators, you might delude yourself into defining an addition, but here it will actually turn out this is \emph{ill defined}: if you now choose different representatives for the same fractions, this addition will generically yield a different fraction than with the other representatives you chose before. So this is the reason why we insist on using the complicated rule for addition of fractions. It's not because it more corresponds to our intuition about cakes and dividing cakes---it's because this here is simply ill defined.
+
+So there are always attempts to simplify the school curriculum, but this will never come up. It's simply undefined.
+
+\subsection*{Real Numbers}
+
+Also the reals can be defined by way of a quotient set, and the set $A$ is the set of \emph{almost homomorphisms} on $\mathbb{Z}$. And what that is, I assume you will learn on problem sheet two.
+
+And one can actually show that if you define this set and you define a suitable equivalence relation, nice objects like $\sqrt{2}$---which of course you cannot find in $\mathbb{Q}$, in the rational numbers---actually lie in this set. So we have the interesting final result that the real numbers can be constructed entirely from axiomatic set theory. Maybe you know this dictum by Kronecker, that the integers were handed to us by God and all the rest is man's work. Well, in our case the integers are handed to us from axiomatic set theory, and the rest is further work.
+
+Obviously there are other ways to understand the reals---there are Dedekind cuts, which are probably more standard. I just present this because this is just one line of always taking quotient sets to define the new set of numbers that you need. And so therefore we now arrived in---I don't know what class in high school---tenth class high school, with the construction of these real numbers. Okay, all from axiomatic set theory.
+
+And next time we'll look at topology. That means we go again back to ordinary sets, and we select certain subsets of a set $M$ and we call them \emph{open sets}---whatever that means---and there will be axioms for what kind of collection of subsets of $M$ you can call open sets. This collection will then be called a \emph{topology} on the set, and any such collection---largely not unique---will be called a topology on the set. And topology is the weakest known structure you can establish on a set in order to define notions of continuity and notions of convergence. See you next time.

@@ -1,0 +1,148 @@
+00:00:07.970 so welcome everybody to the course on the geometric anatomy of theoretical
+00:00:14.040 physics and you being advanced students you know that theoretical physics is all
+00:00:21.570 about casting our concepts about the real world into rigorous mathematical
+00:00:28.140 form for better or worse and but theoretical physics doesn't do that for
+00:00:34.920 its own sake but it does so in order to fully explore the implications of what
+00:00:42.210 our concepts about the real world are so to a certain extent the spirit of
+00:00:51.719 theoretical physics can be cast into the words of Wittgenstein who said what we
+00:00:57.090 cannot speak about clearly that we must pass over in silence
+00:01:03.439 well so indeed if we have concepts about the real world and it's not possible to
+00:01:11.549 cast them into precise mathematical form that usually is an indicator that some
+00:01:18.210 aspects of these concepts have not been well understood so if your ethical
+00:01:24.540 physics aims at casting these concepts into mathematical language but then
+00:01:29.970 mathematics is just that it's just a language and if we want to extract
+00:01:37.079 physical conclusions from this formulation we must interpret the
+00:01:43.140 language and that's not the purpose or the task of mathematics that's the task
+00:01:48.299 of physicists and that is where it gets difficult again but again mathematics is
+00:01:53.909 just a language and to again use Wittgenstein
+00:01:59.310 he says the theorems of mathematics all say the same namely nothing ok and so
+00:02:08.340 what does he mean by that well obviously he doesn't mean that mathematics is useless refers to the fact that if we have a
+00:02:14.890 theorem of the type a if and only if B a and B being propositions that obviously
+00:02:22.000 B says nothing else then a does and a says nothing else then B does it's a
+00:02:29.380 tautology okay now of course mathematically logically it's a
+00:02:34.990 tautology but psychologically or for understanding of a it may be very useful
+00:02:41.350 to have a reformulation of a in terms of B right so with this understanding that
+00:02:50.320 the mathematics just gives us a language for what we want to do the idea of this
+00:02:56.860 course is to provide proper language for theoretical physics and certainly for
+00:03:04.690 the for courses you have heard so far so the aims of the course the aim the
+00:03:12.400 overarching aim is to provide proper
+00:03:19.030 mathematical language for classical
+00:03:33.250 mechanics electro magnetism
+00:03:48.710 quantum mechanics and statistical
+00:03:57.150 physics now so these subjects you
+00:04:06.870 studied in the modules gp1 to tp4 here
+00:04:12.720 at a line or at many other universities and obviously we're not going to revise
+00:04:19.410 all the mathematics that are needed for these four subjects but rather we will
+00:04:25.770 develop mathematics from a higher point of view that we can now approach that
+00:04:30.990 you have some prior knowledge of these subjects and so far you have certainly
+00:04:41.070 used a fair amount of analysis in order to study these subjects further a fair
+00:04:48.240 amount of algebra mainly linear algebra
+00:04:53.670 but also non linear algebra at times and geometry in one or the other form so
+00:05:03.660 very often in classical mechanics you would appeal to geometric intuition in setting up a problem or finding the
+00:05:10.560 solution to a problem the same goes for electromagnetism algebra you mainly used
+00:05:15.870 in quantum mechanics that's the modern way to do quantum mechanics is by means of linear algebra and in statistical
+00:05:22.170 physics you use some geometry maybe without really realizing it by looking at convex cones of states and so on now
+00:05:30.630 if you take these four fields and you
+00:05:36.390 try to be pedagogical if you draw circles around them
+00:05:48.919 and so classical mechanics and
+00:05:54.300 electrodynamics certainly use a fair amount of analysis in geometry and so
+00:06:01.259 does general relativity for those of you who took that course or about to take it
+00:06:07.800 well quantum mechanics lies certainly well in intersection of analysis and algebra usually called functional
+00:06:14.490 analysis and well algebra and geometry let's do statistical physics justice ed
+00:06:23.039 more or less lies there of course this is not a pure picture this is mainly where the intersections of these fields
+00:06:31.370 come to play and here in the middle
+00:06:36.620 where these three fields intersect we have differential geometry as a
+00:06:42.000 mathematical subject and it's differential geometry that this course is mainly about so the mathematics of
+00:06:50.909 this course will be that part of the mathematics of these different theoretical subjects where these three
+00:06:57.449 fields intersect that's the rough idea of this course now the structure of this
+00:07:07.439 course
+00:07:16.210 and indeed the development of differential geometry that we're about
+00:07:22.070 to start starts well with sets so we'll
+00:07:32.479 talk about set theory because any space
+00:07:39.169 in classical mechanics the space of configurations or the phase space
+00:07:45.370 electromagnetism the space in which you work or in quantum mechanics the
+00:07:50.660 physical space over which you construct your hilbert space and so on all these spaces are certainly sets of points
+00:07:58.610 that's the coarsest structure of such a space it is a set but what precisely is
+00:08:05.210 a set well one can delude oneself into thinking one understands set by saying a
+00:08:11.449 set is a collection of elements but that just raises the question what a collection is and what elements are so
+00:08:18.410 we certainly need to do better and there is a fundamental problem if we start
+00:08:23.510 writing a book about mathematics of whose pages are all empty yet because
+00:08:29.599 what could the first definition be for definition you need notions that you
+00:08:35.089 already have in order to define a new notion but if you don't have any notion yet how do you start well the trick is
+00:08:43.130 to start axiomatically and so we'll have to write down axiomatic set theory but
+00:08:48.589 that then raises the question in what language would you possibly do that so actually before we come to set theory we
+00:08:55.430 need another building block down here and that will be logic and we will deal
+00:09:03.589 with propositional and predicate logic first that will define our language and
+00:09:10.370 then we'll be able to write down the axioms of set theory now once we have
+00:09:15.500 the axioms of set theory and we have our beautiful sets the question is what can we do with them
+00:09:20.899 and one thing we certainly need at least for these four subjects we need a notion
+00:09:27.680 of continuity for instance in classical mechanics are famously
+00:09:32.860 particles don't jump so the particle trajectory doesn't stop somewhere and
+00:09:38.030 start somewhere else again it's continued so you need a notion of continuity and such a notion you get by
+00:09:44.960 distinguishing certain subsets of the basic set you have and that leads to the
+00:09:52.070 notion of topology so we'll deal with topological spaces and all the notions
+00:10:00.340 associated with that now there is an abundance of topological spaces such an
+00:10:07.220 abundance that you cannot even classify them and so we will need to restrict
+00:10:13.670 somewhat to interesting topological spaces well topology topologists may disagree
+00:10:19.760 that only those I'm going to write down are the interesting ones but from the point of view of theoretical physics
+00:10:25.420 immediately interesting are the topological manifolds topological
+00:10:33.440 manifolds which we're going to define a topological spaces that locally around
+00:10:39.050 the point look like some R to the D now
+00:10:46.010 that's not enough if you have topological manifolds you also need in
+00:10:51.260 physics especially in classical physics you need a notion of derivative you need
+00:10:56.390 to be able to talk about the velocity of a curve and that cannot be done in
+00:11:02.180 topological manifolds what you need there you need differentiable manifolds
+00:11:09.100 and that's an entirely new beast and they will need to introduce the
+00:11:14.240 technology of charts and the technology of charts will for the first time make
+00:11:19.310 contact to much of the formulism you already used in the standard courses in fact all the standard courses have been
+00:11:26.570 formulated in charts so far I'll explain later a chart is like Sailor uses a chart of
+00:11:35.660 the world you travel across the globe and if you want to know where you are and where you want to say you take out
+00:11:41.840 Atlas and the Atlas you'll turn the pages and you'll find the appropriate chart around the point where you are in
+00:11:48.080 the real world you can navigate in the chart and there and the chart should be
+00:11:53.210 a one to one picture of the world locally because if you then move in the
+00:11:58.730 world such that in the chart you would leave the page you better turn the page and you'll find the other page that slightly overlaps with the chart in the
+00:12:05.810 Atlas so that you can then navigate on with the other chart and very much the same thing looking for another chart
+00:12:12.200 that overlaps and understanding how the overlap works that's the whole philosophy behind manifolds and
+00:12:19.220 certainly behind differentiable manifolds because differentiation the charts are parts of Rd like r2 for
+00:12:26.270 instance and them so you understand differentiation in the charts and we
+00:12:32.120 will lift the notion of differentiation that we understand well in the charts we'll lift it to the general concept of
+00:12:37.880 differentiation on the manifold that's already the entire philosophy it's it's
+00:12:47.540 roughly the same chart it's the technical term in this case that's right okay so we will certainly come to that
+00:12:54.640 now once we have differentiable manifolds maybe already before we'll
+00:13:01.220 come to a notion which well in some sense is yet another structure but it's
+00:13:08.870 bundles so the idea of bundles is you
+00:13:15.890 take a manifold and you take another manifold and to each point of a given
+00:13:21.290 manifold you attach the other manifold you build a bundle you could have a vector bundle at each point you attach
+00:13:27.230 the tangent space and so on and bundles are a very important concept in geometry
+00:13:32.600 in differential geometry and indeed much of modern physics can be understood or
+00:13:37.790 can be cast into the language of bundles so this is true for particle physics but
+00:13:43.010 also for gravity and so on certainly for quantum mechanics so I'm actually about
+00:13:49.960 here now already here we will learn that a notion of
+00:13:55.910 position vector should be forbidden there is no such thing as a position
+00:14:02.660 vector doesn't matter how often it's repeated there is no such notion now in
+00:14:10.700 bundles you learn there is no such thing as a wave function in quantum mechanics
+00:14:16.430 you get away with the notion of position vector unless you look too closely and
+00:14:22.460 then it fails and the same is true in quantum mechanics you get away with the notion of wave function but then it
+00:14:28.970 fails in fact a wave function is so a position vector is just a collection of
+00:14:35.000 coordinates but they do not constitute a vector and the wave function in quantum mechanics is not a function at all it's
+00:14:42.110 a section in a complex line bundle over the physical space you cannot understand
+00:14:49.400 this but you will at the end of the course so these notions are needed if you really want to say what's going on
+00:14:57.070 now ok so once we have bundles or maybe also alternative to bundle sometimes so
+00:15:04.940 don't take the picture too seriously it's a rough idea of how this building is constructed will have geometry
+00:15:12.700 geometry comes in form of so-called tensor fields on this structure so that
+00:15:20.150 could be symplectic geometry that would be the drama tree of classical phase
+00:15:26.420 space in mechanics but actually it's a much bigger subject because for virtually all dynamical systems of
+00:15:32.900 interest to us the phase space is equipped with the symplectic geometry there may be a metric geometry this is
+00:15:41.810 certainly the case in electromagnetism due to a certain extent needed drama tree just in the volume form and
+00:15:48.950 certainly it's the case in relativity and special and general relativity you need a so called lawrencium metric this
+00:15:56.270 is a structure that sits on top here but you need to understand more or less all of this in order to really
+00:16:02.680 professionally deal with geometry well and then to complete this
+00:16:09.260 then when I promised you that all these different subjects you learn about
+00:16:15.560 before so up to here it's just physical mathematics but then up here it's
+00:16:23.060 physics we have classical mechanics electromagnetism quantum mechanics
+00:16:28.190 statistical physics and special relativity and general relativity all of
+00:16:34.340 these physics can be understood and can
+00:16:41.150 be properly understood by mastering all these mathematics and again the purpose
+00:16:52.520 of this course is to develop these mathematics and then to show mainly by
+00:16:58.570 examples of how the insights you gain from here play out at the level of
+00:17:06.290 physics that's the ID of this course are

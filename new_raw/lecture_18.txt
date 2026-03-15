@@ -1,0 +1,144 @@
+00:00:08
+so the morning welcome back so today we finally complete our discussion of lis groups and so what we did so far we start with the lis group G and we studied the correspondingly algebra as first the set of all the left invariant vector fields and so because coming from a group truth to the vector fields we invoked some differentiation of sorts and today we are going to answer the question of why these left invariant vector fields are so interesting if you want to study legal well you can derive them from
+
+00:00:51
+there but what do you learn about the group once you know the algebra so today we will be concerned with the question of how to go back up there and I can already anticipate the result at least in a neighborhood of the identity up here there's an identity element at least in a neighborhood of the identity and you can fully recover every lis group from its lis algebra how big this neighborhood is that depends and we'll look at that - and then this going up there again will be achieved by
+
+00:01:29
+something that we will call the exponential map so we have a section four point seven recovering and let's be careful some maybe all some of the legal from its lis algebra all right so the first thing we're going to do well we know that down here we actually have this isomorphism through the tangent space at the identity but now we will also on occasion have to invoke the left invariant vector fields again to understand this exponential map well but the first thing I want to provide is a definition we could have
+
+00:02:30
+brought much earlier and that's the following let M be a smooth manifold and let Y be a vector field a smooth vector field on M then an integral curve or then a smooth curve a smooth curve gamma and now we've got to be a little careful with the parameter range let's say with the parameter range from some real number a to some real number B into the smooth manifold is called an integral curve if well if for every point along the curve that means if for any parameter value lambda in the interval a B it is
+
+00:03:39
+true that the tangent vector to the curve at the point gamma of lambda remember we always indicate at the tangent vector to a curve by this symbol X curve comma at the point if this point is actually if the tangent vector at the point is actually given by the given vector field at the very same point through which the curve passes so that's an integral curve it's quite obvious that there is a unique integral curve through each point of the manifold integral curve of a vector field Y through each point of the manifold well
+
+00:04:46
+if I say it's obvious well actually this obvious follows from the local existence and uniqueness of solutions solutions to ordinary differential equations okay so the the idea is you have a vector field on your manifold and you go to an arbitrary point of the manifold let's say this one where of course the it's a vector and now you can find a curve whose tangent vectors coincide with the vectors that are already given and locally around the point if the vector field is smooth that's important
+
+00:05:56
+they need to be smooth vector field obviously then this is unique okay so now that's this now there's an important definition which at first sight seems a little what not so important but it is also plays a big role in in the singularity theorems in general relativity but this first like this a curve gamma an integral curve an integral curve gamma of a vector field why it's called complete if it's domain that's what I call the parameter range before if it's the main can be extended
+
+00:07:04
+to all of our so a B well to all of our it's complete so there is a result that says that on a compact manifold on a compact manifold every vector field is complete we always talk about smooth vector fields every smooth vector field every vector field is complete now and only on a non compact manifold this is not necessarily the case now let's look at an example to immediately withstand the temptation to look not closely enough so imagine you have a sphere okay let's take the sphere
+
+00:08:08
+surface of the sphere it's an S true and we look at a smooth vector field well we already know we cannot comb the sphere so that means we might if we want to have a vector field here we know at some point it must vanish okay if it's a smooth vector field briefly before that it needs to be small and then if you as you go away you can maybe make it bigger right but we know there must be such a point where it vanishes we use this argument you cannot calm a sphere when we discussed the non-existence of bases
+
+00:08:53
+of the module of vector fields and so on so let's say we're on the sphere and it looks like this now the sphere is compact but here it really looks like at first sight that and that's actually true say you go through this point and you find the integral curve the integral curve goes here and it call of course it stops at this point because if you went on you can no longer run in the same direction right because then the tangent vector would be opposite to the fee so this curve stops here whatever it
+
+00:09:32
+does over here so it it seems like it cannot be complete why is it complete well because we're not talking about the image of the curve we're talking about the the parameter and indeed in order to arrive at that point I need to go to infinite parameter because the tended the vectors of the wife is they get shot and shot and shot and shot and shot so the curve must become slower and slower and slower such that the tension curves really coincide with the vectors that become shorter and shorter and indeed
+
+00:10:11
+you only arrived here at infinite parameter value or you could also say you never arrived there okay so you cannot simply look at the image of a curve at this point set here and decide whether the curve is complete or not okay and now if you have a non compact manifold you can have such situations that you have a curve and you come through a point and so there's a vector field on there and you come to a point and for a finite parameter B and you cannot continue or it's no longer an integral curve okay so this is the
+
+00:10:57
+completeness and this is for general smooth manifolds M I introduced this because for the special case of a smooth manifold G that is a ly group it turns out every left invariant vector field is complete even if the manifold on which it lives the group is non compact that's the strong result okay so theorem every left invariant vector fields on a lee group which is a smooth manifold in particular is complete that's the theorem one can prove it's not so difficult to prove it but it's a little
+
+00:12:05
+lengthy but the key result of Lee theory it's one of the most important results although it appears to innocent here and the reason why it's so important is the following construction definition let's say we take an element from the tangent space at the identity so what we decided would be the convenient space where we which we think the elements of the ly algebra lie okay let's let's take this and define the thus uniquely defined or uniquely determined left invariant vector field
+
+00:13:09
+how shall we call this X a well where I was X a define X able to find such that at the point G of the manifold it was given by the push forward of the left translations acting on the element a that lives at the in the tension space at the identity this way we made from a single vector in the tangent space an entire left invariant vector field on the hole on the whole Lee group okay let's say we do this so we start with such an element then let gamma which we also call gamma a that gamma a from R to
+
+00:14:07
+G and this is now the point where we use the completeness r2g be the integral curve of this left invariant vector field through the point gamma of zero being the identity so I called it e over here being the identity of the group okay lands in the group so I can say a parameter value zero I want to be at the identity and how do I go on from there well it depends in which direction my a points and then I just follow the an integral curve of this vector left invariant vector field through that point for an e so I should write in a
+
+00:15:19
+yes it's clear this uniquely defined so I start with an A in the tangent space and I get a particular curve through the identity following this a so the derivative at the identity would be exactly this the same the tangent vector okay to this point this induces or defines this curve defines aa and here this that I can define this for every parameter value that is of course building on this theorem that the vector field is complete so this defines the so called exponential map and what does the
+
+00:16:16
+exponential map do well it has a pretty name is called X and it takes any element from the tangent space to the identity and maps it into the Lee algebra so this is this path we want it to go from the algebra up to the Lee group and it's defined as follows it says that X of some a letter take from here is defined as exactly this integral curve gamma a evaluated at parameter value 1 so a parameter value 0 I'm at the identity and now evaluated a parameter value 1 now you say why 1 well I could of course right here a lambda in
+
+00:17:09
+front and then I have a I can have a lambda here because I can scale these guys okay so it suffices to define this at 1 so called exponential map that's it okay so remarks or when it's rather it's called the theorem because it is so theorem comes in several parts the first part is that X is a local to feel morphism a local if you morphism so what does that mean it means there exists a neighborhood of well so there exists a I should say well it's a it's a neighborhood of 0 of the 0 vector in
+
+00:18:16
+this tangent space there's need to be a vector subspace well it won't of course it's it's just a subset in the neighborhood of the 0 vector there such that if you consider the restriction of the exponential map such that X restricted to this subset and therefore mapping from V to X of V which is then a subset of the group is a bijective and B X restricted to V and X restricted to V inverse about smooth that's local different morphism so it means by knowing the leave algebra we understand
+
+00:19:23
+the neighborhood of the identity of the group some neighborhood could be a large neighborhood second if the Li group G is compact then X is subjective that means that X indeed you can start with the leave the entirely algebra and it will reproduce the entire group that's nice so for compact groups understanding the Li algebra you get any group element back by exponentiating up that's good however let's compare so once one has such a result something is subjective you can start comparing the domain and
+
+00:20:33
+the target and we know that the domain is compact while well there was our assumption here and we can look at the target and what do we know about the target is the target compact or non compact at the domain I'm sorry it's a vector space is a compact or non compact it's non-compact ok it's not that this is non-compact now if I have a map that's surjective and it's of course a smooth map we know that did I say that so gone well the exponential map is smooth yeah well so it's a smooth map
+
+00:21:21
+well if you have a smooth map that's by directive then you would have established it if you morphism but if you're more frizam in particular as a homeomorphism and should send a compact space to a compact space right it should preserve this so the point is it cannot be injective right because otherwise it had to preserve the topological structure hence hence it follows that X in this situation where G is compact that means X cannot be injective so that means you can do this you get the whole
+
+00:22:12
+group but you will hit elements twice at least twice in here ok so let me draw a little example let's say we take the s1 that's this nice circle here and that's the smooth manifold underlying so2 now if you talk about rotation and so to you need to give me an angle so the underlying manifold is s1 as a manifold this is s1 and what's the tangent space at the identity well let's say that's the identity and that's the tangent space at the identity and this is T so this e this is te it's all true so the
+
+00:23:04
+tangent space is the real line that's not compact this guy is compact now if i exponentiate here say i take this vector in the tangent space and i take the x map of it i land here i take double the vector i take the x map of it i land here if i take a suitability long vector i'm back here if I take a vector it's even a little longer I hit this point for the second time and so on and the same the other way around so this is the example to this argument okay you mean that if it's subjective and it Maps you from a non
+
+00:24:03
+compact to a compact space well if it's subjective and of course it must be at least continuous in order to allow you to have a continuity of course of course okay so that's if G is compact now if G is non compact it need not be subjective so let me well that's a non result so nevertheless let me state it as a non result so if G is non compact it may be not subjective right but it now could be injective because you no longer run into this trouble yeah and it can be both it may not be subjective may
+
+00:24:57
+be injective and may indeed be by directive but you see part three says nothing okay it just warns you that nothing of what you concluded here applies there okay and so an interesting non compact group in physics is of course for instance soo 1 comma 3 the Lorentz group is non compact choosing a basis a 1 to a dim G of the tangent space at the identity choosing a basis there hence provides a let's say convenient an emotional statement provides a convenient parameterization of our coordinate ization cool or the net
+
+00:26:26
+ization of the loop so um well it's do something half physical so let's say we take the tangent space to the identity of the Lorentz group then we can choose a basis that consists of M mu news like you usually call them but every mu nu is an element of tes or 1 3 and these mules you news they run from 0 to 3 say ok but so you have n they're anti symmetric so you have six of those and that's right because there's a six dimensional so the tension space is six dimensional so you can label the these elements
+
+00:27:29
+these basis vectors such okay and well they have to satisfy a shut-in algebra so you can ask what kind of algebra the MU news with the M Rho Sigma's satisfying and if I remember correctly that some ETA M plus ETA M minus ETA M minus ETA M and the only thing you got to do and the ETA is the Minkowski metric and the only thing you need to do you need to distribute the indices correctly here and of course you can calculate this from from first principle so I said yes so these are anti-symmetric
+
+00:28:18
+so well you figure it out okay so you look it up so that's the the Lorentz algebra right is maybe our location we should write it somehow like this okay the Lorentz algebra and indeed you get well you hang on do you get all of so1 three I think you just get the autochthonous subgroup whatever anyway you can consider X of any of these guys but because they're a basis I want to get any element of the tangent space here well I can do this by providing linear combinations with coefficients with six coefficients which I label
+
+00:29:05
+Omega mu nu but they're only six because this is just the label so these Omega mu news each of them is just a real number and each of those guys is an element of the tangent space and I can exponentiate those and now I think yeah the only thing you get is you don't get back all so1 three I think you only get back so1 three and get but please check this again so you get a so one three only the autocracy loops or where you don't have mirroring in the time in the time direction where you're
+
+00:29:52
+only okay where you keep a future pointing vectors future pointing okay anyway this is what we do in physics very often we say these are the elements of the group and in this parameterize the group is like coordinates on the group manifold right and they're very convenient coordinates because if you look at them because it's anti-symmetric you may because the matrix you can write this as a four by four matrix but it's empty symmetric so it has zeros on the diagonal and if you look closely then
+
+00:30:25
+you have here psy 1 psy - psy 3 and here you have one two five three one three minus Phi 2 3 2 2 3 1 Phi 1 and then you have anti-symmetric this repeat on the other side and these are the boost angles the hyperbolic angles that tell you the boost in this in that direction with this in that total hyperbolic angle and this is the rotation that's done at the same time so this is a combined boost and rotation and because you understand these guys these parameters well intuitively right as rotations and
+
+00:31:08
+boosts this is a very convenient coordinate ization of this group and in physics you know that you very often think of the group as being generated so that's terminology you say these basis elements are the generators of the group means nothing but there are a basis of the the algebra and the group elements are generated this way by the exponential map now this is the abstract version if you now represent the algebra that means you have a representation te well in this case s o1 3 and you decide
+
+00:31:50
+to reproduce the algebra on say on four then each mu nu so then you can say the road the representation of each basis elementary note the representation is linear so I only need to define it on a basis and the representation is then a matrix a B right where a and B run from 1 to 4 that acts on R 4 and this is probably how how you met these guys and I think the this representation here is given by something like Delta M okay so how does that have to look like another one that M of course Delta ETA AHA is Delta ETA
+
+00:32:41
+say mu a mu B and then there's again pluses or minuses of similar terms okay and that's the vector representation this is now just certain matrices this is the vector representation there and so on okay so for instance Rho of M 0 1 I think that's something like a boost in one direction that looks like that looks like this something of the type and so on okay so then you have a representation and once you have a representation you can plug the representation in here and then this X becomes just the exponential series
+
+00:33:33
+applied to matrices because they have an index up down because the endomorphisms they can be composed and the power in the exponential series where it says X to the N by n factorial the power to the N is the power of the composition one after the other and then the exponential map becomes something very that coincides with the exponential map you know once you use a representation but this year as it's written here is still fully in the App Store and the exponential map is defined via the integral curves of the left
+
+00:34:09
+invariant vector field generated from here okay so that these are these little different levels of abstraction or which you can discuss this but after all choosing a representation it becomes very elementary and that is why in physics we very often think of the groups and the algebras always in terms of some representation rather than abstractly but in order to really get the background theorems on how you can use this and so on we had to do what we did okay so this is just to connect this to what you have seen in your physics
+
+00:34:46
+lectures before okay so we have another definition very useful and that's the definition of the one-dimensional subgroups or as they're also called to one parameter subgroups okay a one parameter subgroup it's just terminology one parameter sub T of a lis group G is a leave group homomorphism that means a smooth map let's call it Sai a smooth map that goes from the Li group are into the Li group G but in order to have our being a Li group I need to tell you what the group operation is and I just use
+
+00:35:53
+the ordinary addition which of course makes our into a into an abelian group and on G well we have some blob and the blob is smooth and so on okay it's a li group homomorphism that is so I should say there is a smooth map sigh for which we had this before but it doesn't harm writing this down again what does V group homomorphism mean it means you can first take elements in here and compose them so in this case say two parameters through two real numbers and how do you compose them well lambda 1 plus lambda
+
+00:36:46
+true that's the group law and but you could have equally well and that's the group homomorphism part could have equally well mapped first one of them and then the other one and then blob the result using the group operation there that's the group homomorphism and any such thing is called a one parameter subgroup so if you want it's the embedding of a one parameter group into the big group okay so then we have a theorem which one could prove it comes again in two parts and the first part is that sy a from R
+
+00:37:45
+to G where sy a of lambda is defined as X of lambda a is the one parameter subgroup is a one parameter subgroup of G for any choice a in the lie algebra okay so if I now take an A and then I scale it scale scale you have a one parameter subgroup if you think back of the circle right so one parameter subgroup you have there so that's one thing one control it's not so spectacular one already because it's you see in particular if lambda is zero you have X of zero you can think about it X of zero yields you the identity
+
+00:38:46
+okay so you always go through the identity so the points you cover so psy a of all of our is a subset of G contains the identity and indeed you also always have the inverse element because obviously the inverse element of X I I of lambda X I a of minus lambda so let's say here in particular particular you take X I a of some lambda and that's a group element but the a Slaton index is just a chosen tangent space element and you can ask if it's in the group what is its inverse and the answer what
+
+00:39:29
+is its inverse in the answer is that asks I a of minus lambda okay and the second statement is any one parameter subgroup any one parameter subgroup or one could also call any one dimensional subgroup of G's is of this form okay so the lie algebra allows us to understand all the one parameter subgroups of our ly group questions here okay so then we conclude with a theorem one of the theorems like one would expect it so let's say you have two Li groups G and H and you have a smooth map from G to H which is a group
+
+00:40:56
+homomorphism so if so smooth and well f of G 1 the blob in G G 2 is required to be F of G 1 blob in H F of G 2 right if you have this that's a group homomorphism then the following diagram G goes here F you can actually go up here from the Lee algebra by an expert you can go up here by an x te 8 and if you have a group homomorphism from G to H you can check that the push forward that's associated with it really takes you from te g to teh and that is because a particular implication of having a
+
+00:42:12
+group homomorphism is that F takes the identity and maps it to the identity so the identity in G is being mapped to the identity in age that follows from the group homomorphism property here that's not difficult to show and so indeed the push forward of a Lee group home or really maps you from one li algebra into the other of the other guy and and then the statement of the theorem is that this diagram commutes and we know what that means it means you can go either way you can either go from here to here or you can
+
+00:42:52
+go this way so that is let's spell it out nevertheless for practice that is that f of X of a so an a therefore is an element of te G is the same as X of the push forward of the same a so you can exchange this and this is convenient right that you can use the that the exponential map in a sense commutes with group regroup homomorphisms but of course if it drums in there it needs to become the push forward associated with that Li group homomorphism that's it okay so um at this point all that
+
+00:43:47
+remains is to solve some problems on an upcoming problem sheet over Christmas and but that finishes our formal discussion of Li groups and the algebra
+

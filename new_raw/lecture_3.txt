@@ -1,0 +1,1677 @@
+# tactiq.io free youtube transcript
+# Classification of sets - Lec 03 - Frederic Schuller
+# https://www.youtube.com/watch/6EIWRg-6ftQ
+
+00:00:04.650 [Music]
+00:00:09.160 with these foundations we can actually
+00:00:11.960 proceed to an important topic that's
+00:00:16.760 1.6 classification of
+00:00:25.519 sets now this is an important exercise
+00:00:29.240 every time you defined a notion in
+00:00:33.040 mathematics you immediately ask what is
+00:00:36.399 the
+00:00:37.360 classification how
+00:00:39.120 many different objects of this type do I
+00:00:43.079 have how do I get an overview over this
+00:00:46.000 structure it's fine to write down a
+00:00:48.160 definition it's fine to write down in
+00:00:50.480 this case nine
+00:00:51.879 axioms but we would like to have an
+00:00:54.280 overview what type of in this case sets
+00:00:57.320 are there um but this this is something
+00:01:00.519 that doesn't only happen in set theory
+00:01:02.320 it's a recurrent theme in mathematics so
+00:01:04.640 let me write this down a recurrent theme
+00:01:07.080 in
+00:01:15.159 mathematics is
+00:01:17.880 the
+00:01:21.640 study well study is very general let's
+00:01:24.119 be more precise is the
+00:01:28.840 classification of
+00:01:32.119 spaces I explain a second what a space
+00:01:34.799 is supposed to mean it's the
+00:01:36.240 classification of
+00:01:38.040 Spaces by
+00:01:41.159 means of structure
+00:01:47.320 preserving Maps between those
+00:01:57.560 spaces so we have to clarify ify what we
+00:02:00.439 mean by spaces and we got to clarify
+00:02:03.200 what we mean by
+00:02:09.038 Maps
+00:02:11.560 space is
+00:02:14.440 usually
+00:02:16.800 meant to
+00:02:20.640 be some
+00:02:24.840 set
+00:02:27.280 together or let's say equipped
+00:02:32.959 with some
+00:02:39.879 structure and in the beginning of the
+00:02:42.120 course I told you that we'll uh put
+00:02:45.800 layers of structures on top of each
+00:02:48.200 other so we'll equip sets with more and
+00:02:50.879 more and more structure and that's the
+00:02:53.800 structure I'm talking about here so it
+00:02:56.000 will be topology as the next step then
+00:02:58.519 it will be a differentiable struct
+00:02:59.760 structure and so on okay but uh it could
+00:03:02.879 also be other structures like a group
+00:03:04.640 structure so you give a um an operation
+00:03:08.799 on a set and so you add structure like
+00:03:11.599 this and every time this principle
+00:03:14.720 applies a space is usually meant to be
+00:03:17.080 some set equipped with some
+00:03:19.720 structure and now you want to classify
+00:03:22.560 such a space well the case of sets is of
+00:03:25.360 course a trivial instance of this
+00:03:27.560 because it's a set without addition
+00:03:30.000 structure okay fine but it's
+00:03:31.879 nevertheless a set and a structure
+00:03:33.959 preserving map in the case of set theory
+00:03:37.040 simply becomes a map because there's no
+00:03:39.560 structure that could be preserved well
+00:03:41.599 it's the structure of the set itself but
+00:03:43.239 it's kind of the the lowest uh the
+00:03:45.480 lowest level structure and we'll
+00:03:47.120 investigate this in the set has
+00:03:49.959 structure um so this is this so
+00:03:52.879 obviously we need a notion of map
+00:03:56.680 definition a
+00:03:58.680 map
+00:04:01.200 f is a
+00:04:06.400 relation um well it's a map
+00:04:09.760 F from a set a to
+00:04:13.360 B is a
+00:04:17.639 relation uh such
+00:04:21.880 that for every
+00:04:26.080 a in
+00:04:28.080 a there exists
+00:04:33.000 exactly
+00:04:36.199 one b in B such
+00:04:42.360 that f a comma B full stop what does it
+00:04:47.840 mean f of a well it means F of a is true
+00:04:51.720 you remember a relation of two variables
+00:04:54.160 can be true or false and if a and b are
+00:04:57.360 sets then a map from A to B is such a
+00:05:01.080 special relation such that exists for
+00:05:03.720 every a exactly one b in B now
+00:05:08.840 um our standard notation for this
+00:05:13.720 somehow hides the fact that f is a
+00:05:16.800 relation that eats two variables and
+00:05:19.720 produces a truth value the standard
+00:05:22.479 notation for this is to write F
+00:05:27.600 A and then to write
+00:05:31.280 a to the value a in a we assign the
+00:05:36.160 value five of B in B and you see if if
+00:05:40.440 you say fi is a relation then this is an
+00:05:44.560 abuse of notation because the relation
+00:05:46.600 needs to eat two objects and produce a
+00:05:49.680 truth value but once we agreed that for
+00:05:52.840 every a and a the exist exists exactly
+00:05:55.160 one B and B such that F of a b then F of
+00:05:59.240 B B I'm sorry F of a then F of a is
+00:06:04.400 precisely this B okay so this is then
+00:06:07.800 defined as precisely the B That's Unique
+00:06:10.360 such that five of a is true and that's
+00:06:13.199 that's the standard notation right but
+00:06:15.880 um structurally
+00:06:18.039 speaking well I don't know whether it's
+00:06:20.319 important but it's at least structurally
+00:06:21.919 correct to keep in mind that a map is
+00:06:24.160 actually a
+00:06:25.479 relation um if you don't look at a map
+00:06:28.880 as a relation
+00:06:29.919 then you get into trouble because you
+00:06:32.360 have to say well a map is such that to
+00:06:34.240 every a there is assigned a unique B the
+00:06:38.680 question is what do do I mean by there
+00:06:41.360 is assigned a certain B what does it
+00:06:45.160 mean to assign to one element in a
+00:06:48.919 another element in B this notion of
+00:06:51.280 assigning is not defined and um so it
+00:06:54.319 comes from from a relation okay so
+00:06:57.160 that's the basic idea of a
+00:07:01.160 map so there's some further
+00:07:08.360 terminology um so if you have a map five
+00:07:11.280 from A to B then uh a is called the
+00:07:14.720 domain of the
+00:07:17.720 map um B is called the
+00:07:21.400 target of the
+00:07:23.400 map uh then there is an object that we
+00:07:27.360 write down as five of a or sometimes we
+00:07:31.800 write it down as IM the image of the set
+00:07:36.440 a uh under the map F and is nothing but
+00:07:40.520 the set defined by restricted
+00:07:44.000 comprehension is the set of all five of
+00:07:47.560 a where a comes from a and of course we
+00:07:51.599 know that this must lie in B by
+00:07:54.720 definition so it's really restricted
+00:07:57.440 comprehension we can Define it like this
+00:08:00.440 this is the
+00:08:01.720 image and then we have further
+00:08:03.840 definitions also well known to you um
+00:08:06.759 that a map
+00:08:09.080 fi from A to
+00:08:11.680 B
+00:08:13.199 um is inject um
+00:08:19.280 surjective if its image five of a
+00:08:24.360 coincides with the target so if every
+00:08:27.199 point in the Target is hit by the map
+00:08:31.000 it's
+00:08:33.958 injective if the equality of two values
+00:08:39.479 of the map if five of A1 equals 5 of
+00:08:42.799 A2 already implies that A1 equals
+00:08:48.880 A2 and the map is bjective and that's
+00:08:52.160 the key notion it's bjective if it's
+00:08:57.720 injective and
+00:09:05.680 subjective and bjective is the by far
+00:09:09.240 most important
+00:09:11.920 notion and in fact we have the following
+00:09:14.959 key definition two
+00:09:18.240 sets A and
+00:09:20.800 B are
+00:09:24.600 called I put the qualifier here set
+00:09:28.120 theoretically
+00:09:36.640 isomorphic so they're called isomorphic
+00:09:39.680 in set
+00:09:43.760 theory um and for this we write
+00:09:48.120 a equal with a twiddle on top B and the
+00:09:52.640 qualifier set as a subscript it's called
+00:09:58.120 isomorphic
+00:10:00.279 if there
+00:10:03.680 exists a
+00:10:07.760 bje let's call it
+00:10:10.000 f uh from A to
+00:10:15.959 B now you
+00:10:17.920 see um we just require the existence of
+00:10:22.079 some
+00:10:25.560 bje and by not asking for a particular
+00:10:28.519 bje how would
+00:10:30.120 we actually this becomes a property of
+00:10:33.079 the two sets they are such that there is
+00:10:36.279 such a bi
+00:10:38.040 ejection um important remark is if there
+00:10:41.480 is any
+00:10:43.240 bje there is any bje at
+00:10:50.519 all from A to
+00:10:52.760 B then
+00:10:56.160 generically that means only in
+00:10:58.320 exceptional case this is not the case
+00:11:00.399 then
+00:11:01.639 generically there are
+00:11:05.600 many that means there is not a unique
+00:11:08.880 such bje the whole Criterion is there
+00:11:12.040 exists such a
+00:11:14.160 bje and um the intuition about this
+00:11:20.440 is um pair
+00:11:23.880 up
+00:11:26.760 elements of a
+00:11:29.880 and B so if you have two classrooms one
+00:11:34.320 with boys and one with girls you can ask
+00:11:37.000 are they isomorphic all you got to do is
+00:11:39.480 pair up the boys with the girls in pairs
+00:11:42.800 and if there's nobody left then
+00:11:45.920 obviously you have a bje because to
+00:11:47.680 every boy you find a girl but you find
+00:11:50.399 exactly one girl so it's injective and
+00:11:53.440 uh subjective and every girl gets a boy
+00:11:57.360 or gets assigned to a boy
+00:11:59.480 um then you have the intuition of equal
+00:12:03.600 size but it's actually better than an
+00:12:06.959 intuitive notion of equal size because
+00:12:09.399 it also works and it's designed to work
+00:12:11.920 for infinite
+00:12:13.800 sets for finite sets equal size is an
+00:12:16.639 equal is an easy thing you just count
+00:12:18.720 you say it's the same number but for
+00:12:21.560 infinite sets that's not so easy by the
+00:12:23.760 way we could clarify what an infinite
+00:12:25.519 set is um and that's already the promise
+00:12:31.000 classification classification of
+00:12:34.399 sets by way of studying structure
+00:12:38.440 preserving maps and the structure
+00:12:40.480 preserving maps are the BS in the case
+00:12:43.680 of set theory classification of
+00:12:47.480 sets
+00:12:49.480 um a set
+00:12:53.480 a
+00:12:55.040 is let's start with the definition of
+00:12:57.959 infinite
+00:13:00.880 infinite if there exists a
+00:13:04.920 subset a proper subset if there exists a
+00:13:08.480 proper
+00:13:11.920 subset what's a proper subset it's a
+00:13:15.639 subset but by force it's not equal to
+00:13:21.079 the set the exists so the set a contains
+00:13:25.399 an element that the set B does not
+00:13:27.760 contain okay it's infinite if there
+00:13:31.240 exists a proper subset well that's not
+00:13:33.199 it yet there exists a proper subset um
+00:13:37.519 that
+00:13:38.800 is isomorphic to
+00:13:45.000 a so B in fact set theoretically
+00:13:49.880 isomorphic to
+00:13:51.600 a now for finite sets that's an
+00:13:54.360 immediate contradiction if you have a
+00:13:57.000 finite set a and you have have a proper
+00:13:59.399 subset say the finite set 1 2 3 you have
+00:14:02.279 a proper subset the set one and two okay
+00:14:05.639 it's a proper subset then one two is not
+00:14:09.000 isomorphic to 1 2 3 you don't find a bje
+00:14:13.040 there so for finite sets this seems
+00:14:16.000 impossible but this precisely the
+00:14:19.320 signature of an infinite set that there
+00:14:22.079 exists a proper subset such that the
+00:14:24.279 subset however is still isomorphic to a
+00:14:28.440 so a typical example would be the um the
+00:14:34.160 integer numbers
+00:14:36.639 Z and the natural numbers
+00:14:40.680 n right N is a proper subset of Z
+00:14:44.079 because minus one is not in N that
+00:14:46.320 suffices okay but
+00:14:48.800 nevertheless uh Z is isomorphic to n you
+00:14:52.920 can make a
+00:14:55.079 bje okay you can write down a bijection
+00:14:57.759 so that is in infinite now if it's
+00:15:00.399 infinite there are two different types
+00:15:02.360 of
+00:15:03.560 infinite a set is called countably
+00:15:06.920 infinite so a is
+00:15:09.480 called called
+00:15:14.519 countably
+00:15:20.079 infinite if a is in fact isomorphic
+00:15:26.600 to the natural numbers to the nonzero
+00:15:30.279 the non- negative
+00:15:32.319 integers intuition is if you can label
+00:15:35.480 the elements of a set if you can attach
+00:15:37.519 a label to this number one number two
+00:15:39.560 number three if you can label all the
+00:15:41.519 elements the set is called countably
+00:15:44.319 infinite and the set is called
+00:15:47.440 uncountably infinite
+00:15:49.959 otherwise called nonc
+00:15:56.319 countably infinite
+00:16:08.000 otherwise
+00:16:09.560 and then a set is called
+00:16:14.399 finite again
+00:16:18.319 otherwise but now the otherwise of
+00:16:20.560 course refers to this level of the
+00:16:23.079 structure if it's not
+00:16:25.040 infinite
+00:16:27.519 okay
+00:16:29.279 fine so that's the classification of
+00:16:33.160 sets and there is not more to be set
+00:16:37.120 well maybe that if you have a finite set
+00:16:40.959 a in this case a will be set
+00:16:44.040 theoretically isomorphic to the set one
+00:16:47.720 2 up to an integer number n for sum n in
+00:16:55.920 the natural numbers uh and then then
+00:17:03.360 write that the size of
+00:17:06.640 a is n they n elements in
+00:17:23.079 a that's the
+00:17:26.839 classification any questions so
+00:17:31.080 far
+00:17:32.960 okay so
+00:17:35.440 um some more words on
+00:17:49.880 maps well given two maps so the first
+00:17:53.000 thing is that given two maps we can
+00:17:55.240 build a new map you see it's always the
+00:17:57.200 same given two maps um from A to B and
+00:18:03.280 sometimes it's convenient to denote the
+00:18:05.400 map on top of the arrow from A to B and
+00:18:08.600 another map from B to C that's called
+00:18:11.840 this other map
+00:18:13.760 s given two maps one can
+00:18:18.840 construct a third
+00:18:22.640 map in this case the map uh would name s
+00:18:27.360 after F so we read
+00:18:31.919 this
+00:18:34.240 after s after F which is a map from a to
+00:18:38.440 c and it assigns to a the value of s of
+00:18:43.360 f of
+00:18:45.039 a that's the
+00:18:48.280 composition of
+00:18:55.919 maps composition of maps and very often
+00:18:59.520 this situation is diagrammatically
+00:19:05.640 represented by writing a diagram a b
+00:19:09.640 Arrow F on top that's like the first
+00:19:12.960 piece of data uh from B to C it's the
+00:19:16.240 second piece of data and then you write
+00:19:20.840 here s after F and if you're very
+00:19:25.960 precise you say that this Di
+00:19:30.039 commutes but very often people don't
+00:19:33.760 write this explicitly but by writing
+00:19:36.720 down this diagram they say there it is
+00:19:39.960 it commutes which means you can go this
+00:19:42.880 way or you can go that way and if you
+00:19:45.520 start from here you arrive at the same
+00:19:47.880 result and if then this arrow is called
+00:19:50.280 s after fi that obviously defines s
+00:19:53.240 after fi an element in a is first mapped
+00:19:55.960 by fi and then the result is taken on by
+00:19:59.960 Sai and Ma to C and this is this map and
+00:20:04.280 um well this might seem Overkill as a
+00:20:07.200 notation but we later on meet situations
+00:20:10.080 where many maps go from many places to
+00:20:12.039 many other places and then actually
+00:20:14.000 these diagrams are much more convenient
+00:20:17.520 um than writing down the data in the
+00:20:21.200 traditional
+00:20:22.600 way now uh quite
+00:20:25.960 obviously but it needs to be checked but
+00:20:28.240 it's a oneliner obviously
+00:20:35.919 composition Circ and this Circ um
+00:20:41.080 obviously is an operation on the space
+00:20:43.799 of maps because of two maps it makes a
+00:20:46.440 new map but only if the target of the
+00:20:50.080 first map well this map is the domain of
+00:20:55.720 the other map obviously so obviously
+00:20:57.840 comp position Circ is
+00:21:03.960 associative so if you have a third map s
+00:21:08.480 after
+00:21:11.640 s after F and you first evaluate this
+00:21:16.240 then it ought to be the same and it is
+00:21:18.200 the same as s after
+00:21:20.840 SII after
+00:21:23.279 five okay composition is
+00:21:27.039 associative
+00:21:28.640 now you need a composition in order to
+00:21:31.279 be able to speak of an inverse map if
+00:21:34.679 you have no composition you can't speak
+00:21:36.559 of the inverse map
+00:21:40.159 definition let F from A to
+00:21:44.640 B be a
+00:21:49.039 bje so only for BS we Define the
+00:21:52.400 following then the
+00:21:57.039 inverse
+00:21:59.480 of
+00:22:00.799 f
+00:22:02.840 is the
+00:22:05.880 map uh f up to the minus one of course
+00:22:10.200 just means inverse from B to
+00:22:14.880 a
+00:22:16.960 defined uniquely so there's no ambiguity
+00:22:21.000 defined uniquely
+00:22:23.679 by um f inverse sir
+00:22:28.520 fi so you need the Circ in order to
+00:22:30.400 speak of the inverse F inverse cir fi
+00:22:34.279 well let's uh for practice write the
+00:22:36.440 diagram a b fi goes like this fi inverse
+00:22:41.640 goes like this so if you f inverse after
+00:22:44.360 fi you go back to a you require that the
+00:22:47.760 result is the identity on a and if you
+00:22:50.520 go the other way around f after F
+00:22:53.000 inverse then it's the identity on B and
+00:22:57.760 the
+00:22:59.400 the identity on a set m is a map from
+00:23:04.320 the set to the set where every element
+00:23:07.159 of the set gets assigned to itself
+00:23:11.159 that's the identity
+00:23:22.080 map which obviously we have for every
+00:23:26.880 set
+00:23:30.600 okay so an inverse only exists for
+00:23:35.120 BS now however another notion which
+00:23:38.039 we're going to meet in topology
+00:23:39.679 particularly is the notion of a
+00:23:41.400 pre-image and the pre-image is kind of
+00:23:44.720 something like the image of the inverse
+00:23:46.919 but actually the map you look at doesn't
+00:23:49.080 need to be a bje it can be any map so
+00:23:53.279 let fi from A to B be any
+00:24:01.720 map then we
+00:24:05.000 Define the
+00:24:08.000 set um preim like
+00:24:12.919 pre-image of a set
+00:24:15.799 v um well and this set V is supposed to
+00:24:20.480 be a
+00:24:21.679 subset of the target of the
+00:24:24.760 map and the pre-image of V under the map
+00:24:28.320 f is defined as all those a in the
+00:24:34.120 domain whose image under fi lies in the
+00:24:39.159 specified set
+00:24:48.880 V okay now if you have a bje then the
+00:24:54.559 pre-image of an individual element will
+00:24:57.840 always be a set with a single
+00:25:00.200 element
+00:25:01.760 obviously if you have a non
+00:25:04.320 bje then the pre-image of a one element
+00:25:08.520 set can
+00:25:10.640 be a set with several
+00:25:14.039 elements okay but so the pre-image is
+00:25:17.760 always a
+00:25:19.480 set it's called the
+00:25:25.279 preimage of the set V in the
+00:25:28.320 Target with respect to wrt with respect
+00:25:32.279 to the map F pre
+00:25:46.360 image all right it's all basic Notions
+00:25:49.720 it's convenient to fix notation once and
+00:25:52.279 for all so that was the classification
+00:25:55.279 of sets and before we leave set theory
+00:25:58.279 there's one more topic or well one of
+00:26:01.399 two more topics I would like to talk
+00:26:03.600 about and um that's equivalence
+00:26:13.080 relations I try to be very quick about
+00:26:15.440 this because I assume that in one form
+00:26:17.080 or the other you saw this before I just
+00:26:19.480 want to demonstrate how to get this from
+00:26:21.320 the basic axim and that everything is
+00:26:24.159 fine if you will and um well well
+00:26:28.159 equivalence relations provide a heavily
+00:26:30.799 used way to look at a set but to give it
+00:26:35.880 structure in a certain way in which way
+00:26:38.480 by identifying certain elements in a set
+00:26:42.679 okay um not in any way but in a way that
+00:26:45.960 we will call an equivalence
+00:26:47.679 relation actually much of our thinking
+00:26:50.880 is in equivalence relations so if I come
+00:26:53.600 into this classroom um I might or uh say
+00:26:58.520 somebody else comes into this classroom
+00:27:00.840 uh they might think of you as one entity
+00:27:03.080 and of me as another entity there's the
+00:27:05.080 class and there's the teacher of the
+00:27:06.679 class okay great but
+00:27:09.520 then when the thinking might change and
+00:27:12.000 he might want to look at all of us of
+00:27:14.720 the same gender classifies according to
+00:27:16.840 gender and he'll say okay there this
+00:27:19.120 many men there this many
+00:27:21.159 women and our thinking flips back and
+00:27:24.320 forth between regrouping things that are
+00:27:27.159 there okay and looking at sets in a
+00:27:29.720 coarser way
+00:27:31.840 therefore okay and um in order to group
+00:27:36.120 a set entirely so that really no one is
+00:27:38.919 left out and that there are no
+00:27:40.919 intersection between the
+00:27:42.720 groups uh one employs very um cleverly
+00:27:48.279 equivalence relations so the definition
+00:27:51.039 is simple
+00:27:53.799 definition um let M be a set
+00:28:01.480 and
+00:28:04.039 twiddle um a
+00:28:07.480 relation such
+00:28:10.399 that there are three axioms to be
+00:28:13.399 satisfied um the first one we call um
+00:28:19.440 reflexivity such that reflexivity
+00:28:22.960 holds reflexivity means that for all m
+00:28:27.200 in the set
+00:28:29.000 M it is true that M twiddle
+00:28:32.440 M and you remember our
+00:28:37.159 um convention that this means twiddle mm
+00:28:43.000 is true but if we have a relation we
+00:28:45.559 very often put the relation symbol in
+00:28:47.799 between the two arguments because this
+00:28:50.039 saves uh
+00:28:52.840 CH second um there must be symmetry in
+00:28:58.000 the following sense uh if M and N are
+00:29:01.840 elements of M and assume it's already
+00:29:05.000 clear that m twid
+00:29:08.159 n then that's supposed to be the same as
+00:29:11.720 n twiddle
+00:29:14.720 M and the third condition a relation
+00:29:17.320 needs to satisfy in order to qualify as
+00:29:20.399 an equivalence relation is that there's
+00:29:26.320 transitivity transitivity means that for
+00:29:29.519 all m n and p in a set
+00:29:34.080 M if it's clear that M twiddle n is
+00:29:39.760 true and additionally
+00:29:42.840 and n t p is
+00:29:46.080 true then it must be true that from this
+00:29:49.840 it
+00:29:50.960 follows M twiddle
+00:29:55.360 P so let M be a set and twiddle a
+00:29:58.200 relation such that these three axim are
+00:30:00.679 satisfied then twiddle is called an
+00:30:06.519 equivalence
+00:30:12.279 relation on
+00:30:19.679 M now uh some examples are in
+00:30:26.240 order
+00:30:27.919 um so let's say first example
+00:30:31.519 um let's define p t
+00:30:35.880 q by definition this is supposed to be
+00:30:38.840 that P is of the same
+00:30:45.840 opinion as Q
+00:30:49.080 is let's think of them as human beings
+00:30:52.919 um then it's clear this is
+00:30:56.240 reflexive
+00:30:58.200 I mean if you let's say they are
+00:31:00.159 mentally sound human beings okay of your
+00:31:02.519 own opinion it's reflexive uh it's also
+00:31:07.320 symmetric if I agree with someone then
+00:31:10.279 that person agrees with me and it's also
+00:31:14.880 transitive so if you wish this is the
+00:31:17.519 basis for
+00:31:19.399 democracy
+00:31:21.279 okay um B let's say we Define a
+00:31:25.559 different equivalence relation
+00:31:29.480 um like P is the
+00:31:32.639 sibling of Q sounds good but it already
+00:31:37.000 fails to be
+00:31:41.159 reflexive because you're not your own
+00:31:45.120 sibling not reflexive so uh here it is
+00:31:48.639 an equivalence
+00:31:50.360 relation this is not an equivalence
+00:31:53.360 relation p is the sibling of Q
+00:31:59.639 um it would be symmetric
+00:32:06.000 though
+00:32:07.720 but
+00:32:10.240 symmetric um let's say p t q defined as
+00:32:14.720 p is
+00:32:16.679 taller than Q this would be perfectly
+00:32:23.000 transitive yeah um but it's not
+00:32:26.080 reflexive could make it reflexive if you
+00:32:28.720 say taller or equally tall then okay but
+00:32:33.200 certainly it's not symmetric generically
+00:32:36.679 okay this is certainly not
+00:32:39.440 symmetric and therefore fails to be an
+00:32:42.000 equivalence
+00:32:43.279 relation and then my favorite is uh p
+00:32:46.360 tle
+00:32:47.880 q is p is in love with
+00:32:55.080 Q so um
+00:32:59.399 uh this is uh not
+00:33:04.840 reflexive on
+00:33:09.240 occasion the people who don't like
+00:33:11.360 themselves very
+00:33:12.559 much um it's certainly not normally
+00:33:17.960 symmetric That's the basis of much drama
+00:33:21.039 in
+00:33:22.960 literature and uh it's not transitive
+00:33:30.240 maybe only in French
+00:33:32.080 movies French art Cinema it's
+00:33:38.080 transitive all right so only the first
+00:33:40.200 one is really an equivalence relation
+00:33:42.440 and you see is very easy to check
+00:33:44.480 whether something is an equivalence
+00:33:46.039 relation and if it is uh there are
+00:33:50.600 important constructions one can make and
+00:33:53.919 these constructions have interesting
+00:33:55.960 properties
+00:33:58.320 that is why you want to check and um we
+00:34:03.320 have the central definition if twiddle
+00:34:06.840 is an equivalence or B an equivalence
+00:34:14.719 relation on the set
+00:34:19.000 M then for any element of M we Define
+00:34:27.399 a
+00:34:28.440 set Define the set and the set gets a
+00:34:32.000 funny name it's m with square brackets
+00:34:35.480 around it but it's a set and has a
+00:34:39.079 simple definition those are all those
+00:34:41.520 elements n of the set M which are
+00:34:46.639 equivalent to n so once we have an
+00:34:49.239 equivalent relation we very often read
+00:34:51.560 this as m is equivalent to
+00:34:54.560 n okay the set and this set is
+00:34:59.440 called the equivalence
+00:35:04.240 class the equivalence
+00:35:09.960 class of this element
+00:35:13.800 M now for these equivalence classes
+00:35:17.320 there are two Key
+00:35:25.800 Properties
+00:35:27.640 and the first property is that if you
+00:35:30.800 take an element a from such an
+00:35:34.320 equivalence class equivalence class is a
+00:35:36.880 set it's a subset it's obviously a
+00:35:41.040 subset of the entire
+00:35:44.520 set right so if you take any element
+00:35:47.800 from this subset then it already follows
+00:35:51.319 that the equivalence class of this
+00:35:54.000 element you took from the subset
+00:35:57.839 is
+00:35:58.920 already the same equivalence
+00:36:02.079 class or in other words one says that
+00:36:06.040 any element of the equivalence class can
+00:36:10.200 act as a representative of the
+00:36:12.800 equivalence class so um that's taking it
+00:36:16.200 the other way around if you start with
+00:36:17.480 an element you build this set okay but
+00:36:20.760 if you already have this set you can
+00:36:22.800 take an element out of it and you can
+00:36:25.920 generate the set in the same way from
+00:36:27.920 that element um so this is
+00:36:30.680 usually interpreted
+00:36:33.280 as uh a is or any
+00:36:37.640 element any
+00:36:40.200 element of an equivalence
+00:36:45.560 class can act as its
+00:36:54.079 reative
+00:36:55.680 okay
+00:36:57.880 that's just a
+00:36:59.119 notation in the
+00:37:00.960 terminology and the second key property
+00:37:03.920 is that one of two things holds
+00:37:07.800 either two equivalence
+00:37:10.680 classes for two different elements are
+00:37:13.760 the
+00:37:15.520 same
+00:37:17.440 or if they're not the same then they
+00:37:20.720 have no element in common that means the
+00:37:23.960 intersection is empty and there's no
+00:37:27.400 other
+00:37:30.480 possibility two Key Properties a proof
+00:37:33.480 is very simple
+00:37:36.000 um
+00:37:40.440 simple and you should do
+00:37:51.720 it now the intuition about this is the
+00:37:57.280 following assume you got the set
+00:38:01.400 M and you have
+00:38:14.160 elements we have these elements
+00:38:17.880 and now you
+00:38:21.599 may Define an equivalence
+00:38:25.520 relation by saying uh have the
+00:38:30.440 same same shape now they need to be
+00:38:33.839 distinguished as elements I don't know
+00:38:36.079 uh Carpet One Carpet 2 carpet 3 star one
+00:38:39.480 star two star three star four uh cir one
+00:38:43.079 Circ 2 cir three cir four so they're
+00:38:45.560 really different elements but uh the
+00:38:48.240 index doesn't matter if we uh uh
+00:38:52.079 consider their shape I want to make it
+00:38:54.040 simple here the same shape what are the
+00:38:56.640 equivalence classes here well the
+00:38:58.920 equivalence classes
+00:39:03.079 are this set is one equivalence class uh
+00:39:07.599 we could call it it's the equivalence
+00:39:09.240 class represented by Circ one but
+00:39:12.480 obviously is also the equivalence class
+00:39:14.520 of Circ 2 and so
+00:39:17.839 on uh the next equivalence class is this
+00:39:25.440 set
+00:39:28.520 and the third equivalence class and
+00:39:30.560 those are all is this
+00:39:33.839 set and having the same shape is
+00:39:36.319 symmetric as reflexive everything has it
+00:39:38.920 the same shape as itself it's symmetric
+00:39:41.520 and it's also transitive and indeed you
+00:39:43.760 say see this is an equivalence
+00:39:47.079 relation and if we classify and if we
+00:39:49.960 build these um equivalence classes with
+00:39:53.319 respect to an equivalence relation which
+00:39:55.160 you need to have then you see every
+00:39:57.400 element gets covered and if you now
+00:40:00.720 don't look if you put on your
+00:40:03.119 glasses that are so coarse that that
+00:40:06.440 they make you see not so clear but they
+00:40:09.240 actually make you see this blurred so
+00:40:12.160 that from Far Far
+00:40:14.119 Away you only see it only looks as if
+00:40:18.040 the set M contained three elements these
+00:40:21.839 equivalence classes well that's no
+00:40:23.560 longer the set M because the set M was
+00:40:25.760 what was there before um this is then
+00:40:28.040 the quotient set so the set you see here
+00:40:31.520 is the set
+00:40:32.800 M modul twiddle well this is obviously
+00:40:36.400 just a symbol but this m modu twiddle is
+00:40:39.480 the set whose elements are the
+00:40:42.440 equivalence
+00:40:44.240 classes okay so there we have a formal
+00:40:48.400 definition definition twidle be an
+00:40:53.640 equivalence
+00:40:55.319 relation
+00:40:59.240 on
+00:41:01.319 M uh then we
+00:41:03.880 Define the so-called quotient
+00:41:09.359 set it's the quotient set I already
+00:41:13.280 introduced the symbol it's m modulo
+00:41:15.520 twiddle looks very dangerous but it's
+00:41:18.200 very simple and that's the set whose
+00:41:21.319 elements are the equivalence
+00:41:23.680 classes m in M
+00:41:27.280 why can I do this well where do these
+00:41:29.960 M's lie so this looks like um Universal
+00:41:34.400 comprehension right so we need to
+00:41:36.960 convince ourselves we can actually build
+00:41:38.960 this set so if I write it down like this
+00:41:41.760 there it's very
+00:41:43.800 likely restricted comprehension okay but
+00:41:47.640 what is the set that these equivalent
+00:41:50.319 classes come
+00:41:55.240 from
+00:41:57.640 well the equivalence classes are subsets
+00:41:59.560 of
+00:42:00.560 M so in which set do all the subsets
+00:42:04.720 lie power the power set exactly there's
+00:42:08.160 an element of the power set of M aha
+00:42:10.560 it's restricted comprehension but then
+00:42:12.760 we need to know that the power set of a
+00:42:15.200 set is a set ah we know this by the
+00:42:18.119 power set axum everything is fine so you
+00:42:22.119 see you in principle always have to
+00:42:24.559 check that you can actually construct
+00:42:25.880 the you're constructing it's hereby
+00:42:28.040 restricted comprehension anyway it's
+00:42:31.040 exactly this picture it's the quotient
+00:42:35.520 set
+00:42:38.559 okay
+00:42:41.800 um so now
+00:42:47.520 remark uh due to the axum of
+00:42:55.160 choice
+00:43:00.920 there
+00:43:04.559 exists
+00:43:06.520 a complete
+00:43:11.240 system of
+00:43:17.800 Representatives for this equivalence
+00:43:21.040 relation for the equivalence class of
+00:43:23.319 these equivalence
+00:43:24.599 relations that is set
+00:43:30.880 R such
+00:43:33.760 that
+00:43:36.400 um there is a one to one correspondence
+00:43:39.920 there's a bje between the elements of R
+00:43:44.359 and the quotient
+00:43:51.240 set namely you pick from each class you
+00:43:55.800 pick one
+00:43:57.559 element and put it into the set
+00:44:01.559 R and then obviously you represent every
+00:44:05.319 single
+00:44:06.680 class how do you pick which element do
+00:44:09.599 you pick from which equivalence
+00:44:12.440 class don't know that's
+00:44:16.680 dark but the guarantee by the axim of
+00:44:19.280 choice is there exists a complete system
+00:44:22.400 of such
+00:44:24.400 representatives and that's of course
+00:44:26.119 very
+00:44:27.520 useful so if you wish it's gender theory
+00:44:30.559 in a nutshell that there are several
+00:44:33.160 types of equivalence relations on the
+00:44:34.960 same set
+00:44:36.240 normally okay um a further remark is the
+00:44:41.920 following care must be
+00:44:50.040 taken when defining
+00:44:54.960 Maps
+00:44:59.240 whose
+00:45:04.640 domain is a quoti
+00:45:12.880 set and if addition if in this case um
+00:45:19.240 one uses
+00:45:24.880 Representatives
+00:45:26.559 to define the
+00:45:33.400 map okay what do I mean by this
+00:45:35.760 mysterious remark
+00:45:43.200 example
+00:45:44.960 um
+00:45:48.119 uhuh take as the set
+00:45:51.880 M the integer numbers Z
+00:45:59.920 and Define two integer numbers M and N
+00:46:03.640 to be
+00:46:06.720 equivalent if and only
+00:46:10.599 if
+00:46:14.599 um M minus
+00:46:23.280 n is an even
+00:46:31.559 number I hope this is what I want okay
+00:46:35.040 if M and N is an even
+00:46:37.640 number now um the first question is is
+00:46:41.280 this reflexive uh yes it is because m m
+00:46:45.240 is M minus m is zero zero is an even
+00:46:48.079 number good uh is it symmetric m- n in 2
+00:46:52.000 Z what about n minus M well it's also
+00:46:54.760 then in two Z because just the sign
+00:46:56.680 changes and the
+00:46:59.559 transitivity is also given okay so this
+00:47:03.079 is an equivalence relation good it's an
+00:47:06.359 equivalence
+00:47:07.440 relation and if it's an equivalence
+00:47:09.599 relation we can ask ourselves what is
+00:47:13.640 the equivalence class of zero say which
+00:47:17.319 lies in Z and the equivalence class of
+00:47:19.880 zero is of course
+00:47:22.079 two
+00:47:23.960 four and so on but also
+00:47:27.520 min-2 Min
+00:47:29.400 -4 and so on and the equivalence class
+00:47:33.200 of one is
+00:47:35.440 three and
+00:47:37.920 five the same as those Ence classes is
+00:47:40.839 minus uh
+00:47:43.640 1 Min - 3 and so on and uh so we get the
+00:47:49.920 quotient
+00:47:51.640 set Z mod
+00:47:54.720 tdd consist just of two different
+00:48:00.000 elements I mean the others are also all
+00:48:02.280 in there but they coincide with this or
+00:48:04.440 this one so as a set it's the same as
+00:48:07.880 this so it's just the zeros and the ones
+00:48:11.200 okay that's this quotient set and now I
+00:48:14.359 could get the
+00:48:16.800 idea to
+00:48:19.240 inherit addition from Z idea uh on Z
+00:48:26.200 uh we have an
+00:48:29.000 addition which we just assume is given
+00:48:31.400 at this point it's the kindergarden
+00:48:34.160 Edition you addition you do it takes two
+00:48:38.319 integer numbers and it Maps them to an
+00:48:40.559 integer number and this guy here this
+00:48:43.640 cartisian product between two
+00:48:48.480 sets cartisian
+00:48:52.079 product this was actually this is
+00:48:54.960 actually the um the set of all ordered
+00:48:59.319 pairs of integer numbers and what is an
+00:49:02.520 ordered pair well that's defined on
+00:49:04.559 problem sheet
+00:49:05.880 one problem sheet one problem
+00:49:11.880 five sub problem
+00:49:14.760 B okay um that the cartisian product is
+00:49:18.839 defined so in a we Define the
+00:49:22.040 ordered pairs and in B then the C
+00:49:25.880 product is defined only on the basis of
+00:49:29.280 our aims of set theory but you of course
+00:49:31.680 have an intuitive notion at this point
+00:49:33.720 on that we have an addition plus and we
+00:49:36.880 wish to
+00:49:38.720 inherit wish
+00:49:40.920 to
+00:49:43.680 inherit an
+00:49:46.760 addition which deserves a different name
+00:49:49.760 plus and this addition uh is supposed to
+00:49:54.160 take two elements of of the quotient
+00:49:57.520 space and return an element of the
+00:49:59.720 quotient space we wish to inherit such
+00:50:02.760 an addition from there and we could come
+00:50:06.160 up with the idea that well the
+00:50:11.040 definition our tentative definition and
+00:50:14.200 we say okay I take an equivalence
+00:50:17.640 class it's an element from here I take
+00:50:21.200 another element from here and I add them
+00:50:25.200 because because that's exactly what this
+00:50:27.920 addition is supposed to do and well I
+00:50:30.920 have to specify how this works and I
+00:50:33.319 want to Define this in terms of this
+00:50:35.520 addition on Z that's what I mean by
+00:50:38.319 inherit
+00:50:39.799 it and well an idea could be to just
+00:50:43.000 take these two
+00:50:44.640 Representatives one has chosen here so
+00:50:47.559 you see there are brackets around it but
+00:50:49.799 here on the right hand side before I put
+00:50:52.559 the brackets I took this representative
+00:50:55.200 and took the other representative and I
+00:50:57.880 used the addition in Z so the Plus
+00:51:00.559 without the circle around it is the
+00:51:02.119 addition up here and obviously it can
+00:51:04.240 only act on the representatives because
+00:51:06.359 the
+00:51:07.440 representatives of this equivalence
+00:51:09.480 relation here they lie in Z so I pick
+00:51:12.520 the
+00:51:13.440 representatives I add them and after
+00:51:16.520 this addition has been completed only
+00:51:18.640 then I take the equivalence class that's
+00:51:20.520 the prescription but this certainly
+00:51:22.680 satisfies our remark that conditions of
+00:51:26.040 our assumptions of our remark that we
+00:51:29.400 actually Define a map whose domain is a
+00:51:32.480 quoti set well here it's the even the
+00:51:34.680 cartisian product of twice the same quo
+00:51:38.119 set and one uses the
+00:51:41.200 representatives these guys one uses the
+00:51:44.359 representatives to define the
+00:51:46.880 map now you say this is my definition
+00:51:49.720 and that's it well there is an issue
+00:51:51.960 with that and um care needs to be
+00:51:57.559 taken needs to be
+00:52:00.200 taken
+00:52:03.280 precisely
+00:52:06.319 because um this could be
+00:52:11.880 inconsistent
+00:52:13.599 inconsistent and the technical term in
+00:52:15.960 these circumstances is il
+00:52:18.880 defined instead of being well defined
+00:52:21.559 could be
+00:52:22.559 inconsistent because Imagine The
+00:52:24.839 Following happens imagine you take a
+00:52:28.000 different representative for the same
+00:52:30.359 class here but you take an
+00:52:32.799 representative a
+00:52:34.799 prime such that it's the same class and
+00:52:37.960 you take a different representative B
+00:52:39.799 Prime such that however the class of B
+00:52:42.359 Prime is the same class as B then if
+00:52:45.720 this addition acts on the quotient set
+00:52:48.160 it should yield the same result because
+00:52:50.559 you use the same classes you just chose
+00:52:53.359 to represent them differently
+00:52:57.000 now depending on what you write here on
+00:52:59.040 the right hand side how you use the
+00:53:01.720 representatives it could be nevertheless
+00:53:04.040 that if you used a different
+00:53:05.240 representative here different
+00:53:06.359 representative here that first adding
+00:53:08.760 these arbitrarily chosen representatives
+00:53:10.839 and then again taking the equivalence
+00:53:12.920 class with respect to the predefined
+00:53:14.599 equivalence relation could lead to a
+00:53:16.400 different result in that
+00:53:18.079 case and it's easy to construct such uh
+00:53:21.160 bad
+00:53:22.079 examples
+00:53:24.160 um talk about this later um but I think
+00:53:27.720 this one is okay but you need to
+00:53:30.640 check
+00:53:32.720 check
+00:53:35.240 whether choice of
+00:53:41.720 Representatives
+00:53:44.000 matters so how do we check this well um
+00:53:48.440 let a prime and B Prime such that a
+00:53:53.359 prime represents the same class as a
+00:53:56.119 does and B Prime represents the same
+00:53:59.119 class as B does then certainly we hope
+00:54:03.079 to be able to
+00:54:04.559 prove that with the such defined Circ
+00:54:08.160 addition on the quotient
+00:54:10.599 set we get the same result so we write a
+00:54:13.599 string of equal signs that we get the
+00:54:16.119 same result as if we added up A and B
+00:54:19.960 the equivalence class of A and B so
+00:54:23.440 let's see what this means so if if a
+00:54:26.280 prime is the same represented uh um
+00:54:29.040 represents the same class as a that
+00:54:31.280 means certainly a prime needs to lie in
+00:54:34.160 this class because of this property one
+00:54:36.640 we had before uh and then that means
+00:54:39.480 that the difference between a and a
+00:54:41.760 prime must be in two Z and here's the
+00:54:45.640 same so if B Prime is supposed to
+00:54:48.040 represent the same class then B minus B
+00:54:51.040 Prime also lies in 2 Z
+00:54:55.799 now we can use this and we can say well
+00:54:58.160 if it lies into Z then there exists an m
+00:55:02.680 in Z such that a minus a prime is 2 m
+00:55:06.200 and there exists an n in Z such that B
+00:55:10.200 minus B Prime is 2 N for
+00:55:12.880 particular B and B Prime for particular
+00:55:15.520 a and a
+00:55:16.599 prime well it's not an element sorry in
+00:55:19.240 that case it becomes an equal
+00:55:21.799 sign so uh we can use this we can uh use
+00:55:26.079 the definition of Circ plus that would
+00:55:28.520 be a prime plus b Prime I just blindly
+00:55:31.480 take the two Representatives that I
+00:55:33.680 happened to have there and now I replace
+00:55:37.599 a prime is a minus 2
+00:55:42.760 m and plus b Prime uh is
+00:55:48.520 B uh - 2
+00:55:51.880 N well that of course is the same same
+00:55:55.319 as a + b no so first associative law
+00:55:58.640 then commutative law a + b um minus 2 *
+00:56:03.920 m +
+00:56:05.720 n aha But A + B minus 2 * m plus n is
+00:56:11.920 certainly the same class as a plus
+00:56:16.000 b because this guy and that guy only
+00:56:20.240 differ by an even integer so by
+00:56:23.760 definition they are the same class but
+00:56:26.319 this here I can again using the
+00:56:28.039 definition of cir plus backwards it's
+00:56:30.440 the sum of a cir
+00:56:32.720 plus uh the class of B and
+00:56:37.240 indeed for arbitrary other
+00:56:39.920 Representatives I showed it's well
+00:56:43.799 defined well
+00:56:48.119 defined so it's only you only need to
+00:56:51.359 take care if for the definition you use
+00:56:54.440 represent resentatives if you manage to
+00:56:57.200 write down the definition of an
+00:56:58.440 operation on a quoti set without using
+00:57:01.039 Representatives no care has to be taken
+00:57:03.079 it's just a normal definition if you use
+00:57:05.640 Representatives you need to do that
+00:57:15.280 okay
+00:57:20.200 okay and um so this happens in various
+00:57:24.280 shapes forms and Fashions uh throughout
+00:57:28.039 many constructions in in mathematics and
+00:57:30.359 in fact throughout many constructions
+00:57:31.680 we're going um uh to uh to to discuss in
+00:57:35.960 this
+00:57:38.720 course so a final section of this
+00:57:41.319 chapter is
+00:57:43.000 1.8
+00:57:47.000 construction
+00:57:48.720 of
+00:57:51.039 um integers and we already talked about
+00:57:54.240 them but I now mean including the
+00:57:55.960 operations on there construction of
+00:57:59.440 integers uh um natural numbers integers
+00:58:03.079 rational numbers and real
+00:58:07.079 numbers so if our aums of set theory are
+00:58:10.319 any good we're able to construct these
+00:58:13.240 important sets and um what I want to
+00:58:16.920 give here is an outline uh you can
+00:58:19.400 certainly write books on various of
+00:58:21.799 these topics uh what I give here is an
+00:58:23.920 outline um some more details uh will
+00:58:28.640 appear on the next problem sheet on
+00:58:31.079 problem sheet
+00:58:34.680 two so before I refer to problem sheet
+00:58:39.039 one so um
+00:58:42.240 recall that from the axum of
+00:58:45.119 Infinity uh we got the Set
+00:58:49.480 n which by the axim of infinity was
+00:58:52.520 actually called um identified as a set
+00:58:55.280 that consists of these
+00:58:57.640 sets 0 1 2 and so on yeah 0 1 2 3 and so
+00:59:04.359 on are sets namely which set well the
+00:59:07.200 set with name zero was actually the
+00:59:09.640 empty set the set with name one was the
+00:59:13.240 set with the element empty set the set
+00:59:15.839 with name two was the set with the
+00:59:19.920 element set with the
+00:59:22.799 element well and so on set with that
+00:59:25.599 okay like this and by the way here you
+00:59:28.400 see that the um computer science zero is
+00:59:31.839 exactly the zero of mathematics okay
+00:59:34.720 that's wonderful um so that's the Set n
+00:59:39.000 and but now we wish to establish uh an
+00:59:42.319 addition on
+00:59:44.200 N
+00:59:45.880 um wish to
+00:59:49.319 establish
+00:59:51.960 addition on n and of course we should do
+00:59:56.880 this in a set theoretic way we need to
+00:59:59.920 derive this from there and the idea is
+01:00:03.280 to
+01:00:04.559 define a successor
+01:00:11.200 map and that's a map s that takes an
+01:00:15.160 element of n to an element of
+01:00:20.039 N and it's defined by taking the element
+01:00:24.240 n of n to the set with the element
+01:00:32.359 n so
+01:00:35.240 example what is the
+01:00:37.559 successor of
+01:00:39.720 two well two is just a short form
+01:00:48.400 of this
+01:00:51.440 guy and so this is the n and now what I
+01:00:55.599 do I add another layer of brackets
+01:00:58.720 around
+01:01:00.319 it ah and this is just a short form of
+01:01:03.920 three so the successor of two is three
+01:01:08.640 wonderful that's the successor map now
+01:01:11.799 in order to make progress we also need
+01:01:13.960 to define the predecessor
+01:01:20.839 map now this map is p and this map is
+01:01:25.400 only defined on N star um star is the
+01:01:30.880 um for any set that contains zero um
+01:01:35.760 star means
+01:01:38.440 without the zero equals empty
+01:01:42.000 set
+01:01:43.599 okay take this one out so um well if you
+01:01:47.640 want to be set theoretically
+01:01:49.799 precise that
+01:01:52.279 is um n star is defined as n
+01:01:59.839 without this guy and uh this
+01:02:04.960 complement did we Define it in the in
+01:02:07.240 the lectures I think we did yes
+01:02:10.160 otherwise is on the problem sheet this
+01:02:12.520 this this symbol here we did okay
+01:02:17.440 um it lands again in N now how does this
+01:02:21.000 work um to any n we ass now we need to
+01:02:25.319 go backwards the question is how do we
+01:02:27.960 reduce a layer of brackets so what do I
+01:02:31.079 write on the right hand
+01:02:33.279 side well the trick is to assign to this
+01:02:36.520 an element
+01:02:38.440 M uh such
+01:02:41.000 that m is an element of
+01:02:46.000 n now why does this
+01:02:48.599 work well uh look well
+01:02:53.039 example the predecessor of two is the
+01:02:57.720 predecessor of bracket layer bracket
+01:03:00.039 layer empty set bracket
+01:03:03.839 bracket equals so this is n and now I
+01:03:07.279 need to take some element M of n well
+01:03:11.160 this Set n only has one element right
+01:03:15.520 and that element
+01:03:17.200 is this guy and this guy is of course
+01:03:21.200 the one ah the predecessor of two is one
+01:03:25.160 that's the trick to reduce a level of um
+01:03:29.920 a layer of uh set
+01:03:33.400 brackets okay so we have the successor
+01:03:36.079 map we have the predecessor map and now
+01:03:38.480 we can Define the N
+01:03:42.000 in N
+01:03:44.559 power N in N
+01:03:48.559 power of the successor map and that is s
+01:03:52.359 to the N what kind of guy is this well
+01:03:56.440 it's defined as
+01:03:59.039 s
+01:04:01.240 after s predecessor map of n uh so
+01:04:08.559 um yeah if n well if n indeed comes from
+01:04:15.039 n star because only then can I write
+01:04:18.119 this and um we Define s up zero to be
+01:04:24.880 the
+01:04:27.240 um to be the
+01:04:34.279 identity do I want this um hang
+01:04:38.839 on well it's easier to say here in
+01:04:41.400 formally if n is greater than one uh and
+01:04:44.720 S1 is of course simply s okay so that's
+01:04:47.920 the predecessor
+01:04:50.359 map defined
+01:04:52.440 recursively this way
+01:04:55.520 and once we have that we can Define the
+01:05:01.240 addition plus that takes two integer
+01:05:07.440 numbers and Maps them to an integer
+01:05:11.880 number by taking this pair MN which is
+01:05:15.920 an element of the cartisian product is
+01:05:18.000 prec what the cesium product is it Maps
+01:05:20.760 it to this object we want to call M plus
+01:05:23.319 n but it's definition is actually given
+01:05:27.039 by applying the successor map n * to the
+01:05:31.920 m you start with M and you add n that
+01:05:35.680 means you n times add the successor map
+01:05:41.279 but you see everything is neatly
+01:05:45.039 defined
+01:05:47.039 um
+01:05:48.559 example
+01:05:51.000 um 2 + 1 what is that uh 2 + 1 is S1 of
+01:05:59.079 two right S1 of two is s of two did we
+01:06:04.680 do this before yeah we did s of two
+01:06:06.400 before is three oh wonderful and what is
+01:06:10.720 1 + 2 you say ah must be the same well
+01:06:13.680 it looks very different in the beginning
+01:06:15.680 it's S2 of
+01:06:17.480 one S2 of one what is that um that is s
+01:06:22.960 after S1 one so s of S1 of one S1 of one
+01:06:29.400 uh well you believe me uh is two uh and
+01:06:34.920 uh this is three oh it's the same
+01:06:39.240 okay that's how this works um well this
+01:06:42.599 of course
+01:06:44.359 generalizes and you get the commutative
+01:06:48.599 addition
+01:06:53.000 um
+01:06:57.279 uh you can of course also can also
+01:07:01.200 show so
+01:07:03.640 General can also show
+01:07:09.520 associative um what about the neutral
+01:07:19.279 element what's the neutral element well
+01:07:22.599 it's zero because uh
+01:07:26.680 M aha aha so not so good here
+01:07:33.640 um so we should have started here I'm
+01:07:36.839 sorry I'm sorry um this is a life and in
+01:07:41.799 color so um you have here s0 and s0 is
+01:07:46.640 the identity map on the natural
+01:07:51.400 numbers you do nothing you zero times
+01:07:55.520 take the successor you stay where you
+01:07:57.520 are uh because otherwise we'd have
+01:08:00.599 trouble writing down what this is
+01:08:02.960 because M +0 with the above definition
+01:08:06.400 is by the definition of the addition is
+01:08:08.880 the zeroth power of the successor map
+01:08:12.520 with respect to M um yeah so
+01:08:17.359 um so strictly speaking we have to be
+01:08:20.640 more precise here so this is S1 of two
+01:08:23.158 is s of s0 of two s of F0 of two but s0
+01:08:28.399 of two is 2 is three so there's an
+01:08:31.198 intermediate step because we have to run
+01:08:33.040 the recursion one step further back okay
+01:08:36.238 but everything is fine uh and now we
+01:08:38.399 need to do this M plus 0 is s0 of M uh
+01:08:42.399 and then immediately this is M and 0 + m
+01:08:47.479 well you figure it out it will also turn
+01:08:49.439 out to be M and uh so zero is the
+01:08:53.158 neutral ele element of the
+01:08:56.080 addition what about the inverse element
+01:08:59.158 of addition the inverse element would be
+01:09:01.359 one where if you pick an element M and
+01:09:04.000 you add the inverse element you get the
+01:09:05.960 neutral
+01:09:07.080 element well we know that doesn't lie in
+01:09:09.399 the natural numbers 5 + minus 5 would
+01:09:13.479 yield zero but there is no such thing as
+01:09:15.439 a minus five so um this is not doesn't
+01:09:19.839 have an inverse so it's not a group it's
+01:09:22.479 not a commutative group
+01:09:24.600 uh it lacks one of the group
+01:09:27.040 axioms if you want to use that language
+01:09:30.439 and obviously that motivates us to
+01:09:32.439 define the integers
+01:09:35.238 Z so obviously the increase in your
+01:09:37.920 calculational power due to these musings
+01:09:41.399 zero that's clear um but my point is to
+01:09:44.799 show how exactly this follows from the
+01:09:47.520 from the axioms of set theory and that
+01:09:50.120 indeed these
+01:09:51.279 axioms uh all need to be used used in
+01:09:54.120 order to reconstruct even high school
+01:09:58.679 mathematics and that will be useful
+01:10:00.600 later on Integer
+01:10:09.400 numbers um I claim that you can Define
+01:10:13.520 the
+01:10:15.760 integers the set
+01:10:19.560 Z actually
+01:10:21.880 as the quo
+01:10:24.800 set of the pairs of natural numbers
+01:10:30.360 modulo a
+01:10:36.600 suitable equivalence relation
+01:10:39.679 twiddle now what is the suitable
+01:10:42.679 equivalence
+01:10:45.560 relation um so Define twiddle on the
+01:10:51.000 integer on on the natural numbers as
+01:10:53.239 follows
+01:10:54.920 uh
+01:10:56.040 P oh no sorry twiddle on the
+01:11:00.760 pairs of natural numbers as follows you
+01:11:05.000 call a pair of natural numbers
+01:11:09.280 MN equivalent well we'll see whether
+01:11:11.760 it's an equivalence relation or not
+01:11:13.679 equivalent to a pair
+01:11:16.719 PQ by
+01:11:20.040 definition if m + Q
+01:11:26.960 equals p +
+01:11:31.120 n okay now I just say this and I'll uh
+01:11:36.760 tell you in a second what the idea
+01:11:38.639 behind this funny definition is but
+01:11:41.199 let's first check that this is an
+01:11:42.480 equivalence
+01:11:45.760 relation so what about
+01:11:48.560 symmetry um if f m MN equivalent PQ is
+01:11:53.199 then p Q equivalent MN well you have to
+01:11:55.920 swap M and P and at the same time you
+01:11:59.040 got to swap n and q if you swap M and P
+01:12:03.000 and at the same time n and q then it's
+01:12:05.639 just the sides of this equation are
+01:12:07.560 swapped which is obviously still the
+01:12:09.239 same equation so it's
+01:12:11.719 reflexive um sorry that was already
+01:12:14.480 symmetry that was symmetry reflexive is
+01:12:16.639 clear MN MN because this is then um uh
+01:12:21.320 okay is it right yeah it's then M plus n
+01:12:23.960 equal n + m this is also clear and you
+01:12:27.320 can also check it's transitive let's not
+01:12:29.400 do this right now this is an equivalence
+01:12:31.760 relation needs to be checked okay now
+01:12:35.080 what is the intuition behind this I want
+01:12:36.880 to Define numbers with a sign right that
+01:12:39.960 that's the basic idea and um well you
+01:12:43.239 can think of integer numbers as pairs of
+01:12:48.719 um so let me write into idea but the
+01:12:52.239 idea just goes in a little Cloud so
+01:12:54.440 that's not not exact mathematics so the
+01:12:56.760 idea is that MN this pair
+01:13:02.880 corresponds or stands
+01:13:07.280 for M minus n what we naively would call
+01:13:11.480 M minus n and obviously if I have two
+01:13:14.800 natural
+01:13:15.920 numbers by having a pair of them I can
+01:13:18.480 read every integer number this way okay
+01:13:22.440 that's the idea
+01:13:24.679 and um so when are two differences the
+01:13:27.920 same well M - n equals P minus Q if you
+01:13:33.480 take the Q to the other side and you
+01:13:35.360 take the N to the other side and then
+01:13:38.040 you get this okay so that's the
+01:13:41.199 intuition and now you say yeah okay sure
+01:13:44.080 by getting taking pairs of natural
+01:13:46.880 numbers you reach every integer number
+01:13:49.080 this way but you reach every integer
+01:13:51.920 number in many ways
+01:13:53.960 that's clear because 1 - 2 is the same
+01:13:57.080 as uh 3 - 4 is that right yeah that's
+01:14:00.080 right that's the same integer number
+01:14:02.199 yeah that's precisely why we want to
+01:14:04.639 identify the same integer numbers to two
+01:14:08.080 different if two the two differences are
+01:14:10.520 the same I could have written this as m-
+01:14:13.639 n = p minus
+01:14:16.560 Q I chose not to do so well I couldn't
+01:14:19.400 do so because I don't know what minus
+01:14:21.080 means that's the problem of writing this
+01:14:22.800 down Direct
+01:14:23.880 but if I take them to the other side of
+01:14:25.480 the equation I have only pluses so
+01:14:27.960 that's the clever idea to actually
+01:14:30.480 Define this by only using on N uh that
+01:14:34.679 you have an addition on
+01:14:38.520 N that's why you go this way then you
+01:14:41.080 read every integer number in in various
+01:14:43.280 ways but then you identify these various
+01:14:45.400 ways you put on your equivalence
+01:14:47.320 relation glasses that don't see the diff
+01:14:49.560 that can't distinguish the different
+01:14:50.880 ways anymore and you get EX exactly the
+01:14:53.960 the set
+01:14:55.560 Z okay so anyway it's an equivalence
+01:14:58.360 class and with this equivalence class we
+01:15:00.159 know this quo set is defined and I call
+01:15:02.800 this quotient set Z now the question is
+01:15:06.320 whether this is the the Z we normally
+01:15:08.639 have well according to these musings it
+01:15:10.719 is um but we might also wish to um
+01:15:15.280 Define or to
+01:15:16.960 identify
+01:15:18.639 um normally we would think like okay
+01:15:24.239 uh
+01:15:26.719 identify uh n uh we would think this
+01:15:30.639 lies in this
+01:15:32.440 set well it doesn't quite lie in this
+01:15:35.239 set it cannot set it cannot because this
+01:15:37.880 is a set of pairs of integer numbers
+01:15:42.199 well with some equivalence relation
+01:15:43.760 there so this doesn't make any sense
+01:15:45.960 this this this can't be true uh but what
+01:15:48.920 is true is that you can embed n in into
+01:15:53.560 Z which is this guy according to our
+01:15:57.199 definition by saying well an N I had in
+01:16:00.760 the natural numbers before I now
+01:16:03.800 identify with an element of Z the
+01:16:06.320 elements of Z are equivalence classes I
+01:16:09.040 identify this with the equivalence class
+01:16:11.199 of which pair well of the pair n comma
+01:16:16.880 0er and in this sense it lies in there
+01:16:21.480 okay in this sense it lies in
+01:16:25.239 there um yes can you then strongly say
+01:16:30.800 that uh and N is a set and is a subset
+01:16:35.360 of Z of Z no strictly speaking not
+01:16:38.120 because this has a totally different
+01:16:40.000 structure but you can make this
+01:16:42.800 embedding and say these are actually the
+01:16:45.760 elements of n redefine the elements of N
+01:16:49.920 and then they are a
+01:16:51.600 subset that's the idea idea you do the
+01:16:55.080 anything more anything more about n
+01:16:58.400 being a sub no no uh obviously because
+01:17:02.159 of the definition of the equivalence
+01:17:03.960 relation this is the
+01:17:06.480 same as this equivalence class because
+01:17:09.360 they're all identified that's clear no
+01:17:12.280 okay there's a similar thing with
+01:17:14.159 fractions we're going to um maybe look
+01:17:17.600 at that in a second okay otherwise I'll
+01:17:21.040 put it on the problem sheet so um you
+01:17:23.880 have this embedding and then you also
+01:17:26.840 maybe wish to Define um uh the
+01:17:32.080 inverse of a natural number so let N be
+01:17:36.080 in
+01:17:37.000 N um and you define minus n and what is
+01:17:41.480 this supposed to mean well minus n would
+01:17:43.920 then be defined as the equivalence class
+01:17:47.040 0 comma n do the other way around
+01:17:51.719 okay and this minus n however is of
+01:17:54.719 course then also an element of Z
+01:17:58.760 obviously and so you have
+01:18:01.639 example 2 + -
+01:18:07.480 1 ah what is this plus this must be the
+01:18:11.320 Plus on Z right have we defined the Plus
+01:18:15.320 on Z yet
+01:18:19.440 no we don't know what plus is
+01:18:24.239 we of course want to inherit the plus so
+01:18:27.199 definition we want the Plus on Z well
+01:18:32.360 sub subscript Z is z cross Z goes to Z
+01:18:38.280 but we know that Z is n cross n cesium
+01:18:43.159 product modulo twiddle and so on so what
+01:18:46.239 we actually have to write down is
+01:18:49.800 MN the equivalence class of this because
+01:18:52.760 that's that's an element of Z then plus
+01:18:55.960 Z the equivalence class of
+01:18:59.159 PQ H and now we need to Define this
+01:19:03.239 using only the addition on N that we
+01:19:07.960 have and let's let's be courageous this
+01:19:10.760 is very likely m + p n +
+01:19:16.040 Q This is the addition and what do we do
+01:19:21.520 we use the represent atives to Define
+01:19:25.320 this operation so we need to
+01:19:28.480 check check that this is well
+01:19:40.280 defined well the thing it is um
+01:19:43.120 intuition is this is M minus n plus P
+01:19:46.239 minus Q um well you add up the
+01:19:49.639 positively contributing ones you add up
+01:19:51.639 the negatively contributing ones and
+01:19:54.040 their sum is being subtracted so that
+01:19:56.080 should be the intuition that's why we
+01:19:58.120 Define it like this but the intuition is
+01:20:00.040 just the idea behind this definition
+01:20:02.520 that's a valid definition needs to be
+01:20:04.159 checked uh it
+01:20:06.520 is it is well defined and once we have
+01:20:10.040 that we can write down the example so
+01:20:12.719 let's take 2 + - 3 let's take this one 2
+01:20:18.120 + - 3 well obviously this takes place in
+01:20:22.199 z so you see every element of Z of this
+01:20:25.440 form I denote by its integer number
+01:20:29.320 right every element in in Z of this form
+01:20:32.080 I denote and by this integer number so
+01:20:35.639 what is this well the two in Z is 2
+01:20:39.560 comma 0 it's this rule here I could have
+01:20:43.320 written 3 comma 1 okay 2 comma 0 then
+01:20:47.080 comes the Plus in Z then comes the
+01:20:49.560 representative or the class represented
+01:20:51.960 by one representative of the class minus
+01:20:54.679 3 well let's take 03 it's a simple one
+01:20:58.360 now we take the definition of the plus
+01:21:01.120 this is 2 + 0 0 + 3 this is of course 2A
+01:21:08.000 3 now 2 comma 3 however one can check by
+01:21:12.800 the definition of this uh equivalence
+01:21:16.239 relation 2A 3 is 0a 1 it's the same
+01:21:20.800 equivalence class as 0a 1 but 0a 1 has
+01:21:26.320 the trivial name minus one according to
+01:21:29.639 this
+01:21:31.800 definition 2 + - 3 is -1
+01:21:38.679 Hallelujah this is how this works
+01:21:43.960 okay and obviously with the integers we
+01:21:46.560 could have defined a multiplication in
+01:21:48.520 similar fashion we could have inherited
+01:21:50.120 the multiplication that's just more of
+01:21:51.840 the same um my point here is the is the
+01:21:54.199 basic principle questions so
+01:21:56.920 far everything from axiomatic set theory
+01:22:05.760 okay now let's do the
+01:22:09.440 rationals uh any teachers among you
+01:22:12.760 teachers no no teachers what a shame
+01:22:15.560 okay integers so rational
+01:22:21.560 number
+01:22:23.560 rational numbers um that works similarly
+01:22:27.120 so um first of all we have to Define
+01:22:29.400 them as a set and once we have the set
+01:22:31.400 we can Define the Operation and the
+01:22:33.880 rational numbers um are given by um the
+01:22:38.360 kesian product of Z with Z Star so of
+01:22:43.840 the second pair of the second member in
+01:22:46.239 the pair I I take off the zero again
+01:22:49.600 modulo some suitable equivalence
+01:22:52.040 relation
+01:22:54.280 but
+01:22:55.440 now
+01:22:57.239 um um this equivalence relation on
+01:23:01.800 z um
+01:23:05.280 relation twiddle on this cartisian
+01:23:08.239 product Z cross Z star is defined as
+01:23:12.280 follows um a pair let's again call them
+01:23:15.800 MN but now they're well maybe call them
+01:23:18.080 differently XY a pair
+01:23:21.480 XY
+01:23:25.080 um ah sorry this is too much sorry
+01:23:28.080 XY an element of this cartisian product
+01:23:31.400 is by definition equivalent to a pair
+01:23:36.800 UV
+01:23:44.360 if x *
+01:23:47.360 v = u *
+01:23:51.480 y
+01:23:53.040 so here we already think of Z as being
+01:23:56.960 equipped with both an
+01:24:01.560 addition and a
+01:24:06.080 multiplication okay so assume we already
+01:24:09.000 constructed this you you believe me that
+01:24:10.880 this works in in similar fashion and now
+01:24:14.120 we call a pair XY of a integer and a
+01:24:18.840 non-zero integer equivalent to a pair of
+01:24:22.560 such uh called UV if XV equals uy and
+01:24:27.960 the idea behind this again that's the
+01:24:32.600 intuition
+01:24:34.320 intuition
+01:24:36.320 idea is that of course
+01:24:40.440 um if in elementary school we write
+01:24:45.239 x uh fraction
+01:24:49.520 y um this is just this uh
+01:24:53.199 this fraction thing here morphs into a
+01:24:55.719 comma and the X and the Y stand on the
+01:24:58.840 left and the right of the comma and we
+01:25:01.840 would like to identify the fraction with
+01:25:04.920 this pair so this is numerator
+01:25:10.000 denominator but wait that's not quite
+01:25:12.239 true because the fraction 2 over3 is the
+01:25:17.000 same as the fraction 4 over
+01:25:20.199 6 because well you can cancel common
+01:25:24.239 factors so it's supposed to be not the
+01:25:28.199 pair but it's supposed to be identified
+01:25:31.920 with the equivalence class XY with
+01:25:35.159 respect to this because obviously um
+01:25:39.320 example the fraction
+01:25:41.760 2/3 is the same as the fraction
+01:25:45.440 26 because
+01:25:48.440 since 2 * 6 equal 3 3 * 4 ah so this
+01:25:55.320 implements the rule that by uh extending
+01:25:58.679 the fraction or canceling factors you
+01:26:01.159 have the same fraction so this the
+01:26:04.199 glasses you put on now is you ignore
+01:26:07.560 common factors of the numerator and the
+01:26:11.679 denominator okay and then it's pretty
+01:26:14.159 clear indeed fractions are pairs of
+01:26:17.880 numbers in the numerator and in the
+01:26:20.480 nonzero denominator
+01:26:23.840 but under the identification of
+01:26:27.400 cancellations very simple very
+01:26:30.239 simple and in fact the rational numbers
+01:26:33.440 have absolutely nothing to do with
+01:26:36.080 division so in school one it's usually
+01:26:38.639 eluded into this idea well you know what
+01:26:40.920 two no what uh uh seven bad what 8
+01:26:45.119 divided by two is that's four aha now
+01:26:48.199 this is 8 over two that's what you're
+01:26:49.800 told in schools 8 over two is four and
+01:26:54.239 then they pretend that this is the same
+01:26:56.639 four as the four in Z but that's not
+01:27:00.920 true because you have to identify this
+01:27:03.360 also as a fraction well it's the same as
+01:27:05.440 the fraction 4 over one and if you wish
+01:27:09.280 you can
+01:27:12.280 embed the integers into the rationals by
+01:27:16.840 saying well an integer um X is now being
+01:27:22.639 represented by X comma 1 by X over one
+01:27:27.520 if you wish it's the same thing that so
+01:27:30.440 you do not know that 4 over one is the
+01:27:33.159 integer 4 4 over 1 is 4 over one and
+01:27:36.920 then we have this idea whenever we
+01:27:39.360 achieve to get a one down here then we
+01:27:42.280 identify it with this integer uh and
+01:27:44.840 that's this embedding here it's very
+01:27:47.080 much like with the minus signs with the
+01:27:49.440 minus signs before okay and of course
+01:27:52.920 you need an
+01:27:54.679 addition you define an addition on
+01:28:01.199 Q that's simple um that's something like
+01:28:04.920 um X Y Plus on
+01:28:13.199 Q um
+01:28:17.360 UV you use representatives and the
+01:28:20.119 addition is what you learn in school um
+01:28:22.800 ah no it's not what you learn in school
+01:28:24.280 addition is difficult aha so addition is
+01:28:26.880 difficult you first have to get the
+01:28:28.600 fractions to the same
+01:28:33.239 denominator uh and that trivially can be
+01:28:36.320 achieved by writing y * V is that
+01:28:40.000 correct yes and then you have x *
+01:28:43.440 V
+01:28:45.000 plus um x * V plus uh y * U
+01:28:52.679 yeah that's correct so this is the rule
+01:28:55.440 given for the addition of fractions and
+01:28:59.679 uh the rule for multiplication of
+01:29:01.520 fraction that's the simple
+01:29:05.040 one uh that's uh
+01:29:08.600 XY multiplied in Q with
+01:29:12.960 UV that's defined as um x u y
+01:29:20.320 v where you should note that this is the
+01:29:23.719 Plus on Z and this is the multiplication
+01:29:26.520 on Z so we're always only allowed of
+01:29:29.800 course to use structure we already have
+01:29:32.920 now these are both well
+01:29:36.159 defined as you may wish to che
+01:29:40.840 check and here there is the
+01:29:45.280 typical IL
+01:29:48.679 defined
+01:29:50.920 addition
+01:29:56.719 and uh that's the fools
+01:30:00.560 addition yeah on
+01:30:07.520 Q um that's
+01:30:11.239 XY plus
+01:30:15.600 F
+01:30:17.400 UV and you define this as x + U
+01:30:23.600 y +
+01:30:25.520 V well of course that hurts Yeah
+01:30:28.880 question how can we talk about real
+01:30:30.239 numbers if haven't them yet did I say
+01:30:32.199 real numbers
+01:30:35.800 oh just a typo I'm sorry of course we we
+01:30:40.040 we land there
+01:30:42.560 um so if you take the sum of the
+01:30:45.920 numerators and the sum of the
+01:30:47.920 denominators you might delude yourself
+01:30:50.199 into defining an addition but here it
+01:30:52.639 will actually turn out this is il
+01:30:54.800 defined so if you now choose different
+01:30:58.320 representatives for the same fractions
+01:31:01.159 this addition will generically yield a
+01:31:03.520 different fraction than with the other
+01:31:05.520 Representatives you chose before so this
+01:31:08.480 is the reason why we insist on using
+01:31:12.480 this complicated rule for addition of
+01:31:14.520 fractions it's not because that more
+01:31:17.320 corresponds to our intuition about cakes
+01:31:20.159 and dividing cakes it it's because this
+01:31:23.560 here is simply IL
+01:31:25.400 defined okay so um I mean there always
+01:31:28.480 attempts to simplify the school
+01:31:30.400 curriculum uh but this will never never
+01:31:33.119 come up it's simply
+01:31:37.080 undefined okay um so because time is up
+01:31:41.520 and uh there's just one more remark on
+01:31:45.119 the
+01:31:48.239 real also the reals can be defined
+01:31:54.560 uh by way of a quotient
+01:31:58.360 set and the set a is the set of almost
+01:32:15.199 homomorphisms on Z and what that is I
+01:32:18.920 assume you will learn on problem sheet
+01:32:20.960 two
+01:32:22.760 and one can actually show that uh if you
+01:32:25.600 define this set and you define a
+01:32:27.600 suitable um equivalence relation uh nice
+01:32:31.960 objects like the square root of two
+01:32:34.280 which of course you cannot find here in
+01:32:36.800 Q in the rational numbers uh actually
+01:32:39.320 lie in this set so we have the
+01:32:42.560 interesting result final result that the
+01:32:45.480 integer numbers they can be constructed
+01:32:48.800 entirely from axiomatic set theory maybe
+01:32:51.159 you know this dictum by chroner that the
+01:32:53.880 integers were handed To Us by God and
+01:32:56.639 all the rest is man's work and well in
+01:33:00.000 our case the integers are handed to us
+01:33:01.840 from axiomatic set theory and uh the
+01:33:05.080 rest is further work um and so um
+01:33:10.320 obviously there are other ways to
+01:33:12.360 understand the reals there these datak
+01:33:14.040 Kint cuts which are probably more
+01:33:16.320 standard um I just present this because
+01:33:19.159 this is just one line of always taking
+01:33:21.159 quo sets um to define the the new set of
+01:33:25.159 numbers that that you need and uh so
+01:33:28.360 therefore we now arrived in I don't know
+01:33:30.520 High School class I don't know what
+01:33:33.199 class in high
+01:33:34.360 school eth 10th 10th 10th class High
+01:33:38.199 School um with the construction of these
+01:33:40.440 real numbers okay all from axiomatic set
+01:33:43.239 theory and next time uh we'll look at
+01:33:46.280 topology that means we go again back to
+01:33:49.159 ordinary sets and we
+01:33:52.119 select certain
+01:33:54.080 subsets of this set M and we Chon them
+01:34:00.080 open sets whatever that means and there
+01:34:02.719 will be aums for what kind of collection
+01:34:05.280 of subsets of M you can call open sets
+01:34:08.920 this collection will then be called a or
+01:34:11.000 any such collection largely not unique
+01:34:14.320 um will be called a topology on the set
+01:34:17.000 and topology is the weakest structure
+01:34:19.760 you can establish on a set in order the
+01:34:22.719 weakest known structure in order to
+01:34:24.880 Define Notions of continuity and Notions
+01:34:27.560 of
+01:34:28.560 convergence see you next
+01:34:40.239 time

@@ -1,0 +1,2032 @@
+# tactiq.io free youtube transcript
+# Topological manifolds and manifold bundles- Lec 06 - Frederic Schuller
+# https://www.youtube.com/watch/uGEV0Wk0eIk
+
+00:00:04.650 [Music]
+00:00:08.960 So good morning and welcome back. Um
+00:00:11.599 today we'll uh start a new chapter
+00:00:13.840 namely topological manifolds and
+00:00:15.920 bundles. And very likely this will be at
+00:00:19.119 least in parts new territory for you
+00:00:21.920 because what we did so far was uh to
+00:00:24.560 revisit
+00:00:26.080 um material that you very likely saw
+00:00:29.359 already in one form or the other. But I
+00:00:31.599 assume uh the latest starting with
+00:00:35.040 bundles. Um there will be some new
+00:00:37.760 results and some new type of thinking uh
+00:00:40.559 associated with this. Um topological
+00:00:43.120 manifolds are still topological spaces,
+00:00:46.640 but they're very special topological
+00:00:48.800 spaces. And in fact, they're so special
+00:00:52.480 um that nobody would use simply the same
+00:00:56.160 term topological space for them, but
+00:00:57.920 they get deser they deserve an extra
+00:01:00.239 term and that's topological manifolds.
+00:01:02.800 And all the later manifolds we're going
+00:01:04.640 to construct, differentiable manifolds
+00:01:06.400 and so on, they will all still be
+00:01:08.400 topological manifolds. And bundles will
+00:01:11.680 be a way to think about topological
+00:01:15.360 manifolds that have a certain structure
+00:01:17.759 and that underlies much of modern
+00:01:19.920 physics. For instance, the standard
+00:01:21.439 model of particle physics, in
+00:01:22.960 particular, nonabelian gauge theories
+00:01:25.040 and so on. Um in principle you
+00:01:28.000 understand or well really you understand
+00:01:29.680 their structure only if you understand
+00:01:31.280 the structure of bundles and introducing
+00:01:33.759 the language of bundles is very useful
+00:01:35.759 for that. But uh we first start with
+00:01:38.159 topological manifolds and very roughly
+00:01:41.680 speaking a topological manifold
+00:01:47.200 is a um is a topological space that
+00:01:50.320 locally looks like some RD. So roughly
+00:01:55.600 topological manifold
+00:02:00.560 is topological space
+00:02:03.600 is a topological space
+00:02:06.960 that locally and that's the key word
+00:02:09.598 here that locally looks
+00:02:13.599 like
+00:02:15.120 some R to the D for a fixed number D.
+00:02:22.000 And uh so it's easy to
+00:02:25.040 draw some. So the surface of this
+00:02:29.040 Taurus,
+00:02:30.640 yeah, the surface of it, uh that's a
+00:02:34.239 topological manifold T2.
+00:02:38.080 And we had the
+00:02:41.120 sphere.
+00:02:43.120 So again, the surface of the sphere S2
+00:02:46.640 that's a topological manifold looks
+00:02:48.560 locally like R2. both of them.
+00:02:52.239 Um,
+00:02:59.840 this guy is a topological manifold
+00:03:04.159 again for D equals 2. So obviously it's
+00:03:07.840 particularly easy to draw examples for D
+00:03:10.400 equals 2. So T2S2.
+00:03:13.120 So this is the brezil
+00:03:18.159 and so on. And of course also for higher
+00:03:21.280 D but uh so what precisely is a
+00:03:25.040 topological manifold? So precisely
+00:03:29.440 we have the following definition.
+00:03:32.879 A parac compact
+00:03:38.720 house of
+00:03:42.640 topological
+00:03:44.319 space
+00:03:46.799 m
+00:03:48.319 o. So you see we uh raise paracmpact and
+00:03:51.840 housed off to conditions here uh is
+00:03:55.519 called
+00:03:58.239 a ddimensional
+00:04:04.000 topological manifold.
+00:04:13.680 And usually we do not say topological
+00:04:17.279 manifold. We just say manifold. But it's
+00:04:20.399 used here as a qualifier to distinguish
+00:04:22.479 it from manifolds that have even more
+00:04:24.960 structure which we're going to look at
+00:04:26.479 later. It's called the D-dimensional
+00:04:28.240 topological manifold.
+00:04:30.800 If uh for every point
+00:04:37.520 P in the set M there exists a
+00:04:41.360 neighborhood.
+00:04:43.440 There exists
+00:04:45.520 an open neighborhood. That means there
+00:04:47.759 exists a U that contains the point and
+00:04:51.600 the U is an open set of the topological
+00:04:55.199 space. For every point or around every
+00:04:57.440 point there exists an open neighborhood
+00:05:00.479 and
+00:05:02.080 a homeo
+00:05:05.120 a homeo
+00:05:07.520 with its full name a homeomorphism
+00:05:11.600 um let's call it x that takes you from
+00:05:15.440 this open neighborhood u
+00:05:20.479 into
+00:05:22.080 some
+00:05:23.840 subset
+00:05:26.000 of RD. So into the image
+00:05:29.600 I'm sorry uh into the image X of U which
+00:05:32.960 is a subset of some RD. And that must be
+00:05:37.039 you see for every point x for every
+00:05:38.960 point p this must be the same d
+00:05:43.280 must be a subset of the same r to the d
+00:05:46.560 and a homeomorphism x for new into x u
+00:05:51.440 rd where if we talk about a
+00:05:53.919 homeomorphism we need to know um the
+00:05:57.120 topology on this space and topology on
+00:05:59.680 that space in particular. Well, RD we
+00:06:02.639 equip with the standard topology and X
+00:06:05.280 of U with the induced topology. That's
+00:06:07.919 fine. And the U is already an open set
+00:06:11.199 in M O. So the induced topology will uh
+00:06:15.520 yield what you need here. So that's the
+00:06:17.680 definition and that's this locality. So
+00:06:21.280 intuitively speaking, if you look at
+00:06:23.280 these pictures I drew,
+00:06:26.319 then in there you got to ask yourself is
+00:06:29.840 for every point of this space, is it
+00:06:33.199 true that around every P there exists an
+00:06:36.160 open set U that contains P? Well,
+00:06:39.680 without the boundary if you think in uh
+00:06:42.960 standard topology terms such that this
+00:06:45.520 set U
+00:06:47.919 and uh is mapped by some homeorphism
+00:06:53.440 into some
+00:06:56.319 uh subset of RD
+00:07:01.840 into some subset of RD. Okay. And
+00:07:04.880 obviously so you look at this space and
+00:07:06.479 you say sure locally if you just look
+00:07:09.039 very closely this looks like a piece of
+00:07:11.440 RD from the topological point of view it
+00:07:14.560 can be deformed such that it looks like
+00:07:17.120 a piece of RD okay so that's the
+00:07:21.120 definition
+00:07:23.520 um
+00:07:25.039 well examples
+00:07:33.360 uh I already drew gruesome. Uh maybe
+00:07:35.919 it's worth mentioning
+00:07:38.240 or worth emphasizing
+00:07:42.800 that looking at the whole thing through
+00:07:44.880 logic uh topological glasses. So looking
+00:07:50.400 through
+00:07:53.039 topological
+00:07:56.160 glasses if you wish.
+00:08:00.080 What does that mean? Well, it means to
+00:08:01.919 identify all the homeomorphic
+00:08:08.479 uh manifolds that is identify
+00:08:12.479 all home
+00:08:16.080 morphic
+00:08:19.039 um
+00:08:20.639 manifolds.
+00:08:24.400 We see that for instance S2
+00:08:27.199 which
+00:08:28.960 is homeomorphic to
+00:08:32.080 the set if I think that this is embedded
+00:08:34.399 in R2 and it inherits the topology from
+00:08:38.399 R2 the standard topology uh but that's
+00:08:41.360 topologically the same um as if you
+00:08:46.000 drew a square so it doesn't know shape
+00:08:49.680 right because the square can be
+00:08:51.519 continuously deformed formed into the
+00:08:53.760 circle uh uh and so on. So you could
+00:08:57.600 even if you embed in R3, you don't need
+00:09:00.000 to embed, but you could embed. And you
+00:09:02.240 look at this guy here where this doesn't
+00:09:04.320 mean that the curve ends, but it's
+00:09:05.839 supposed to um to have some 3D thing
+00:09:09.200 that this line runs behind this line
+00:09:12.320 from the point uh from where you look
+00:09:15.040 and so on. Uh so all these guys here are
+00:09:20.080 actually this top as a topological
+00:09:22.000 manifold are this uh s2 and the real
+00:09:25.760 line if you wish is topologically
+00:09:29.120 equivalent. So that's the whole line but
+00:09:32.000 that's the same topologically
+00:09:34.800 as this guy and that's the same as and
+00:09:37.600 so on. So topological manifolds you see
+00:09:41.600 it's very easy to draw examples for
+00:09:44.720 topological spaces it was very difficult
+00:09:46.800 to get an intuition about uh their
+00:09:49.680 weirdness because that's a very very
+00:09:51.600 general notion.
+00:09:54.800 So topological manifolds are very
+00:09:57.360 special topological spaces but still
+00:10:01.519 um they they cover a wide range of of um
+00:10:05.680 cases that we want to look at in
+00:10:07.600 physics. I also draw attention again to
+00:10:10.480 this word lo look locally like RD which
+00:10:14.079 uh formally is encoded here and only um
+00:10:18.079 having to have an an open neighborhood
+00:10:20.560 around each point that maps into some
+00:10:22.720 region of RD. You see uh this S2 is very
+00:10:26.959 different for instance from this real
+00:10:29.360 line. Locally it looks like a part of
+00:10:32.240 the real line. This locally looks like a
+00:10:34.720 part of the real line but globally as we
+00:10:37.839 say in uh in contrast to locally
+00:10:42.800 globally this is a different manifold.
+00:10:45.760 For instance this one S2 is compact.
+00:10:49.680 Well, I should always say S2 as this set
+00:10:52.800 with the induced topology from R2 and so
+00:10:55.360 on understood as this this is compact
+00:10:57.839 while the real line is non-compact.
+00:11:00.320 Okay, because compactness is a
+00:11:02.320 topological property. You see two
+00:11:04.560 topological spaces they differ on one of
+00:11:07.440 the topological properties that are
+00:11:09.760 known to you or that you construct maybe
+00:11:12.320 in certain cases and you know they can't
+00:11:14.399 be homeomorphic. So there is no doubt
+00:11:16.959 that the homeo sign here
+00:11:21.200 isn't there. Okay. So those were
+00:11:24.160 examples. Now as always we want to
+00:11:27.279 construct new manifolds from old ones.
+00:11:31.920 Construction or construct
+00:11:34.640 new
+00:11:36.240 from old.
+00:11:38.320 And um well a very simple way to do that
+00:11:42.399 is to take a topological manifold. So M
+00:11:45.839 o top manifold if you wish you can
+00:11:51.200 provide the dimension it should have
+00:11:53.040 because that's part of what a manifold
+00:11:55.200 is. There's a notion of dimension for
+00:11:57.680 generic topological spaces. There is no
+00:12:00.000 notion of dimension but for topological
+00:12:02.480 manifolds there is. So if you have a
+00:12:04.399 topological manifold and you have n uh a
+00:12:08.240 subset
+00:12:09.920 of m
+00:12:12.720 then the question arises
+00:12:15.360 question oh we call
+00:12:19.440 n with the induced topology
+00:12:23.839 on it a submanifold
+00:12:29.040 submanifold of om m
+00:12:33.680 if it is a manifold
+00:12:39.920 in its own right.
+00:12:45.200 So you just have a new topological space
+00:12:47.760 by looking at the induced topology on
+00:12:50.399 the subset and you check is it still
+00:12:54.000 true that this is um a topological
+00:12:59.440 manifold. So example be very simple. Uh
+00:13:03.920 you have R2. So M is R2 with the
+00:13:08.240 standard topology. Always the standard
+00:13:10.560 topology. Uh look at
+00:13:16.720 n being all pairs xy with x² + y 2 = 1.
+00:13:22.959 So we also use uh some addition on
+00:13:28.560 uh
+00:13:30.560 on R2.
+00:13:32.560 Uh look at this set. We all know that's
+00:13:34.720 the circle and you can check well n
+00:13:38.320 equipped with the induced topology on n.
+00:13:40.880 This again is a topological manifold. It
+00:13:43.200 has a lower dimension than the bigger
+00:13:45.279 one but it's again a topological
+00:13:47.120 manifold. Um you could also look at
+00:13:50.880 examples where you take the half space
+00:13:53.680 uh that would also again give you a
+00:13:55.120 topological manifold. A counter example
+00:14:00.639 a counter example would be take again R2
+00:14:03.600 with the standard topology and now take
+00:14:06.160 this subset um
+00:14:09.519 circle
+00:14:12.639 and another circle and they touch in one
+00:14:16.079 point. That's not a submanifold of R2.
+00:14:20.800 It looks like a one-dimensional
+00:14:22.320 manifold. And in in fact, around every
+00:14:24.959 point, it locally looks like R1, a piece
+00:14:28.880 of R1.
+00:14:30.880 But at this point here where they touch,
+00:14:34.320 uh, it looks like two R1s with one
+00:14:38.880 common point. So what's the dimension at
+00:14:41.760 this point? We don't know. It doesn't
+00:14:44.399 locally look like that. So this is not a
+00:14:46.560 submanifold.
+00:14:48.480 Uh neither is the light cone in physics
+00:14:53.120 in relativistic physics. The surface
+00:14:55.199 here uh is not a sub manifold of R3 in
+00:14:59.760 this case because at this point here
+00:15:03.680 it fails to be a manifold.
+00:15:06.720 And as you saw in the last problem sheet
+00:15:08.480 there's a notion of variety from
+00:15:10.320 algebraic geometry. Um and uh for
+00:15:14.079 instance this light cone is an algebraic
+00:15:16.639 variety but it's not a submanifold
+00:15:21.760 of R3 in this case. Of course that also
+00:15:25.600 works in higher dimensions. So that's
+00:15:27.279 that's a very uh simple case. A slightly
+00:15:30.480 more interesting case is that of a
+00:15:33.440 product manifold.
+00:15:47.199 definition. Let M O
+00:15:50.880 M O M and N O N be manifolds
+00:15:58.160 topological manifolds. Then
+00:16:02.639 m cross n equipped with the product
+00:16:05.759 topology m cross n
+00:16:09.759 is a topological manifold
+00:16:14.399 of dimension
+00:16:18.560 dim m plus dim n. You just take the
+00:16:24.639 product of the manifolds and you get a
+00:16:26.959 new topological manifold and this is
+00:16:29.360 called the product manifold.
+00:16:38.079 Okay. And by dim M dim N I obviously
+00:16:41.519 mean the respective D from the
+00:16:44.399 definition
+00:16:48.320 the product manifold
+00:16:53.440 for instance example
+00:16:58.160 S no T2
+00:17:01.360 is the product of two circles. We saw
+00:17:05.039 this before but we only looked at it as
+00:17:07.599 the product of two topological spaces.
+00:17:10.400 Now these two topological spaces well S1
+00:17:14.240 happens to be a topological manifold of
+00:17:16.240 dimension one. So you take the product
+00:17:18.799 you get a new topological space which
+00:17:21.280 you're guaranteed if equipped with the
+00:17:23.599 product topology is then a topological
+00:17:25.760 manifold of dimension two. So you don't
+00:17:29.200 need to check every time that something
+00:17:32.960 even if it's pretty obvious. I mean you
+00:17:35.200 look at T2 and you say yeah it is a
+00:17:37.200 topological manifold. But if I had asked
+00:17:39.200 you to look at TN the N Taurus uh it's
+00:17:44.400 not so easy to imagine but you just need
+00:17:47.200 to know the definition. The N Taurus is
+00:17:50.000 just n copies
+00:17:53.440 of the circle
+00:17:55.520 put together in a cartisian product. And
+00:17:58.000 so that immediately gives you an nd
+00:18:00.000 dimensional topological
+00:18:02.720 manifold. Um you have other examples
+00:18:06.400 like a cylinder. A cylinder is s1
+00:18:11.919 cross r. Now taken as manifolds. You see
+00:18:16.640 you always have to think at what level
+00:18:18.640 you are. Taken as manifolds gives you
+00:18:21.120 the cylinder. The cylinder is
+00:18:23.360 two-dimensional. But you could go to
+00:18:25.520 higher cylinders if you wish. Well, you
+00:18:28.400 you you get the message. So that's
+00:18:30.000 product manifolds. And obviously by
+00:18:32.000 product taking you can build interesting
+00:18:34.400 manifolds out of old ones you already
+00:18:36.640 have.
+00:18:39.280 Now products are a nice thing and very
+00:18:44.320 often in physics we really think of one
+00:18:46.720 manifold as say the base space and we
+00:18:50.320 think that at every point and that's one
+00:18:52.160 way to think about the cartisian product
+00:18:53.760 you have one base space and at every
+00:18:55.919 point you attach the same copy of
+00:18:59.200 another given space.
+00:19:02.400 Now it turns out that taking the product
+00:19:05.840 is a good thing but it's somewhat too
+00:19:08.640 restrictive. It's a little too special.
+00:19:11.440 And for instance we have a counter
+00:19:12.960 example
+00:19:18.720 and that would be the um
+00:19:22.080 the Mibbus strip.
+00:19:28.799 The Mibbous strip. So now that's that's
+00:19:30.799 tricky to draw. Uh let me do something
+00:19:33.200 that's fail safe here. Um
+00:19:38.080 take a rectangle.
+00:19:41.440 That's the space. And take this side and
+00:19:44.960 glue it to that side with this
+00:19:47.520 orientation. So it's like a sheet of
+00:19:49.520 paper. You turn it around and then you
+00:19:52.000 identify this line with this line. What
+00:19:55.120 you get is a cylinder. Right?
+00:19:57.520 Well, if this is infinitely long, but
+00:20:01.600 now let's not have this infinitely long
+00:20:04.240 and let's take this this side identified
+00:20:07.200 with this side in this direction. What
+00:20:09.520 do you get? You get the Taurus, right?
+00:20:11.200 You get the two Taurus. You identify
+00:20:13.360 like this and then you bend this around
+00:20:16.880 and youident you get the Taurus. That's
+00:20:19.440 the Taurus. Well, that's not the counter
+00:20:21.919 example. That's obviously an example.
+00:20:25.360 Uh but the counter example
+00:20:28.159 is produced counter example to a product
+00:20:31.679 manifold
+00:20:33.440 is produced by
+00:20:36.159 um
+00:20:38.720 identifying these two sides. So you can
+00:20:40.559 make the cylinder and now you glue it
+00:20:43.919 together
+00:20:48.080 in this fashion. I am sorry I'm that's
+00:20:51.360 already the Klein bottle. um
+00:20:55.520 we don't identify these sets. We just
+00:20:57.360 identify these two sides and what you
+00:20:59.200 get is something like the cylinder.
+00:21:01.280 Okay.
+00:21:03.200 But so we we do not and I'm sorry I I
+00:21:06.159 was already that's that's also an
+00:21:07.440 example I wrote. It's the climb bottle,
+00:21:09.200 but I want to do the Mio strip. So you
+00:21:11.360 go around, you don't get the cylinder,
+00:21:13.520 but you twist one end before you glue it
+00:21:17.280 together. And uh Oh dear. Um okay. How
+00:21:20.880 do you draw this? uh intuitively
+00:21:26.320 I don't know
+00:21:29.039 okay I'm I'm illprepared to draw this
+00:21:31.120 but you you've certainly seen this now
+00:21:32.720 you take a strip you twist this side and
+00:21:35.919 then you turn around and you glue it
+00:21:37.520 together it's the MU strip and that
+00:21:39.760 thing intuitively has only one side
+00:21:41.679 because you can from every point on
+00:21:43.360 there you can go to the other side of
+00:21:45.760 the piece of paper you have there um but
+00:21:48.400 that's not a product manifold that
+00:21:50.320 cannot be written as a product
+00:21:52.000 manufacture fold but this is not a
+00:21:54.960 product
+00:21:57.600 manifold
+00:21:59.520 although locally everywhere it looks
+00:22:01.440 like a product manifold. Okay. So and in
+00:22:04.400 order to get this idea
+00:22:08.240 formally
+00:22:10.559 uh clarified
+00:22:12.320 we introduce a new concept
+00:22:15.600 as a kind of a generalization of the
+00:22:17.600 idea of a product and that's a bundle.
+00:22:21.039 So I guess uh up there I should have
+00:22:23.919 written 3.1
+00:22:36.080 3.1
+00:22:37.679 Definition
+00:22:41.039 and construction
+00:22:47.280 of topological manifolds.
+00:22:54.640 And now we come to 3.2
+00:22:58.400 bundles.
+00:23:02.720 Again and again in these lectures we
+00:23:04.400 will have opportunity to speak of
+00:23:06.640 bundles and every time we add new
+00:23:09.280 structure to the manifold we have to
+00:23:11.600 revisit the bundles and see what happens
+00:23:14.320 uh to the structure from the point of
+00:23:16.240 view of bundles. But the basic ideas or
+00:23:19.120 the basic structure the whole idea
+00:23:20.799 actually is already uh clear at the
+00:23:23.120 topological level. So definition a
+00:23:25.840 bundle
+00:23:30.240 a bundle and let's be specific here of
+00:23:34.400 topological
+00:23:35.919 manifolds
+00:23:39.039 um
+00:23:40.720 is a triple. You have three data and the
+00:23:45.039 triple is e pi m where e is a
+00:23:50.960 topological manifold
+00:23:54.000 called the base space
+00:23:57.520 uh no sorry the total space I'm sorry
+00:23:59.360 it's the total space
+00:24:03.600 now the m is also a topological manifold
+00:24:07.520 called the base space
+00:24:15.840 and the pi is an onto map. It's a
+00:24:18.720 subjective map.
+00:24:21.039 Subjective
+00:24:22.559 map
+00:24:24.480 from the total space into the base
+00:24:26.880 space.
+00:24:28.799 And because we're in topological
+00:24:30.320 manifolds, we want it to be a continuous
+00:24:35.120 map.
+00:24:40.640 And it's meaningful to talk about
+00:24:42.159 continuity because I have a top topology
+00:24:45.039 here. We have a topology there. And that
+00:24:47.919 is a bundle. Nothing more and nothing
+00:24:50.960 less. All right. Now, uh we further call
+00:24:57.279 uh let P be an a point in the base space
+00:25:03.520 then pi. Well, I almost wrote pi
+00:25:07.679 inverse, but that's just a not so good
+00:25:11.039 notation for the pre-image. The
+00:25:13.919 pre-image
+00:25:15.679 of the set with the element p that
+00:25:19.039 contains only this point under the map
+00:25:22.320 pi. Ah, and this uh subjective map is
+00:25:25.919 called the projection
+00:25:28.799 also names the projection.
+00:25:32.320 So the pre-image of a point P in the
+00:25:34.960 base space under the projection uh we
+00:25:38.400 could call this F subp
+00:25:41.679 is the fiber
+00:25:45.600 fiber
+00:25:47.120 at the point P. This is the fiber.
+00:25:54.320 Okay. Um well example
+00:26:00.960 uh a trivial example is a product
+00:26:02.720 manifold. So let uh E so let M
+00:26:08.720 comma F be topological manifolds
+00:26:15.120 uh and then define the total space to be
+00:26:18.720 the product of the base space and every
+00:26:22.000 time you attach the same fiber. So
+00:26:24.559 obviously we know if these are
+00:26:25.760 topological manifolds this is a
+00:26:27.120 topological manifold. Fine is a
+00:26:29.279 topological manifold. I also have to
+00:26:31.440 define the datim pi. Pi is a map from E.
+00:26:35.679 That means from M cross F down into M.
+00:26:39.840 That's what it's supposed to be. And uh
+00:26:42.480 I need to define it. Well, it's P comma
+00:26:46.480 let's call this F element of the fiber.
+00:26:49.600 And you map this down just to P. It's a
+00:26:52.880 a real projection. Now you have a
+00:26:54.640 cartisian product has two factors. This
+00:26:57.520 P comes from M. The F comes from F and
+00:26:59.679 it maps down like this. And um if you
+00:27:02.640 equip M crossF with a product topology
+00:27:06.159 which is the understanding because
+00:27:07.919 nothing else was said um then this map
+00:27:11.279 is continuous. So pi
+00:27:14.720 continuous
+00:27:17.279 in the product topology uh on M cross F.
+00:27:21.120 Well, in MSM, so we have everything
+00:27:22.960 together. So this way we constructed a
+00:27:27.440 uh a bundle as the product of two
+00:27:31.279 manifolds. So certainly the notion of
+00:27:34.080 bundle contains the idea to look at the
+00:27:37.679 product. It contains that idea. Okay. Um
+00:27:43.120 but the MBUS strip we talked about
+00:27:46.559 previously. If E is the Mibio strip
+00:27:53.919 and um and I have a base M um that be
+00:27:58.480 the uh circle
+00:28:01.679 and then I can construct a pi. So let me
+00:28:04.320 let me try to draw this is more quickly
+00:28:06.799 drawn than than written down in formula.
+00:28:10.159 Um so what was the MU strip? You
+00:28:12.240 identify this side with that side. But
+00:28:16.159 before you do that, you twist before you
+00:28:18.559 glue it together.
+00:28:20.640 But you can think of this intuition you
+00:28:24.399 can think of having in the middle for
+00:28:26.720 instance in the middle anywhere you have
+00:28:29.600 a um
+00:28:32.000 um you have a circle because if you now
+00:28:34.000 you twist and you identify but if you
+00:28:36.640 were here in the middle roughly speaking
+00:28:38.880 then this point will despite the
+00:28:42.000 reflection around that point will get
+00:28:44.559 identified with this point and then you
+00:28:46.880 can agree in this picture say that a
+00:28:50.799 point lying here will be projected to
+00:28:54.880 this point on S1. So if once you
+00:28:57.600 identify these two points, this dotted
+00:28:59.200 line becomes the circle.
+00:29:02.000 And you can agree to always map this
+00:29:04.640 point to that one, that point also to
+00:29:07.200 that one. So that defines your
+00:29:09.360 projection map pi.
+00:29:11.919 Everything is fine and that's continuous
+00:29:15.200 and and all all that. And you find that
+00:29:17.919 the Murbus strip um
+00:29:22.000 is not the product of S1 with the
+00:29:24.640 interval but nevertheless the pre-image
+00:29:29.200 of any point P on S1. So that's a point
+00:29:33.360 P on the S1 under pi will always be
+00:29:39.039 the interval minus1 to one say
+00:29:44.799 because that's at every point you attach
+00:29:47.360 that same interval. Okay. But it's not a
+00:29:50.399 product manifold because you don't
+00:29:53.520 identify like this. It would be a
+00:29:54.799 product manifold. You start twisting it
+00:29:57.279 and at some point the fibers meet like
+00:29:59.279 that. Okay. So strip therefore is
+00:30:04.880 a bundle
+00:30:07.520 but not a product
+00:30:10.559 not a product
+00:30:13.440 manifold.
+00:30:15.520 Okay. And there you see our notion of
+00:30:18.000 bundle.
+00:30:20.640 I point this out again. So it's very
+00:30:22.399 intuitive to think of the total space as
+00:30:26.480 some base space such that to every point
+00:30:29.760 there is a fiber attached. But that's
+00:30:32.320 the special example. If you carefully
+00:30:35.440 look at the definition, you see there is
+00:30:37.679 no mention of the total space somehow
+00:30:42.399 being built from the base space with
+00:30:45.039 something attached to it. It's weaker.
+00:30:48.399 It says there's a total space and you
+00:30:50.799 have a projection map to the base space
+00:30:53.360 but there is no previous assumption on
+00:30:56.399 this total space being built in some
+00:30:58.799 particular manner of the base space and
+00:31:02.399 that is the generalization. Whereas in
+00:31:04.159 the product case you have this
+00:31:06.640 preconceived notion that you have a base
+00:31:09.279 and a fiber that's being attached. Hence
+00:31:12.240 the bundles are a generalization of the
+00:31:15.120 idea of taking a product in this subtle
+00:31:18.000 form and um and this is wildly
+00:31:22.159 important.
+00:31:23.919 Now um sometimes if we have a bundle uh
+00:31:27.840 we use the notation well maybe I should
+00:31:30.399 use I first erase the blackboard. So yet
+00:31:33.919 another example
+00:31:36.559 would be afforded for instance by taking
+00:31:38.960 the real line
+00:31:41.600 as the base space and then attaching at
+00:31:44.799 every point
+00:31:46.720 a circle to it that looks like a
+00:31:48.559 cylinder.
+00:31:50.159 But uh because topologically
+00:31:52.480 it doesn't matter how big that circle
+00:31:56.480 is, you could shrink down to a point
+00:32:00.480 and uh then afterwards start attaching
+00:32:05.120 uh small intervals or something like
+00:32:07.039 this. um
+00:32:11.600 and so on. Okay, so that would be the
+00:32:14.320 total space
+00:32:17.120 and then you have a projection map pi
+00:32:19.600 down to the real line
+00:32:22.720 that's continuous
+00:32:24.640 and this would also not be a product.
+00:32:28.080 Why is this not a product? Um if you
+00:32:30.399 look at this point Q and this point P
+00:32:34.640 and this point R
+00:32:38.799 in the base space
+00:32:42.640 then you find that the pre-image
+00:32:46.559 uh of the point
+00:32:49.360 P with respect to pi is a circle. So
+00:32:53.760 that's the fiber at P by definition. um
+00:32:57.279 you find that the same at the point Q is
+00:33:01.360 just the point. Um
+00:33:04.559 what space is this? Um well, it's just a
+00:33:07.039 point. Okay,
+00:33:09.519 that's the fiber at Q. And if you go to
+00:33:12.960 R, uh then the fiber is just an
+00:33:17.279 interval.
+00:33:19.279 Okay, that's the fiber
+00:33:22.000 at R. And these are all
+00:33:26.799 not homeomorphic.
+00:33:29.200 That means in general you can have a
+00:33:30.799 bundle but the fiber space needn't be
+00:33:33.760 the same everywhere. It simply needn't
+00:33:36.159 be. If it is that's a special case
+00:33:38.640 definition.
+00:33:41.440 Uh let e m and sometimes we write it
+00:33:45.519 this way. Pi be a bundle.
+00:33:49.039 It's the same data and it emphasizes
+00:33:51.039 that pi goes to m uh let this be a
+00:33:55.279 bundle
+00:33:56.799 uh for which such that
+00:34:00.320 for all p and m of the base space uh the
+00:34:06.080 pre-image
+00:34:09.839 uh of the set p with respect to pi is
+00:34:15.520 the same
+00:34:17.760 if you and homorphic to the same f
+00:34:23.599 for sum f
+00:34:25.679 for some manifold
+00:34:28.960 f.
+00:34:30.879 Uh then
+00:34:34.719 e
+00:34:36.480 pm
+00:34:38.719 is called
+00:34:40.879 a fiber bundle.
+00:34:43.679 fiber bundle
+00:34:46.079 with typical fiber
+00:34:50.879 with typical fiber F.
+00:34:55.918 So it's a little less general than a
+00:34:58.560 bundle, but it's still much more general
+00:35:02.160 than a product. It's a fiber bundle.
+00:35:07.599 Examples.
+00:35:11.440 Well, I think the examples we gave
+00:35:13.440 before are examples. Another example is
+00:35:16.240 the C line bundle
+00:35:21.280 over some manifold M. That's just a
+00:35:24.960 name. Why do we call C line? What's a
+00:35:26.800 line bundle? Well, line just refers to
+00:35:28.960 the fact that this is C to the one. C
+00:35:31.520 line bundle is
+00:35:34.480 a fiber bundle.
+00:35:39.280 uh
+00:35:40.880 e pi m with typical fiber
+00:35:49.760 fiber
+00:35:51.280 c
+00:35:52.960 okay um if we have a fiber bundle we
+00:35:56.880 also often write okay and I'll write it
+00:35:59.760 here notation
+00:36:05.359 e
+00:36:07.200 m so we put this down. It's more like
+00:36:09.760 projection. And then we we very often
+00:36:13.280 draw a diagram like this that we say the
+00:36:15.119 fiber goes in there. But it's really
+00:36:17.520 understanding uh that this is the um the
+00:36:20.400 fiber of this bundle. This is just we
+00:36:22.880 say this is a fiber bundle.
+00:36:25.839 And that's usually quicker than saying
+00:36:27.599 let this be the total space, this the
+00:36:29.200 base space, this the fiber with respect
+00:36:30.800 to this. We just draw this picture. It's
+00:36:32.880 just notation. Now the C line bundle
+00:36:35.680 over M uh will play a very important
+00:36:39.119 role in quantum mechanics
+00:36:42.720 and um by way of the following
+00:36:45.760 construction definition.
+00:36:51.200 Um let E
+00:36:54.720 pi M be a bundle.
+00:36:59.920 uh then a map
+00:37:03.520 sigma
+00:37:05.359 that starts in the base manifold
+00:37:09.040 and maps into the total space. So it's
+00:37:12.400 not in the projective direction, it's
+00:37:13.920 the other direction. Such a map is
+00:37:16.960 called
+00:37:19.119 a cross-section or a section
+00:37:22.480 is called a section of the bundle.
+00:37:28.880 If now this is part of the bundle
+00:37:32.320 structure the base space to total space
+00:37:33.920 we haven't used the projection map yet
+00:37:36.480 it's a section of the bundle if you can
+00:37:40.560 um first apply the map sigma to go from
+00:37:43.680 m up to the total space but then you
+00:37:46.800 apply the projection afterwards
+00:37:49.920 and if this leads you back to the
+00:37:52.560 identity on the base space then you have
+00:37:55.280 a section
+00:37:58.000 well as a picture to this.
+00:38:02.960 We have the base space M and let's look
+00:38:05.920 this is for a general bundle but let's
+00:38:08.240 consider the case of a fiber bundle to
+00:38:10.560 draw a picture. So at every point you
+00:38:12.720 attach the same topological manifold F
+00:38:17.200 and then it's clear the whole picture is
+00:38:22.160 the total space and if you have this
+00:38:25.359 point in the total space then the
+00:38:27.680 projection map will take you down to
+00:38:30.960 this base point. Okay. Uh if you have
+00:38:34.400 this point in the total bundle you got
+00:38:37.280 to see okay there's a fiber coming with
+00:38:39.200 it. The pi takes you down to this base
+00:38:42.480 point and any other point on that fiber
+00:38:44.400 is taken down to the same base point.
+00:38:46.320 Now this is the projection map. Now what
+00:38:48.160 is a section? A section as it says is a
+00:38:52.640 map that takes a base point let's say
+00:38:55.119 this one and point in the base manifold
+00:38:57.920 m and it maps it to some point in the
+00:39:01.680 total bundle. So I could take this one
+00:39:04.079 and map it to this point in the bundle
+00:39:07.359 right in the total in the total space. I
+00:39:10.800 can do that. But if I do this, so this
+00:39:13.359 would be where the map sigma could take
+00:39:16.000 me. But then you apply the projection
+00:39:19.040 afterwards and you do not end up at the
+00:39:22.320 same point in the manifold m. That means
+00:39:25.680 pi after sigma is not the identity on m.
+00:39:30.560 Hence this is not a section.
+00:39:34.400 That's right. Clear.
+00:39:37.520 It's only a section intuitively speaking
+00:39:40.160 if you always map by sigma into the
+00:39:44.640 fiber over that point because then pi
+00:39:47.440 takes you back to the base point and the
+00:39:50.320 map sigma does this for every point in
+00:39:52.400 the manifold.
+00:39:54.160 Okay.
+00:39:57.920 Now special case
+00:40:05.040 let's assume uh it's a the the bundle is
+00:40:08.880 in fact a fiber bundle but even more
+00:40:11.119 it's a product bundle. Um so let's
+00:40:14.720 assume that the total space is the
+00:40:17.119 product of m and some f and that pi is
+00:40:20.960 the projection to the first factor
+00:40:25.359 like we had it before. you go down to to
+00:40:27.839 M. So that's the a bundle that's
+00:40:31.119 constructed like this is a um product
+00:40:33.520 bundle
+00:40:37.440 and it's nothing but the cartesium
+00:40:39.839 product of manifolds right and you see a
+00:40:42.720 every product bundle is in particular a
+00:40:44.880 fiber bundle because if you take the
+00:40:46.480 product then every fiber is the same
+00:40:49.119 mean the second factor you chose okay
+00:40:51.760 you have this and in that case only in
+00:40:55.280 this case
+00:40:59.680 can you understand the sigma the
+00:41:02.400 cross-section so let's take a section
+00:41:06.640 only in that case a section sigma that
+00:41:09.359 takes you from the base manifold to the
+00:41:11.520 total space which is now this product
+00:41:15.839 can be understood as taking a point P in
+00:41:19.440 the base space and sending it to the
+00:41:22.079 pair P and let's call this S of P where
+00:41:28.560 S is a map from the base space into the
+00:41:31.760 typical fiber.
+00:41:35.520 This is just a map without further
+00:41:39.040 conditions. And that's our intuition.
+00:41:40.880 Well, if you tell me for every point of
+00:41:43.200 the base space
+00:41:45.359 the element of the fiber
+00:41:48.160 then and that telling the element of a
+00:41:50.319 fiber is just a certain function that
+00:41:52.400 you need to give me. Then what's the
+00:41:54.160 difference between a section and a
+00:41:57.599 function? Because from the function I
+00:41:59.359 can construct a section. Yes, but you
+00:42:01.920 only can if the total space is a
+00:42:04.160 product.
+00:42:05.920 But bundles are more general than
+00:42:08.400 products. Okay. So in general for a
+00:42:11.599 bundle this is a different notion. Okay.
+00:42:15.359 So in particular physics example
+00:42:24.160 um we could look at
+00:42:27.119 a C line bundle over M
+00:42:33.520 over M in quantum mechanics
+00:42:43.760 and the C line bundle need not be the
+00:42:47.440 product of M with C. Okay,
+00:42:53.040 it's just a fiber bundle.
+00:42:56.640 And in fact, um a wave function, what
+00:43:00.480 usually is called a wave function in
+00:43:02.960 quantum mechanics
+00:43:05.440 is not a function at all. A wave
+00:43:07.839 function is actually a section
+00:43:12.079 of the C line bundle
+00:43:18.880 over
+00:43:21.040 uh physical space
+00:43:24.319 for instance R3.
+00:43:31.839 And one always pretends the wave
+00:43:34.160 function is a function. It's a function
+00:43:35.760 that goes from the physical space into
+00:43:38.480 the complex numbers. That's the wave
+00:43:40.400 function. Now, if it always were the
+00:43:43.920 case that the C line bundle over M is a
+00:43:47.440 product M cross C, then indeed wave
+00:43:52.640 function would be the appropriate term
+00:43:54.319 and making this into a section would be
+00:43:56.400 just cumbersome, would just be unneeded
+00:43:58.480 formalism.
+00:44:00.319 But it's just not the case. It's just
+00:44:02.560 not the case that you can always do this
+00:44:04.640 and you can get away with not doing this
+00:44:07.680 as long as you stay in cartesian
+00:44:09.359 coordinates on the physical space. You
+00:44:11.680 don't know yet what coordinates are. I'm
+00:44:13.760 going to introduce this later. But in
+00:44:15.839 fact, the C line bundle is something
+00:44:18.960 more special than attaching a complex
+00:44:22.079 line over every point.
+00:44:24.640 Okay, so you need to think about this
+00:44:26.480 carefully. uh maybe I should just uh
+00:44:29.760 write down this uh kind of sequence. So
+00:44:32.560 you have a product
+00:44:35.440 product manifolds
+00:44:39.359 uh you have fiber bundles
+00:44:44.960 and you got bundles.
+00:44:48.560 So uh fiber bun uh product manifolds are
+00:44:52.079 contained in all the fiber bundles and
+00:44:54.880 fiber bundles are contained in all the
+00:44:57.680 bundles. So this is the degree of
+00:45:00.240 specialization.
+00:45:01.839 So if you have had a product manifold
+00:45:03.920 you could talk about a wave function if
+00:45:05.920 that was the structure in quantum
+00:45:07.280 mechanics but in fact you have only a
+00:45:09.280 fiber bundle. Okay but a product
+00:45:11.520 manifold. So fiber bundles are between
+00:45:13.760 product manifolds and bundles, but
+00:45:15.839 they're still much more general than
+00:45:17.359 product manifolds. So you should look at
+00:45:19.760 this at home, compare the definitions
+00:45:24.000 and see that it's all very simple. It's
+00:45:25.920 just a lot of terminology at once,
+00:45:28.960 right? And I'll come back. I mean, it's
+00:45:30.560 not like the physics example is not to
+00:45:32.560 be understood at the moment. It's just a
+00:45:34.640 hint to what is to come and that these
+00:45:38.400 constructions are not uh mathematical
+00:45:41.839 extravagance but that they are rather uh
+00:45:44.640 intimately connected uh with questions
+00:45:47.280 and structures uh we look at in physics.
+00:45:52.880 Now
+00:45:54.880 once we have a structure like bundles,
+00:45:58.720 we uh need to understand
+00:46:02.240 and classify these structures.
+00:46:09.280 For instance, we have the definition
+00:46:12.240 if e
+00:46:14.560 pi m
+00:46:17.920 is a bundle.
+00:46:23.280 Um
+00:46:24.800 then
+00:46:28.240 E prime
+00:46:30.560 pi prime M prime is a subbundle
+00:46:37.200 subbundle of the previous bundle. If E
+00:46:41.920 prime lies in E,
+00:46:44.720 M prime li uh M prime lies in M.
+00:46:50.640 And if you look at the map pi which goes
+00:46:53.680 from E to M and you restrict it only to
+00:46:58.400 the subset E prime
+00:47:04.640 then that coincides
+00:47:06.720 with the pi prime
+00:47:09.440 map. It's a restriction. So it's the B
+00:47:12.960 sub bundle. Okay. And that's one
+00:47:16.800 definition. And the other definition is
+00:47:18.960 the restriction of a bundle. So again
+00:47:20.960 let e pi m be a bundle.
+00:47:26.480 And now consider
+00:47:30.640 a sub manifold n of m. So you see
+00:47:36.319 bundles use manifolds. And now if I say
+00:47:40.000 n and m I mean submanifold.
+00:47:44.079 And in fact up here I should have said
+00:47:45.839 the same. So these two are meant these
+00:47:49.040 symbols these subset symbols are
+00:47:51.599 actually supposed to mean submanifolds.
+00:47:56.319 Okay, because obviously um if this E
+00:47:59.359 prime and M prime were not sub
+00:48:01.040 manifolds, you couldn't speak of a
+00:48:03.040 bundle here. Okay, so consider N and M a
+00:48:07.040 sub manifold. Then
+00:48:12.000 the bundle
+00:48:14.560 Okay, what is it? um consisting of you
+00:48:19.359 want to go down to n and you need to
+00:48:23.680 take the pre-image
+00:48:26.559 of the entire set n under the projection
+00:48:30.079 map pi on the original bundle
+00:48:33.839 and uh define
+00:48:38.000 this projection pi here as the
+00:48:41.839 restriction of the original projection
+00:48:44.480 pi here to the pre-image
+00:48:48.720 of n under
+00:48:52.160 um pi.
+00:48:54.640 Okay. Then this these data total space
+00:49:00.000 base space projection map is called
+00:49:06.000 the restricted bundle.
+00:49:12.960 Namely, you start with a bundle and then
+00:49:14.960 you only look at it over a subset of the
+00:49:17.599 original base
+00:49:20.960 and that's restriction to this subset in
+00:49:23.520 a base space and only looking at the
+00:49:24.880 bundle over it. This bundle over it is
+00:49:26.960 this restricted bundle. Again, it's a
+00:49:30.480 very simple definition and very useful.
+00:49:36.960 Now
+00:49:41.680 it's also very important to see in which
+00:49:45.680 cases two bundles are to be considered
+00:49:48.240 the same. So consider two bundles.
+00:49:54.319 One is called E
+00:49:57.119 pi M and another bundle that's called E
+00:50:00.480 prime pi M prime. But there's no prior
+00:50:04.559 relation between this E and E prime and
+00:50:06.480 M and M prime. Oh, and this is the pi
+00:50:08.480 prime just two bundles.
+00:50:11.680 Uh then uh the two bundles are called
+00:50:19.760 okay two bundles and
+00:50:23.440 uh consider maps two maps. One is a map
+00:50:27.839 uh U that takes you from one total space
+00:50:32.480 to the other total space and you have a
+00:50:34.640 map F that takes you from the base space
+00:50:37.520 of one to the base space of the other.
+00:50:42.319 Then these two maps then the pair UF
+00:50:47.040 is called
+00:50:48.960 a bundle morphism.
+00:50:52.160 a bundle
+00:50:54.400 morphism
+00:50:56.240 if now let's draw this diagrammatically.
+00:50:59.119 It's really very simple. So you go from
+00:51:02.720 E to E prime by the map U and you go
+00:51:06.480 from M to M prime by the map F. Assume
+00:51:10.319 you're given these two maps.
+00:51:13.359 If they're such that you look at the
+00:51:15.520 projection pi here and you look at the
+00:51:17.599 projection pi prime there.
+00:51:21.599 If this diagram commutes
+00:51:28.880 then this pair UF that maps the total
+00:51:32.720 space to the total space and the base
+00:51:34.400 space to the base space then this pair
+00:51:36.640 is called a bundle morphism. Well, maybe
+00:51:39.599 we should spell out once again what it
+00:51:42.960 means for this diagram to commute. It
+00:51:45.280 means you can either go this way from
+00:51:48.559 this e to m prime or you can go that way
+00:51:51.680 and it should give you the same result.
+00:51:54.000 So that is
+00:51:57.599 um pi prime after u pi prime after u is
+00:52:04.720 the same as f after pi.
+00:52:10.640 And you see you need to use this
+00:52:14.240 uh projection map here and then this is
+00:52:16.640 called a bundle morphism.
+00:52:21.599 Now is this already structure
+00:52:23.359 preserving? Well, what's the structure
+00:52:25.119 of a bundle? Well, the structure of a
+00:52:26.800 bundle, you have the base space and um
+00:52:30.319 and you have this projection map and if
+00:52:33.680 you preserve the fibers, if you have two
+00:52:37.040 bundles whose fiber structure is the
+00:52:40.000 same, then these bundles are isomorphic.
+00:52:42.319 But formally we say definition
+00:52:45.839 two bundles
+00:52:49.920 um the same as before e pime
+00:52:54.480 e prime pi prime m prime
+00:52:59.760 are
+00:53:01.920 called isomorphic
+00:53:06.880 isomorphic as bundles.
+00:53:13.680 Uh if
+00:53:16.720 uh they um there exists a bundle there
+00:53:20.400 exist if there exist
+00:53:24.880 bundle
+00:53:26.800 morphisms
+00:53:31.760 UF
+00:53:36.720 and How do we call this? Uh well,
+00:53:40.559 probably it's U inverse F inverse.
+00:53:48.000 If there exists bundle morphisms UF and
+00:53:50.160 U inverse F inverse, what does that
+00:53:52.640 mean? Well, it means that actually this
+00:53:55.359 map that takes you from here to there,
+00:53:57.599 you can go back by U inverse and in both
+00:54:01.200 directions, it's a bundle morphism.
+00:54:04.160 Okay. Uh then you have the pi map here,
+00:54:07.680 the pi prime map here, m prime, you go
+00:54:12.000 by f here, but there exists the inverse
+00:54:14.480 of f. So u and f are both bjective. But
+00:54:18.160 also in both directions, these are
+00:54:20.160 morphisms. If you have that, then the
+00:54:23.520 fiber structure of this bundle is the
+00:54:26.800 same as the fiber structure of that
+00:54:28.480 bundle. That's easy to see. So um such
+00:54:34.880 UF obviously we have a UF whose inverse
+00:54:37.680 is also a morphism such UF uh are called
+00:54:43.040 bundle isomorphisms.
+00:54:45.920 bundle
+00:54:47.520 isomorphisms
+00:54:52.960 and they clearly are
+00:54:58.640 the relevant structure preserving maps
+00:55:11.280 for bundles.
+00:55:13.680 Remember the recurrent theme is that you
+00:55:16.319 study a structure by studying its
+00:55:20.880 um structure preserving maps.
+00:55:24.880 Okay.
+00:55:35.359 So you could have
+00:55:37.920 two total spaces E and E prime that are
+00:55:43.760 uh homeomorphic isomorphic as
+00:55:46.000 topological manifolds and they have
+00:55:48.720 respective base spaces M and M prime
+00:55:52.000 that are homeomorphic as manifolds but
+00:55:55.200 they're just not isomorphic
+00:55:58.720 as bundles because in one the projection
+00:56:02.720 is defined differently from the other.
+00:56:06.079 If that is the case, everything can be
+00:56:08.319 at lower structural level be isomorphic,
+00:56:12.000 have the same structure, but as soon as
+00:56:14.160 you take the projection map into the
+00:56:16.319 play, for instance, if you have the um
+00:56:19.599 the cylinder or in comparison to the
+00:56:22.400 MBUS strip, the projection map will be
+00:56:25.680 different because the cylinder has
+00:56:27.599 typical fiber interval minus one to one
+00:56:30.480 say, right?
+00:56:32.559 uh and the Murio strip has they're even
+00:56:35.119 both fiber bundles. They have the same
+00:56:37.839 base space namely S1
+00:56:40.799 but this twisting is encoded of course
+00:56:45.119 into how the projection map looks like.
+00:56:48.400 Okay,
+00:56:50.240 because the projection map needs to be
+00:56:51.680 continuous. You cannot say oh I just
+00:56:53.200 take the projection map of the cylinder
+00:56:55.040 and then I twist it and I I join it
+00:56:57.599 because then the projection map would
+00:56:59.520 have to take at the point where you join
+00:57:01.680 a point up here down there but the next
+00:57:03.920 point it takes there would be this one
+00:57:05.760 from down here and that is not
+00:57:07.040 continuous. Think about this. Okay. So
+00:57:10.640 the cylinder and the mio strip if you
+00:57:14.480 look at them as if you look at the total
+00:57:17.040 spaces
+00:57:18.559 uh they are homeomorphic. Yeah, they
+00:57:21.440 must be uh but as bundles they're simply
+00:57:24.480 not. Okay, that's important. And hence
+00:57:28.240 we need a notion of isomorphism
+00:57:31.839 of bundles.
+00:57:34.880 Aha.
+00:57:36.400 Now
+00:57:39.119 think about this. A topological manifold
+00:57:43.200 was a topological space that was locally
+00:57:46.319 homeomorphic to some part of RD.
+00:57:50.079 Now not homeomorphic that would be too
+00:57:52.559 strong. I mean all topological space
+00:57:54.079 that are homeomorphic to RD are seen
+00:57:56.880 through topological classes RD.
+00:58:00.960 Now you look at two bundles. We now have
+00:58:02.799 a notion of isomorphism of bundles.
+00:58:06.319 Okay. But that's again very strong. We
+00:58:09.200 could weaken this as well to local
+00:58:12.240 isomorphism of bundles. And that's the
+00:58:15.119 next definition.
+00:58:19.040 You see these are a lot of definitions
+00:58:21.040 and that is because we're developing the
+00:58:22.720 language but once you need to trust me
+00:58:25.119 that you need to know all these
+00:58:26.559 definitions and you should think about
+00:58:28.400 them and you should memorize them. Um
+00:58:32.000 okay. So definition
+00:58:34.640 uh a bundle
+00:58:39.280 um
+00:58:43.839 m no e
+00:58:47.200 pi m
+00:58:49.680 is called
+00:58:51.680 locally
+00:58:54.640 um isomorphic
+00:58:58.640 as a bundle. I I read out locally
+00:59:01.359 isomeorphic as a bundle.
+00:59:04.960 Sometimes we suppress this.
+00:59:10.400 If for every point P in M of the base
+00:59:14.160 space, for every P of the base space,
+00:59:19.280 there exists
+00:59:21.839 a an open set U that contains the point
+00:59:26.799 P.
+00:59:29.119 Ah so it's called locally isomorphic
+00:59:33.200 to
+00:59:34.799 another bundle I'm sorry to another
+00:59:38.079 bundle uh E prime
+00:59:41.839 pi prime M prime
+00:59:45.839 if for every P and M there exists a P in
+00:59:48.559 U and O such that
+00:59:54.160 the
+00:59:55.760 restricted bundle
+01:00:03.200 So we take the original bundle and we
+01:00:05.200 restrict it. So how did we construct
+01:00:06.799 this? This was the pre-image
+01:00:10.000 of U with respect to pi
+01:00:15.680 mapped to
+01:00:17.680 U. And here the projection map was
+01:00:21.119 defined as the restriction to pre-image
+01:00:25.200 of pi of u. If the restricted bundle
+01:00:31.760 meaning to this ne open neighborhood of
+01:00:34.720 the point p is isomorphic
+01:00:40.720 to the second bundle e prime pi prime m
+01:00:45.839 prime.
+01:00:47.520 So these notions I'm developing here,
+01:00:51.440 they developed in order to further
+01:00:53.599 elucidate the connection between
+01:00:57.599 bundles, product bundles, fiber bundles
+01:01:00.319 and so on.
+01:01:02.720 And to some extent to quantify this
+01:01:04.880 relation and uh there is some
+01:01:07.359 terminology that's heavily used
+01:01:10.640 um which we don't need because we
+01:01:12.640 already have all the definitions on the
+01:01:15.520 blackboard.
+01:01:17.839 um but because it's so heavily used I
+01:01:20.000 name it. So we have the case that um a
+01:01:23.839 bundle e pi m is called trivial
+01:01:34.079 if it is
+01:01:36.480 isomorphic
+01:01:40.400 to a product bundle
+01:01:46.960 which then necessarily is of this form.
+01:01:50.799 some pi
+01:01:53.119 that projects to the first factor m and
+01:01:56.880 we said this before I think it's still
+01:01:58.960 up there yeah I said that's the product
+01:02:00.799 bundle uh that's a particular product
+01:02:02.880 bundle but any bundle is trivial if it's
+01:02:06.160 at least isomorphic as a bundle to the
+01:02:08.720 product bundle so we're back to base one
+01:02:12.799 where we said well products of manifolds
+01:02:16.079 we understand and if we wish we can look
+01:02:18.319 at a product because if as a bundle
+01:02:20.640 because every time we take a product we
+01:02:22.559 can of course project back to the first
+01:02:24.319 part. So a product of manifolds
+01:02:26.960 immediately introduces a bundle. That's
+01:02:28.799 a very trivial case we started from and
+01:02:31.280 which needed generalization as we said.
+01:02:33.839 Okay. So that's this uh but then there's
+01:02:36.960 the notion of a bundle being locally
+01:02:39.119 trivial. So a bundle e pim
+01:02:42.799 is locally
+01:02:44.960 trivial
+01:02:46.880 and that's a different beast. is locally
+01:02:49.440 trivial. Uh if it is locally
+01:02:56.480 isomorphic
+01:03:01.440 to
+01:03:03.599 um some product bundle,
+01:03:11.359 okay, that's locally isomorphic to some
+01:03:14.160 product bundle. So example
+01:03:17.920 and and obviously um
+01:03:20.960 trivial implies locally trivial but not
+01:03:23.280 the other way around. So example the
+01:03:25.359 cylinder
+01:03:28.799 is trivial
+01:03:32.400 as a bundle
+01:03:35.039 and hence also locally trivial.
+01:03:42.559 Now the Mibio strip
+01:03:48.480 is not trivial
+01:03:51.440 as a bundle in this sense but at least
+01:03:56.160 it is locally trivial.
+01:04:02.960 Okay.
+01:04:07.200 Now a locally trivial bundle is not yet
+01:04:10.079 a fiber bundle because it could change
+01:04:12.720 the fiber along right but it just
+01:04:16.079 locally it everywhere needs to be
+01:04:19.280 um
+01:04:20.799 locally trivial. Yes. Could you give an
+01:04:23.200 example?
+01:04:33.280 Um
+01:04:34.960 yes um they're hard to come by. In fact
+01:04:37.599 what we will do we will that's was the
+01:04:39.440 next sentence we will always restrict to
+01:04:41.680 to local triviality. Um yeah it should
+01:04:45.280 be possible to construct something
+01:04:46.559 that's not not locally trivial. Um
+01:04:54.079 well yeah I mean a bundle that very
+01:04:55.839 quickly I think what I drew down before
+01:04:59.760 um
+01:05:01.359 I have a base
+01:05:04.319 and here I attach
+01:05:07.839 a um
+01:05:11.839 here I attach at every point a complex
+01:05:14.079 line
+01:05:16.240 and now from a certain point onwards
+01:05:19.680 I decide to attach a real line. So here
+01:05:23.599 over the base I attach a complex line up
+01:05:25.839 to here. And this line is now a real
+01:05:28.559 line. And from now on I only attach real
+01:05:30.880 lines. Now that means locally this looks
+01:05:35.039 like a um
+01:05:40.400 so you go to an arbitrary point. You
+01:05:42.799 look in its and you find an open
+01:05:46.480 neighborhood U and you look whether
+01:05:49.599 restricted to this neighborhood U.
+01:05:53.680 You look at the restricted bundle which
+01:05:56.640 is very easily thought of as not looking
+01:05:59.599 at the rest and you ask is this
+01:06:02.480 isomorphic to a product bundle? Yes, it
+01:06:04.319 is. It's locally isomorphic to M cross
+01:06:08.319 C. The same you can do here. You take an
+01:06:11.280 arbitrary point. You look at sum. You
+01:06:13.119 need to find one open set around every
+01:06:15.200 point. Search it locally. It looks like
+01:06:17.200 a probunnal. Yes. M cross R. But what
+01:06:20.000 about taking this point? Any open
+01:06:23.039 neighborhood you take in the base
+01:06:25.520 manifold
+01:06:28.000 doesn't look like a product because in
+01:06:30.240 one half it's cross C in the other half
+01:06:32.559 it's cross R or the other part. So this
+01:06:36.720 construction is clearly a bundle because
+01:06:40.079 I can always say well I project this
+01:06:41.680 down here and maybe I get this can do
+01:06:44.240 this in a cont continuous manner. I
+01:06:46.720 think one can and um and so this is not
+01:06:50.400 locally trivial.
+01:06:56.640 Okay.
+01:07:00.640 Okay fine. So that's a heavily used uh
+01:07:03.520 terminology and from now on
+01:07:10.880 uh only consider
+01:07:16.640 locally trivial bundles
+01:07:24.079 and that has an immediate implication
+01:07:26.960 and the implication is locally.
+01:07:30.880 So if you restrict to
+01:07:34.400 some part of it locally every section
+01:07:38.240 any section of a bundle
+01:07:42.880 can be represented
+01:07:47.920 as a function or as a map
+01:07:54.000 from the base space to the fiber. from
+01:07:57.119 base space
+01:08:00.000 to fiber.
+01:08:03.280 Okay. But again only locally because
+01:08:06.640 globally it's not a product.
+01:08:09.440 Okay.
+01:08:12.720 So there will be various problems on the
+01:08:15.119 problem sheet to uh get this clear.
+01:08:19.920 So if in quantum mechanics we have to
+01:08:22.158 see line bundle over some physical space
+01:08:24.158 and it's still locally trivial then on
+01:08:27.198 some patches of the physical space it's
+01:08:30.560 perfectly fine to talk about the wave
+01:08:33.279 function. It just could happen that on
+01:08:37.198 other parts of the physical space you go
+01:08:39.600 to some other patch you need to choose
+01:08:41.920 another function representing
+01:08:44.960 the whole global section. Well, if the
+01:08:47.439 global section exists at all, we we'll
+01:08:49.520 we'll come to that. Okay. So, that's the
+01:08:53.439 um triviality and local triviality of
+01:08:56.880 bundles. And before the break, let me
+01:08:59.439 make one more definition, the very
+01:09:02.000 important definition. It's the so-called
+01:09:04.560 pullback of a bundle.
+01:09:27.359 definition.
+01:09:29.279 Let
+01:09:31.198 e
+01:09:33.600 projection pi m be a bundle.
+01:09:43.439 And let
+01:09:45.439 there be a map f given
+01:09:50.719 that starts in some space m prime
+01:09:55.760 and embeds it into the space or sends it
+01:09:58.560 to the space m to the space space here.
+01:10:02.320 Then
+01:10:04.159 we can construct
+01:10:08.000 the so-called pullback bundle.
+01:10:17.840 Pullback bundle from these data namely
+01:10:20.480 from the data. Yeah. From these data as
+01:10:23.120 they're written there. The pullback
+01:10:25.280 bundle. Um
+01:10:30.719 as
+01:10:32.159 Well, what do you need to do? I need to
+01:10:33.679 give you the total space. So, I already
+01:10:35.760 have the base space of this pullback
+01:10:37.440 bundle that I want to use as the base
+01:10:39.040 space. But now I need to construct over
+01:10:41.360 it the total space.
+01:10:47.360 I construct over it the total space
+01:10:51.440 and this total space is constructed as M
+01:10:57.760 prime
+01:10:59.360 cross. Now maybe you get suspicious
+01:11:01.440 because you say, &quot;Oh, this so the
+01:11:03.440 pullback bundle is going to be a product
+01:11:05.280 bundle because I write cross.&quot; Well, but
+01:11:07.840 I cross it not with some fiber from
+01:11:10.800 here, but I cross it with the entire
+01:11:12.800 total space. Sorry, this is E prime, the
+01:11:15.520 yellow E prime. I cross it with the
+01:11:18.400 entire
+01:11:20.159 total space of the original bundle
+01:11:23.679 huge.
+01:11:25.199 But then I impose a restriction and the
+01:11:28.560 restriction is that if I use here the
+01:11:34.080 projection map pi prime
+01:11:37.840 which
+01:11:39.440 is defined as pi prime taking an element
+01:11:44.560 m prime in m prime and an e that lies in
+01:11:49.920 this e I mean it's this product that it
+01:11:52.480 maps it back to m prime Okay.
+01:11:57.440 The restriction is that if I
+01:12:01.520 um
+01:12:04.480 use the projection map and then f hang
+01:12:08.719 on a second. How is that?
+01:12:17.760 is f.
+01:12:23.920 Hang on, I need to go up here. Aha. So I
+01:12:28.560 take
+01:12:35.280 so I should get
+01:12:38.080 f
+01:12:42.400 of m prime
+01:12:47.679 is m is the same as pi of e.
+01:12:53.199 Aha. Yeah. Now I I I know why uh I had
+01:12:56.400 to hesitate so long. So I don't take I
+01:12:58.960 only I'm sorry I only take those m prime
+01:13:02.640 e m prime e out of this m prime cross e
+01:13:09.840 that satisfy this condition that satisfy
+01:13:12.400 that I project the e down by the pi and
+01:13:16.000 I obtain the same as if I had taken the
+01:13:19.120 m prime and mapped it by f over here. So
+01:13:22.560 I'm sorry it's of course not the entire
+01:13:24.239 space. That's what I wanted to
+01:13:25.360 construct. It's a huge space but I only
+01:13:27.199 take those elements that satisfy this
+01:13:29.280 condition.
+01:13:30.880 Okay. I'm sorry. So that took a second.
+01:13:33.520 So that's the pullback
+01:13:36.400 bundle here.
+01:13:38.800 Okay. It's a pullback bundle.
+01:13:49.920 And um once you have that you can of
+01:13:52.960 course also construct
+01:13:55.199 immediately a morphism over here from
+01:13:58.480 the original data.
+01:14:01.920 You can construct this morphism u here
+01:14:06.800 that takes you from the m prime e that
+01:14:10.239 qualify under this condition and map it
+01:14:16.159 over to e. So from the white data you
+01:14:21.199 can construct the yellow data and then
+01:14:23.679 this left column here E prime pi prime M
+01:14:26.719 prime is called the pullback bundle. E
+01:14:30.640 prime, PI prime, M prime. That's the
+01:14:33.760 pullback bundle,
+01:14:37.440 right?
+01:14:48.000 uh remark
+01:14:51.440 sections
+01:14:54.400 on a bundle
+01:14:58.080 pull back
+01:15:01.280 to the pullback bundle.
+01:15:08.000 What does that mean? It's very simple.
+01:15:11.360 You take a bundle e pi
+01:15:15.679 m. But you don't only have that bundle.
+01:15:19.120 You also have a section sigma which you
+01:15:22.080 know has this condition that pi after
+01:15:23.840 sigma gives you the identity on m.
+01:15:26.000 That's the uh construction you start
+01:15:29.199 from. And then you got some additional
+01:15:32.239 data
+01:15:35.360 f that
+01:15:39.120 takes a base m prime into m. Now from
+01:15:43.199 these data we already know that we can
+01:15:46.320 construct the pullback bundle here.
+01:15:50.159 E prime pi prime m prime. This is what
+01:15:54.159 we just did including
+01:15:58.400 the
+01:16:00.640 U such that U and F together are a
+01:16:03.760 bundle constitute a bundle morphism not
+01:16:07.040 isomorphism that could be but it doesn't
+01:16:09.280 need to be. Now the question is
+01:16:12.560 once you pull back the bundle can you
+01:16:16.239 also pull back the section? That means
+01:16:18.880 can you construct from the section on
+01:16:20.880 this bundle can you construct a section
+01:16:24.000 on that bundle? And the answer is yes
+01:16:26.159 you can.
+01:16:28.880 You can construct the green section
+01:16:32.880 sigma prime on this pullback bundle.
+01:16:43.280 And it's your homework to consider
+01:16:50.080 how
+01:16:51.600 to construct
+01:16:55.040 sigma prime. But if you look at this
+01:16:57.199 diagram and you look at the data you
+01:16:59.920 have obviously what you need to do sorry
+01:17:02.640 there's a prime missing here you need to
+01:17:04.880 construct from the f
+01:17:09.199 and the sigma and this pi you need to
+01:17:12.719 construct a map sigma prime from m prime
+01:17:16.080 to e prime such that pi prime takes you
+01:17:19.280 back to the identity pi prime after
+01:17:21.679 sigma prime takes you back there. It's
+01:17:24.480 not difficult. There's actually only one
+01:17:26.239 possibility out how you can construct
+01:17:29.199 from the given data this sigma prime and
+01:17:33.120 that is what one means. You see you you
+01:17:36.880 have a map from one base space from one
+01:17:39.120 space into the base space of a bundle
+01:17:41.040 and on that bundle you have a section
+01:17:44.239 you can pull the section back to the
+01:17:46.320 pull back bundle. Okay. So the only data
+01:17:49.280 in addition to a bundle with a section
+01:17:50.960 you had was this M prime goes to M and
+01:17:54.239 from that you can construct the whole
+01:17:55.760 picture
+01:17:57.679 and that is used very heavily. So let's
+01:18:00.960 have a five minute break.
+01:18:03.920 Next we consider
+01:18:06.000 3.4 I believe and it's in an entirely
+01:18:09.920 different spirit from the bundles. the
+01:18:12.400 bundle uh are covered now. Um and we'll
+01:18:17.920 revisit bundles only later when we have
+01:18:20.080 more structure. Uh now we'll look at
+01:18:23.920 something that's actually fully
+01:18:26.080 redundant. We don't need this for
+01:18:29.760 topological manifolds but pedagogically
+01:18:32.159 it will be invaluable later on. And so
+01:18:34.960 that's the topic of viewing manifolds
+01:18:40.159 from atlases.
+01:18:50.320 So definition
+01:18:53.199 let M O be a topological
+01:18:58.640 manifold
+01:19:00.400 of dimension
+01:19:03.920 D.
+01:19:09.360 Then
+01:19:10.880 a pair
+01:19:13.840 U which must be an element of the open
+01:19:17.360 sets of the manifold. a pair ux
+01:19:24.159 where yeah u is in O
+01:19:29.679 and X from U to X in U
+01:19:36.000 which is a subset of RD
+01:19:40.480 is called a
+01:19:43.920 chart
+01:19:46.400 of the manifold.
+01:19:52.159 What is new in this definition? Well,
+01:19:54.800 absolutely nothing. It's only that these
+01:19:59.760 maps I defined before which we know in a
+01:20:02.800 topological manifold which is a
+01:20:04.400 paracmpact housed of space that around
+01:20:07.040 every point of the manifold there is an
+01:20:09.679 open neighborhood U such that there
+01:20:12.400 exists such an X that this pair of the
+01:20:17.679 open neighborhood in the manifold
+01:20:19.440 together with the map that maps it into
+01:20:21.280 a part of RD that this pair be called a
+01:20:24.800 chart. Well, so it's not a definition.
+01:20:27.120 It's it's almost only terminology.
+01:20:30.239 Okay, but it's extremely useful
+01:20:32.480 terminology and we'll come to that. It's
+01:20:34.400 a chart of the manifold. The
+01:20:38.000 component functions,
+01:20:41.760 the component functions
+01:20:44.560 of X. Well, what's that? Well, X lands
+01:20:47.840 in RD. But what is RD? RD is a cartisian
+01:20:51.760 product of lots of Rs.
+01:20:55.280 Now if I have such a map X I can ask
+01:20:58.400 what is the result of mapping a point P
+01:21:00.719 in U into RD what's the result in the
+01:21:04.080 first entry what's the result in the
+01:21:05.760 second entry and so on so the component
+01:21:08.000 functions of X these are the maps let's
+01:21:11.120 call them X up I
+01:21:14.719 of uh that go from U now only to the
+01:21:19.440 real numbers and is defined as taking a
+01:21:22.480 point P and mapping it to the i comp to
+01:21:26.400 the i component here. So if you want to
+01:21:28.960 be very formal you can say it's the
+01:21:31.840 projection to the i component of the
+01:21:35.760 result of the application of x. So you
+01:21:39.520 only look at the i component of this.
+01:21:42.800 The component functions of xx i u2 r are
+01:21:46.400 then called
+01:21:48.880 then called
+01:21:51.199 the coordinates
+01:21:54.000 the coordinates
+01:21:57.600 of the point p
+01:22:02.080 which must lie in with respect to and
+01:22:06.560 this is very important with respect to
+01:22:10.159 the chart.
+01:22:12.719 ux.
+01:22:14.400 So we cannot speak of the coordinates of
+01:22:16.800 a point. We can only speak of the
+01:22:19.199 coordinates of a point with respect to a
+01:22:22.639 certain chart.
+01:22:27.920 Now all your life in physics so far
+01:22:32.480 your education in physics has taken
+01:22:35.120 place in charts. In classical mechanics,
+01:22:38.960 you said let's have a particle in R3
+01:22:41.600 move like this and then you were told
+01:22:45.040 the coordinates of that particle at
+01:22:48.400 various points or even in lrangeian
+01:22:50.639 mechanics you wrote down the x1 to xd in
+01:22:53.440 a d-dimensional configuration space and
+01:22:55.920 so on your life took place in charts and
+01:23:00.239 that's fine but well the question is
+01:23:05.040 what happens if you look at the same
+01:23:07.679 point with respect to different charts.
+01:23:10.960 You could certainly have that because if
+01:23:13.600 around every point of the manifold such
+01:23:16.800 a pair exists like the definition of a
+01:23:19.520 topological manifold uh guarantees it
+01:23:22.480 does then you certainly have overlapping
+01:23:27.199 charts.
+01:23:28.800 So let's first have a a remark.
+01:23:34.639 Obviously
+01:23:38.560 there
+01:23:40.639 exists
+01:23:42.320 a set of charts
+01:23:45.199 set curly A of charts
+01:23:51.040 such that
+01:23:54.960 if you take um the union
+01:23:59.440 of all the U's in there so the U
+01:24:05.199 if ux
+01:24:07.520 is an element of this collection then
+01:24:09.840 you do the union over all the u's uh and
+01:24:12.960 then you recover the manifold because
+01:24:15.520 every point is covered by some chart
+01:24:22.080 and there will be many charts
+01:24:30.239 that overlap that have non empty
+01:24:36.400 empty overlap.
+01:24:40.320 Okay.
+01:24:44.320 Then we immediately have another fully
+01:24:46.239 redundant definition which in later
+01:24:48.480 chapters will be changed slightly. Okay.
+01:24:52.639 Definition two charts
+01:24:56.320 ah and such a collection of charts is
+01:24:58.480 called an atlas.
+01:25:00.719 A is called an atlas
+01:25:05.920 and and the idea is clear. If you have
+01:25:08.080 the whole world and the whole world is
+01:25:10.719 covered with charts, you can print the
+01:25:12.639 charts and stack them together into an
+01:25:14.880 atlas. Then you can turn the pages of
+01:25:17.040 the atlas and you can look at on page
+01:25:19.520 300 there's Paris and on that page it
+01:25:22.320 has the coordinates 2 cm to the right
+01:25:24.639 from the lower left corner of the of the
+01:25:26.800 chart. 2 cm up that's Paris. Now you
+01:25:31.920 turn the pages and you come to a later
+01:25:33.920 chart and again Paris appears there
+01:25:36.000 because now the charts are all
+01:25:38.320 overlapping Paris appears but now it has
+01:25:40.400 different coordinates. So the
+01:25:42.080 coordinates of Paris well with respect
+01:25:44.480 to a certain chart that makes sense to
+01:25:47.120 write down the coordinates. Um but the
+01:25:49.840 coordinates depend on the chart. Paris
+01:25:52.159 doesn't have the property to I mean
+01:25:54.400 Paris as such doesn't have the property
+01:25:56.239 to in this and that type of publishers
+01:25:58.800 atlas to be at these and those
+01:26:01.040 coordinates. Paris is Paris. It's it's
+01:26:03.520 the coordinates depend on the chart. Now
+01:26:05.840 you have two charts ux
+01:26:09.360 and
+01:26:10.880 v y let's call them like this
+01:26:16.000 um are are called
+01:26:19.920 c 0 compatible
+01:26:25.760 um and this C 0 later on will be changed
+01:26:29.440 in C1, C2, CK, C infinity, C omega all
+01:26:33.440 possible kinds of other C's but here
+01:26:37.120 it's just a name is called C0 compatible
+01:26:40.560 if either
+01:26:43.440 A well you're certainly compatible with
+01:26:45.760 someone if you never meet that person uh
+01:26:48.239 so if u intersected v is the empty set
+01:26:52.000 so if they the charts do not overlap
+01:26:56.080 or b
+01:26:58.719 if u intersected v is non- empty if the
+01:27:02.800 charts overlap
+01:27:06.719 Then we have the following situation. We
+01:27:09.840 have the chart
+01:27:14.080 U
+01:27:16.560 and we have the chart V. And if we start
+01:27:19.840 from U, we can actually look at the
+01:27:23.520 coordinate map X. So the components are
+01:27:25.600 the coordinates goes into RD. Well, it
+01:27:29.040 actually only goes in X of U that lies
+01:27:32.639 in RD.
+01:27:35.840 and you have the chart V, you go down
+01:27:38.159 with Y, you go to Y of V lying in RD.
+01:27:42.560 That's the situation. But now if the
+01:27:45.280 charts overlap
+01:27:48.480 then in the overlap you can apply either
+01:27:52.880 the coordinate uh map x and you land in
+01:27:56.080 x of u intersected v which is a part of
+01:27:59.679 rd
+01:28:01.360 or to every point in the intersection.
+01:28:04.560 You could also apply the chart the the
+01:28:07.360 map y which yields y of u intersected
+01:28:13.280 v.
+01:28:15.280 And of course you could also look at
+01:28:19.040 this path here which is y after x
+01:28:24.719 inverse.
+01:28:26.960 Okay.
+01:28:28.800 And so y after x inverse goes from x u
+01:28:31.600 intersected v to y u intersected v which
+01:28:34.719 is a part of rd. And that's the key
+01:28:37.760 observation here.
+01:28:40.560 All of a sudden should put this in
+01:28:43.120 yellow. All of a sudden you have
+01:28:45.920 constructed a map from RD into RD
+01:28:52.639 from two chart maps.
+01:28:55.199 And
+01:28:56.880 two charts are called compatible if this
+01:28:59.760 map
+01:29:01.679 y after x inverse which strictly
+01:29:05.120 speaking goes from this subset of RD to
+01:29:07.280 this subset of RD. If this map is
+01:29:11.520 continuous
+01:29:15.280 continuous
+01:29:17.199 as a map
+01:29:20.159 from RD to RD. Well, it is a map from RD
+01:29:24.239 to RD. What I want to emphasize here is
+01:29:27.440 that
+01:29:29.679 um you can now decide on continuity
+01:29:34.400 without knowing anything about the
+01:29:36.639 topology of your original manifold in
+01:29:39.120 which these intersections are taken. It
+01:29:41.840 suffices to know the topology of the
+01:29:44.880 charts
+01:29:46.560 in order to decide whether this is
+01:29:48.400 continuous.
+01:29:50.480 Now I think we showed that the
+01:29:53.920 composition. So these are
+01:29:55.600 homeomorphisms. So x inverse existence
+01:29:58.000 also continuous. The continu um the uh
+01:30:02.000 the I'm sorry the composition of two
+01:30:06.080 continuous maps is again continuous
+01:30:08.639 because this is continuous path back
+01:30:10.880 also continuous. This is always the
+01:30:13.199 case. This is always the case on a
+01:30:15.760 topological manifold. So hence
+01:30:19.600 any two charts in a topological manifold
+01:30:23.360 are C0 compatible. Okay. So it's at
+01:30:27.679 first sight fully redundant to have this
+01:30:30.480 definition because it applies to any two
+01:30:32.239 charts. However, later on we want to
+01:30:36.400 establish a notion of differentiability
+01:30:38.960 as well. Now this the manifold still
+01:30:43.199 staying a topological space. We have no
+01:30:45.679 way of saying that these maps into the
+01:30:49.199 coordinates should be differentiable
+01:30:51.120 because for that we need would have to
+01:30:53.120 have a differentiable structure on the
+01:30:54.800 manifold. What we will do instead we
+01:30:57.520 will later on require that two charts be
+01:31:01.760 C1 compatible C2 compatible. So once
+01:31:04.800 that there shall be uh continuously
+01:31:07.440 differentiable once or twice or K times
+01:31:09.760 or infinitely often
+01:31:12.159 as maps from RD to RD. because we
+01:31:15.120 understand differentiation on RD. We can
+01:31:17.520 do this later on. It's only for
+01:31:19.840 topological manifolds we introduce the
+01:31:21.920 notion and this idea and later on we
+01:31:24.639 refine it. So as I said fully redundant
+01:31:28.080 but it's a useful notion and again all
+01:31:31.120 your life in physics took place in
+01:31:33.120 charts and whenever you talked about
+01:31:36.239 changing coordinates
+01:31:38.639 you talked about this map because you
+01:31:41.679 lived in one chart you looked at the
+01:31:43.520 problem in one chart say cartisian
+01:31:45.600 coordinates and then you went to other
+01:31:48.880 coordinates.
+01:31:51.199 So the coordinate changes in physics in
+01:31:53.840 the standard physics courses or
+01:31:55.440 introductory physics courses is between
+01:31:58.000 charts
+01:31:59.760 but you never consider the real world
+01:32:02.400 that lies over it. Well the real world
+01:32:04.239 in that sense is the manifold and what
+01:32:08.000 kind of chart you choose is largely
+01:32:10.159 arbitrary.
+01:32:11.679 But whether you express some particle
+01:32:14.719 path, some curve in one coordinate
+01:32:17.360 system or the other coordinate system,
+01:32:19.040 that doesn't change the particle path.
+01:32:21.920 All right, that's just up here. That's
+01:32:24.880 one curve in the manifold and this is
+01:32:27.520 coordinate changes. remark
+01:32:33.520 uh the map
+01:32:36.239 y after x inverse and of course you can
+01:32:38.960 also invert this then you get um x after
+01:32:41.920 y inverse. The map y after x inverse is
+01:32:46.400 also called
+01:32:49.520 the coordinate
+01:32:53.199 change
+01:32:55.360 map.
+01:32:59.280 So in a sense
+01:33:01.440 you only perceive physics down here on
+01:33:03.520 the chart level so far unless you saw
+01:33:05.920 this in say general relativity but
+01:33:08.480 actually the abstract notions coordinate
+01:33:10.719 free notions lie above that.
+01:33:14.239 So that makes this connection
+01:33:32.000 definition.
+01:33:37.040 A C 0 atlas
+01:33:41.840 curly A is an atlas that is a collection
+01:33:47.040 of charts is an atlas
+01:33:50.000 um
+01:33:51.600 whose
+01:33:53.120 charts whose elements whose charts are
+01:33:56.400 pairwise
+01:33:59.120 compatible C0 compatible
+01:34:06.639 So again remark I said it before
+01:34:10.159 obviously
+01:34:14.159 any atlas
+01:34:17.360 is C a C0 atlas
+01:34:23.520 that will change later
+01:34:26.639 if we impose stronger conditions on the
+01:34:30.320 compatibility
+01:34:31.760 of chart maps of coordinate maps. Uh not
+01:34:36.320 every atlas
+01:34:38.639 will satisfy these conditions and that
+01:34:41.199 is one way to give extra structure to
+01:34:43.520 manifolds in particular differentiable
+01:34:46.320 structure.
+01:34:47.920 And there's one more definition.
+01:34:53.520 An atlas
+01:34:57.120 is called maximal
+01:35:05.120 If
+01:35:07.840 uh
+01:35:09.360 any chart
+01:35:13.040 ux
+01:35:15.760 that is C 0 compatible,
+01:35:22.400 so I should say a C0 atlas is called
+01:35:26.080 maximal. If any chart ux that is zero
+01:35:29.360 compatible with
+01:35:32.800 any
+01:35:34.639 vy
+01:35:36.719 that lies already in the atlas
+01:35:42.800 is already contained
+01:35:46.000 is also is already contained in the
+01:35:48.960 atlas.
+01:35:57.920 So now here it is not the case that any
+01:36:00.400 atlas is maximal. Remark
+01:36:05.120 consider
+01:36:09.600 um the following consider the manifold
+01:36:14.159 M O being the real line equipped with
+01:36:18.239 the standard topology. It's a
+01:36:20.560 topological space, but it's clearly
+01:36:23.440 locally homeomorphic to R1. So, it's a
+01:36:27.760 one-dimensional manifold. And so for
+01:36:30.480 this one-dimensional manifold I claim
+01:36:33.600 that taking the entire line together
+01:36:39.280 with the identity on R
+01:36:44.480 is an atlas
+01:36:49.760 of this manifold M O is an atlas. Well,
+01:36:54.159 that's what you usually do. You say,
+01:36:55.679 well, if all of physical space is r,
+01:36:59.280 then I can obviously use 1 2 3 4 5 pi 7
+01:37:03.760 half and so on as coordinates on there
+01:37:08.239 in this fashion. So you have an atlas.
+01:37:10.239 You need only one chart to cover all of
+01:37:13.280 R.
+01:37:15.840 But
+01:37:17.760 a prime
+01:37:19.600 that consists of well, let's be
+01:37:22.000 generous. Let's keep this chart. But now
+01:37:26.239 we publish a two-page atlas. And there
+01:37:29.119 is another chart. And the other chart
+01:37:31.840 could be
+01:37:34.239 um
+01:37:37.040 could be uh the interval from minus
+01:37:39.679 infinity to 0 again with the identity
+01:37:43.440 map
+01:37:45.199 uh going to the real numbers. Um yeah,
+01:37:48.960 that's fine. again with the identity
+01:37:50.639 map.
+01:37:52.880 This is a different chart. This one only
+01:37:54.800 covers half of this. These two charts
+01:37:57.520 are compatible because any two charts
+01:37:59.679 are compatible. And this is a different
+01:38:02.080 atlas also atlas.
+01:38:06.560 Now you say, well, hang on, but you can
+01:38:08.560 now of course construct an atlas a
+01:38:12.080 10,000 prime
+01:38:14.320 where you take more and more charts into
+01:38:17.360 it. For instance, you could take uh
+01:38:20.480 another chart where you take r without
+01:38:23.440 the no that's not polar coordinates are
+01:38:26.000 not very meaningful here. Well, anyway,
+01:38:27.440 you you come up with with various charts
+01:38:29.600 and you can add more and more charts and
+01:38:31.600 any new chart will be compatible with
+01:38:33.360 the old. Well, the maximal atlas will be
+01:38:37.199 maximal atlas once you added all the
+01:38:40.000 charts that are compatible. Then it's a
+01:38:42.080 maximal atlas. Okay?
+01:38:45.199 because then any one that's compatible
+01:38:46.880 with all that's in there is already in
+01:38:48.960 there. Again, this notion of a maximal
+01:38:52.239 atlas will become more interesting later
+01:38:54.960 on when we lift this restriction or when
+01:38:58.400 we intensify this restriction of the
+01:39:00.800 atlas being C0.
+01:39:05.280 Okay, now we have all this terminology.
+01:39:08.320 The big question is what is this all
+01:39:10.400 about?
+01:39:11.840 Well, the answer is we can look at
+01:39:14.880 topological manifolds from two points of
+01:39:17.600 view
+01:39:21.760 um
+01:39:26.560 can look at topological
+01:39:30.239 manifolds
+01:39:33.119 um from two points of view.
+01:39:42.239 In particular,
+01:39:44.560 we can look at objects on these
+01:39:47.360 manifolds from two points of view. In
+01:39:49.679 particular, with respect to objects
+01:39:54.719 on the topological manifold
+01:39:59.119 for instance or example,
+01:40:01.679 consider a curve. Consider
+01:40:05.520 a curve gamma. What's a curve? Well,
+01:40:07.520 let's say a curve is a map from all of R
+01:40:12.239 into the topological manifold. Now, you
+01:40:16.639 could have the question
+01:40:18.880 is the curve continuous
+01:40:24.320 uh as it should be
+01:40:29.040 if it is the trajectory
+01:40:34.719 of a classical particle.
+01:40:39.280 So if we identify M with the physical
+01:40:41.440 space, we want to do classical
+01:40:42.800 mechanics, the particle trajectory
+01:40:44.800 shouldn't jump all of a sudden. It
+01:40:46.800 should be continuous.
+01:40:48.639 You can ask this question on two levels.
+01:40:51.440 So answer level one.
+01:40:55.760 Answer level one is the following. You
+01:40:58.880 say it's a nobrainer.
+01:41:06.560 It's a no-brainer because you have R
+01:41:10.080 equipped with the standard topology. You
+01:41:12.719 have M equipped with the topology you
+01:41:14.960 gave it. So it's a uh topological
+01:41:18.159 manifold. And it's full well clear what
+01:41:21.760 a continuous curve is. Then you say well
+01:41:25.360 the curve is continuous if for every
+01:41:28.239 open set in the target the pre-image of
+01:41:31.920 that open set under the map gamma is
+01:41:34.560 open in the domain.
+01:41:36.719 Why? Well because that is the definition
+01:41:38.880 of a continuous map and the curve is
+01:41:42.000 just a particular instance of a map.
+01:41:46.639 So you can decide this fully on the
+01:41:49.760 topological level. So there is nothing
+01:41:52.800 more that needs to be said. Well,
+01:41:55.600 however, that is not how so far you
+01:41:58.400 looked at it in your physics courses. In
+01:42:00.719 the physics courses, you looked at it at
+01:42:03.440 level two
+01:42:05.679 or at least at another level, you said,
+01:42:08.320 &quot;Aha, I have R.
+01:42:12.080 I map it into the physical space.&quot; All
+01:42:14.320 right, that's the curve gamma in the
+01:42:16.880 real world if you wish. But now you use
+01:42:21.679 you only look at one part of the real
+01:42:25.199 world namely the image of gamma only
+01:42:28.560 into a subset u. So that uh the domain
+01:42:34.480 is the pre-image
+01:42:37.119 of u under the map gamma. So that
+01:42:39.360 parameter range where the curve lies
+01:42:43.280 within
+01:42:44.880 this restricted set u. And if u together
+01:42:48.080 with x is a chart then you land in x of
+01:42:52.480 u in rd. Let's say m is a d-dimensional
+01:42:56.400 manifold
+01:42:58.000 dim m= d.
+01:43:01.360 Okay. And then you actually were
+01:43:04.400 instructed in your physics courses to
+01:43:07.440 not look at the curve gamma but to look
+01:43:09.679 at this curve at the curve x after
+01:43:12.400 gamma.
+01:43:14.880 And probably you were even instructed to
+01:43:17.119 look not at X after gamma which is a
+01:43:19.360 curve from some part of R into RD. You
+01:43:23.280 were instructed to look at the E
+01:43:25.760 component of this curve because these
+01:43:29.600 are for a given parameter the
+01:43:31.840 coordinates where your curve is.
+01:43:35.040 Okay. And then you were instructed to
+01:43:38.480 check whether the definition of the
+01:43:40.960 curve is continuous in each slot. Right?
+01:43:45.679 The curve is continuous into RD if each
+01:43:49.280 component function is continuous.
+01:43:53.199 Well, this of course you can now check
+01:43:56.400 and you check it here. The question is
+01:43:58.880 if you check that this is continuous do
+01:44:02.080 you already as a map from R to RD can
+01:44:05.199 you already conclude that the gamma up
+01:44:07.840 here is continuous well in topological
+01:44:10.400 manifolds is very simple because you
+01:44:13.199 know this is the composition of two
+01:44:15.280 continuous maps so this is this is
+01:44:18.800 always this is continuous if and only if
+01:44:21.040 this is continuous
+01:44:23.199 okay so it's correct you can conclude
+01:44:26.560 that if the the curve is continuous in
+01:44:29.199 its components than the real curve in
+01:44:31.600 the real world not its coordinate
+01:44:33.360 representation not its chart
+01:44:34.880 representation that the curve in the
+01:44:36.719 real world is continuous. So if you want
+01:44:38.560 a picture for that
+01:44:43.440 you could say the gamma is so imagine a
+01:44:47.119 bird is flying through this room. Okay.
+01:44:50.080 And then m is is this real space the
+01:44:53.520 physical space if you wish. our model of
+01:44:55.679 it. But nevertheless, the real physical
+01:44:57.440 space and the bird does what the bird
+01:45:00.159 does. Now I can decide to look at to put
+01:45:04.880 coordinates into this room like this. XY
+01:45:07.280 Z something like this. Okay? And then I
+01:45:10.239 can look at the path of the bird in
+01:45:12.400 these arbitrarily chosen coordinates.
+01:45:14.880 That's what you're instructed to do in
+01:45:16.480 elementary physics classes. You could
+01:45:18.639 choose also a different coordinate
+01:45:20.320 system then. So that would be uh another
+01:45:24.159 map up here. So you choose a different
+01:45:26.159 coordinate system
+01:45:31.360 Y that goes into some part of RD and you
+01:45:35.600 consider the bird flight
+01:45:39.440 as Y after gamma. So that would be again
+01:45:42.800 the same bird is flying. It's the same
+01:45:45.119 trajectory but you choose to have
+01:45:47.360 different coordinate representation.
+01:45:50.159 Okay. So this is more like our
+01:45:52.080 representation how we put numbers to the
+01:45:54.960 bird's paths. You need to choose
+01:45:57.440 coordinate frames. But the real birdly
+01:46:00.239 is encoded in the curve gamma. This is
+01:46:02.800 just how we attach numbers to it. And
+01:46:05.199 that's why we so often choose coordinate
+01:46:06.960 systems.
+01:46:08.639 And now it's again a triviality. This is
+01:46:11.199 continuous if and only this is
+01:46:12.719 continuous. But now how do we have
+01:46:15.199 access to the real bird's curve? Well,
+01:46:17.360 we only have access to the descriptions
+01:46:19.040 in different charts. And you may wish to
+01:46:22.080 consider this map which is y after x
+01:46:24.880 inverse. Ah, it's the chart transition
+01:46:27.520 map. But the chart transition map ought
+01:46:31.199 to be continuous. If the charts are C 0
+01:46:33.679 compatible that means if you know that
+01:46:36.080 in one chart your description is
+01:46:38.960 continuous you compose it with the chart
+01:46:42.719 change and then of course you could have
+01:46:44.480 equally well written looked at the
+01:46:46.320 bird's path in the other chart and you
+01:46:49.040 know that's continuous as well. So by
+01:46:52.080 having by looking at chart transition
+01:46:54.320 maps you can almost entirely well you
+01:46:58.320 can entirely forget about these inner
+01:47:02.480 workings which in some sense is the real
+01:47:05.760 world. You can fully forget about what
+01:47:09.040 is in the blue
+01:47:12.719 part of this and you can work in some
+01:47:16.159 chart. You can change coordinates to
+01:47:18.159 another chart and you describe the
+01:47:20.320 situation in full.
+01:47:22.719 But it would be a shame because what you
+01:47:24.320 want to describe is here the real world
+01:47:26.239 and you you now see how why choosing
+01:47:29.440 different coordinate systems
+01:47:32.480 describe still the same world.
+01:47:35.440 Okay, so that's the philosophy behind
+01:47:37.600 all of this. And here everything is
+01:47:40.080 trivial. You could go either path and
+01:47:41.920 you know everything about all the maps.
+01:47:44.239 But as soon as we would like to speak
+01:47:46.159 about not the continuity of a curve but
+01:47:49.760 say about the differentiability,
+01:47:52.400 there is no way we do this via the
+01:47:55.760 topological manifold that would maybe
+01:47:58.480 present our model our real world. We
+01:48:02.080 then have to impose that these
+01:48:04.080 transition functions preserve any of the
+01:48:07.440 properties we want to impose on this. So
+01:48:09.920 if you impose here that this be
+01:48:11.600 differentiable, well, it better be
+01:48:13.520 differentiable in another coordinate
+01:48:15.280 frame. Okay, but then the transition
+01:48:17.840 function needs to be differentiable as a
+01:48:19.760 map from RD to RD
+01:48:23.040 and then we need to restrict our atlases
+01:48:25.199 on so and so on. So again in the
+01:48:27.679 topological manifold context this is all
+01:48:31.040 redundant but it will become important
+01:48:33.119 later on and equally well and that will
+01:48:35.280 be on the problem sheet you can ask when
+01:48:37.760 is a map from some topological space m
+01:48:40.480 to another another topological space n
+01:48:42.719 or from manifold to manifold when is it
+01:48:45.360 from manifold to manifold sorry when is
+01:48:47.119 it continuous you can then choose
+01:48:49.600 coordinates for both the domain and the
+01:48:51.920 target and you can extend this picture
+01:48:54.159 and that will be on the problem sheet
+01:48:56.239 sheet. So that's the contact of all we
+01:48:58.960 did so far to how you describe physics
+01:49:02.239 so far and it's very valuable to
+01:49:05.119 understand these relations.
+01:49:07.600 See you next time.

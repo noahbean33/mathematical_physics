@@ -1,0 +1,420 @@
+00:00:05
+[Music] so good morning and welcome back so so far we considered uh the tangent spaces to a manifold but only at one point and only last time we considered the tangent bundle which is the disjoint Union of all the tangent spaces to all the points now it is the tangent bundle and the fact that we saw that a smooth bundle of smooth manifolds that now allows us to Define tensor fields and the moment we Define tensor Fields there's little surprise because as long as we only considered the tangent space to one
+
+00:00:44
+point that tangent space was a vector space now we're going to consider not only elements of such a vector space but in fact sections of the whole tangent bundle which intuitively can be understood as Vector fields and we will call them Vector fields and it will turn out that we can add Vector fields and we can also scale Vector Fields but other than a vector the vectors in one tangent space all the collection of vector Fields does not constitute a vector space in itself the collection of all
+
+00:01:18
+Vector Fields will actually only be a module and so today we'll study this connection so that's 4.7 tensor fields and modules so uh unlike mathematicians uh most uh people who apply mathematics consider sometimes rings and modules a somewhat esoteric subject and today we will see that it's not esoteric at all and that actually the funny properties of modules that come up at least if you compare them to Vector spaces are of direct geometric relevance and make us understand the subject better so that's
+
+00:02:07
+the reason why we emphasize this so last time we um defined the tangent bundle uh and that prepares us for the def definition of what a vector field is definition so let M be a smooth manifold uh and TM it's Tang tangent bundle which we saw as a smooth bundle uh so TM down to M with the bundle projection Pi Pi is smooth that's what we mean by the tangent bundle being a smooth bundle um a vector field as opposed to only being a vector a vector field is a smooth section a smooth section of the tangent bundle um and I
+
+00:03:14
+remind you of what a smooth section was or what a section was in the first place if you have a base space m and you have the total space m there's the bundle map Pi that sends you down that's the bundle and if the bundle map Pi is smooth and M is a smooth manifold I showed you last time how to construct a smooth Atlas and there's also a problem about that on the problem sheet and but now what if you go in the opposite direction and you call this a a map Sigma if the map Sigma is such
+
+00:03:51
+that if you first apply Sigma but then you go back by pi so you consider Pi after sigma if this brings you back to from where you started so if this is the identity map on M then this Sigma is called a section of that bundle in this case the tangent bundle and the smooth section is simply the Restriction that this map is smooth now we already saw before when we talked about sections that if I think locally a section is just can be thought of as to every point you assign a vector an element in the fiber over that point so if you have
+
+00:04:38
+a manifold M and uh you go to this point P then this Sigma because of this property Pi after sigma is it m this map assigns to this point not a vector in another tangent space at Point q but it assigns to this p a vector so Sigma of p is an element of TPM okay it assigns a vector in that tangent space at the point where you are that's of course the idea of a vector field that you provide a vector at that point at another point you might provide another Vector but it's not that at this point you provide a vector that lies in
+
+00:05:20
+another Vector space okay so this is this section property now you can say couldn't we have had that simpler couldn't we have written down a map from m to the tension space at that point well yeah but you don't know at which point you are if you start in all of M and then you have the other problem you need to say what does it mean that a vector here if if I have a whole Vector field so that's the intuition of this section have a whole Vector field what does it mean that this is a smooth Vector field
+
+00:05:53
+so that you can differentiate and stuff well it's very difficult to say if you think about this V at this point then another Vector at the other point you would have to introduce differentiation of vector fields in a in a particular new manner but you don't need to because if this is a smooth manifold and that's a smooth manifold we know what a smooth map between smooth manifolds is right so that's the basic idea uh about this definition of a vector Fields okay so from now on a vector field is a smooth
+
+00:06:24
+section of the tangent bundle that's it now if you look at this um aha uh first we call the collection of all such Vector Fields call um the set of all Vector Fields And if I now say Vector field I always mean smooth Vector field because on a smooth manifold you always I mean it's always if we were only considering topological manifolds I couldn't talk about smooth Vector Fields but I could still talk about continuous Vector Fields right and then I would have a continuous map from the topological
+
+00:07:05
+manifold m to the then topological manifold TM and so on so at whatever level you are you can then talk about the corresponding type of vector field okay it's always the same thing I I think it's boring to write this down in detail every time you you you get the gist of it right okay so call the set of all Vector Fields um gamma of TM which in fact is the standard notation for all the sections of a bundle so this actually means these are all the sections of the tangent bundle okay um again why is this at all
+
+00:07:43
+a set right well we need to say what the restricting set is um but because we Define Vector Fields as Maps we always know how that works works always via the cartisian product and so on okay call the set of all Vector Fields gamma TM so now once we have that we can actually equip gamma TM with two operations yeah sure yes the collection of all Sigma so no no okay I know what you mean so the point is this is just notation so this gamma of TM is called uh is the set of all sections of that b of the bundle with
+
+00:08:37
+this total space that's the idea uh such that Pi after sigma is it m clarified no yeah yeah yeah so that's just notation if you say the sections of a bundle you provide here the total space of the bundle very strictly speaking you have to say the gamma of the TM the pi and the m right because all of them appear over here this is just short notation for that okay so that's the set and now we equip this set with two operations and now it gets interesting the first operation is kind of trivial
+
+00:09:15
+let's call it cir Plus for the time being uh you take two elements of gamma TM that means you take two Vector Fields not two vectors but entire Vector fields on your manifold and you map them to a new tensor Vector field on manifold and you do this pointwise so there's no big secrets so one is called Sigma the other one is called to and you map this pair to something we call Sigma cir plusus to and sigma cir plus to uh is defined pointwise that means at every point of the manifold P and M uh we Define this as
+
+00:09:52
+Sigma of p plus Sigma of uh plus to of p and where does this guy sends us it sends us to the tangent bundle um but this is just a collection of all the tangent spaces if I'm at Sigma of P because of the um section property this must be the Plus in TPM okay so in this sense pointwise I mean it's exactly what you would intuitively do I have two Vector Fields you go to go and look at every point and at every point you take the two vectors of the vector fields at that point and you add them in that tangent space and
+
+00:10:31
+from that if you do this at every point you have back you get back your your T your vector field okay so so that's clear you find this addition now slightly more interesting is this kind of thing that we might want to call an S multiplication but now the question is over what field and the answer is we can do something interesting before I write down from where to where this well let's not be so childish so I can actually take not only a real real number and multiply a vector field by a
+
+00:11:02
+real number I can multiply a vector field by an entire function on the manifold in the following fashion gamma TM goes to gamma TM so that I take a function on the manifold and a vector field on the manifold and I send this to something I call fsir Dot Sigma where this is again defined pointwise no secret here so F Su do Sigma is a new Vector field lying here right uh defined pointwise such that this is f of P times um Sigma of p and this is obviously the S multiplication in TPM right okay so that's innocent enough
+
+00:11:55
+and of course the idea is you take one vector field and now now of course we can take a function which is at this point yields a different value than here and I scale the vector of the vector field here with the value of the function as it is here and I scale the given value of the vector field Sigma at the other point by the value of the function at that point right there's no need to have one Global real number doubling or tripling or whatever the vector field but you have a function that can change from point to point it's
+
+00:12:29
+very innocent okay and it has dramatic effects in in what follows okay so um and we recall that uh this C Infinity M this appeared in in various forms so far um one of the forms it appeared in was as a vector space where this was an S multiplication and it was the S multiplication where every function could be num um uh multiply by a real number and so on you get a function back smooth function um but that's not what I mean here I here rather mean a Big Blob uh I mean a multiplication between two
+
+00:13:11
+such elements that made this thing actually into um into a ring okay so obviously you can add to functions pointwise and you can also multiply to functions pointwise okay it's a different dot than the one in uh that we equipped it with before where you just get from it an R Vector space so maybe uh I should first write down with a little Dot and as such it's an R Vector space but we also I think we already saw this that you can at the same time or alternatively if if you at um equip it with a multiplication to make it into a
+
+00:13:51
+ring um why is it only a ring well what was the ring again um okay I I'll say again in a second to to to be clear but here it becomes a ring and if you multiply two functions it's no longer true that every nonzero function has a multiplicative inverse it's enough the failure to have a multiplicative inverse for a function is already there if the function has one zero somewhere because then there is no other function by which you could multiply it that so that you get back to the unit function that gives you a one
+
+00:14:28
+everywhere How would well clear okay so it's a ring um okay so um that means we have here a structure on the set of all Vector fields that has an addition and has an S multiplication but the elements here are no longer the elements of a field they're only the elements of a ring now one could think that this is not big business but in fact it is um you can show that this um these two operations plus cir plus and Circ dot that they satisfy the properties KY and adul which is the commutative
+
+00:15:15
+associative neutral element and inverse element of this cir plus addition and the associativity of the Circ plus and then the distributive laws are with the Circ times and the uh and the Circ plus and and and stuff like this and uh the other distributive law um distributes over the pluses in the ring and the cir dot something like this uh so these are the typical Vector space aums that you have only that the underlying field is not a field that all it's only a ring so we could easily call this a vector space
+
+00:16:04
+that we could say that this field set of all Vector Fields can be given a vector space structure over a ring okay now Vector space structures over a ring behave so differently from Vector spaces that they got their own name in order to not get confused and that name is a mod module okay so that's the motivation why we're interested in modules over Rings it's not exotic at all it immediately comes up once you deal with tensor Fields I should add of course you could restrict here to having only real
+
+00:16:48
+numbers you say well if this gets us into mathematical uh into mathematically uh deep subject why don't we just restrict ourselves to uh only scaling vector Fields with a global real number we could do that well the answer is uh late then we would always get over countable basis for such Vector field sets and that we don't want I'll show you again why why that comes up okay so we definitely want to be able I mean roughly speaking you want to provide coefficients for a tensor field where
+
+00:17:23
+the coefficients are Fields uh yeah well are well fields in a physical sense can change from point to point that's how we understand Vector fields we say that's the coefficients of this Vector field and um they change from point to point okay and in order for the coefficients to be functions that's what I mean want them to be functions you need to have that we'll come back to that later okay so we definitely want this and um it's now worth looking at the algebraic structures behind this so I said it
+
+00:17:55
+before but uh recall uh that a ring r with an addition and a multiplication where again I emphasize the addition is from R cross R to R and the multiplication is also from R cross R to R um a ring is a structure is a set with two such operations such that uh you have c n i if it was a field you had again c n i and you had a distributive law I think last time I talk told about that I forgot to write down the distributive law well you know that um it's a self-correcting mistake I hope um well if you had a field
+
+00:18:41
+um you had these laws commutative associative neutral inverse here as well if you take out the zero that's the neutral element from here then you have these laws there and you have the distributive law that links the two operations now for ring however it's a special case if the ring is commutative and uh we call a ring that has this axium a commutative ring so only for commutative Rings uh which implies you can leave it out and you still have a ring it's just not a commutative ring now the neutral element of
+
+00:19:25
+multiplication um this is only in unital rings so on rare occasion uh one could think about rings that do not even have the neutral element in them okay but if they do then we call this a new unital ring and we will always only talk about unal Rings it's just for completeness here and the inverse back here is also not necessarily there in a ring uh but it is there or if it is there uh then we call the ring a division ring uh only for division rings so if a structure that otherwise is a field fails to be
+
+00:20:21
+commutative the ring it's no longer a field it's a ring sometimes I think one then calls it a sko ring a sco field anyway uh or if it lacks the unit it's not it's well it's still a ring it's no longer a unital ring it's certainly not a field or if not every nonzero element zero being the neutral element from the addition if not every nonzero element has an inverse then it's not a field it's not even a division ring but it's still a ring okay and these things these
+
+00:20:56
+three things can be missing quite independently um well not quite independent of each other because you see you could never have a division ring if the ring wasn't unital because this definition of the inverse that if you take any ring element that's not the neutral element here there is another ring element such that the product yields this neutral element so okay fine aha so that's a ring and so let's uh take our uh example I mean there are many examples that of Interest to mathematicians uh but we're not going to
+
+00:21:31
+go into that um let's take our example C infinity plus times it was the Big Blob so that it is an operation um like this one so it's a multiplication this is a ring is it commutative so I take the blob the pointwise defined product of two functions I get a function is that commutative yes why is it commutative it inherits the commutativity from the product in where in R right in the real numbers that's right so it's certainly a commutative ring commutative ring nice is it a unital ring is there an a multiplicative
+
+00:22:13
+inverse is there a function by which I can multiply any element in here and I get the element back yes there is the unit function so it's unal so and the the identity on C Infinity m is given by the function that to every point of the manifold assigns the real number one right of course that lies in here that's a smooth function so it's a commutative unital is it a division ring can I find to every nonzero function the zero function would be the neutral element here for addition of course can
+
+00:22:55
+I find for any nonzero function a another function such that the product is the one no because if I have a function that's non zero but gets zero at some point it doesn't make it zero in this space of course it gets zero at some point then there will be no other function that in a sense by pointwise multiplication which this is gets rid of the zero to produce a one also at that point okay so it's a commutative unital ring but not and that's of key importance but not a so-called division
+
+00:23:37
+ring okay so that's the that's the observation here so we're immediately dealing with a commutative and unital ring okay fine so now comes the next definition not much of a surprise um that uh M cir plus Circ dot which which is now an S multiplication uh is called an R module so you see not not a k Vector space but it's called an R module um if the Circ addition is M so this m there's some double working right here the m is the manifold we're we're looking at all the time the smooth
+
+00:24:25
+manifold uh and now I use M to uh denote put an R module I you won't be confused will you I could choose a different letter but M like module that's very nice okay so don't be confused so the Circ addition is M cross M goes to M and the Circ multiplication it's an S multiplication goes from The Ring ah it's U yeah well R is a ring some ring no no further constraint R is a ring R cross M to m well if you want to be very picky you can say this is called a left arm module because the
+
+00:25:04
+multiplication is from the left you could Define an a right arm module where this multiplication by the ring elements is from the right then you could talk about an R module if you have both and they're compati let's not go into this it's not necessary we call this an our module okay so you can always make further distinctions okay if you have these two guys uh and they satisfy again c a n i and a ddu but now of course for these operations uh here and so on okay so it's a vector space but over a
+
+00:25:48
+ring uh Vector space over a ring and that would be perfectly terminology but because they have such different properties uh from Vector spaces occasionally um they deserve an extra name that that's all that there is to it okay there's an R module okay um and as an example that is what I provided as motivation example is the set of all Vector fields or a manifold set of all sections uh equipped with their um with the pointwise addition s multiplication is a c Infinity M module so the tricky thing in the module
+
+00:26:48
+is not the module structure it's the ring structure that underlies it okay fine so now the point is um what's the big deal about this being a module and not a vector space um and then the key fact is the following unlike a vector space um a module uh generically does not have a basis okay um it has a basis so I say here unless R is a division ring so if the underlying ring is a division ring meaning in the ring there exist multiplicative inverses for every but the nonzero element for every nonzero
+
+00:28:02
+element then there's not much of a difference then I mean essentially then a module is by all means a vector space with all its property it's still a module because you could have a a school ring for instance right you could have lack of commutativity in the ring elements but that wouldn't be seen I mean it's of course seen it plays a role in some calculations but the the structural properties of a module are then very much as those of a vector space and actually we are going to prove
+
+00:28:29
+that okay so that's uh uh important enough to to prove it um but you see the case of indirect interest to us namely the um the vector fields that are C Infinity M module C Infinity m is just not a division ring so this Vector space the the space of um the module of vector Fields does not have a basis generically and we will actually see uh geometric examples for that that otherwise may be mystifying but you say of course it doesn't need to have a base because the module I mean how would it
+
+00:29:10
+have a base if it's a module over a non division ring so we'll look into that uh and in particular we're going to prove uh what I just asserted here uh well we're going to prove the converse namely um or the the opposite namely that every module over a division in particular a vector space has a basis so we use this all along that Vector spaces have a basis we can slightly extend this to every module over a division ring so um uh the commutativity of the underlying ring is not important
+
+00:29:45
+but the division ring property is and then we can show every such module has a basis and later we're going to understand the failure of our space of Vector fields to have a basis uh as a failure of the underlying module of this module having um uh being a so-called free module that has a basis okay we we're going to come to that so this is now uh uh the abstract form rings and modules uh with the key example we're interested in so now we're going to explore this um formally well maybe before I prove uh
+
+00:30:28
+this that every module over a division ring has a basis I give you the counter example that you immediately understand okay um okay let me formulate the theorem then I give you give you the counter example uh well in sense it's an example and then I'll prove it so the theorem is that um if D is a division ring then a d module V we call it immediately V like vector space but it's a module right A D module because this D may be non-commutative then a d module V uh has a basis uh coroller of the this theorem
+
+00:31:42
+we're going to prove um corollary every Vector space has a basis bases since any field meaning numbers underlying numbers since any field is a division ring so we also get that for free that every Vector space has a basis and we're going to show it so what goes wrong if there is not if the underlying ring is not a division ring um so um geometric example for the case that the underlying ring is not a division ring well let me give you two intuitions the first intuition is assume that the
+
+00:32:56
+manifold is r R2 so the plane the Blackboard plane and you consider a vector field on the Blackboard plane uh for instance this one a smooth Vector field well that's a vector field on the Blackboard plane everywhere a vector attached then gamma of TM although or not although being being a c Infinity M module I say coincidentally has a basis but didn't I say if the ring is not a division ring it doesn't have a basis no I never said that I said if the underlying ring is a division ring then
+
+00:34:13
+you're guaranteed to have a basis right well if it's not you may or you may not have in this particular example of R2 every Vector field if you consider the set of vector Fields as a c Infinity M module it has a basis but what does that mean that means there exist now not numbers but there exist in this case two functions two coefficient functions right uh well should start here there exists a an E1 E2 there exist two Vector Fields E1 and E2 not vectors but Vector fields such that there exists for such
+
+00:35:03
+that for every field there exist coefficient functions such that the entire field can be written as a linear combination of coefficient functions with a vector field so how do you have to think about the spaces well the spaces could be in this particular example this could be the E1 Vector field but then we also have an E2 Vector field so that's the E2 Vector field and doubtless if I now look at an arbitrary well smooth Vector field have to think about this being on top of this or both of these Vector Fields
+
+00:36:05
+extending everywhere right all of these three Vector Fields then clearly if I have at some point so I let's say it looks somehow like this okay then obviously by choosing the right coefficient functions at every point I can produce the blue Vector field of the other two but then I need coefficient functions so these guys really need to be functions such that at every point I can scale E1 and E2 differently to get the blue the blue result right that's clear or not that's fine it's our standard intuition about the
+
+00:36:57
+vector field so you say it's all fine it's all fine okay it's not a division ring but apparently there is no problem so what is the issue well the issue is in example two let's say the smooth manifold is the sphere and let's say I have a vector field V tangent to the sphere now my claim is now the set of all Vector Fields being a c Infinity of S2 of M well M me S2 uh module does not have a basis well here I should have said a basis means uh there exist unique such coefficient functions right otherwise
+
+00:37:55
+only a generating system but a basis the exists a unique decomposition this way does not have a basis now how do we understand this and this is due to a famous result well this is due to a famous and in fact very intuitive result namely the result is called you cannot comb a sphere um I first give you the intuitive idea and then I write down what it means formally assume you have a sphere and at every point of the sphere there is a hair okay the sphere is hairy sphere now I give you a comb and I tell you at no
+
+00:38:50
+point has the hair length zero I mean we we do this right we shave and uh we produce points on the sphere that I have non zero I have zero length hair but assume I don't do that I'm an ape also I'm fully haired right whole sphere here so now I give you a comb so so comb the the head of an ape okay try to comb this in a smooth way so that then no you put The Parting and stuff but at no point should the resulting Vector field that's given by the hair that you now comb along the head at no
+
+00:39:26
+point should this be nons smooth can you do this can you do this no you can't um if you look here right so there there is this this uh this curl right so there if if you comb a sphere you will not avoid that at some point there is such a curl and then then you may go on here like this maybe you have to have another curl maybe you have to have a second curl okay but at this point the field is not smooth because it if you take this seriously here it needs to vanish okay so if you have a sphere and
+
+00:40:04
+the hair goes has constant length for instance and goes out there's no way to way to com it okay cannot do that so technically it means there exists no everywhere nonzero and everywhere smooth Vector field on S2 on the sphere okay now what does that have to do with Vector fields on the sphere having a basis well that means we if we don't have one such Vector field much less do we have two that means even if I start at some point with some idea of a basis right and maybe I can take this to it looks like you can have a basis
+
+00:41:32
+you can have the um the orange Vector field you can have the white Vector field E1 and the orange Vector field E2 but already E1 cannot be everywhere nonvanishing and smooth also E2 cannot be individually be everywhere nonzero and smooth but a vector field if it's supposed to be or a vector if it's supposed to be part of a basis cannot vanish right so you see that this simple thing that already there is no not one everywhere nonzero and everywhere smooth Vector field that it means much less are there two that
+
+00:42:14
+can then be linearly independent everywhere such that you could take an arbitrary Vector field on the sphere and uh uniquely decompose it in terms of the spaces because it's not a base for instance assume that this is the point where the if it's to be smooth uh where the E1 vanishes and even if the E2 at this point happens to be there and now you have a vector field blue Vector field that has not only an E2 component but needs an extra component well the E1 for instance cannot provide it okay so that means there is not
+
+00:42:56
+there's no basis for the vector fields on the sphere ah now we understand well here we were lucky although this is a division ring non- division ring because of the special structure of R2 everything was fine but on the sphere we have an example where we have a non a module over a non division ring and indeed it doesn't have a basis okay so I think that's an important point this is already well it's an illustration of the theorem we're going to prove um but are there any questions
+
+00:43:37
+here please ask for clarification here if you're if you if you got lost okay so what if we if we come back to the idea well if this modu of this ring structure here non-division ring structure of the coefficients gets us into trouble why don't we just withdraw draw and we say well but then let's just consider Vector Fields as a vector space over the real numbers which they are well then the problem is okay you can do this and then you can maybe Pro well you can certainly provide a basis because a
+
+00:44:12
+vector space has a bases but then you see for the coefficients in such a decomposition of a basis you were bound also to real numbers because it's only real numbers that you then can multiply with the elements okay but then very clearly imagine take this example alone you have this E1 this E2 but this would no longer provide a bases because this blue Vector field could not be expressed in terms of E1 and E2 if these guys were just real numbers then I could only in this case only express constant Vector Fields where everywhere
+
+00:44:49
+the blue vectors in the same direction because at every point I would have to take the same linear combination of E1 and E2 well that we don't want so then I would need noncount many basis elements well that becomes not tractable okay so we really want the coefficient functions for tensor Fields but we have to deal with this situation now let's understand this situation algebraically so um that amounts to a proof of this theorem if D if D is a division ring then a d module V has a basis and otherwise it might not
+
+00:45:26
+depending on C cumstances okay so um the proof of the theorem requires some preparation and if this proof wasn't so important and if the techniques in there and the Notions appearing in there were not so important and so ubiquitous in mathematics I would probably not provide the proof but so everything that now comes is is of real importance so the first thing is I say here since it requires the axium of choice um but in the Incarnation of zor slma so it's the Incarnation because zon slma is in fact
+
+00:46:42
+equivalent to the axium of choice if you have all the other axioms of Theo Frankle set theory okay and so it's just another way to express the Axiom of choice and but lmer comes in a form that's very often very useful and so I write down zor slma and you need to have some space around it okay so here we have Zorn's Lema I first state it and then I explain the Notions that appear in there so Z's LMA is a partially ordered set a partially ordered set let's call it P partially ordered set is something I
+
+00:47:35
+need to explain who every totally ordered subset T so I need to tell you what a totally ordered subset is a partially ordered set P whose every totally ordered subset T has an upper Bound in P so I need to tell you what an upper bound is for such a set has an upper Bound in P contains now that's the verb of the sentence so it obviously refers to the subject of the sentence contains this P contains a maximal element so I need to tell you what a maximal element is so it's very enlightening apart from four undefined
+
+00:48:42
+terms so what's a partially ordered Set uh a partially ordered set is a set P together with a relation less or equal to but keep an open mind about what this less or equal to is so this thing is partially ordered set or is partially ordered if three properties are satisfied the first property uh is called reflexivity and that is that a is less or equal to a for every a in P okay I I don't you get it these are the elements in the set reflexivity the second is called anti- symmetry so not symmetry like in the
+
+00:49:37
+equivalence relation but anti- Symmetry and anti-symmetry in this case is defined a less or equal to B and B less or equal to a if both of this is the case then a is already equal to B um if you think of less or equal to this is kind of intuitive okay but that's an abstract thing here and finally it's transitive well that's kind of as expected if a less or equal to B and B less or equals to C then also a less or equal to C but keep an open mind as to what the exact nature of this less or
+
+00:50:22
+equal to is because p is not necessarily numbers and we will find such a such an instance in a second so you read partially ordered set you think this ah this p is a partially ordered set now what's the totally ordered set that's simple T and I use the same symbol is totally ordered if again three axim are satisfied so let's call them ABC to distinguish uh the first one is totality and totality is the following that was one well it's maybe not clever so let okay so we do not require
+
+00:51:25
+reflexivity from the left we don't require that second we require anti- symmetry as before I don't need to repeat this three will require transitivity as before so I say no more about this and but then I have an Al not an alternative that's what I wanted to avoid I have another requirement that has nothing to do with reflexivity it's not the counterpart of reflexivity it's just something new it's called totality and totality means that if a is less or equal to B no that either a is less or equal to b
+
+00:52:18
+or not either okay I again correct myself inclusive or that a is less or equal to b or B is less or equal to a for all AB in t so that is and I'll comment on that in a second that is the notion of a set being not partially but totally ordered and obviously if something is a subset in particular it's a set and it can as a set def uh satisfy these properties what's the totality in contrast to the being partial here well you see here you could easily have two elements that stand in no relation to each
+
+00:53:06
+other okay um whereas here the totality requires that any elements of the T either they're related this way or the other way yeah numers are parti but not which numbers the complex numbers the complex numbers are parti order but not totally uh well they're not ordered at all are they said you don't need that everybody has a relation I see okay um so you're asking is it possible to establish a partial order on the complex numbers that's a reasonable question well certainly you can say well
+
+00:54:06
+for instance you could Define if this is C you could say this only relates objects on the real line that could never be a total order because then any two objects would have to be related on the real line the question is is any number and on the real line it's supposed to be the standard less or equal to then reflexivity would be given anti symmetry would certainly yeah yeah you're right you're right okay so example for a partial order on the complex numbers have only the objects on the real subset
+
+00:54:38
+ordered with the standard less or equal that's right that's a uh that's a partial order and you see on the real numbers it's a total order if you only take the real numbers uh because any two real numbers are related in this way this is an inclusive or so it could be that it's at the same time and then well it's even true that then it also satisfies reflexivity but then it still is totally ordered that's right that's right so that's the that's the difference here okay so far so good this
+
+00:55:13
+this you need everywhere okay that's why I bring it so what's an upper Bound in P okay so um an upper bound to a set okay so you U is an upper bound to a subset T in some set P if well for every element T in T it's true that t is less or equal to U and U can come from P that what we mean by is a upper Bound in P there is such a u okay and which sign is is it this one or is it that one that I use here well is this one strictly speaking because I compare an element in t with an element that's in p t is a subset of
+
+00:56:24
+P but if I only went to this Ian if this is a subset of course this may be inherited from here but strictly speaking it's the one from over here okay so that's an upper bound totally ordered subset now we need a maximal element and then we got to be a bit careful uh m is a maximal f element um of P if there exists no uh X in P such that m is less or equal to X now one might be tempted again this guy here Compares elements in P so it is this one right now the name maximal element may have prompted an alternative definition
+
+00:57:56
+that's why I said we must be careful you say it's a maximal element if for All U in P it's true that U is less or equal to M and that sounds like well right not that exists not is a not in front of here it can jump in and certainly this relation sign is flipped no it would only be flipped if this was this s this um relation for the total order because a not in front of such a relation sign only can be flipped if it's always true that any two elements are related but that is not given for this
+
+00:58:42
+here where but this formulation of the same idea however is correct because say there is no such thing in P such that it's greater or equal to M but that means there could be others in p that are not related to M but simply have nothing to do with this partial order okay so that's a subtle Point well as it's written here it's correct but when one reproduces this one might one must remember that I mean inspection of of what you wrote down I mean in my preparation here I wrote it down the
+
+00:59:16
+wrong way I'm I'm very honest right and then further down the road I thought I mean something is terribly wrong here it's not even related and ah okay here you have to find this formulation because dealing with the partial order not the total order okay so um that's it okay that is zor's Lema and as abstract as it seems we very often deal with uh such relations and uh well the proof of Thorn's LMA I'm not going to provide but I tell you that in ZF set theory so that uh SEO
+
+00:59:59
+Frankle Theory that's SEO Frankle but without the axium of choice uh it is true that the axium of choice is equivalent to zor slma okay okay and in this form it's useful to us and we'll use it to show that every module over a division ring in particular every Vector space has a basis questions yeah I question the upper yes element of P well yeah later on youire that it has a connection to everything in like a lot like an element of I see your point I see your point so you say if this is the guy from here and
+
+01:01:12
+I require this so either I also use the same trick as over here okay what do I need later later I need actually it will lie okay I think that at this point I would like to use the same trick that I say it's an upper bound if there exists no T in t um such that let me think for a second please 6 t such that use I need later on the union of [Music] only it's an interesting question and unfortunately I cannot decide from our application because there the upper bound I think will lie within te
+
+01:02:33
+so this also can't be it okay so very good question thank you very much thank you very much um I don't know I don't know let's play it safe for our purpose at the danger of Zone LMA being a little more General but uh let's kill this and let's talk about you being an upper bound thank you very much for the question an upper bound of a totally ordered set T if for all T in t it's true so that's then a u in T it's true that t is less or equal to U and that would be this less or equal sign so
+
+01:03:42
+let's say let's see whether I run into trouble this way um but now obviously your your formal concern is satisfied right you say okay if it's totally ordered then any two are related in particular if the U is in T and I I can always relate it like this okay okay hang on hang on good look look look um let me draw a diagram I think we can revert to what I wrote before but I I draw a it's a very good question it's good that we discussed this thank you very much so assume we have a totally
+
+01:04:24
+ordered uh subset T this this is T and by an arrow I mean that um well I actually mean the that this relation holds from this element to this element to this element they're they're totally ordered in this way okay now this is this the subset T it's totally ordered now assume the subset T is part of a bigger set capital P that's so this is only T but now I have the bigger set p and there the whole thing looks maybe uh like this um okay so the whole thing is p and only this guy here this is T do we agree that P has a
+
+01:05:39
+partial order oh dear we have to check this um I don't know something like this okay uh let's say p is a partial order it's but you see there Parts this guy has nothing to do with any of these there's no relation between this one and that one say but there's relation between these are partially ordered and so on these are totally ordered okay you you see this so now I said an upper bound of a total set is well I could say this according to this definition the modified definition this would be an
+
+01:06:19
+upper bound of this uh totally ordered subset T according to this definition now I reverse to my original definition um so let's say no it's a u in P is an upper bound of a and this I should have said of a totally ordered set T that's fine and I should now say a totally ordered subset T in P that is something I should add okay if for every T now I can use this guy again is this and now you say but hang on a second who tells you who tells you that you com can compare this guy to these guys so if
+
+01:07:12
+this is the U I mean obviously according to this definition this is an upper bound this U is an upper bound to this guy as much as this guy according to the same definition an upper bound here because if this is a subset this blue one is just a restriction of this one on the subset okay now this is a u now imagine and that is what you were probably driving at if these connections were not there and then you'd say well this is not an upper bound to these guys because they can't be compared to this
+
+01:07:57
+right if there is this connection I can compare this one to this one because of transitivity right but if it's not there then this U is not an upper bound to the set and you're absolutely right and but then this guy would still be an upper bound to this set it's not a problem it's a special case that's what I want to say what I modified the modified definition was a special case of this definition that's fine and so this is not an upper bound fair enough as little as this one or that one or or
+
+01:08:30
+that one upper bound bound of this but this definition holds the only thing I need to say is an upper bound of a totally ordered subset so that if I can compare one in there with another one I want to compare all of them with that up here and so they must be all in the set must be related to each other that's why it needs to be a totally ordered subset so I stick to my original definition happy or unhappy okay original definition wasn't bad yeah to then I know what you mean yeah yeah no I
+
+01:09:20
+mean the point is I want to have the freedom I want to have the freedom that's why you to if you would say yes it can be in all of P it doesn't have to be in the subset T that's right yeah I want this Freedom so this is certainly the stronger statement if I extend it like this so I didn't unnecessarily want to to restrict it to play it safe and I I hope uh well now I don't have to hope anymore because that's what I what I used okay good good so there is no no uh structural reason
+
+01:09:53
+to to modify this but thank you very much you for shattering my confidence in the definition but thinking about it for another second I think it's it's pretty clear that that's fine okay so let's continue um so finally using zon Slammer uh we'll have the proof namely that every module over a division ring has a basis very important result so how do we do this well in several steps a um start by uh letting s be a generating system um so I the module we already called V and the division ring we called
+
+01:10:51
+D let s be a generating system of V that is every element in V for every such element there exists a finite collection V1 to VN of elements in the ring so you could say components such that the element can be written V equals VA um ah I I should call them e E1 or something E1 to n and I'm sorry I labeled them down no no no I was right V up to VN um aha uh ah I forgot something for every element in V there exists I forgot that I'm sorry there exists a finite collection of e in this subset s so what's the
+
+01:11:50
+generating system it's a subset of the module there exists such a finite collection and there exist correspondingly many elements in the ring such that any element in the ring can be written this way then you say but hang on you're already assuming a basis no it's not a basis it's only a generating system because I said nothing whatsoever about being this this being a unique decomposition of this Vector in terms of this spaces okay uh basis this generating system but in this set s
+
+01:12:24
+there must be a subset such this is true now you ask okay you're going to prove that there's going to be a basis how do you know there's a generating system and the answer is uh s always exists since EG for instance we could use S to be the entire module if you use as s the entire module then certainly for every element in s you will find a finite set of elements of s namely that one itself for instance uh and a factor in the ring it's a unital ring so division ring certainly unit the ring so that V equals 1 time
+
+01:13:08
+itself okay so a generating system is not a big trick but it may be a fantastically huge uh generating system namely the entire module but that shows you can always assume there's a generating system that that couldn't be any different okay but the question is can you extract a basis from such a generating system but first we take this uh generating system that's the first step now the second step is Define um a set a partially ordered set a partially ordered set well what is that it is a P with a less or equal relation
+
+01:13:56
+by well I need to F Define the set first the set p is supposed to collect all the subsets of s all the subsets of s so U is a sub element of the power set of the generating system uh such that U is linearly independent linearly independent I remind you what linear Independence was simply because you mostly check this in finite dimensional spaces um in general linear Independence means um every finite subset of U is linearly independent in in the simpler sense uh dot dot dot dot dot uh I I leave it here you have the
+
+01:14:57
+definition before so every finite subset of U is linear independent in the sense that you have a finite sum with factors the whole thing equals zero that already implies that the factors are zero but this must be true for any finite subset of U okay so you define this p and you partial order it partial order it by inclusion so this guy is actually the set theoretic inclusion it makes sense so you take two subsets of a set now what possibilities do we have the two subsets could be such that one is contained in the
+
+01:15:45
+other then they are related by this ordering it could be you have two subsets that are disjoined that neither one is contained in the other nor the other in the one well not problem because we only need a partial order that's fine okay that's it okay partially ordered by inclusion that's the set P now the next step consists in defining a totally ordered Subspace or rather take any let T be any any arbitrary okay any totally ordered subset of P so P contains subsets of the generating system okay and T is a
+
+01:16:43
+totally ordered subset of of P that means it also contains uh um element of the power set of s but now I require that they're in a total ordering relation to each other and I tell don't tell you which ones I take I take any totally ordered one okay and it's important that it's any because we want to use the we make no further assumptions that's the point I'm not going to tell you more specifically which T because we want any such T in order to be able to apply Z Slimmer because that says for a partially
+
+01:17:23
+ordered subset who every totally ordered Subs so I cannot provide any further constraints here without being impaired to use um zon's LMA now if this is any totally ordered subset then it immediately follows that if I take the union of all these elements in t uh this will be an upper bound to T because all obviously everything that's in T is also in the union every subset in T is also in the union of T so the union is an upper bound to T um and it is a linearly independent subset of the generating system why well
+
+01:18:22
+because every T the t's were sub sets of p and in the P we are only linearly independent sets so it's an upper bound to T and it's linearly independent so from this it immediately follows by virtue of zon slma that P has a maximal element there could be several uh call one of them B so we it has a maximal element and so the existence suffices and that one we pick and this picking has to do with the axum of choice if you look at zon's LMA in the proof of zon's LMA from zfc set
+
+01:19:26
+theory P has a maximum element called one of them B by construction B is a maximal maximal with respect to the inclusion sign in the sense biggest in that sense in the inclusion sense is a maximal linearly independent um subset of the generating system aha so what have we achieved here we start with the generating system and we wanted to make a basis from it okay now what is the what is missing to have a basis well what's missing is that the elements I need to pick a selection of elements that's large enough to still gener
+
+01:20:26
+rate but that only that is a linearly independent set so now what we got is a maximum linearly independent subset so it's linearly independent and you cannot add anything to the set without losing this property okay it's maximal so that comes to step I don't know D the claim now is on the merits of what I showed before is that the generating system is already generated by the elements in B so I don't know how to write this this is the span with coefficients from D of the B and of course by span I mean
+
+01:21:17
+any finite as always linear combination uh of elements of B and I write capital D linear because the um the factors come from the division ring D so my claim is this maximum linearly independent subset of s which is guaranteed to Exist by virtue of zon LMA already spans the entire uh generating system it's linearly independent so that already looks very good so how do we show this our question so far okay so how do we show this [Music] um uh so proof within the proof um ahuh so aha since B is maximal
+
+01:22:25
+linear independent subset um that means that if I take B and I aha so I start with let V be an element of the generating system I want to show that every element in the generating system is spanned by B so I take an arbitrary one let V be an arbitrary element in the generating system now since B is maximal it means that if I take this element V and I add it to the set so I build this Union then this set of course includes B right and but that couldn't be can't be because B is maximal as a linearly
+
+01:23:15
+independent subset that means I add this then this set is um no longer or is linearly dependent linearly dependent why because B already was a maximal linearly independent subset okay so it's linearly dependent what does that mean um ah linearly dependent aha that means so what is linearly dependent that means there exists uh a let's call them a 1 2 A N I need to start differently again okay I'm sorry that means there exists E1 to e n in B and there exist A1 to a n in D but there also
+
+01:24:30
+exists an A in D such that the sum AI EI well we don't need the sum sign such that this guy plus b * V is zero and not because it's dependent and not all of A1 to a n but also the a not all of these n + one numbers vanish again is this true okay we have a set that consists of all the elements in B and an extra element V okay well you see there is this issue assume this V was already in B then this would be still linearly independent okay so this is this thing of of basis stuff so I this B is
+
+01:25:50
+um is a to is still totally ordered because was the union of these totally ordered ones um actually it's more like a sequence there are all these um elements in B and then I also take more like like as a pair I take an addition this guy so it's only very Loosely speaking that we say we we build the union because you say you see you have two vectors V and V they are linearly dependent is that right but if I say I look at the set v v then well that is just the set V that's independent okay so um actually we
+
+01:26:28
+shouldn't say a basis is a subset a base is more like well if it's countable it's like like a sequence right you have an order things can appear double but if they appear double then you lose the linear Independence it's um I leave it like this but it's more like a a a a a notational issue no I mean it's also if you have a basis in other places and you say the first component the second component the third component of a vector well then you need to have an order in your basis vectors you cannot
+
+01:26:56
+just exchange them so again the basis can actually not be a subset because a subset doesn't have an order you know what I mean so but but don't get confused by this so we we have the set B and we or these elements in in B and we take the elements uh the element V on top of it V is an arbitrary element in the generating set and we know this must be linearly dependent because of the maximal property of the B guaranteed by zon slma but that means that if I now take an arbitrary combination of
+
+01:27:27
+elements uh in B and this V right and I buil this sum because linearly dependent I can have this vanish without all of them having to vanish Nam not all of them vanish okay good aha so now it is clear that this b or B I should call it a okay such that this a now it's clear that this a is certainly not zero why is that I mean not all of them vanish that means this could be zero and and one of those isn't okay for um for hang on why was that it's clear that this is non zero a yeah for if it
+
+01:28:22
+was if we had a equals z then it would immediately follow that a i eii is zero and not all A1 to a n are zero because if this is uh if this is zero then one of the others must be non zero but this is in contradiction to the EI being a finite subset of a linearly independent set this is uh a contradiction to um B being linearly independent so there's only one conclusion that is that this factor in front of this extra element must be zero and must be non zero Aha and now it comes but then since this non z a being an element of a
+
+01:29:27
+division ring and it's a nonzero element that means there exists a multiplicative inverse in D okay it's non zero if we didn't have a division ring that wouldn't mean it has an inverse but in a division ring it does aha so then we can go back to this thing that's true namely this one we know a is non zero therefore we can take our arbitrary element V in the generating system we had we can write as minus a inverse time a I eii so I multiply every of the coefficients AI with the inverse of
+
+01:30:23
+AI take this to the other side because the additive inverses exist and I can express this arbitrarily chosen V in this fashion and these here E1 to n are just a finite subset of B well this is nothing but the statement that s is spend by B because any element can be expressed this way and this is where we use the division ring and hence this is an important condition in the theorem where were we D but now it's also clear that the entire Vector space is certainly spanned not Vector space I'm
+
+01:31:13
+sorry the entire module over the division ring is of course spanned by its generating system well that's the definition of the generating system but the generating system is spanned already by this maximal linearly independent element B well but that means nothing but B is a basis for V and it's really only a basis as much as zon's LMA only guarantees you there is a maximal element there may be others well it's a basis is not the unique basis of course didn't expect a unique basis there a basis for V and
+
+01:32:01
+that concludes the proof of the theorem and again every field number field is a division ring hence every Vector space has a basis so this is now every Vector space has a Hil basis because this whole construction you have maybe these infinite sets and but then you say there's a finite subset such that it can be spanned that appears again and again uh that's of course all for Vector spaces without further structure in particular without a topology or a norm every Vector space has a HL basis but more generally every module
+
+01:32:40
+over a division ring has a basis but once again after the proof the reminder but C Infinity m is not a division ring and hence gamma of 2 m all smooth sections of the tangent bundle or in vulgar speech or vector Fields gamma TM considered as a c Infinity M module is is not guaranteed not guaranteed to have a basis and the case in which it has a basis is the vector fields on R2 a case in which gamma TM does not have a basis is the vector fields on the two sphere so we have now reached the point of sophistication in this that
+
+01:33:56
+we're no longer surprised right um so if if you think of vectors and Vector fields and so always in terms of its components you get this illusion there are always components but components refer to a basis right so in the case of vector Fields if there is no such basis there are no such components that means you need to stop thinking of tensor fields in its most general form in terms of their compon component functions because there are no such component functions in general full stop okay hence so so before it it seemed almost
+
+01:34:33
+like a lots of formalism for formalism sake but it's really not so you cannot think of a tensor field in terms of its component functions locally you can okay locally can say okay take only a patch of of the sphere and then of course yeah yeah they're component functions and that's what we do all the time but maybe we have to change chart and then we have component functions on each chart that makes sense but there is not necessarily a global component function and that has nothing to do with choosing charts it's
+
+01:35:03
+also abstractly there are no such no such things okay now um let me make a few more remarks on terminology because it um emerges here terminology um a a module uh over a ring is called free if it has a basis now that doesn't mean that the ring needs to be a division ring we we saw an example so EG gamma T R2 is free the vector fields in R2 that set is free it has a basis but GMA of TS2 is not free okay this is just terminology right a module that has a basis is free so we could reformulate what we said before is
+
+01:36:15
+that unless R is division ring it's not guaranteed that the module over it is free sometimes it is sometimes it isn't that's a free module now you can think about free modules in terms of so-called exact sequences and uh split exact sequences I don't want to go into that but then a free module has a certain property in terms of such sequences but it's just a special case and there is another type of module that shares exactly this property of free modules but that property doesn't fix you to a free
+
+01:36:52
+module uh anyway that's a lot of talk we may come back to that later in terms of chology and so on um but what you actually get here is that there is a notion of a projective module a module and Alex pressed this projectivity property in a simple way equivalent way a module over a ring is called projective in if it is so a module let's call it gamma over a ring is called projective if it is a direct summon summon um of a free module that's called the free module F so what I mean by this it's a direct
+
+01:37:47
+summon is means it means there exists another module Q module over the same ring so if this is the ring this is the ring R it's another R module such that this gamma plus this other R module is a free module over this ring okay and so then this guy is called projective now clearly every free module is projective so remark free implies projective and indeed as I remarked before with this mysterious remark about exact sequences um project projective modules are kind of a generalization of a free module well
+
+01:38:41
+maybe I should also uh write another remark here if an R [Music] module f is free then as a mod module it's actually isomorphic to the direct sum I write R well I want to write R but without the double line uh to a direct sum well if a finitely generated I should say if a finitely generated R module F you see we don't have a basis well in a free case yeah okay finally generated module is free then it's a direct sum of copies of the Ring well it's exactly like for Vector spaces right in Vector space any finite
+
+01:39:32
+generated would say finite dimensional Vector space is a direct sum of the dimension many copies of the vector space and so it's here a direct sum of the underlying ring and you know that the direct sum you notice from the problem sheet is actually a cartisian product if you think about it as a set and then the plus means well it's equipped with a v Vector space structure that works component wise a linear structure that works component wise and it's exactly the same here now if a projective module a projective module
+
+01:40:05
+fails to be free because only if you add another R module to it will it be a free module okay there's a failure to be free in a projective module and um the question is why do I say all of this that's because we quote the theorem and that's by S Swan and others uh the extensions are by others and um well it roughly says that the set of all ahuh well let's write in words um the set of all smooth sections of a vector fiber bundle over a smooth manifold M what's a vector fiber bundle well it's
+
+01:41:13
+a fiber bundle where every fiber is a vector space in particular the tangent bundle but it could also be a coang the coent bundle because every fiber is then the cotangent space which itself is a vector space it could also be a tensor bundle at every point you attach a tensor okay but every tensor space at a point is a vector space every fiber is a vector space so it's very general right smooth sections of a vector fiber bundle over a smooth manifold M the set is well the set the set is is a
+
+01:41:58
+finitely generated projective C Infinity M module that's it so although it may not have a basis and and this module we usually call gamma of well capital E where this e is the vector fiber bundle with projection down to M right but it's important to say it's finally generated and it's projective that is gamma of e so like gamma of TM for instance in direct sum with some Q other C Infinity module so this is also C Infinity module C Infinity of M module this is a free Vector space a free
+
+01:43:03
+module which very much behaves like a vector space now if Q could be chosen to be empty or well let's say the the zero the the the module with only the zero in it the additive zero okay then gamma of e would be free so for instance the gamma of the tangent bundle of R2 that was free but the gamma of the tangent bundle of the two sphere didn't have a basis it wasn't free so there is a q that makes it different from being free so that means so the theorem says this and this is now the conclusion so corollary if
+
+01:43:51
+you want so this this it is is a coroller it means this Q here quantifies of how much or quantifies how much gamma of e fails to have a basis okay but since this is just a module over a non- division ring we didn't expect it to have a basis if it has fine it's an accident it's a coincidence but um normally it wouldn't have so if somebody is surprised that uh there is no basis for the vector fields on a sphere you can future say well why would it be it's just a projective module it's
+
+01:44:49
+not free okay so it's the algebraic expression of this geometric fact but of course this doesn't only apply to the special example of the sphere it's a quite generic thing that you cannot expect to have a uh basis there so uh please allow me to to wrap up um uh with two more remarks um so we have another theorem that says if uh p and Q are projective modules and let me put the projective in Brackets because you can read this theorem with and without the projective p and Q are projective
+
+01:45:38
+modules over a commutative ring now all of a sudden I worry about commutativity uh but I do not worry about a division ring because it's not our case anyway if pqr projective modules over a commutative ring R then the set home r p q what is that that's the set of all linear maps from P to Q linear and linear is of course still defined as it was for Vector spaces because you have this linear structure in the module uh and it's R linear so it's linear with respect to this ring then this
+
+01:46:24
+is again a in Brackets projective and I should also say um if they are finitely generated finitely generated projective modules then this is again a finitely generated projective module so the only surprise in here if I hadn't emphasized in one of the previous lectures is this commutative why do you need the commutative and um the proof uh goes straight through well and and you equip this with the pointwise addition this h r um the proof goes straight through uh but you need for um a DOT so you equip this with a DOT plus
+
+01:47:18
+and a DOT s multiplication right um if you take this and you multiply here by a ring element uh then you can certainly because of linearity you can pull that ring element out right and then certainly because of associativity so that's linearity of fi and then because of associativity of the dot uh you can write this a * R and this is the multiplication in the ring Dot 5 V but you need to get this to the form R * a * um f of v in order to get it to r dot okay now we have various dots uh oh dear uh you get this this is the
+
+01:48:16
+factor here that's fine this one would just be a dot but it's not the other dot it's this do in the Q uh module I think um now this back here if I write of V that's the one I want to Define again but this one is the one in Q again and that's what you want you want this um to be times a of V exactly that there it is in in in Q I wrote the same thing twice not very meaningful anyway um you want this so that you can conclude that you can pull this really in front and not just in the middle uh you need to have
+
+01:48:58
+this commute so this is because of commutativity on the ring right because this commut oh dangerous this commutes okay so only over a commutative ring do you have this actually expected structure uh that the homo morphisms again are a structure of the same type and uh what's also preserved is the productivity in the being finitely generated and in particular particular uh we can look at home over C Infinity M which is a commutative ring and we can start in our well let's not be too General although
+
+01:49:49
+it's true we can start with our vector fields and we can send them to C Infinity M because that is trivially a module over C Infinity M uh and this thing again is a finitely generated module over C Infinity M uh and gets of course the name gamma TM star okay it's the Dual of this guy um and in fact one can show uh that it is the sections over the cotangent bundle so that closes the entire Loop and once we have that we of course prepared now fully prepared although if you're not fully
+
+01:50:43
+prepared you're not prepared anyway uh now fully prepared to have the standard textbook definition well definition a tensor field uh t on a smooth manifold m is a c Infinity of M multi-linear map T that takes you from aha I should say a PQ or an RS tensor field that takes you from R copies of gamma T star M gamma t star m r times and correspondingly S copies of gamma TM to the ring that means to C Infinity m in a multilinear fashion where the factors however are elements are allowed to be elements of this ring
+
+01:52:24
+so what is a tensor field very simple a tensor field of rank of um Valance RS eats up R Co Vector fields and S Vector fields and makes of them a function on the manifold of course you can think of this pointwise you can say at a given point a tensor field takes our Co vectors namely the the co vectors that the co- vectori that are defined by the co- Vector Fields you give in and you take s vectors and you get back to the real numbers but you do this at every point so you get back to the functions but
+
+01:53:04
+that everything is smooth that you get back to the smooth functions and that the multilinearity is smooth that all that works together is because you have a c Infinity M multilinear map ahuh but now this whole thing here you could call the tensor the space of all tensor fields and it would would again be a module over this ring and obviously if you talk about multilinear if you eat Vector co- Vector fields in Vector fields and you talk about something that eats them a tensor field being multi-linear it must be
+
+01:53:41
+multilinear with respect to the underlying ring structure that makes perfect sense it's just the multilinearity in this module there is no so my point is the following this is written in textbooks and sometimes said well it's not R multilinear it's C Infinity M multilinear and that needs to be checked that's the key thing to check but it must be C Infinity M multilinear because otherwise the whole thing doesn't make any sense okay you need to have this because of this structure so finally
+
+01:54:13
+we're back to a textbook definition but we now see the module structure lurking underneath and never on Earth would we get the IDE idea that this guy here this these all the set of all tensor Fields should themselves have a basis because not even the guys you eat have necessarily A basis because all of this is a module structure and not a vector space structure okay but keeping that in mind we can of course locally always work with a local basis but just not with a global basis okay so that's full circle
+
+01:54:52
+that's Rel ship of modules and Vector fields and tensor fields in general that concludes this part of the lecture thank you very much [Music]
+

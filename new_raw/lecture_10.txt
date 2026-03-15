@@ -1,0 +1,405 @@
+00:00:05
+[Music] so good morning and welcome back um today we will uh further develop uh some technology but uh along the way we'll also collect a number of interesting results um the two most important ones are first the um Whitney embedding theorems which clarify whether there is really a difference between uh the intrinsic definition of a manifold and especially its tangent spaces and so on uh and the extrinsic uh definition which we didn't follow but which I hinted at that you think of the manifold as being
+
+00:00:44
+embedded in a higher dimensional RN and then the that you construct the tangent spaces uh uh as planes in this higher embedding space and I argued for the intrinsic uh point of view because simply for physics later on especially if the manifold is supposed to represent the universe it'd be rather um well funny to uh think of an even bigger space into which the universe is embedded it's aesthetically not so fine so we followed the intrinsic approach but the question remains maybe something
+
+00:01:19
+could be gained by taking the embedding approach and the whitne embedding theorems tell you know their equivalent okay so that's good news so we'll collect that result along the way but then um for further so we will remain to hold the intrinsic point of view and then we will go on to develop one key point and probably only next time we will uh then look at the full implications namely that uh we will Define Vector Fields but we will find that the space of all Vector Fields is not a vector space the space of all
+
+00:01:56
+vectors was a vector space but the space of all Vector Fields is merely a module so that's a vector space over a commutative ring and in order to fully explore the implications of that in the next lecture then I will uh talk briefly about modules and what you can expect of them and what not all right but um first we have a very brief section 4.4 cotangent spaces to a manold cotangent spaces and an important notion the so-called gradient of a function now having constructed last time the tangent spaces it's actually
+
+00:02:41
+quite simple um to come up with the cotangent space um so let M be a smooth manifold suitably equipped with a topology and a smooth Atlas uh then the coent space and uh normally it's given the name TP star M so you put the star there that's the cotangent space and well uh this is more terminology this is simply the vector space dual of the tangent space the tangent space is a vector space so this star makes sense to use the vector space duel with the thus inherited um addition and S multiplication and uh and this is
+
+00:03:40
+simply notation that you let the star jump here it means well it means just this okay so then the cotangent space is this Vector space duel and of course the cotangent space as the vector space duel is again a vector space there's no secret here and since we have a finite dimensional manifold so remark uh if the manifold is finite dimensional uh and the way we defined manifolds they are always finite dimensional because you always map into some Rd so we didn't include in our definition the possibility to have an
+
+00:04:20
+infinite dimensional manifold that can be seen as a defect and in fact if you want to do this uh you have to go through some some more trouble not much more trouble but some more trouble so I decided to only look at finite dimensional manifolds and if or since the dimension of the manifold is less than infinity um it follows that the dimension of the vector space tangent Vector space uh okay Dimension is less than infinity since they're the same these two Dimensions we showed that last time
+
+00:04:52
+and hence it follows that the tangent space and the cotangent space as Vector spaces they are isomorphic as Vector spaces um there is a word in order here there are isomorphic and isomorphic being isomorphic as a vector spaces means there exists a bjective linear map between them there exists a vector space isomorphism between them now you may ask which one my answer is many but none of them can be constructed without extra structure so I can provide some extra structure um and then I can construct
+
+00:05:36
+this this isomorphism and that then presents a proper isomorphism so it's true there exist isomorphisms but we call them noncanonical because from the pure Vector space or co- Vector space structure it cannot be constructed alone this seems to be a very subtle point because you can say well usually if you provide a map you always have to provide say the entries in the in the Matrix that defines the linear map right I mean it seems kind of natural but the question is can you provide this map
+
+00:06:09
+without picking arbitrarily such a matrix the answer is here no you can't but nevertheless it's isomorphic it was quite a different thing with the vector space and the Dual of the duel and that's on the problem sheet you're currently working on I guess um so the vector space i isomorphic to the Dual of the duel and for that there is a canonical isomorphism you don't need to provide extra structure in order to uh to construct such an isomorphism uh anyway so because this is often
+
+00:06:39
+discussed canonical and non-canonical canonical means you don't need to provide extra structure beyond the level at which you're discussing this and we're discussing this at the level of bare Vector spaces all right fine so you have this so you see we had the nuts and bold bols approach if you want um to construct the tangent space at a point with the curves and then the the the the the directional derivative operator to the curve we collected this you see we we constructed everything really step by
+
+00:07:10
+step um but for the cention space that's simply not necessary because you just take the vector space tool so what we did at this point is we so far we look at our manifold M we got smooth manifold M or differentiable at least we go to a point p and at this point P really only at the point p uh we constructed the tangent space and hence quite trivially the cotangent space and obviously I could now also construct the entire tensor space here right so um um yeah similarly one can construct uh a space that we may call T
+
+00:07:58
+P [Music] M aha how did we call this before we before called this tpq V right so to stay in this notation we should call this TRS of TPM so TPM is just the underlying Vector space you see and we could construct this as the set of all maps Okay let's call them small T too many capital T's around small T that goes from R copies of TP RM are copies taken together with the cartisian product and then you take of the tangent space without the star so there's a star uh you take s copies and
+
+00:08:48
+you look at the multilinear maps from here to the real numbers and you can also requir that they're smooth and so on and uh not smooth um sorry no no it's pure Vector space thing sorry it's a mult linear map from this collection of vector spaces at the same point here the quent space and um um and right and and this would be the tensor so this T is the tangent T and this is the tensor T that they're different T's all right okay according to our previous notation that we take TR
+
+00:09:21
+RS of some given Vector space and if we take the tangent space as a foundation and here we have the cotangent space then we can construct all the tensors at this point all the RS tensors at this point we can construct this comma uh the set and we know even Vector space because it can be equipped with pointwise with addition and S multiplication even Vector space of all r s tensors at P of course you have Vector space you have it St you can construct every every tensor so really the only time we have
+
+00:10:08
+to really construct this from scratch this kind of object is if you construct the the tangent space with the Curves in the tangents to the curve and everything else by mere linear algebra so you refer to the have referred to the previous or second previous subsection by pure linear algebra everything else is generated so 10 tensors have nothing to do with differential geometry tensors have all to do with linear algebra and these multi-linear Maps the only thing we had to construct was an underlying
+
+00:10:40
+Vector space over which then the tensor space is um is built is constructed but we're always at this point at this one point P all right so um now that we're speaking of the tangent space here um we have another important definition definition uh let F be a smooth function on our smooth manifold um then at every Point p in M we have a linear map we have a linear map and this linear map has the name d now if you want to emphasize that we're looking at this D only at one point and we need to
+
+00:11:40
+emphasize this at the moment I write D subp so for every point you have a different map okay that's one thing what does the map do well it acts on the um I'm sorry it acts on the smooth functions uh and it takes you to the coent space at that point that is why it depends on the point okay take a smooth map which lives on the entire manifold and you map it there so how is this guy defined well uh so a smooth function is mapped to D subp of F and this d sub P of f is suppos to be an element of the coent
+
+00:12:32
+space so how can I prescribe how that looks like I need to say how it acts on an arbitrary Vector if I know that I know what element it is so it's defined by d sub PF it's defined by its action on a vector X and the vector X of course has to lie in the tangent space let me emphasize this x lies in TPM of course and what else should this act okay and the definition is particularly simple it's simply the action of f of x of the vector field on the function f that was provided now this seems to take
+
+00:13:20
+formalism to an extreme they say okay you give me a function X and then you define a map DPF that takes it from here to here all right but all you really do is in the end act with this on a vector and you could have so much more simply written down XF why on Earth do you write in this complicated manner well the answer of course is I want to look at this object here it's very uh useful to look at this object without providing the vector it acts on we don't I mean it's like noan analysis you often want
+
+00:14:01
+to talk about the function as such and not only the function f of x the the value of the function at some X you want to talk about the function alone this is exactly exactly the case here so um we have a linear map and uh uh called the um gradient operator so we have the linear map so this guy here this linear map is called the gradient operator um and then DPF a gradient operator at the point P and M and then DPF is the gradient of the function f at the point p okay and uh so we immediately observe that the gradient of a function
+
+00:15:09
+is a co- Vector not a vector okay it's a co- Vector not a vector so in particular you often hear the statement that the gradient stands orthogonal on the level lines of the function f right you use this very often the gradient is orthogonal to the level lines well but if you talk about orthogonal you all know that what you need is an inner product in order to decide what orthogonal means right but um let's assume I do not provide this inner product I have a bare Vector space I have this bare construction without
+
+00:15:55
+any inner product being in sight which is the case here um I don't need an inner product because I can simply say so that's remark a remark B is um let X be tangent to uh this um okay so let yeah let X be tangent to a level set what's the level Set uh well n subc of F and that's uh all those points p in M where F of P equals c so C is a real number that's level set if I talk about X being tangent to the level set I didn't Define this formally we'll come to that later more precisely but the
+
+00:16:55
+idea is I have in I say threedimensional Manu fold uh I have I have on there a function it could be that this function is say constant on the surface of this sphere maybe this a bigger sphere or something where it's again constant but then it's clear what what the tangent to the SE level set means so this is now really the the X in the big space in which this level set um is hopefully at that point uh a smooth submanifold so I can take the tangent well if you have that then it follows immediately that
+
+00:17:30
+DPF of X and that's a point p in the big manifold where you look at this is automatically zero it's because a co- Vector acts on a vector and inates it and it's a kind of perversion in uh standard Vector analysis to actually take this co- Vector use the metric if you have a metric an inner product to lift the index to construct you use the the metric to construct a non canonical isomorphism to lift up the index to make this a gradient vector and then to again use the inverse metric no use the inverse metric to make
+
+00:18:13
+it a gradient vector and then you use the metric again to dot this new gradient Vector into another Vector because the inverse metric you used to make this a vector and the metric that you use to dot one into the other of course cancel each other out okay it's it's totally perverse to do that because the gradient naturally is a co- Vector okay so you the statement the gradient is orthogonal to the level sets is a statement that doesn't need an inner product for the statement to be made okay so but that's
+
+00:18:52
+just uh and aside what I um what we can now do using the grad I mean gradient is useful in itself but it can in particular be used to construct a basis of the cotangent space um gradient map or gradient operator can be used in the definition um let P be a point of a smooth manifold and let ux be a chart that contains P so P lies in the chart domain then well it's not it's yeah well it's a definition and a theorem then we can take the DP this gradient operator and let it act on the illustrious function X1 and we
+
+00:20:09
+remember that uh X was a homeo from U to X of U which lies in Rd but then we also remembered that the or last time talked about that then the components so this is a part of Rd so it has component functions AAL 1 Tod from U to R if this is homeo this is continuous well but it's even more than continuous because for any map I for any such function I can decide whether it's smooth and with our definition of smoothness this map was even smooth you remember the component functions were smooth so I can
+
+00:20:49
+act I can act on say the first component functions with this gradient operator and what do I get I get an element let's look here act with the gradient operator ta I get an element of TP star M agree and I can get another element of TP star M by acting on the second gradient function uh on the second um chart map component of the chart map and I can do this for all the D and D here is dim M for all dim m component functions of the chart map and I get dimm many co vectors ah okay the tangent space had
+
+00:21:38
+Dimension dim M we already know that because we're finite dimensional the cotangent space has the same Dimension because it's isomorphic that means we have here a candidate at least for a basis because we have enough of these co- vectors and in fact it is a basis uh then this is called the coordinate induced or chart induced chart induced um co- Vector bases Co Vector bases at the point P now this is definition it's called a basis but is it a basis so this is one of these definitions theorems where you
+
+00:22:25
+have to provide a proof and rather than going through for all the yak to Yak again we can very simply uh apply this so we take the eth so for any a equals 1 up to dim m i take the eighth co- Vector constructed this way at the point p and because it's a co- Vector it can act on any Vector that's the job of a co- Vector it's a linear map that takes the vector to the real numbers and I choose to act with it on these guys the D by DX BS at the point p and you remember uh those were the um this is the be member of the
+
+00:23:11
+coordinate or chart induced bases of the tangent space which we constructed from the component Maps last time right so I act with this on that and let's see what we obtain and from what we obtain we'll immediately see yes it's both a generating system system and it's uh it's linear linearly independent so let's calculate this thing it's also good practice to calculate this so what's the abstract structure of this how do we calculate this guy it's a mere application of the definitions so this
+
+00:23:43
+guy here is just a smooth function then the DP can act on it so um but how is it then defined if this D of a smooth function acts on a vector by definition by definition of this D subp the this is just the vector XB at the point P acting on the function that was provided that is that was this definition but now we have to see ahuh what precisely was the definition of this Beast it looks deceivingly similar to what we usually call a partial derivative but I cautioned you this is not a partial derivative uh this is this
+
+00:24:28
+special object object in differential geometry where you must refer to a particular coordinate system unlike the partial derivative where no such thing is needed that you call the variables certain names uh you rather say you derive with respect to the be entry okay and indeed this guy acting on a function was defined as so that's now the definition of precisely this guy d by DX a sub P that tells us this is the partial derivative in Direction B with respect to the be slot I should say of which function well now you need
+
+00:25:11
+a function from R uh n or R dim D to R uh it was this partial B and then you took the function on which you act that's this guy you take the function which you act XA and you compose it with and now this x down here instructs you to take X inverse this was the definition um so this x here I mean this x is really this x because okay uh but because it's here you have this x inverse here you have this a there and this B instructs you to take this partial derivative there and you do all this at the point p and you have to eval
+
+00:25:59
+this whole guy at the point x of P right so this was this definition now we also saw that this guy here is simply the projection map to the eighth component uh and that's a map that takes you from R dimm in this case to the real numbers Nam you take the eighth entry of this dim M Tuple means dim M time cartisian product of real numbers and you produce the eighth entry but it's very simple to see that this is zero whenever B is not a because this projection map maps you straight to zero so the derivative is zero and if B and
+
+00:26:51
+if B is a the projection map brings in the eighth component it's the identity and uh and then um yes and then the derivative is a Delta Delta a b it doesn't matter where you evaluate it it's everywhere either zero or one aha so what does this show so if you start reading here we have a co- Vector we have a CO we have dim M many co- vectors DPX a they can act on a basis that's the point if you let B run from uh so a and be run over this range you plug in one basis element after the
+
+00:27:33
+other and you see for every basis element here you find one here that does not annihilate it and all the others annihilate it so that shows that these must have been linearly independent otherwise that wouldn't work um and uh they're also enough so it's also a generating system so it's a basis uh and but we have from this proof we actually proved more than we wanted to prove we even proved that uh dx1 to DX dim M and if you insist we can emphasize we're at the point P only does this is not only a
+
+00:28:13
+basis of the Dual space is even the Dual basis is even the Dual basis of the Dual of the of the Dual of TPM um and we all know that the Dual of TPM I could call or we did call TP star M uh I chose this more Arcane formulation here because I wanted once more use the word duel twice in the same sentence to show that they have slightly different meaning here here the Dual of TPM refers to this star and here the duel uh refers to the application of one basis to the other resulting in a Delta AB okay so these guys really provide the
+
+00:29:07
+Dual the chart induced dual basis to the Chart induced basis okay this is all very simple uh it's just important to not look at this dx1 the way we so often do in undergraduate physics we say It's a Small Change in X1 or something like this I mean this what what is this um it's precisely this map up there and and that makes full sense and then once you have this you have full technical control over what you're doing here hence it's important to dissect this kind of sometimes a little
+
+00:29:47
+bit to the uninitiated some maybe sometimes a little bit mysterious notation everything is very precisely defined what it means and it means nothing else so whenever in the future you meet a dx1 to DX dimm or something for instance in the measure of integrals you you meet this not dx1 dx2 dx3 multiple integrals and so on and we'll come to this actually there's a wedge product between that we'll come to that but this is exactly what appears under the integral and it's not just a symbol
+
+00:30:18
+it can be dissected in this way it's very important that you do so if you want to do analysis on a smooth manifold the next uh short section uh is a very important one uh there are two important Concepts being introduced and that's the concept of a push forward map push forward for short push forward and its cousin pull back what is this so definition let F be a smooth map between smooth manifolds we know what that is now you have to choose you have to look at the ACT Atlas for M there is an entirely
+
+00:31:30
+different Atlas in general for n right so we said when I say M and N are smooth manifolds uh then you think this has a topology in Atlas this has a topology in Atlas of course at first they're unrelated or they're unrelated in general and then uh via pushing the FI down to the charts right to the Chart representation you define when the f is smooth right we this several times that's what we're talking here uh let let this be a smooth map between smooth manifolds then the push forward the push
+
+00:32:14
+forward um and it has a name that's f up star it's another star it's nothing to do with the Dual Star then the push forward f up star of the map F at the point p in m so that's the full family name of the guy then the push forward F upstar of the map F at P&M is the again linear map is the linear map well again the name is f upstar from where to where does it map it takes an element of the tangent space to The Domain TPM at this point p and it takes you to the tangent space in
+
+00:33:13
+the target at the point five of P so it's not the same point P how could it be because P lies in the domain if N is a different manifold well I can use the map F to map the point p in m to a point in n i mean that's the only Point that's distinguished in N if I give you a point in m and you have a map from M to n right it's the only point you can distinguish and it's really between this tangent space and that tangent space so if the FI is between the manifolds you pick a point and then the push forward
+
+00:33:49
+takes you from the tangent space at this given point to the coent space at the image of that given point okay and how is it defined it's defined well you need to take an element X of the coent of the tangent space here and you map it not surprisingly to F star of X but you got to see how this is defined defined by so we have to say what f upstar of x what this actually is now how do you say that well it's supposedly a vector in the in the an element of the the tangent space of the target well if
+
+00:34:30
+it's a vector it can act on a function and if I know how it acts on an arbitrary function remember vectors are directional derivative operators if I know how it acts on an arbitrary function I know what Vector it is right that was the definition of a vector but it's now a vector to this target manifold n so I need to let it act in order to Define it on an F but this F is not a function on N it's a function on M on I'm sorry it's not a function on M it's a function on N okay it's a smooth
+
+00:35:09
+function because this guy is supposed to lie here in this tangent space okay so clearly I need to prescribe this there's no alternative if I want to define the result here to uh decide how I want to Define this but now the question is how much Choice do you have so remember the X here this is an element from in TPM this whole guy is supposed to be an element of t f of PN and you act on a function on N what choices do you have to provide a linear map that's the key thing here to provide a linear
+
+00:36:03
+map well you take the vector X and you act on F after F so the data you have you have to do this because what is f after fi well fi starts in M takes you to n all right and then F being a function on n as it must be if this is a vector on TP T5 P of n takes you to the real numbers aha that means f after f is a map from m to R and it's smooth because f is smooth f is smooth so this guy is smooth a smooth map from M to R aha so that means this whole thing here is an element of C Infinity M ah and the vector X quite conveniently
+
+00:37:16
+is a tangent Vector to the manifold M and of course it can act on such a function okay so you you do not need to remember this this definition all you need to remember is the push forward takes you from the tangent space of the domain to the T to a tangent space in the Target then it's clear this is p then this must be five of P what other point is distinguished and then by the mere requirement that this be a linear map this definition forces is forced upon us okay so don't memorize stuff you
+
+00:37:59
+don't need to memorize so I every time construct this uh when I need it it's it's pretty obvious that this is is this is this thing okay so that's the push forward map um now remark I just said it a this is the only this is the only linear map that can be constructed from these data can be constructed well it's the only such linear map meaning mapping from TPM to T5 PM this is the only linear map such linear map that can be constructed from the given data that's the first remark and the
+
+00:38:52
+second remark is that five star and if you want to be very precise in the notation you may also put a small P down here to recall that this map is Def there's a different such map for every P okay at every point we have this then f upstar p no it's not upstar I'm sorry it's a I'm sorry I'm sorry you see I always the push for forward is usually labeled by downstar okay so how is downar obviously this has no no real significance but uh it's the standard it's the standard convention
+
+00:39:46
+and we would like to stick to the standard convention so the push forward has this down St and Fe Down star p is often called often called called the derivative derivative of the function f at the point P so if somebody talks about the derivative of a smooth function on a smooth manifold what people mean is this induced map it takes you from the tangent space to here to to the tangent space okay that's the derivative uh so the derivative is synonymous with the push forward and push forward is is a very
+
+00:40:37
+good name because it pushes vectors from this tangent space in the domain to that tangent space in the Target it pushes them forward meaning in the same direction in which the map goes so the map went from M to n well if it's a bjective map or or even if diff morphism bjective and smooth in both directions then of course you could also have immediately a map from n to M namely the inverse but very often maps are not uh uh invertible but they can nevertheless be smooth in One Direction and then the
+
+00:41:08
+statement is even if the map is not so if particularly if the map is not invertible you can still push every Vector here in the domain to a vector in the Target right in the same direction and that's why it's called push forward forward being defined by the direction of the original map between the man FS that's the terminology here um and I guess there is another comment in order just remember so how was that um um well it's it's more like a uh yeah let's keep it a remark uh the tangent
+
+00:41:50
+Vector x sub gamma comma P of a smooth curve um is pushed forward probably without a hyphen is pushed forward um to the tangent Vector uh of the smooth curve at the point p is pushed forward to the tangent vector of the smooth curve they say gamma of the smooth curve gamma at p is pushed forward to the tangent Vector of the smooth curve uh f after gamma at the point five of P okay so um illustration the manifold M it's the manifold n and in in M you have a curve this one it's the curve gamma and let's say this here
+
+00:43:21
+is the point p and then you have a tangent vector and now you see I do something terrible I draw a little arrow but you know this is just our illustration for the um derivative operator the directional derivative operator that such a tangent Vector is but because you already saw that in charts and so on this after all corresponds to a dim M Tuple of numbers the components with respect to da da da this and that basis u i allow myself uh to to to draw this Arrow just for illust ation purposes but you know it's
+
+00:43:59
+actually this operator right we have so and now and that's the key thing there is this map from the manifold m to the manifold n that I provide what does the map do it takes this point to that point it takes this point to that point so it takes every individual point to that point but in a smooth manner okay it maps all the points well because it maps all the points in particular it Maps the points where the curve lies and so you can look at the image curve let's have that yellow or something the image curve
+
+00:44:36
+can now look like this and uh well maybe it should be double colored uh because it's made up of five and Gamma this is the curve fi after gamma right it's the image of that curve and as much as every point is mapped the point P itself is mapped to the point five of P this map in particular takes this point to that point of course that's part of the curve and you can ask what is the tangent Vector here to that curve because once you mapped the curve and once you mapped the point you don't need to push forward you
+
+00:45:16
+can directly construct the tangent Vector because you have a curve a smooth curve in a manifold so you can construct the tangent Vector now the claim however is that if this is the tangent Vector X X the green one uh then this tangent Vector y here which lives in the tangent space to this different manifold then this Y is nothing but the FI push forward of the X that's the claim you get this tangent Vector over there or if you want to use our notation uh so formally so that's the idea so how do you do this formally
+
+00:45:58
+uh you claim that the push forward of the tangent Vector X gamma comma p is the tangent Vector to the curve f after gamma at the point five of P that's the claim okay proof uh I mean the proof is very simple but it's good practice for for this uh formalism okay well let's just start on the left hand side and see where this takes us F star at the point P okay we can overdo it gamma comma P equals so how is the F star defined it's here we actually only fully understand this or we can only work with it properly if we
+
+00:46:52
+let it act on an arbitrary F so let F be an arbitrary smooth function on the no not on the manifold M on the manifold n on the Target because this is supposed to be a vector in the Target right let's Let It act on some f and let's see whether we come from here to there okay so how is this defined well here it's the definition of the push forward what does it tell us it tells us take the vector that's it acts on take this vector and then act on there we set it f after the diff um the smooth function f
+
+00:47:36
+that's the definition of the push forward okay uh well we're obviously not here because this is X gamma P not x f after gamma 5 of P so how do we continue well now we use the definition of the tangent Vector very simple so definition of the tangent Vector to a curve so was the first definition last time I guess uh what is that well you take the um function f after f after the curve that's mentioned down here you remember so this is this was before always the function so we take this function you do
+
+00:48:19
+this and then you take the derivative at zero if you provide it for the Curve to go through the point p at zero so um um for this prove arrange for gamma of zero to BP if gamma of some other value is p you put this other value here right I mean arranging for it's yeah fine so you have this guy and now it's obvious ah it's this guy that's right so and now we had the brackets like this that's where we came from but the composition is associative so we can put brackets like that and then you stare at that for a
+
+00:49:11
+moment and then you see ah this is Again by the definition of the tangent Vector now you use the definition backwards it's the tangent to the curve fi after gamma namely this curve here fi after gamma is also a curve um as it acts on the function f right this is now a curve in n and this F is a function in N all right and all of this happens at the point fi of gamma of zero but that's fi of P so this is the tangent Vector to that curve at the point five of p as it acts on F all right that finishes the proof because we
+
+00:49:55
+can box this oper operator and we box this operator and on an arbitrary function they do the same that means as operators they are the same and that is the claim so it's just plugging in the definition twice uh and you see this okay so that's the geometric notion and intuition um of the push forward map or as it's called the derivative of the function at that particular chosen point but you can do this at any point now there's the cousin of the push forward that's the pull back definition
+
+00:50:53
+so again let F be as before a smooth smooth map from M to n um then the pullback the pullback and now the pullback has the star up okay then the pullback five star up um of the m F now well at the point F of p in N so I the pullback refers to a point in the Target and um yeah five p and N um hang on do I need to do it like that it's a five P it must be the image of one yeah I think I need to do it like this at 5 p in N is the linear map it's the linear map F upstar and uh now I write it down in an
+
+00:52:15
+unusual way it goes from T star P so it's the same business as before that uh there you can actually label this with the point you're talking about here uh it goes from tar pm to Tar five of p n so it looks like before only that instead of going from the tangent space to the tangent space we go from the cotangent space to the cotangent space but the big issue here is that the arrow is in the opposite direction okay and it's the opposite direction to this arrow and that is why it's called the
+
+00:53:09
+pull back if you look at the cention spaces you go in the opposite direction from the original map again if this map is a diff morphism you can go back and forth well you can immediately write down the pull back of the inverse which then goes in the same direction but that's not always the case sometimes uh this is not say subjective if this map is if this manifold has a higher Dimension than this one it can't be subjective then it can't be inverted okay and of course normally people take this thing put it here and
+
+00:53:44
+take this coordin Bas put it there and keep the direction of the arrow according to the standard notation but for dramatic effect uh I put it here like this uh is this linear map and actually I could Now set it as a homework problem but it's too important to not do it right now um how can we construct this map well let's try to do this together okay so what do you have to do you have to take an element here okay so you have to take uh an element in the cotangent space in the Target and let's call this element Omega it's a co-
+
+00:54:17
+Vector right a com Vector in this manifold and you map this Co Vector to what well obviously to five star of Omega at the point P well that's nothing new but the statement is that this is a linear map this is a linear map how can we construct this guy okay defined by so let's do this together this is supposed to be an object in TP star M so how can we Define what a CO Vector is what do I have to do you tell me V let it act on a vector in TPM right okay defined by take F upstar of Omega and let it act on an X but this
+
+00:55:15
+x ought to be an element of TPM and we need to Define this okay now the result will of course be a real number if we at the point P so you can immediately start defining this but it's not just any map acting on a vector but it's a linear map acting on a vector so whatever you write down now should be linear in this entry R linear in this entry okay the only thing you're given is the map five and the vector X and the co- Vector Omega Omega lying in the cotangent space to of an entirely different manifold
+
+00:56:02
+namely the target okay what can you do suggestions yeah let the push forward of X very good so we want to define the pull back but we use the push forward we decide which point in a second and let it act on the X so X is an element in the tangent space of M so it needs to be the push forward at the point P okay does this work well yes because F takes you from M to so the push forward takes you from the tangent space TPM to this tangent space where are we we're now in the tangent space uh t f of
+
+00:56:55
+p n that's right no that's where it took us to push forward um but we haven't used the Omega yet and this is not a real number yet so what do we do with this you said we let this act on Omega right okay exactly why is this legal well because the Omega is an element by Assumption of t five of P star n oh Fant fantastic so really this um ah it's the other way around you have to let the Omega act on this okay yeah yeah no no no it's fine it's fine it's fine it's fine you you could Define this
+
+00:57:39
+action too but uh it's clearer if you let the Omega act on this it it remains true the Omega is an element of t f of p n star so it can act on this vector and it produces a real number now the question is is this linear well it is because the push forward is linear we didn't check this you you might want to check that um this is linear and the Omega is linear again so everything pulls out sums pull out and factors pull out to the front Okay so the whole thing is really linear and again that's why I had it construct
+
+00:58:18
+you here it's the only way you you can Define this thing so again of the push pull back you only need to know from where to where it Maps and most important as importantly that it's a linear map then the push the pullback sorry then the pullback is fully defined that's it that's the pullback now there is a uh well there's a motto I don't know memorize the following memorize vectors are pushed forward forms or Co Vector forms an extension we come to that later Co vectors are
+
+00:59:12
+pulled back and only under special circumstances namely if the map F from the manifold to the manifold is a diff morphism you can go back and forth then of course you can also pull back vectors but then you use the inverse map F but if that inverse doesn't exist generically vectors can only pushed forward and co- vectors can only be pulled back it's very important um idea okay so I'll I'll come back to that uh in a second if we once we find what immersions and embeddings are okay so we can now uh use the push
+
+01:00:03
+forward for the following application um decide the question um under which circumstances some manifold some smooth manifold can sit inside an RN can sit quotation marks uh In Sum R to the N okay so why do I use this uh non-technical term sit well because they actually two Notions of how a manifold can sit in another one in particular I choose RN because that's immediately intuitive you can generalize this to one sits one manifold M sits in another manifold n but this n is here R to the n and there
+
+01:01:16
+are two Notions one is that of an immersion and the other one is that of an embedding there're slightly different Notions of sitting one manifold sitting inside another um two different Notions there is um immersion and there is embedding and uh embedding is the stronger one so every embedding is an immersion but an immersion is a slightly weaker notion has less conditions than an embedding and it's useful to look at both sometimes you're happy with an immersion sometimes you want to have an
+
+01:02:08
+embedding okay so definition a smooth map F that takes the manifold M and sends it to a manifold n but well I said here for illustration purposes I wanted to look at the specific smooth manifold R to the n a smooth map five from m to the r to the N is called an immersion an immersion of of M into RN if only one condition if the derivative if the derivative of f what was the derivative of f was to push forward right so derivative F immediately translate to push forward if the derivative of f five
+
+01:03:11
+of course I'm sorry of five so what was that push forward was downstar if five downstar uh you have to pick a point okay uh goes from TPM to T F of p r to the N if the derivative of f let me just push forward which is a linear map is injective is injective where at which point where at any point at any p in M that's it it needs to be injective injective means the same Target Vector is not hit twice they're not two different vectors to the original manifold that map to the same Target
+
+01:04:07
+Vector under the push for that's injective you know that okay if that is the case you have an immersion example well you have to check this technically but I leave this as a homework uh but you could look at the manifold M being the circle and you could uh look at n = 2 and I can provide different Maps so I could provide example a the map five from S1 to R2 uh that does the following that takes the circle but this is just supposed to be the the points of the circle and Maps every point of the circle into R2 so
+
+01:04:53
+into into this space um and does so [Music] in in this fashion well that's smooth because you didn't produce edges so you didn't produce something like this this wouldn't be a smooth map right um this is a smooth map it takes you there and I tell you it is injective no two vectors tangent vectors here are mapped to the same tangent Vector over there um well again you should actually calculate this but intuitively at this point of the circle you know the tangent space is one dimensional well if I already think of
+
+01:05:37
+it in an embedded way then you have vectors that show in this direction tangent vectors that show in that direction those are the only tangent vectors and and they're of course mapped here by push forward uh to these guys and and they never coincide if they didn't coincide in the original manifold it's very simple okay so this is is an immersion namely of the circle into Rd you could of course also take the circle and immerse it into R3 that would then look like like a loop here in space
+
+01:06:11
+so it's fine as long as it gets no corners well second example is um the map F twiddle it's another map also takes S1 to R2 but now in the following fashion all the points of the circle are taken in R2 in R2 to this guy okay so the first question is is this map f tdd is it smooth yes it is smooth you can check that this map I mean write it down you you use some some sign and in this direction and some sign in that direction with a double frequency you know it's like lisu figure or something like that
+
+01:06:56
+okay you can construct this and you can check that this map that takes you from there to there is smooth it's a smooth map okay fine now the question is is any Vector tangent Vector here any two tangent vectors here taken to the same tangent Vector there no they're not you might worry I mean the immediate worry is about this intersection Point here but there is no worry because at this point here so this point may go to that point right um but it may go to that point point in the sense like lying on
+
+01:07:28
+this Branch if you move past here and then uh you might also look at say this point here that's mapped to the same point but belonging to that Branch okay and this is an issue of the M of the map F twiddle that's uh the map F twiddle is not injective clearly not in this case FDD is not injective but that doesn't mean that it's the derivative is not injective and of course it is injective because you see uh uh this vector and that Vector they always go to um to this vector and that vector and the vectors
+
+01:08:08
+here they're different here but of course the resulting tangent vectors are also different there that don't coincide with the others so here F twiddle not injective but so what that was not requ ired and but again F twiddle Down star so the derivative of the push forward is injective proof well formally but you can look at the picture so again f tdle is an immersion of the circle into R2 aha so you see an immersion is not such a strong condition well there is some conditions this injectivity but it's not that
+
+01:09:02
+strong so the stronger notion is the notion of an embedding Define a map fi from M to n being smooth is an embedding if a f is an immersion so shouldn't be too difficult to show that embedding implies immersion because one of the conditions f is an immersion and B is that if you map the entire domain the first manifold M okay now I wrote n okay you can substitute if I take the entire F if I map this by the smooth map then I should be homeomorphic so I should be topologically isomorphic to the target
+
+01:09:57
+manifold well why only topologically well if it's topologically in F is smooth but it's one to one uh then it immediately implies but you don't need to request this it immediately replies that it's also dimorphic to n but you only need to check whether the image is then again a manifold uh and that is if the image is a submanifold of the Target now this extra condition says that uh the example a from before is an embedding this example a from before the circle goes to this uh funny distorted
+
+01:10:42
+Circle this is an embedding so I write down again the circle goes to this thing is an embedding because this is again a manifold it will also be a smooth manifold because f is smooth so everything you prod use and that's the idea of an embedding you can think of the smooth manifold as an immersed submanifold of the bigger space right that's fine whereas the example B from before which was an immersion is not an embedding not an embedding and if you look at it again of course not well I because what would possibly be the
+
+01:11:28
+dimension of this manifold at this point here there is at this point it's not locally homeomorphic to r r to the one it's yeah it fails to be a manifold okay so in sometimes you insist on this being a manifold and okay so now now that uh clarifies the Notions the two Notions one usually looks at of what it means to sit one manifold to sit in another manifold but what's the answer to the original question under which circumstances can you have a given manifold sit in some R to the N for a suitable
+
+01:12:18
+n and that is clarified by the Whitney embedding and immersion theorem so we quote the theorem by Whitney and that's the following any smooth manifold m oh that's good news because I asked under which circumstance it could be that there are smooth manifolds that cannot be immersed or embedded but the theorem starts in a promising way and it it stays promising any smooth manifold M can be first embedded in R to the to dim M full stop well comma and it can be okay before I come to when it can be immersed or where it
+
+01:13:37
+can be immersed so any smooth manifold can be embedded the only thing is that the embedding space r to the N must have up to in the worst case it must have up to the double the dimension of your manifold okay there are some smoooth manifolds that can be embedded in an R2 dim M minus 3 or something yeah well yeah that's true um but it depends on the dimension it depends on the manifold uh but the worst case I think worst case provideed by projective spaces on it's uh you need to double the dimension okay
+
+01:14:19
+so the circle is onedimensional and the Whitney theorem tells you well because the circle is a smooth fold it can be embedded in R to the 2 * 1 a yeah the circle can always be embedded in R2 well that's not a big surprise we already gave an example but of course the whitne theorem is true for any smooth manifold so any one-dimensional manifold can be embedded in R2 any okay any two-dimensional manifold the sphere the Taurus TR la la can be embedded in R4 do you know of a two-dimensional manifold we already had it on the
+
+01:14:58
+Blackboard that cannot that can notot be embedded in R3 so I mean we should find a counter example that a two-dimensional smooth manifold can be embedded in R3 that it needs to be at least R4 the client bottle that's right the client bottle can't be embedded um but it can be immersed and indeed the immersion is a weaker condition and the embedding theorem takes account of that by stating that it can always be embedded in two times dim M minus one in 2 DMM minus one dimensional ukian space we call R to the end we call this
+
+01:15:42
+ukian space if we consider it a smooth manifold and so on so so there you can actually go one dimension down so um well the example if you wish is the clim button so now I try to draw The Climb bottle I tried this several times let's see whether this time so there's this this this part of a this kind of throat here so now comes here this okay let's say like that now at one point we we come out here and this is just this part here so there you kind of go in and uh it looks somehow like this so it's
+
+01:16:38
+like you take a Taurus and then you don't go together like this but you go in somewhere else and join it from the other side so this is the Klein bottle and you see it intersects here and so this intersection is obviously a two-dimensional manifold in R3 because this is supposed to be a picture in R3 and you see here it intersects itself that's really very much like here this intersection um like the intersection we had before I draw it again here uh in this case okay and this prevents it from
+
+01:17:17
+being an embedding because this image so you have um uh the the client bottle K is mapped to Here by fi but you see fi of K is not a topological manifold right in particular if it's not a topological manifold it cannot be uh um topologically equivalent to to this K right so but this is an immersion not an embedding so um two dimensional client bottle can be immersed into R to 2 * 2 -1 that's of course R3 well that's what we did so perspective piction R3 can be immersed but not embedded
+
+01:18:23
+since for embedding um worst case of Whitney theorem for the Klein bottle and indeed Whitney would guarantee it can be uh it can be immersed in threedimensional but it cannot be embedded it can it guarantees it can be embedded in R4 and and the clim bottle is an example where you can't beat that limit for some other manifolds you can obviously beat that limit okay like like for the sphere the sphere can be immersed into R4 for sure I mean the two sphere but it can also be immersed into our um R3
+
+01:19:29
+okay now let me think for a second M yeah okay that's the Whitney embedding theorem and actually there is a slightly stronger version so this is already called the strong Whitney um theorem and that takes some effort to prove you can prove weaker versions a weaker version you can prove is that you can embed into some RN I mean also that is not obvious from the beginning that any manifold can be uh embedded in some R to the N okay uh that can be proven more quickly but anyway there is a stronger version so
+
+01:20:18
+there are even stronger versions We Are versions and um one of them is uh the following any smooth so EG because uh under certain circumstances you can make this bound better of the dimension any smooth manifold can be immersed so that's one it talks about about an improved uh bound on the dimension here can be immersed into a into R to the 2 dim M minus a of dim M the question is what is a where a of some integer number n nonzero iner number n say is the number of ones of ones so this is the number of
+
+01:21:35
+ones uh in a binary expansion of M what does that mean well example let's say you have a manifold of dimens three then this is the three is in the decimal system but you can expand this as one one in the binary system because this is uh 2 to the 1 uh plus 2 1 * 2 1 + 1 * 2 0 right it's the binary number three and so therefore a of three is two because in the binary expansion you have two ones so therefore the stronger theorem says any threedimensional manifold any thre dim manifold can be
+
+01:22:51
+immersed into r to the 2 * 3 - 2 and that's only R 6 - 2 is R4 whereas the even the strong Whitney theorem said it can only be it can be embedded in R 2 * 36 into R5 but you can be better because in dimension three the three is in binary expansion is like this it you can embed every three diim you can immerse I'm sorry you can IM verse any threedimensional smooth manifold into R4 I find it's quite amusing that there's the okay I mean if if you need in a particular case you're working with you
+
+01:23:38
+need a an even better estimate go to the literature there are other stronger limits in certain cases okay so there are further better uh upper bounds on uh the dimension of the target manifold on n in R to the N uh go to the literature but they usually refer to particular additional circumstances which however for the case at hand May apply or may not apply but this is already pretty good the Whitney embedding theorem and again I emphasize again it clarifies this question of whether the intrinsic approach is more
+
+01:24:30
+powerful than the extrinsic embedding approach and so on the Whitney theorem says no it's not it's it's really the same you could construct well we didn't prove this but you could now check whether the tangent spaces we constructed intrinsically are vector space isomorphic to the tangent spaces you would construct its tangent planes or hyper hyper not hyper planes higher dimensional planes uh um in to the embedded manifold and and you would find yes it's the same thing okay but there you need an
+
+01:25:01
+embedding because if you have only an immersion you wouldn't know how to attach the um the tangent manifold but then you go one dimension higher in the worst case and you get an embedding of the same thing so really the intrinsic approach the extrinsic approach and in the history are the same and in the history of the frenal geometry this was argued for some while which approach is the right one or are they equivalent it turns out they are equivalent but then the intrinsic approach is just more
+
+01:25:29
+aesthetic and it also of course then justifies that we draw the tangent space if we think of a manifold that we draw these tangent spaces like we intuitively draw them this is ultimately justified by by ideas like this okay so now we come to yet another technically highly important topic and that's the so-called tangent bundle and associated with the tangent bundle we look at Vector Fields so so far we looked at a manifold say such a manifold M we looked at a particular point and we studied the tangent Vector
+
+01:26:20
+the tangent space at this point now I feel after the Whitney embedding theor I feel more justified in drawing such childish pictures here okay so we look at the tangent space at one particular point and that's the construction we look at but now consider the following definition definition um let M be a smooth manifold then the the tangent bundle the tangent bundle [Music] um is the set so you see with first bundle you might already uh have the association of the um of our manifold bundles but we start slowly is the set
+
+01:27:18
+TM so you see there is this omission of the point P I'm talking about normally uh this is TM and it's the union and I emphasize uh well I emphasize it's the disjoint Union of all the TPMS we looked at before if I take any point p in m so I take as a set I take every individual tangent space so I um take this one up here and I take this other one at the point Q that's this tangent space tqm now um it looks like these tension spaces are intersecting here but of course you're no longer fooled by
+
+01:28:06
+anything like this because that's an artifact of our embedding okay if I had embedded this slightly differently here in a higher D then they wouldn't hit okay and we know intrinsically there is no such notion as these tension spaces have any intersection right they're just entirely different spaces and that is what this Dot here is supposed to emphasize I mean the dot never does anything uh it just is an emphasis because if the spaces are disjoint they're disjoint if they're not disjoint
+
+01:28:35
+you can put a dot here they will still remain non-disjoint so this is just the emphasis these are considered and in fact they are um disjoint spaces they have no intersection no element in tqm is an element of uh TPM okay and now as a set you take all the tangent vectors at all the points of the manifold and this set this huge collection of tangent vectors at various points you call TM the tangent bundle as a set and further we Define the bundle projection map or bundle projection so you see we are moving towards the
+
+01:29:26
+bundle that takes us from this huge collection so I have a whole bag full of tangent vectors okay come from different tangent spaces but now you pick one of the tangent vectors from your bag from your bundle and you go and look you say okay I have here how do you call this element I don't know um call it uh UHA sh s okay let's sayi is such an ele element of this tangent B no let's call it capital x because you see an element of the tangent bundle must be an element of some TPM okay and it maps The X to the point
+
+01:30:11
+P now you say well what is the point p uh where p is the point is the point uh for which X the X that's given here is an element of TPM right so you take some tangent Vector to some point and Pi Maps it to the point P that is the base Point as we sometimes call it of the tangent space from which X comes now can you identify the grammatical element in this statement that corresponds to this disjoint Union sign which symbol here do I have to write in Orange well it's the Z because it could there could be
+
+01:31:20
+several points from where this x comes no it can't because because they're all disjoined so the fact that you have an actual map here that Pi is a map has to do with this being this joint so all of this is fine so what we have now we have a set TM we have a map TM down to M this already looks like a bundle but at this point it's only a bundle of sets a set bundle it's not even a topological space bundle let alone it's a smooth manifold bundle or a topological manifold bundle
+
+01:32:04
+it's just a bundle at the level of sets Okay so uh so far TM Pi m is a set bundle by the way at this point I uh I should clarify that in one of the previous lectures I was asked um to give an example of a nonfiber bundle where not every fiber is the other fiber and I came up a little quickly with the example where I have a manifold and I attached at every point a complex line and all of a sudden I attached only real lines well this is clearly a bundle if I have this projection map on top it's a
+
+01:33:02
+bundle of sets Okay because in a bundle of sets I have no additional requirement for this Pi you see I can't talk about continuity unless I have a topology here and a topology there um so my example was right so there's this bundle of sets uh that's not a fiber bundle because not every Pi so this is a p and this is a Q and Pi inverse of P which we call the fiber at p is simply as a set as a set it's not Pi inverse of Q it's not BC it's not isomorphic as a set there's no bje between uh sorry between
+
+01:33:47
+this p and this Q there's no bje between R and and C right um well Ah that's tricky because there are these proofs that you can aha well certainly you can get some fibers here and some fibers there so that it's not not a fi okay see get get deeper and deeper into trouble but the the emphasis I wanted to place was on the fact that actually the way I defined bundles in the previous lectures as bundles of topological manifolds you need to have continuity here but the biggest problem is that this total space
+
+01:34:31
+e the M with these attached is not a manifold because if m is onedimensional say then at this point the bundle would be two-dimensional real two dimensional and this point would be real threedimensional right so so that's not this is not a manifold so this example is an example of bundles of sets but it's not a manifold bundle okay so um that was my sin there I I wanted to to emphasize this at this point that you don't take this example too seriously in fact it's really tricky to um to
+
+01:35:01
+construct a non-fiber bundle for many folds but I think it's possible okay anyway so um that was just aside on uh some confusing statement of mine although as a bundle of sets it can be held up but that was not the context in which I presented it okay so now but here we have a bundle of sets now the question is how do we make this into a bundle of topological manifolds or even a bundle of smooth manifolds well the M here is smooth or I can require this to be smooth now the simplest would be if I was able to take
+
+01:35:41
+a smooth Atlas on M which I'm provided if m is smooth and to construct from it a smooth Atlas on the tensent bundle if I construct a smooth Atlas here I have a manifold right okay and now you could ask how how do you define a topology here so how would you do that how would you define a topology on TM what do you want this topology to achieve you want to achieve that uh Pi would be continuous right so what do we know about we have a topological space here we want a particular map to be continuous so which
+
+01:36:22
+topology do you have to establish here Last Problem class it's the initial topology so I think it was on the last on the last problem sheet uh the initial topology and then you you could get topology here but now we want to immediately pull uh the entire smooth Atlas so um um want to make TM into a smooth manifold idea construct a smooth Atlas on TM from a given smooth Atlas on M uhuh so how do we do this okay okay um the picture is dangerous but maybe it's quite quite useful you have the manifold M and at
+
+01:37:30
+every point you attach the tangent space this looks funny because the tangent space should be tangent but now because I do not need to subscribe to the embedded notion I can make a nice picture of the tangent bundle by putting them up here like this and okay so and uh this whole thing here is then TM so that's the um the picture we have in mind but now let's uh let's see how we translate this into mathematics so given from a smooth Atlas on M so more precisely let curly a m be a smooth
+
+01:38:08
+Atlas on M then I can take uh some ux from the smooth Atlas so some domain U and some chart Map X and for instance I could take this U there an open set in m and with this U comes some chart map into R dimm okay we take this and now I would like from this chart on M I would like to construct a chart on TM and the idea is to look so construct construct um a chart Pi inverse of U what's pi inverse of U well Pi inverse of U in the picture is this guy is that right so you take the set u in m and you take the
+
+01:39:32
+pre-image ah okay Pi inverse okay so I always wrote pre well let's stick to preimage it's the better notion it's the pre-image of u under Pi it's usually denoted Pi inverse but that always has this taste of Pi is invertible which of course it is not at all so you take the re image of u under pi and that's of course this entire well set here in the intuition okay well that's a perfectly nice open subset of TM if on TM you uh establish for instance the initial topology let's say that has already been
+
+01:40:13
+done so now you construct this and this is the new chart domain but not now the domain on the base manifold but this is now supposed to be the chart domain on TM and now you instead of the x that you had before the X gave every Point here on of this u a coordinate now we need to produce a coordinate for any point in this pre-image of u under Pi if this is supposed to be a chart of TM you're all following right the idea is clear okay and so this new chart map we call Cai and we construct it what is Kai supposed to be where Kai
+
+01:40:57
+takes you from the pre-image of u under pi to some well to some s of the pre-image of u under Pi uh and that is certainly going to be a subset of R 2 dim M why is that well I mean it's intuitively clear it must be that because the tangent space has the same Dimension as M and I in a sense locally if it's locally trivial if um then then it must be double the dimensions is totally clear okay so but we want to construct I mean this is just a claim but now let's construct this mapai now how do we do this
+
+01:41:45
+um aha so we have to take a point in this uh orange domain which is in the manifold in the in the tangent bundle so we have to take some point um now we shouldn't call it P we call it um what do we call it well we should call it X again capital x okay because it's the element of some tangent space so we take this big X which lies in the bundle somewhere and um we M this to because that's what we're supposed to we're supposed to give this coordinates and the idea is and we have to show that
+
+01:42:32
+this is then uh a fine chart map we mapped this to the coordinates we had before of these points but so the first idea is I take this X and I project it down to an element of this original U we had how do I do this well this point down here is pi of X do you agree this is pi of X so Pi we take Pi of X but Pi of X lies in the original U so maybe we should uh well okay my color coding might not be useful anymore but let's do it like this so this guy here is now a point in the original U right
+
+01:43:19
+but as such I can use the original chart map map and in particular the first component of this chart map and I have a first coordinate for this point x and I continue and I write X dim M of Pi of X and I have already the first half of the coordinates namely I project this down and the first dim M coordinates of this guy are just the coordinates I would give to its base Point by virtue of the original chart map so far so good but now I need to provide dim M further coordinates to not only say in which fiber it it was lying
+
+01:44:18
+but to also know where in the fiber it was lying right so I need to provide further um coordinates and because the Blackboard has come to an end I need to change blackboards but um so um okay so how do I do this now um well maybe I it's down a little bit so you can still see this aha so how do we now go about this thing up there well um we could look at consider uh the bases d by dx1 up to D by DX dim M so this the basis of the tangent bundle but I'm telling you in a second of the Tang space I'm telling you in a second at
+
+01:45:25
+which point um look at this guy this x is the original chart map that we were given from the atlas on M and now for the X that I am given I look at T Pi of XM I look at the tangent space to the point over whose fiber in whose fiber X lies okay yeah I look at this tangent space because and that's the secret here since uh the X lies in there quite trivially the X lies in the tangent space over its own base point clear so I look at these guys Pi of x Pi of X this is the basis of this tangent space but because this is a basis I can
+
+01:46:21
+take X and I can expand it as capital x a d by D XA at the point Pi of X do you agree for real numbers R each XR XA is an element of R and the idea is quite simple I choose now precisely these real number numbers XA from this expansion I choose precisely this these numbers X1 up to X dim M oh sorry up to X dim m in order to provide the other half of the two dim M many coordinat Ates and I coordinati this point this I have a a chart that's this uh orange domain pre-empire View and this chart mapai
+
+01:47:36
+assigns to an arbitrary point in this this set of two dimm numbers and that's a chart and what remains to be shown remains to be shown sh that any two such charts preimage Pi of U commaai and pre-image Pi U twiddle cite twiddle are C Infinity compatible and I will put this on the problem sheet that's quite simp simple and once you have that you showed if m is a smooth manifold you can inherit the smooth structure to TM and once you have that you can talk about this projection map being smooth and then you have a smooth bundle
+
+01:48:46
+[Music]
+

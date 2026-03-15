@@ -1,0 +1,561 @@
+00:00:01
+[Music] We've come a long way from manifolds over lee groups, lee algebbras and back and we're now fully prepared to come to the at least technical climax of this course and that's our chapter five. That's principal fiber bundles. So what's a principle fiber bundle and why is it so important a notion? Well, because this is going to uh require some technical developments and some rather technical developments at some points, it's maybe good to know what this this is all about. So uh let's start by
+
+00:00:56
+claiming or stating that very roughly speaking and to make this precise is of course exactly the point of the technical developments but very roughly speaking a principal fiber bundle is a bundle whose fiber is a league group. So this is why league groups are also so important because they provide the fibers of fiber bundles. Okay. So that is what it very roughly is. Um but why is this important? This is so immensely important or principal fiber bundles are so immensely important uh because they allow to understand
+
+00:02:14
+any fiber bundle. with uh a fiber F. That's a different guy. Any fiber bundle with a fiber F on which the Lee algebra G acts in a particular way. Well, we could say acts. Well, it's always in a particular way, but it acts. Okay. And um uh these fiber bundles on which G acts and that are associated with this principal bundle um are called associate bundles. These are called associated bundles and in physics fiber bundles are really ubiquitous. They appear everywhere. um to just mention a few examples. For instance, in
+
+00:03:20
+general relativity, they appear and the fiber is given by the SO13 Lawrence group or if you consider spinners uh by SL2C which is the double cover of SO13. Now also and uh that is probably what mainly sparked this whole thing in physics is that in Young Mil's theory young Mil's theory and its generalizations I mean not okay anyway um so this is nonabelian gauge theories is where the vector potential the co-vector potential of your in quotation mark electronamics all of a sudden is lee algebra valued
+
+00:04:12
+okay that's nonabel gaga theory So I should probably write nonabel engaged theories. Um but in in the standard model of particle physics that would be in for instance SU2 uh or it could also be SU3. So this would be say roughly speaking the electroeak theory. Uh and this is the the strong interaction. uh these guys um uh these theories can actually only be properly understood and the the subtleties in there uh by considering principal fiber bundles that's in Young Mills theory and um but
+
+00:04:48
+then uh not least well that's not exactly physics so let's say in mathematics um well studying these principal fiber bundles is if you study the twists in that bundle, how the um how the fibers twist, you know, need doesn't need to be a trivial bundle. um studying that you learn a lot about the manifold and in particular there is a um a field called K theory in mathematics one hears a lot about and in K theory roughly speaking um the cohomology groups of a of some manifold and you heard we I told you about the
+
+00:05:32
+cohomology groups right the coology groups um of uh some M. So manifold M is uh are they essentially defined essentially defined as the various bundles. One can construct over M and uh principal bundle techniques and bundle techniques in general um of course important there. So, so this is really something that permeates a lot of mathematics differential geometry anyway and also um if you take differential geometry so let's uh well too in just in in differential geometry uh I told you that defining what a tensor density is may be
+
+00:06:30
+a bit uh tricky without the bundles and indeed what you look at you look at a bundle whose a principal bundle whose fibers s are the general linear group of the appropriate dimension. That's a so-called uh well you make this into the so-called frame bundle and then you can define very easily um the corresponding associated associated bundle on which this GLDR where it acts on the fibers which are in principle tensor fibers but the GLDR acts with an additional determinant factor and that's then the
+
+00:07:05
+the densities. So also kind of this heavily used instrument of cancer densities in in differential geometry especially also in general relativity uh you also understand it properly by understanding principal fiber bundles and the associated corresponding associated bundle. So this is uh really lots of motivation which at the moment you don't understand but what you do understand there's a league group a league group a league group a league group a league group a league group okay and that's the principal fiber bundle
+
+00:07:34
+and that we want to develop okay so this is the uh motivation please mention it in the evaluation um and then we come to uh 5.1 uh we need to prepare this whole business and um that's ler actions on a manifold lead group actions on a manifold. So this is a topic we could have discussed under the uh chapter 4 heading of lee groups but in fact it really fits here so well we have it as a preparation 5.1. So what's the league group action definition? So let uh G with its blob uh be a Lee group
+
+00:08:30
+and um and let M be a smooth manifold. Then a smooth map uh with the interesting name arrow to the right that takes an element of the lee group and takes an element of M of the manifold and maps it to an element of the manifold. How can this be smooth? This is smooth. That is smooth. So you can make the cartisian product into a smooth manifold. Then you have a map from a smooth manifold to a smooth manifold. You know under what circumstances this map is smooth. Then a smooth map GM to M. Um uh satisfying
+
+00:09:25
+two conditions satisfying first of all that if the if I take the identity in the Lee group and I let it act on a point P in M like so often if a map depends on two uh um you know goes from a cartisian product to somewhere. Uh we we put this in between there. Okay, it's like the addition you know. Yeah, you know this from elementary school. Uh so that actually if the uh identity act that yields P again for all uh P in the manifold. So the identity does nothing. And um uh the second property is that if
+
+00:10:10
+you act with some uh element group element G1 on P then you get back an element of the manifold and then you can act again with an element G2 on the result. You may feel more comfortable having the brackets but you don't need them if you read this only one way to read this expression anyway. And you require uh this be G2 G1. So you keep the order G2 G1 uh and that of course goes with the blob and that acts on P. So you can act one after the other or you can act at once with the product. Okay. Any such smooth
+
+00:10:56
+map is called a left G action. So a left action of the Lee algebra of the Lee group G a left G action on the manifold M. And that's a central notion we're going to use. Okay. a example a question so far. So let's have an example. So let G be some lee group. Okay. And I can choose as the manifold I can choose a vector space vector space and not any it's um I choose this representation space of G uh that comes with a linear representation capital R that takes the le group into the endomorphisms
+
+00:12:08
+over this vector space. Well, and we said we have a uh we have such a representation. We studied such stuff before, right? We studied representations also of the Lee group into the endomorphisms. Well, actually it was called uh the GL on V because we need this to be invertible. And uh we can of course therefore define a left action uh of G on the represent on a representation space here. Um by uh letting G act on a little vector by definition by using the representation of this element and let it it act let it
+
+00:12:55
+act as a linear map on the vector. So uh that is um representations of G on some vector space like you uh usually find it in physics in the introductory lectures. um is a very special case or are a very special case of left actions. Left G actions. Okay. So one is almost tempted to say what we get here are nonlinear representations. But nonlinear would somehow suggest it could be linear. It just is not. But in fact, if you take a general manifold, you don't have a vector space structure in the first place. So you wouldn't even
+
+00:13:56
+know what linear means. So calling it nonlinear is somehow misleading. But it's something like this. You you loosen this restriction that you act um uh that you act there. Okay. So that's this. Now um we have immediately another definition and that's the definition of a right action. And very often if you can let it act from the left or from the right it's a matter of convention. Of course it is. But if we talk about principal bundles we'll always take right actions. And if we
+
+00:14:32
+will then talk about fiber bundles on which the same group acts we'll actually talk about left actions of this group. And this plays nicely together the right action and the left action. Uh that works fine. Okay. So really in principle bundle theory we use right actions and if we then go to the associated bundles we use left actions. So we should write this down once. Um similarly a right action now you can guess what the symbol is. It's the arrow like this. A right action uh takes m cross g o opposite order of
+
+00:15:12
+course uh into m such that well uh the first one uh um remains that uh you act on any point with the identity and you see we now really write the group element on the right so we take the the word right action serious um that has an advantage you'll see in a second uh this is again p for all p in M. And the second requirement is that if you act on a P with some G1 and then you act on it with some G2 from the right again for your comfort only I put these brackets um then this indeed is P and now it's G1
+
+00:15:56
+G2 but like before the order here remains here And before it was G2, G1, but only because if you come from the left um you you act first with the G1, G1 is the one that acts first and then comes the G2. But that gives you the opposite order here as well. Okay, so but this is important and that is why it's so convenient to really write this from the right because you can always keep the order. You don't need to think about it. Okay, but it's really something different. Okay, uh such that you have
+
+00:16:30
+this and everything else stays the same as it was before. uh this is called a right action. Okay, I don't need to spell this out in in every detail. Now um we can make an immediate observation and that is uh let this guy be a left action. Uh then we can actually define a right action from it. then define. So you got to be careful which direction this guy points. Um then a right action which goes from m cross g to m can be defined this way. I act on a point from the right and this I define by
+
+00:17:19
+taking the inverse of the group element which always exist exists and I let it act from the left on P. So from the left, so first until you adjust your glasses, um this is the new guy and the white one is the old guy, right? So you define the new guy in terms of the old one. You define the right action, terms of the left action. Um then this is a left action is a right action. And it's crucial that you take the inverse here. So uh let's show this. So what do we need to show? Well uh quite obviously so I need to uh act
+
+00:18:07
+where's the new okay um so for any P uh I act from the right with the identity. I know by definition this is the identity inverse but that's the identity acting from the left on P but that's P. Okay. So the first uh property here of the right action is satisfied. Um ah uh we should also check that it's a smooth map because this is supposed to be a smooth map. Why if this is a if the left action is a smooth map which it is by definition why is the such defined right action also a smooth map please
+
+00:18:51
+argue why well because taking this inverse is a smooth operation because we're on a le group so this is one of the points where this property that taking the inverse is also smooth well of course it was implicitly important before but this is one important point so this needs to be checked as the zerooth point. Okay. So, but then we have this and now we check um we act on P from the right with a G1 and then we act again from the right uh with a G2 and uh well we now uh use the definition first use the definition in brackets
+
+00:19:30
+that's G1 inverse acting from the left on P and then on this from the right we still have the G2 acting and that's Of course, the G2 inverse acting from the left on the G1 inverse acting on the left from the left uh on P. We have this guy. But of this guy here, we know that G2 inverse blob G1 inverse acting from the left that this is true because it's a left action. And then we know that uh the inverse of a product is the um no the product of inverses is the inverse of the product but with the
+
+00:20:20
+order exchanged it's also clear in any possible context also here for the lee groups and that acts from the left on P. But this again by definition of the right translation is the P on which we have acting from the right G1 blob G2 and uh this is precisely uh what we required and you see that the inverse is important to flip here the order. If we didn't have the inverse the order wouldn't be flipped. It wouldn't be a right action. And there you see really the right action something different
+
+00:21:00
+than the left action. If right and left actions were the same then I could have defi that there would be just a different notation. You can say well but I can write it on the other side right this just flipping the symbol. Um but a right action because of this property of these properties and keeping the order and uh is a different a different thing. Okay good. That's the right axis. Um once expressed in terms of principal bundles, principal fiber bundles and associated bundles. Um we will see
+
+00:21:56
+that the recipe the recipe of labeling um a basis of a tangent space a basis E1 to E dim M of the tangent spaces of some manifold. uh by lower indices. I told you this is just a convention and the components of a vector X in TPM by upper indices. Um, and the corresponding transformation behavior and having the corresponding transformation behavior. that uh if you define a new basis by some matrix A M A E M for all the basis vectors and you correspondingly have that the new components of a vector uh are given
+
+00:23:35
+by precisely the inverse of such a transformation, right? Um why why is this? Well, because then still the product well the product the the linear combination of these E twiddles with the X twiddles is then still the same as the original components with the original basis because the vector is the vector. It's just expressed differently. That's how we understood this a and a inverse before right will be understood will be understood as a right action as a right action of the general linear
+
+00:24:14
+group in dimensions uh on the basis and a left action of the same G L D group on the components. We say ah yeah sure sure sure that one must be the inverse then of the other that that's the relation um and uh these guys this will be understood as the frame bundle. Okay, this the bundle of frames, the bundle of bases that transforms in a certain way, right? That's then the um the principal bundle we're going to define. It's this frame bundle. Um and then we'll have just a uh a bundle of R4 fibers say uh that's just
+
+00:25:05
+the components on which this group also acts. Okay. So this whole business in physics about thinking of components and how components transform. You see this is how this is very often defined in physics. A tensor is what transforms as a tensor does. Okay. But in order to really say this precisely what it means a tensor is something that transforms as a tensor or tensor components are things that transform as tensor components would be the more precise formulation. In order to really say this precisely
+
+00:25:34
+you need principal fiber bundles. Okay. So um this is uh this view. Good. So this is just a remark to uh uh make to to to show you where where we're going. Now um there's one more definition I would like to provide. Um now assume uh we have two league groups. two le groups um G with a blob and H uh with a little square. Okay. And um let's assume we also have a league group homo. I know let's make it a bit more tricky. Uh let's have two league groups and a um yeah a league group homorphism. A
+
+00:26:33
+league group homorphism. Let's call that guy row. It's not a representation like before, but it's now a row that takes you from one Lee group into the other le group. It's so regroup homorphism means it's a smooth map because we always took smooth league groups and um it's of course still a group homorphism you know meanwhile how that works that the blob product can be taken and then you apply the row you can first apply the row to two elements and then take the the square product the
+
+00:27:06
+leroup homorphism um is this what I want yes um and let M and N be two smooth manifolds and further let's have two left actions two left actions uh namely one uh that we denote like this a left action so it's G cross m into m and the other left action let's take a filled triangle is from h cross n into n so two league groups two manifolds between the league groups you have a league group homorphism and you have these two manifolds and let f from m to n be a smooth map. If you have all of that,
+
+00:28:27
+uh, then f, the map f that takes you from one manifold to the other is called row equivariant. row equi variant. If let me try to squeeze the diagram here. Yeah. If so we take G cross M and we take M. How do I come from G cross M to M? Well, by virtue of my empty left action, I take H cross N to N by my solid left action. I have this map F that goes from here to here. How can I construct a map from G cross M to H cross N? Well, I can construct it construct it by taking row cross F where this cross means the row eats the first
+
+00:29:58
+factor and the F eats the second factor and the row eating the first factor produces the first factor. F eating the second factor produces the second factor. Okay, very simple. I think we did this in in statistical mechanics. We use this a lot. Then f is called row equivariant. If this diagram commutes again what does that actually mean? It means you can go this way or you can go that way. So uh let me first write down this way. That means you take you let g act some point some g in the group. You
+
+00:30:40
+let it act from the left by this uh empty left action. You let it act on some m. So some little m is a point in m. I rather write little m here. You let it act and then you take the function f to map it. And this is supposed to be the same as you first map the G by row and you map the M by F and then you take the result and you use the solid action. Okay, so this a new word row equivariant and what does it talk about? Well, it talks about if you have two manifolds that are equipped each with a that are each equipped with a left
+
+00:31:38
+action. You have the manifold N equipped with this action, the manifold M equipped with this action. Not of the same group, but by groups that are connected by a group homorphism. So what we're talking about here row equivariant maps between manifolds are maps between manifolds that preserve a left action that's given on the respective manifolds. So it's again the same principle we're talking about the structure preserving maps between manifolds only that the structure given now is a particular action of a le group
+
+00:32:13
+on one manifold a particular action of a homorphic league group on the uh other manifold. Okay. Right. So this is uh row equivariance and um this plays a role in physics. Um so you can do this without this row. You can say that the this H is the same as this G. But in physics for instance you have here the Laurens group SO13. But you do not. But now you want to compare this what happens if you replace it or if you map it not replace if you map it by a homorphism into SL2C which is the spin group right and you need to know if
+
+00:32:52
+you uh rotate your measurement apparatus which you do by Lawrence transformation right I mean I rotate it or I I move it into put it into a moving system. It's a Lawrence transformation. But now this apparatus is for instance constructed to measure the spin of some object. Okay. But then you need to know what this rotation in physical space or this lawrence uh transformation in physical space what it does to a spin particle. So you need to have an embedding of SO13 into SL2C. That's a 2:1 embedding.
+
+00:33:28
+Right? And this is where something like this comes up. Okay. So this it looks excessively mathematical but it's real it's the real life at least in theoretical physics. Okay good. So that's the um the the equivariance there. Now this uh just for completeness at this point. Now we um have further important notion which we're going to to use heavily. So definition um let this guy uh g cross m to m be a left action okay on some manifold m obviously um then we define a um the orbit of a point. So uh for any
+
+00:34:22
+point P in the manifold uh we define its orbit uh under the action as the set as the set. So the orbit well let's choose a curly O. It's not a topology. It's an orbit. It's the orbit of the point P. What kind of guy is that? Uh that's all the points Q in the manifold which you can reach by starting from P and acting on it from the left with some G. So for all for which there exists a G in G such that G acting from the left on P produces the Q. That's an orbit. Well, let's make an example
+
+00:35:19
+right away, although we're in the middle of the definition. example, let's say um the manifold is R2 and let's say that the um the left that the that the group is SO2 and um let's say that the action the left action of G on a point in R2 be defined as um the vector representation of this guy uh acting on the point uh P. Well, P is just a two a pair of numbers P. Um so uh well I write in quotation mark marks because I need to choose uh coordinates to do that. Uh that is if you have something
+
+00:36:15
+like cosfi sinfi minus sin fi cosfi uh of p1 p2 something like this right uh we know how that works and that's uh of course simply the rotations of the plane as they act in the vector representation. So that's what you usually call the rotations right. Um and now take this point here. What's the orbit of this point? This point be called P. And the orbit is any point you can reach from there by action of the group. So it's all the points on this circle. But this point you cannot reach from
+
+00:36:57
+there by action of SO2 of this particular action here that I wrote down. So this guy here, this whole set is the orbit P. So the orbits are subsets of the manifold. Okay. Right. Um, all the orbits are all the circles. And but there's also one point here which is the orbit of itself, right? It's also the orbit of that point. That's not a circle. That's just a point. Okay. Um, so we have this. Well, once we have that, we can take B, but it actually belongs to A. We can define um an equivalence relation. Um
+
+00:37:47
+uh let P equivalent Q. So these are points in M by definition. If uh there exists a g in g such that uh p equals or q equals doesn't matter because we can take the inverse g from the left on p. So in other words they are called equivalent if they lie on the same orbit. So this point and this point are equivalent but that point and that point are not. Okay. So one can quickly check this is an equivalence relation. equivalence relation. So it's reflexive. Why is it reflexive? Well, because the
+
+00:38:32
+identity is always in the group. Uh it's symmetric. Why is it symmetric? Well, because there's always the inverse in the group. And you have that if you act again with the inver well, let me write it down. is because G inverse Q if this is true then G inverse acting on Q is G inverse acting on G acting on P. uh but this is G inverse blob G acting on P that's the identity acting on P that's P ah so you can write this the other way around and the inverse always exists so there is such a group element
+
+00:39:09
+I mean in that case the inverse and you can also check that it's transitive let's not do that so this is an equivalence relation and if you have an equivalence relation you can consider the equivalence classes so you can take the manifold and identify all the points that are equivalent under the equivalence relation. So that's the quotient space and because this quotient space uh has been defined using only this group and this action uh we very often write instead it's m mod g right
+
+00:39:53
+it's just another notation that because you you do not always have to carry through this construction because once you know it you say well the group identifies certain points by by being in the same orbit And this is then called the uh orbit space. And indeed the equivalence classes are all these circles and this one point. So one element of the orbit space is well exactly the set of points that makes an orbit. Okay. So you have a foliation of this space into lots of orbits. It's like always this is a very particular
+
+00:40:27
+example and this orbit space will play a very important role um in fiber in the principal fiber bundle theory. Okay. So we have this um uh right okay so then let's have C um we define for any point P any P in M we define the stabilizer that's now again the set let's call it S subp because it depends on the point where you are but while the orbits were a subspace of the manifold the stabilizer is a subset of the group okay and the stabilizer uh are exactly those elements of the group
+
+00:41:27
+that keep the point that you fixed invariant so which the question the stabilizer are all those elements in the group that do not move the point you chose. Okay, that depends on the point and that's obviously a subset of the group. Well, so always keep that in mind. Orbit subset of the space stabilizer subset of a group. Okay, so again example um well let's take exactly the same example. So uh we have here the rotation. So as before, um what's the stabilizer of this point under the action we wrote
+
+00:42:12
+down before? Which transformations in SO2 leave this point where it is under the given action which rotates every point around the origin? Only the identity. That's right. So if this is the point P then SP is simply just the identity and this is true for any other point any other point namely the origin only this point Q the origin what's the stabilizer there everything it's the entire group that's Right. Okay. So that gives rise to a definition. An action. Let's say this left action. But
+
+00:43:08
+obviously you can do this for the right actions too. An action is called free. It's a free action if separately for every point the stabilizer at that point just just consists of the identity. So obviously this SO2 action here is not a free action. A free action is such that every point is stabilized only by the identity. Yeah. No, no, no, no, no, no. But look, the stabilizer is the set of all group elements that keep it the same. But I want to say that I can choose another element of the groupity.
+
+00:44:28
+Ah, yeah. Very good. Very good. But what did we do here? we um uh you're now talking about aha okay look so you see this is why I didn't want to write this down but it's a good question because what we have here the phi aha it's a very good example with what we said before because this is of course x of phi times the endomorphism given by this generator acting on p1 p2 Right? Now this guy here, so the group is compact, right? SO2 is a compact group because the group manifold is S1
+
+00:45:10
+is a compact space. Because it's compact and we use the exponential map, it cannot be injective. That means we hit the same point several times. And that's what you're saying. You can plug in phi= 0 and then forals 2 pi you hit the same transformation again. and for four pi and for six pi and so on you hit it again and again and again. Now this however doesn't speak about it really speaks about the group. So once you come back to the same element it's the same element again. So
+
+00:45:44
+every time you choose five equals 0 2 pi 4 pi 6 pi and so on you hit always the identity element. So there are no others than the identity that do that right and the misunderstanding there comes or the the feeling there must be more elements is because uh uh of of this non- injective uh generation of the group elements this way which is here matrices expressed that way right I mean of course you can also explain here say well it's the same transformation that acts but okay so this has exactly to do with what we said
+
+00:46:17
+before okay so an action is free Question can ever be an action that we defined in terms of a linear representation. Can that ever be free? Well, this one is not. Now the answer is can never be free because a linear transformation a linear action the endomorphism space here on them will always map the zero vector to the zero vector. That's a linear map always does that. So hence whenever I generate an an a legroup action on a vector space in terms of a linear representation uh it cannot be free.
+
+00:46:58
+Okay. Um what about the translations of the plane? I can translate in this direction that direction or any linear combination of that. Is that free? should be no because you always find a transformation uh I mean any transformation moves a point away from where it is apart from the one that doesn't any do anything so translations would be free okay that's the the free translations so uh now a free action So there are other notions like um transitive actions and um effective actions and so on. They're all useful to
+
+00:48:06
+define but we're not going to need them immediately. So I rather not confuse them with them. But uh if you stumble across them, effective actions, transitive actions, they're all defined uh along similar lines. So it's nothing to be afraid of. For principal fiber abundance, we really just need the the free actions. So what's the crucial property of a free action that we're going to use? Um so this is um observation and I'll ask you to show that uh on a problem sheet. observation. Um, if this is a free
+
+00:49:10
+G action on M, then each orbit each orbit OP. So can label them by different base points. Each orbit is as a smooth manifold the same. So it's difforphic to the group. Okay. Um so for example if we had taken the manifold not to be all of R2 but we take out the origin. Okay. And nevertheless, we define a left action that uh lets so two act on this guy by pretty much the same definition like we had before by employing uh the vector representation we wrote down last time. I think of this group
+
+00:50:32
+element as it acts on this pair P1 P2 that lies in here. But you see now I took out of this M I took the origin out. So it's no longer a vector space. But of course I can still act with this on everything but I just removed the origin but this is no longer a linear representation because it doesn't act on the full vector space anymore. Okay? So it's now really only a left action. I mean it's a very trivial modification of a linear representation but nevertheless and you know now I took out the origin
+
+00:51:11
+and everything else remains the same but that means that the orbits are like this and you know so these are the various orbits and you know because I took so I should indicate it's not a circle this means this is this has been removed huh and you know the only point whose stable stabilizer was not the identity was this origin. So now this action is free is free because for any point that is in there the stabilizer is the identity. And now you see the orbits are the circles and each of these circles is of course
+
+00:51:55
+isomorphic to SO2 because SO2 is the le group that's built on the circle as the underlying smooth manifold but with an additional group law how you but as the underly this is an ISO and hence uh so every orbit is isomorphic to an S1 well that you can C and but S1 is the group manifold that analyze SO2 so in a sense it is SO2 seen purely as a smooth manifold right child's play very simple okay and that's the purpose of considering or one of the purposes of considering free actions that you know immediately a free action
+
+00:52:41
+the orbits are the group isomeorphic to the group Okay. So then uh after these preparations we can come to the central definition. Uh so principal fiber bundles it's also the the chapter heading but uh well definition a bundle well a smooth bundle whenever we're talking about bundles now we assume everything is smooth the spaces are smooth projection maps are smooth. All the maps are smooth. So it should I forget to mention smooth at some point you may insert it. So a bundle what was that? A bundle consisted of a total
+
+00:53:43
+space, a projection map and a base space. If you remember such a bundle uh is called aha uh a bundle is called um a principle a principle G bundle principal G bundle if well what do you need? um you need that E um well E is ah okay so so there's this terminology that says E is a right Gspace but what is a right Gspace that means you have E equipped with a right action of G on it okay so let's introduce the terminology so a uh if E is a write Gspace right but this is just terminology which
+
+00:54:54
+in principle one doesn't need it's just very convenient that means uh E is equipped equipped with uh a right g action so we have such a uh B this right G action is free. So this we certainly want to have that makes the principal G bundle rather than just having a right G bundle. This is free. And now I need to say okay I have a bundle E pim M there is no sight of any G anywhere. Okay. So how when do I call such a bundle a principal G bundle? I call a principal G bundle if uh E pi M is again another
+
+00:56:02
+symbol for the bundle. If this bundle is as a bundle isomorphic but as a bundle you remember when a bundle was isomeorphic maybe I remind you in a second but first the definition this is called a principal G bundle if as a bundle it's isomorphic to E. So I take again the same total space but I compare with the bundle that's built from the same total space going down into the orbit space of this total space under action of the lee group. Okay. So I have a manifold E the total space a manifold and I have a
+
+00:56:48
+right G action on it. The G action is free. That means every orbit of this G action is the group itself is isomorphic to the group. Okay. And I choose this uh E modulo G is the orbit space is the space of all orbits. And because uh uh the fibers are always the same. This is a fiber bundle. The fiber of this B. And there um there is a projection map row and that's the normal projection map that you take from a set into the quotient set. You remember where you send a member of the set to its equivalence class. That's this map row.
+
+00:57:32
+Okay. So you take that guy, you go down here and because the action is free, the fibers, so the row inverse of a point down here is always the entire group. Okay? But we'll write this down in a second. Uh but this is the definition of a principal fiber bundle. So let me write down the observations but they're not part of the definition. Observation um so I I I should say so this row is just if you have a map from E to the quotient set uh it takes a point. Yeah, little e is bad here. Um, it takes a
+
+00:58:15
+point I don't know epsylon in e, it takes it to the corresponding equivalence class. That's this map row. Okay. So an observation is since uh the right action is free. Uh it follows that the fibers of this bundle here. So the row inverse of some well equivalence class of epsylon I don't want to invent yet another symbol uh is difforphic to the group to the le group okay but this is just an observation so again a bundle e pm is a principal g bundle if I know of an action on this e I go down
+
+00:59:04
+to the orbit space to the space of orbits, okay, by this canonical projection map. And if as bundles they're isomorphic. So maybe I should uh remind you recall what was the definition of a bundle m pi or e pi m and the bundle e prime pi prime m prime. So another bundle. When were they isomorphic? What was the definition? Well, you needed a map U up here and you needed a map F down here. Both of them smooth. So this So um Aha. So I should write e pi m isomorphic as bundles to e prime down with pi prime to m
+
+01:00:04
+prime. By definition, if and only if here there exists smooth maps U and F such that well actually diffios there exist diffios smooth and invertible you can go in both directions uh such that uh pi prime after U is the same as uh F after pi. So I could also say the existio UF such that this diagram commutes. Okay. So as always you have an object that consists of three elements this this and this. And if you want to show want to define isomorph an isomorphism to an object of the same type you better map every of
+
+01:01:05
+the objects by the isomorphisms of what they are. But if there's additional structure here this pi you better also preserve the structure and that's then this is always the same. So one in a sense one doesn't need to remember this. One can always reconstruct it by thinking about what is structure preserving. Okay. And now you see in which sense I said in the beginning that a principal fiber bundle is a bundle which very roughly speaking whose fiber is the lee group. Well, a principal fiber bundle is
+
+01:01:41
+isomorphic as a bundle which is a G fiber bundle, right? It's just isomorphic to it. But you know that in this isomorphism uh here the G is not immediately visible only that I know that the G can act on the E. But this is the definition of a principal fiber button and um this is the simplest definition you can give uh that does what you want. So I encourage you to revise uh until Thursday until next lecture to revise uh the um uh definitions of pullbacks of bundles we had and subbundles restrictions of
+
+01:02:24
+bundles and so on to revise all of this um because we're going to need it in our further discussion of the principal bundles. So we'll now uh consider a particular example for a principal G bundle and this example is of the utmost importance in differential geometry and that's the so-called frame bundle which goes by the name LM and this is defined as follows. So um if first at a particular point x in m uh we consider the following set we look at the l sub x's of m uh which are a
+
+01:03:13
+ordered dim m tupil of um e1 to e dim m uh with the property that the E1 to E dimm constitute a basis for the tangent space. So E1 to E dim M are a basis for the tangent space TXM at precisely this point. And that's not the frame bundle yet. Uh that's the space of frames at a point X. So a frame is a basis. We could call this the basis bundle, but it's just tradition to call it the frame bundle. Okay. And um so so we have this kind of guy. And this is obviously um as uh this is obviously isomorphic to GL
+
+01:04:16
+dimm over R because you certainly remember from your linear algebra classes that if you take the uh vectors of a basis and you express them in some say over RDMM uh uh in terms of the canonical basis you get column vectors and if you put these columns next to each other uh you get an invertible matrix right uh so that's definitely the case and we'll invoke that isomorphism in a second uh but then we define the frame bundle as lm is the disjoint union over all the x's in M LP M. Now let me make a comment
+
+01:05:09
+on this because there were some questions I was told um about this kind of uh disjoint union. Um this is really the precise definition and the idea is the following. Um go back to the tangent bundle. Um so uh an aside is the following. So we defined the tangent bundle in similar fashion. We had the disjoint union over all the x's in m txm. And so that means you take think for instance about part of the sphere. So you have the point x here and you have the point x prime here and there's the
+
+01:05:52
+tangent space txm and here's the tangent space uh tx prime m. Now you can think I mean these are entirely different spaces right and so you can think of the guys in here being apples and the guys being in here being pears. Um, so now I put all the apples and pears into one bag. That is what the union is. And now I close my eyes and pull out an element of the union. And in my hand I have an apple. Is there any doubt where the apple comes from? Well, I mean I have nice apples. There's a nice apple. There's a not so nice apple.
+
+01:06:35
+And I have uh big pairs and small pairs and everything. Okay. But if I have an apple, I have an apple. So if I reach into this bag of this that is represented by this unit and I pull something out, it's an apple. So I always know it comes from this space. So that means if I take an element x from the tangent bundle, it is a vector. The x is a vector. But nevertheless, I always know if it's from here, then I know there exists a unique X such that X comes from T subXM and hence I can define
+
+01:07:23
+a map a projection map that takes an X and assigns to it the small X which is the base point where it comes from. Okay. Hence a construction of the type um union over all x cartesian product txm may look good because you say you make this explicit. You make this point explicit and you then have in here pairs. Well, not these pairs, the the other pairs with ai. uh you have pairs of points and tangent vectors. That's okay. The point is it doesn't solve your problem that you know kind of what dimension the space is and so on
+
+01:08:10
+because this first of all is just a set and as a set it doesn't have dimension. you need to make it into a topological space and then into a topological manifold in order to start talking about the dimension of this guy because dimensions only defined from that structural level onwards. Right? So we do this and then so this was the aside hopefully not more confusing than enlightening. Um but this is the definition we want to make in in complete analogy to the tension bundle. And then we equip this
+
+01:08:45
+guy. We want that this guy inherits an atlas. Say a smooth atlas because we work in a smooth category here. So um we equip this with an atlas. Equip LM with a smooth atlas inherited from the smooth atlas on M which must carry a smooth atlas because we assumed M to be a smooth manifold. Uh and this works in complete analogy to how it worked for the tangent bundle. uh you take elements from here, you express them in a basis in a basis induced chart in a chart induced sorry the other way around in a chart induced basis uh and
+
+01:09:34
+then you decompose every single one of them and uh you get numbers e a b no like uh a square array of numbers that coordinatize every single one element in this lxm and those who use as coordinates of this frame bundle. So you do this precisely the same way. I don't think it's worth spelling this out again because in complete analogy uh and then you find of course that the dimension of the thus produced smooth manifold LM must be uh the dimension of M that's the base manifold plus the
+
+01:10:16
+dimension of M squared because of this. So it's dim m * 1 + dim m. Okay. So that's the frame bundle and this is the frame bundle as a smooth bundle. Uh ah no, there's something missing. What we still need is the projection map. So we define the projection map pi from lm down to m. And this is now the apples and pears thing. So if I take an element from here, it's necessarily uh of this form. Um so let me write D for the dimension of M. It's necessarily of this form. But you kind of take this guy and then you
+
+01:11:04
+look at it and you say, "Oh, it's an apple." So you know at what point it is defined and this unique point you assign to it. Right? So the logic is this is from LM and then you assign to it the X right uh and the point is there exists a unique X in M for which E1 to ED the one you picked from the union is an element of the LXM. So although this was from LM, it's in particular an element of LXM because this is a disjoint union and that unique X you take and that's then the bundle projection.
+
+01:11:49
+And so in total we got that LM with this projection map down to M is a smooth bundle. So obviously in order to really show this in detail you have to check a lot of things. Uh but this is the sketch of what you got to do. Now we want to see whether we can make this frame bundle into a principle G bundle where the group G is exactly this guy GL L. Okay. So um so second maybe we have an we start out here making this a bundle A. So then B uh we establish a right gl action with this name uh on the total space LM. Remember this is the
+
+01:12:53
+total space of the bundle. This is the base space. This is the projection map. So um we establish this action uh by virtue of um so we define so we take an element E1 to E D and we wish to act on it with a GL transformation let's call it small G but small G is an element of GLD okay and we define this action as follows Um G up M down one E M comma uh G M down 2 E M dot dot dot dot up to G M down D is the dimension E M okay what are these GM1s GM M2s and so on. Uh well uh GLD is uh all the endomorphisms
+
+01:14:04
+which are on from RD to RD which in this case for simplicity but this is perfectly fine uh already represent by their matrices. So gmn these are all the gmns where um uh these guys are in r and uh m n run from one to d and the determinant of this g index up index down is non zero that's our definition of gl and we let it act on this frame in this fashion Now what this of course is is you have a basis and now you do a general linear transformation invertible transformation of the basis. So that means the new
+
+01:14:55
+first basis vector that's the new first frame vector after the action is a linear combination of all the frame vectors em you have right and it produces one new one. is the first one. It's the coefficients, the first collection of coefficients for this linear combination. This is the second collection of coefficients for this linear combination that makes up the second one and so on. This is of course precisely how you transform a from one basis to another basis. Okay. So this is the action of the GL group is doing
+
+01:15:32
+this. Aha. Good. So the question is is this a free action? It's a right action, right? But the question is, is this a free action? What was a free action? A free action is one which at any point is such that only the identity that would be the delta here delta MN only the identity keeps this thing unchanged. And that's precisely what happens if you just have one vector and I then I can find GL transformations that are not uh uh the identity that keep the vector invariant. If I have two vectors, I still find GL
+
+01:16:17
+transformations that keep them invariant. Well, in three dimensions it gets trickier, but no. Okay. But if you have an entire frame, there's nothing you can do to keep every vector of the frame invariant. Hence, this is a free action. Well, that's now the intuitive argument, but obviously you can make this into a formal proof. So, what we did, we could establish on this frame bundle a right GLD action. That's good. And uh so the question is is this frame bundle once the total space is equipped with
+
+01:16:59
+such a free right g action is this a principal G bundle? Is this a principle? Um so is lm pi down to m and one should always say there is on here there is also an action of some group. Um, is this a right action? Uh, is a GL D principal bundle or principal GLD bundle, whatever. Okay. Um, what do you have to check for that? Well, you got to check whether if you look at your bundle if you look at your bundle um whether you have a bundle map view that's an isomorphism. So there should be an inverse like this to the same total
+
+01:18:04
+space but going down to the total space and then you take the quotient with respect to the group you have here. Okay. And if there is such a an isomorphism UF between these two bundles, then you call this guy a principle um a principle G bundle. And of course, in order to check this, you need to have the the action of of the this action must be defined on this LM. Now, what's the intuition of this? Well, this is the space of orbits. So you take an element in here lm and then you act with the entire group on a particular
+
+01:18:48
+element okay and um that gives you the orbit of the group in here and you mod these out that means you look only at the set of all the orbits okay but if that is then the same as the space m well at least if there's an isomorphism then we call this a principal G bundle. Now let's see where this is the case here. So I take this guy DLM. So that's a frame at every point in a manifold. And now I act with the entire group on a particular point. So I go to the manifold I say this uh three space go to
+
+01:19:30
+this point here and I put up a frame. Now what's the orbit of that frame? Well, it's any GL transformation I can perform at this point. So I get any other frame. So if I ignore this orbit, right, all that remains is the point, right? And that's precisely this isomorphism we want to have, right? So indeed um I can go from any one frame to any other frame and that's a free action. So this is definitely the case. Again you can write down write this down in many uh uh ways but it may be
+
+01:20:12
+worthwhile in order to get the idea when something is a principle bundle you have to check this first intuitively. Is this reasonable that it could be one and then you write it down. Okay. So in this case um that is that. Okay. So another check here for the free action is you must be able within an orbit. So if you say you you take the frame at a point and that's supposed to be the fiber of this bundle, you must be able to reach any point in that fiber from any other point in that fiber from
+
+01:20:45
+another frame by some action here and in fact because of free action by some unique element G acting on it. Okay, so that's the intuition and that's all the case here. So indeed uh this is a principle GLD bundle and that's very important. Okay, we'll uh so so that because this is how physicists say a basis is being transformed. Now if a basis is transformed then also the components of a vector are transformed or the components of a tensor or the components of a tensor density. Now however that we
+
+01:21:23
+can't see here yet because these vectors tensors or tensor densities will not be elements of this bundle. How would they be? There will be elements of a so-called associated bundle, a bundle that's associated with this principal bundle and there will be a left GLD action on there. We'll do that later. So don't we can't take this example further at the moment, but later on it will nicely become uh the formal setting which uh intuitively you've been told probably from the first semester in
+
+01:21:56
+physics of tensors in classical mechanics. the inertia tensor and so on. So at the beginning of this lecture course I kept emphasizing that we always study the structure preserving maps between objects and of course that remains true. Um if we first recall that if you have two bundles E down to M with some projection map pi and you got another bundle E prime down to M prime with another pi prime. Then we set a bundle map. A bundle map was a pair UF where the U goes from the total space to the the other total space
+
+01:22:42
+and the F goes from base space to base space. And we call this a bundle map. um if pi if f after pi was pi prime after u or in other words if this diagram commutes. Now we want to define uh the notion of a principle bundle map and a principal bundle certainly is a bundle uh but it has additional structure and that we got to take into account. So um I start a little lower here. So if we have a principal bundle P. So first here the left hand side P down to M and another principal bundle P down to M prime here. So let's not do this at
+
+01:23:34
+the moment. We have two principal bundles. Um then we also have the action of a group the right action of an entire group on this bundle here and on this bundle we have the right action of an entire group. Uh let's say there are two principal G bundles. So two principal G bundles meaning principal bundles with respect to the same group but otherwise they're different. For instance, this here is also the primed action because the group may act on this total space entirely differently from how it acts on
+
+01:24:15
+this total space. We however want to assume that's the same group acting. But even that needs to be generalized, but let's do it this way. And of course, it then takes you from P to P and from P prime to P prime. So a principal bundle, if you want to be very strict, shouldn't only be denoted by this because there's always this right G action on the total space. Let's not forget that. So sometimes this is suppressed in the notation but it shouldn't be. So um but that means if you now um consider a map
+
+01:24:47
+between these principal bundles um it first and foremost must be a bundle map certainly because it's a bundle but there is some more stuff to be preserved and you still want the same U. Well between P and P prime there's a U. Well, let's repeat this U. But there is now not only compatibility down here, but there's also compatibility up here. So, we want this entire diagram to commute. It's the only natural thing to do, right? Okay. Um, so we say this is a so UF is not only a bundle map, but it's
+
+01:25:28
+a principle bundle map. Well, that's different from a bundle map. It seems like a subtlety, but it isn't. It's different from a bundle map, a principal bundle map. Um, so the requirement is that this guy commute. Okay, we require it commute. Um, and then um we we have that is well the thing from down here always almost not worth mentioning f after pi is pi prime after u. That's just the bundle map aspect of it. But we also have an equivarian aspect of it. Okay. How it behaves under
+
+01:26:13
+the action of this group. But this terminology is not necessary if you just remember this needs to commute. So we can read this off here. So we have that U after the action. Now in order to write this properly we say U of a point P on which a group element G acts. So I pick a point P I act with a particular group element small G and I get another point here and then apply the U. This should be the same as applying the U to the same point P and then after that acting of course with this primed action because we're here
+
+01:26:56
+acting but with the same group element. So obviously this is supposed to be for all P in P and for all G in G. That's it. That's a principle bundle map. Now, any questions here? No, that's straightforward enough, right? So, um we have a uh an important generalization of a principal bundle map. It's in a sense the maximal generalization. So I take a principal bundle pi down to M and I equip it with a bundle action with respect to a group G. This is quick notation but you know what I
+
+01:27:53
+mean. I go back to P and now I take another principal bundle P prime down with pi prime to M prime and I go up here to P prime. All right. And I have an action pi prime, but it's a different group G prime. So really two entirely different principal bundles even a different group G can't be more general. Right now in order to um talk about a principal bundle map now you need an an extra ingredient and the extra ingredient that you have to provide alongside. So it's nothing to do with this diagram. It's a new diagram.
+
+01:28:39
+You have to have a way to relate elements in G to elements in lambda. Uh and that we could call uh row. Okay. So this a map row. Now because this is a league group and that's a le group, what would we very likely require of row? Well, that it's smooth and a league group homorphism. Okay. So would require that this be a league group homo. Okay. And so lee group homo we we recall is that you can apply a row uh to a product of a little g1 and a little g2 with a blob and the blob is the blob in
+
+01:29:24
+g and that this be the same as the row of the g1 with a blob that's now in g prime and the row of g2. So this is an additional piece of data we got to give an additional data we got to give and then uh you have a U and a F and you can ask the same question again uh when is this or how would we define this to be a principal bundle map. Um and now the requirement is that all of this commute. Um so again uh f after pi is pi prime after u bundle map aspect. And now here we can employ this we can say aha u
+
+01:30:12
+after this action. So u after this guy here acting I'm sorry acting on a point p that we take from here. This now well it's a it's a requirement uh this now be uh first u ofp you first go here and then you act with this guy but now there is another group with respect to which this is an action but you have an element from the group over here. So obviously you now invoke the row first and to make an element from the G group into an element of the G prime group so that it can act from the right. It's
+
+01:30:53
+totally obvious once you draw the diagrams everything becomes child's play. Um okay so and this is the um the important generalization. So this is then called a principal bundle map like before uh but now you take it very seriously that you can have two entirely different principal bundles. That's right. That's right. So a bundle morphism is a bundle map. That's right. Yeah. So um well morph is form and so a morphism is a a form or a structure preserving map and that's the game we're
+
+01:31:36
+playing all all along. That's right. I think we called it bundle morphism before. Yeah, that's it. Okay, good. So we have this guy. Now the question is is this generalization for generalization's sake or is there an application and there's a very important application of this generalized notion um uh in general relativity and that is in general relativity uh we would um often look at the frame bundle over the space-time manifold M. Okay. And um uh this is this guy and the group that acts on there. So that would be the
+
+01:32:22
+the P the group that well the M is the M right and the G uh is a GL D R aha but then if you have a metric uh you can actually look at S OD and very often we' look at S1A 3. So this is the Lawrence group. Okay. So we would um restrict our group to the Lawrence group and that actually is equivalent to the introduction of a metric down there because now you can say this frame and that frame only the ones that are related to each other by a Lawrence transformation uh make the orbits. Okay. But then you have to
+
+01:33:06
+restrict this to only such frames and so on. So that you can do um and then you can define a aha and the action of the Lawrence transformation on this guy. Uh well that's like formally like the one we had before then you can do the P prime and this is now not the frame bundle like we had it but it's the spin frame bundle. So it's the spin frame bundle, right? Uh and there you let the group G prime act which is SL 2C. And indeed there is a lambda a row map that takes you from uh SL 2C
+
+01:33:57
+over to S13, right? And it's a 2:1 map, right? Okay. And um we we'll come back to this. I I just mentioned at this point uh and then you have a principal bundle map between them and then you know well if I rotate my measurement apparatus which I think of classically if I perform a Lawrence transformation on it what's the corresponding spin transformation on the spinners right and that is uh well we'll only be able to to show how that works in detail once we have associated bundles but that's the idea so it's of
+
+01:34:37
+the utmost importance in general relativity in order to understand how you put spinners on a curved manifold because you cannot there is no so there is no spin representation at least there's no finite dimensional unitary and so on irreducible spin representation of GL4 you got to restrict to S so S13 so you first need the metric in order to then talk about spinners whereas in order to write down Tensor fields you don't need a metric. Tensor fields are there because the manifold is smooth. But
+
+01:35:14
+finite dimensional spinner representations first require a geometry before you can even say what the spinner is. And this is uh encoded here. And then once you transform according to to this transformation your local frame uh in in in the in the frame bundle in the spinner frame bundle uh you got to use this transformation. And uh this principal bundle map physically tells you once you do this here then you got to do the other thing over there and what the other thing is is determined by this structure. But again the action on
+
+01:35:47
+uh spinners and uh tensors we can only discuss once we have the associated bundles. Okay. So should the remarks remain mysterious um have patience. Okay. Good. So now we come to uh a little lema. Sure. Please. Can you come to Can you come to you want to know? Ah, no. The row is an extra piece of data you need. Okay. Yeah. Yeah, but the connection is only established by the requirement that you must have chosen your U and your row such that they satisfy this requirement. Okay, but there is no way to say well
+
+01:37:05
+once you have the U and you know all the other stuff what is the row that does this because there might be several different rows that do that's make the whole thing into a principal bundle map of this type. So because there may be several different ones that immediately says that you can't cannot determine the row from up there. Certainly it restricts the choices of row. You no it doesn't even restrict the choice of row because for any league group homorphism you can impose this condition. Ah but
+
+01:37:36
+you say you have already chosen the U specifically. Well yeah it may restrict the rows but there will be certainly different rows that do the same trick I guess. Okay. So it's here the idea is really you prescribe all these data and then you impose the condition and that's also the case uh in practice like in our example here uh that you already know how SL2C is is can be mapped into so SO13 and so on okay good um but again I mean in in particular circumstances it may be possible to restrict this totally
+
+01:38:12
+but in in general I don't think it is in full generality Okay. [Music] So I have a little lema. So principal bundle maps are a stronger notion than a bundle map. And um this is uh an a consequence of this stronger notion is expressed in the following um diagram P to P prime. So we consider again two principal bundles and we have them over the same base manifold M. Okay. So uh in the sense that this uh guy here is supposed to commute uh then we have a map u between these two and we have a pi
+
+01:39:22
+that goes here and we got a pi twiddle that goes there. And the claim is that um any such principle bundle map. Um uh is a an isomorphism U. Okay. through this for any such for any such principal bundle map um U is an isomorphism but one isomorphism is depends on what kind of structure this is so if they're smooth manifolds it's a diffomorphism the important thing is it's invertible right it's one one to one and subjective uh U is let me write a diffomorphism And uh I hope you note that the color
+
+01:40:30
+coding serves no mathematical purpose but it's a Christmas tree. So So now let's try to um to to prove this. Um so what do we need to show? We need to show that u first we need to show that u is um injective and then we show that u is sjective and uh then one can also investigate whether all the constructions preserve the smoothness and that will also be the case but if it's injective and subjective it's invertible and then the rest follows okay so the uh interesting part is u is injective
+
+01:41:15
+aha so now now do we do how do we do this Um well, we need to start out with assuming that we have a U of a point P1 in here and uh that that be the same as the U of another point P2 in here. And of course, in order to show that the map is injective, we got to show that from here it follows that P1 equals already P2. So how do we do this? Well, we have to take everything. Um. Um. Aha. Okay. Yeah. My Christmas tree. Um. Uhhuh. Okay. So, the Christmas tree is a bit too small. So, um, we go from here to P again and from here
+
+01:42:05
+to P prime and then there's U acting a second time. We know that. And here we have the action of a group G. And let's say here we have again another action but of the same group G. The generalization is immediate. So these are two principal bundles for the same group. Say the other thing can be can be done. Um and we know let's just recapitulate what we have. We have U of P GS must be the same as U of P and the G acts but with the primed action. That's one thing. And the other thing is that
+
+01:42:44
+um pi twiddle after u is pi. It looks like there's an f missing but you see if you have a map from m to m this means this map from m to m is the identity. We we go to the same point. This is supposed to commute. Uh so we have these two properties by assumption. And now we need to use this. Aha. How do we do this? U of P1 is U of P2. Uhhuh. So let me see what I thought about what to to do there. Uhhuh. Okay. Yeah. So what we do, we look at the pi of the U of P1 and that therefore is the same as the pi
+
+01:43:37
+of the U of the P2. But we also know that um hang on a second pile for you. Okay, I I need to take my notes. It's a little bit involved here. Okay, so um ah I could have also looked at something different. Aha. Okay, so um we look at the pi p of the at the pi of p1. Okay, we can look at this and then we invoke uh the first relation here that pi twiddle uh of u uh of pi 1 is the same thing because pi is pi twiddle after u. Um but this is because we have assumed that these two are the same is the same as the pi
+
+01:44:31
+twiddle of the u of the other point p2. uh but that of course again is the pi of the p2. So what have we learned? We have learned that if I have this if I assume that the images are the same then of the pi p1 and p2 then the p1 and the p2 they lie in the same fiber. Therefore pi 1 pi 2 um lie in the same fiber. Aha. But now because they lie in the same they belong to the same fiber that means there exists a unique element G in our group that relates the two. So I can say P1 or two is P2 for whatever action
+
+01:45:22
+we we want to take. Let's say this one the primed one prime G acts on this. And this uniqueness is due to the fact that we have a free action and that we have a principal bundle for that matter otherwise this wouldn't be the case. Okay, so this is this thing and um but then you have that U of the P1 is of course the U of the P2 and we have this action here on it. But now we refer to this property that's actually the equivariance property of the principal bundle map. This was just the
+
+01:45:58
+bundle map but now that we used but now we use this principal bundle map guy and um sorry um the prime the prime is not good. Okay let's see um if p1 is p2 p prime g okay okay we could have taken no the prime is wrong. The prime is simply wrong. There is no prime here because we're firmly P1 and P2 both lie here. The prime is just wrong. Don't need the prime here. We have this exactly. And then we get uh U of P2. And then now we have the primed action of the G. But now we know that this is
+
+01:46:38
+simply U of P1 the primed action of G. Why is that? Well, because U of P1 is U of P2. So we can replace those. And now we see UP1 U up that means the action of an element G on U of P1 doesn't change the element right and because the action is free since the action is free it follows that the G must be the identity. Yeah. But if G is the identity, we go back to this point here and we see ah this G all along was the identity. Hence P1 equals P2. That's it. Okay. And U is injective. And you see we used both the bundle map
+
+01:47:35
+property and the principal bundle map extra equivariance property. Okay, that's this guy. Now second uh u is sjective. So how did we do that? Um so we assume let p prime be an element in p prime. Okay. And now we need to find a p over here a little p such that the u of p is this p prime. Okay. So we again do this in two steps and we consider first the projection of this guy. We'll see in a second uh why. So um consider yeah that's how how this worked. So consider uh the projection pi
+
+01:48:32
+aha. No. So again, we're looking for a point P in P such that so look for look for a P in P uh such that U of P is the chosen P prime. Okay. and consider some P in P such that pi of P has the same the the P has the same base point there um as the pi prime of the P prime has. Why can I ask about the same base point? Well, because they both map into the same manifold and I can certainly find a P in in the respective in the respective fiber. So, um if you don't like this such that you don't know where that
+
+01:49:29
+exists, you I could say choose that's actually better. Choose uh P some P in the fiber over that base point. Okay. So you you I start with an arbitrary P in P prime P prime in P prime point P prime. Then I project that point down to the base. And then I look at the fiber over that. And that's different because this is the pi prime. This is a prime. This is a prime. And this is the other pi inverse. I mean this may have a different fiber structure than this one. So I project down. And then I look at that particular
+
+01:50:14
+fiber that certainly exists that certainly is not empty because we have principal G bundles and I can definitely choose some point in there. So there's no doubt that exists and it's not non- empty. So I take this point there. Um but then I find that pi prime of u of p let's see what that is. Aha. Aha. I wrote pi here. It's a pi prime of course. So pi prime of u of p is nothing but pi pi um of p. Okay. So I have this and pi of p by assumption is the same as pi prime of p prime. So uh this assumption goes into here. Uh
+
+01:51:06
+and this here is the uh the bundle map aspect, not the principal bundle map aspect. We only need the bundle map aspect at this point. So this is certainly the case. And um but therefore it again follows that this guy and this guy they are based mapped to the same base point because the pi prime maps them to the same base point. That means that the pi prime and the u of p belong to the same fiber. They belong to the same fiber. But if they belong to the same fiber that means exactly as before they exists a unique
+
+01:51:54
+group element G uh that takes one into the other. uh well it doesn't really matter which one in which one but that takes u of p by some action of say the primed by the primed action uh there is a unique g that maps this uh to the p prime to the point to the arbitrary point in the target uh I had chosen okay but now you can look at this guy here again so uh we are talking about a principal bundle map. So we have the U of P acted upon with the primed action by some group element G that is the U of
+
+01:52:38
+P where I first act on the P before I map it by the U but now of course by the unprimed action that's uh over here. And so we're done. Why are we done? Well, we started with an arbitrary P prime element in here. Okay. And we chose some element P that exists. And we know there exists a unique well at least there exists some G in G thatffects this equation U of P acting G is P prime. But that means this guy here built out of a arbitrarily chosen P and the correspondingly chosen G. This is an
+
+01:53:22
+element in P. So we should say we look for a p twiddle such that this is the case. That is what we do. We look for such a p twiddle. And this guy here, this is precisely the p twiddle we were looking for because u of p twiddle is the p prime. We're done. Okay. So it's systematic uh application of the um of the principal bundle and the bundle bundle map property and principal bundle map property here. And so you see uh for if we didn't have if we couldn't have used this principal bundle extra
+
+01:54:06
+condition beyond the pure bundle map neither injectivity nor sjectivity could have been proven. So it's really a strengthening of what a bundle map is on a principal bundle. A principal bundle map is more than a bundle map. It's a stronger notion and it makes this automatically a diffmorphism. Okay, so that's a lema. Uh the question is why is this uh interesting? And the answer is interesting because it allows you allows us an very important definition a principal G bundle. Um well, let's stick for a little to
+
+01:54:59
+this complete representation of it. Well, that's a principal G bundle. A principal G bundle is called trivial if if it is difforphic. So it's trivial if it is difforphic but not as a set not as well anyway not as a smooth manifold here the P and this but not only as a bundle but if it's diffmorphic as a principal G bundle So here we could have written in this case uh the bundle is isomeorphic. Anyway, you know how how to write this stomorphic as a princ principal G bundle to the following bundle to M
+
+01:56:17
+cartesian product G which can be made into a smooth manifold as always and you have a projection map here which is defined I call it pi sub one because it just projects out the first factor of this cartesian product. Okay, pi 1 uh down to m and um I have an action of the group here. So let's call this the the solid action. I could call it the primed action. It doesn't matter. It's a solid action of the group here uh on m cross g. And the action of this group, well maybe I write it down. So how does this
+
+01:56:56
+act? Well, you have an element uh x and you have uh a g. that's certainly an element in here and then you act with the solid action on it um with some element arbitrary element G prime. Well, I have I have several G's here and this is to be defined as uh X the X remains untouched and you act from also here from the right by GG prime and this blob is the blob in the group. It's very trivial how you act on this right and here the pi one so for completeness pi one uh eating an element of the
+
+01:57:38
+cartesian product uh just is defined to project to the first component. So that's the right bundle is defined. You can check this is a um this is a principle G bundle. It's a free right action because in the group you always have the inverse. You always know uh this is the um yeah that's the unique it's it's free. Okay fine. So you check this immediately. So you have a principal G bundle here which is the trivial bundle. And you remember at the beginning of uh this lecture on
+
+01:58:13
+principal bundles, I said that a principal G bundle very roughly is a bundle with a fiber G. Well, it is a bundle with a fiber G also very precisely, but it's certainly not a trivial bundle like this. Right here you have a manifold and you attach the group G as a fiber at every point. But that's a very trivial way to to make G a fiber, right? uh if this is a principal G bundle because of the isomorphism as a bundle uh to the bundle P down uh P mod the group G this becomes also a a G fiber bundle but this is a G fiber
+
+01:58:53
+bundle in in a trivial way okay now the question is when do you call a bundle a principal bundle a trivial bundle well if this is an isomorphism so if here. Um well, in order to bring it in, uh into the same fashion as the Christmas tree guy here, um you have a pi here and you put the pi one here. I could have also written an identity map between the two m. Okay? But I want to compare it to that. If you have a map U that goes from there to there, if there is such a principle bundle map U, if it's diffmorphic to a
+
+01:59:44
+principal G bundle, but this is actually set to much because we already have the theorem, we should say it's trivial if there exists or if you if there exists a principle Principal bundle map U. Principal bundle map U like this one because if there is such a principal bundle map it's automatically a diffmorphism. So we just need to check whether there is a principal bundle map. And again I emphasize if we had not introduced the notion of a principal bundle map, one might have been tempted
+
+02:00:32
+to say a principal G bundle is trivial if there exists a bundle map to the trivial bundle. But that's not enough. We only call it trivial if there exists a principal bundle map which is a stronger notion. Okay, principal bundle map. That's this thing. Aha. Good. Good. Um, now why are we interested in principal G in in trivial principal G bundles? Well, they're very very simple. We can think of them globally as having the group just attached as a fiber. Very simple. The question is how common is
+
+02:01:16
+that? Is this a strong condition? Is this not so strong a condition? And what does it all have to do with thing with stuff uh with stuff we did before? Um okay, we have a little theorem on that. Are there any questions so far? Yeah. always same. Um, so if you just look at the yellow part of it, well, including this map down here, this is something you would call a trivial bundle because it's made of a cartisian product. So the right side is is a trivial bundle, but you call any bundle that's
+
+02:02:02
+diffic I meanorphic as a principal bundle. Anything that's difforphic to it is essentially the same but as a principal bundle difforphic. So all the structure here just may look more complicated but in fact it's diffomorphic to this then any such bundle is called a trivial bundle. If it in after an appropriate diffomorphism on the total space that preserves all the the group actions so on if it takes this simple form. Okay, that's that's the idea. And that was the same with bundles before. We
+
+02:02:39
+said a bundle is a trivial bundle if the total space is the cartesian product of the base space with a fiber. Okay. That's right. But okay, so you can say why is this at all possible? Well, it's at all possible because before we saw or we rather defined. Okay, so let's extend this picture. So the blue one is only due to your question. Um, you have a map from P to P. No, from P to P. That's right. It's uh another map U. Well, let's call it U twiddle. There's another map U. And down
+
+02:03:24
+here to P mod the G that appears here. Mod G. Okay. Uh with the corresponding. So that's the orbits or the equivalence the set of equivalence classes the quotient space this is the quotient space map I don't know how to pi twiddle and here you have an f twiddle okay uh we said this being a principal fiber bundle that's the assumption this white guy being a principal fiber bundle was actually defined as there being now a bundle map to this bundle remember that there was a bundle mapped
+
+02:04:05
+to this bundle where this appears down here now but this because this G is acts by a free action on this guy. So on here sits the free action that we already have on there sits the free action. Okay. So it should also be blue. This should all be blue. Okay. And because this is a free action, it means that this entire P was in a sense foliated into lots of orbits. Okay. But each fiber is isomorphic. We also I think we mentioned or even proved that is isomorphic. So in our notation of a fiber bundle, this thing is a G
+
+02:04:51
+fiber bundle. So the blue guy is a G fiber bundle. Uh so this principal bundle is a G fiber bundle meaning at every point there's the same fiber. Hence it makes sense in the first place to ask this. This was now going back all the definitions. Yeah. cross cartesian product. No, not everyone. But if it is if there exists a principal bundle map U. If from the white guy there exists a a principal bundle map U to the yellow guy where this really uh this really should be yellow right and this is half white half yellow. If there
+
+02:05:50
+exists such a principal bundle map only then is it trivial and of course not every principal G bundle is trivial otherwise the definition I would rather formulate this as a lema not as a as a definition for an extra property. Okay. So um so we saw there are principal bundles that we classify as trivial bundles and the question is when is a bundle trivial and finding an a diffmorphism or finding a principal bundle map uh that can be tricky. How do you show it doesn't work or what not. So it's good to have a criterion. In this
+
+02:06:30
+case it's a sufficient and necessary criterion. We have the theorem uh a principal bundle a principal G bundle that looks like this. Is trivial if and only if There exists a smooth section sigma of the bundle. You recall that a smooth section is a map from the base space back into the total space. um for which we have that pi after sigma reproduces the identity on m. That was just what section meant and the principle is g bundle is trivial if and only if there exists a smooth section. So now be before we uh enter the proof
+
+02:07:56
+of this uh let's invoke something we know um let's look at the following example say uh m is the two sphere and the total space is the frame bundle of the two sphere because the frame bundle is a principal bundle. A GL2 principal bundle that is P down to M and so on is a GL2 principal bundle because every frame bundle is a GL dimm principal bundle as we saw before today. And now we look at the particular case of a two sphere. Okay. Now what do we know about sections of the frame bundle of the two
+
+02:09:07
+sphere? What is a section frame? A section of a frame bundle of the frame bundle would be a frame at every point. Right? So a basis of the tension space at every point. But what do we know about this? Well, there is no such thing because we don't even have an everywhere nonvanishing vector field. So there exists no everywhere non-vanishing smooth vector field. You remember you can't comb a sphere, a non-vanishing smooth. But if there is not even one non-vanishing smooth vector field, much less are there two linearly
+
+02:10:03
+independent separately nonvanishing smooth vector fields. Well, if it Yeah. Well, so that means there is no section here. There exists. So from this it follows there exists no smooth section sigma that would assign to every point uh of the two sphere a point in the frame bundle. So what do we know about the triviality of the LS2 bundle? Well, it isn't trivial if the theorem applies because the theorem says a principal G bundle is trivial if and only if there exists a smooth section. Okay, that's it. Okay, so from this
+
+02:10:57
+again we can see that there are bundles that are non-trivial. There are certainly bundles principal G bundles that are trivial namely the yellow guy the e trivially is trivial. Okay. So uh now we would like to understand this uh theorem a little better by proving it. Um so if we first go in this direction that means we know the bundle is trivial right. So uh p g pi m we know it's trivial trivial assume or suppose we have a trivial bundle that means we do have a bundle map into m cross g that
+
+02:11:50
+works like this okay uh it doesn't really matter in which direction I go but uh let's so say I go in this direction. Suppose we have this. If it's trivial, that means there exists such a U which is a principal bundle map. That's the assumption. Okay. But then we can construct then we construct a section sigma from m to p by virtue of letting seg sigma of x is defined as well I go back here and I take the point x which the section takes and I simply substitute the identity of the group g over there. Well, if I have
+
+02:12:47
+such a map, I can always take the identity and push it here and that's it. And this guy is a section because if you now apply the sigma here by virtue of this u being a principal bundle map, it will give you the identity on M. And in here goes that U is a principal bundle map, right? And that's it. That's this direction of the proof. Now the opposite of direction of the proof is uh not that trivial. So now we suppose that um a section sigma from m to pi after sigma is it m is given.
+
+02:13:41
+Well, so assume we have such a section. Uh then we need to work a little harder. So um so then it follows that for any point P that I choose in the bundle, let me draw a little picture. I mean it's uh pictures are always misleading but maybe so the idea is you have uh the bundle the whole P this is the base manifold M locally it looks like this. So let's say we have a locally trivial bundle that's like this. And then a section would assign to every point in the manifold a point in the fiber
+
+02:14:20
+uh over that base point which is ensured by this section condition of course. Okay. So let's assume that this here is defined by the section sigma locally. It's just just to uh to have an idea of this. But now I pick in a fiber. So the sigma be given. And now I say I go to a certain fiber. Well no I don't go to a certain fiber. I do go to any point in the bundle but that will necessarily lie in some fiber. Okay. Um and then I have this point P and I can compare this point P in the fiber. I can compare it
+
+02:15:00
+with uh the point I get by first projecting this point P down. So I take this point little P in the fiber. I project it down by pi to here and then I can look at what the point is that my sigma makes of it. So down here is pi of p and this is this here is sigma of pi of p. this point here the sigma of pi of p. I can take this point and I have another point p in the fiber. They lie in the same fiber. But if they lie in the same fiber that means there exists a unique call it g twiddle in the group such that the g twiddle
+
+02:15:46
+acting from the right on here gets you back to the point p. Okay. So now if you talk about this G twiddle, the question is what determines the G twiddle? Well, certainly it will depend on how you chose which section you have because if you have another section but the same point here uh you you need to have another uh group element bridging the gap right by this action. So this G depends on the sigma but it also depends on the point where you want to go. So it's maybe useful to call this guy shai
+
+02:16:27
+dependent on sigma and dependent on p. So there is an element in the group which we call shai because it depends on sigma and depends on p what element that is but such an element exists in the group such that this uh equation holds true. It's because of the free action and the uniqueness is because of the free action. Okay. So um that is we have a map shai that depends on the given sigma and takes you from uh p from any point in p into the group because if sigma is fixed all you can choose is the point p and the result is
+
+02:17:22
+an element in the group. So shy sigma is such a map. Okay fine. Um so we have this. So now we observe that for any g in the group we can look at this guy and act on it. So we take this equation and we act on it from the right. So we take sigma of pi of p a right action shy sigma of p and for good measure we act again on the right with an arbitrary group element we can do this and although it can't be read in any other way for our comfort let's put brackets here and well that's the left hand side well then obviously
+
+02:18:10
+this must be true because the bracket is p so that is p acted upon from the by a g. So now however we know that this is a right action and because this is a right action we know that this left hand side is sigma of pi of p act upon by this group element globbed with this group element. this simply by virtue of uh the uh triangle here being a right action. Okay. And um and now this right hand side however the p the g acts on there uh I can of course rewrite this as sigma of pi. Um hang on a second.
+
+02:19:07
+Uh sigma of pi. No that's not true. What what did I do here? Hang on. So this is certainly true. Aha. So this is this. But because this is this I can also Okay. So, let me write down uh this left hand side in yet another. But hang on. Can that be the the thing I want to do? I'm sorry. I want to get the G out. So what I want to show what I want to show is that um x sigma applied after I act on the p is the same as shy sigma p and then b globed with the g. Okay. So I have this now certainly from up here
+
+02:20:38
+since the action is free. How did I do I get this guy? So I want to rewrite this right hand side. Now this P is this guy. So let me just repeat this but then modify it of P and on it acts a shy sigma of P and on this acts a G. That's just a rewriting of this side. Okay. Uh we did this before and it goes to this. But this guy can also be written differently. What happens if I have a P and I act on the P by a G? Well, nothing happens because I remain in the same fiber. That means the pi doesn't change a thing.
+
+02:21:34
+Okay, so that's uh certainly one thing that's true. And okay, so you want to insert here a right action by the G. That means there's a right action by the G here and there's a right action by the G here. That's what you're saying. Yeah. And ah yeah, of course. And then of the right on the right as well. Yeah, that's right. That's right. Exactly. And that is what I want here. So I get exactly this. And then I get the P and the action of the G on it. And that is of course this guy. Yeah,
+
+02:22:11
+that's right. Thank you. Okay. Okay. So sometimes in front of the blackboard. Okay. Right. So we we use this, we use that. Okay. Um but now uh we have this but this guy here can be again sigma of p of pi because we remain in the same fiber. So we stay at the same base point. So that means in total we know that this guy here equals because we go via this equal sign equals this guy here. Okay. Agree? Okay. So so let me write down again. So this means that sigma of pi of p acted upon by x sigma of p blob g
+
+02:23:10
+is the same as sigma of pi of p acted upon by x by shy sigma p acted upon from the right by g. Now this here is just a point in p in capital p. This is the same point and we have an action of a group element on it and the action of another group element on it and it's it acts on the same point and the result is the same. Now because the action is free this can only mean that the two group elements are the same. So because this action is free. Yeah, thank you. That was yeah I didn't see just use the definition again. That
+
+02:23:56
+means that the group element shy sigma of P blob G ought to be shy sigma of P action of G on the right. And this is what I wanted to show. Okay. Good. Good. So this is something something we needed. Okay. Now once we have that so now uh we're in a position starting with this section we're in a position to define now we can define we can uh start from our uh principle bundle and we can define a map U that depends on the given section sigma because in this uh direction the section is given
+
+02:25:05
+uh and we can construct a U to over here right uh such that the U is a bundle map because once we have that we have established that the whole thing is trivial Um um and we define the U sigma from P to MG M cross G as the map that takes a point P to well where can it take it? it can take it to the projection of the point P and we have a map shai that takes us from P to the group. Well, we'll simply invoke the just constructed map with that property we'll need in a second here and this will certainly be an
+
+02:25:59
+element of M cartisian product G. So we defined a map from this set to this set. uh the only question is is this a bundle map and if it's a bundle map is it a principal bundle map. Okay. Okay. So we constructed such a thing still to show U sigma is a principle bundle map because if it is according to our little lema we established already the diffomorphism we established this is a trivial bundle. Okay. So is this a principal bundle map? So let's first check whether it's a bundle map.
+
+02:26:45
+A bundle map uh we need to check that uh the pi one here. So we need to check that pi one after this u sigma is the same effect as the pi. You remember down here the stuff that's the bundle map business. Okay. But this is obvious because the pi 1 I first apply the sigma and then the pi 1 it projects out just this part. But that's of course the action of the pi. It's trivial that's uh like this. [Applause] And in order to show that it's a principal bundle map indeed we need to consider what happens if our
+
+02:27:42
+U sigma acts on a P and how that relates to the action with the G because we know if it's a principal bundle map uh then that must commute in a sense you know we must be able to pull the G out here. Uh and so we have another action here. I think we called it the solid action. The solid action of the same group M cross G. And what we need to prove at the end of the day is that all of this is um U sigma U sigma of P and then the solid action of G on it. Right? This is then the compatibility up here because u sigma is here. This is
+
+02:28:28
+the bundle map business. This is the uh the principal bundle map business. Okay. Um so we have this and so that means we simply calculate this and so what is this? Well, by definition, u sigma of p acted upon by g um is um pi of p acted upon by g comm, x sigma of p acted upon by g. This equals here we stay in the same fiber because we have a free action and principal bundle. D this is a pi of p. And now you see why we had to show that if you act first on the P and then you employ the shy sigma that
+
+02:29:16
+you can actually also first employ the shy sigma and then blob this with the G. This is why I had to show this before. Um that is exactly what happens here. So you have a shy sigma of P and it's blobbed with the G. But if you remember correctly this blobbing here where of course the we're in the in this uh bundle there the solid action works and the solid action we acted on elements in here from the right by just blobbing uh the uh second element of this uh cartisian product with the G. Right?
+
+02:29:57
+That was the definition we did before in this trivial bundle. And so this is pi of p comma shai sigma of p and coming from the right with the solid action. Aha. But this is precisely what we wanted to show because pi of p shy sigma of p is precisely u sigma of p. So indeed this U that we constructed from this shy sigma which in turn was constructed from the action and has this property which is easily proven once you look at it carefully. Thank you again for the for the help. This makes this U sigma a bundle map but
+
+02:30:46
+even a principal bundle map. Hence, we're done because once you establish that a principal bundle has a bundle map into the trivial bundle, then this principal bundle is trivial. So having a section means the bundle is trivial and the other way around if the bundle is trivial, you can construct a section. Okay. So we now confirmed that what we did before that we used the uh that we used our theorem in establishing whether the principle GL2 bundle provided by the frame bundle of S2 where this is trivial. No, it's not trivial
+
+02:31:37
+because there is no section of that principal bundle and in previous lectures we uh related this uh to there being no uh basis for vector fields in the module and the module of uh the vector fields the C infinity M module that constitutes the vector fields uh not having a basis meaning it's not a free module it's just a projective module you remember that that was the s swan theorem. Okay, so all of these things belong together and this is a very this theorem is a very important result.
+
+02:32:18
+Okay, questions. Okay. So then see you after Christmas uh and we'll continue with associated bundles and then you'll finally understand why we are so interested in principal bundles because they have associated bundles and in the associated bundles live the objects we like so much spinners tensors tensor densities and all of them are the the principal GL4 bundle for instance thrones over them or the reduced SO13 bundle thrones over these other bundles. And that is if in physics we say we rotate something, we do an SO3
+
+02:33:00
+transformation, how do all the different objects which are all sections of different associated bundles transform under the same transformation uh which we understand in terms of the principal bundle. In this sense, the principal bundle really thrones over all of the others. If you understand the principal bundle, you understand all the associated bundles. And that's the idea. Okay. See you after Christmas. [Music]
+
