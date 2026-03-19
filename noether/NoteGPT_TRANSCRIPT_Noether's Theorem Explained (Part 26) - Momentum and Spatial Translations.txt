@@ -1,0 +1,96 @@
+00:00:00
+okay so in this video I'm going to talk specifically about space translations and we're gonna find that in systems that have a spatial translational symmetry the total linear momentum is conserved so let's find let's just look at a system it's like that so let's say we have two particles on particle one and particle two just for example and particle one has a mass M one and particle two has a mass M two and particle one has coordinates x-one y-one and z-one and particle two has
+
+00:00:40
+coordinates x-two y-two and z-two now the kinetic energy of these combined particles are one-half m1 times x1 dot squared plus y1 dot squared plus z1 dot squared plus one-half m2 x2 dot squared plus y2 dot squared plus z2 dot squared now we could also have some potential energy between these particles right which we'll call V and in all the oil and basically the real-life examples we'd be interested in studying right now V right would only depend on the distance between our two particles right
+
+00:01:42
+like for example in gravity or with the Coulomb force or something like that it only depends on the distance between the two particles so we're not gonna say exactly what V is but we're going to say that it's only a function of the distance between the two particles and what's that well it's X 1 minus X 2 squared plus y 1 minus y 2 squared plus Z 1 minus Z 2 squared all of that Square rooted okay now our Lagrangian is just the kinetic energy minus the potential energy so our Lagrangian L is equal to
+
+00:02:28
+the kinetic energy minus the potential energy okay now let's say we wanted to take our whole system right let's take our whole system and move it around somewhere else in space right this would be the same as adding use a different color now a constant vector a to the position of both of our particles right and a has components let's say a X a Y and whoops and a Z all right so x1 Prime and X 1 prime is just our coordinate X after you translated it is equal to x1 plus a sub X and then Y 1 prime is equal
+
+00:03:24
+to Y 1 plus a sub Y and then Z 1 prime is equal to Z 1 plus a sub Z now we do the exact same thing for X 2 Prime and all the other in Y 2 Prime and Z 2 Prime so X 2 prime is equal to X 2 plus a sub X Y 2 prime is equal to Y 2 plus a sub y and z 2 prime is equal to Z 2 plus a sub Z all right now the next thing we want to do is we want to show that L equals L prime now L is our Lagrangian when we use our regular coordinates x1 y1 z1 x2 y2 and z2 and L prime is when we instead use our primed coordinates x1 prime Y
+
+00:04:23
+prime Z 1 prime X 2 prime Y prime Z 2 Prime and if L one and sorry and if L equals L Prime then as we've discussed we have a spatial translational symmetry all right whoops so just get rid of that all right so this is pretty easy to see this is because as you could see for example x1 prime dot is equal to x1 dot and that's just because a sub X is a constant it is a constant vector it's not changing in time whereas x1 and x1 prime are changing in time but because a sub X and also a supplying a sub Z aren't changing
+
+00:05:19
+in time then we could say this for anything so you know Y sub 1 prime dot is equal to Y sub 1 dot and so on so this whole first half of our Lagrangian the kinetic energy term this doesn't change once we change our coordinates to our primed coordinates so the kinetic energy doesn't change now does the potential energy change well no because for example x1 minus x2 right we would then have to put it instead X 1 prime minus x2 prime but that's just equal to X 1 plus a sub X minus x2 minus a sub X
+
+00:06:10
+and as you could see our a sub X's cancel out and this is just equal to x1 minus x2 so the different the distance between our two points doesn't change right the distance between our two points doesn't change and so this whole second part of the Lagrangian doesn't change either so L is equal to L prime as we suspect it all right that was kind of it took a long time but I hope no one has any confusions about this part all right for the rest of this video we are now only going to consider
+
+00:06:52
+the one-dimensional case instead of the three-dimensional case like I was just talking about just because the one-dimensional case has everything we want to do but it doesn't take as long to write out so we have two particles particle one which is that position X sub 1 and particle 2 which is at position except to our lagrangian is now equal to 1/2 times m1 x1 dot squared plus one-half m2 x2 dot squared minus V which depends only on X 1 minus X 2 all right all right so what we want to show is that the total momentum of these two
+
+00:07:47
+particles combined which is m1 times X 1 dot plus m2 times X 2 dot is conserved along paths which obey the equations of motion so let's say that x1 bar of T and x2 bar of T are our paths which satisfy the equations of motion of our system and the bar is just notation that means it's the true path so in order to show that momentum is conserved we're gonna do a trick and I don't even know if it's really even fair to call it a trick because it's really the fundamental trick to understanding no thirst theorem
+
+00:08:38
+and it's gonna take a little bit of time to like fully explain the trick but let's start by saying like let's start on explaining the trick so we're going to consider a tiny variation of both of these paths so x1 bar of T is now going to become x1 bar of T plus epsilon of T and x2 bar of T is now going to be x2 bar of T plus epsilon of T and epsilon of T is some you know function of T function of T that we're thinking of as a little tiny function just a little tiny variation so
+
+00:09:33
+you might be thinking oh well this is just like the oil lagrange it's just like the proof of the Euler Lagrange equation but it's not exactly like that because in the Euler Lagrange equation we had two epsilon epsilon sub 1 and epsilon sub 2 we were considering all little variations of these two pads here we're only considering we're not considering all little variations we're only considering a specific little variation namely the one were epsilon well namely the one where epsilon sub
+
+00:10:10
+one of t is equal to epsilon whoops sub two of T right so in the order lagrangian we have no such equality but here our trick is that we're gonna consider this specific variation and what is this variation exactly well it's sort of like varying x1 and x2 together as a little translation so in other words we're adding a little time-dependent translation that's wiggling X 1 bar and X 2 bar you know back and forth like you might consider it to look like T you might consider it to look just like some
+
+00:11:08
+translation that's like wiggling back and forth in time alright now I want to define my action s and I want s to depend on what path X of T I'm considering and by X of T I'm using X of T to sort of refer to x1 of T and x2 of T so x1 of T is the coordinate of our first particle and x2 of T is the coordinate of our second particle and I'm sort of lumping it together into just X of T so let me just let me just move this to the side yeah okay so s of X of T right equals the integral between
+
+00:12:17
+two times T 1 and T 2 of L of X of T and X dot of T now DT now what I want to consider is s of X bar of T plus epsilon of T right we're now well that by that I just mean this path right here right the one where I'm adding epsilon of T to both coordinates so as we you know discuss the Euler Lagrange equation video this can be written as just the action the x-bar of tea path so s sub X bar of T plus Delta s where Delta s is to the first-order and our tiny variation epsilon plus ooh kind of running out of
+
+00:13:48
+space plus order epsilon squared terms so order epsilon squared terms and in order for so if X bar of T is stationary which is exactly what it has to be to satisfy our equations of motion then Delta s equals zero so Delta s has to equal zero for any tiny variation from our true path X bar that includes this tiny variation that we have here which is a tiny time-dependent translation so this so this condition right here is what we are now going to expand out in order to see in order to see that our
+
+00:14:56
+momentum is conserved all right so now let's just write that same exact thing again so s of X bar of T plus epsilon of T equals s of just X bar of T X bar of T plus Delta s plus epsilon squared and higher terms so I'm gonna stop writing like the of t's here so I'm just going to write x-bar and epsilon and not like write the parentheses T just because it gets kind of tiring so okay let's now write out exactly what this action is so it's equal to the integral from t1 to t2 of
+
+00:16:01
+one-half m1 times x1 bar dot remember this is a function of T plus epsilon dot remember epsilon is also a function of T I'm just not writing up TN y squared plus one-half m2 x2 bar dot plus epsilon dot squared minus V of X 1 bar plus epsilon minus X 2 bar minus epsilon and then all of that times DT all right so first thing to notice is that these two epsilon right here cancel out because we have plus epsilon a minus Epsilon now the next thing we want to do is to expand out the kinetic energy terms so
+
+00:17:22
+the integrals from t1 to t2 of one-half m1 and now we have x1 bar dot squared and then we have plus 2 x1 bar dot times epsilon dot plus epsilon dot squared plus one-half m2 x2 bar dot squared + 2 x2 bar dot times epsilon dot plus epsilon dot squared and then once again - V of X 1 bar minus X 2 bar and then all of that times DT now these epsilon dot squared terms are in our order of epsilon squared terms so whoops that wasn't I don't know why that happened there we go so we don't have to keep them so next line so I'm
+
+00:19:13
+going to rearrange the previous line to be the integral from t1 to t2 of one-half m1 times x1 bar dot squared plus one-half m2 times x2 bar dot squared minus V of X 1 bar minus X 2 bar oops so whoa all right I see why I see why that's happening so that was just this term this term and this term right I just wrote them out front first all of that DT and then I'm running out of space I'm going over the next line plus the integral from t1 to t2 of M 1 times x1 bar dot times epsilon dot plus M 2 X X X 2 bar dot times
+
+00:21:00
+epsilon dot all of that times DT so those were just these terms this term in this term and now I'm also going to add on plus o of epsilon squared and that was just this term and this term which don't really care about so we can see that this right here that this right here is equal to this and clearly this is equal to this so therefore this thing right here is equal to Delta s all right now here comes everybody's favorite part of the video the part where I clear everything away an extremely satisfying part of the
+
+00:22:11
+video okay so put this up here alright so we want to say that zero equals Delta S which is equal to this thing and I should say that this is only true if we have the boundary conditions that epsilon of T 1 equals epsilon of T 2 equals zero right that's really the the condition that we need in order for Delta s to be equal to zero if you were if you just think about the proof of the euler branch equation our true path only has Delta s equal to zero if we have these boundary conditions okay so now
+
+00:23:04
+that we have our Delta s and we know it's zero we want to change it up a bit how it looks and we're gonna do that by integrating by parts so if you can't remember how to integrate by parts well first of all you should but it's really easy with functions like this because the first term where we don't have it inside the integral reevaluate we just sort of cover up these derivatives and then the second term it picks up a negative sign and we sort of transfer a derivative from one term onto the other
+
+00:23:37
+term so by the end of this video series you're probably going to be really good at integrating by parts all right so let's integrate by parts here so the top expression is now equal to M 1 times X 1 bar dot times epsilon plus M 2 times X times X 2 bar dot times epsilon evaluated at T 1 and T 2 that was the first term minus the integral from t1 to t2 of I'm going to write it outside here epsilon took the epsilon outside times M 1 times X 1 bar double dot plus oh no the phone is ringing ahem - I hope well
+
+00:24:47
+it just it's probably like a scam call x but yeah it sounded pretty fake X 2 bar double dot all times DT so notice that this first term right here has these two epsilon Zin it right and we're evaluating it at E 1 and T 2 but those two epsilon R equal to 0 at T 1 and T 2 and therefore this whole term is just 0 minus 0 now for the second term we can see that this whole integral is equal to 0 and actually I'm going to just put that right there that's so we can look at it right in the center all right
+
+00:25:42
+0 equals this integral now notice that this integral is 0 for any epsilon of T you know assuming that you know epsilon of T 1 equals epsilon T 2 is 0 but it's true for any epsilon of T therefore this thing right here in the brackets has to be equal to 0 because otherwise the whole integral wouldn't be equal to 0 so therefore we have shown so therefore 0 equals M 1 times X 1 bar double dot plus M 2 times X 2 bar double dot and this is just equal to DDT of m1 x1 bar dot plus m2 x2 bar dot
+
+00:26:49
+which is just equal to the time derivative of our total momentum P so whoops so we have just shown that the total linear momentum of both of our particles is conserved because it doesn't cause it doesn't change in time all right so you might be thinking now like whoa you know that's pretty cool we just proved that momentum is conserved but you might be kind of wondering now like what like actually like I'm so little bit like mystified by like why this all worked in stuff and it's gonna
+
+00:27:30
+become clearer as the videos go on like what like all the philosophy of this is but it seems a lot like the proof of the Euler Lagrange equation right and actually let's clear this and let's make a little comparison so here in my first column I'm gonna have proof of the Euler Lagrange equation and in my second column I'm gonna have the proof of D DT of our momentum is equal to zero right so the proof of the Euler Lagrange equation we considered so considered all little variations epsilon sub I of T
+
+00:28:30
+right those are all the little variations but here we only considered all little space translations right actually I should say time dependent space translations where in the notation we had previously epsilon of T was equal to epsilon sub 1 of T was equal to epsilon sub 2 of T so in for the oil LeBrons equation once we did this let me change colors once we did this we got the equations of motion for a stationary path right so we set you know Delta of s equal to zero and then we got our equations of motion but here we got a
+
+00:30:03
+conservation law conservation law DDT of the momentum was equal to zero on stationary paths right so on stationary paths stationary paths so here Delta of s equal to zero gave us DDT of P equal to zero so because we only considered a subset of tiny variations right and not all the possible tiny variations there were instead of getting our full equations of motion we got something a little bit weaker but also something that is a little bit more insightful which is that we got our conservation law right so that's sort of
+
+00:30:59
+the that's sort of like how our proof that momentum is conserved is a lot like the Euler Lagrangian Asians we only consider tiny spatial symmetry tiny time-dependent spatial translation variations instead of considering all the little variations and instead of getting the equations of motion once we set our path with stationary we instead got a conservation law so in the next video we're gonna do the same exact thing but four rotations and instead of momentum being conserved we're gonna find that angular momentum
+
+00:31:35
+is conserved you might be thinking like oh well I don't want to watch the same video again but we're also going to show something else interesting which is that what if your system isn't symmetric under rotations then we're gonna find that the angular momentum actually does change in time and the amount that it changes in time is given exactly by the torque so that will be pretty interesting
+

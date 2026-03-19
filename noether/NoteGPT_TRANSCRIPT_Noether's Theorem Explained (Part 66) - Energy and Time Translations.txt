@@ -1,0 +1,90 @@
+00:00:00
+oh the last symmetry I would like to talk about is time translational symmetry and it's a little bit different than the other symmetries I've talked about so far so that's why I'm doing it last so intuitively for a system if we say that a system has a time translational symmetry we mean that if you were to conduct some experiment today it would have the same outcome as if you were to conduct the experiment tomorrow and we will find at the conserved quantity associated with time translational symmetry is energy so I
+
+00:00:38
+want to keep things completely general for this video so I'm going to be writing my Lagrangian as just a function L of Q sub I a Q sub I and Q sub I dot where I is an integer that goes from 1 to N and Q sub I is all of our configuration variables for our system so a time translational time translation would send any path q sub I of T to Q sub i prime of T which equals Q sub I of T plus Epsilon and for this video like the other videos we just have to consider infinitesimal time translations so epsilon should be an infinitesimal
+
+00:01:40
+tiny number and we will only care about quantities which are to the first order in this epsilon therefore tailor expanding this expression we get that it's equal to Q sub I of T plus epsilon times Q sub I dot of T where the dot is the time derivative therefore just differentiating this expression right here we find that so so if epsilon is constant is a constant tiny number then we have the Q sub I dot of T is sent to Q sub I dot prime dot of T which is just equal to Q sub I dot of T plus epsilon
+
+00:02:57
+times Q sub I double dot of T and this expression right here just comes from differentiating this expression right here and crucially we use the fact that epsilon is constant which in a moment it won't be because we're going to use our trick where we make epsilon a varying function of time and if you're not familiar with this trick I've talked about this trick extensively throughout all the previous videos so under a tiny time translation Lagrangian L is sent to L prime which is just equal to the
+
+00:03:42
+Lagrangian evaluated at Q sub I plus epsilon times Q sub I dot and Q sub I dot plus epsilon times Q sub I double dot we can then Taylor expand L because epsilon is tiny and this is equal to L evaluated at Q sub I and Q sub I dot plus the sum from I equals one to n of epsilon times Q sub I dot partial L over partial Q sub I plus epsilon times Q sub I double dot partial L over partial Q sub I dot okay so what did I just write so all this is is a first-order Taylor expansion in multiple variables so for
+
+00:05:21
+example if you just have some function f of X plus Delta X and y plus Delta Y where a delta X and Delta Y are very small then the first order Taylor expansion here is just going to be f of X comma y plus Delta X partial F over partial X plus Delta Y partial F over partial Y and this is really you can think of it as just two separate first order Taylor expansions one in the first variable X and one in the second variable Y here we have two n so 2 n variables and this little thing right here is the same thing as Delta X now
+
+00:06:20
+you might be saying well epsilon is small but Q sub I dot might not be small but the point is that epsilon that is that because epsilon is small it makes this whole thing small so because this is the Q sub I input to l this thing right here just has this tiny number out front times partial over partial Q sub I and it's the same exact thing right here so now that we've understood what I've just wrote I can finally write that this whole thing is just equal to L plus epsilon times L so this whole thing
+
+00:07:19
+right here is really just epsilon times L dot and sure without saying that this thing right here is just L so once again you might be saying whoa wait a second how do you know that well this is just the chain rule in multivariable calculus so for example DDT of f of X of T and Y of T is just equal to X dot partial F over partial X plus y dot partial F over partial Y so the chain rule so this is just the chain rule in multivariable calculus and that's literally all that this is the important thing to remember
+
+00:08:19
+is that even though we usually don't write it L is really a function of T so Q sub I and Q sub I dot both depend on T just like here f does so when we differentiate L with respect to T which is just L dot right here we have to differentiate Q sub I right here and we to differentiate kusa by dot so that's why we have a Q sub I'd dot here and acusa by double dot here it's just the same thing as X dot and Y dot so the reason I went through all this and the thing that I wanted to point out is that
+
+00:09:15
+L actually does change under a tiny time translation and the term it that it changes by is a total time derivative L dot the reason why I spent so long talking about total derivatives in my last video is because time translation is a transformation that changes a Lagrangian by a total time derivative and as I argued in the last video even though L isn't invariant under a time translation the fact that it changes by a total derivative still means that it is quote-unquote symmetry anyway because
+
+00:10:00
+if the Lagrangian changes by a total time derivative under the transformation then it will take a solution to the equations of motion to another solution to the equations of motion all right now that we have said all that we are now ready to perform the trick the one which even which we have been talking about extensively throughout all of these videos so our trick which we use to extract the Associated conserved quantity from symmetry involves making our constant tiny number epsilon into a time dependent tiny number epsilon of T
+
+00:10:50
+so now Q sub I of T is sent to Q sub i prime of T which is equal to Q sub I of T Epsilon of T and this is sort of a pretty weird and heady transformation so what is it kind of like it's like um if Q sub I is you know maybe a ball traveling along a path then Q sub I plus epsilon would be like the ball traveling along the path and like backtracking a bit and like wiggling its way forward like epsilon of T is tiny and time dependent so it's sort of like taking miniscule steps forward and steps back
+
+00:11:46
+in time anyway we don't really have to picture it all you have to be able to do is do the math and there's nothing stopping us here from doing a first order Taylor approximation so this is about so this to the first order this is equal to Q sub I of T plus epsilon of T times Q sub I dot of T now what is Q sub I dot sent to under this transformation well it's inta q sub i prime dot and in order to figure out what this is we have we have to differentiate this above equation and the thing is that now
+
+00:12:41
+unlike before epsilon is time dependent so we're going to get an extra term that wasn't there before because of loan as time dependent so this is about equal to Q sub I dot of T plus just as before Epsilon of T times Q sub I double dot of T plus and this is the new term right here epsilon dot of T times Q sub I dot of T so we have to time-dependent things multiplying each other here we have to do the product rule which means we just differentiate this first and the second time we differentiate that which is what
+
+00:13:33
+we've done right here okay now let's clear this let's bring this up here all right now L Lagrangian is sent to L prime which is equal to L of Q sub I plus epsilon times Q sub I dot and Q sub I dot plus epsilon times Q sub I double dot plus epsilon dot times Q sub I dot and then performing a first order Taylor approximation this is equal to L plus the sum from I equals 1 to N of epsilon times Q sub I dot partial L over partial Q sub I plus this is in parentheses here epsilon times Q sub I
+
+00:15:14
+double dot plus epsilon dot Q sub I dot times partial L over partial Q sub I dot and this is basically the same thing that we wrote a few minutes ago the only difference is this term right here which comes from this term right here which comes from this term right here because this is almost the exact same thing wrote before we can just write that this is equal to L plus epsilon times L dot plus the sum from I equals 1 to N of epsilon dot times Q sub I dot times partial L over partial Q sub I dot and
+
+00:16:30
+that's just this term right here where you know as I said we use the fact that we already know that this thing right here is just equal to epsilon times L dot let me now rearrange the whole screen a bit let's bring this here and let's delete this and let's delete that little thing right there and this thing right here and then bring the loop and then bring this up here and for aesthetics actually yeah I don't move this down a bit too so now we see how L changes when we do a tiny time-dependent
+
+00:17:32
+time translation actually what's this this shouldn't be there great all right we are now ready to execute the next part of our trick where we note that Delta s the change in the action equals zero on any solution to the equations of motion when epsilon of T 1 equals epsilon of T 2 equals zero so we write zero equals Delta S which is equal to the integral from t1 to t2 of L prime minus L DT and this is equal to the integral from t1 to t2 of epsilon times L dot plus the sum from I equals 1 to N
+
+00:19:13
+of epsilon dot Q sub I dot partial L over partial Q sub I dot all times DT now the next thing we're going to do is we're going to integrate this term right here by parts so we're going to take a time derivative from Epsilon and then transfer it over or transfer it over to this whole thing right here and I'm not going to go through all the steps of integrating it by part I'm just integrating it by part so I'm just going to write the answer so this is equal to the integral from t1 to t2 of epsilon
+
+00:20:09
+times and then in parentheses L dot minus and this minus comes from the integration by parts the sum from I equals 1 to N of D DT and then everything that goes in the D DT is Q sub I dot partial L over partial Q sub I dot and close parentheses and then D T now notice that L dot is really just DDT of L and we also have this DDT right here so we can clean this up by writing that this is equal to the integral from t1 to t2 of epsilon times D DT and then all in parentheses we have L minus the sum from I equals 1 to N of Q sub I dot
+
+00:21:36
+partial L over partial Q sub I dot and then times D T all right I am now going to clean up the screen a bit just get rid of some of this [Music] get rid of that get rid of that get rid of that and that and then bring all of this up here now let's look again at the thing we had to note for a trick notice that we use that epsilon at t1 equals epsilon at t2 equals 0 when we integrated by parts and we didn't get any so called boundary term you know just because these two things are equal to 0 so we've already used that part of
+
+00:22:43
+the trick but then we have to remember that this thing is zero on any solution to the equations of motion for any possible epsilon remember that epsilon is time dependent and we can make it whatever we want as long as it's zero at t1 and t2 and that means that this whole thing right here has to always be zero for any time so this whole thing in parentheses right here let's call it negative E and it's negative just well it's the same for whether it was positive or negative but for
+
+00:23:29
+conventional purposes we should call it negative as you see why in a second and you can see that we have derived that DDT of e equals zero where e equals the sum from I equals 1 to N of Q sub I dot partial L over partial Q sub I dot minus L and what we have really shown is that energy is conserved and I called it E because e is for energy and this is another way to write what we would usually call energy now you might be saying well wait a second I'm I have never seen this expression in my entire
+
+00:24:25
+life and I don't believe you when you say that this is energy so now I have to convince you that this really is energy so for simplicity let's just consider the Lagrangian for a particle moving in one dimension in some sort of external potential so Lagrangian for this is just given by one-half M X dot squared minus V of X now we have that partial L over partial X dot is just equal to M times X dot right we just differentiate this thing respect to X dot then we find that X dot times partial L over partial X dot
+
+00:25:18
+is equal to M times X dot squared so then we see that e is equal to M times X dot squared minus L and this is just equal to one-half M X dot squared plus V of X so the lagrangian remember is the kinetic energy minus the potential energy but here we see that the total energy E is equal to the kinetic energy plus the potential energy which is just as we expected so yes this really is energy and if you cope with some other system you could check that this expression I've written for the energy
+
+00:26:17
+here really does match the energy for that system that you might have somehow ascertained otherwise so before wrapping up I just want to address one final question which is what do we really mean when we say time symmetric right so in the very beginning of the video I said I was writing a completely general L which is a function of Q sub I and Q sub I dot right and Q sub I is a function of T and so is Q sub I dot so this whole thing is a function of T but the thing is that L doesn't depend on T explicitly it only
+
+00:27:18
+depends on T to the extent that Q sub I and Q sub I dot depend on T and if you think about it we could actually in general make a Lagrangian that does actually explicitly depend on T and we would write it like so so for example such Lagrangian could be equal to maybe [Music] this alright so here I've written the Lagrangian for a particle moving in one dimension and some external potential background and the thing is that the potential energy not only depends on where the particle is but at what time
+
+00:28:09
+the particle is there so in this case we would see that partial L over partial T wouldn't be zero it would actually be equal to negative partial V over partial T and during our you know derivation of the conservation of energy we at one point use the chain rule and multivariable calculus to calculate what this is right here but if L depended on T explicitly then we would not only have what we wrote before but we would also have a new term partial L over partial T so in general if L does depend on time
+
+00:29:04
+explicitly like so then we actually won't have that energy is conserved right we actually will have the energy won't be conserved and the extent to which it won't be conserved will be given exactly by partial L over partial T so that's really what we mean when we say that a Lagrangian is time symmetric we mean that doesn't depend on T explicitly and if L Lagrangian does depend on T explicitly then energy won't be concerned all right so at that I have concluded my series of
+
+00:29:47
+videos on no thirst theorem
+

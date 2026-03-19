@@ -1,0 +1,78 @@
+00:00:00
+all right it has come to this today I'm going to tell you about no thirst theorem so a lot of people know what the statement of no thirst theorem is it's that for every symmetry of some physical system you also have a conserved quantity but most people don't really like give you a proof of this and when they do give you a proof a lot of times this is kind of like mystifying calculation and you're kind of wondering like wait like you know what like what really happened there I'm gonna give you
+
+00:00:37
+my goal here is to give you an explanation of noether's theorem such that by the end of it you'll really feel like yeah I actually get it and I actually see why it is and actually it makes sense so I'll try to explain it such that if you were to actually you know you you know working with your own system and you were to see a symmetry you would actually be able to find your conserved quantity I'm going to teach you how to do that and I think a lot of the well there are a few reasons why I
+
+00:01:05
+think most explanations are like kind of bad and one explanation is that people just aren't patient enough to explain it like they want to rush through the whole thing but I'm not gonna do that I'm really gonna take my time so I'm actually gonna make a few videos about no thirst Ihram in a little series but the way I'm going to do it is I'm gonna develop insights with every video so you don't have to watch all the videos in order to feel like you understand not--there's theorem I'm just gonna
+
+00:01:33
+slowly build up like insights like from video to video and I'm gonna be really patient but I think that's what you really have to do for something that's you know sort of profound like this theorem basically if you can understand the principle of least action and you can understand Lagrangian mechanics then you can understand no thirsty that's all that's all I'm really gonna ask so I'm gonna ask that you know you know about Lagrangian mechanics but that's it and if you don't know about the principle of
+
+00:02:06
+least action and the grungy mechanics I have some videos on those so you should watch those first and then come back here alright so to speak very broadly for a second you threw a ball it'll go in a trajectory right I'll go in a parabola and specifically it goes in a parabola instead of like going in some like really funky shape right and what distinguishes the parabola from the really funky you know trajectory that you could imagine it might go in and the difference is that the parabola
+
+00:02:44
+satisfies the equations of motion of a ball traveling in a gravitational field and I'm going to call equations of motions zom so if you have a gravitational field G with G being your gravitational acceleration 9.8 meters per second squared then your equations of motion are X double dot equals zero and y double dot equals negative G so these are your equations of motion where X is your x coordinate and y is your y coordinate and double dot means your second time derivative so X double dot equals the second derivative of X with
+
+00:03:43
+respect to time all right so you know if you have a path x equals VT right where T is your time and V is just any velocity and y equals negative 1/2 GT squared then you know you could say all right well let's look at that let's differ 8 X with respect to time twice so X double dot well that's just 0 and y double dot well that's negative G so oh looks like a set it satisfies my equations of motion and if you were to have some really funky thing like I don't know like x equals you know sine
+
+00:04:26
+of Omega times T that you know x double-dot wouldn't be zero right so it wouldn't satisfy the equations of motion and that's not the path that a ball would take solutions to the equations of motion give us physical pads now there's something else I want to say when I talk about the path that things take I don't necessarily mean the path that they take in real space so you know say for example you had a pendulum with length L in a gravitational field G and the wait at the end of the pendulum has a
+
+00:05:04
+coordinate x and y and you could imagine you know the path that the pendulum takes in real space where x and y change and they swing back and forth and stuff but something else you can do it's something that people often do so you could just think of the angle theta that the pendulum makes with the vertical right and instead of thinking that about the path that the pendulum takes in real space we can think about the path that the pendulum takes in theta space so theta will change in time and therefore
+
+00:05:37
+we can think about you know we could graph theta with time and think about you know however like theta changes and actually I guess if I wanted to make this accurate it would look like that so the equation for motion the equation of motion for theta if you're interested would just be theta double dot equals negative G over L times sine of theta and in general some lens you know and sometimes if you out this video or rather throughout this series of videos I'm going to do what physicists
+
+00:06:17
+often do and use Q sub I to be to represent the coordinates that I'm interested in so here I would be an integer that runs from 1 to N where n is just however many variables I have so if I were to just feed you to them theta well say it would be my Q sub 1 and if I were to be interested in X&Y then I would might call xq1 I might call yq2 and in this case and would be equal to two and if I had you know I don't know like two particles moving and particle one had coordinates x1 comma y1 and
+
+00:07:02
+particle two had coordinates x2 comma y2 then here and would be equal to four because I'm interested in four different coordinates and I might label them X 1 is Q 1 Y 1 is Q 2 X 2 is Q 3 and Y 2 is Q 4 all right now we're gonna talk about symmetries of the equations of motion so as an example let's consider two planets orbiting each other according to Newtonian gravity these two planets are gonna orbit each other in ellipses right like this and I'm not going to write out the equations of motion but if we were
+
+00:07:52
+to write out the equations of motion you know we could plug in these two ellipses for the coordinates of a particle for our planets rather and we would see that they would indeed satisfy the equations of motion so let's say we took our trajectories and just translated them somewhere else right and then we're going to take our translator trajectories and see if these satisfy the equations of motion and in this case yes we would find that they would actually satisfy the equations of motion
+
+00:08:26
+so solutions to the equations of motion when translated in space somewhere else are just other solutions to the equations of motion so let's consider another possible way we could change these trajectories let's say we were to rotate them so here I'm picturing rotating those trajectories like this so now the particles are going like this now let's say after rotating both of our trajectories together we were to check again whether or not they satisfy the equations of motion what we would find
+
+00:09:11
+is that yes they would still satisfy the equations of motion and there's another symmetry here I like to talk about it's hard to draw but let's just say we're to take all of our coordinates Q sub I and these depend on time right so let's say we were to take the q sub i's that correspond to these trajectories and we were to then change them to Q sub I of T plus T naught where T naught is some constant time if these satisfied the equations of motion then we would find that these
+
+00:09:53
+ones also satisfied the equations of motion so we have three symmetries that we're talking about that we that we found here translational rotational and time symmetries all right now we're going to talk about symmetries of the Lagrangian so in Lagrangian mechanics we have you know our Lagrangian L that depends on all of the variables or all the coordinates that we care about Q sub I and the Lagrangian will also depend on the velocities of all our coordinates here I'm going to show that with a dot
+
+00:10:50
+on top so I mean this is just kind of long to write out so sometimes you're going to see me just write this as L of Q sub I comma L Q sub I dot so we have a Lagrangian and then if you remember we also have our action s which is just the integral from two x t1 and t2 of LVT so what is a symmetry of our Lagrangian well say we had our pads write Q sub I of T and we were to somehow change them into different pads take these pads and make them into different pads q sub i prime okay I'm going to say Q sub i prime of T let's
+
+00:11:52
+say L of Q sub I of T and Q sub I dot of T was equal to L of Q sub i prime of T and Q sub i prime dot of T if we were to have this then we would say that this transformation is a symmetry of our Lagrangian L so why we call this a symmetry well we're changing you know we're changing the we're changing our trajectories Q sub I and Ella staying the same but we call them symmetries of our Lagrangian because they really correspond to symmetries of our equation of motion let me show you how that is
+
+00:12:52
+now say we had a ball right and we threw it up in the air and it were to go in this trajectory right it would start here at t1 and end here at t2 and this path has some action right if we were to translate this path just over here just to the right in physical space this path but also have some action right and the action of this path the one on the right is the same as the path on the left so this represents a symmetry of our Lagrangian now as you recall from the principle of least action and the
+
+00:13:37
+Euler Lagrange equation stuff all nearby pads all tiny variations to the path that the ball actually takes don't change the action s to the first order in the variation right so we say these pads are stationary now the thing is that all pads have the same action when translated to the right so not just the true path but also all the same tiny variations so actually let me see if I can draw the exact same variation so the exact same variation once again would look like that right so not only is the
+
+00:14:21
+action of the true path the green path the same but the action of all the tiny variations is the same and so the green path on the right is also stationary because all the little tiny variations don't change to the first order in the variation just like the ones on the left so therefore symmetries of L give us symmetries of our equations of motion so that's really why we even call these symmetries to begin with okay so now we know about symmetries and now I'm going to state no Thurs theorem so know--this
+
+00:15:21
+theorem says that for every continuous symmetry of our Lagrangian we have a conserved quantity along trajectories that satisfy the equations of motion and it turns out that if you have the symmetry of space translation you're conserved quantity is total momentum when you have a symmetry of rotation you're conserved quantity is angular momentum and when you have a symmetry of time translation you're conserved quantity is energy and this last one is a little bit different from the other
+
+00:17:03
+two so in the coming videos I'm going to go through all of these three examples all independently and I'm going to go through the same procedure for all three of them and as we go through these procedures you're gonna learn something a little bit different about no thirstier I'm a new like little aspect or insight I just want to say that these aren't the only three examples of no thirst theorem in real life so this I mean these series of videos are only going to be about classical mechanics
+
+00:17:32
+but in quantum field theory for example you have other symmetries that give you conservation of charge and you know really cool stuff like that and we're not going to talk about stuff like you know conservation of charge but there's so many examples of no thirstier and besides these three but we're just gonna start with these three and something else actually I should mention before I go is continuous what do I mean by a continuous symmetry well a space translation for example you can
+
+00:18:06
+translate something a little bit and you can translate it a lot a rotation for example you could rotate something a little bit or you could rotate it a lot in a smooth fashion and it's the same thing for a time translation an example of a symmetry that wouldn't be continuous is if you had a particle moving in some potential V of X right that was periodic so here we can see that every you know even spacing a V looks the same so you would still have a symmetry of both you Lagrangian your equation of motion named it's if you
+
+00:18:46
+take a little trajectory in here and you translate it by a discrete amount you get new you get the same Lagrangian you have a symmetry of your equation of motion but because this isn't continuous you can't only translate something a little bit in this example for example momentum you know wouldn't be conserved so you wouldn't have this so yeah stay tuned
+

@@ -1,0 +1,126 @@
+00:00:00
+alright so in this video I am going to talk about rotations in the last video I showed that if we had a Lagrangian that was symmetric under spatial translations then the linear momentum was conserved and here I'm going to show that when our Lagrangian is invariant under rotations then angular momentum is conserved so let's first find a system that is invariant under rotations so say we have an origin which I'll call zero zero I'm only going to use two dimensions just to make things simpler and we have a
+
+00:00:40
+particle that's a coordinates X comma Y and let's say that you know particle is some velocity with the draw with that arrow and let's say that the potential energy of the particle V only depends on the distance from our particle to the origin so an example of this might be the or the earth orbiting the Sun something like that the potential the gravitational potential energy of the earth orbiting the Sun only depends on the distance from the earth to the Sun so our Lagrangian L would be equal to
+
+00:01:12
+the kinetic energy minus the potential energy so L would be equal to one-half M times X dot squared plus y dot squared minus V and V would depend only on the square root of x squared plus y squared we're going to leave V general we're not going to write out a specific form of V because it doesn't matter now how do we do a rotation by an angle of theta on our coordinates x and y well we would have some new coordinates X prime and y prime and X prime would be equal to cosine of theta times X minus sine of
+
+00:01:58
+theta times Y and that's that just comes straight from trigonometry and Y prime would be equal to sine of theta times X plus cosine of theta times y now let's check that our Lagrangian really doesn't change after you do a rotation so we want to show that L equals L prime where L is just our Lagrangian when we use our regular coordinates x and y and L prime is what we would use if we were to put in X Prime and y prime instead of x and y so we want to check that these two things are the same all right so let's start by
+
+00:02:48
+checking that the potential energy is the same and to do that we're going to see what happens to x squared plus y squared after you do this rotation so x squared plus y squared would become x prime squared plus y prime squared and then this would just be equal to using the equations you wrote above cosine of theta times X minus sine of theta times y squared that's just X prime squared plus sine of theta times X plus cosine of theta times y squared right and now we're going to expand out this first
+
+00:03:34
+square right here okay so this is equal to cosine squared of theta times x squared minus 2 times cosine of theta times x times sine of theta times y plus sine of sine squared of theta times y squared and then we want to expand out the second square right here and I'll write it on the next line this is plus sine squared of theta times x squared plus 2 times sine of theta times X times cosine of theta times y plus cosine square root of theta times y squared now the first thing to notice is that this
+
+00:04:33
+term and this term right here cancel because one just has a minus and one it has a plus so these terms both cancel and the next thing to notice is that cosine squared of theta plus sine squared of theta right here and also right here are just equal to one so this whole thing is just equal to x squared which is this right here plus y squared which is just whoops which is just this thing right here so as we can see x squared plus y squared just becomes x squared plus y squared again so the distance doesn't change and rotation
+
+00:05:26
+which is you know kind of duh so this whole thing doesn't change so the potential energy doesn't change under a rotation now the next thing we would have to do is we'd have to show that the kinetic energy doesn't change but that's actually very simple because we just have to show that X dot squared plus y dot squared doesn't change but if you notice cosine of theta and sine of theta are constants so we could just put dots on all of these equations whoops and they wouldn't change because you know we
+
+00:06:05
+would just differentiate these equations by time and sine of theta and cosine of theta are constants so then X dot squared and y dot squared we're just well would not change just as x squared plus y squared wouldn't change let me put dots on all of these just to make it like super clear all right so we can see that the kinetic energy also doesn't change in other words L L equals L Prime just as we wanted to show now we could have guessed that but it's good to just check it all right now let's just cut to the chase
+
+00:07:04
+let's consider consider a tiny time dependent dependent rotation theta equals epsilon of T so epsilon of T is some tiny number right so epsilon is no that depends on time and it's gonna be like a tiny angle so this is just like what we did in the last video when we considered a tiny time-dependent space translation so notice that sine of epsilon of T is about equal to just epsilon of T and that's just from the small angle formula or we could think of it as a Taylor expansion for a sine of a
+
+00:08:13
+small number now cosine of epsilon of T is about equal to 1 minus 1/2 epsilon of T squared and that's from a second-order Taylor expansion and cosine but the thing is that we already know we don't actually we're not actually going to care about epsilon Squared's and stuff like that so this doesn't actually matter so for our intense cosine of epsilon of T is actually just one so our tiny rotation would then be X prime equals well I'll write it out again cosine of theta X minus sine of theta
+
+00:09:13
+times y which is just equal to X minus epsilon times y and I'm gonna stop writing epsilon of T just to make life a little bit simpler but you should really be remembering that epsilon depends on time it's not a constant and how we're talking about it now okay so then Y prime equals sine of theta times X plus cosine of theta times y which is then equal to y plus epsilon times X so then we just differentiate this to get X dot prime equals X dot minus epsilon dot times y minus epsilon times y dot and
+
+00:10:32
+that's just the product rule and then y prime dot is equal to Y dot plus epsilon dot times X plus epsilon times X dot and once again that's just the product rule all right now I just want to introduce a little bit of notation I want say that X bar of T and Y bar of T are a path that the particle takes that would satisfy the equations of motion and then I want to say that X prime of T and Y prime of T are a tiny time-dependent rotation of X bar and y bar so it's really going to be the same thing as
+
+00:11:39
+these equations right here and this is really just the same thing as these two equations I just wanted to make it clear how X bar and y bar we're gonna fit into this alright now we're just gonna clear a bunch of stuff off of the screen we're gonna clear that and that and that and that whoops and then we're gonna bring this thing right up here just for the time being alright so our action s right depends on a path and we're going to put in the path X prime of T and Y prime of T the slightly
+
+00:12:46
+rotated path and as we've discussed many times this is equal to s of X bar of T and Y bar of T plus Delta s we're Delta s s of the first order in epsilon plus all the epsilon squared in higher terms which I'm going to write as o of epsilon squared okay now let's expand out this action here it's equal to the integral from t1 to t2 of 1/2 m and then it's X prime dot but I was very clever so I wrote X prime dot here already so I'm off to change colors a million times right now I'm just gonna
+
+00:13:50
+put X prime dot right here very clever right squared plus y prime dot Y prime dot squared I wrote Y prime dot right here so I'm just gonna take Y prime dot put it right here very clever I got to say that's squared and then we're gonna have minus V of the square root of x prime squared but I already wrote X prime here whoops are you wrote X prime here very cleverly so X prime squared plus y prime squared oh my god this was so worth it very good and then all of this Square rooted I don't like that all of this
+
+00:15:01
+Square rooted and then D T so the first thing I want to do is I want to look at this V term right here so let's expand out this and this so if we expand out this square root we get X bar squared minus 2 X bar times epsilon times y bar my plus rather epsilon squared times y bar squared and if we expand this out we get plus y bar squared plus 2 times y bar times epsilon times X bar plus epsilon squared times X bar squared all right now the first important thing to notice is that this term in this term R
+
+00:16:20
+to the 2nd order in epsilon and we don't care about terms of second order so these terms we don't care about and the second thing you might notice is that this term and this term cancel each other out because we just have a plus and a minus so this cancels out and this cancels out and to the first order epsilon this whole thing in the parenthesis is just equal to X bar squared plus y bar squared so actually I'm going to rewrite this a little bit when I say that this is equal to V of
+
+00:17:00
+the square root of x bar squared plus y bar squared all under the square root DT and I'm gonna get rid of this mess right here boom boom boom and boom so the second thing I want to do is I want to expand out all of these kinetic energy terms so let's start with this right here this is equal to X bar dot squared minus 2 times X bar dot times epsilon dot times y bar this is y minus 2 times X bar dot times epsilon times y bar dot plus epsilon dot times y bar plus epsilon times y bar dot squared right
+
+00:18:29
+that was just this thing squared and then we want to expand out this term right here and this is equal to Y bar dot squared plus 2 times y bar dot times epsilon dot times X bar plus two times y bar dot times epsilon times X bar dot plus epsilon dot times X bar plus bar plus epsilon times X bar dot squared roof okay so obviously this can be cleaned up a bit so the first thing to notice is that this term and this term are both to the order epsilon squared so we don't actually care about stuff to the order epsilon
+
+00:19:38
+squared it is not relevant to our interests the second thing to notice is that this term and this term actually cancel out because there's just the upper plus and minus so this term and this term counts loud and this term in this term both had epsilon in it whereas the only remaining terms are epsilon dot something interesting to notice so I'm now going to clean up this kinetic energy right here and when I clean it up all right it is equal to one-half M X bar dot squared that's this term right here plus
+
+00:20:40
+y bar dot squared that's this term right here plus two times epsilon dot of their times rather why bar dot times X bar that's this term right here minus X bar dot times y bar that's this term right here and I can actually even bring this closer in write that and actually I forgot a parenthesis too all right so now I can get rid of all of this and I hope you've been able to follow along all this algebra okay so if you notice we can actually rearrange this just a little bit more and actually I'm going to spare you
+
+00:21:41
+moving more stuff around and just write it all out again so this whole thing is equal to the integral from t1 to t2 of one-half M X bar dot squared plus y bar dot squared minus V of the square root of x bar squared plus y bar squared all Square rooted DT and then I'm going to go on the next line plus the integral from t1 to t2 of M times epsilon dot times y bar dot times X bar minus X bar dot times y bar all times DT all times yeah DT and then of course since I threw out so many o of epsilon squared terms I
+
+00:23:02
+should just write that there and actually maybe I should even write it the above equation because they are so far gone unwritten so finally we're not finally but if you notice this thing right here this integral right here is equal to Delta s because this integral right here is just equal to the action of x bar and y bar so we are now going to get rid once again of a lot of stuff whoops whoops all right and take all this put it up here get rid of this get rid of this all right so Delta s is equal to this thing right
+
+00:24:01
+and if we have the boundary conditions epsilon of T 1 equals epsilon of T 2 equals 0 then this whole thing is equal to 0 now integrating by parts we get that the above integral is equal to epsilon times M of Y bar dot times X bar minus X bar dot times y bar evaluated at T 1 and T 2 minus the integral from t1 to t2 of epsilon times D DT of M times y bar dot X bar minus X bar dot Y bar all times D T so you might notice that from our boundary conditions epsilon at T 1 epsilon at T 2 or 0 this whole term
+
+00:25:16
+right here is 0 minus 0 and therefore we don't care about it now the next thing to notice is that this thing right here in the brackets what is this well this is just the Z component of position times velocity or rather position cross velocity across I mean the cross product so it's R cross V so this thing right here is the angular momentum in the Z direction here I'm using L for angular momentum and not for the Lagrangian and sub Z I mean in the Z direction we're only considering two
+
+00:25:59
+dimensions but if there were a Z Direction this would be a angular momentum in the Z direction so because we know that this integral right here has to be 0 for any epsilon of T we know that this thing right here has to be equal to 0 so we know that so there for DDT of L C the angular momentum in the Z Direction equals 0 and therefore whoops let me draw it in green and therefore angular momentum is conserved just as we wanted to show yay so we proved the angular momentum is conserved but before we celebrate too much I want to ask a
+
+00:26:57
+scary question so scary question what if V didn't just depend on the distance from the origin right so we said that V was a function of the square root of x squared plus y squared right but what if V what if instead so what if instead we had just written that B was any function of x and y right which is the most general form that V could have been so I'm gonna clear some of this so that we can start addressing that question I'm gonna clear this and this but I'm gonna leave this thing at the top here just
+
+00:28:04
+just don't look at that now just we're going to tuck it away for the time being okay so we're gonna address our scary question so in that case so then V of X prime and y prime would then be equal to V of X bar whoops you stick to the color scheme V of X bar minus epsilon times y bar and y bar mmm or plus epsilon times X bar right that was just our X prime and our Y prime so then doing a Taylor expansion in both inputs of V we would find that this was equal to V of X bar and y bar plus or
+
+00:29:18
+rather - sorry minus epsilon times y bar partial V over partial X and that comes from expanding of this right here plus epsilon times X bar partial V partial Y and that comes from expanding out this right here and then we have you know high order and epsilon squared terms but we don't care about those so once again this would be the potential energy of X bar and y bar but this would be a different term one this would be the term that we haven't accounted for that was the term that would have cancelled
+
+00:30:08
+out if we if the potential energy really was a function of just the distance from the origin so and this is why I kept this up here let me move this all the way to the side we would then have another term in Delta s here right Delta s would then be equal to what we have already minus epsilon times X bar Delta V Delta rather partial V partial Y minus y bar partial V partial X now all of this times DT so we've started addressing our scary question right and it isn't so scary after all we found a
+
+00:31:15
+way to account for it without having to without having to start from the beginning so we want to integrate by parts again we're gonna integrate this by parts but we already we already sort of did that we already had the boundary term and we knew that the the boundary term was zero so we're just gonna skip that we know this is equal to the integral from t1 to t2 of epsilon times D DT and we know that this whole thing is just the angular momentum in the Z direction so already know that it's this
+
+00:32:01
+thing that's new plus X bar partial V over partial Y minus y bar partial V over partial X and all of that times DT and now we know that this is true for any epsilon of T and thus this whole thing right here has to be equal to zero just as before and what we get is that D DT of L Z plus X bar times partial V partial Y minus y bar times partial V partial X that's just equal to zero and actually I want to bring this over to the other side of the equation very briefly we're not very briefly but I
+
+00:33:17
+guess it will only take a brief amount of time so now this is a minus here this is a plus here right so this seems fine this is like alright well you know I guess you're right but notice that this thing right here partial V over partial Y that's just equal to negative times the force in the Y direction and partial V times partial X that's just equal to minus the force in the X direction right so we can rewrite this whoops I'm going really crazy with my selector tool though it's
+
+00:34:14
+kind of fun so don't blame me this would be F sub y and then it's minus you have to do a plus there and then ya rid of that actually I'll get rid of that to minus y bar F sub X and notice that this thing right here you can think of it as R cross F right if you're thinking back to your high school physics days so this whole thing is equal to the torque and I haven't chosen a letter for torque but I'll just write torque so in other words the angular momentum changes in time
+
+00:34:58
+according to the torque so this was a pretty interesting result when we had that L was equal to one-half M X dot squared plus y dot squared minus V where V only depended on the distance from the origin one half or rather the square root of x squared plus y squared we found that this had a rotational symmetry and we also found that the angular momentum L was conserved in time right the DDT of the angular momentum was zero but when we had L was equal to one-half m x squared plus y dot squared - any
+
+00:35:55
+potential energy right any the potential energy could depend in any way on X&Y right totally general potential energy then we found that there was no rotational symmetry and we also found that the time derivative of the angular momentum was not equal to zero it was equal to some torque so we can see that when we have a symmetry we have a conservation law and when we don't have a symmetry we don't have a conservation law so somehow it seems like this torque term is somehow a measure of how
+
+00:36:40
+asymmetric the Lagrangian is under a rotation and in the next video we're gonna really like understand the philosophy of like why all this sort of stuff is happening but before we get into that I just want to say one thing which is that I was talking this whole video about the case of a particle moving in some external potential right but a lot of times where people are interested in is they're interested in what happens when you have you know a bunch of particles and they're all just
+
+00:37:15
+attracted to each other and not just some central point right like you might have a whole bunch of planets that are gravitationally attracting each other and I just want to say briefly that in this case your Lagrangian would be equal to well let's say you have n particles right and we label them you know 1/2 you know dot dot dot and then one of them is particle and the grandia would then be equal to the sum from I equals 1 to N of one-half m sub i where m sub i is the mass of the eyuth particle x sub
+
+00:37:53
+i dot squared plus y sub i dot squared Plus Z sub I dot squared this would be the kinetic energy of all the particles put together minus the sum from I equals 1 to N of the sum from J equals 1 to I minus 1 so this is all pairs of particles right so like this might be I and this might be J and because we're summing I from 1 to n but J only from 1 to I minus 1 we're not double counting anything some of the potential energy which only depends on the distance between the position of the eyuth
+
+00:38:52
+particle minus the position of the J's particle right so this is sort of the general lagrangian for if we have a bunch of particles that all have potential energies between each other right and there's no external potential energy and in this case you could do the same thing we did in either video and and you would find that the total linear momentum is conserved and the total angular momentum is conserved because this potential energy term right here doesn't change when we translate all of
+
+00:39:30
+our particles together or when we rotate all of our particles together so I just thought I should mention this in case you're curious like well ok you know what if we don't have an external potential energy what if we have you know all of our particles attracting each other in the next video I'm going to talk generally about why know if there's theorem actually works it sort of gonna be a proof of know--this theorem so that'll clear things up hopefully
+

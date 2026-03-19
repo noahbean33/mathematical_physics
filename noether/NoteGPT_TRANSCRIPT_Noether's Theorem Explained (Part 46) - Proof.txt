@@ -1,0 +1,75 @@
+00:00:00
+all right welcome back this is definitely the most important video in my series on no thirst theorem because in this video I'm going to prove to you why no thirst theorem works in general in my last two videos I followed a procedure to derive the laws of conservation of momentum and conservation of angular momentum and I didn't call it this at the time but what I was doing was I was performing something called the Noether procedure and I didn't call it that at the time just because I didn't want to
+
+00:00:36
+use fancy terminology but in this video I'm first going to show to you what in general the Noether procedure is and if you're confronted with Lagrangian with a symmetry how you can then extract the conservation law and then after I tell you what the Nothe procedure is I am then going to prove to you why it works and that will then constitute a proof of no Thurs theorem all right all right so first say you have a symmetry transformation Q which is just our general coordinate goes to Q plus Delta
+
+00:01:31
+Q where Delta Q depends on a tiny constant Epsilon so for example when we were talking about translational symmetry so translation then we sent Q to Q plus Epsilon and in this case Delta Q was just equal to Epsilon right in the case of rotational symmetry so rotations we sent Q 1 to Q 1 minus epsilon times Q 2 and we sent Q 2 to Q 2 plus epsilon times Q 1 this is a tiny rotation parametrized by the tiny angle Epsilon and in this case we had that Delta Q was a vector of two components and that both
+
+00:03:11
+components depended on Epsilon so the first component we had negative epsilon Q 2 and the second component we had epsilon times Q 1 and in both cases we found that because these transformations were symmetries of our Lagrangian L L went to L as in Elden change all right now let's clear all this and say what the noether procedure is in general okay so well I guess let me sort of rewrite that as step one so step one find a symmetry transformation q then changes to Q plus Delta Q where Delta Q depends on a tiny constant
+
+00:04:40
+parameter Epsilon this should send L to L as in your Lagrangian shouldn't change because of the symmetry transformation okay now step two is definitely the clever step the crucial step so step two make the tiny constant parameter epsilon into a tiny time-dependent parameter epsilon of T so you just replace your constant epsilon and your symmetry transformation with a time dependent epsilon epsilon of T you should now find that instead of your Lagrangian L not changing so L being sent to L as before
+
+00:06:33
+now L is sent to L plus epsilon dot times some new quantity B and I haven't said why this is okay I'm just telling you that this is what you're gonna find if you replace epsilon with epsilon of T instead of L not changing you're now gonna find that L is going to pick up this term which is epsilon dot times B I'm going to prove that later but now I'm just telling you that this is what you're gonna find in a note there procedure okay so step three is wrapping it all up so recall that on solutions to
+
+00:07:36
+the equations of motion Delta s where s is our action equals zero if you have the epsilon of t1 equals epsilon of t2 equals zero right that's just the principle of least action therefore on solutions to the equations of motion you have that zero equals Delta s equals the integral from t1 to t2 of epsilon dot times B DT right and by integration of parts or integration by parts this is equal to negative the integral from t1 to t2 of epsilon times B dot right DT they are just integrated by parts and I use the
+
+00:09:03
+boundary conditions of epsilon so therefore as this should be true for any epsilon B dot equals zero so B is your conserved quantity and you are done ok so no Thurs procedure is definitely something that you want to remember for the rest of your life the only real tricky part is step two if you can remember step two the rest just falls right in your lap this whole thing just immediately lets you you know convert a symmetry into your conservation law and you know there's nothing to really look up it's just
+
+00:10:00
+something that you'll always have with you so if you're on a plane and you don't have Wi-Fi you're dealing with some lagrangian and you want to find what you're conserved quantity is you just have to remember to this and you're always getting you're bound to succeed you like cannot fail but you might like know how to do this and you still might not totally understand why it works so now I'm gonna explain you why the know if the procedure really works and that will
+
+00:10:30
+constitute my proof of no thirst theorem okay alright now let's clear the screen and write proof that the Noether procedure works ie proof of no Thurs theorem and let's underline that okay so I will write one column for epsilon constant and then I will write another column for epsilon of T time-dependent so in general when we change Q by an amount proportional to epsilon then our Lagrangian L will then change to L plus epsilon times some quantity a and all that really means is we can Taylor
+
+00:12:15
+expand L to the first order and Epsilon there's nothing deep about that you know because we're just changing Q and L depends on Q and it depends on a constant epsilon then L is gonna have to change proportional to some quantity a for any transformation right not necessarily a symmetry transformation so for any transformation L is gonna have to change in some quantity that's proportional to epsilon now if epsilon is time dependent then L has to change to L plus epsilon times a plus epsilon
+
+00:13:04
+dot times B and it's the same a because you might notice that if you just take our time dependent epsilon of T to just be a constant epsilon then you know you have epsilon dot equals zero and so this a over here how to be the same as this a over here whereas the B is the new term that comes from the fact that epsilon of T is now time-dependent and you might be wondering well you know why isn't there a term that depends on like epsilon double dot and stuff and I mean in general I guess there could be but you
+
+00:13:51
+have to remember that in mechanics we're basically only interested in lagrangian's that are functions of Q and Q dot and if our Lagrangian is only a function of Q and Q dot you're not really gonna get these like epsilon double dot things all right so the next thing to realize is that if Q goes to Q plus Delta Q is a symmetry transformation then L goes to L and therefore we must have that a equals zero therefore for our time-dependent Epsilon if our transformation is a symmetry transformation then we must have that L
+
+00:15:06
+goes to L plus epsilon dot times B therefore once again on solutions to the equations of motion we have 0 equals Delta s equals the integral from t1 to t2 of epsilon dot times B DT which is equal to the integral from t1 to t2 of negative epsilon times B dot DT which because this is true for all epsilon assuming that epsilon of t1 equals epsilon a t2 equals 0 we then have that B dot equals 0 and B is conserved it's the conserved quantity associated with our symmetry transformation yay we have just proven not--there's theorem
+
+00:16:36
+but don't turn off the video because in a minute I'm going to show you something else that's important but let's just think about what we've done here riding out Noether steering lock this it looks so simple and maybe I should just made one video where I just wrote this I didn't go through some examples but I think that because it's so simple you need examples because otherwise you don't really understand what's going on it's one of those things that's so
+
+00:17:04
+simple it's complicated and once you think really hard about the simple logic it becomes obvious to you and even now that I showed you the proof some of you might be scratching your head and like kind of like whoa yeah like what maybe you guys are really smart I don't know but definitely think about it pretty hard definitely the first time I saw this logic I had to think about it pretty hard to understand why it's obvious maybe it's not a good thing to call something obvious if you have to think
+
+00:17:36
+hard about it but you know that's how it goes yeah I made this point before but no thirst theorem is kind of like the euler-lagrange equation so the euler-lagrange equation can be derived by thinking about all tiny variations to our position Q but here we're only considering a specific symmetry variation and instead of getting the full Euler raunch equations of motion instead what we receive is a conservation law so know--this theorem is like the equation of motion for symmetry variations and I
+
+00:18:19
+think the proof given in many textbooks sort of obscure this simple logic they write it in this notation that doesn't make it obvious in any case now now that I've said all that I want to bring up something else important namely what happens if Q goes to Q plus Delta Q is not a symmetry transformation right then L doesn't go to l l does change and a is not equal to zero furthermore this is no longer true right L does change with this term proportional to a right a is in zero and on solutions to the equations of motion
+
+00:19:12
+now we've got to change this so now there is a term here plus epsilon times a DT and over here we have to write another term plus epsilon times a here with a DT right and notice we just have this epsilon here and here we don't have epsilon dot in either place so finally we don't have that B dot is conserved now we have that B dot equals a and B is not conserved right because of a so if your little variation is not a symmetry of your Lagrangian then you will not get a conserved quantity namely B dot will
+
+00:20:29
+be equal to a and not zero and this is what we saw in the last video so in the last video I showed that if you had a Lagrangian that was rotationally symmetric then performing the noether procedure for little rotations gave you that angular momentum was conserved then I showed that if you had a Lagrangian that was rotationally symmetric then instead of angular momentum being conserved we found that the time derivative of angular momentum was equal to torque so you know in the notation I've written
+
+00:21:06
+here B would be our angular momentum and a would be our torque so we can see that there is a direct correspondence between the amount by which our transformation is not a symmetry and the amount by which B changes in time the important point that I'm trying to get across is that the Noether procedure is still useful to do even when you're little transformation isn't a symmetry so even if your lagrangian isn't rotationally symmetric then carrying out the Nothe procedure with rotations will still give
+
+00:21:54
+you something that's good to know it will tell you that the time derivative of your angular momentum is equal to a torque so we can see that angular momentum is still intimately tied to rotation even when your lagrangian is not rotationally symmetric it will just mean that your angular momentum will change in time but you know whatever I mean the more important point is that carrying out the note the procedure will always give you this quantity B that's intimately tied to what your little
+
+00:22:31
+transformation is and yes according to no thirst theorem if your transformation is a symmetry then B will be conserved but even if your transformation isn't the symmetry well then you still like have learned something right even though people say that no thirst theorem is just that symmetries give you conservation laws there's still this expanded logic to know there's theorem that gives you something even when there is no symmetry anyway that's all I had to say thanks for watching in the next video
+
+00:23:10
+I'm going to explain some things I swept under the rug here namely a okay a doesn't necessarily have to be zero in order to give you a conservation law I guess I can just sort of preview this now but if a is a derivative of some quantity called C right if a equals C dot then let's see then we could write a SC dot here a SC da here a SC da here and then our conserved quantity would actually be B minus C so okay so clearly if a is a total derivative of some quantity C then our logic has to change
+
+00:24:01
+a little bit I didn't want to bring this up in the beginning because I didn't want to I didn't want to confuse the main point but time translational symmetry is of this weirder type of symmetry so next video I'm going to tell you all about that
+

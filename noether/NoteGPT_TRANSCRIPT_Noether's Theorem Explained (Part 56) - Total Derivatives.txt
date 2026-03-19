@@ -1,0 +1,45 @@
+00:00:01
+okay so in this video I am going to tell you about total derivatives and how they relate to Lagrangian mechanics and know--this theorem so in my first video in this series on no Thurs theorem I showed you how symmetries of our Lagrangian give us symmetries of our equations of motion but there's something I've sort of been leaving out this whole time in this video I'm going to show you why we actually have to expand what our notion of symmetries of the Lagrangian are so previously up
+
+00:00:50
+until now I've said that okay say we have a transformation Q goes to Q Prime right and this could be a translation or rotation or any sort of transformation I have previously said that this is a symmetry of our Lagrangian if L of Q and Q dot is equal to L of Q Prime and Q dot Prime but in actuality we need to expand what our notion of the symmetry of our LaGrant what a symmetry of our Lagrangian is so now I am telling you a more general condition this transformation is a symmetry of our Lagrangian if L of Q comma Q dot equals
+
+00:01:56
+L of Q prime comma Q dot prime plus DDT of some function C of Q Prime and Q dot prime so it's worth pointing out that if C is just equal to zero then our new condition just becomes our old condition but in general C doesn't have to be 0 and I'm sure some of you are saying you know well I mean I guess you could call this a symmetry of your Lagrangian but would this still give you a symmetry of your equations of motion and the answer actually is yes and that's actually why we're redefining
+
+00:02:48
+what we call symmetries of our Lagrangian because even with this expanded definition this still holds that a symmetry of our Lagrangian gives us a symmetry of our equations of motion ok so if we have that L of Q and Q dot is equal to L of Q Prime and Q prime dot plus D DT of C of Q Prime and Q prime dot then we have that the action s which is equal to the integral from t1 to t2 of L of Q and Q dot times DT is equal to the integral from t1 to t2 of L of Q Prime and Q prime dot plus D DT of C of Q Prime and Q prime dot and then all of
+
+00:04:02
+that times DT now this is just equal to s prime plus the integral between t1 and t2 of DDT C of Q Prime and Q prime dot times DT where s Prime just like s but instead of plugging in Q and Q dot we're plugging in Q Prime and Q prime dot now by the fundamental theorem of calculus we can simplify this whole thing so this equation now just becomes s prime plus C of Q Prime and Q prime dot evaluated at T 1 and T 2 so we can see that because our Lagrangian changed by a total time derivative our action s changes by something called a
+
+00:05:14
+boundary term meaning it only depends on Q Prime on the boundary of the time we're considering which is T 1 and T 2 so now let's imagine that Q satisfies the equations of motion that is that Q makes the action stationary so Delta s equals 0 for any tiny variation epsilon where epsilon of T 1 equals epsilon of T 2 equals 0 then for Q prime because we have s prime equals s minus C of Q prime and Q prime dot evaluated at T 1 and t2 we know that delta s prime equals Delta s minus C of Q prime plus epsilon
+
+00:07:06
+and Q prime dot plus epsilon dot evaluated at T 1 and T 2 and then plus C of Q prime and Q prime dot evaluated at T 1 and T 2 now because we know that Q makes the action stationary we know that Delta s is just equal to 0 right and because we know that epsilon of T 1 equals epsilon of T 2 equals 0 we know that this epsilon right here doesn't matter however we don't have that epsilon dot of T 1 equals epsilon dot of T 2 equals 0 right we don't have this so we don't necessarily know that this
+
+00:08:19
+whole thing equals 0 now here's the thing if we also have this condition that epsilon dot at T 1 and epsilon dot at T 2 equals 0 then we can see that Delta s prime also equals 0 now this is actually enough to conclude that therefore Q prime also satisfies the equations of motion now you might be saying well we'll wait we had to impose this extra condition that epsilon dot a t1 and t2 was equal to zero and that was the necessary condition to get that our action was stationary and you might be
+
+00:09:28
+saying that doesn't that actually mean that our action isn't stationary because when you don't have this condition then you don't have that the action is stationary but there's sort of something subtle going on here it is actually enough and that's because when you consider the proof of the Euler Lagrange equation right and you think about making a tiny variation of epsilon and time right let's say this is t1 right here and this is t2 the only variations you have to end up considering are those
+
+00:10:09
+that are perfectly zero but then just become a little bump at some particular time and epsilon zuv this form already satisfied the epsilon dot at t1 and epsilon dot at t2 are equal to zero and because these are the only epsilon you have to actually use to prove that a path would make would satisfy the equations of motion it is actually enough to show this in order to conclude that Q prime satisfies the equations of motion so therefore I have now shown that even with our expanded definition of what we consider a symmetry of the
+
+00:11:07
+Lagrangian we still have that symmetries of the Lagrangian give us symmetries of the equations of motion which is just as I promised so expanding our definition really was a fair thing to do alright so now I'm going to talk about total derivatives and the noether procedure my last video I talked all about the Nothe procedure and then in the end I alluded to how it changes when your Lagrangian changes by total derivative the beauty of the Nothe procedure is really that you don't have to do anything special if
+
+00:12:06
+you have a total derivative I mean it will be there but there's nothing special you really have to remember you just it'll just like work automatically and here's what I mean if you perform the regular Noether procedure trick of doing a time dependent symmetry transformation so if you consider a time dependent symmetry transformation parameterised by epsilon of T then you will have that your Lagrangian L will now go to L plus epsilon times C dot plus epsilon dot times B and this is really just the statement that your tiny
+
+00:13:31
+symmetry transformation really is a symmetry transformation because if epsilon dot equals zero then we just have that L changes by a total time derivative which as we've discussed should properly be called a symmetry of our Lagrangian so then once again performing the Noether procedure we would find that on solutions to the equations of motion Delta s would be equal to zero and Delta s would just be equal to the integral between t1 and t2 of epsilon times C dot plus epsilon dot times B DT and integrating by parts we
+
+00:14:26
+would get that this is the integral from t1 to t2 of epsilon times C dot minus B dot times DT so therefore on solutions to the equations of motion so therefore on solutions to the equations of motion DDT of B minus C is equal to zero so B minus C is your conserved quantity so now if their procedure you know just works the same in the next video we're going to see how time translational symmetry gives us the conservation of energy and the reason I spent so much time talking about total derivatives is that it's going to be a
+
+00:15:29
+symmetry transformation that does include a total derivative
+
