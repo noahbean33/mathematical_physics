@@ -1,0 +1,9 @@
+
+.DS_Store
+
+*.o
+*.swp
+
+Flatten/Makefile
+
+Flatten/flatten
