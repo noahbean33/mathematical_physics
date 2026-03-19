@@ -1,0 +1,45 @@
+00:00:01
+all right so now we're going to look at another example of a manifold property distributions and in particular let's look at the space of discrete distributions okay so let's say that you have some discrete random variable so let x be a discrete random variable taking values on space big x which is just a set of possible outcomes let's say 0 1 all the way up to n okay so a probability distribution on this space x let's call that p of x right is specified by um sort of assigning the probabilities of
+
+00:01:25
+each of these outcomes right so n plus one of these probabilities right which i'm going to denote by p sub i so p sub i is the probability that x is equal to i right and then i goes from 0 all the way up to n right so i is enumerating it's like this set x of possible outcomes so so with that in mind it's like then you can think of p of x as being some sort of vector so p of x right is represented by a probability vector so let's write this as p and this is just p 0 p 1 all the way up to p n
+
+00:02:39
+all right so this is this is in r n plus 1 if you will okay but it's not all of our n plus one because there are some constraints it's like on you know these probabilities okay in particular okay so we have a restriction that the sum of the probabilities is one okay so there's some sort of normalization condition and that's p i is greater than equal to zero okay so the set of all of these probability distributions forms an n-dimensional manifold hmm okay and if you're not clear it's like
+
+00:04:15
+why it is that it's an n-dimensional manifold as opposed to an n plus one-dimensional manifold um this constraint it's like the normalization condition means that all you really need uh is um all but one of these coordinates right so if you know for example p1 to pn then by the normalization condition you know what p0 will be so if you will it's like you know this space of discrete distributions can be you know you can have a chart on this which just involves all but one of the components if you
+
+00:04:52
+will it's like of this n plus one dimensional probability vector okay because of this constraint okay so so let me try to make that a bit more precise so well we can have a coordinate system given by for example just the p1 to pn components right of this right and this is because p0 is not free because of the normalization condition so p0 is just going to be 1 minus the sum from i equals 1 to n of pi right so the point which we talked about earlier is that given p1 to pn you can infer what p0 is true to normalization
+
+00:06:19
+condition right okay so this is 1 minus the sum of the coordinates it's like which we have here okay all right so that all makes sense and so that has n degrees of freedom right so again it's like it's an n-dimensional manifold which is embedded in in the n plus one-dimensional space okay all right so what does this manifold look like okay so the manifold in question is an n simplex called a probability simplex i just denoted by sn okay so so let's try to think about what some examples of this are so when n is equal
+
+00:07:41
+to 2 s2 is the interior of a triangle when n equals 3 it is the interior of a simplex of like a pyramid if you will okay so let me sort of just draw the s2 case okay so this is the triangle for n equals the two right and then right and anyway so so that's an example and you can introduce some random variables okay and then what we're going to do basically is that we're going to you know introduce a different sort of coordinate system if you will it's like for these spacer discrete distributions
+
+00:09:49
+so let's consider the following n plus one random variables call that delta i of x i goes from 0 to n and delta i of x is equal to 1 if x is equal to i and 0 if x is not equal to i okay so this is basically just the chronic delta function all right then you can write with that it's like you can write down any probability distribution it's like a sum appropriate linear combination of these random variables okay then the probability distribution of x is denoted by the following so p of x it's like given some
+
+00:11:12
+coordinate on that space right is equal to the sum of c i delta i x i equals 1 to n right plus 1 minus the sum of c i i equals to 1 to n times delta 0 of x okay so given a point it's like in with respect to this coordinate chart which we talked about right this is the associated probability distribution okay so another possible coordinate chart is given by the following okay so theta i equals to log p i divided by p zero i goes from one to n is also useful so one thing it's like to notice about
+
+00:12:34
+this particular coordinate chart right is that clearly that has the potential to break down if p zero is zero right um and that's what sometimes happens it's like when you have these coordinate charts is that you know the coordinate chart doesn't cover the whole manifold basically right and this would be an example of where it doesn't cover the whole manifold because you know it's like this coordinate system makes sense when p0 is not zero and we don't know ahead of time the p0
+
+00:13:12
+is not going to be zero but we do know that one of the pi's for i going from zero to n will be non-zero so there will always be some coordinate chart it's like of this kind of form but with a different denominator in this quotient right for which you can write down a local coordinate around them so um yeah and so that's the nature it's like of um working with manifolds it's like an atlases is that you know there are coordinate singularities all right um at the boundary it's like of the domain
+
+00:13:47
+of definition or coordinate chart oftentimes which prevents the a single coordinate chart from covering the entire manifold and that's the reason why you oftentimes have to resort to multiple charts which overlap in order to cover the whole manifold okay so this is an example of a coordinate chart which exhibits a coordinate singularity at some of the points it's like in the manifold which forces you to choose a different coordinate chart if you want to parametrize the area around that point
+
+00:14:17
+okay all right so and so we looked at this space of gaussian distributions and we look at the space of discrete distributions and these are examples of what are called regular statistical models okay so the remark is that space of gaussian distributions and the space of discrete distributions are examples of regular statistical models so a statistical model right it's a family of probability distributions and when it satisfies certain regularity properties refer to it as a regular statistical model
+
+00:16:29
+so okay and so infinite sorry information geometry then is arises from the study of invariant geometric structures associated with regular statistical models okay all right so you know these are just again some examples of uh regular statistical models it's like and you know they're possibly the simplest examples you can think of and so just keep this at the back of your mind as we start introducing some of these additional differential geometric structures which are going to build on top of this so let me just stop
+
+00:17:13
+here
+

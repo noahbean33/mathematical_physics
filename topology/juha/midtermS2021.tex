@@ -1,0 +1,647 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage{array}
+%\usepackage{blindtext}
+%\usepackage{scrextend}
+%\addtokomafont{labelinglabel}{sffamily}
+%\usepackage[symbol]{footmisc}
+%\renewcommand*\rmdefault{cmfib}
+\renewcommand{\thefootnote}{\ensuremath{\fnsymbol{footnote}}}
+
+
+%\usepackage[light,math]{iwona}
+%\usepackage[finnish]{babel}
+\newcounter{prob}
+\setcounter{prob}{1}
+\newcounter{assign}
+\setcounter{assign}{1}
+\newcounter{spacerule}
+%\renewcommand{\theprob}{\Roman{prob}}
+%\newfont{\bigrm}{rm at 12pt}
+
+\newenvironment{problem}{\par\noindent\textbf{Problem \Roman{prob}.\hskip2pt}}{\par\vskip12pt\stepcounter{prob}}
+\newenvironment{assignment}{\par\noindent\textbf{Assignment \Roman{assign}.\hskip2pt}}{\par\vskip15pt\stepcounter{assign}}
+\usepackage{color}
+\definecolor{heading}{RGB}{40, 0, 130}
+\definecolor{bgcolor}{RGB}{255,253,250}
+\definecolor{duecolor}{RGB}{150,0,0}
+\definecolor{hyperlink}{RGB}{33,0,255}
+\pagecolor{bgcolor}
+
+
+%-----------------------------------------------------------------------------%
+% PAGE SIZES
+%-----------------------------------------------------------------------------%
+\setlength{\hfuzz}{3pt}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{29pt}
+\setlength{\footskip}{28pt}
+\setlength{\textwidth}{444pt}
+\setlength{\textheight}{636pt}
+\setlength{\marginparsep}{7pt}
+\setlength{\marginparpush}{7pt}
+\setlength{\oddsidemargin}{4.5pt}
+\setlength{\marginparwidth}{55pt}
+\setlength{\evensidemargin}{4.5pt}
+\setlength{\topmargin}{-15pt}
+\setlength{\footnotesep}{8.4pt}
+%--------------------------------------------------------------------%
+% CLAIMS
+%--------------------------------------------------------------------%
+%\swapnumbers
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+%
+\theoremstyle{definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+%--------------------------------------------------------------------%
+% OPERATORS
+%--------------------------------------------------------------------%
+\DeclareMathOperator{\pr}{pr}
+\DeclareMathOperator{\tot}{tot}
+\let\hook\undefined
+\DeclareMathOperator{\hook}{\lrcorner}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\D}{D}
+\DeclareMathOperator{\tr}{tr}
+%
+%     Macros
+%
+\newcommand\ianhook{\mathbin{\raise1pt\hbox{\hbox{{\vbox{\hrule height.4pt
+width6pt depth0pt}}}\vrule height3pt width.4pt depth0pt}\,}}
+\newcommand{\volform}{dx^1 dx^2\cdots dx^\bdim}
+\newcommand{\R}[1]{\mathbb{R}^{#1}}
+\newcommand{\M}[1]{\mathbb{M}^{#1}}
+\newcommand{\krondel}[2]{\delta^{#1}_{#2}}
+\newcommand{\He}{Helmholtz\xspace}
+\newcommand{\ga}[1]{\mathfrak{ga}(#1)}
+\newcommand{\cprime}{\/{\mathsurround=0pt$'$}}
+\newcommand{\comp}{\raise 1pt \hbox{$\,\scriptstyle\circ\,$}}
+
+
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cE}{\mathcal{E}}
+%\newcommand{\BN}{\mathbb{N}}
+\newcommand\closure[2]{\overset{\raisebox{0.6pt}{\hspace{0.2em}\text{\rule{#1}{0.2mm}}}}{#2}}
+\newcommand{\curve}{\boldsymbol{\alpha}}
+\newcommand{\curveb}{\boldsymbol{\beta}}
+\newcommand{\curvature}{\boldsymbol{\kappa}}
+\newcommand{\torsion}{\boldsymbol{\tau}}
+\newcommand{\T}{\mathbf{T}}
+\newcommand{\PN}{\mathbf{N}}
+\newcommand{\BN}{\mathbf{B}}
+\newcommand{\unitv}{\mathbf{u}}
+\newcommand\plane{\mathcal{P}}
+%\newcommand\ianhook{\mathbin{\raise1pt\hbox{\hbox{{\vbox{\hrule height.4pt width6pt depth0pt}}}\vrule height3pt width.4pt depth0pt}\,}}
+%\newcommand{\ianhook}{\lrcorner}
+\newcommand\bdim{m}
+\newcommand\bcoord[1]{x^{#1}}
+\newcommand\Christoffel[3]{\Gamma^{#1}_{#2#3}}
+\newcommand\Christoffelvar[4]{\Gamma^{\hphantom{#1}#2}_{\mkern-3mu#1,#3#4}}
+\newcommand\CP[1]{\mathbb C\text{P}^{#1}}
+%\newcommand\curvature[4]{R_{#1#2#3}{}^{#4}}
+\newcommand\cx[1]{\mathbb C^{#1}}
+\newcommand\cxp[1]{\mathbb C^{#1^\mathbf{*}}}
+\newcommand\dvChristoffel[3]{\gamma^{#1}_{#2#3}}
+\newcommand\func{F}
+\newcommand\funcg{G}
+\newcommand\gc[2]{g_{#1#2}}%components of the metric
+\newcommand\gcvar[3]{g_{#1,#2#3}}
+\newcommand\gci[2]{g^{#1#2}}%components of the inverse
+\newcommand{\gcivar}[3]{g_{#1}^{#2#3}}
+\newcommand\gcj[3]{g_{#1#2,#3}}%jets of the metric
+\newcommand\gcjvar[4]{g_{#1,#2#3,#4}}
+\newcommand\gccoll[1]{g^{[#1]}}
+\newcommand\gdet{g}
+\newcommand{\gdetvar}[1]{g_{#1}}
+\newcommand\gvol{\nu_g}
+\newcommand\gvolform{\gdet^{1/2}d\bcoord 1\wedge\cdots\wedge d\bcoord\bdim}
+\newcommand\gind{l}
+\newcommand{\gindd}{p}
+\newcommand\Gbundle{\mbox{\sffamily{G}}}
+\newcommand\Gr[2]{\mathbf{Gr}(#1,#2)}
+\newcommand\Grs[2]{\mathbf{G}_{#1#2}}
+\newcommand\RP[1]{\text{P}^{#1}}
+\newcommand\pnt{p}
+\newcommand\projP{\pi_{\text{P}}}
+\newcommand\projGr{\pi_{{Gr}}}
+\newcommand\rktwos{\mathcal T}
+\newcommand\rktwo[2]{\rktwos(#1,#2)}
+\newcommand\smfld{S}
+\newcommand\ib{\mathbf i}
+\newcommand\jb{\mathbf j}
+\newcommand\kb{\mathbf k}
+\newcommand\rb{\mathbf r}
+\newcommand\ub{\mathbf u}
+\newcommand\vb{\mathbf v}
+\newcommand\wb{\mathbf w}
+\newcommand\vsp{\mathcal V}
+
+\newcommand\on[1]{\mathbf e_{#1}}
+\newcommand\GrEcoord[2]{\varphi^e_{#1#2}}
+\newcommand\Grcoord[2]{\varphi_{#1#2}}
+\newcommand\Grcoordinv[2]{\psi_{#1#2}}
+\newcommand\Emx{\mathbb E}
+\newcommand\Transpose[1]{{#1}^{\text{\bf T}}}
+\newcommand\ont[1]{\mathbf e^{\text{\bf T}}_{#1}}
+\newcommand\mx[2]{\mathcal M_{#1\times #2}}
+\newcommand\Pcoord[1]{\varphi_{#1}}
+\newcommand\openset{\mathcal U}
+\newcommand\vf{X}
+\newcommand\vfalt{Y}
+
+\def\QED{\hskip0.1em\hfill\null\
+  \null\nobreak\hfill\kern3pt\vbox{\hrule\hbox
+   {\vrule\kern1pt\vbox{\kern1.7pt\hbox{$\scriptscriptstyle{QED}$}
+    \kern0.2pt}\kern1pt\vrule}\hrule}}
+\renewcommand{\qedsymbol}{\QED}
+
+\def\END{\hskip0.1em\hfill\null\
+  \null\nobreak\hfill\kern3pt\vbox{\hrule\hbox
+   {\vrule\kern1pt\vbox{\kern1.7pt\hbox{$\,\,\,\vspace{5pt}$}
+    \kern0.2pt}\kern1pt\vrule}\hrule}}
+
+\newcommand{\abs}[1]{\lvert\kern.1em{#1}\rvert}
+\newcommand{\norm}[1]{\lVert\kern.1em{#1}\rVert}
+\newcommand*{\pd}[2]{\mathchoice{\frac{\partial #1}{\partial #2}}
+  {\partial #1/\partial #2}{\partial #1/\partial #2} {\partial
+  #1/\partial #2}}
+\newcommand*{\od}[2]{\mathchoice{\frac{d#1}{d#2}}
+  {d#1/d#2}{d#1/d#2}{d#1/d#2}}
+
+\hyphenation{Noeth-er Helm-holtz Poh-jan-pel-to}
+\newcommand\lasku{\count1=1}
+\newcommand\katso{\showthe\count1}
+\begin{document}
+\centerline{\large{\scshape{\color{heading} MTH 430 Metric Spaces and Topology}}}
+\vskip3pt
+\centerline{\large{\scshape{\color{heading} Spring Term 2021}}}
+\vskip3pt
+\centerline{\large{\ttfamily Midterm Exam}}
+\vskip2pt
+%\centerline{\em{\color{duecolor} Due April 9, 2019}}
+\vskip15pt
+
+%\begin{problem}
+%Show that in a Hausdorff space, any point is a closed set.
+%\end{problem}
+%\begin{problem}
+%Show that the real line is homeomorphic with the interval $(0,1)$.
+%\end{problem}
+%\begin{problem}
+%Explain why any closed subset of a compact space must be compact.
+%\end{problem}
+\begin{problem}
+Let $f\colon X\to Y$ be a function where $X$ is a topological space. Let $\tau_{Y,f}=\{U\subset Y\,\vert\,\mbox{$f^{-1}(U)\subset X$ is open}\}$. Show that $\tau_{Y,f}$ is a topology on $Y$.
+\end{problem}
+
+\begin{problem} Let $X$ be a topological space and let $A\subset X$. Show that the closure $\closure{8pt}{A}$ (the union of A with all its limit points) of $A$ is the smallest closed set containing $A$. 
+\end{problem}
+
+\begin{problem} Let $X$ be a Hausdorff space, and let $\mathcal C\subset X$ be compact. Show that for every $p\in X\setminus \mathcal C$ there are disjoint open sets $\mathcal O_1$, $\mathcal O_2$ such that $\mathcal C\subset \mathcal O_1$ and $p\in\mathcal O_2$. 
+\end{problem}
+\begin{problem}
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Show that $f\colon X\to Y$ is continuous if and only if $f^{-1}(C)\subset X$ is closed for every closed $C\subset Y$.
+\item Then show that a function $f\colon X\to Y$ is continuous if and only if $f(\overset{\raisebox{1pt}{\hspace{0.2em}\text{\rule{7pt}{0.2mm}}}}{A})\subset \overset{\raisebox{1pt}{\hspace{0.1em}\text{\rule{20pt}{0.2mm}}}}{f(A)}$ for all $A\subset X$.
+\end{list}
+\end{problem}
+%\begin{problem}
+%Let $f\:S\to T$ be continuous (in the $\epsilon$-$\delta$-sense), where $S$, $T$ are 
+%metric spaces. Show that the inverse image $f^{-1}(\mathcal O)$ of an open set $\mathcal O\subset T$
+%is open in $S$. 
+%\end{problem}
+%\begin{problem} Suppose $Z\subset X$ is a connected subset of a topological space $X$ in the relative topology. Show that the closure $\overline Z$ is also connected.
+%\item{3.} Show that the closure $\overline{A} = A\cup A'$, where $A'$ is the set of
+%accumulation points of a set $A\subset X$ in a topological space $X$.
+%\end{problem}
+\begin{problem}
+Let $\beta=\{[a,b)\;|\; -\infty<a<b<\infty\}$ be the collection
+of half-closed finite intervals on $\Bbb R$, and let $\tau$ be the topology generated by it. Show that $\beta$ is indeed a basis for $\tau$.
+Is $\tau$ Hausdorff?
+Is $\tau$ coarser or finer (or neither) than the 
+standard topology of $\R{}$?
+\end{problem}
+
+%\begin{problem}
+%Let $f$ be a continuous bijection from a compact space $X$ onto a Hausdorff space $Y$. Show that $f$ is a homeomorphism.
+%\end{problem}
+
+\begin{problem} Let $X$ be a topological space and let $A\subset X$ be both open and closed. Suppose $B\subset X$ is connected. Show that either $B\subset A$ or $A\cap B=\emptyset$.
+
+\end{problem}
+ 
+\begin{problem} Let $K_1\supset K_2\supset K_3\supset\cdots$ be a sequence of non-empty, closed and compact sets in some topological space $X$. Show that $K_1\cap K_2\cap K_3\cap\cdots\neq\emptyset$.
+\end{problem}
+%\begin{problem}
+%Let $(X,d)$ be a metric space. Show that $x\in X$ is in the closure of a set $A\subset X$ if and only if $\inf\{d(x,a)\,\vert\,a\in A\}=0$.
+%\end{problem}
+%\begin{problem}
+%Show that the the finite complements topology on any set $X$ is the coarsest topology in which single points are closed sets.
+%\end{problem}
+\end{document}
+\vskip5pt 
+\begin{problem} Recall that a function is continuous if the inverse image of any open set in $Y$ is open in $X$.
+\begin{enumerate}[(a)]
+\item Since any open set in the original topology is also open in any finer topology of $X$, $f$ is continuous in the new topology.
+\item Let $\tau_{X,f}=\{f^{-1}(U)\subset X\,\vert\,\mbox{$U\subset Y$ is open}\}$ be a collections of subsets of $X$. It is easy to see that $\tau_{X,f}$ is a topology, cf.~assignment I, problem 2, and by construction, it is the coarsest topology on $X$ in which $f$ is continuous. Thus, given a topology $\tau_1$ on $X$, $f$ is continuous if $\tau_1$ is finer than $\tau_{X,f}$ and $f$ is not continuous if $\tau_1$ is properly coarser than $\tau_{X,f}$.
+\item Let $\tau_{Y,f}=\{U\subset Y\,\vert\,\mbox{$f^{-1}(U)\subset X$ is open}\}$. Again one can check that $\tau_{Y,f}$ is a topology, and by definition, it is the finest topology on $Y$ in which $f$ is continuous. Thus given a topology $\tau_2$ on $Y$, $f$ is continuous if $\tau_2$ is coarser than $\tau_{Y,f}$ (cf.~part (d)) and $f$ is not continuous if $\tau_2$ is properly finer than $\tau_{Y,f}$.  
+\item Since any set open in the new topology is also open in the original topology, $f$ is continuous in the new topology.
+\end{enumerate}
+\item
+Let $X$ and $Y$ be two topological spaces, and let $f\colon X\to Y$ be some map.
+Equip the image $f(X)\subset Y$ with the relative topology. Show that $f$ is continuous if and only if $f\colon X\to f(X)$ (that is, $f$ considered as a map onto its image) is continuous. 
+\vskip5pt 
+\noindent
+{\bf Solution:} Write $\widehat{f}$ for the map onto $f(X)$. Suppose first that $f\colon X\to Y$ is continuous, and let $U\subset f(X)$ be open. Then $U=f(X)\cap O$, where $O\subset Y$ is open. Now $\widehat{f}^{-1}(U)=f^{-1}(O)$ (check!), which is open by the continuity of $f$.
+\vskip3pt
+\noindent
+Next assume that $\widehat{f}$ is continuous, and let $O\subset Y$ be open. Then $f^{-1}(O)=\widehat{f}^{-1}(O\cap f(X))$, which is open as $O\cap f(X)\subset f(X)$ is open in the relative topology.  
+\item 
+\begin{enumerate}[(a)]
+\item Let $X$ a topological space, and suppose that there is $x\in X$ such that $X\setminus\{x\}$ is a union of two disjoint open sets. Let $Y$ be homeomorphic with $X$. Show that there is $y\in Y$ such that $Y\setminus\{y\}$ is a union of two disjoint open sets.
+\item Show that the real line $\R{}$ and the plane $\R2$ can not be homeomorphic.
+\end{enumerate}
+
+\newpage
+\noindent
+{\bf Solution:}
+\begin{enumerate}[(a)]
+\item Let $f\colon X\to Y$ be the homeomorphism, and let $y=f(x)$. Then $f\colon X\setminus\{x\}\to Y\setminus\{y\}$ is a bijection. Since $f$ is a homeomorphism, it is also an open map. Write $X\setminus\{x\}=U_1\cup U_2$, where $U_1$, $U_2$ are open and disjoint. Then $Y\setminus\{y\}=f(U_1)\cup f(U_2)$, where $f(U_1)$, $f(U_2)$ are open and disjoint.
+\item Suppose $\R{}$ and $\R2$ were homeomorphic under $f$. Now $\R{}\setminus\{0\}$ is the union of two disjoint open sets, so by part (a), $\R2\setminus\{f(0)\}$ would also be a union of two disjoint open sets. But this is a contradiction as any two points in $\R2\setminus\{f(0)\}$ can be connected with a continuous curve. (We will return to this when we discuss path connectedness.) 
+\end{enumerate}
+\item 
+\begin{enumerate}[(a)]
+\item Let $X$ be any set, and let $\tau=\{A\subset X\,\vert\,\mbox{ $A=\emptyset$ or $X\setminus A$ is finite}\}$. Show that the collection $\tau$ of subsets of $X$ forms a topology. (This is so-called finite complements topology.)
+\item Show that the finite complements topology on the real axis is not Hausdorff.
+\end{enumerate}
+\vskip5pt 
+\noindent
+{\bf Solution:}
+\begin{enumerate}
+\item Clearly $\emptyset$, $X\in\tau$. Let $U_\alpha$, $\alpha\in\mathcal A$, be any sets in $\tau$. Then $(\cup_{\alpha\in\mathcal A}U_\alpha)^\complement=\cap_{\alpha\in\mathcal A}U_\alpha^\complement$, which is finite, so $\cup_{\alpha\in\mathcal A}U_\alpha\in\tau$. Here $V^\complement$ denotes the complement of a set $V$. Next let $U_1$,\dots, $U_n\in\tau$. Then $(U_1\cap\cdots\cap U_n)^\complement = U_1^\complement\cup\cdots\cup U_n^\complement$, which again is finite. Thus $U_1\cap\cdots\cap U_n\in\tau$.
+\item Consider $0$, $1\in\R{}$. Let $U_o$, $U_1$ be any two neighborhoods of $0$, and $1$, respectively. Then $(U_o\cap U_1)^\complement = U_o^\complement\cup U_1^\complement$, which is finite. As there are infinitely many real numbers, $U_o\cap U_1\neq\emptyset$. 
+\end{enumerate}
+\item 
+\begin{enumerate}[(a)]
+\item Let $X$ be a compact space, and let $A\subset X$ be closed. Show that $A$ is compact in the relative topology.
+\item Show by the way of an example that the above claim may fail if $A$ is not closed in $X$.
+\end{enumerate}
+\vskip5pt 
+\noindent
+{\bf Solution:}
+\begin{enumerate}
+\item Let $U_\alpha$, $\alpha\in\mathcal A$, be an open cover of $A$. By definition, $U_\alpha=A\cap O_\alpha$, where $O_\alpha\subset X$ is open. Now the sets $O_\alpha$, $\alpha\in\mathcal A$, $A^\complement$, form an open cover of $X$. But $X$ is compact, so it admits a finite subcover $O_{\alpha_1}$,\dots,$O_{\alpha_n}$, $A^\complement$. Then $U_{\alpha_1}$,\dots,$U_{\alpha_n}$ covers $A$ so $A$ must be compact.
+\item By Heine-Borel, the closed interval $[0,1]$ is compact, but the open interval $(0,1)\subset[0,1]$, as we've seen in class, is not. 
+%$\raisebox{-5pt}{\Large\urcorner}$
+\end{enumerate}
+\end{list}
+\vskip10pt
+\noindent
+{\bf Extra: Solution to problem 1(c), assignment II:} Recall that a set $O\subset\R{}$ is open if for any $x\in O$, there is an $\epsilon>0$ such that the open interval $(x-\epsilon,x+\epsilon)\subset O$. Thus, given the definition of an accumulation point, the rationals $\mathbb Q{}$ are dense in $\R{}$, if, given any real number $r\in\R{}\setminus\mathbb Q$ and $\epsilon>0$, there is some $q\in\mathbb Q$ such that $|r-q|<\epsilon$. This can be seen hold true by truncating the decimal expansions of real numbers. As an example, which will also show how to do the general case, consider $\pi=3.14159265359\dots$, and let $\epsilon_1=0.1$. Choose $q_1=3.1=31/10$. Then $|\pi-q_1|=0.041\dots<\epsilon_1$. Next, say, let $\epsilon_2=10^{-5}$. Choose $q_2=3.14159=314159/100000$. Then $|\pi-q_2|=0.00000265\dots<10^{-5}$. And so on. 
+\end{document}
+\vskip15pt
+\noindent
+\begin{problem}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item If sets $C$ and $D$ satisfy $C\subset D$ and $D\subset C$, then $C=D$. Thus, pick $y\in f(A_1\cup A_2)$ so that $y=f(a)$ for some $a$ contained in $A_1$ or $A_2$ (or both). Now it follows that $y\in f(A_1)\cup f(A_2)$. And so on \dots. 
+%\item Again, choose an arbitrary element in the set on the left-hand side and show that it must be contained in the set on the right-hand side. It is also easy to find examples in which the inclusion is strict. 
+\end{list}
+\end{problem}
+\begin{problem}
+One can derive these identities as in problem \#1.
+\end{problem}
+\begin{problem}
+The problem can be dealt with by proving that $(a)\Rightarrow(b)\Rightarrow(c)\Rightarrow(d)\Rightarrow(e)\Rightarrow(a)$.
+
+\vspace{3pt}
+\begin{tabular}{lp{13.4cm}}
+$(a)\Rightarrow(b):$ & Suppose not. Since $A\subset f^{-1}(f(A))$ for any $A$, there is some\vfil ${b\in f^{-1}(f(A))\setminus A}$. Then $f(b)\in f(A)$, so $f(b)=f(a)$ for some $a\in A$. Thus $f$ can not be injective.\\
+$(b)\Rightarrow(c):$ & Again, suppose not. Already know that $f(A\cap B)\subset f(A)\cap f(B)$, so there must be some $y\in f(A)\cap f(B)\setminus f(A\cap B)$. Then $y=f(a)$, $y=f(b)$ for some $a\in A\setminus A\cap B$, $b\in B\setminus A\cap B$. Thus $\{a\}\subsetneq f^{-1}(f(\{a\})$ so (b) fails.
+\\
+$(c)\Rightarrow(d):$ & Obvious.\\
+$(d)\Rightarrow(e):$ & Now $A=(A\setminus B)\cup B$, so $f(A) = f(A\setminus B)\cup f(B)$, and, by (d), $f(A\setminus B)\cap f(B)=\emptyset$. Thus $f(A\setminus B)=f(A)\setminus f(B)$.\\
+$(d)\Rightarrow(e):$ & Suppose that $f(a)=f(b)=y$ for some $a\neq b$. Let $A=\{a,b\}$, $B=\{b\}$. Then $f(A\setminus B)= \{y\}$ but $f(A)\setminus f(B)=\emptyset$. Thus (e) fails.
+\end{tabular} 
+\end{problem}
+\begin{problem}
+Obviously, $\emptyset, X\in\tau$, and $\tau$ is closed under unions. Hence we only need to prove that $\tau$ is closed under finite intersections. First, it follows from the second assumption that the intersection $B_1\cap B_2\in\tau$ for any $B_1, B_2\in\beta$.
+
+Next, given any $X, Y\in\tau$, write 
+\[X=\cup_{\kappa\in\mathcal K} B_{1,\kappa},\quad Y=\cup_{\lambda\in\mathcal L} B_{2,\lambda}, \quad\text{where $B_{1,\kappa}, B_{2,\lambda}\in\beta$}.
+\] 
+Then, by the above, 
+\[
+X\cap Y = \cup_{\kappa\in\mathcal K, \lambda\in\mathcal L} B_{1,\kappa}\cap B_{2,\lambda}\in\tau.
+\] 
+Finally, use induction in the number of sets in an intersection. 
+\end{problem}
+\begin{problem}
+The problem simply boils down to finding inverse images of elements of $\beta$ under the given mapping. Note that the topology $\tau$ determined by $\beta$ consists of unions of intervals $[a,b)$, $a<b$. Thus, for example, in part (b), $f^{-1}([0,1))=(-1,0]$, which is not contained in $\tau$. Thus $f$ can not be continuous.   
+\end{problem}
+\end{document}
+In this problem you need to show that the collection of sets $\tau=\{\text{all unions of $B\in\beta$}\}$ is a topology, that is, it satisfies,
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item $\emptyset$, $X\in\beta$. 
+\item If $\{B_\alpha\}$ is any collection of sets in $\beta$, then the union $\cup_\alpha B_\alpha\in\tau$.
+\item If $B_1$, $B_2$, \dots, $B_k\in\tau$, then the finite union $B_1\cap B_2\cap\cdots\cap B_k\in\tau$ for any $B_1, B_2\in\beta$. Next, given any $X, Y\in\tau$, write 
+\[X=\cup_{\kappa\in\mathcal K} B_{1,\kappa},\quad Y=\cup_{\lambda\in\mathcal L} B_{1,\lambda}
+\] 
+\end{list} 
+Conditions 1 and 2 are more or less immediate. As to 3, first show that the intersection $B_1\cap B_2$ of two sets $B_1$, $B_2\in\tau$ again lies in $\tau$. 
+\newcounter{nested}
+\begin{assignment}({\em{\color{duecolor} Due Thursday, April 9th, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $f\colon X\to Y$ be a function. If $A\subset X$ and $B\subset Y$, then the image $f(A)$ of $A$ and the inverse image $f^{-1}(B)$ of $B$ are defined by 
+$$f(A)= \{f(a)\,\vert\, a\in A\},\quad\quad f^{-1}(B) = \{a\in A\,\vert\, f(a)\in B\}.$$
+Prove the following statements.
+\begin{enumerate}[(a)]
+\item For all $A_1$, $A_2\subset X$, $f(A_1\cup A_2)=f(A_1)\cup f(A_2)$.
+\item For all $A_1$, $A_2\subset X$, $f(A_1\cap A_2)\subset f(A_1)\cap f(A_2)$.
+\end{enumerate}
+
+\item Prove the following statements.
+\begin{enumerate}[(a)]
+\item For all $B_1$, $B_2\subset X$, $f^{-1}(B_1\cup B_2)=f^{-1}(B_1)\cup f^{-1}(B_2)$.
+\item For all $B_1$, $B_2\subset X$, $f^{-1}(B_1\cap B_2)=f^{-1}(B_1)\cap f^{-1}(B_2)$.
+\end{enumerate}
+\item (15 points) Let $f\colon X\to Y$ be a function. Prove that the following are equivalent.
+\begin{enumerate}[(a)]
+\item $f$ is injective.
+\item For all $A\subset X$, $f^{-1}(f(A))=A$.
+\item For all $A$, $B\subset X$, $f(A\cap B)=f(A)\cap f(B)$.
+\item For all $A$, $B\subset X$, $A\cap B=\emptyset$ implies that $f(A)\cap f(B)=\emptyset$.
+\item For all $A$, $B\subset X$ with $B\subset A$, $f(A\setminus B)=f(A)\setminus f(B)$.
+\end{enumerate}
+\item Let $X$ be a set and let $\beta$ be a collection of subsets of $X$ such that 
+\begin{enumerate}[(a)]
+\item For every $p\in X$, there is some $B\in\beta$ such that $p\in B$.
+\item Let $p\in B_1\cap B_2$, where $B_1, B_2\in\beta$. Then there is some $B_3\in\beta$ such that $p\in B_3\subset B_1\cap B_2$.
+\end{enumerate}
+Show that the family of subsets of $X$ consisting of all unions of the members of $\beta$ together with the empty set $\emptyset$ form a topology on $X$. Explain why the above statement is stronger (and hence more useful) that Theorem 2.5 in the course text.
+\item Let $X=\R{}$ and suppose that $\R{}$ is equipped with the topology defined by the basis $\beta=\{[a,b)\,\vert\,a<b\}$. Call this space $\R{}_\tau$. Which of the following functions $f\colon \R{}_\tau\to\R{}_\tau$ are continuous?
+\begin{enumerate}[(a)]
+\item $f(x) = 2x-5$
+\item $f(x) = -x$
+\item $f(x) = x^2$
+\end{enumerate}
+\end{list}
+\end{assignment}
+\end{document}
+
+\item Let $\mathcal P=\{(x,y,x,w)\in\R4\,\vert\, x,y,w\in \R{}\}$ and $\mathcal Q=\{(x,y,z,x)\in\R4\,\vert\,x,y,z\in\R{}\}$. Describe the intersection $\mathcal P\cap\mathcal Q$.
+\item Find all vectors $\vb$ in $\R5$ that is orthogonal to all the three vectors
+$$
+<1,2,0,0,-2>,\quad <-2,1,2,1,0>,\quad <0,-2,1,0,2>.
+$$
+\item Let $R_\alpha$ denote the rotation in $\R3$ about the axis determined by the vector $\vb = \jb + 2\kb$ by angle $\alpha$. (Here the $\kb$ component of the image of $\jb$ is positive for small $\alpha$.) Find the images of $\ib$, $\jb$, and $\kb$ under $R_\alpha$.
+\item Show that $\ub\times(\vb\times\wb) = (\ub\times\vb)\times\wb +\vb\times(\ub\times\wb)$ for any vectors $\ub$, $\vb$, $\wb$. Thus the cross product is not associative.
+\item A fluid is flowing at a constant velocity of $<1,-1,0>$. Find the volume of fluid flowing through the triangle determined by $<1,0,1>$ and $<2,-1,1>$ in one second. (Here and elsewhere in this course we use metric units.)  
+\item Strang, \S 11.3, problems 37, 47, 48.
+\item OpenStax, Ch.~2, problems 70, 107, 219, 283. 
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on January 22, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $f(x,y)=x^2y$, and let $D=[0,1]\times[0,1]$ be the unit square. Suppose $D$ is partitioned by $\mathcal P_n$, $n\in\mathbb N$, where $\mathcal P_n$ consists of the squares $[\dfrac{k-1}{2^n},\dfrac{k}{2^n}]\times[\dfrac{l-1}{2^n},\dfrac{l}{2^n}]$, $1\leq k,l\leq 2^n$. Find the upper and lower sums $U(f,\mathcal P_n)$, $L(f,\mathcal P_n)$ for $n\in\mathbb N$, and show that $f(x,y)$ is integrable over $D$. What is the value of the integral $\iint_D f\,dA$?
+\item Let $F(x,y) = (2x-y,5x+3y)$. Find the inverse function for $F(x,y)$ and then compute the Jacobians of $F(x,y)$ and its inverse. What do you notice?
+\item 
+Find the Jacobian of
+\begin{enumerate}[(a)]  
+\item  $F(x,y) = (\text{e}^x\cos y,\text{e}^x\sin y)$. 
+\item $F(x,y)=(f(y), g(x))$. When is $F(x,y)$ orientation preserving/reversing?
+\end{enumerate}
+\item Solve problems 120 and 121 on page 525 in OpenStax using elementary Euclidean geometry.
+\item OpenStax Ch.~5, problems 86, 89, 97, 98, 111, 113, 361, 363, 370, 388. 
+\item Strang, \S 14.2, problems 17, 19, 21.
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on January 29, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $T$ be the transformation from the $uv$-plane into the $xy$-plane defined by $x=u^2-v^2$, $y=2uv$. 
+\begin{enumerate}[(a)]
+\item Find the image under $T$ of the unit square $S=\{(u,v)\,\vert\,0\leq u\leq1, 0\leq v\leq1\}$ in the $xy$-plane.
+\item Introduce polar coordinates $r$, $\theta$ in the $uv$-plane. Find the image under $T$ of the wedge $0<r<2$, $0<\theta<\dfrac\pi{3}$ in the $xy$-plane.
+\end{enumerate}
+
+\item Let $S$ be the region in the $xy$-plane bounded by the lines $y-x=0$, $y-x=2$, $y+x=0$, $y+x=2$. 
+\begin{enumerate}[(a)]
+\item Find a transformation from the $xy$-plane into the $uv$-plane such that the image of $S$ is the $uv$-plane is the unit square $\{(u,v)\,\vert\,0\leq u\leq1, 0\leq v\leq1\}$. 
+\item Evaluate the integral $\iint_S \sqrt{y^2-x^2}\, dA$ by a change of variables under the transformation you found in part a. 
+\end{enumerate}
+\item Let $S$ be the the trapezoid bounded by the lines $y=x+1$, $y=x+3$, $y=4-2x$, $y=5-x$. Find a transformation from the $xy$-plane into the $uv$-plane such that the image of $S$ is the unit square $\{(u,v)\,\vert\,0\leq u\leq1, 0\leq v\leq1\}$. 
+\item Let $D_\lambda\colon\R2\to\R2$, $\lambda>0$, be the dilation $D_\lambda(x,y)=(\lambda x,\lambda y)$. Suppose the a region $S$ has area $A(S)$. Find the area of $D_\lambda(S)=\{(\lambda x,\lambda y)\,\vert\,(x,y)\in S\}$.
+\item  Denote $\R2$ with the origin removed by $\R{2^*}$. Let $\text{Inv}\colon\R{2^*}\to\R{2^*}$ be the inversion $\text{Inv}(x,y)=(\dfrac{x}{x^2+y^2},\dfrac{y}{x^2+y^2})$. Find the inverse function and the Jacobian of $\text{Inv}$. What is the image of the circle $x^2+y^2=r^2$ under $\text{Inv}$?
+\item OpenStax Ch.~5, problems 389, 397, 400 (fix a typo!), 402.
+\item OpenStax Ch.~6, problems 56, 59, 64 (solve these by hand). Fix a typo in example 6.19.
+\item Strang, \S 15.2, problems 6, 19, 21. 
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on February 12, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Problems 7 and 8 in the previous week's assignment.
+\item OpenStax Ch.~6, problems 65, 70, 86, 103, 105, 139, 146, 148, 163, 168.
+\item Strang \S 15.1, problems 15, 32. 
+\item Strang \S 15.2, problems 22, 28.  
+\item Strang \S 15.3, problems 29, 33.
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on February 26, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item OpenStax Ch.~6, problems 328, 335, 338, 341, 364, 367, 375.
+\item Strang \S 15.6, problems 10, 12, 16, 17, 28, 30, 46. 
+
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on March 4, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item OpenStax Ch.~6, problems 385, 388, 394, 406, 408, 424.
+\item Strang \S 15.5, problems 12, 15, 18, 25.
+\item Lax, Terrell, problems 8.26, 8.28. 
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} For the week ending on March 11, 2020}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{4pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Lax, Terrell, problems 9.4, 9.5 b),c), 9.6 b), d), 9.10, 9.11. 
+\end{list}
+\end{assigment}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{assignment}({\em{\color{duecolor} Due October 14, 2019}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item R\&R, problem 4, $(a),\dots(d)$, page 39.
+\item R\&R, problem 8, page 47.
+\item R\&R, problem 3, page 59.
+\item R\&R, problem 22 (b), page 60.
+\end{list}
+\end{assignment}
+
+\begin{assignment}({\em{\color{duecolor} Due October 21, 2019}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item\begin{enumerate}[(a)]
+\item Show that for all $n\geq5$, $2^n>n^2$.
+\vskip2pt
+\item Prove that for all $n\geq1$, 
+\begin{equation*}
+1-\dfrac12+\dfrac13-\dfrac14+\cdots+\dfrac1{2n-1}-\dfrac1{2n}=
+\dfrac1{n+1}+\dfrac1{n+2}+\cdots+\dfrac1{2n}\,.
+\end{equation*}
+\end{enumerate}
+\item R\&R, problem 13, page 70.
+\item R\&R, problem 10, page 76.
+\end{list}
+
+\end{assignment}
+
+\begin{assignment}
+({\em{\color{duecolor} Due October 28, 2019}})
+\newline
+\indent\textbf{0)} Problem 3, homework assignment III.
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item R\&R, problem 8, page 76 (You need not consider a leap year).
+\item R\&R, problem 14, page 76.
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} Due November 13, 2019}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item R\&R, problem 22, page 87.
+\item R\&R, problem 1, $(b)$, $(e)$, page 94.
+\item R\&R, problem 8, page 95.
+\end{list}
+\end{assignment}
+
+\begin{assignment}({\em{\color{duecolor} Due November 25, 2019}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item R\&R, problem 11, page 101
+\item R\&R, problem 15, page 101 
+\item R\&R, problem 6, page 109
+\end{list}
+\end{assignment}
+
+\begin{assignment}({\em{\color{duecolor} Due December 4, 2019}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item R\&R, problem 6, $(b)$, $(c)$, $(d)$, page 131.
+\item R\&R, problem 6, page 140.
+\item R\&R, problem 7, $(c)$, page 146.
+\end{list}
+\end{assignment}
+\end{document}
+\begin{problem}
+Let $X$ be a set and let $\beta$ be a collection of subsets of $X$ such that 
+\begin{list}{\textbf{\roman{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item For every $p\in X$ there is some $B\in\beta$ such that $p\in B$.
+\item Let $p\in B_1\cap B_2$, where $B_1, B_2\in\beta$. Then there is some $B_3\in\beta$ such that $p\in B_3\subset B_1\cap B_2$.
+\end{list}
+Show that the family of subsets of $X$ consisting of all unions of the members of $\beta$ together with the empty set $\emptyset$ form a topology on $X$. Explain why the above statement is stronger (and hence more useful) that Theorem 2.5 in the course text.
+\end{problem}
+\begin{problem} Show that the following collections $\tau$ of subsets of $X$ form a topology in the given space.
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $X=\R{}$ with $\tau$ consisting of all subsets $B$ of $\R{}$ such that $\R{}\setminus B$ contains finitely many elements or is all of $\R{}$.
+\begin{comment}
+\item Let $X = [-1,1]$ with $\tau$ consisting of the sets $[-1,b)$, $(a,1]$, $(a,b)$, where $0<b<1$, $-1<a<0$, together with $\emptyset$ and $[-1,1]$.
+\end{comment}
+\item Let $X=\{a,b,c\}$ and $\tau = \{\emptyset, \{c\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}$.
+\end{list}
+\end{problem}
+\begin{problem}
+Let $X=\R{}$ and suppose that $\R{}$ is equipped with the topology defined by the basis $\beta=\{[a,b)\,\vert\,a<b\}$. Call this space $\R{}_\tau$. Which of the following functions $f\colon \R{}_\tau\to\R{}_\tau$ are continuous?
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item $f(x) = 2x-5$
+\item $f(x) = -x$
+\item $f(x) = x^2$
+\end{list}
+\end{problem}
+\end{document}
+\begin{problem}
+Let $\openset\subset\R2$ be an open set. A \emph{proper coordinate patch} is a one-to-one immersion $\mathbf{x}\colon\openset\to\R3$ such that the inverse function $\mathbf{x}^{-1}\colon\mathbf{x}(\openset)\to\openset$ is continuous in the subspace topology of $\mathbf{x}(\openset)$. A \emph{surface} is a subset $\smfld\subset\R3$ equipped with the subspace topology such that for each point $\pnt\in\smfld$, there is a proper coordinate patch whose image contains a neighborhood of $\pnt$ in $\smfld{}$. 
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item The torus $T^2$ is the image of the mapping \[\mathbf{x}(u,v) = ((R+r\cos u)\cos v,(R+r\cos u)\sin v,r\sin u),\qquad r<R.\] Show that the torus is a surface.
+\item Prove that a surface is also a differentiable manifold.  
+\end{list}
+\end{problem}
+\newcounter{projective}
+\begin{problem}\setcounter{projective}{\theprob}
+The complex projective space $\CP1$ is defined as the set of all $1$ dimensional complex subspaces of $\cx2=\cx{}\times\cx{}$, or alternatively, the orbit space of the action of $\cxp{}=\cx{}\smallsetminus\{0\}$ on $\cxp2=\cx2\smallsetminus\{(0,0)\}$ by multiplication. Write $\projP\colon\cxp2\to\CP1$ for the projection. Endow $\CP1$ with the usual quotient topology so that a set $U\subset\CP1$ is open if and only if the union of all lines constituting $U$ (with the origin removed) is open in $\cxp2$, cf.~Lee, pp.~604-606 and \href{http://en.wikipedia.org/wiki/Quotient_space_%28topology%29}{\textbf{\color{hyperlink}Quotient space}} in Wikipedia.
+\newcounter{atlas} 
+\newcounter{charts}
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Explain why the quotient topology on $\CP1$ is second countable and Hausdorff, and show that the projection map $\projP$ is open.
+\item\setcounter{charts}{\thespacerule} Define an atlas of coordinate charts on $\CP1$ in analogy with the standard coordinate charts for $\RP1$ constructed in class, and show that these are homeomorphisms. Also identify the image of each coordinate map. 
+\item \setcounter{atlas}{\thespacerule} Find the transition functions ({\it a.k.a.~}the change of coordinate maps) for the atlas for $\CP1$ constructed in part \alph{charts}. 
+\end{list}
+\end{problem}
+
+\begin{problem}
+Let $\CP1$ be the complex projective space as in problem \Roman{projective}.
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Show that the projection $\projP\colon\cxp2\to\CP1$ is a smooth mapping.
+\item Compute the rank of the projection $\projP$ at every point in $\cxp2$.
+\item Use part \alph{atlas} of problem \Roman{projective} to show that $\CP1$ is diffeomorphic to the unit sphere $S^2$.
+\end{list}
+\end{problem}
+\end{document}
+%\begin{problem}
+%A regular space curve $\curve$ is called a (generalized) helix if there is a constant unit vector $\unitv$ so that the angle between $\T(s)$ and $\unitv$ does not depend on $s$. Show that a space curve with $\curvature(s)>0$ is a helix if and only if $\torsion(s)/\curvature(s)$ is constant.  
+%\end{problem}
+\newcounter{bases}
+\newcounter{grassmann}
+\begin{problem}\setcounter{grassmann}{\theprob}
+Let $\Gr n 2$ denote the Grassmannian space of $2$\,--\,dimensional (vector) subspaces in $\R n$. 
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item\setcounter{bases}{\thespacerule} Let $\plane\in\Gr n 2$. Then any two bases $\{\vb_1,\vb_2\}$, $\{\wb_1,\wb_2\}$ for $\plane$ are related by 
+\begin{equation}\label{eq:equivalence}
+\wb_i = \sum_{j=1,2} a_i^j\vb_j,\qquad i=1,2,
+\end{equation}
+where $(a_i^j)\in GL(2)$ is an invertible $2\times 2$ matrix. Conclude that $\Gr n 2$
+can be identified with the equivalence classes of linearly independent pairs of vectors $\{\vb_1,\vb_2\}$, where $\{\vb_1,\vb_2\}\sim\{\wb_1,\wb_2\}$ provided that equation \eqref{eq:equivalence} holds for some $(a_i^j)\in GL(2)$.
+\item Let $GL(2)$ act on the space $\rktwos$ of $2\times n$ matrices of rank $2$ by left multiplication. Use part \alph{bases} to show that the orbit space $\rktwos/GL(2)$ of the action can be identified with $\Gr n 2$.
+\item Equip $\rktwos$ with the subspace topology as an open subset of $\R{2n}$, and equip $\Gr n 2$ with the usual quotient topology. Conclude that the projection $\projGr\colon\rktwos\to\Gr n 2$ is an open mapping.  
+\item Let $\rktwo i j\subset\rktwos$ denote the set of rank $2$ matrices whose minor consisting of the $i$th and $j$th columns is invertible. Show that the action of $GL(2)$ on $\rktwos$ preserves the sets $\rktwo i j$ and that every $GL(2)$ orbit in $\rktwo i j$ contains a unique matrix whose $i,j$-minor is the identity matrix.  
+\item\setcounter{atlas}{\thespacerule} Conclude that every plane $\plane\in\rktwo i j$ can be identified with a unique $(n-2)\times2$ matrix. (For example, with $n=4$ and $i=1$, $j=3$, the $2\times2$ matrix $\left(\begin{matrix} a&b\\c&d\end{matrix}\right)$ would correspond to the plane admitting the basis $\vb_1=(1,a,0,b)$, $\vb_2=(0,c,1,d)$.)
+\item Show that each $\Grs i j=\projGr(\rktwo i j)\subset\Gr n 2$ is open, and use part \alph{atlas} to define coordinate maps $\varphi_{ij}$ in each $\Grs i j$. In particular, show that each $\varphi_{ij}\colon\Grs i j\to \R{2n-4}$ is a homeomorphism.
+\item Finally compute a representative sample of transition functions to conclude that $\Gr n 2$ forms a differentiable manifold. 
+\end{list}
+\end{problem}
+
+\begin{problem} Let $\CP n$ and $\Gr n 2$ denote the complex projective space and Grassmann manifold constructed in problems $\theprojective$ and $\thegrassmann$.
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{30pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $S^3$ be the unit sphere in $\cx2$ identified with $\R4$, and let the Hopf map $\pi_{H}:S^3\to S^2$ be the restriction of the projection $\projP$ to $S^3$. Describe the inverse image $\pi_H{}^{-1}(p)$ of a point $p\in S^2$.  
+
+\item Show that the projection $\projGr\colon\rktwos\to\Gr n 2$ is differentiable.
+\item Show that each $\Gr n 2$ is compact.
+\item Let $\vsp\subset\R n$, where $n\geq4$, be a fixed $4$-dimensional vector space, and let $\smfld\subset\Gr n 2$ consist of all planes $\plane$ contained in $\vsp$. Is $\smfld$ an embedded submanifold of $\Gr n 2$? 
+
+\end{list}
+\end{problem}
+\end{document}
+\begin{problem}
+Find all unit speed curves $\curve(s)$ with $\curvature(s)=1/(1+s^2)$ and $\torsion(s)=0$.
+\end{problem}
+
+\begin{problem}
+Let $\curve(t)$, $\curveb(t)$ be two regular curves defined on some interval $I$. Then $\curveb$ is called an {\em involute} of $\curve$ provided that for all $t\in I$, $\curveb(t)$ lies on the tangent line to $\curve$ at $\curve(t)$, and the respective tangent vectors to $\curve$ and $\curveb$ at $\curve(t)$ and $\curveb(t)$ are perpendicular.
+\setcounter{spacerule}{1}
+\begin{list}{\textbf{\alph{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\parsep}{0pt}\setlength{\leftmargin}{32pt}\usecounter{spacerule}}
+\item Suppose that $\curve(s)$ is unit speed. Then prove that an involute $\curveb$ of $\curve$ is given by $\curveb(s) = \curve(s)+(c-s)\T(s)$, where $c$ is a constant and $T(s)=\curve'(s)$. Interpret the expression for $\curveb$ geometrically.
+\item Prove that the involute of a slope line is a plane curve.
+\end{list}
+\end{problem}
+\end{document}

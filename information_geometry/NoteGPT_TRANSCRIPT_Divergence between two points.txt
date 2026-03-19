@@ -1,0 +1,45 @@
+00:00:01
+right so now let's talk about divergence functions which intuitively give you a way of measuring something analogous to the distance between uh probability distributions okay so these are divergence functions or divergence between two points but again you know it's like you should always understand this in the context of working on a statistical manifold so points on a statistical manifold are probability distributions so we're basically looking at the divergence between two probability distributions
+
+00:00:45
+okay so let's say we have sort of consider two points let's say p and q in a manifold m and then let's think of the coordinates associated that those coordinates are these okay so a divergence let's denote this as d p colon q right as a function of the coordinates which satisfies certain properties okay so um and oftentimes uh you know we will rewrite uh the divergence between p and q it's like with the divergence between it's like the coordinate representation of the points p and q right
+
+00:02:38
+and often we will write sorry yeah dpq sd because cp cq all right okay so so now let's try to define it's like the properties it's like of this divergence function so d p colon q is a divergence when it satisfies the following okay so the first one is that the divergence between two points is always greater than equal to zero second of which is that uh the divergence between two points is only equal to zero if when and only if and then only when p is equal to q all right so what that means is that d
+
+00:04:31
+of p and q is equal to zero if p is equal to q and this the divergence between two points is equal to zero only when p is equal to q right so yeah so put another way if the divergence between p and q zero that means that p is equal to q okay all right so the third statement is that when p and q are sufficiently close by denoting their coordinates by cp cq um and because cq is going to be because cp plus d because c right the taylor expansion of d is given by d because c p c p plus d c is equal to one half the sum of g i j
+
+00:06:08
+c p d c i d c j plus something which is big o of the norm of d c squared okay all right and then this matrix given by these coefficients is a positive definite matrix that depends on the coordinate okay all right um sort of another way of sort of thinking about the same thing intuitively is that you know it's like that this um the coordinate representation of this divergence function is sufficiently smooth and that its mix partial derivative with respect to the first and second slot evaluated along the diagonal
+
+00:07:26
+is a matrix which is positive definite right so there are sort of many ways of getting at the same basic idea all right so these are the sort of the three properties it's like of a divergence function okay all right so so it denotes some notion of uh a degree of separation it's like between the two points but it's not a distance in the sense that it doesn't satisfy uh things it's not necessarily it's like a distance because it doesn't necessarily satisfy things like the triangle inequality
+
+00:08:07
+okay okay so a divergence sort of represents the degree of separation between two points but it's on its square root is not a distance well not necessarily distance okay so in addition to things like the triangle inequality it also doesn't satisfy sort of the symmetry condition so it does not necessarily satisfy sort of the symmetry condition so in general the divergence of p to q is not necessarily equal to the divergence from q to p okay all right also does not set in general satisfy the triangle inequality
+
+00:10:29
+okay so so that's something to be aware of right doesn't necessarily satisfy the symmetry condition doesn't necessarily satisfy the triangle inequality not necessarily a distance okay all right so so when we say d of p to q right you see the divergence from p to q okay and it has the dimension the dimensions of the square of the distance okay which you can sort of see it's like from unfortunately the third condition which i just erased it's like having to do with the taylor expansion of
+
+00:11:41
+the divergence function okay all right so okay so of course um if you wanted something which was symmetric you can symmetrize the thing right so you can symmetrize a divergence by sort of just doing the obvious thing right so d subscript s to denote symmetrization p of q and just be defined to be the average it's like of d of p q with d of q p right so clearly it's like if you define this object then if i interchange p and q it's like it would still give you the same thing so that would have a
+
+00:12:48
+symmetric property but sort of the asymmetry is plays an important role in information geometry as we'll see later but asymmetry plays an important property as we see later so if you recall it's like the introductory lecture on this besides the divergence function inducing a metric it's like on the space of probability distributions it also induces a pair of f1 connections right so and those pair f connections are in general different and they're different precisely because of the asymmetry of
+
+00:13:42
+the divergence function so if you symmetrize the divergent function then you would end up getting a pair of friend connections which are actually really the same mafia connection and that would just give you basically the levy tv the connection associated with the metric which is induced by the divergence function so and again the point is that that asymmetry the fact that you have a pair of divergence functions sorry a pair of f1 connections plays an important role oftentimes okay um and then one last thing it's about
+
+00:14:20
+you know it's like when things are close enough it's like uh then you can get something which is like a distance so when p and q are sufficiently close all right we can define square off an infinitesimal distance ds right okay so ds squared is equal to 2 times d because c because c plus d c this is going to be the sum of g i j d c i d c j right so if you recall it's like there's this term it shows up in the taylor expansion of the divergence function when the two points are close enough
+
+00:15:46
+together and all this is really saying is that you're using this positive definite matrix as as a metric basically right to measure distances and in particular this is a romanian metric right so a manifold m is said to be romanian when positive definite matrix say g of c right is defined on m and the square of the distance the local distance between two points to nearby points is given by this expression so in particular it's like what this is saying is that if you give me a divergence function that it induces a
+
+00:17:24
+romanian structure on the manifold so given the divergence right there is an induced romanian structure okay all right so all right um but again it's like as you sort of see it's like that romanian structure is infinitesimal and uh you know it's like the notion of this pseudo-like distance it's like which the divergence function introduces on a statistical manifold in general diverges it's like from this notion of romanian distance and that difference is going to be useful i guess we'll see in a little bit
+
+00:18:21
+okay so let me just stop here for now and then we'll talk about examples of divergence functions
+

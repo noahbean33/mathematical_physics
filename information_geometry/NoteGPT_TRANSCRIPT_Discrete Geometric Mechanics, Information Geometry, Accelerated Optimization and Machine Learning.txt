@@ -1,0 +1,420 @@
+00:00:00
+it's a always a pleasure so it's a pleasure it's like to be here even remotely so it's the third time i've visited i guess wisconsin uh and so today i'll be talking about um some of the work we've been doing it's like on connecting um sort of discrete mechanics uh with animation geometry some new directions and accelerated optimization and the potential connections uh to machine learning so so this is uh in collaboration with um sort of a number of my students it's like
+
+00:00:34
+valentine's day risky who's been working with me it's icon on sort of particularly big simulator optimization aspects jeremy schmidt was a former student and ching is a professor of psychology at the university of michigan who's a collaborator of the information geometry aspects and very generously funded by the national science foundation and by the air force so let me try to give you a sense as to what the motivation for all of this is so um part of the goal is to develop in some sense a unification of
+
+00:01:05
+information mechanical systems and this is motivated if you will by the implications for control systems so of course there's a a lot of interest these days in what are called cyber physical systems those these are physical systems or mechanical systems which also of course obviously incorporate some sort of computational or you know cybernetic aspect to it and um i think increasingly um you know it's like the control these systems is hindered by the fact that traditionally one tends to think of
+
+00:01:36
+these uh information theoretic aspects and the mechanical aspects as being destroyed but the reality is that there is no separation of time scales between the information and the physical dynamics and so ideally it's like one would like to be able to formulate both the information theoretic and the mechanical aspects on equal footing in your modeling and your simulation so the way we're going to propose doing this is to relate information geometry and discrete mechanics and what happens when you do that is
+
+00:02:08
+that then you'll be able to realize the various machine learning algorithms as exact time page flows of dynamical systems on the space of probability distributions and this allows you to have a unified treatment of what we're going to call information mechanical systems um so let me try to illustrate it's like where you have you know applications where there's no separation of time scales between the information layer and the um and mechanical system so so of course it's like uh certainly
+
+00:02:35
+in military applications there's been a lot of interest in sort of these micro drones and there is a view towards thinking of having large swarms of these drones okay so so in particular these drones it's like deployed often it's like uh to perform reconnaissance inside buildings um but the problem is that these drones are very easy to disable all you basically have to do is throw a blanket at one of these things it's like obviously it's like they they get caught in it it's uh and um
+
+00:03:05
+you know um they'll crash so what they basically need to do is that they need to fly extremely fast something in the order of 10 meters per second or 22 miles per hour in order to avoid um getting sort of you know these kind of countermeasures it's like applied to them so the problem of course is that you know it's like these drones moving very fast it's like they're going past for example an open door it's like and they see it's like they're exposed to a new information flow
+
+00:03:30
+um which is at the time scale which is comparable to the speed at which they're moving so this really violates the separation of time skills assumption which is intrinsic to this idea that um the traditional approach where you sort of use the information theory it's like to you know develop height level say it's like planning task and then you assume that the mechanical system is always capable of realizing that kind of trajectory generation so anyway so the main point basically is that information gathering and
+
+00:04:02
+coordination of swarms of drones could potentially benefit from a continuous time treatment of learning it's like where again it's like both the mechanical optimal control as well as the optimization in terms of more learning theoretic tasks is treated on an equal footing okay so so let me sort of briefly say what information geometry is so information geometry involves the use of differential geometric tools to describe the manifold or probably density functions and in particular there's a lot of interest in what are
+
+00:04:34
+called well basically parametric families and probably densities for example the exponential family it's like and things like that and so they form a manifold in the ambient speeds of all density functions and you can think of the coordinates it's like on this manifold as being the parameter values of this parametric family so thinking of these things um and i should say that traditionally it's like you know when one does learning task and optimization task there's a tendency to
+
+00:05:05
+treat these parametric representations it's like that's being the natural representation effect of the problem and and the problem with you know treating these problems that way is that that parametric representation doesn't necessarily capture the differential geometric properties it's like of the space of property distributions so um so treating this from a different geometric perspective then allows you to investigate the intrinsic properties of these models as opposed to their parametric
+
+00:05:35
+representations and it naturally leads to geometric concepts like uh the metric f1 connections and curvature and these in turn turn out to be related to statistical issues like um you know the asymptotic efficiency of maximum likelihood estimators so it tells you something about the approximation properties if you will and that the approximation properties are in some sense it's like constrained by geometric properties of the space of probability distributions you work with okay so so how is this then connected to
+
+00:06:04
+machine learning so one way to think of certain classes in learning algorithms is that you can think of them as optimization problems where you're trying to find in some sense a distinguished element of this space of probably distributions that represents your knowledge of the system and so you know there's a sense in which you have a candidate probably distribution and you want that somehow to give you predictions which minimize the mismatch with the data particularly okay and so one way to measure that
+
+00:06:32
+mismatch if you will are what are called divergence or contrast functions um and you can think of them as distance functions which are in some sense asymmetric so you know so the divergence of a comma b is not necessarily equal to the division of b comma a for example and from a geometric perspective what happens is that these divergence functions induce metrics they infuse connections which allow you to define things like parallel transport and then these differential geometric structures can then be used to construct
+
+00:07:00
+optimization algorithms in the sense of optimization of manifolds okay so and and again it's like it gives you a way to to think of these optimization algorithms intrinsically it's like in terms of the geometric properties as opposed in terms of the parametric representations okay and then finally it's like my main area interest is in what is called discrete mechanics and it provides a geometric structure preserving discretization of analytical mechanics particularly in particular lagrange and hamiton
+
+00:07:30
+mechanics and the way we approach this is by looking at discrete variational principles so the connection between you know it's like mechanics information geometry and machine learning has due to the fact that the divergence function which you see information geometry has an interpretation as the discrete lagrangian which is a generating function of the sympathetic map and this discrete lagrangian plays a central role in the street mechanics the same way that the divergence function plays a
+
+00:07:59
+central role in information geometry um and and so that's uh that's really sort of the connection which we're going to attempt to leverage here so in particular this allows you to impart a mechanical interpretation to certain machine learning algorithms and in so doing it allows you to potentially think of these algorithms as again sort of discrete time flows of continuous systems continuous mechanical systems defined on this information man so that's sort of the high level picture
+
+00:08:29
+of what we have in mind um so let me sort of briefly tell you what a divergence function is so divergence function is basically again this sort of you know scalar value function it's like on two copies of the information manifold and it has some regularity assumptions uh it's always uh non-negative right and it's only equal if you know the two points or the two points in the manifold are equal to each other and then there are some properties about the partial derivatives so i should say
+
+00:08:57
+something about the notation here the d sub i just means partial derivative with respect to the x i component and then the comma j means that you're also taking this partial derivative with respect to j component but in the second slot so the before or after the comma refers to whether or not you're differentiating respect to the first parameter or the second parameter it's like in the difference function okay so there's some sort of compatibility condition here um and then um this matrix it's like of
+
+00:09:27
+mixed partial derivatives is positive definite okay so in particular this thing is going to turn out to be something which generates something like a romanian metric on the problem and um yeah so as i said you know these divergence functions are pseudo-distance functions which are non-negative but they don't need to be symmetric so given one of these divergence functions you can then extract certain different geometric objects from this so in particular you can extract a romanian metric so this gij which as i
+
+00:09:57
+said involves these mixed partial derivatives and then you also have these affine connections which involve these sort of triple derivatives it's like of the divergence function evaluated along the diagonal so let me say something about connections if you're not familiar with it so fn connections allow you to make sense of uh you know it's like derivatives in a covariant way so so there are the objects which allow you to define covariant derivatives or manifolds uh they're also the objects which allow
+
+00:10:27
+you to transport vectors from one point to the manifolds and at a point on the manifold and the basic idea behind this is that if you have cursed space and you have tangent spaces to that and you have vectors at say two points in the manifold then there's no canonical way to identify those tangent spaces and the fn connection gives you a way of identifying those those two spaces in some sort of precise sense so if you know something about romanian geometry then you know that uh the the leviticus connection which is
+
+00:10:55
+sort of a very natural fi connection which arises in reminding geometry has the property that it is torsion free and it's metric compatible so metric compatibility basically means that if you have a pair of vectors and you take the romanian inner product between those two things and then you take those two vectors and you parallel transport that with respect to some connection then that remaining inner products these constants it's like along that parallel transfer so something similar happens in the case
+
+00:11:24
+of these uh pairs of affine connections so so here i said that they're torsion-free dual connections and so the duality between these connections has to do with the following things so there are two different ways of parallel transporting vectors and the point is that if you take the first connection in your power transport first vector and you power and parallel transport the second vector with the second connection then the romanian inner product that's between those appropriately parallel transported
+
+00:11:53
+vectors is the same right so in particular obviously the leverage video connection is self-dual in some appropriate sense but more generally it's like you have these pair of connections which are dual respect to the interpreter okay anyhow so you can write these dual connections as um uh something involving the latitude connection it's like and something which is sort of a shift of um t which is called this unit's tensor which is a symmetric covariant tensor all right and the reason why i tell you
+
+00:12:28
+this is because what i'm going to later on as i talk about is sort of an inverse problem so so i've said that if i give you a divergence function i can construct a romanian metric and this pair of dual connections from that so one natural question to ask then is is there a way given a remodeling connection and a pair of these torsion-free dual connections to construct a divergence function which generates those things okay so that's something which we'll return to it's like a later point
+
+00:13:00
+and it turns out there's a nice mechanical connection to this okay so um so so let me now perhaps say something specific about divergence functions and and what are perhaps you know the most commonly used divergence functions so the one of the most commonly used divergence functions which you might have heard of uh or might not have heard of is the bregman divergence okay so these are closet divergence functions which come from a particular choice of a strictly convex function so given a strictly convex function
+
+00:13:29
+you construct this object and then this is this family of divergence functions so perhaps the most famous family uh most famous development of the space of bregman divergences uh is what's called the cold black light blur divergence or the kl divergence so if you've done any machine learning you've probably heard of kl divergences and the kl divergence is a bregman divergence where the strictly convex function in question is the negative shannon entropy and then as i said given the divergence
+
+00:13:58
+function there's an associated romani metric and the associated romanian metric to the um to the kl divergence uh is the facial raw metric okay so so this is a very natural object that's like when working with uh sort of probably distributions and then um you know it's like when in doubt that's what people use okay so all right so so that's sort of the precursor as i said it's like you know um this is this is the stuff on the information geometry now i'm going to give you a quick
+
+00:14:27
+introduction to discrete mechanics and then i will circle back and tell you how these things are connected to each other so so what i'm primarily interested in are a class of numerical methods known as geometric integrators and so these are numerical methods which preserve geometric properties like syntacticity momentum maps as well as the nonlinear manifold structure it's like the configuration spaces you might be working with so in particular it's like if you have a configuration space which
+
+00:14:55
+is a lead group or homogeneous space you might want to develop numerical methods which automatically stay on that okay and the motivation for doing this is that they tend to result in numerical simulations with better longtime numerical stability and better qualitative agreement with the exact flow and so one way to sort of see this obviously is that if you have geometric invariance then the dynamics evolves on the level such as these dimensional variables and so if you have numerical methods with respect that
+
+00:15:21
+uh then typically it's like you know you'll get you know better long-term numerical results as a consequence of this so let me try to say a little bit about what the approach we use to do this is so as i said it's like the main area i'm interested in is analytical mechanics from lagrangian hematology mechanics and there's a there's a nice sort of intrinsic way of thinking about mechanics instead of thinking of it in terms of say newton's second law you can think of it in terms of what is
+
+00:15:53
+called hamilton's principle and what hamilton's principle basically says is that if you have an initial point and a final point then the trajectory which the system actually takes is that which extremizes the action integral which is the integral of kinetic minus potential energy so if you write down the lagrangian the usual lagrangian which is quadratic kinetic energy minus potential energy and you put it into this and you write down the corresponding equations the corresponding euler and garage equations
+
+00:16:18
+which are stationary conditions for this variational principle then you get something which basically says that the time derivative of the momentum is equal to the force exerted by the potential which is of course newton's second law so it's a it's a very nice way of describing um you know it's like equations of motion because s is sort of fairly obvious from the way we formulate this it is independent of the choice of coordinates okay all right so so now we're going to try to discretize this
+
+00:16:44
+and the way we're going to try to discretize this is by replacing the action integral by things which are for lack of better term pieces of the action integral so so instead of integrating over the entire time interval i'm going to integrate it over a short time interval all right and i'm going to evaluate that action integral along a particular curve which is a curve which satisfies the on the ground boundary value problem which is to say that this curve q 0 1 satisfies the lagrange equations in the
+
+00:17:12
+interior interval from 0 to h and the boundary data associated that is given by this uh thing on the left-hand side which is q0 q1 so given the initial point q0 and the final point q1 i find a curve which satisfies the lagrange equations and which matches those endpoint conditions and i evaluate the action integral on that and that's what i call the discrete lagrangian okay so um and this is it's related in a relatively straightforward way to jacobi solution of the hamilton jacobi equation
+
+00:17:44
+so so this gives you um a generating function for the exact time h flow of the uh the all the quantity equations so um so the problem of course is that that's sort of a chicken leg problem right so in order to actually compute the ex what i call the exact discrete lagrangian you have to be able to solve the other garage boundary value problem and if you can solve the other boundary value problem you should just stop there you're done right there's really no need to do anything else um so so you might ask what value is
+
+00:18:13
+there it's like this characterization and the value is that even though that's not computable object um it's it's helpful to know that it exists because then you can think about approximating dynamics in terms of approximating this exact discrete lagrangian instead of thinking about approximating the equations or what have you and the second thing is that this uh characterization of the exact skin lagrangian then naturally lends itself to systematic discretizations which are arbitrarily high order so you
+
+00:18:41
+can construct um you know optically highlighted discretizations of the exact speed lagrangian um which will give you numerical methods again of arbitrarily high order all right so um so before i go on let me say something about the equations you get from this so uh so the discrete grounding as i said is something like a short sort of integral over a short period of time of the action so if you sum it all up right you get something which approximates the action integral so this sum of the discrete lagrangian over sort of
+
+00:19:10
+sequence of character points right as an approximation of the total action that's like over the entire time interval and then the discrete hamilton's principle is that the variation of this total action sum is stationary respect to variations which keep the endpoints fixed so this is sort of the obvious discrete time analog of the usual hamilton's principle and if you write down those stationary conditions then you get what are called the discrete or lagrange equations and then here the d2 and d1
+
+00:19:38
+correspond to differentiating respect to the first or second slot okay so if you look at this this you can think of as being a sort of a two-step method right so in the sense that given the current solution and the previous solution it gives you the next solution okay so it doesn't depend on just the data at one point it depends on the data at two points okay so you can think of it as describing it's like this sort of two-step method if you will but if you don't want to think of it as
+
+00:20:08
+two-step method you want to think of it as a one-step method it is a one-step method uh in sort of um sort of phase space right so if you write the variables in terms of position is position and p k is momentum then this is going to define a map from q k p k to q k plus one p k plus one which is then one step all right so so might ask well what are some of the theoretical advantages of constructing a numerical method this way and i think there are sort of two main things right the most important point is that
+
+00:20:39
+you can analyze properties of the numerical method by analyzing properties of this discrete lagrangian and then they're essentially meta terms which tell you that given these properties of discrete lagrangian your numerical method has certain properties so the first one of these mediterraneans is uh sort of the discrete no fit here so in the continuous time case lagrangian hamiltonian mechanics have the property that if they're lagrangian hamiltonian is invariant under some sort of group
+
+00:21:04
+action then there's an associated momentum map which is conserved so there's nothing similar here if you discrete lagrangian it's invariant under the appropriate group action then there's a discrete momentum map which is preserved by the flow so if you can construct a discretization which has the symmetry property then you will automatically have a momentum preserving method okay so that's the first observation and then the second observation has to do with the error analysis
+
+00:21:30
+so instead of error at doing the error analysis in terms of the numerical method itself you can do the error analysis in terms of the generating function so the basic idea then is that you have this formal object which is the exact discrete lagrangian and if you can show that the computable thing which you're working with approximates this exact discrete lagrange into a certain order of accuracy um then your numerical method which are given by the discrete lagrange equations have the same order of accuracy so um
+
+00:21:59
+so again it's often the case that you know this doing this analysis at the level of generating functions is much easier than trying to do their analysis at the level of the full-blown numerical method i should say that in addition to that we also have certain uh results which tell you how to systematically construct uh computable speaker grantions with a given order of accuracy and they turn out to be related to um sort of the approximation the best approximation properties of the function spaces you
+
+00:22:28
+work with for example okay the other thing which i think is potentially important in context of learning and optimization is the fundamental role in which you know sympathetic methods and hamiltonian systems play in adjoint systems okay so if you give me any system of differential equations it doesn't have to be hamiltonian it doesn't have to have mechanical structure any system differential equations at all and you compute the adjoint associated with this which is basically the uh sort of the
+
+00:22:58
+um the variational equation the the the dual of the variational equation all right then the combination of the system differential equations and the adjoined system has a hamiltonian structure even if the original system of differential equations does not have the hamiltonian structure and in particular the idea of syntheticity in this setting is essentially encoding the standard relationship between the sort of the original variables and the agile variables so if you break the syntacticity condition you break
+
+00:23:26
+all values like you have it's like computing the adjunct system okay so why is this interesting this is interesting because then it's like a syntactic discretization allows you to do an extremely important thing which that allows you to have a discretization which commutes with the taking of bad joints so you know so you see this all the time when you're computing things like solutions to you know it's like um you know two-point boundary value problems or optimal control problems or if you're trying to
+
+00:23:55
+train a neural network right so if you try to train a neural network the bottom line is that you have a bunch of knobs you get to turn it's like there's an output or residual area which you're trying to minimize okay so you want to compute essentially the sensitivity it's like of the residual respect to the knobs if you will okay um and and the way you typically do this is you do sort of you compute the solution of the adren system but in in the actual application since what you do is you do
+
+00:24:21
+what is known as automatic differentiation and that's because um you know you might have some you you the um you're really trying to compute the sensitivity if you will it's like off your discrete system or your deep neural network all right and then you have to do this sort of automatic differentiation or compute that sensitivity okay so if the system is like which you're describing it's a continuous dynamical system instead right then um there are sort of two ways to do it you can
+
+00:24:46
+either compute the sensitivity of the continuous system and then discretize it in some way or you can look at the discrete system which you're actually trying to compute the sensitivity of and then compute and sensitivity okay and and the the right way in some sense is to compute the sensitivity to the discrete system through something like automatic differentiation but what this result is basically saying is that you can get the same result as automatic differentiation by discretizing the adjoint equations with a method
+
+00:25:14
+which is sympathetic so what i mean by that so you had the original equation say the original equations are discretized with your two method right then you have this adjoint system which has the original equations plus the edge of equations so you have to essentially uh discretize that system with a partition regulator method where you use the original original method for the original set of equations but you use a complementary method for the edging equation so that together that method is reflective
+
+00:25:45
+and if you do that then the numerical results you get are exactly equivalent to what you have gotten if you had done automatic differentiation by optimal machining position basically right so so you know it's a long story but the basic idea then is that synthetic discretization gives you a way to avoid automatic differentiation in problems it's like which come from continuous problems so and and all you have to do then is you have to differ you have to discretize if you need continuous adjoining equations through
+
+00:26:15
+an appropriate uh synthetic passage okay so anyway um so i think that's that's sort of something which i think is still unappreciated in the community but i think has important implications uh certainly in terms of learning and optimization all right so anyhow so let me sort of get back to sort of what i alluded to earlier which is that you can use this characterization of the exact speech lagrangian to construct uh sort of discretizations so there's a there's a nice variational
+
+00:26:42
+characterization of the exact square quadrant which is to say that uh it's the you look at the action integral over classes occurs which are twice differentiable and we satisfy the boundary conditions and you extra rise over this class and that's the exact squeaky graduate and that's clearly equivalent to what we have seen before because the stationarity conditions for this basically just give you all lagrange equations so so this is equal to evaluating the action integral along a curve
+
+00:27:07
+which satisfies the lagrange equations and satisfies the boundary conditions which is sort of the sort of boundary value characterization i talked about earlier but this variational characterization leads to sort of very natural class of reits discrete lagrangians when you replace this family of twice differentiable occurs with a finite dimensional function space and replace the integral with some sort quadrature rule okay so when you do that it's like then there are a bunch again of meta theorem so
+
+00:27:31
+it's like we say that if the uh approximation spaces you use it's like have what is called a group a covariance property and the continuous lagrangian is invariant then this you know reits discrete lagrangian is this group invariant and then because of this discrete notice theorem is going to preserve uh some momentum maps okay so so this is a way to con systematically construct momentum preserving methods um and this idea of group by variance is very very natural so imagine you have a bunch of control
+
+00:28:01
+points and you want to have a curve which goes through it then that's your interpolation scheme so what group covariance means is that if you take those points and you transform it say by rotations so you take all these points and you rotate them by a uniform rotation and you look at the new interpolant which goes through that you want the new to relate it to the original interpolant by the same rotation and if you can construct an interpolation scheme which respects that then it is grouped like a variant and
+
+00:28:24
+you know it's like you can use that again to discretize things which uh group invariant to get a discrete system which is again variant and as a consequence of momentum preserving um and and so we this is easy to do it's like in uh sort of the sort of the od setting it's a little bit more complicated pde setting but there are ways to deal with that which i won't go into and then the other thing is this optimal sort of rates of convergence and so the basic idea is that if you construct a reits method out of a
+
+00:28:55
+choice of the function space then it's very natural to ask whether the numerical method you've constructed has this sort of optimal rate of convergence which is to say that the numerical error you have is related as bounded from above by some multiple of the best approximation error so if that function of space is capable of approximating the exact solution respected some norm at a particular rate you would like that the numerical answer you get out of it right has an error which is bounded by
+
+00:29:19
+some multiple of that approximation error and if you can then this is sort of said to be optimally convergent so anyway so the basic idea then is that for certain classes of lagrangians right you can show that these reach variational integrators are indeed order optimal and that if you were to do sort of a spectrotype method where you fixed the time intervals but you um you refine synthetic polynomial order then you have a geometric rate of convergence so so that ends up being quite nice uh and
+
+00:29:50
+so take this it gives you a very systematic way of relating it's like the error analysis of your numerical method with you know approximation theory and i think that's an important thing to leverage i mean it's like oftentimes numerical analysis um you know it's like being able to connect it's like the properties of your system it's like with the approximation areas of the function spaces you work with this is extremely critical it gives you a systematic way of constructing numerical methods
+
+00:30:14
+okay so so now let me sort of connect everything back to information geometry and sort of um you know it's like tell you why it's like i think there's an interesting potential connection between discrete mechanics and an information geometry so so earlier it said that given a divergence function there's an associated metric to it okay and then in addition to that the divergence function sort of looks like a generating function right it depends on two copies of the manifold it gives you a real number you
+
+00:30:41
+can pretend it was a generating function like a discrete lagrangian and it will induce a synthetic map from that so the divergence itself induces a synthetic map divergence induces a metric and associated metric obviously is the genetic flow to it so you can ask yourself whether the times geodesic flow of the metric which is induced by the divergence function is related in some way shape or form to the sympathetic map which is generated by the divergence function and it turns out that it's always
+
+00:31:07
+consistent so if you take the divergence function and construct this and practice that from it it's always going to be a consistent discretization of the time h2 doesn't flow okay so that's kind of interesting but what's more interesting is that if that divergence function is a fragment divergence then that approximation is second order accurate okay so that's the first thing so if nothing else it's like that means that you can use it's like the kl divergence to generate second
+
+00:31:34
+order accurate approximations of the jurassic flow associated associated with the visual metric just there and then okay but the other thing is that which which i talked about is this idea of canonical divergences which is sort of the inverse problem given a metric and given a pair of friend connections can you construct divergence function which generates that specific metric and that specific pair of fifi connections and and the way you do this one way to do this it's not it's obviously not
+
+00:32:04
+unique okay so but one way to do this is to use hamilton jacobi theory applied to this particular uh lagrangian so the lagrangian is is constructed by sort of a term involving the metric so this is sort of like a kinetic energy associated with the metric we prescribed and then there's sort of a cubic term it's like which has to do with the skewness tensor okay so this combination then gives you a lagrangian right and if you construct the exact generating function associated with this then you will get one of these canonical
+
+00:32:35
+differences and in particular you don't really need to construct the exact generating function it's really sufficient to construct a second-order accurate approximation of jacobi solution but that's exactly the kind of thing it's like the kind of questions we ask right if you have an exact generic function how do you systematically construct high order discretizations of this so just naturally this problem actually fits into this framework of constructing good discrete lagrangians which i sort
+
+00:33:00
+of talked about okay all right so the next thing then is okay given one of these um you know it's like divergence functions how do you actually then incorporate data and is there sort of a mechanical interpretation to certain machine learning algorithms so one way to sort of think about this is that you can think of the dynamics like on the space of property distributions as tracking is trying to find again a good um you know it's like representative element of the space of property distributions which matches the data
+
+00:33:32
+well okay so um and at the same time you don't want the algorithm to go straight to the minimizer it's like of this it's like you want the thing to be updated in sort of a relatively smooth way so that actually suggests from a mechanical perspective that there are two terms which you want to approximate one of which is a potential term which again measures the mismatch between the estimator and the actual data and the other one is is like a kinetic energy term so that there's some inertia to the system okay
+
+00:34:05
+so that again it's like these estimators don't bounce around it's like too much there's some sort of inertia which takes into account it's like what happens uh previously so so that's exactly what you do you write down a discrete lagrangian okay and then you have this term here which involves the divergence function applied to two adjacent estimates if you will okay the estimate from sort of the prior estimate and then sort of the current estimate and this sort of is morally a kinetic energy term which
+
+00:34:31
+penalizes very rapid changes in your estimator and then sorry then there's another one that's like which is now sort of a data fidelity term it's like a loss function right it measures the sorry it measures the distance between the the new it's like estimate it's like and and what is sort of the data is telling me okay and and so now you have this very nice purely discrete time formulation of a very natural class of learning algorithms it's like where you're trying to take the estimate it's like as you
+
+00:35:01
+get more and more data so the data could be done you know this kind of data analysis or data sort of estimation can be done sort of dynamically right where the data is changing and then there's what is called backward error analysis which then allows you to relate this discrete time algorithm with a continuous time system so you can either now view certain classes of learning algorithms as continuous time dynamical systems or you could stay in this discrete time framework and think of the you know the learning it's like as a
+
+00:35:33
+discrete time and then the mechanics can be viewed as being in discrete time through what we are talking about in terms of the screen mechanics so in either case there is a consistent framework where you can think of both systems you know both the the you know information dynamics as well as the mechanical dynamics it's like are not equal for them okay and and the hope is that we'll be able to develop then um the optimal learning strategies which which take into account the fact that for example your sensors are
+
+00:36:01
+actual um they're mounted it's like on robots they're moving you can't you don't get the flexibility to take a sensor and just drop it it's like somewhere it's like five miles away it actually has to move there and then you want to take that into account when you're you're thinking about these problems okay so that's um so that's sort of the first part and um the next part has to do with optimization and let me again say why it's important uh why it's natural to think about this in
+
+00:36:26
+the context of learning right so it's sort of fairly clear even in what we talked about so far that you know it's like again many learning algorithms can be viewed as optimization problems where you're trying to find some represent you know it's like distinguished element of space of candidate models right which minimizes the loss of the mismatch exactly okay so so again it's like you can think of learning problems as optimization problems and it turns out you can also think of
+
+00:36:52
+optimization problems as learning props and and we'll as we talk about this further you'll see again that there's some sort of nice analogy between those two things so all right so so now i'm going to talk about what is called accelerated optimization and so i'm going to consider some sort of optimization problem where you're trying to find the minimizer of some convex function in some convect convex domain now obviously because of the convexity it's like you have a unique minimizer
+
+00:37:15
+so uh and and you probably know that you know there are standard gradient type methods it's like which you can develop to solve this problem and the thing which is worth noting is that standard gradient methods converge typically at one over k where k is the iterations so they converge linearly in the iteration number and what was interesting was that you know nesteroff it's like back in the 1980s introduced what he called the accelerated gradient method which is given here and what was exciting about it was that
+
+00:37:48
+this accelerated gradient method converged to the minimizer at a rate instead of one over k it converges a rate of one over k squared so this is what then became referred to as acceleration okay and what the other thing inside nestorof proved was that this one over k squared rate is actually optimal over methods which uh use only information about the gradient of f as successive iterates and again these standard gradient percentages only achieve one lego of one over k okay um right so so not only does the nest of
+
+00:38:22
+accelerated gradient method it's like achieved this one over k squared bound it's like it's proved that this is optimal at least for you know it's like just convex functions right i mean it's like if you have um if you're stronger sort of assumptions about the regularity of the function it's like then you can get faster rates of convergence but in the worst case it's like that's that uh that's the back anyhow and that balance optimally and it's proved actually by
+
+00:38:47
+actually constructing it's like a context function it's like which um which used it but okay so um so nevertheless it's like there was a lot of interest that's like a consequence of this work it's like on understanding acceleration and thinking about are there ways of constructing methods which achieve acceleration as well so i should say that this result is asymptotic right so so what's interesting is that as we'll see later on it's like in the results we show that even though you
+
+00:39:17
+have this asymptotic sort of barrier if you will right it's oftentimes the case that methods can perform better than this one over k squared rate at least for moderate uh times right and and oftentimes that's enough because you can you can get the errors sufficiently small that you can terminate uh before say the method goes unstable it's like or something bad happens which then sort of limits to this sort of uh you know sort of asymptotic weight that's like which is uh proved by nastra
+
+00:39:49
+and the other thing is of course it's like that you know it's like this asymptotic rate is also potentially pathological right i mean it's like uh so it's it's proved that it's the worst case thing it's like but it's quite possible that um you know on average case it's like you could perform better um anyhow so so one way it's like to approach this question of how to construct generalizations of the nestroff method uh is uh sort of the approach which uh you know it's like sue boyd and candace
+
+00:40:16
+it's like uh sort of did it's like back about five years ago now where they study that's like the continuous limit of the nest of method and they showed that it corresponds to this fairly simple second order differential equation okay and obviously it's like you have a force associated with the gradient uh of the cost function and then you have sort of essentially a dissipative term uh which sort of goes to zero it's like as uh as time goes to infinity okay so um so that's kind of interesting
+
+00:40:48
+and you can show that this converges it's like at uh in continuous time at a rate of one over t squared it's like to the uh to the minimizer which is sort of what you might expect okay so um what is interesting is that you can generalize this continuous formulation uh to achieve any rate of convergence so instead of one over t squared it's like you can you can achieve any um one over t to the p rate of convergence like the continuous flow and then to the sort of global minimizer and
+
+00:41:15
+and this was done by it's like sort of a group around michael jordan at the university of california berkeley um and it involves it's like this bregman divergence which we sort of earlier saw it's like so you have this regular divergence and if the two points are close enough together then this approximates the hessian metric it's like where the uh you know it's like the metric is coming from this context function right and has another context function so anyway given it's like
+
+00:41:46
+this bregman divergence you can construct what is called the brexium or the bregman hamiltonian and there are a bunch of parameters here alpha beta and gamma all right um but there are specific choices alpha beta and gamma it's like which will have flows which converge at one over t to the p you know so i'll talk about that in a little bit so if you look at these expressions so let's just take a second to look at these expressions right these look morally very very similar to the things which we saw
+
+00:42:16
+before and you know where i sort of talked about discrete lagrangians which are candidates for approximating you know it's like machine learning algorithms right so you have a divergence function applied to two points which are nearby to each other so this is again like a kinetic energy like term and then you have a term here which involves is like the cost function with an appropriate scale so so morally speaking the two terms are exactly what you might expect them to be there is a term involving the loss term
+
+00:42:44
+or the data fidelity term and then there's a term which again is like a kinetic energy between two adjacent points okay so all right so and there's um sort of sort of certain it's like assumptions second growth conditions then uh you know it's like the flow of this continuous time uh system sorry the flow discontinuous time system converges it's like at a prescribed rate to the minimizer uh and you can show this using sort of lyapunov function approach and if you care if you just want to
+
+00:43:13
+construct something which scales like one over t to the p then you can choose alpha beta and gamma to be these things here okay and then the growth conditions are satisfied and the lagrange equation converges deductive value and big o one over t to the p okay so all right so what is interesting about this well let me just look back at this lagrangian hemitonium so the thing which is interesting about this is that you have lagrangians and hamiltonians and if you know something about lagrangian antenna mechanics you might think oh
+
+00:43:44
+wait you know it's like onto lagrange hamiltonian systems energy preserving and they are energy preserving only if the lagrangian hamiltonians are time independent so the energy is in fact the reaction to hamiltonian is the nova quantity associated with time translational symmetry so so what happens here is that these lagrangian hamiltonians are no longer autonomous right they're non-autonomous they're time dependent and uh and so that poses problems because most of the methods which have
+
+00:44:14
+been developed it's like assume implicitly that there's some sort of um sort of autonomy in the system so how do we go about dealing with them so as i said because of these scaling terms the bragman integrand and hamiltonian are time dependent and so you have to be careful because if you naively apply sympathetic and variational integrators to such time dependent systems you oftentimes get very poor numerical results okay so what i'm going to try to do instead is the following so if i give you a hamiltonian and i
+
+00:44:41
+give you a particular rescaling of time which is described in terms of this differential equation which involves g which is a monitor function then you can write down a new hamiltonian system which is defined by this concrete transform right whose flow then is you know it's like this re-parametrization of the original flow all right so um so before i go on let me sort of explain why that's potentially interesting in the context of non-autonomous systems and it's because if this monitor
+
+00:45:13
+function was just identically one then this is sort of a very roundabout way of essentially introducing um another copy of time as now a dynamical variable right so it's the same thing one does it's like when dealing with you know which we teach in our differential equations classes like you know convert a non-autonomous system into autonomous system we add it's like a new time variable it's like a new time variable is equal to the old timer variable right and then and now it's
+
+00:45:38
+like everything is now autonomous so this is more or less one way to do this uh using puncture transforms and then you get these corresponding hamilton's equations with these kind of initial conditions all right so so what happens then is that um you you typically the problem is that you typically obtain now a degenerate hamiltonian okay why is this significant this is significant because so far when i talked about variational integrators and simplex methods coming from that i've always talked about this
+
+00:46:08
+in the context of the lagrangian side okay and you probably know that you know it's like under certain regularity assumptions the lagrangian and hamiltonian formulations are equivalent so the point or the problem if you will is that if you have a degenerate hamiltonian system then there isn't necessarily a corresponding lagrangian formulation of the problem okay so why is this significant this is significant obviously because all the methods which i talked about are based on lagrangian formulation
+
+00:46:34
+so in order to use this sort of concrete transformed formulation you need to construct variational integrators now on the hamiltonian side okay so that's something to just keep in mind so as i said you know it's like uh if you have this uh monitor function be identically one there's a degenerate hamiltonian for which no lagrangian analog exists and this is sort of the candidate which we're going to try to use to convert the non-autonomous hamiltonian formulation to the hemitone to sort of an autonomous
+
+00:47:05
+concrete transform hamiltonian okay all right so so that's something to to worry about it's like a way to address that a little bit and then the other thing is that as long as you have certain conditions then the usual variational error analysis still holds which particularly relates the you know it's like order of the numerical method with the order approximation of these discrete lagrangians okay all right so um as i sort of alluded to here it's like you have to use hamiltonian
+
+00:47:34
+variation on the greater so that's something which we've developed and time permitting i'll say a little bit about that um and and you can do this so you can actually take these particular transform things and you can construct uh hamiltonian variational integrators out of this uh and in particular we we developed this fourth order habitonian taylor variational integrator and you know it's like these time adaptive methods sort of perform much better it's like they have better energy and better
+
+00:48:00
+global behavior with dramatically lower cost and what's surprising is that this actually is better even compared to things like stroma valley um from a computational efficiency perspective and if you know something about scrambled valley it's like you know that it's extreme actually in practice very very difficult to compete with because it's an explicit method with a lot of nice conservation properties right so so nevertheless it's like uh you know from a computational efficiency
+
+00:48:26
+perspective and quality assimilation perspective these adaptive variational integrators are capable of doing a comparable and in most cases a better job okay so so let me now connect this back to these bregman hamiltonians so what we're going to do is we're going to use what's going to happen is that we have a p bregman hamiltonian it's like which you know has a convergence rate uh to the minimizer of big o one over t to the p and and the we're also going to do sort of a strange
+
+00:48:58
+thing which is that the family of pre-bregman sorry the family of p bregman and hamiltonians have a scaling symmetry to them which is to say that if you rescale time in a prescribed way then you get the dynamics of a different p fragment hamiltonian system so they're closed under the certain classes of time to scale them and we're going to take advantage of this um to essentially convert a high p bregman lagrangian system regular hamiltonian system to a lower p bregman hamiltonian system
+
+00:49:28
+because it's somehow cheaper to compute the solution of the lower order fragment dynamics but you want to have the greater convergence of the higher p uh bregman hamiltonian system so that's sort of the rough idea and you have some sort of monitor function which achieves that rescaling and this generates this concrete transformed hamiltonian those details don't really matter but let me sort of just say um you know what the numerical results tell you so if you do a direct discretization
+
+00:49:58
+which is the one where the modern function is identically one and you just treat the you know it's like the p bregman hamiltonian as if it was the pre-pregnant hamiltonian then you get you know it's like you know pretty good rates of convergence but when you do this adaptive scheme where you do this time rescaling as well instead of just this uniform sort of copy of time then you actually have a faster rate of convergence you know so adaptivity seems to play an interesting role here and this is the dependence of p in the
+
+00:50:29
+adaptive approach as you increase the p again it's like you have a faster rate of convergence which is again consistent with what you expect from the continuous analysis all right and p0 is the one which is sort of you're rescaling the thing two so you want p0 to be small and again it's like when p0 is smaller it's like it seems to do again a better job so there are a lot of things you can play around with here you can choose it's like p which is again the order the method the order of functions of the continuous
+
+00:50:57
+flow you're trying to approximate and then p0 is the sort of the rescale thing which you actually implement the code in okay all right so so that's kind of promising it's like and um and you can compare it to sort of non-sympathetic adaptive methods so you can compare it to sort of you know standard ode45 or od23 in matlab and you'll see that again it's like these uh sort of you know um sort of variational integrators seem to do a better job here okay so the left one is the direct approach
+
+00:51:32
+right so um and then the right side is the adaptive approach so it should mention that um essentially you know direct versus adapted doesn't make a difference when you're using a sort of sort of adaptive recorder method and that's because the adaptive uh time stepping inside in ode45 and od23 somehow already picked the right uh scaling it's like for the time steps so there there's a slight improvement actually it's not even clear that's actually this actually seems to do worse
+
+00:52:01
+right um but um but obviously with hamiltonian formulation it's like it actually does sort of better it's like with the adaptive approach so so again it's like there's there's much we don't fully understand but um again it seems suggestive that some plasticity plays an interesting role potentially and that time additivity also plays a potentially interesting role here um and you can compare it to nesteroff it's like and nestroff it's like does a really horrible job it's like compared
+
+00:52:28
+to these adaptive variational integrators all right so i should say that uh you know more recently it's like we've been studying it's like the generalization of these kind of brexit hamiltonians to rimani manifolds so we have a paper which looks at the continuous time analysis of these things it's like on on remaining manifolds in sort of different classes of objective functions for the convex case for the weak quality contracts case and for the strongly confidence case and they have
+
+00:52:56
+different uh fragment lagrangians or hamiltonians it's like which then achieves sort of you know nice rates of convergence for it uh and something which is in preparation right now is trying to use these ideas it's like to then uh construct um accelerated optimization schemes on rebounding manifolds and this is based on a sort of a constrained uh variation integrated formulation uh and again the preliminary results are quite promising this is the generalized eigenvalue problem where you're not just
+
+00:53:23
+looking for the um you know it's like the maximum eigenvalue but sort of the you know the k largest eigenvalues for example uh and then there's this unbalanced target no proscretis problem that's like which again has this very nice rate of convergence um so this is this is sort of a more practical engineering motivated application where you're trying to essentially infer the um the essentially the poses like the camera it's like the data it's like and so you can think of that as an
+
+00:53:51
+optimization problem on the space of camera poses which is a manifold and again it's like this seems to do a really good job so this is the prior thing it's like with the mismatches and then this is after the registration is done okay so um i don't really have much time so let me just say that the essential idea behind the hamiltonian theory is sort of the value of your sphing if you have a hamiltonian you legitimately transform to the lagrangian you compute the discrete production and you move back right so
+
+00:54:20
+what we're going to do is that you take the exact generating function you write down the lagrangian in terms of the hamiltonian it's like with the legendre transform okay so this gives you then a uh type one generating function in terms of the hamiltonian but then you have to do a legendre transform through what are called type 2 generating functions which involves the shift to then give you a candidate exact type 2 generating function and if you discretize that then you get these hamiltonian variational
+
+00:54:49
+integrators and you can show that this is equivalent to lagrangian variational integrators when you type irregularity which is to say that if there's a lagrangian analog okay so i will skip all this and then just summarize by saying that you know information geometry plays uh uh an interesting role it's like in providing a differential geometric interpretation of certain clause of machine learning algorithms and what is interesting is the role the divergence function plays and its connection with various differential
+
+00:55:19
+geometric structures on statistical manifolds and what we showed was that this is related in some precise ways it's like the discrete lagrangians and the problem of computing or constructing canonical divergence functions is again very closely related to the kind of approximation problems when studies in discrete mechanics so given uh sort of machine learning it's like an optimization algorithms it's like you can really relate these things it's like to discrete mechanics on the space of probably distributions
+
+00:55:47
+and in particular with the accelerated optimization algorithms which are based on the regular branch and hamiltonian there's a very nice way of discretizing this using geometric discretizations in particular using hamiltonian versions of variational integrators which are time adaptive and so the the upshot if you will is that would like to elaborate sort of leverage this analogy between mechanics learning optimization and optimal control uh to apply the techniques of geometric american integration
+
+00:56:13
+to obtain systematically new classes of algorithms okay so so that's what i basically wanted to say thank you thank you thank you very much there's any questions from the audience um i i may have a few um i i was a little bit lost in the literature when you said the next star of the method is one over k square and that's the optimal convergence rate yeah so later on this jordan's paper seems to indicate there are there are faster results yes right i should be i should have been clear right
+
+00:57:00
+so the next rough result is for discrete time algorithms right so discrete time and then jordan's result is for the continuous time flow right okay um and and as as but you know as you sort of see it's like at least for short times right um the does it i mean you have to be careful because this is sort of an asymptotic result right which is to say that you want this to go all the way it's like to the minimizer but what what you see for the numerics is that um you know while you're converging but
+
+00:57:36
+you're not yet converged to the minimizer it is possible for you to have faster rates of convergence locally so so even though there is this theoretical bound which is true it doesn't preclude the possibility that you can construct methods which behave better in practice than the nastrovsky right and in particular it's like as you see here right the nest of scene still has the appropriate asymptotic convergence but locally speaking right you have a much faster rate of convergence with these hamiltonian
+
+00:58:07
+methods and then the other thing is that this is for just convex functions right so if you have more you have stronger assumptions on the cost function right you can actually achieve faster rates of convergence so this is also the reason why when we talk about the remaining manifold case we have broken it up into these three cases right because um you can construct methods which behave uh much better if you assume you know it's like if the function you have it's like this has greater convexity properties it's
+
+00:58:39
+like and you take that and counting constructing the method okay okay okay um i do have a question regarding your pancreas transform when you introduce this a little to trans translate uh not non-autonomous to autonomous do you have an optimal g uh yeah so let me say a little bit about that in the context of the p fragment so so it depends on the problem right so um so it's just a monitor function and it's you know it's like um there are several ways to do this one obviously very natural way is to
+
+00:59:19
+do something like curvature right so for the um for the example we had here which was i should have said was for the kepler problem right you you have the sort of time adaptive method for different types of monitor functions so that's something which you prescribe right so that's a design parameter it's like in the algorithm okay um and it's again fairly standard it's like um to do things like um you know say equal partition of error right so if you were to do this in the context of
+
+00:59:50
+um our refinement it's like for a finite element method right on a sort of moving mesh line element method right then you might want to move the um you know it's like the cell boundaries so that's the residual error is uniformly distributed it's like across cells right so that's a very very natural choice and you can you can construct um those kind of monitor functions if you want it's like by saying looking at truncation errors it's like and things like that so that's something which we don't
+
+01:00:20
+prescribe in the method it's something which is given to us as part of the design process for the algorithm okay having said that um for the application to the bregman hamiltonian there is a very natural rescaling inside of the problem so basically again there's a rescaling it's like from you know a p bregman dynamics to a p0 bracket dynamics and then rescaling sort of the obvious one because you know that in both cases there's this convergence it's like at one over t to the p it's like to the
+
+01:00:49
+minimizer so just the natural scaling is t maps to t to the p over p zero or something like that or maybe the other way around i don't quite remember right and and that will sort of rescale one of the p fragment dynamics to the other one um and so that's what it's used here to construct this monitor function so you take that rescaling and you differentiate it and that's exactly the rescaling which you have here so yeah so for that problem there's a natural rescaling it's like and actually
+
+01:01:17
+for the kepler problem there's also you can also use you know the various kepler laws it's like to construct natural rescalings of time right so um so in particular the equal area it's like property of one of the catalytic molecules that can be used to construct a time rescaling related to how far you are say from the center it's like of the solar system so it's very problem dependent yeah it's very problem dependent and uh it's a design parameter there are other yeah there are other
+
+01:01:46
+types of approaches um which we've been studying it's like which is based on um sort of essentially energy considerations right so there's if you look at this extended time formulation it's like you can think of constructing uh choosing the time step by enforcing uh energy conservation property um i'm not sure that's the most relevant thing to study here in the context of the um sort of the bregman dynamics just because it's dissipative right so so right now we're trying to
+
+01:02:18
+understand the relationship between the energy conservation of the concrete transformed hamiltonian with the energy dissipation of the original fragment hamiltonian dynamics and to see whether or not you know there's something which more or less says that well the total energy is conserved but it's because the total energy is like the energy of the system plus the maybe the work done by the dissipative terms right so if you could have something like that then you know energy conservation would have
+
+01:02:45
+interesting precise implications which you could exploit uh particularly in the context of uh the convergence analysis using sort of left off type techniques but but that's still something which we still don't fully understand that makes sense yeah thank you yeah you're welcome yes uh yeah go ahead yeah hi so uh so i had a question and this is more more like you know sort of practical coming from something that that that has come up in like my own research so uh so suppose you're given a
+
+01:03:24
+hamiltonian which is which which say you know maybe you don't know if it's convex or or hamiltonians in physics they're generally like quadratic in your momentum but uh tremendous in in like um which which come up for chemical reaction network theory they have you know they're like exponential in the momentum so you have e to the p or you might have e to the p one minus right so so making the this is a partition function type form too yeah so making a legendre transform is not easy at all
+
+01:03:56
+um but but what are interes what what is what would be interesting is to find like you know uh parts of using this hamiltonian right like the the corresponding hamiltonian trajectories so so i'm wondering if any of the techniques that you mentioned you know which one would be the best place to sort of start like look at right yeah so i think as i said you know the okay so let me maybe show you the references there is this paper here so if you look eight nine and ten these are a series of papers which talk about constructing
+
+01:04:35
+variation integrators purely the hamiltonian side so if you're interested in you know it's like applications to hamiltonian systems presumably if you were doing something like sampling or markov chain monte carlo right then and you don't want to look at the lagrangian analog because as you say lager transform is horrendous and it's difficult to invert then these methods will you know stay purely the habitonian side you don't have to construct the corresponding lagrange you may not even
+
+01:05:02
+exist right and these methods will give you some plastic methods and they still have the nice properties that you can systematically construct a large class of algorithms from okay so let me say a little bit about um one of the things you know about this optimal radar convergence thing which is the following that's if you have a problem which say has multiple time scales right then one interesting way which we're studying now to construct good methods which allow you to take larger time steps
+
+01:05:33
+than say the fast dynamics is to build in some sense the phos dynamics into the spaces you work with so if you have something which is fast and slow and the phos dynamics is a solid tree but it's well approximated by say sines and cosines then you might consider looking at shape functions which has sines and cosines in it instead of just polynomials and the advantage of doing that is that then you can then take time steps which are much larger than say the you know it's like the oscillation
+
+01:06:03
+length it's like off the phos dynamics and it would still give you a you know still give you a sort of a good numerical method for it so so putting that away it's like you know this connection with approximation theory gives you a very systematic way to construct um adaptive approximation spaces and construct numerical methods which are adapted to what you know about the system okay so if you know something analytically about the phos dynamics so so say you have something with boss and slow dynamics
+
+01:06:30
+and you pretend that the slow dynamics is frozen and what is left over is something which you can analytically solve or compute easily you can then use that it's like to construct a numerical method which is then adapted to that problem which you again allows you to take large time steps for and and so i think that's you know that's potentially i think quite promising we also have methods uh which are based on um sort of exponential type ideas so if you happen to know exactly if it turns out that that system is um
+
+01:07:00
+how should i say this it turns out that your fast slow system can be viewed as a perturbation of a linear fast system and you can compute the solution of the linear fast system exactly then you can use that again to construct methods which are much more efficient and which is stable again for much larger time steps than which don't resolve the fast dynamics and that's something which i didn't mention here but you know it's like if you email me i'll be happy to send you that paper as well
+
+01:07:28
+so so in this case there are you know there are large class of methods which you don't necessarily need to know a whole lot about it's like we spend a lot of time you know developing the theories so that you know it's like there's a there's a systematic prescription for you to construct these methods for your specific problem across thank you so hopefully that helps you yeah so it's 3 30 shall we uh thanks i think we should we should stop recording and let people go if they want and if uh if
+
+01:07:57
+we still have audience interested we should just uh keep the room open right if no one has still have time yeah sure i'm happy to hang around it's if like get any questions offline that's like well
+

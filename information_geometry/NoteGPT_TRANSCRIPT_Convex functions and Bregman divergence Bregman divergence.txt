@@ -1,0 +1,24 @@
+00:00:01
+all right so now that we've talked about convex functions we can actually talk about the fragment divergence okay and so what i'm going to do before defining the bregman divergence for you sort of precisely is to give you an intuitive sense of what is going on right so as i said before the bregman divergence is associated with some given convex function okay and and we need that the convex function basically is sufficiently differentiable but if it is then what happens is the following so imagine you have some sort
+
+00:00:38
+of convex function like this okay and you have two points so let's say this is one and this is another point okay so what can happen if you will is that um you can well let me just make the notation consistent with what's happening in the book all right so you have a c and c zero and what's going to happen is that i'm going to look at the point c0 and i'm going to construct a first order taylor approximation of the convex function about the pointer seizure so in in this one-dimensional
+
+00:01:32
+example that just corresponds to looking at the tangent line to that okay i'm not very good at this now let me try to do that again okay so this is the convex function and then let's say the tangent line looks something like that okay all right so that's that's the first order taylor expansion if you will and of course you can generalize this to functions it's like in high dimensional domains but let's just try to keep this one-dimensional case just to get an intuition right so i have this convex function
+
+00:02:20
+as before right so this is psi and then this thing here right this line uh looks something like psi at c0 plus um you know psi prime etc c0 and then c minus c 0 right so that's literally just the first order taylor approximation of that and then because of the fact that this function is convex right you can check that you know this thing is only going to take okay so then we can compare it's like this uh you know it's like first order taylor expansion it's like with the function value at a
+
+00:03:13
+corresponding point so if i'm going to evaluate the function at this point and it's the taylor approximation centered about this other point and look at the difference then i can define the divergence to be the following right so this is the function value it's like at the point minus this thing here which is the taylor approximation expanded around another point but evaluate it at the first point okay okay so hopefully you get the idea okay all right so uh and then you can check that as long
+
+00:04:05
+as this convex function is strictly convex then this difference is always going to be non-negative on one hand and it's only going to be zero it's like when those two points coincide okay so let me sort of state this a little bit more generally now so i have a function z so i should say given the convex function so given sort of a differentiable sort of strictly convex function right we can consider the equation for hyperplane the tangent hyperplane sort of at the point c0 which is given by
+
+00:05:18
+this taylor expansion right so z is equal to c side because c0 it's like plus the gradient of psi can see zero dotted into the difference because c minus c 0 okay and the gradient is obviously the the usual notion okay so then write the difference between psi and the hyperplane gives a divergence function okay so this is going to be the function value at that point minus this sort of hyperplane approximation so you can check that so this is a it's referred to as the braggman divergence and
+
+00:07:15
+you denote the fact that the fragment divergence depends on the context function by sometimes denoting it by a subscript with the convex function which is used to define it associated with okay you can check that it satisfies the properties of a divergence function okay all right so let me just stop here for now and take it the next thing i'll do is to give you examples of fragment divergences okay so let me just stop here
+

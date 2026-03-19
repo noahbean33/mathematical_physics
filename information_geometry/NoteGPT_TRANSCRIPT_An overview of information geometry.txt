@@ -1,0 +1,129 @@
+00:00:01
+all right so this is a course on information geometry and so amari who's one of the founders of the field prefaced his textbook in the following way so amari sort of refers to information geometry as a method of exploring the world of information by means of modern geometry and so one might ask well what does this really mean and what role does geometry it's like play in something like this and i'm going to try to briefly motivate why it is that such an approach is you know it's like relevant
+
+00:01:40
+both in statistical inference and in machine learning right so the basic idea if you will is that there's this notion of a space of models if you will okay so we have a space of models and typically it's like you think of these as probability distributions and these models are then going to describe our best understanding of the say the state of the system which we're trying to estimate so from which and we use this to describe sort of the state of a system we're trying to understand
+
+00:02:56
+right to sort of estimate or understand okay and so you know what are examples of something like this so for example in inference right i should say maybe statistical inference what you have is that we have data and from that we want to infer our best guess basically right of what that data is describing right so what that data is being sampled from perhaps so imagine for example there's some underlying distribution some underlying probability distribution and you sample from that and you from that data you
+
+00:04:30
+want to infer it's like what that property distribution is all right so that's one possible example and something similar happens in machine learning right it's like you have a whole bunch of training data it's like and there's an underlying model it's like what you are trying to fit that training data to so uh for example if you have neural networks deep neural networks you can think of that as being some sort of parametrized family of models which represent some sort of
+
+00:04:59
+input output relationship or some sort of map right and you want to find it's like the parameters you want to tune the parameters in such a way that that map is you know it's like as accurately as possible reflexes like the data the training data which you have okay all right so in both of these uh situations you are basically trying to address some sort of best approximation type problem so you can think of this as a sort of best approximation problem right so you want to to choose from
+
+00:05:53
+the possible hypotheses for example if you want to think of points it's like in this space it's like as a hypothesis you want to choose the hypothesis which best agrees it's like with the data which is available to you or you have to choose say the best you know it's like deep neural network with prescribed parameters which best describes the data okay so in order to do that um what do we need abstractly so you have a curved space potentially of possible models right and you have some sort of data
+
+00:06:31
+and you want to you you basically want to find what is the best model it's like uh you know it's like of that data okay so um so geometrically speaking um so geometrically speaking this the underlying concept it's like which is relevant is this idea of a distance sort of comes into play all right so again in statistics this might be something like the likelihood and so in statistics so this might be likelihood and and in learning it's like this might be the loss function right so
+
+00:08:01
+okay all right um so you know it's like in most of the cases um which have been studied to this point what basically happens is that even if the space of models is somehow curved what you do is that you pretend or you consider the case where they are parametrized by some sort of parameters and you use the underlying um say riemannian sorry the underlying euclidean geometry it's like which is induced by that parametrization to do computations on that so what do i mean by that so what i mean is the following
+
+00:08:58
+so imagine this space of models is some sort of curved space all right and and to make life easier let's assume that reality or what you're trying to model is a point on that curved space okay and your best guess is some other point on that space so this is reality and this is your best guess okay and as you might expect what the goal of inference is then of learning is is to try to have that best guess approach reality okay and of course it's like if you are in learning it's like you've clearly heard
+
+00:09:50
+of things like gradient descent methods so in learning for example right we have sort of grading descent methods okay and so for example if you have a loss function it's like you might want to you know it's like um do gradient descent along the loss function uh in order to converge it's like to your best guess i mean in order to converge to as close as possible it's like to reality given the data which you have right so so in the context of grading descent methods we know how to do that obviously it's
+
+00:10:41
+like on on flat sort of linear spaces but one might ask well what is necessary to do something like gradient descent on a curved space okay so to do gradient descent on a curved space one needs some notion of what is called a metric right so metric is something like an inner product right so this is in it which is an inner product sort of which is a choice of an inner product at every point i should say a smooth choice on the curve space all right and what that choice of an inner product at every point in the current space
+
+00:12:06
+allows you to do is to then measure basically things like distances along some sort of curve for example okay all right so if you had a metric then you can make sense of what it means to have something like the gradient and then you can talk about things like creating the center methods if instead of doing gradient descent you wanted to do something um you know it's like which converges faster like newton's method so if we wanted to consider instead sort of something like newton's method
+
+00:13:02
+then it turns out that just having this notion of a metric is insufficient so we also need to introduce the notion of an affine connection so you might ask well what is an affine connection and at its essence it allows you to talk about this notion of what's called covering derivatives but it also perhaps more intuitively allows you to do the following problem right so again you have some sort of current space and imagine that you have a tangent vector at a point to that curve space and you have a curve
+
+00:13:57
+along that okay so along this curve what you would like to be able to describe is some way of saying that this tangent vector at this point is somehow equivalent to this tangent vector and sort of a nearby point along this curve so basically you want to say that you know as you move along this curve it's like then this tangent vector is going to be parallel transported it's along this all right so that parallel transport allows you to do a variety of things right for one thing it allows you to make sense of
+
+00:14:38
+one possible way of making sense of what it means to have straight lines in a curved space so anyway so this affine connection sort of induces sort of a parallel transport okay and that allows you one way there are two more than one way but that's a one way of generalizing the notion of straight lines okay so what do i mean by that uh that you want to generalize the notion of straight lines and let's maybe sort of think about intuitively what we tend to think of as a straight line in again it's like a
+
+00:15:47
+sort of a flat linear space okay so imagine you have now a plane and you have two points right and you want to look at the straight line joining those two points so there are there's sort of two properties it's like uh which sort of immediately come to mind right one of which is that if the straight line joining these two points is the one where you know if you look at all possible paths connecting those two points it's the one which minimizes the sort of the length right so sort of two notions
+
+00:16:27
+of straight lines right in sort of linear spaces okay so one of which is this idea of length minimizing curves right and as you might expect from our discussion earlier you know if you want to adopt this idea of you know the generalization of straight lines to curve spaces uh as a length minimizing curve uh then the notion of the metric it's like which we sort of briefly mentioned is the relevant concept here so on curved spaces right this relies on the notion of a metric all right so the other way to do this
+
+00:17:39
+is that you're always moving in the same direction so a straight line is something which where your so it is a line which or curve which is moving in the same direction all the time okay so all right so what does that really mean okay so imagine you have a curve like this what does it mean for the curve to always be moving the same direction so if you have a parametrized curve it's like then you have this idea of tangent vectors to that curve right so the intuition here is that you want to look at the tangent vectors of
+
+00:18:32
+this curve right so look at the tangent vectors and they should all be pointing in the same direction okay so again it's like with a space it's like the tangent vectors literally do always point in the same direction so that's consistent with that intuition but now you have a curve space all right and you have these tangent vectors um so what does it mean for these tangent vectors to be pointing in the same direction and and so we had just talked about this idea of an affine connection inducing this idea
+
+00:19:28
+of a parallel transport so as you might expect basically what's happening is that you take this tangent vector and you parallel transport it along the curve you get a bunch of tangent vectors well you get a bunch of vectors with which are based at depth along the curve and you want to compare that then to the tangent vectors which are induced it's like by differentiating that curve and so if those two things agree then you now then have a curve which is moving in the same direction so to speak
+
+00:19:59
+okay all right so anyway so that is so this is connected to the notion of an affine connection okay so these are some ways it's like in which geometry shows up um when you're working with you know it's like what is going to be called information manifolds so again an information manifold sort of intuitively is this family it's like of statistical models probably distributions what have you points it's like on that information manifold correspond to a particular statistical hypothesis say
+
+00:20:48
+and then you want to move on the statistical manifold in order to do inference it's like and to you know it's like use the data as best you can it's like in order to get your best estimate okay and the point basically is that if you want to introduce all the usual notions it's like which we have it's like at our disposal for talking about moving it's like you know it's like towards it's like some sort of objective or goal then you're going to need these type of
+
+00:21:26
+geometric objects like the metric if you want to talk about you know length minimizing curves you want to get from point a to point b as efficiently as possible um or you know it's like this notion of an affine connection and its associated notion of or transport if you want to always be moving in the same direction okay so what's going to happen basically is that in addition to all these type of standard objects which show up in you know it's like a fairly standard class on differential geometry and romanian
+
+00:22:04
+geometry we're also going to talk a little bit about what are called divergence functions so i'm again just going to very briefly talk about it so there's going to be this idea of a divergence function and one way intuitively to think about divergence function is that it's sort of a possibly asymmetric distance function sort of between two points on an information manifold and and i guess it's like i've been throwing around the word information manifold it's like again or manifold
+
+00:23:11
+again and again and a manifold basically some sort of cursed space which if you zoom in closely enough looks euclidian and um and you want to have a way to patch that local point of view it's like together so as to give you a more global view of this um and so perhaps the best way to think about in your mind it's like what a manifold is is if you imagine that you are on the surface of the sphere or you know it's like say you're on the surface it's like of the the earth right and
+
+00:23:45
+the idea that somehow locally things look flat or euclidean might be that you know it's like on some patch it's like of the earth you have a chart here you know it's again you have these nice it's like cartesian coordinates it's like on that chart okay so you can think of that as a map for example so if you have a map it's like of some you know local area it's like which is a piece of the surface um and what has to happen then is that you know it's like all those
+
+00:24:17
+charts or maps like have to patch together in some sort of nice smooth way and when you do that then it defines um it gives you a global description then of this thing which is curved so locally you have things which are flat but globally your things which could be non-flat and there has to be some sort of basically smooth way to map coordinates in one map to another map right so anyway so uh we will discuss this again uh in greater detail let's like as we go along uh but suffice to say you know it's like
+
+00:24:55
+when i talk about a manifold we're really talking about some sort of curved space it's like which has a collection of charts which are called atlas so the collection of charts is called an atlas right and these charts have to have some sort of compatibility between them they have to basically you have to have some sort of way to um you know it's like transition it's like from one coordinate system to another uh in uh in a way which has some sort of regularity okay anyway so so let me go
+
+00:25:26
+back to this idea of a divergence function so it's a possibly asymmetric distance function between two points in a manifold and and what do i mean by asymmetric i mean that if i have this divergence function d between points a and b in general that's not equal to the divergence function between b and a okay and so one might ask well why is that the case it's like it just turns out that in many cases you don't have this symmetry okay but and and maybe it's like sort of good examples of these
+
+00:26:05
+is the kl divergence which is oftentimes used in machine learning so this is idea of this kl divergence and the chaot divergence is a an example what is called a bracken divergence so this is an example of a bregman divergence and a bragman divergence intuitively is the following object okay so so the bregman divergence is based on a given convex function so given a convex function we can talk about what is called the fragment divergence so the idea is the following so say you have this convex function
+
+00:26:59
+okay and you have two points which you're trying to measure the distance okay so let me just put one of these points here all right okay so that so with the first point you can take the linear approximation of the convex function right and at the second point you can measure the distance between that linearization about the first point with the um the actual value of the convex function you can look at this distance okay and and this is a you know this is how you construct the bracket divergence you look at the
+
+00:27:44
+linearization of a convex function about one point and you can evaluate that linearization at a second point and you compare it to the convex function value at that point okay so given a convex function you construct a linear approximation at one point and then you can look at the difference between this approximation and the value of the convex function at the second point and in general then such an object such a bregman divergence would have the property that this is asymmetric so if you had done it the other way right
+
+00:29:07
+what happened is that if you swap the roles a and b it's like in this case what would happen is that you would have taken the linearization at the second point and compare it to the function value the first point and sort of you can just sort of see from this picture that that it's quite a difference right there so there this isn't symmetric okay so anyhow um right so yeah anyhow yeah so that's an example it's like of um a break well that's a bragman divergence it's like an and and the kl divergence
+
+00:29:46
+is an example for breakdown divergence um and all right so there are certain it's like things which come out of it so what will happen is that given a divergence function right he can so this induces a metric and in general a pair of uh and a pair of connections of fine connections okay all right yeah so so in the case of kl divergence all right the induced metric from this divergence is the fischer raw metric and you recall that i said that kl divergence is an example for bregman divergence and bregman divergence comes
+
+00:31:18
+from this choice of a convex function so the corresponding convex function to kl divergence is the negative entropy okay all right okay so that's going to be interesting chao divergence is somehow related to fish around metric which is and it's also related to this idea of the negative entropy okay all right so so let me go back to this point it's like i made it's like where the divergence function induces a metric and also induces a pair of f1 connections so if you know something about um
+
+00:32:29
+if you know something about romanian geometry right so if you know something sort of about romanian geometry right there given a metric there's some sort of canonical connection right there is a unique sort of metric compatible torsion free connection okay which is called deliverativity connection okay so so let me focus on this idea of metric compatible so what does it mean for a connection to be metric compatible it's the following so again you have you know it's like on this curved space
+
+00:34:04
+now imagine you have two vectors let's call them v and w right so given v and w at a point you can look at the inner product between them so v and w and let's say you have a curve now okay so you can because of the connection you can introduce the idea of a parallel transport so you can parallel transport these vectors so let me sort of denote that as being say pi v so pi t of v it's like pi t of w so you parallel transport it's like along some sort of parametrized curve and you can ask yourself what is
+
+00:34:49
+the inner product between those transported vectors and if that connection if that notion of a parallel transport is metric compatible then when you parallel transport those vectors and you take the inner product between them that pair of vectors it stays the same value it's like s the original vectors as the original input of those two vectors okay all right so why did i bring this up so i bring this up because you know it's like when we talk about divergence functions and we said it induces a metric we also said
+
+00:35:23
+that it induces a pair of fine connections so what's going on here it's like why is there only one not just one and you have in general a pair of fine connections which comes out of this divergence function so so the fact that you have a pair of fn connections is sort of related to the fact that the divergence function in general is asymmetric okay so so what happens it's like when when you do have this um pair of effort connections is there some sense in which it generalizes this notion of metric compatibility
+
+00:35:56
+okay and it does okay and so basically what happens is that instead of this relationship v and w inner product is equal to the parallel transport of v and w you now have two different connections let me just call them pi and pi tilde if you will okay so what happens then is if you parallel transport the first vector with one of those f1 connections and you parallel transported the second vector with the other one then there is this kind of metric compatibility in this way all right you actually need both of the affine
+
+00:36:32
+connections appropriately parallel transported in order to have that inner product it's like stays constant along the parallel transport so this is the sense in which these pair of efferent connections are compatible with respect to the metric okay so so this is just a very very quick overview of some of the geometric things which show up which we'll discuss in greater detail it's like as the course progresses but hopefully that gives you a relatively high level idea of you know where some of the things you might have
+
+00:37:08
+heard about before it's like show up in the context of information geometry um how it relates say to romanian geometry which you might have had some exposure to um and the points of departure if you will okay and and as we'll see it's like um you know in the later part of the course right we'll see it's like on the one hand it's like how you make precise sense of these objects uh and how they show up when you try to do inference on you know it's like on information manifolds it's like off
+
+00:37:40
+particular classes so with that let me just stop here
+

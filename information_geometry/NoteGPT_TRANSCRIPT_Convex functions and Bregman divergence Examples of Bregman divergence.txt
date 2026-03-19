@@ -1,0 +1,39 @@
+00:00:01
+okay so now we're going to look at examples of the fragment divergence okay so the simplest example is the euclidean divergence okay so as you might expect it's like that corresponds to the convex function which is just given um by the euclidean distance right so you can check that for this convex function which is just one half the sum of squares right the divergence between two points in euclidean space it's just given by one half this euclidean distance squared right so this is just one half
+
+00:01:37
+of the square euclidean distance so it's not very exciting but yeah that's what it is so let's look at another example which is the logarithmic distance sorry logarithmic divergence okay so the convex function here is just negative sum from i equals 1 to n of the log of c i okay so this is on the manifold of positive measures okay so you can check what its gradient is gradient is just equal to um negative but this is a you should think of this as a vector right okay so this is just the i component of that
+
+00:03:19
+vector okay so the bregman divergence then is just equal to the sum from i equals 1 to n of the log of c i prime over c i plus c i divided by c i prime minus 1. okay um all right so that's one possibility and then there's another convex function you can consider which will lead to the kl divergence so for the negative entropy right the regular divergence is the same as the kl divergence okay so that's the sum because ci log because c i divided by c i prime minus c i plus c i prime okay
+
+00:05:22
+and then when the sum of cos c i equals the sum of c i prime equals 1 this is the bregman divergence it's like for probability vectors right so this is the kl divergence for probability vectors okay all right and then if recall it's like encoded it's like in any divergence function is a romanian metric right so uh in the context of kl it's like the underlying the tickle message is that kl divergence is bregman divergence which comes from a convex function that contracts function
+
+00:06:23
+is the negative shannon entropy and then the metric it's like which this bregman divergence uh where the scale divergence is that encodes is the fischer rao metric okay all right anyhow all righty so that's some nice connections it's like between many interesting objects in statistics and information theory okay so let's look at one more example which is the free energy of the exponential family okay so we want to if you recall it's like in this exponential family there was a
+
+00:07:13
+normalizing factor psi of theta right so in the exponential family there is a normalizing factor and the normalizing factor as the name implies it's like ensures that it actually is a probability distribution okay so let's recall what that normalizing factor is right right so if you recall it's like that's also referred to as the free energy and the statistical physics or the cumulative generating function in statistics okay all right so so what we want to do is to essentially construct the gradient right
+
+00:08:41
+of this normalizing factor because that's how you construct this hyperplane it's like at a point and then use that to construct the fragment divergence associated with that convex function okay so so you want to compute the associated fragment divergence so what i'm going to do is i'm going to use this condition which defines it's like this factor which is the normalization condition okay then so that involves integrating it's like the exponential family right and if recall it's like this term
+
+00:09:47
+is defined here guarantees that the integral of that is one right okay so this condition is equivalent to this condition basically okay so i can differentiate this with respect to theta theta i and what happens then is i get the integral of x i minus d d theta i phi theta p x theta d x right because essentially what's happening is that when i differentiate this thing respect to theta i get the derivative of the thing inside the parentheses it's like times this exponential again and this exponential
+
+00:10:43
+is just the property distribution so that's where i get this right and but differentiating respect to theta of this is equal to zero because when one is independent of theta i's right so that partial derivative of that respect to theta i is zero so that's one condition okay so from that we can conclude the following okay so let's see what happens okay all right so this means that d d theta i theta is equal to the integral of x i p [Music] right i just broke this integral up into
+
+00:11:48
+two pieces right so all right so all right so this term uh is just depends on theta right but i'm integrating respect to x so i can take that factor out right and then integral of p x comma theta is 1 so this is why the piece associated this times this integrated is just the thing inside the parentheses and then the other piece is this thing here right and that's obviously just the expectation of x i or sort of x i bar okay so that's telling you that the gradient of this sort of normalization factor is just the
+
+00:12:52
+expectation of the vector x okay and then you can check that the action of this is the covariance matrix which is positive definite so so that function is convex okay then with that you can construct the the bregman divergence right um right so it's just defined by this more generally speaking right this is just the general definition it's like of the fragment divergence and then you can show after a bit of work that this is really just the kl divergence applied to the exponential fat you can show
+
+00:15:10
+this is the kl divergence okay between two property distributions um and it requires it's like a little bit of careful calculation it's like but you know the bottom line again is that this recovers the kl divergence uh for the exponential family okay so uh let me just stop here for now and second the next thing we'll talk about uh is the issue of the legendre transform and one of the things you'll find is that the idea of lagendra transforms and duality it's like show up again and
+
+00:16:13
+again into theory of uh information geometry okay and then your first flavor of this again is in the legendre transform so let me just stop here for now
+

@@ -1,0 +1,51 @@
+00:00:00
+all right so now we're going to talk about uh the Breakman Divergence uh and before we do that we first have to talk a little bit about convex functions uh because Breakman Divergence is constructed out of convex function so convex functions and Breakman Divergence and as a reminder it's like the ever popular uh C black Li Divergence is an example of a breant Divergence uh and it's associated with uh sort of a convex function which is uh very well known as well okay so let me sort of briefly talk about convex
+
+00:00:42
+functions first so so a function so so a function s X right sorry s of c c right is said to be convex uh if the following holds right so Lambda s C1 + 1 - Lambda s C2 is greater than equal to S evaluated at the combination of Cass C1 and Cass 2 okay what that basically means if you will okay so if you look at this what's really happening is the following okay so let's say we have some sort of function okay and you have a point uh c c one and c c two right so this is s c so this point is
+
+00:02:09
+um s c c 2 and this is s c C1 and then you have some point here it's like in the interior uh I guess I should also say that Lambda needs to be between zero and one okay all right so okay so you have a point Cass one and Cass 2 uh and and so far I've just drawn this it's like in one dimension but you could imagine that this is uh in just some higher dimensional space and so you have a point it's like which is um somewhere between c 1 and C 2 and I can write this as Lambda C1 + 1us Lambda CU C2 uh with
+
+00:02:57
+Lambda between uh Z and one right so when Lambda is zero right then you get cuz see two and Lambda is one you get cuz C1 okay and then as Lambda varies from uh 0 to one it's like you get something in between those two things all right so so again what you should sort to think of is that you have these two points it's like in uh this space and you have a straight line segment that's like joining those two points and you're basically moving along that line segment okay and that point uh can be written in
+
+00:03:36
+this form and you're comp and you're looking at the function value it's like of uh s it's like at um at this point it's like along this line segment okay so that's the function value here and I'm comparing it to the linear interpolation of these two function values at the end point okay and so a function is convex if this linear interpolant at that point uh is greater than or equal to uh the function value at that point itself okay so that's what we mean by the function
+
+00:04:16
+being convex okay uh and this needs to hold uh so it needs to hold for um Lambda between 0 and one and it needs to hold for any uh points S one and S no c c one and c c 2 okay all right so anyway so that's what's meant for a function to be convex so let's now add a little bit more um and assume that that uh convex function is differentiable okay so now consider a differentiable convex function uh and then this function is convex if and only if the following is true so this function is
+
+00:05:24
+convex if and only if this hhen Matrix which is just given by this second derivative is positive definite so if uh you recall your stuff on calculus it's then you not this is essentially like the second derivative test if you will okay but it's generalized to multiple variables because now I'm just not looking at at a scale of value function it's like in one variable or you know it's like One Direction it's like it it could be defined it's like on a high dimensional space and so the analog of the second
+
+00:06:29
+derivative being sort of positive right is that this hhan Matrix um is positive definite okay all righty um so that's that's the basic idea behind convex functions right that if you um look at you look at this convex combination of the two end points to get something it's like in the line segment connecting those two right then the function value uh at that point um is sort of bounded from above it's like by the linear interent it's like between uh those two function values at the end
+
+00:07:08
+points okay okay so so that's the basic idea of convexity it's like and again it's like if that convex function is sufficiently differentiable then we can uh check that this notion of convexity is equivalent to the hesan it's like um given by this expression uh is positive definite okay okay so there many examples of convex functions um so examples so the simplest example probably is something like this right so it's just this uh sum of squares basically right so this is like
+
+00:08:04
+a sum of squares we can easily check that this is convex so this is also half the Idan distance right half the square of the Idan distance right okay so uh let's maybe look at a more interesting example right so let's say that we have a PB a probability distribution uh belonging to this uh n Simplex right okay and if you recall it's like the reason why um we're looking at this n Simplex is because it has this normalization condition that the sum of probabilities uh adds up to one okay um all righty so then it's like
+
+00:09:19
+uh the entropy is given by the following so h of p is equal to negative the sum of Pi log of Pi is a concave function so it's negative uh it's a convex function okay so this is the uh the Shannon entropy for example right okay so and then what's going to happen basically is that um as I said it's like if you if you give me a convex function it's like we're going to be a construct what's called a bragman Divergence out of that and then the K Divergence is the bragman Divergence
+
+00:10:23
+Associated uh with the negative Shannon entropy uh which is convex right okay so that's where we're going off all this so uh so that's one example right that's one example here that's one example here let's look at a few more examples okay so um so let's look at something coming from probability so given an exponential family our probability distributions okay and what I mean by that is the following so I look at some probability X and there some parameter Theta right so this is the exponential
+
+00:11:22
+of the sum of theta i x i plus some function K of x minus sum of the function of theta so where PX Theta is the probability density function of a random variable X and then with parameter sort of a vector parameter Theta then K of X is clearly a function of x and then this is a normalization factor and has the property that it's chosen so that the integral of this property distribution over the entire domain right is equal to one right okay all right so um you can check what that is um okay
+
+00:13:35
+so you can check that in order for this normalization condition to hold it's like you can determine this uh Factor so this is given by the log of the integral of the exponential of right okay so if you have this it's like then you can check that uh when you integrate this probility distribution you uh get the normalization condition okay so you can check the following so you can view this uh exponential family of probity distributions as a manifold where sort of theta is the coordinates
+
+00:15:05
+okay then you can prove that the Hess is positive definite I'm sorry passion of this function right it's uh positive definite okay and hence uh this function is convex okay and this is what is known as the cumulant uh generating function okay in statistics uh and it's also um known as the free energy uh in statistical mechanics or physics okay in statistical physics okay and then it's like more generally it's like uh the this family of exponential functions right the exponential family uh is going to show
+
+00:17:12
+up it's like um very prominently it's like a the applications of information geometry so the exponential family shows up in many applications of information geometry okay so all right so anyway so these are some examples of convex functions it's like which play a special role it's like uh either in physics and statistics and what have you um and then it's like with these convex functions in mind right we're going to construct Divergence functions out of this true this construction known as the rment
+
+00:18:05
+Divergence so let me just stop here for now
+

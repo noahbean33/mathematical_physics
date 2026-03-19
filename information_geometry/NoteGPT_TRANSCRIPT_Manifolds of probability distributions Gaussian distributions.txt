@@ -1,0 +1,24 @@
+00:00:01
+all right so now we're going to look at some examples of manifolds which arise context of manifolds or probability distributions okay so one example obviously are gaussian distributions so you know that if you have a probability density function of a gauging distribution it's described by the following so the probability at some point x right and that parametrically depends on the mean and uh the sort of standard deviation right and so this is given by 1 over square root of 2 pi sigma the exponential
+
+00:01:11
+of x minus mu squared divided by 2 sigma squared with a negative sign here right so so mu is the mean right and sigma squared is the variance okay so it's clear that you can parametrize the space of gaussian distributions right by the mean and cycad variance for example so we can try the space of gaussian distributions by sort of the following coordinates so if you just have mu and sigma and then you just need that sigma is greater than zero right so this is a two-dimensional manifold that is equivalent that is
+
+00:02:44
+sort of difficult to the upper half plane say in r2 okay and there's the entire manifold in question is covered by this single coordinate chart here right so um so in particular it's like if you have a coordinate um well if you have an atlas there's only one uh coordinate chart in that atlas right then by definition it's like it satisfies the compatibility conditions you don't really have to worry about the compatibility condition which we talked about earlier and having said that you know it's like
+
+00:03:38
+there are obviously other choices of coordinates you can pick right so there so there are other possible coordinate systems right so in particular you can consider the moments of a distribution okay so m1 is the expectation of x right which is obviously just the mean so that's equal to mu and m2 is the expectation of x squared right that's going to be mu squared plus sigma squared okay so where e denotes the expectation of a random variable okay um then this alternative set of coordinates
+
+00:05:23
+it's like having to do the moments is again a coordinate system type for this space of gaussian distributions it's a coordinate system as well okay so there's this one other choice it's like uh which we denote by theta okay so i'm just going to leave the definition of the gaussian here so another possible coordinate system it's the following okay so theta is equal to mu you divided by sigma squared comma minus 1 over 2 sigma squared okay so this is referred to as natural
+
+00:06:49
+parameters and then this is going to be a sort of convenient coordinate system for studying gaussian distributions okay so this that's a convenient sort of coordinate system for sort of studying properties of gaussian distributions all right all right so that's just one sort of a fairly naive example because the space against distributions is fairly straightforward right i mean it's uh it has a single coordinate chart it's like there you know which is necessary it's like to cover the entire manifold
+
+00:08:08
+um there are sort of you know several equivalent uh atlases it's like which we've discussed here um but again it's like you don't really have to worry it's like in this stage it's like of um you know it's like the change of coordinates maps it's like which are important it's like when you're trying to define whether or not a you know manifold has some sort of uh regularity all right yeah so so let me just stop here for now it's like and then it's like
+
+00:08:36
+we'll look at a few more examples to type of manifolds or probability distributions okay so let me just stop here for now
+

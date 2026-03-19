@@ -1,0 +1,346 @@
+	\documentclass[12pt,reqno]{amsart}
+	\usepackage{amsmath,amssymb,amsthm}
+	\usepackage[hidelinks]{hyperref}
+	\usepackage{url}
+	\usepackage{verbatim}
+	\usepackage{xspace}
+	\usepackage{amscd}
+	\usepackage[all]{xy}
+	\usepackage{tikz}
+	\usepackage{enumerate}
+	\usepackage{enumitem}
+	\usepackage{mathrsfs}
+	
+	\usetikzlibrary{decorations,decorations.pathmorphing,decorations.pathreplacing,decorations.markings,shapes.arrows}
+	\usepackage{color}
+\definecolor{heading}{RGB}{40, 0, 130}
+\definecolor{bgcolor}{RGB}{255,253,250}
+\definecolor{duecolor}{RGB}{150,0,0}
+\definecolor{pisteet}{RGB}{0,0,132}
+\pagecolor{bgcolor}
+
+%\renewcommand*\rmdefault{cmfib}
+\usepackage[hidelinks]{hyperref}
+
+\renewcommand{\thefootnote}{\ensuremath{\fnsymbol{footnote}}}
+
+%\usepackage[light,math]{iwona}
+%\usepackage[finnish]{babel}
+\newcounter{prob}
+\setcounter{prob}{1}
+\newcounter{assign}
+\setcounter{assign}{1}
+
+
+
+%\renewcommand{\theprob}{\Roman{prob}}
+%\newfont{\bigrm}{rm at 12pt}
+
+\newenvironment{problem}{\par\noindent\textbf{Problem \Roman{prob}.\hskip2pt}}{\par\vskip12pt\stepcounter{prob}}
+\newenvironment{assignment}{\par\noindent\textbf{Assignment \Roman{assign}.\hskip2pt}}{\par\vskip12pt\stepcounter{assign}}
+
+
+%-----------------------------------------------------------------------------%
+% PAGE SIZES
+%-----------------------------------------------------------------------------%
+\setlength{\hfuzz}{3pt}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{29pt}
+\setlength{\footskip}{28pt}
+\setlength{\textwidth}{444pt}
+\setlength{\textheight}{636pt}
+\setlength{\marginparsep}{7pt}
+\setlength{\marginparpush}{7pt}
+\setlength{\oddsidemargin}{4.5pt}
+\setlength{\marginparwidth}{55pt}
+\setlength{\evensidemargin}{4.5pt}
+\setlength{\topmargin}{-15pt}
+\setlength{\footnotesep}{8.4pt}
+%--------------------------------------------------------------------%
+% CLAIMS
+%--------------------------------------------------------------------%
+%\swapnumbers
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+%
+\theoremstyle{definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+%--------------------------------------------------------------------%
+% OPERATORS
+%--------------------------------------------------------------------%
+\DeclareMathOperator{\pr}{pr}
+\DeclareMathOperator{\tot}{tot}
+\let\hook\undefined
+\DeclareMathOperator{\hook}{\lrcorner}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\D}{D}
+\DeclareMathOperator{\tr}{tr}
+%
+%     Macros
+%
+\newcommand\Z{\mathbb Z}
+\newcommand\N{\mathbb N}
+\newcommand{\Q}[1]{\mathbb{Q}^{#1}}
+\newcommand{\volform}{dx^1 dx^2\cdots dx^\bdim}
+\newcommand{\R}[1]{\mathbb{R}^{#1}}
+\newcommand{\M}[1]{\mathbb{M}^#1}
+\newcommand{\krondel}[2]{\delta^{#1}_{#2}}
+\newcommand{\He}{Helmholtz\xspace}
+\newcommand{\ga}[1]{\mathfrak{ga}(#1)}
+\newcommand{\cprime}{\/{\mathsurround=0pt$'$}}
+\newcommand{\comp}{\mkern-1mu\raise 1pt\hbox{$\,\scriptstyle\circ\,$}\mkern-1mu}
+
+\newcommand{\I}{I}%unit interval
+\newcommand{\id}{\text{id}}
+\newcommand\stansplx[1]{\Delta^{#1}}
+\newcommand\singsplx[2]{\sigma^{#1}_{#2}}
+\newcommand\chain{\sigma}
+\newcommand\chaingp[2]{C_{#1}(#2)}
+\newcommand\chaingpR[3]{C_{#1}(#2,#3)}
+\newcommand\chaingpo[1]{C_{#1}}
+\newcommand\chaingpalto[1]{D_{#1}}
+\newcommand\chaingpaltalto[1]{B_{#1}}
+\newcommand\chaincx{\mathbf C}
+\newcommand\chaincxalt{\mathbf D}
+\newcommand\chaincxaltalt{\mathbf B}
+\newcommand\chainhom[1]{h_{#1}}
+\newcommand\chainmap[1]{f_{#1}}
+\newcommand\chainmaphom[1]{f_{#1\star}}
+\newcommand\chainmapcoll{\mathbf f}
+\newcommand\chainmapalt[1]{g_{#1}}
+\newcommand\chainmapalthom[1]{g_{#1\star}}
+\newcommand\chainmapaltcoll{\mathbf g}
+\newcommand\closure[2]{\overset{\raisebox{0.6pt}{\hspace{0.2em}\text{\rule{#1}{0.2mm}}}}{#2}}
+\newcommand\conjugate[2]{\overset{\raisebox{0.0pt}{\hspace{0.2em}\text{\rule{#1}{0.2mm}}}}{#2}}
+\newcommand\facemap[2]{F^{#1}_{#2}}
+\newcommand\bmap[1]{\partial_{#1}}
+\newcommand\bmapalt[1]{\partial\mkern0.2mu'_{\mkern-2mu #1}}
+\newcommand\homotopy{H}
+\newcommand\homology[2]{H_{#1}(#2)}
+\newcommand\homologyD[2]{H^\Delta_{#1}(#2)}
+\newcommand\homologyR[3]{H_{#1}(#2,#3)}
+\newcommand\homologyRed[2]{\widetilde{H}_{#1}(#2)}
+\newcommand\Hom{\mbox{Hom}}
+\newcommand\unitinter{I}
+\newcommand\cycles[2]{Z_{#1}(#2)}
+\newcommand\boundaries[2]{B_{#1}(#2)}
+\newcommand\image{\text{Im\,}}
+\newcommand\Int[1]{\text{Int}\,#1}
+\newcommand\kernel{\text{Ker\,}}
+%\newcommand\homology[2]{\rm{H}_{#1}(#2)}
+\newcommand\class[1]{[#1]}
+\newcommand\prismmap[2]{E^{#1}_{#2}}
+\newcommand\summap[2]{S^{#1}_{#2}}
+\newcommand\prismop[1]{\text{P}_{#1}}\newcommand\ianhook{\mathbin{\raise1pt\hbox{\hbox{{\vbox{\hrule height.4pt
+width6pt depth0pt}}}\vrule height3pt width.4pt depth0pt}\,}}
+%\newcommand{\ianhook}{\lrcorner}
+\newcommand\bdim{m}
+\newcommand\bcoord[1]{x^{#1}}
+\newcommand\Christoffel[3]{\Gamma^{#1}_{#2#3}}
+\newcommand\Christoffelvar[4]{\Gamma^{\hphantom{#1}#2}_{\mkern-3mu#1,#3#4}}
+\newcommand\CP[1]{\mathbb C\text{P}^{#1}}
+%\newcommand\curvature[4]{R_{#1#2#3}{}^{#4}}
+%\newcommand\CP[1]{\mathbb C\text{P}^{#1}}
+\newcommand\RP[1]{\mathbb R\text{P}^{#1}}
+\newcommand\projP{\pi_{\text{P}}}
+\newcommand\projGr{\pi_{{Gr}}}
+\newcommand\retract{r}
+\newcommand\rktwos{\mathcal T}
+\newcommand\rktwo[2]{\rktwos(#1,#2)}
+\newcommand\smfld{S}
+\newcommand\vb{\mathbf v}
+\newcommand\wb{\mathbf w}
+\newcommand\vsp{\mathcal V}
+\newcommand\Vb{\mathbf V}
+\newcommand\Wb{\mathbf W}
+
+\newcommand\on[1]{\mathbf e_{#1}}
+\newcommand\GrEcoord[2]{\varphi^e_{#1#2}}
+\newcommand\Grcoord[2]{\varphi_{#1#2}}
+\newcommand\Grcoordinv[2]{\psi_{#1#2}}
+\newcommand\Emx{\mathbb E}
+\newcommand\Transpose[1]{{#1}^{\text{\bf T}}}
+\newcommand\ont[1]{\mathbf e^{\text{\bf T}}_{#1}}
+\newcommand\Pcoord[1]{\varphi_{#1}}
+
+\def\QED{\hskip0.1em\hfill\null\
+  \null\nobreak\hfill\kern3pt\vbox{\hrule\hbox
+   {\vrule\kern1pt\vbox{\kern1.7pt\hbox{$\scriptscriptstyle{QED}$}
+    \kern0.2pt}\kern1pt\vrule}\hrule}}
+\renewcommand{\qedsymbol}{\QED}
+
+\def\END{\hskip0.1em\hfill\null\
+  \null\nobreak\hfill\kern3pt\vbox{\hrule\hbox
+   {\vrule\kern1pt\vbox{\kern1.7pt\hbox{$\,\,\,\vspace{5pt}$}
+    \kern0.2pt}\kern1pt\vrule}\hrule}}
+
+\newcommand{\abs}[1]{\lvert\kern.1em{#1}\rvert}
+\newcommand{\norm}[1]{\lVert\kern.1em{#1}\rVert}
+\newcommand*{\pd}[2]{\mathchoice{\frac{\partial #1}{\partial #2}}
+  {\partial #1/\partial #2}{\partial #1/\partial #2} {\partial
+  #1/\partial #2}}
+\newcommand*{\od}[2]{\mathchoice{\frac{d#1}{d#2}}
+  {d#1/d#2}{d#1/d#2}{d#1/d#2}}
+
+\hyphenation{Noeth-er Helm-holtz Poh-jan-pel-to}
+\newcommand\lasku{\count1=1}
+\newcommand\katso{\showthe\count1}
+
+\begin{document}
+\thispagestyle{empty}
+\centerline{\large{\scshape{\color{heading} MTH 430 Metric Spaces and Topology}}}
+\vskip3pt
+\centerline{\large{\scshape{\color{heading} Spring Term 2021}}}
+\vskip3pt
+\centerline{\large{\ttfamily Homework Assignments\footnote[2]{Each problem is worth 10 points unless otherwise indicated.}}}
+\vskip10pt
+\newcounter{nested}
+\newcounter{spacerule}
+\begin{assignment}({\em{\color{duecolor} Due April 3, 2021}})
+Let $f\colon X\to Y$ be a function, where $X$ and $Y$ are some sets. If $A\subset X$ and $B\subset Y$, then the image $f(A)\subset Y$ of $A$ and the inverse image $f^{-1}(B)\subset X$ of $B$ are defined by 
+$$f(A)= \{f(a)\,\vert\, a\in A\},\quad\quad f^{-1}(B) = \{a\in X\,\vert\, f(a)\in B\}.$$
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{15pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item 
+ Prove the following statements.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item $A\subset f^{-1}(f(A))$.
+\item $f(f^{-1}(B))\subset B$.
+\item $f(X)\setminus f(A)\subset f(X\setminus A)$.
+\item $f^{-1}(Y\setminus B)=X\setminus f^{-1}(B)$.
+\end{enumerate}
+\item An \emph{index set} is a set, often unspecified, used to label objects. Thus the notation $A_\alpha\subset X$, $\alpha\in\mathscr A$, indicates that for every element $\alpha\in\mathscr A$, there is a corresponding subset $A_\alpha$ in $X$. (So, for example, what would the notation $A_r\subset X$, $r\in\R{}$ (the real numbers), mean?) 
+\vskip3pt
+\noindent
+Let $\mathscr A$, $\mathscr B$ be some index sets, and let $A_\alpha\subset X$, $\alpha\subset\mathscr A$, $B_\beta\subset Y$, $\beta\in\mathscr B$. Prove the following.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item $f(\cup_{\alpha\in\mathscr A}A_{\alpha})=\cup_{\alpha\in\mathscr A} f(A_{\alpha})$.
+\item $f(\cap_{\alpha\in\mathscr A}A_{\alpha})\subset\cap_{\alpha\in\mathscr A} f(A_{\alpha})$.
+\item $f^{-1}(\cup_{\beta\in\mathscr B}B_{\beta})=\cup_{\beta\in\mathscr B} f^{-1}(B_{\beta})$.
+\item $f^{-1}(\cap_{\beta\in\mathscr B}B_{\beta})=\cap_{\beta\in\mathscr B} f^{-1}(B_{\beta})$.
+\end{enumerate}
+\item Let $f\colon X\to Y$ be a function. Prove that the following are equivalent.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item $f$ is injective.
+\item For all $A\subset X$, $f^{-1}(f(A))=A$.
+\item For all $A_1$, $A_2\subset X$, $f(A_1\cap A_2)=f(A_1)\cap f(A_2)$.
+\item For all $A_1$, $A_2\subset X$ with $A_2\subset A_1$, $f(A_1\setminus A_2)=f(A_1)\setminus f(A_2)$.
+\end{enumerate}
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} Due April 10, 2021}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{15pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Show that the following collections $\tau$ of subsets of $X$ form a topology in the given space.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $X=\{a,b,c,d\}$ with
+$\tau=\{\emptyset, \{a\}, \{b\}, \{a, b\}, \{a, c\}, \{a, b, c\}, \{a, b, d\}, \{a, b, c, d\}\}$.
+\item Let $X$ be an uncountable set and let $\tau$ consist of all subsets $O\subset X$ such that $X\setminus O$ contains countably many points or is all of $X$.
+
+%\item Let $X$ be a space and suppose $d\colon X\times X\to \R{}$ is a function satisfying $d(x,x)=0$, $d(x,y)=d(y,x)$, $d(x,z)\leq d(x,y)+d(y,z)$ for all $x,y,z\in X$ (so possibly $d(x,y)=0$ for some $x\neq y$). Let $\tau$ consist of the empty set and of all sets $O\subset X$ satisfying the condition: Let $x\in O$ be any. Then for some $r_x>0$ the open ball $B_{r_x}=\{y\in X\,\vert\,d(x,y)<r_x\}$ centered at $x$ is contained in $O$.
+\end{enumerate}
+\item Show that the following collections $\tau$ of subsets of $X$ form a topology in the given space.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $X=(0,1)$ and let $\tau$ consists of the sets $O_n=(0,1-1/n)$, $n=2,3,\dots$, together with $\emptyset$ and $X$.
+
+\item Let $X = [-1,1]$ with $\tau$ consisting of the sets that do not contain $0$ or contain the interval $(-1,1)$, together with $X$.
+\end{enumerate}
+\item Let $d(\conjugate{5pt}{x},\conjugate{5pt}{y})$, $\conjugate{5pt}{x}, \conjugate{5pt}{y}\in\R n$, be the usual Euclidean metric on $\R n$, and let $$d'(\conjugate{5pt}{x},\conjugate{5pt}{y})=\dfrac{d(\conjugate{5pt}{x},\conjugate{5pt}{y})}{1+d(\conjugate{5pt}{x},\conjugate{5pt}{y})}\,.$$ Show that $d'$ is a metric on $\R n$ and compare open sets in the topology defined by $d'$ to the open sets in the Euclidean topology. 
+\item
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $(X,\tau)$ be as in problem 1.a. Find all the limit points of the sets $\{a\}$ and $\{c\}$.
+\item Let $(X,\tau)$ be as in problem 1.b with $X=\R{}$. Find all the limit points of the rational numbers $\Q{}\subset\R{}$ and the interval $(-1,1)$. 
+\end{enumerate}
+\end{list}
+\end{assignment}
+\begin{assignment}({\em{\color{duecolor} Due April 23, 2021}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{15pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Suppose that the real axis $\R{}$ is equipped with the topology defined by the basis $\beta=\{[a,b)\,\vert\,a<b\}$. Call this space $\R{}_l$ and let $\R{}$ denote the real axis with the usual Euclidean topology. Which of the following functions  are continuous?
+\begin{enumerate}[label=\textbf{\alph*})]
+\item $f\colon \R{}\to\R{}_l$, $f(x)=x^2$.
+\item $f\colon \R{}_l\to\R{}$, $f(x)=x^2$.
+\item $f\colon \R{}_l\to\R{}_l$, $f(x)=x^2$.
+\end{enumerate}
+\item A bijection $f\colon X\to Y$ is called a homeomorphism if both $f$ and $f^{-1}$ are continuous. A function $f\colon X\to Y$, not necessarily continuous, is called a closed map if $f(C)\subset Y$ is closed whenever $C\subset X$ is closed.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Show that a continuous bijection is a homeomorphism if and only if it is a closed map.
+\item Show that $f\colon X\to Y$ is a closed map if and only if $\closure{24pt}{f(A)}\subset f(\closure{8pt}{A})$ for all subsets $A\subset X$. 
+\end{enumerate}
+\item Problem 2 continued:
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Conclude that a bijection $f\colon X\to Y$ (a priori, not necessarily continuous) is a homeomorphism if and only if $f(\closure{7pt}{A})=\closure{24pt}{f(A)}$ for all subsets $A\subset X$.
+\item Equip $[0,2\pi)\subset\R{}$ and $S^1\subset \R2$ with the respective subspace topology. Show that the function $f\colon [0,2\pi)\to S^1$, $f(x)=(\cos x,\sin x)$ is a continuous bijection but not a homeomorphism.
+\end{enumerate}
+\item Let $(X_1,\tau_1)$, $(X_2,\tau_2)$ be topological spaces and let $Y$ be a set. Suppose $f_1\colon X_1\to Y$, $f_2\colon X_2\to Y$ are some functions. Define a collection $\tau_Y\subset\mathcal P(Y)$ of subsets of $Y$ by the condition: $\mathcal O\in\tau_Y$ precisely when $f_1^{-1}(\mathcal O)\subset X_1$, $f_2^{-1}(\mathcal O)\subset X_2$ are open.
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Show that $\tau_Y$ is a topology on $Y$.
+\item Show that $\mathcal C\subset Y$ is closed if and only if both $f_1^{-1}(\mathcal C)\subset X_1$, $f_2^{-1}(\mathcal C)\subset X_2$ are closed.
+\item Let $Z$ be some topological space and let $g\colon Y\to Z$ a function. Show that $g$ is continuous if and only if the compositions $g\comp f_1$ and $g\comp f_2$ are continuous.
+\end{enumerate}
+\item Let $X$ be a topological space. Show that the following are equivalent:
+\begin{enumerate}[label=(\roman*)]
+\item The singleton $\{x\}\subset X$ is closed for any $x\in X$.
+\item For any $x\neq y\in X$, there is an open set $U\subset X$ such that $x\in U$, $y\notin U$.
+\item For any $x\in X$, $\{x\}=\cap_{U\in\xi} U$, where $\xi$ consists of all open sets that contain $x$.
+\end{enumerate}
+\end{list}
+\end{assignment}
+
+\begin{assignment}({\em{\color{duecolor} Due May 1, 2021}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{15pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+%\item Recall that a subset $A\subset X$ of a topological space $X$ is {\it dense} if the closure of $A$ equals $X$, $\closure{8pt}{A}=X$. 
+%\begin{enumerate}[label=\textbf{\alph*})]
+%\item Let $f\colon X\to Y$ be continuous and let $A\subset X$ be dense. Show that $f(A)\subset f(X)$ is dense, where, as usual, $f(X)\subset Y$ is equipped with the subspace topology.
+%\item Suppose $f\colon X\to Y$ is an open mapping, and let $B\subset Y$ be dense. Show that $f^{-1}(B)\subset Y$ is dense.
+%\end{enumerate}
+\item ({\color{pisteet} 15 points)} Let $X=\R{}\mkern0.7mu\cup\mkern0.7mu \{p\}$, and equip $X$ with a topology in which $\R{}$ has the  usual Euclidean topology and the neighborhoods of $\{p\}$ are of the form $(a,0)\cup\{p\}\cup (0,b)$ where $a<0$ and $b>0$. 
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Show that all open intervals on $\R{}$ together with the neighborhoods of $p$ give rise to a basis for a topology on $X$.
+\item Show that if $U$ and $V$ are any open sets containing $0$ and $p$, respectively, then $U\cap V\neq\emptyset$. Conclude that $X$ is not Hausdorff.
+\item Show that $\Q{}\subset\R{}$ is dense in $X$.
+\item Is the function $f\colon X\to\R{}$, $f(x)=x$ if $x\in\R{}$, $f(p)=0$, continuous?
+\end{enumerate}
+\item 
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $f,g\colon X\to Y$ be continuous, where $Y$ is Hausdorff. Show that the set $\{x\in X\,\vert\,f(x)=g(x)\}$ is closed in $X$. 
+\item Let $f\colon X\to X$ be continuous. A point $x\in X$ is a fixed point for $f$ if $f(x)=x$. Show that the set of all fixed points of $f$ in $X$ is closed provided that $X$ is Hausdorff.
+\end{enumerate}  
+\item
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $X$ be Hausdorff, and let $p_1$, $p_2$, \dots, $p_k\in X$ be distinct points in $X$. Show that there are neighborhoods $U_i$ of $p_i$, $i=1,2,\dots,k$ such that $U_i\cap U_j=\emptyset$ for all $i\neq j$.
+\item Let $f\colon X\to Y$ be a continuous injective map. Show that if $Y$ is Hausdorff, then so is $X$.
+\end{enumerate}
+\item 
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Let $\Q{}\subset\R{}$ be the set of rational numbers with the subspace topology. Show that the set $A=\{q\in\Q{}\,\vert\,0\leq q<\sqrt{2}\}$ is closed and bounded but not compact in $\Q{}$.
+\item Let $A$, $B$ be two compact sets in a topological space $X$. Are $A\cup B$ and $A\cap B$ compact?
+\end{enumerate}
+\end{list}
+\end{assignment}
+
+\begin{assignment}({\em{\color{duecolor} Due May 22, 2021}})
+\begin{list}{\textbf{\arabic{spacerule})}}{\setlength{\itemsep}{2pt}\setlength{\leftmargin}{15pt}\setlength{\parsep}{0pt}\usecounter{spacerule}}
+\item Let $\beta$ be a basis for a topology on $X$. Suppose that any cover of $X$ by members of $\beta$ admits a finite subcover. Show that $X$ is compact.
+\item 
+\begin{enumerate}[label=\textbf{\alph*}),itemindent=0cm]
+\item
+Let $f\colon X\to Y$ be a surjective, open map, where $Y$ is connected. Assume that $f^{-1}(y)\subset X$ is connected for every $y\in Y$. Prove that $X$ is connected.
+\item Use the result in part a to show that the product space $X\times Y$ is connected if both $X$ and $Y$ are connected.
+\end{enumerate}
+\item Let $\R{}_l$ denote the real axis equipped with the topology generated by the basis $\beta=\{[a,b)\,\vert\,a<b\}$. Describe the connected subsets of $\R{}_l$ (in the subspace topology).
+\item Let $A\subset X$, $B\subset Y$ be any sets. Show that $\closure{32pt}{A\times B}=\closure{8pt}{A}\times\closure{8pt}{B}$ in the product topology of $X\times Y$. Conclude that if $A\subset X$, $B\subset Y$ are closed, then $A\times B\subset X\times Y$ is closed.
+\item
+\begin{enumerate}[label=\textbf{\alph*})]
+\item Show that a topological space is Hausdorff if and only if the diagonal $\Delta=\{(x,x)\in X\times X\}$ is closed in $X\times X$.
+\item Let $f\colon X\to Y$ be continuous, where $Y$ is Hausdorff. Show that the graph $\Gamma_f=\{(x,f(x))\in X\times Y\,\vert\,x\in X\}$ is closed.
+\end{enumerate}
+\end{list}
+\end{assignment}
+\end{document}
+
+
+

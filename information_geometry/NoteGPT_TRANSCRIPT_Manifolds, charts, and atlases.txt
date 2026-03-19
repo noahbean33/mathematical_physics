@@ -1,0 +1,159 @@
+00:00:01
+all right so now i'm going to define for you the notion of manifold and in particular this involves the discussion of charts and atlases okay so let's say we have a set m okay and then you have to endow it's like this set with a topology and so the basic idea if you will is that you need to introduce a topological structure in m it's like to make sense of the notion of continuous maps um so um so i'm not going to go too much to details it's like but the essential idea is that
+
+00:01:03
+it makes sense of what it means to have open sets it's like in in the set and then the basic idea then is that a continuous map is something whose pre the pre-image of an open set is open okay so so the topology it's like sort of sort of defines if you will what uh open sets and allows one to make sense of continuous maps okay and the idea of continuous maps are that they're the property that the map is continuous if the pre-image of an open set is open okay so um so again it's like i won't go too
+
+00:02:24
+much into the notion of uh what uh sigma algebras are it's like uh um where sort of this sets it's like have certain properties it's like we have to do with unions it's like and intersections and they're closed under some appropriate combination of unions intersections okay anyhow so so you have to set emits again there's a topology and apology allows you to make sense of the idea of continuous maps okay and then then you have a coordinate chart um let's say phi which is a map now from a subset u it's
+
+00:03:09
+like of this biggest set m okay into an open subset of rn well rt okay so so this is a coordinate chart okay often denoted by uh u and phi okay so the domain is defined on it so i can then the the map itself and then oftentimes it's like you know we drop the domain of definition and often we drop the u and just refer to phi for u phi okay um so what this coordinate chart as the name implies does is that it takes okay so say say this is m which is your set which is going to be later some sort of manifold and then
+
+00:04:36
+there's some domain u here okay and this is going to map to a open set in rd okay and what it does in essence is that it takes a point x okay and it gives you a bunch of coordinates on it so let's say x1 x2 to xt okay okay so so if you're given a chart phi and x in u right then phi of x which is in rd right is other coordinates [Music] of x in the chart okay so one way to sort of think about this then is that the chart gives you a way to locally identify some neighborhood or some set that's like on
+
+00:06:10
+the manifold m with a chord with basically some open set it's like an rd so it gives you and and it has to be a bijection so so it has to be one to one and on two right so this is a bijection so that's one to one and it's on to and uh both the forward and the inverse maps are continuous okay so what it does then is that it gives you it's like a way of writing down it's like that point it's like as a d2 pole of numbers okay which we think of as the coordinates of x with respect to this
+
+00:06:51
+coordinate chart okay and then locally what that does is that it endows it's like this set with a euclidean structure okay so one way to sort of see this is that because you have a bijection if you look at coordinate lines it's like on rd right they map back to a coordinate patch on a manifold as well okay [Music] so so in particular what that allows you to do is to make sense of what it means for you know say functions defined on a manifold it's like to be um to have some sort of regularity uh
+
+00:07:37
+for example you know um differentiability of various sorts okay um so we'll see how that happens so coordinates sort of coordinate maps all coordinate charts right allow you to sort of relate objects defined on the manifold well technically i guess you right you contain in this manifold okay with uh sort of objects on the subset um okay image of this open set okay by the coordinate chart which is contained in rd okay so so perhaps the easiest example is if you imagine that you have a function
+
+00:09:08
+f from the manifold to the rails okay so you have a map from r it's like uh two well your map from something from the manifold to the rails and you might want to ask it's like well how smooth is this function okay so the problem is that you uh you know you you don't really have any uh clear notion of this uh and but we do understand uh what it means for a map from say rd to r it's like to be smooth okay so uh so it's natural to look at the basically the coordinate representation
+
+00:09:43
+like of this function for example okay and the coordinate representative is related in the following way so all right so you have this map f from the manifold it's like to the rails we have this coordinate chart from some subset of the manifold to some open neighborhood of rd all right so we can imagine defining a function here just in such a way as to make the diagram commute okay so what you basically have to do is that you have to if you want to go here you want to go basically like this
+
+00:10:22
+right so this thing this map here then is phi inverse composed with f composer 5 inverse right so this then is a map from let's say 5 of you right to r okay five u is contained in our d okay so now it's like you have a map from rd or some at least some open set in our d it's like two reals right and then we can talk about how differentiable that is okay so um so this gives you some way of thinking about the differentiability it's like of this function f which originally is a scalar value function
+
+00:11:15
+defined on the manifold okay so so the problem of course is that right now we just have one single coordinate chart okay so which is phi what you would like to do of course is you'd like to cover it like the entire manifold with coordinate patches so that the union it's like of the domains or definition of the coordinate charts cover the entire manifold and then if you do that the worry if you will is that or the issue is that you will have overlapping domains of definition and then so if you have that and you want to talk
+
+00:11:56
+about say the differentiability it's like of this function f which again is defined on the manifold but we make sense of the notion differentiability by looking at what is essentially the coordinate representation of that function f with respect to a particular coordinate chart and we ask whether that map now from some subset of our d to r is you know has an appropriate number of derivatives the problem then is that you know you could have overlapping regions it's like where you have two
+
+00:12:26
+charts which have an overlapping domain okay and so you want to be able to show that this notion of differentiability of this function f is independent of the choice of the chart which you've used in defining this local notion of differentiability okay so it turns out that in order to make that all work out there has to be some compatibility between charts if you will okay so the basic idea then is that so the chart the coordinate chart allows one to define some notion of differentiability in terms of the coordinate
+
+00:13:33
+representation f okay which is this map i just composition f composed with y inverse right but we want this to be independent of the choice of chart okay and the point is that if you want it to be independent the choice of chart then you need some compatibility between charts in some sense okay so so let's see what i mean by that so now we're going to imagine that there are two charts on the manifold with again an overlapping domain okay so we have again this picture but now there are two charts or two domains so let's say u
+
+00:14:50
+and v and then you have two charts okay let's say phi and psi and they each give you a map it's like a bijection it's like from this u it's like to sum open set in rd the same thing is true here some open set in our d okay and then what is relevant is that there's this region of overlap right so this shaded region here is the image it's like under phi it's like of this region overlap okay all right so as before you can then ask whether there's a map from now this overlap region
+
+00:15:41
+right which is phi u intersect v to psi u intersect v okay uh and and what you want of course is that you want this to be um be differentiable enough in some sense okay so so let's just go in one direction and the other direction is sort of obvious so if you want to go in this direction right again you you go in such a way as to make the diagram or you sort of traverse this diagram through another path it's like and then you want this diagram to commute so this map is just defined to be
+
+00:16:26
+sort of psi sort of composed with phi inverse okay so uh psi composed with phi inverse again it's a map from uh phi u intersect v to psi u intersect v and then both of these things are subsets open subsets of r d okay so again it's like in some sense it's a map from our dhrd it's like you can talk about you know how differentiable that map is okay all right so so this sort of this is some notion of compatibility it's like and it goes into well okay sort of properties of this
+
+00:17:19
+change of coordinates map if you will so this is the change of coordinates map so the sort of the differentiability it's like the change of coordinates map is going to relate to um you know the properties of the structure it's like of the atlas you impose on this manifold okay um so let me maybe just state it here right so there's this idea of a c infinity atlas on sort of m right into rd okay it's a collection of charts so i'm going to index them by alpha so u alpha let's see say phi alpha
+
+00:18:30
+okay of m such that the following is true one that you want the you know again the domain definition of the charts it's like to cover the entire manifold so we want union over alpha of u alpha to be equal to m okay so the second thing is that if you have two of these things then this change of coordinate charts has some nice properties so for any sort of pair let's say alpha and beta right where the there's some non-trivial overlap with u alpha intersect u beta is not the empty set there's a non
+
+00:19:20
+empty overlap okay then the image right of each of these open in rd right these are this is this overlap regions and the change of coordinates map which is phi beta composed with phi alpha inverse is c infinity okay so we can talk about stephen c infinity functions because these are maps from open sets of rd to open sets of rd okay so we can talk about uh the usual notion of differentiability it's like which we know it's like from just the the euclidean well i mean just the linear vector space
+
+00:20:59
+case okay um all right so um so this is what's notion of the c infinity atlas okay it has these two properties that again it's like you have coordinate charts which cover everything and then that there's this change of coordinates map which you can see in this picture right with the property that you know the change coordinate maps are smooth it's like and then you know basically the inverse is also smooth okay all right and you can say that these elements of the atlas overlap smoothly
+
+00:21:43
+right so the elements of an atlas obviously are the charts right okay all right so so this sort of introduces this important notion of coordinate charts and in particular the compatibility conditions between coordinate charts which form and atlas okay and so the reason again it's like why you want this property that the atlas is the infinity okay it's more or less that you know earlier on we had tried to motivate the idea of using a chart to make sense of say the differentiability of a scalar
+
+00:22:41
+value function on the manifold okay and we did this by saying by definition if you will that this function is differentiable or smooth if the coordinate representative of this is you know it's like differentiable or smooth okay but that is sort of by fiat and you still have to check that this is well defined in the sense that it's independent of the choice of the chart okay and and i'll just say that if you happen to then have a c infinity atlas then this is going to be independent of
+
+00:23:16
+the choice of the chart okay and more or less it's like the way you show this is that um you know it's like you you do what you've done here right you have the two coordinate charts you have a map now from uh you know it's like m it's like two uh to the rails it's like by f or more generally to some you know it's like something else and in fact it could be a map from one manifold to another okay and then so you have um you know it's like you have this map f it's like and then you have the two
+
+00:23:48
+coordinate representatives and then more or less everything still works out so maybe let me just try to draw that out so that you have some idea as to what's going on and and i'm going to drop the uh the domains it's like just because it's a little bit confusing but it should be fairly clear from the context what the domains of definition are okay so so let's say we have you know these two regions again let's call that u alpha u beta to be consistent with the notation we have
+
+00:24:39
+okay and then we also have a map from the manifold by f to reals okay and then there's this sort of coordinate representative there are two coordinate representatives now okay so okay so there is uh a map f composed with phi alpha inverse right so this is the coordinate representative of f respect to phi alpha as your coordinate and then this quadrant representative f respect to phi beta okay and let's say this is c k differentiable right so this is in ck all right and we want to say that if you
+
+00:25:47
+know something is ck here that's also ck here all right and that converse is also true okay so the way you do this is that you know that f composed with phi beta inverse right is just defined to be f composed with phi alpha inverse composed with phi alpha composed of phi beta inverse okay so what it is if you will is that you now have the property that the other coordinate representative right so this is the local coordinate representation f respect to the u alpha or the phi alpha coordinate chart
+
+00:26:34
+and then this is the quadratic representative of f respect to the phi beta coordinate chart right and and so you have these two things right the local representative respect to alpha local representative circuit of beta and then this is the change of coordinates map right so this is a change coordinates map this local representative with respect to beta this local representative with respect to alpha okay so basically the idea is the following right so if you can if you differentiate this it's like
+
+00:27:19
+so the ability to differentiate this is related to the ability to differentiate the local representative respective beta and the ability to differentiate the change of coordinates map okay by the chain rule okay and the point is that if you have a atlas which is c infinity then you can differentiate the change of coordinates map any number of times you want and not have a problem so the only limit to the differentiability it's like of the local representative respect to alpha is the differentiability of the local
+
+00:27:48
+representative with respect to beta and this more or less means that you know the notion of differentiability of a function okay which had previously defined just in terms of local representatives of those functions right is independent of the choice of local representatives so it's independent of the choice of chart which i've used in constructing the local representative so so that's that's consistent and that basically means that you know this notion of the differentiability of
+
+00:28:18
+a function which is uh which has the manifold as a domain is well defined okay you can go further it's like where as i said instead of just having a map from m it's like to the rails you could in principle have a map from m to some other manifold n and then you you can again check that everything still makes sense and the way you do this of course is that you know it's if you have a map from m to n right then they each again have charts [Music] so let's say this is on rd r d so let's say r n for the other one okay
+
+00:29:03
+and then your charts phi alpha phi beta psi alpha psi beta okay and then that defines for you you know the local representatives of those maps right and you can again check that the relationship between a local representative it's like on one hand this is related to this map but you have to you know apply change of coordinates uh maps on both sides okay so uh so that's not so difficult to figure out right because you want if you want to go from uh yeah if you want to go from here to here
+
+00:29:53
+by going around this diagram right then you have to so let's call that g if you will so let's call that g alpha and g beta so this is saying that g beta right is equal to so i'm going to do this first so this is one change of coordinates and then this is g alpha and then there's going to be another change of coordinates okay so this is a change coordinates on m and then this is a change of coordinates uh on the manifold n okay so that's not so surprising and again it's like you
+
+00:30:59
+know by the chain rule sorry by the product rule uh actually well no by the chain rule it's like you can you can show that uh everything is still well defined right okay so um that's uh that's showing you that you know the notion of differentiability of maps between basically now generally manifolds to manifolds is well defined and independent of the choice of coordinates so long as you have seen infinity atlases for each of the manifolds okay all right so so now we can see a little bit more about atlases
+
+00:31:45
+so we say that two atlas is equivalent okay so let's say two analysis a1 and a2 are equivalent right if union a1 union a2 is an atlas and if you recall it's like the uh the property which is relevant here right is that the change of coordinates uh between it's like the charts it's like in each of these atlases is again smooth right okay so all right so so these two are equivalent right if you know the union of these two things is again an endless okay and uh and more or less again that's saying
+
+00:32:46
+that the coordinate charts it's like in each of those two things it's like overlap smoothly with each other ever okay so all right so now given an atlas a all right we let a plus be the set all charts u5 such that a union this chart still an atlas all right so so you should think of this as in some sense the completion of the atlas so if you have an atlas you're going to add all the compatible charts to it okay and um so it is easy to check that a plus is uh still an atlas so also an atlas
+
+00:34:15
+and which we call the maximum this maximal atlas or complete atlas which is generated by a then all right so then what happens is that two atlas is equivalent you can show that two analysis equivalent if the maximal atlas generated by each of them are the same so so if they generate the same maximum atlas and then we refer to such a maximal atlas as a differentiable structure on them so maximal atlas m is a differentiable structure okay and the reason of course why we call it differentiable structure is
+
+00:36:07
+because this allows you to make sense of how differentiable functions define in the manifold mr right so so again it's like to recap what we have so far if you have a set right you want to and you want to talk about the notion of say continuity and differentiability of functions on that first you need a topology to make notion uh to make sense of the notion of continuity of maps okay so once you have that then you can also introduce it's like this notion of charts and atlases okay and the notion of charts and
+
+00:36:40
+atlases then allow you to relate you know differentiability it's like of uh functions and maps it's like on the manifold to the usual notions of differentiability it's like which we are familiar with for vector spaces okay and in order to show that this gives you a well-defined notion you have to have that the charts which you use it's like on this manifold are compatible in the sense that the change of coordinates map is c infinity right and if that's the case then you know
+
+00:37:17
+trying to define the differentiability of a function just in terms of the local representative is independent of the choice of local representative okay so so let me just say briefly that you know oftentimes um that's all one chooses right is um on this manifold is this idea of differentiable structure so so it's possible to define an abstract notion of the manifold it's like by just having a topology and a differentiable structure in practice though it's uh you you want to add a little bit
+
+00:37:55
+more structure to it so so sometimes so manifold sometimes find that's a set with a differentiable structure um but the problem with that is that you can sometimes have some pretty strange topologies right but this can result in sort of rather strange topologies which have implications it's like particularly in the context of you know numerical optimization so in particular these if you just specify the differential structure right you can't exclude you can't guarantee that convergence sequences
+
+00:39:41
+have a single limit point okay which which of course is a big deal because what we want to do basically it's like when we're doing the optimization approach is that we want to have an uh iterative scheme it's like which generates a set of points on the manifold right which is convergent and we want to show that it limits to a well-defined limit which often times is the minimizer you're hoping to achieve okay so so what you want to do then is you want to add some additional sort of structure to
+
+00:40:28
+this so you don't just want a differentiable structure you want what is called a manifold structure so you want so so to avoid this you want that a topology induced by a plus right his house door and second countable okay all right so so let me just sort of briefly say what these things mean so the hausdorff property basically means that there's uh so this implies that the topology satisfies a separation axiom which is to say that that if x and y are in m and x is not equal to y right then there exists
+
+00:42:34
+an open set containing x that does not contain y okay all right so so this uh house door property it's like has the separation axiom and then second countable so it implies that if there is a countable collection say b of open sets um sorry so let me say that um let me rephrase that second countable means that there is a countable collection of v of open sets right such that every open set is the union a sum collection some sub collection of b okay so there's a sense in which the topology is generated it's like by
+
+00:44:20
+this countable collection of open sets okay all right so the reason why these properties are important besides the issue of having unique sort of limit points of convergent sequences is this notion of partitionedness of unity so this is important for the existence of what are known as petitions of unity okay um and and i'll say um how these two things it's like um are related to this notion and then i'll just say in words it's like why partitions are unity are important so essentially what happens is that
+
+00:45:28
+so this is important for existence partition is unity because the existence of such okay okay let's see because it is related by this equivalent to sort of the property of para compactness and a house stuff atlas topology is paracompact give it a second count okay so so the bottom line if you will is that so the reason why we want to have these additional properties that topology used by the atlas is both housed off the second countable is because that implies that you know you have paracompactness
+
+00:47:02
+which then is related or is equivalent to the existence of petitions unity and petitions of unity as the name implies are really just scalar valued functions which have so one way to sort of think about this is that you have if you say have an atlas right then you want to have a collection of scalar value functions with the property that associated each atlas sorry associated each of the charts it's like on the atlas you have you have one of these functions um which which has support which is
+
+00:47:44
+contained within the domain the definition of the atlas okay and and then um so we say that that you know it's like petition unity is then subordinate to this atlas in some sense okay and and then you want the property that when you if you have a point it's like on the manifold right and you look at all the set of atlases so you look at the set of all charts it's like which have that point in the domain of definition and you look at the associated partitions unity and you sum up those
+
+00:48:21
+function values at that point then they sum up to one okay so that's one thing and then the other thing is that so you have this subordinate feature that the supports are contained it's like within the domains of definition you have that you know point wise they sum up to one you also have that they're you know it's like non-negative and that they're smooth okay so all these things together then uh give you the important property um which is sort of the reverse process right
+
+00:48:48
+so so far we've been using you know the atlas and charts to take something which is globally defined say some function on the manifold and then look at a local representative of it okay so what the petitions unity do in some sense then is to reverse the process so now imagine that you have a function which is just you know defined it's like on each of the coordinate charts and you want to patch them together in some nice way and the way you do this is through these partitions of unity so the reverse process of going from
+
+00:49:20
+things which are local to a globally well-defined object on the manifold requires it's like or typically involves it's like these partitions of unity okay so um so that's that's an important tool it's like to have in your arsenal okay and um and in any case right so what happens then is that if you have house stuff and second countable together with the differentiable structure then we call this a manifold structure okay so then the remark is that the differentiable structure
+
+00:50:08
+it generates that sort of induces a second countable hausdorff topology it's called a manifold structure okay all right okay so um yeah so so that's um gives you a quick introduction it's like notions of uh what a manifold is and particularly what a smooth differentiable manifold is okay and we're going to use this as the setting it's like for studying our problem of optimization on manifolds so let me stop here
+

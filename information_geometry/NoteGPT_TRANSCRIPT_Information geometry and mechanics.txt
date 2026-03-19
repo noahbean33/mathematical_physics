@@ -1,0 +1,78 @@
+00:00:01
+all right so now let me briefly describe what i view to be the connections between information geometry and mechanics as well as the connection then with mechanics and an optimization which you should think of as being closely related to learning okay so uh if you recall the last time we alluded to this idea of a divergence function so i will try to be a little bit more explicit about what i mean by a divergence function okay so a divergence function that's denoted by d as a map from two copies of some manifold
+
+00:01:07
+to the non-negative rails on a manifold m right is a twice differentiable function satisfying the following properties okay the first of which is that the divergence function for any pair of points is greater than equal to zero for all x and y and m and equality only holds if x is equal to y right so you have well it's actually an if and only if so equality if and only if x is equal to y so if x goes to y it's like the divergences i got those two points which at the same point is zero and conversely
+
+00:02:11
+if the divergence is zero those two points are the same okay so the second thing is that uh if okay i'm going to introduce some notation d sub i means that i differentiate this divergence function respect to the five component of the first thing so all right and all right so actually let me finish my fault so d i x x which is the partial of d respect to x i at this point x x is equal to zero all right and the same thing is true for comma j all right so comma j is the derivative of d respect to
+
+00:03:03
+the j component of the second variable okay and the point x x is also equal to zero and this is true for all i and j okay all right the third thing is that the mixed partial derivative the negative of the i comma j so what that is is the second derivative of d respect to x i and y j right so again evaluated along the diagonal is positive definite okay and if again it's like you know something about romanian geometry you're going to be thinking that this is the object which is going to give you the induced
+
+00:04:01
+remaining metric and that's indeed the case okay and then finally yeah so that's that's the main thing and as we sort of talked about before divergence functions sort of act like pseudo-distance functions that are not negative well sort of they're not negative as you would expect with a function a distance function but need not be symmetric and if you recall it's like we discussed an example it's like a divergence function in particular the bregman divergence where you would not expect the thing to
+
+00:04:59
+be symmetric okay all right so so those are the axioms it's like which a divergence function satisfies and then the next thing is talk about the differential geometric objects which are induced by this divergence function and you already sort of have a hint as to the first one which is this negative the uh i comma j term evaluated unlike the diagonal that's going to be positive definite and that's again a candidate for a romanian metric and that's going to be indeed the case okay
+
+00:05:50
+so also the geometry induced by divergence functions so a divergence function induces a romanian metric and i wouldn't worry if you haven't seen notions like romanian metrics and things like that before even the notion of a manifold we will discuss this in greater detail as the course progresses the main point is to just give you again a high level overview of you know it's like what are the main players in in this problem and what the connections are so that you have a um sort of conceptual framework on which to
+
+00:06:56
+build your knowledge okay so anyway um anyway so a divergence function induces a remonum metric let's call that g and a pair of torsion-free dual connections let's call him gamma and gamma star and g i j of x is going to be minus the divergence function differentiated with the i component of the first term and the j component the second term evaluated along the diagonal okay and then the connection coefficients for one of them which has a triple of indices i j and k all right it's going to be minus d i j
+
+00:08:07
+k so that means i differentiate it's a triple derivative right with respect to x i x j and y k right and then evaluate it again along the diagonal and as you might expect the dual connection is the one where you differentiate respect to two of the second slot and one at the first slot here i've differentiated two to the first slot one the second slot okay so gamma star i j k of x is minus d i sorry d k comma i j okay and as i said before well that these things are torsion free right so gamma and gamma star are torsion free
+
+00:09:09
+all right and a dual respect to the induced metric which i have here this is the induced metric so in particular what do i mean by that right if this pi and pi star are the associated parallel transports then the inner product between the metric between exact two vectors is going to be equal to the power transport of the first vector respect to the first connection and the respect to the dual connection for the second one right so we had discussed this before all right so um so what happens is that
+
+00:10:27
+it turns out that these things can be thought of as perturbations it's like of the leverage video connection so i will i will state that just briefly and and the reason why i want to introduce this is because i want to introduce an inverse problem in a little bit okay so gamma i j k is going to be equal to gamma 0 i j k and gamma 0 i j k is going to be left beta all right minus one half t i j k this is what's called the skewness tensor okay and then gamma star ijk sorry is going to be the leverage
+
+00:11:29
+connection again right plus one half the skewness tensor okay uh so another way to sort of see it is that the skewness tensor is equal to gamma star i j k minus gamma i j k okay all right all right so the point is that if you had something like this then we can um we can talk about the following inverse problem okay so let me sort of briefly state the inverse problem for you so we know that given a divergence function d right we induce metric g and a pair of dual connections gamma and gamma star
+
+00:12:59
+right so the question is the following if we have a metric g and a pair of dual connections gamma and gamma star can we find d that induced system right so this is sort of the inverse problem we already know one direction the forward problem right given the divergence function i can compute a metric i compute a pair of dual affine connections right if on the other hand i gave you a metric and a pair or fi connections can i find a d which induces those things and so the first statement the first
+
+00:14:03
+observation if you will is that this d is not going to be unique all right so so d is not unique such a d is not unique and we refer to such divergence functions canonical divergences okay so how do you what is one possible way of constructing a canonical divergence okay so this is where i'm going to start connecting things to mechanics so it turns out that one can construct such divergence function the canonical divergence by applying hamilton jacoby terry foreign okay so this lagrangian depends on
+
+00:15:45
+position and velocity and it's given by one half g i j v i v j so this is like a kinetic energy term right as one half m v squared basically right plus 1 12 t i j k q contracted into v i v j v k okay and if you recall it's like the skewness tensor is just the difference between the two connections okay all right so so it turns out that if you applied hamilton jacobi theory to this you get what is called a generating function right so if you do this we get a generating function which turns out to be one of these
+
+00:16:42
+canonical divergences okay so so that's kind of interesting on one hand it's like you're using techniques it's like from lagrangian hamiltonian mechanics right to construct canonical divergence but there is something which is sort of implicit in this which bears repeating right which is that this is a generating function associated with some sort of lagrangian so this naturally raises the following question which is that is there again some deeper connection it's like between divergence
+
+00:17:26
+functions and mechanics right so in particular if you know something about hamilton jacobi theory then you know that these generating functions are generators of the symplectic map which maps some initial state to the current state of the lagrangian and hamiltonian system okay so so that's kind of interesting that you can think of divergence functions now as generating functions of hamiltonian flows okay and so so that's where um the connection to mechanics and in particular discrete mechanics comes into
+
+00:18:10
+play right so what this is saying is that you can think of divergence functions as generating functions of symplectic maps okay and then this in turn has connections with mechanics with discrete mechanics okay but let's just focus on the this idea of generating functions or sympathetic maps for now okay so all right so the basic idea is that if you had this d as a generating function so if d is a generating function so it's going to be actually what is called a type 1 generating function
+
+00:19:27
+okay then i can define a map right let's call that phi from the cotangent bundle of the manifold to itself define implicitly in the following way okay so so let me just put coordinates on this let's say this is q0 p0 position and momentum right q1 p1 okay all right okay so then the map is implicitly defined by these equations so p0 is equal to negative the partial derivative of d respect to x so let me call it q zero sorry q0 this is evaluated in q0 q1 and then p1 is equal to partial respect
+
+00:20:41
+to d uh partial d respect to q1 of q0 q1 okay so this implicitly defines for you a map from q0 p0 to q1 p1 given this generating function d which depends on two copies of the manifold which is exactly what divergence function does all right so you can check that this map is symplectic and it's you know it's like um and then good stuff like that so um so where are we going this so we're going this is following so there's a so there turns out to be an interesting theorem um which states the following
+
+00:21:27
+right so more or less you can ask the following so i guess the previous thing was also a theorem so given the divergence function d right there is an induced romanian metric g right so you can ask the following um okay so that's one thing right and then if we consider one over h of d x y as a generating function well let me call that d q zero q one that's a generating function of the symplectic map all right we can ask well maybe let's not call it a theorem then just sort of um write it in words
+
+00:23:02
+okay so generator function it is a proven result but you know it's like the way we are discussing it is not really set up it's like as a statement of a theorem all right so given the divergence function d there's this induced reminded metric g right so if you consider this one over h d q zero q one as a generating function right is this a good approximation of the time h geodesic flow with respect to g okay all right so again it's like if we had taken this one over hd thing it's like
+
+00:23:52
+to define a map from q0 p0 to q1 p1 you can ask to what extent that is approximating a flow it's like by time h along a geodesic of of this romanian metric g okay and and a geodesic is basically again some sort of generalization of this idea of straight line flows um in in a sort of in a flat space okay all right um so so that's sort of the question it's like which naturally comes out of this and it turns out that it is always consistent so that basically means that if you do take this approach it will give you at
+
+00:24:41
+least a first order accurate approximation so first order at least first order and if d is a bregman divergence and it is second order accurate so what is the take-home message here all right so the take-home message here is that for example we were working official route it's like matrix and kl divergence okay so as we recall the last time kl divergence induces fischer rao as the associated romanian metric so say i wanted to do geodesic flow with respect to fischer rao okay so it turns out that if instead i were
+
+00:25:40
+to think of kl divergence divided by h as a generating function of a sympathetic map and that's going to be a second order accurate at least the second order accurate approximation of the visual route geodesic flow okay so that's kind of interesting that it allows you to connect you know it's like divergence functions and um you know it's like with the geodesics of it and to really think of the divergence functions as defining for you a sympathetic map using this notion of thinking of it as a type 1 generating
+
+00:26:15
+function all right so again that's kind of you know it's like a high level view it's like of where some of the interesting potential connections it's like uh come into play um the other thing it's like which shows up is that there are connections between mechanics and optimization along these lines and taking advantage of divergence functions and i'll describe that in the next lecture so let me just stop here for now
+

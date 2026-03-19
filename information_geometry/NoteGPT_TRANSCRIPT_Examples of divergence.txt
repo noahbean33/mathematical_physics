@@ -1,0 +1,33 @@
+00:00:01
+all right so now let's look at some examples of divergence functions okay so the simplest example is probably the euclidean divergence right so when we have an autonomous cartesian coordinate system on euclidean space right we define our divergence as the following by just half the square of the euclidean distance so the divergence between two points p and q it's like in this uh euclidean space right it's just one half the sum of course c p i minus cos c q i squared right which is sort of the usual euclidean
+
+00:01:48
+distance and then we're taking one half of it sorry the square euclidean distance so the matrix g here is just the identity matrix so that means that the square distance right is just the sum of the c i squared okay so that's that's all fairly straightforward right not very exciting so let's look at perhaps a more interesting example which is the cold black light blur divergence okay so let's say we have p of x and q of x will be two probability distributions right so the kl divergence
+
+00:03:12
+of these two probability distributions is given by the integral of p of x log p of x divided by q of x dx and then when the random variable x is discrete right when x is discrete then the integral gets replaced by a sum okay all right any sort of callback library like virgins yes okay yeah all right so anyway when we have p and q it's like which are two probability distributions on some statistical manifold it's like then this cubic library divergence is given by this expression here right and if again it's like a random
+
+00:04:27
+variable happens to be discrete as opposed to continuous then this integral it's like in the definition gets replaced by a sum okay and you can check that it satisfies the properties of a divergence function it's asymmetric in general so satisfies sort of properties of the divergence so asymmetric in general and it's useful in a bunch of circumstances in sort of statistics information geometry or information theory physics etc okay and then we'll consider other types of divergence functions
+
+00:05:38
+and one remark is that the kl divergence is a example of what is going to be a more general class of divergence functions called bregman divergences which we'll talk about in a little bit okay all right so are for probability distributions it's like you can also look at a set of what are called positive measures and what basically happens what the distinction between the set of positive measures and the set of probability distributions are are that you know it's like you still have the
+
+00:06:08
+property that the probability is uh non-negative it's like every point basically but there's no longer a sort of normalization property which is to say that the sum of the probability vector components or the integral of the probability distribution is known or sorry the integral of the distribution is no longer one right so if you are just looking at positive measures you know it's like the components are non-negative but they don't sum up to one necessarily okay and of course it's like probably
+
+00:06:43
+distributions embedded in the space of positive measures right okay so we can still talk about kl divergence for positive measures okay so so we're going to extend this idea of the kl divergence for property distributions to positive measures so d kl between two measures let's call them m1 and m2 is just given by the following so it's the sum of m one i log m m1 i over m2i all right so here we're doing uh discrete measures all right so you know it's like the random space of random variables is now discrete if you
+
+00:07:56
+will as opposed to continuous right but you'll see that this term is sort of the analog of this term okay but then there are some two additional terms you have to worry about minus the sum of m1i minus the sum of m2i oh sorry plus okay all right so so if now m1 and m2 are both uh probability uh sort of measures right then these sums will sum up to one individually and so they will cancel out and reduce to sort of the discrete version it's like of the kl divergence right so when the total mass
+
+00:08:58
+of the two measures m1 and m2 r1 there are probability distributions and this definition reduces to the definition of kl for probability distributions right okay all right okay so let's look at one more example so i'm going to look at an example of a divergence for positive definite matrices so these are some examples so the p and q is equal to the trace of p log p minus p log q minus p plus q and this is related to the neumann entropy of quantum mechanics so uh and then there's another one
+
+00:11:46
+the p to q which is the trace of p q inverse minus log with the absolute value of p q inverse minus n which is due to the kl divergence of multivariate gaussian distributions and then there are other examples it's like which i won't go into all right um all right so so those are some possible examples of divergence functions for different classes of spaces all right and then the next thing which we'll talk about is this idea of the bregman divergences which are associated with certain convex functions
+
+00:12:53
+and again the reason for studying fragment divergences is because the kl divergence which plays an important role in many applications is a special case it's like over bregman divergence all right so let me just stop here for now
+
